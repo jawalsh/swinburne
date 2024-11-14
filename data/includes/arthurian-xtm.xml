@@ -1,0 +1,673 @@
+<?xml-model href="../../schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Contextual Information</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Published by John Walsh</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Originally an XML Topic Map produced by John Walsh.</p>
+            <p>Migrated from XTM to TEI by xtm-to-p5.xsl stylesheet by Conal Tuohy.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="arthurianCharactersAndThemes"/>
+               <category xml:id="tm-topic">
+                  <gloss>© Copyright 2005 John A. Walsh</gloss>
+                  <gloss>2005-06-09</gloss>
+                  <gloss>Topic map on Arthurian legend, including legendary figures, places, and events.</gloss>
+               </category>
+               <category xml:id="legendaryFigure">
+                  <gloss>A figure from the various legends and folklore of the world, including Arthurian legend.</gloss>
+               </category>
+               <category xml:id="geographicFeature">
+                  <gloss>A geographic feature, such as the Ohio River, the North Sea, or Mont Blanc.</gloss>
+               </category>
+               <category xml:id="place">
+                  <gloss>A place, location.</gloss>
+               </category>
+               <category xml:id="arthurianFigure">
+                  <gloss>A figure from Arthurian legend.</gloss>
+               </category>
+               <category xml:id="encyclopediaMythica" ana="occurrenceTypes.xtm#digitalReferenceResource">
+                  <gloss>Lindemans, Micha, ed. Encyclopedia Mythica. 17 August 2004. Encycopedia Mythica. 27 August 2004. &lt;https://pantheon.org/&gt;.</gloss>
+                  <gloss/>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>People</head>
+            <listPerson xml:id="persons">
+               <person xml:id="accolon" corresp="#accolon" ana="#arthurianFigure">
+                  <persName>Accolon</persName>
+                  <ptr target="https://pantheon.org/articles/a/accolon.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="agravain" corresp="#agravain" ana="#arthurianFigure">
+                  <persName>Agravain</persName>
+                  <ptr target="https://pantheon.org/articles/a/agravain.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="agrestes" corresp="#agrestes" ana="#arthurianFigure">
+                  <persName>Agrestes</persName>
+                  <ptr target="https://pantheon.org/articles/a/agrestes.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="alain" corresp="#alain" ana="#arthurianFigure">
+                  <persName>Alain</persName>
+                  <ptr target="https://pantheon.org/articles/a/alain.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="ambrosiusAurelianus" corresp="#ambrosiusAurelianus" ana="#arthurianFigure">
+                  <persName>Ambrosius Aurelianus</persName>
+                  <ptr target="https://pantheon.org/articles/a/ambrosius_aurelianus.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="amr" corresp="#amr" ana="#arthurianFigure">
+                  <persName>Amr</persName>
+                  <ptr target="https://pantheon.org/articles/a/amr.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="andret" corresp="#andret" ana="#arthurianFigure">
+                  <persName>Andret</persName>
+                  <ptr target="https://pantheon.org/articles/a/andret.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="aneirin" corresp="#aneirin" ana="people.xtm#poet">
+                  <persName>Aneirin</persName>
+                  <note>
+				Early Welsh poet who mentions Arthur in his work. 
+			</note>
+                  <ptr target="https://pantheon.org/articles/a/aneirin.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="anfortas" corresp="#anfortas" ana="#arthurianFigure">
+                  <persName>Anfortas</persName>
+                  <ptr target="https://pantheon.org/articles/a/anfortas.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="anguish" corresp="#anguish" ana="#arthurianFigure">
+                  <persName>Anguish</persName>
+                  <ptr target="https://pantheon.org/articles/a/anguish.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="anna" corresp="#anna" ana="#arthurianFigure">
+                  <persName>Anna</persName>
+                  <ptr target="https://pantheon.org/articles/a/anna2.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="annalesCambriae" corresp="#annalesCambriae" ana="#arthurianFigure">
+                  <persName>Annales Cambriae</persName>
+                  <ptr target="https://pantheon.org/articles/a/annales_cambriae.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="argante" corresp="#argante" ana="#arthurianFigure">
+                  <persName>Argante</persName>
+                  <ptr target="https://pantheon.org/articles/a/argante.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="aries" corresp="#aries" ana="#arthurianFigure">
+                  <persName>Aries</persName>
+                  <ptr target="https://pantheon.org/articles/a/aries.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="arondight" corresp="#arondight" ana="#arthurianFigure">
+                  <persName>Arondight</persName>
+                  <ptr target="https://pantheon.org/articles/a/arondight.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="arthur" corresp="#arthur" ana="#arthurianFigure">
+                  <persName>Arthur</persName>
+                  <ptr target="https://pantheon.org/articles/a/arthur.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="aureliusAmbrosius" corresp="#aureliusAmbrosius" ana="#arthurianFigure">
+                  <persName>Aurelius Ambrosius</persName>
+                  <ptr target="https://pantheon.org/articles/a/aurelius_ambrosius.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="badon" corresp="#badon" ana="#arthurianFigure">
+                  <persName>Badon</persName>
+                  <ptr target="https://pantheon.org/articles/b/badon.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="balan" corresp="#balan" ana="#arthurianFigure">
+                  <persName>Balan</persName>
+                  <ptr target="https://pantheon.org/articles/b/balan_2.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="balin" corresp="#balin" ana="#arthurianFigure">
+                  <persName>Balin</persName>
+                  <ptr target="https://pantheon.org/articles/b/balin_2.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="banKing" corresp="#banKing" ana="#arthurianFigure">
+                  <persName>Ban, King</persName>
+                  <ptr target="https://pantheon.org/articles/b/ban.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="baraton" corresp="#baraton" ana="#arthurianFigure">
+                  <persName>Baraton</persName>
+                  <ptr target="https://pantheon.org/articles/b/baraton.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="bassas" corresp="#bassas" ana="#arthurianFigure">
+                  <persName>Bassas</persName>
+                  <ptr target="https://pantheon.org/articles/b/bassas.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="bedivereSir" corresp="#bedivereSir" ana="#arthurianFigure">
+                  <persName>Bedivere, Sir</persName>
+                  <ptr target="https://pantheon.org/articles/b/bedivere.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="bercilak" corresp="#bercilak" ana="#arthurianFigure">
+                  <persName>Bercilak</persName>
+                  <ptr target="https://pantheon.org/articles/b/bercilak.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="besteGlatissant" corresp="#besteGlatissant" ana="#arthurianFigure">
+                  <persName>Beste Glatissant</persName>
+                  <ptr target="https://pantheon.org/articles/b/beste_glatissant.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="blaise" corresp="#blaise" ana="#arthurianFigure">
+                  <persName>Blaise</persName>
+                  <ptr target="https://pantheon.org/articles/b/blaise.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="bleedingLance" corresp="#bleedingLance" ana="#arthurianFigure">
+                  <persName>Bleeding Lance</persName>
+                  <ptr target="https://pantheon.org/articles/b/bleeding_lance.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="bors" corresp="#bors" ana="#arthurianFigure">
+                  <persName>Bors</persName>
+                  <ptr target="https://pantheon.org/articles/b/bors.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="bran" corresp="#bran" ana="#arthurianFigure">
+                  <persName>Bran</persName>
+                  <ptr target="https://pantheon.org/articles/b/bran2.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="brangaene" corresp="#brangaene" ana="#arthurianFigure">
+                  <persName>Brangaene</persName>
+                  <ptr target="https://pantheon.org/articles/b/brangaene.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="bron" corresp="#bron" ana="#arthurianFigure">
+                  <persName>Bron</persName>
+                  <ptr target="https://pantheon.org/articles/b/bron.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="broéliande" corresp="#broéliande" ana="#arthurianFigure">
+                  <persName>Broéliande</persName>
+                  <ptr target="https://pantheon.org/articles/b/broceliande.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="brutus" corresp="#brutus" ana="#arthurianFigure">
+                  <persName>Brutus</persName>
+                  <ptr target="https://pantheon.org/articles/b/brutus.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="buelt" corresp="#buelt" ana="#arthurianFigure">
+                  <persName>Buelt</persName>
+                  <ptr target="https://pantheon.org/articles/b/buelt.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="cabal" corresp="#cabal" ana="#arthurianFigure">
+                  <persName>Cabal</persName>
+                  <ptr target="https://pantheon.org/articles/c/cabal.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="cadbury" corresp="#cadbury" ana="#arthurianFigure">
+                  <persName>Cadbury</persName>
+                  <ptr target="https://pantheon.org/articles/c/cadbury.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="cadoc" corresp="#cadoc" ana="#arthurianFigure">
+                  <persName>Cadoc</persName>
+                  <ptr target="https://pantheon.org/articles/c/cadoc.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="cadwy" corresp="#cadwy" ana="#arthurianFigure">
+                  <persName>Cadwy</persName>
+                  <ptr target="https://pantheon.org/articles/c/cadwy.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="caerleon" corresp="#caerleon" ana="#arthurianFigure">
+                  <persName>Caerleon</persName>
+                  <ptr target="https://pantheon.org/articles/c/caerleon.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="caledonianWood" corresp="#caledonianWood" ana="#arthurianFigure">
+                  <persName>Caledonian Wood</persName>
+                  <ptr target="https://pantheon.org/articles/c/caledonian_wood.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="caliburn" corresp="#caliburn" ana="#arthurianFigure">
+                  <persName>Caliburn</persName>
+                  <ptr target="https://pantheon.org/articles/c/caliburn.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="camel" corresp="#camel" ana="#arthurianFigure">
+                  <persName>Camel</persName>
+                  <ptr target="https://pantheon.org/articles/c/camel.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="camlann" corresp="#camlann" ana="#arthurianFigure">
+                  <persName>Camlann</persName>
+                  <ptr target="https://pantheon.org/articles/c/camlann.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="caradoc" corresp="#caradoc" ana="#arthurianFigure">
+                  <persName>Caradoc</persName>
+                  <ptr target="https://pantheon.org/articles/c/caradoc.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="carduel" corresp="#carduel" ana="#arthurianFigure">
+                  <persName>Carduel</persName>
+                  <ptr target="https://pantheon.org/articles/c/carduel.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="carlisle" corresp="#carlisle" ana="#arthurianFigure">
+                  <persName>Carlisle</persName>
+                  <ptr target="https://pantheon.org/articles/c/carlisle.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="carmarthen" corresp="#carmarthen" ana="#arthurianFigure">
+                  <persName>Carmarthen</persName>
+                  <ptr target="https://pantheon.org/articles/c/carmarthen.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="carranog" corresp="#carranog" ana="#arthurianFigure">
+                  <persName>Carranog</persName>
+                  <ptr target="https://pantheon.org/articles/c/carranog.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="castleTerabil" corresp="#castleTerabil" ana="#arthurianFigure">
+                  <persName>Castle Terabil</persName>
+                  <ptr target="https://pantheon.org/articles/c/castle_terabil.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="castleOfMaidens" corresp="#castleOfMaidens" ana="#arthurianFigure">
+                  <persName>Castle of Maidens</persName>
+                  <ptr target="https://pantheon.org/articles/c/castle_of_maidens.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="celidon" corresp="#celidon" ana="#arthurianFigure">
+                  <persName>Celidon</persName>
+                  <ptr target="https://pantheon.org/articles/c/celidon.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="chester" corresp="#chester" ana="#arthurianFigure">
+                  <persName>Chester</persName>
+                  <ptr target="https://pantheon.org/articles/c/chester.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="cityOfTheLegion" corresp="#cityOfTheLegion" ana="#arthurianFigure">
+                  <persName>City of the Legion</persName>
+                  <ptr target="https://pantheon.org/articles/c/city_of_the_legion.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="clarissant" corresp="#clarissant" ana="#arthurianFigure">
+                  <persName>Clarissant</persName>
+                  <ptr target="https://pantheon.org/articles/c/clarissant.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="claudas" corresp="#claudas" ana="#arthurianFigure">
+                  <persName>Claudas</persName>
+                  <ptr target="https://pantheon.org/articles/c/claudas.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="cligés" corresp="#cligés" ana="#arthurianFigure">
+                  <persName>Cligés</persName>
+                  <ptr target="https://pantheon.org/articles/c/cliges.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="corbenic" corresp="#corbenic" ana="#arthurianFigure">
+                  <persName>Corbenic</persName>
+                  <ptr target="https://pantheon.org/articles/c/corbenic.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="culhwch" corresp="#culhwch" ana="#arthurianFigure">
+                  <persName>Culhwch</persName>
+                  <ptr target="https://pantheon.org/articles/c/culhwch.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="dagonetSir" corresp="#dagonetSir" ana="#arthurianFigure">
+                  <persName>Dagonet, Sir</persName>
+                  <ptr target="https://pantheon.org/articles/d/dagonet.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="damas" corresp="#damas" ana="#arthurianFigure">
+                  <persName>Damas</persName>
+                  <ptr target="https://pantheon.org/articles/d/damas.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="daniel" corresp="#daniel" ana="#arthurianFigure">
+                  <persName>Daniel</persName>
+                  <ptr target="https://pantheon.org/articles/d/daniel.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="dinadan" corresp="#dinadan" ana="#arthurianFigure">
+                  <persName>Dinadan</persName>
+                  <ptr target="https://pantheon.org/articles/d/dinadan.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="dioneta" corresp="#dioneta" ana="#arthurianFigure">
+                  <persName>Dioneta</persName>
+                  <ptr target="https://pantheon.org/articles/d/dioneta.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="dolorousGard" corresp="#dolorousGard" ana="#arthurianFigure">
+                  <persName>Dolorous Gard</persName>
+                  <ptr target="https://pantheon.org/articles/d/dolorous_gard.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="dolorousStroke" corresp="#dolorousStroke" ana="#arthurianFigure">
+                  <persName>Dolorous Stroke</persName>
+                  <ptr target="https://pantheon.org/articles/d/dolorous_stroke.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="douglas" corresp="#douglas" ana="#arthurianFigure">
+                  <persName>Douglas</persName>
+                  <ptr target="https://pantheon.org/articles/d/douglas.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="ectorSir" corresp="#ectorSir" ana="#arthurianFigure">
+                  <persName>Ector, Sir</persName>
+                  <ptr target="https://pantheon.org/articles/e/ector.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="ehangwen" corresp="#ehangwen" ana="#arthurianFigure">
+                  <persName>Ehangwen</persName>
+                  <ptr target="https://pantheon.org/articles/e/ehangwen.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="elergia" corresp="#elergia" ana="#arthurianFigure">
+                  <persName>Elergia</persName>
+                  <ptr target="https://pantheon.org/articles/e/elergia.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="elyzabel" corresp="#elyzabel" ana="#arthurianFigure">
+                  <persName>Elyzabel</persName>
+                  <ptr target="https://pantheon.org/articles/e/elyzabel.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="emmeline" corresp="#emmeline" ana="#arthurianFigure">
+                  <persName>Emmeline</persName>
+                  <ptr target="https://pantheon.org/articles/e/emmeline.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="ermeleus" corresp="#ermeleus" ana="#arthurianFigure">
+                  <persName>Ermeleus</persName>
+                  <ptr target="https://pantheon.org/articles/e/ermeleus.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="escol" corresp="#escol" ana="#arthurianFigure">
+                  <persName>Escol</persName>
+                  <ptr target="https://pantheon.org/articles/e/escol.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="eustace" corresp="#eustace" ana="#arthurianFigure">
+                  <persName>Eustace</persName>
+                  <ptr target="https://pantheon.org/articles/e/eustace.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="evalac" corresp="#evalac" ana="#arthurianFigure">
+                  <persName>Evalac</persName>
+                  <ptr target="https://pantheon.org/articles/e/evalac.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="excalibur" corresp="#excalibur" ana="#arthurianFigure">
+                  <persName>Excalibur</persName>
+                  <ptr target="https://pantheon.org/articles/e/excalibur.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="fergus" corresp="#fergus" ana="#arthurianFigure">
+                  <persName>Fergus</persName>
+                  <ptr target="https://pantheon.org/articles/f/fergus2.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="fish-Knight" corresp="#fish-Knight" ana="#arthurianFigure">
+                  <persName>Fish-Knight</persName>
+                  <ptr target="https://pantheon.org/articles/f/fish-knight.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="fisherKing" corresp="#fisherKing" ana="#arthurianFigure">
+                  <persName>Fisher King</persName>
+                  <ptr target="https://pantheon.org/articles/f/fisher_king.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="gaheris" corresp="#gaheris" ana="#arthurianFigure">
+                  <persName>Gaheris</persName>
+                  <ptr target="https://pantheon.org/articles/g/gaheris.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="galahad" corresp="#galahad" ana="#arthurianFigure">
+                  <persName>Galahad</persName>
+                  <ptr target="https://pantheon.org/articles/g/galahad.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="galehaut" corresp="#galehaut" ana="#arthurianFigure">
+                  <persName>Galehaut</persName>
+                  <ptr target="https://pantheon.org/articles/g/galahaut.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="ganieda" corresp="#ganieda" ana="#arthurianFigure">
+                  <persName>Ganieda</persName>
+                  <ptr target="https://pantheon.org/articles/g/ganieda.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="gawain" corresp="#gawain" ana="#arthurianFigure">
+                  <persName>Gawain</persName>
+                  <ptr target="https://pantheon.org/articles/g/gawain.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="geneir" corresp="#geneir" ana="#arthurianFigure">
+                  <persName>Geneir</persName>
+                  <ptr target="https://pantheon.org/articles/g/geneir.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="geoffreyOfMonmouth" corresp="#geoffreyOfMonmouth" ana="#arthurianFigure">
+                  <persName>Geoffrey of Monmouth</persName>
+                  <ptr target="https://pantheon.org/articles/g/geoffrey_of_monmouth.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="geraint" corresp="#geraint" ana="#arthurianFigure">
+                  <persName>Geraint</persName>
+                  <ptr target="https://pantheon.org/articles/g/geraint.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="gereth" corresp="#gereth" ana="#arthurianFigure">
+                  <persName>Gereth</persName>
+                  <ptr target="https://pantheon.org/articles/g/gereth.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="gildas" corresp="#gildas" ana="#arthurianFigure">
+                  <persName>Gildas</persName>
+                  <ptr target="https://pantheon.org/articles/g/gildas.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="girflet" corresp="#girflet" ana="#arthurianFigure">
+                  <persName>Girflet</persName>
+                  <ptr target="https://pantheon.org/articles/g/girflet.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="gorlois" corresp="#gorlois" ana="#arthurianFigure">
+                  <persName>Gorlois</persName>
+                  <ptr target="https://pantheon.org/articles/g/gorlois.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="grail" corresp="#grail" ana="#arthurianFigure">
+                  <persName>Grail</persName>
+                  <ptr target="https://pantheon.org/articles/g/grail.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="greenKnight" corresp="#greenKnight" ana="#arthurianFigure">
+                  <persName>Green Knight, The</persName>
+                  <ptr target="https://pantheon.org/articles/g/green_knight.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="guinevere" corresp="#guinevere" ana="#arthurianFigure">
+                  <persName>Guinevere</persName>
+                  <ptr target="https://pantheon.org/articles/g/guinevere.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="gwalchmei" corresp="#gwalchmei" ana="#arthurianFigure">
+                  <persName>Gwalchmei</persName>
+                  <ptr target="https://pantheon.org/articles/g/gwalchmei.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="harleyBrut" corresp="#harleyBrut" ana="#arthurianFigure">
+                  <persName>Harley Brut</persName>
+                  <ptr target="https://pantheon.org/articles/h/harley_brut.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="hectorSir" corresp="#hectorSir" ana="#arthurianFigure">
+                  <persName>Hector, Sir</persName>
+                  <ptr target="https://pantheon.org/articles/h/hector2.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="igraine" corresp="#igraine" ana="#arthurianFigure">
+                  <persName>Igraine</persName>
+                  <ptr target="https://pantheon.org/articles/i/igraine.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="isolde" corresp="#isolde" ana="#arthurianFigure">
+                  <persName>Isolde</persName>
+                  <ptr target="https://pantheon.org/articles/i/isolde.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="isolde" corresp="#isolde" ana="#arthurianFigure">
+                  <persName>Isolde</persName>
+                  <ptr target="https://pantheon.org/articles/i/isolde2.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="josephOfArimathea" corresp="#josephOfArimathea" ana="#arthurianFigure">
+                  <persName>Joseph of Arimathea</persName>
+                  <ptr target="https://pantheon.org/articles/j/joseph_of_arimathea.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="joyousGard" corresp="#joyousGard" ana="#arthurianFigure">
+                  <persName>Joyous Gard</persName>
+                  <ptr target="https://pantheon.org/articles/j/joyous_gard.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="kaySir" corresp="#kaySir" ana="#arthurianFigure">
+                  <persName>Kay, Sir</persName>
+                  <ptr target="https://pantheon.org/articles/k/kay.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="knightsOfTheRoundTable" corresp="#knightsOfTheRoundTable" ana="#arthurianFigure">
+                  <persName>Knights of the Round Table</persName>
+                  <ptr target="https://pantheon.org/articles/k/knights_of_the_round_table.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="ladyOfTheLake" corresp="#ladyOfTheLake" ana="#arthurianFigure">
+                  <persName>Lady of the Lake</persName>
+                  <ptr target="https://pantheon.org/articles/l/lady_of_the_lake.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="lamorakDeGalis" corresp="#lamorakDeGalis" ana="#arthurianFigure">
+                  <persName>Lamorak de Galis</persName>
+                  <ptr target="https://pantheon.org/articles/l/lamorak_de_galis.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="lancelot" corresp="#lancelot" ana="#arthurianFigure">
+                  <persName>Lancelot</persName>
+                  <ptr target="https://pantheon.org/articles/l/lancelot.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="launfalSir" corresp="#launfalSir" ana="#arthurianFigure">
+                  <persName>Launfal, Sir</persName>
+                  <ptr target="https://pantheon.org/articles/l/launfal.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="leodegrance" corresp="#leodegrance" ana="#arthurianFigure">
+                  <persName>Leodegrance</persName>
+                  <ptr target="https://pantheon.org/articles/l/leodegrance.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="logres" corresp="#logres" ana="#arthurianFigure">
+                  <persName>Logres</persName>
+                  <ptr target="https://pantheon.org/articles/l/logres.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="lohengrin" corresp="#lohengrin" ana="#arthurianFigure">
+                  <persName>Lohengrin</persName>
+                  <ptr target="https://pantheon.org/articles/l/lohengrin.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="lothian" corresp="#lothian" ana="#arthurianFigure">
+                  <persName>Lothian</persName>
+                  <ptr target="https://pantheon.org/articles/l/lothian.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="merlin" corresp="#merlin" ana="#arthurianFigure">
+                  <persName>Merlin</persName>
+                  <ptr target="https://pantheon.org/articles/m/merlin.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="mordred" corresp="#mordred" ana="#arthurianFigure">
+                  <persName>Mordred</persName>
+                  <ptr target="https://pantheon.org/articles/m/mordred.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="morganLeFay" corresp="#morganLeFay" ana="#arthurianFigure">
+                  <persName>Morgan le Fay</persName>
+                  <ptr target="https://pantheon.org/articles/m/morgan_le_fay.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="morgause" corresp="#morgause" ana="#arthurianFigure">
+                  <persName>Morgause</persName>
+                  <ptr target="https://pantheon.org/articles/m/morgause.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="morgueLeFaye" corresp="#morgueLeFaye" ana="#arthurianFigure">
+                  <persName>Morgue le Faye</persName>
+                  <ptr target="https://pantheon.org/articles/m/morgue_le_faye.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="nennius" corresp="#nennius" ana="#arthurianFigure">
+                  <persName>Nennius</persName>
+                  <ptr target="https://pantheon.org/articles/n/nennius.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="nimue" corresp="#nimue" ana="#arthurianFigure">
+                  <persName>Nimue</persName>
+                  <ptr target="https://pantheon.org/articles/n/nimue.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="owain" corresp="#owain" ana="#arthurianFigure">
+                  <persName>Owain</persName>
+                  <ptr target="https://pantheon.org/articles/o/owain.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="pellam" corresp="#pellam" ana="#arthurianFigure">
+                  <persName>Pellam</persName>
+                  <ptr target="https://pantheon.org/articles/p/pellam.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="pelleasSir" corresp="#pelleasSir" ana="#arthurianFigure">
+                  <persName>Pelleas, Sir</persName>
+                  <ptr target="https://pantheon.org/articles/p/pelleas.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="pelles" corresp="#pelles" ana="#arthurianFigure">
+                  <persName>Pelles</persName>
+                  <ptr target="https://pantheon.org/articles/p/pelles.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="pellinore" corresp="#pellinore" ana="#arthurianFigure">
+                  <persName>Pellinore</persName>
+                  <ptr target="https://pantheon.org/articles/p/pellinore.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="percivalSir" corresp="#percivalSir" ana="#arthurianFigure">
+                  <persName>Percival, Sir</persName>
+                  <ptr target="https://pantheon.org/articles/p/percival.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="pharamond" corresp="#pharamond" ana="#arthurianFigure">
+                  <persName>Pharamond</persName>
+                  <ptr target="https://pantheon.org/articles/p/pharamond.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="questingBeast" corresp="#questingBeast" ana="#arthurianFigure">
+                  <persName>Questing Beast</persName>
+                  <ptr target="https://pantheon.org/articles/q/questing_beast.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="roundTable" corresp="#roundTable" ana="#arthurianFigure">
+                  <persName>Round Table, The</persName>
+                  <ptr target="https://pantheon.org/articles/r/round_table.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="ryons" corresp="#ryons" ana="#arthurianFigure">
+                  <persName>Ryons</persName>
+                  <ptr target="https://pantheon.org/articles/r/ryons.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="sagremor" corresp="#sagremor" ana="#arthurianFigure">
+                  <persName>Sagremor</persName>
+                  <ptr target="https://pantheon.org/articles/s/sagremor.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="sarras" corresp="#sarras" ana="#arthurianFigure">
+                  <persName>Sarras</persName>
+                  <ptr target="https://pantheon.org/articles/s/sarras.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="ladyOfShalott" corresp="#ladyOfShalott" ana="#arthurianFigure">
+                  <persName>Shalott, The Lady of</persName>
+                  <ptr target="https://pantheon.org/articles/s/shalott.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="siegePerilous" corresp="#siegePerilous" ana="#arthurianFigure">
+                  <persName>Siege Perilous</persName>
+                  <ptr target="https://pantheon.org/articles/s/siege_perilous.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="spoilsOfAnnwfn" corresp="#spoilsOfAnnwfn" ana="#arthurianFigure">
+                  <persName>Spoils of Annwfn</persName>
+                  <ptr target="https://pantheon.org/articles/s/spoils_of_annwfn.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="tintagel" corresp="#tintagel" ana="#arthurianFigure">
+                  <persName>Tintagel</persName>
+                  <ptr target="https://pantheon.org/articles/t/tintagel.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="tomThumb" corresp="#tomThumb" ana="#arthurianFigure">
+                  <persName>Tom Thumb</persName>
+                  <ptr target="https://pantheon.org/articles/t/tom_thumb.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="tristan" corresp="#tristan" ana="#arthurianFigure">
+                  <persName>Tristan</persName>
+                  <ptr target="https://pantheon.org/articles/t/tristan.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="utherPendragon" corresp="#utherPendragon" ana="#arthurianFigure">
+                  <persName>Uther Pendragon</persName>
+                  <ptr target="https://pantheon.org/articles/u/uther_pendragon.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="valSansRetour" corresp="#valSansRetour" ana="#arthurianFigure">
+                  <persName>Val Sans Retour</persName>
+                  <ptr target="https://pantheon.org/articles/v/val_sans_retour.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="waleweinEndeKeye" corresp="#waleweinEndeKeye" ana="#arthurianFigure">
+                  <persName>Walewein ende Keye</persName>
+                  <ptr target="https://pantheon.org/articles/w/walewein_ende_keye.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+               <person xml:id="yvain" corresp="#yvain" ana="#arthurianFigure">
+                  <persName>Yvain</persName>
+                  <ptr target="https://pantheon.org/articles/y/yvain.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+            </listPerson>
+         </div>
+         <div>
+            <head>Places</head>
+            <listPlace xml:id="places">
+               <place xml:id="agned" corresp="#agned" ana="#geographicFeature">
+                  <geogName>Agned</geogName>
+                  <note>
+				A mountain, the site of Arthur's eleventh victory over the Saxons. 
+			</note>
+                  <ptr target="https://pantheon.org/articles/a/agned.html" ana="occurrenceTypes.xtm#article"/>
+               </place>
+               <place xml:id="amesbury" corresp="#amesbury" ana="#place">
+                  <placeName>Amesbury</placeName>
+                  <ptr target="https://pantheon.org/articles/a/amesbury.html" ana="occurrenceTypes.xtm#article"/>
+               </place>
+               <place xml:id="avalon" corresp="#avalon" ana="#place">
+                  <placeName>Avalon</placeName>
+                  <ptr target="https://pantheon.org/articles/a/avalon.html" ana="occurrenceTypes.xtm#article"/>
+               </place>
+               <place xml:id="camelot" corresp="#camelot" ana="#place">
+                  <placeName>Camelot</placeName>
+                  <ptr target="https://pantheon.org/articles/c/camelot.html" ana="occurrenceTypes.xtm#article"/>
+               </place>
+            </listPlace>
+         </div>
+      </body>
+      <back>
+         <div xml:id="residue">
+            <head>Residue of TopicMap conversion</head>
+            <topic xmlns="http://www.topicmaps.org/xtm/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" id="arthurianLegend-tm-topic">
+               <subjectIdentity>
+                  <subjectIndicatorRef xlink:href="#arthurianLegend-tm"/>
+               </subjectIdentity>
+               <baseName>
+                  <baseNameString>
+				Arthurian Legend Topic Map 
+			</baseNameString>
+               </baseName>
+            </topic>
+            <topic xmlns="http://www.topicmaps.org/xtm/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" id="english">
+               <subjectIdentity>
+                  <subjectIndicatorRef xlink:href="lang.xtm#english"/>
+               </subjectIdentity>
+               <baseName>
+                  <baseNameString>
+				English 
+			</baseNameString>
+               </baseName>
+            </topic>
+         </div>
+      </back>
+   </text>
+</TEI>
