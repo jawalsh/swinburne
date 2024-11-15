@@ -20,10 +20,13 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 			<meta name="description" content="The Algernon Charles Swinburne Project: A Scholarly Edition"/>
 			<meta name="author" content="John A. Walsh"/>
+			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+			<!--
 			<xsl:comment>Customized Bootstrap core CSS</xsl:comment>
 			<link href="/css/swinburne-bs.css" rel="stylesheet"/>
 			<xsl:comment>Local CSS</xsl:comment>
 			<link href="/css/swinburne-local.css" rel="stylesheet"/>
+			-->
 		</xsl:copy>
 	</xsl:template>
 	
@@ -128,6 +131,7 @@
 				Copyright © 1997-2021  by <a class="text-light" href="mailto:jawalsh@indiana.edu">John A. Walsh</a>
 			</div>
 		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 	</xsl:template>
 	
 	<!-- add wrapper div elements for bootstrap-based layout -->
