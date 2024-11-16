@@ -24,6 +24,9 @@
   <!-- Within ${toDir.base}, individually generated static site files will be 
     written to the ${context} directory. -->
   <property name="toDir.static" value="${toDir.base}${file.separator}${context}"/>
+  <property name="toDir.tmpP5" value="${toDir.base}${file.separator}${file.separator}tmpP5"/>
+  
+  
   
 
   <!-- Check for the XML Resolver Java class, as it is a dependency for using the 
@@ -122,6 +125,42 @@ is loaded when Ant starts up. Please run Ant again like this:
       </factory>
     </xslt>
   </target>
+  
+  <target name="processTEI">
+    <xslt destdir="${toDir.tmpP5}"
+      basedir="tei"
+      includes="*.xml"
+      excludes="glossary.xml"
+      style="common${file.separator}xslt${file.separator}p5-to-html.xsl"
+      classpath="${processor.location}">
+      <!-- To prevent Ant/Saxon from hitting the W3C servers too hard with requests 
+        for the XHTML DTD, we use a catalog entry to map the ID to the local copy of 
+        the DTD. -->
+      <xmlcatalog>
+        <dtd publicId="-//W3C//DTD XHTML 1.0 Strict//EN"
+          location="${toDir.base}${file.separator}xhtml1-strict.dtd"/>
+      </xmlcatalog>
+      <factory name="${processor.name}"/>
+      <param name="assets-path" expression="..${file.separator}"/>
+      <param name="context" expression="swinburne"/>
+    </xslt>
+    <xslt destdir="${toDir.static}"
+      basedir="${toDir.tmpP5}"
+      includes="*.html"
+      style="common${file.separator}xslt${file.separator}add-site-navigation.xsl"
+      classpath="${processor.location}">
+      <!-- To prevent Ant/Saxon from hitting the W3C servers too hard with requests 
+        for the XHTML DTD, we use a catalog entry to map the ID to the local copy of 
+        the DTD. -->
+      <xmlcatalog>
+        <dtd publicId="-//W3C//DTD XHTML 1.0 Strict//EN"
+          location="${toDir.base}${file.separator}xhtml1-strict.dtd"/>
+      </xmlcatalog>
+      <factory name="${processor.name}"/>
+      <param name="assets-path" expression="..${file.separator}"/>
+      <param name="context" expression="swinburne"/>
+    </xslt>
+  </target>
     
 
   <!-- Generate a static version of the Swinburne Project website. -->
@@ -159,24 +198,10 @@ is loaded when Ant starts up. Please run Ant again like this:
          dest="${toDir.base}" skipexisting="true"/>
     <get src="https://www.w3.org/TR/xhtml1/DTD/xhtml-special.ent"
          dest="${toDir.base}" skipexisting="true"/>
+    
+    <antcall target="processTEI"/>
     <!-- Add headers and footers to static pages. -->
-    <xslt destdir="${toDir.static}"
-          basedir="data"
-          includes="*.xml"
-          excludes="glossary.xml"
-          style="common${file.separator}xslt${file.separator}p5-to-html.xsl"
-          classpath="${processor.location}">
-      <!-- To prevent Ant/Saxon from hitting the W3C servers too hard with requests 
-        for the XHTML DTD, we use a catalog entry to map the ID to the local copy of 
-        the DTD. -->
-      <xmlcatalog>
-        <dtd publicId="-//W3C//DTD XHTML 1.0 Strict//EN"
-             location="${toDir.base}${file.separator}xhtml1-strict.dtd"/>
-      </xmlcatalog>
-      <factory name="${processor.name}"/>
-      <param name="assets-path" expression="..${file.separator}"/>
-      <param name="context" expression="swinburne"/>
-    </xslt>
+    
     
     <!-- Process static HTML pages -->
     <!--
