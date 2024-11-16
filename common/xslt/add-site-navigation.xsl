@@ -7,7 +7,7 @@
 	 expand-text="true">
 	<!-- embed the page in global navigation -->
 	<xsl:param name="current-uri"/>
-	<xsl:variable name="menus" select="json-to-xml(unparsed-text('../menus.json'))"/>
+	<xsl:variable name="menus" select="json-to-xml(unparsed-text('../data/menus.json'))"/>
 	
 	<xsl:mode on-no-match="shallow-copy"/>
 	
