@@ -8,6 +8,9 @@
 	<!-- transform a TEI document into an HTML page-->
 	<!--<xsl:import href="render-metadata.xsl"/>-->
 	<xsl:param name="google-api-key"/>
+	<xsl:param name="server" select="'biblicon.org'"/>
+	<xsl:param name="site-dir" select="'acs'"/>
+	<xsl:param name="doc-id" select="/TEI/@xml:id"/>
 	
 	<xsl:key name="char-by-ref" match="char[@xml:id]" use="concat('#', @xml:id)"/>
 	
@@ -148,6 +151,10 @@
 	<xsl:variable name="introduction" select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/note[@type='introduction']"/>
 	
 	<xsl:template match="teiHeader">
+		<xsl:param name="html-link">
+			<xsl:value-of select="concat('https://',$server,'/',$site-dir,'/html/',$doc-id,'.html')"/>
+		</xsl:param>
+
 		<div class="tei-teiHeader">
 			<xsl:apply-templates select="fileDesc/sourceDesc/msDesc/msContents/msItem/author" />
 			<xsl:apply-templates select="fileDesc/sourceDesc/msDesc/msContents/msItem/title" />
@@ -196,27 +203,21 @@
 					<xsl:apply-templates select="fileDesc/titleStmt/respStmt" />
 					<div>
 						<h2>Preferred Citation:</h2>
-						<xsl:for-each select="fileDesc/sourceDesc/msDesc/msContents/msItem/author">
+						<xsl:for-each select="fileDesc/titleStmt/author/persName">
 							<xsl:value-of select="concat(., '. ')"/>
 						</xsl:for-each>
-						<xsl:value-of select="
-							concat(
-								'&quot;',
-								fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno[@type='collection'],
-								'&#160;',
-								fileDesc/sourceDesc/msDesc/msIdentifier/idno,
-								'&quot;.'
-							)
-						"/>
-						<em>The Chymistry of Isaac Newton</em>
+						<xsl:value-of select="concat(normalize-space(fileDesc/titleStmt/title),'.')"/>
+						<cite>The Algernon Charles Swinburne Project</cite>
 						<xsl:text>.  Ed. </xsl:text>
-						<xsl:value-of select="titleStmt/respStmt/name[@type='editor']"/>
+						<xsl:value-of select="fileDesc/titleStmt/editor/persName"/>
 						<xsl:text>&#160;</xsl:text>
 						<xsl:value-of select="fileDesc/publicationStmt/date"/>
 						<xsl:text>. Retrieved </xsl:text>
 						<xsl:value-of select="format-dateTime($now, '[MNn] [D], [Y]', 'en', (),() )"/>
-						<xsl:text> from: http://purl.dlib.indiana.edu/iudl/newton/</xsl:text>
-						<xsl:value-of select="//altIdentifier/idno[@type='iunp']"/>
+						<xsl:text> from: </xsl:text>
+						<a href="{$html-link}">
+							<xsl:value-of select="$html-link"/>
+						</a>
 					</div>
 				</div>
 			</details>
