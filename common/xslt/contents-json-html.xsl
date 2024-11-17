@@ -1,21 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-xmlns:xs="http://www.w3.org/2001/XMLSchema"
-version="3.0"
-xmlns:fn="http://www.w3.org/2005/xpath-functions"
-xpath-default-namespace="http://www.tei-c.org/ns/1.0">
+<xsl:stylesheet 
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+    xmlns:fn="http://www.w3.org/2005/xpath-functions" 
+    version="3.0">
 
-<xsl:template match="/TEI"/>
+    <xsl:output method="html" indent="yes"/>
 
-<xsl:param name="input" select="'../../contents.json'"/>
-
-<xsl:template name="xsl:initial-template">
-<xsl:apply-templates select="json-doc($input)"/>
-</xsl:template>
-
-<xsl:template match="//map[@key='volume']">
-	<xsl:value-of select="string[@key='title']"/>
-</xsl:template>
-
-
+    <!-- Initial Template -->
+    <xsl:template name="xsl:initial-template">
+        <html>
+            <head>
+                <title>Volume and Work Titles</title>
+            </head>
+            <body>
+                <h1>Volume and Work Titles</h1>
+                <ul>
+                    <!-- Convert JSON to XML -->
+                    <xsl:variable name="json-xml" select="fn:json-to-xml(fn:unparsed-text('../../contents.json'))"/>
+                    
+                    <!-- Iterate over the root array -->
+                    <xsl:for-each select="$json-xml/fn:array/fn:map">
+                        <li>
+                            <!-- Extract the volume title -->
+                            <xsl:value-of select="fn:map[@key='volume']/fn:string[@key='title']"/>
+                            <ul>
+                                <!-- Iterate over works if they exist -->
+                                <xsl:for-each select="fn:map[@key='volume']/fn:array[@key='works']/fn:map">
+                                    <li>
+                                        <!-- Extract the work title -->
+                                        <xsl:value-of select="fn:map[@key='work']/fn:string[@key='title']"/>
+                                    </li>
+                                </xsl:for-each>
+                            </ul>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </body>
+        </html>
+    </xsl:template>
 </xsl:stylesheet>
