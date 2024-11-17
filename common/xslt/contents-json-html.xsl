@@ -19,6 +19,8 @@
                     
                     <!-- Iterate over the root array -->
                     <xsl:for-each select="$json-xml/fn:array/fn:map">
+			    <xsl:choose>
+				    <xsl:when test="fn:map[@key='volume']/fn:array[@key='works']/fn:map">
                         <li>
                             <!-- Extract the volume title -->
                             <xsl:value-of select="fn:map[@key='volume']/fn:string[@key='title']"/>
@@ -32,6 +34,14 @@
                                 </xsl:for-each>
                             </ul>
                         </li>
+		</xsl:when>
+		<xsl:otherwise>
+			<li>
+				<!-- Extract the volume title -->
+				<xsl:value-of select="fn:map[@key='volume']/fn:string[@key='title']"/> <xsl:value-of select="': NO CHILD WORKS!'"/>
+			</li>
+		</xsl:otherwise>
+	</xsl:choose>
                     </xsl:for-each>
                 </ul>
             </body>
