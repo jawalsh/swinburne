@@ -7,9 +7,12 @@
 	xpath-default-namespace="http://www.tei-c.org/ns/1.0">
 	<!-- transform a TEI document into an HTML page-->
 	<!--<xsl:import href="render-metadata.xsl"/>-->
+	<xsl:import href="config.xsl"/>
+	<!--
 	<xsl:param name="google-api-key"/>
 	<xsl:param name="server" select="'biblicon.org'"/>
 	<xsl:param name="site-dir" select="'acs'"/>
+	-->
 	<xsl:param name="doc-id" select="/TEI/@xml:id"/>
 	
 	<xsl:key name="char-by-ref" match="char[@xml:id]" use="concat('#', @xml:id)"/>
