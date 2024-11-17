@@ -24,7 +24,7 @@
   <!-- Within ${toDir.base}, individually generated static site files will be 
     written to the ${context} directory. -->
   <property name="toDir.static" value="${toDir.base}${file.separator}${context}"/>
-  <property name="toDir.tmpP5" value="${toDir.base}${file.separator}${file.separator}tmpP5"/>
+  <property name="toDir.tmpHTML" value="${toDir.base}${file.separator}${file.separator}tmpHTML"/>
   
   
   
@@ -126,8 +126,8 @@ is loaded when Ant starts up. Please run Ant again like this:
     </xslt>
   </target>
   
-  <target name="processTEI">
-    <xslt destdir="${toDir.tmpP5}"
+  <target name="processContents">
+    <xslt destdir="${toDir.tmpHTML}"
       basedir="tei"
       includes="*.xml"
       excludes="glossary.xml"
@@ -145,7 +145,42 @@ is loaded when Ant starts up. Please run Ant again like this:
       <param name="context" expression="swinburne"/>
     </xslt>
     <xslt destdir="${toDir.static}${file.separator}/html"
-      basedir="${toDir.tmpP5}"
+      basedir="${toDir.tmpHTML}"
+      includes="*.html"
+      style="common${file.separator}xslt${file.separator}add-site-navigation.xsl"
+      classpath="${processor.location}">
+      <!-- To prevent Ant/Saxon from hitting the W3C servers too hard with requests 
+        for the XHTML DTD, we use a catalog entry to map the ID to the local copy of 
+        the DTD. -->
+      <xmlcatalog>
+        <dtd publicId="-//W3C//DTD XHTML 1.0 Strict//EN"
+          location="${toDir.base}${file.separator}xhtml1-strict.dtd"/>
+      </xmlcatalog>
+      <factory name="${processor.name}"/>
+      <param name="assets-path" expression="..${file.separator}"/>
+      <param name="context" expression="swinburne"/>
+    </xslt>
+  
+  <target name="processTEI">
+    <xslt destdir="${toDir.tmpHTML}"
+      basedir="tei"
+      includes="*.xml"
+      excludes="glossary.xml"
+      style="common${file.separator}xslt${file.separator}p5-to-html.xsl"
+      classpath="${processor.location}">
+      <!-- To prevent Ant/Saxon from hitting the W3C servers too hard with requests 
+        for the XHTML DTD, we use a catalog entry to map the ID to the local copy of 
+        the DTD. -->
+      <xmlcatalog>
+        <dtd publicId="-//W3C//DTD XHTML 1.0 Strict//EN"
+          location="${toDir.base}${file.separator}xhtml1-strict.dtd"/>
+      </xmlcatalog>
+      <factory name="${processor.name}"/>
+      <param name="assets-path" expression="..${file.separator}"/>
+      <param name="context" expression="swinburne"/>
+    </xslt>
+    <xslt destdir="${toDir.static}${file.separator}/html"
+      basedir="${toDir.tmpHTML}"
       includes="*.html"
       style="common${file.separator}xslt${file.separator}add-site-navigation.xsl"
       classpath="${processor.location}">
