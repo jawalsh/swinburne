@@ -2,7 +2,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
     xmlns:fn="http://www.w3.org/2005/xpath-functions" 
     version="3.0">
-
+    <xsl:import href="config.xsl"/>
     <xsl:output method="html" indent="yes"/>
 
     <!-- Initial Template -->
@@ -29,7 +29,16 @@
                                 <xsl:for-each select="fn:map[@key='volume']/fn:array[@key='works']/fn:map">
                                     <li>
                                         <!-- Extract the work title -->
+					<a>
+						<xsl:attribute name="href">
+							<xsl:call-template name="generateURL">
+								<xsl:with-param name="docID" select="fn:map[@key='work']/fn:string[@key='id']"/>
+								<xsl:with-param name="parent-dir" select="'html'"/>
+							</xsl:call-template>
+						</xsl:attribute>
+
                                         <xsl:value-of select="fn:map[@key='work']/fn:string[@key='title']"/>
+				</a>
                                     </li>
                                 </xsl:for-each>
                             </ul>
@@ -37,8 +46,17 @@
 		</xsl:when>
 		<xsl:otherwise>
 			<li>
+				<a>
+					<xsl:attribute name="href">
+						<xsl:call-template name="generateURL">
+
+							<xsl:with-param name="docID" select="fn:map[@key='volume']/fn:string[@key='id']"/>
+							<xsl:with-param name="parent-dir" select="'html'"/>
+						</xsl:call-template>
+					</xsl:attribute>
 				<!-- Extract the volume title -->
-				<xsl:value-of select="fn:map[@key='volume']/fn:string[@key='title']"/> <xsl:value-of select="': NO CHILD WORKS!'"/>
+				<xsl:value-of select="fn:map[@key='volume']/fn:string[@key='title']"/>
+			</a>
 			</li>
 		</xsl:otherwise>
 	</xsl:choose>
@@ -46,5 +64,10 @@
                 </ul>
             </body>
         </html>
+    </xsl:template>
+    <xsl:template name="generateURL">
+	<xsl:param name="docID"/>
+	<xsl:param name="parent-dir"/>
+	<xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$parent-dir,'/',$docID,'.html')"/>
     </xsl:template>
 </xsl:stylesheet>
