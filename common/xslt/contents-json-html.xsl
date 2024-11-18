@@ -15,7 +15,7 @@
                 <h1>Volume and Work Titles</h1>
                 <ul>
                     <!-- Convert JSON to XML -->
-                    <xsl:variable name="json-xml" select="fn:json-to-xml(fn:unparsed-text('../../contents.json'))"/>
+                    <xsl:variable name="json-xml" select="fn:json-to-xml(fn:unparsed-text('../data/contents.json'))"/>
                     
                     <!-- Iterate over the root array -->
                     <xsl:for-each select="$json-xml/fn:array/fn:map">
