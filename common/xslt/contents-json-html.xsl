@@ -35,7 +35,6 @@
 						<xsl:attribute name="href">
 							<xsl:call-template name="generateURL">
 								<xsl:with-param name="docID" select="fn:map[@key='work']/fn:string[@key='id']"/>
-								<xsl:with-param name="parent-dir" select="'html'"/>
 							</xsl:call-template>
 						</xsl:attribute>
 
@@ -53,7 +52,6 @@
 						<xsl:call-template name="generateURL">
 
 							<xsl:with-param name="docID" select="fn:map[@key='volume']/fn:string[@key='id']"/>
-							<xsl:with-param name="parent-dir" select="'html'"/>
 						</xsl:call-template>
 					</xsl:attribute>
 				<!-- Extract the volume title -->
@@ -69,7 +67,6 @@
     </xsl:template>
     <xsl:template name="generateURL">
 	<xsl:param name="docID"/>
-	<xsl:param name="parent-dir"/>
-	<xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$parent-dir,'/',$docID,'.html')"/>
+	<xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$docID,'.html')"/>
     </xsl:template>
 </xsl:stylesheet>
