@@ -191,7 +191,7 @@ is loaded when Ant starts up. Please run Ant again like this:
     
 
   <!-- Generate a static version of the Swinburne Project website. -->
-  <target name="generateSite" depends="checkXmlResolver"
+  <target name="generateSite" depends="checkXmlResolver, processTEI, processContents, addNavigation"
      description="Generate a full static copy of Swinburne Project intended for the Swinburne Project server. This is NOT a standalone copy.">
     <mkdir dir="${toDir.static}"/>
     <!-- Use the Ant build file created in "generateIssues" to copy articles' 
@@ -225,10 +225,7 @@ is loaded when Ant starts up. Please run Ant again like this:
          dest="${toDir.base}" skipexisting="true"/>
     <get src="https://www.w3.org/TR/xhtml1/DTD/xhtml-special.ent"
          dest="${toDir.base}" skipexisting="true"/>
-    
-    <antcall target="processTEI"/>
-    <!-- Add headers and footers to static pages. -->
-    
+
     
     <!-- Process static HTML pages -->
     <!--
