@@ -115,7 +115,7 @@ is loaded when Ant starts up. Please run Ant again like this:
   </target>
   
   <target name="processStaticHTML">
-    <xslt destdir="${toDir.static}"
+    <xslt destdir="${toDir.tmpHTML}"
       basedir="html"
       includes="*.xml"
       style="common${file.separator}xslt${file.separator}processHTML.xsl"
@@ -171,7 +171,7 @@ is loaded when Ant starts up. Please run Ant again like this:
   </target>
   
   <target name="addNavigation" >
-	  <xslt destdir="${toDir.static}${file.separator}/html"
+    <xslt destdir="${toDir.static}"
       basedir="${toDir.tmpHTML}"
       includes="*.html"
       style="common${file.separator}xslt${file.separator}add-site-navigation.xsl"
@@ -185,13 +185,13 @@ is loaded when Ant starts up. Please run Ant again like this:
       </xmlcatalog>
       <factory name="${processor.name}"/>
       <param name="assets-path" expression="..${file.separator}"/>
-      <param name="context" expression="swinburne"/>
+      <param name="context" expression="${context}"/>
     </xslt>
 </target>
     
 
   <!-- Generate a static version of the Swinburne Project website. -->
-  <target name="generateSite" depends="checkXmlResolver, processTEI, processContents, addNavigation"
+  <target name="generateSite" depends="checkXmlResolver, processStaticHTML, processTEI, processContents, addNavigation"
      description="Generate a full static copy of Swinburne Project intended for the Swinburne Project server. This is NOT a standalone copy.">
     <mkdir dir="${toDir.static}"/>
     <!-- Use the Ant build file created in "generateIssues" to copy articles' 
