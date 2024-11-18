@@ -1,4 +1,4 @@
-<project xmlns:if="ant:if" xmlns:unless="ant:unless" 
+<project xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:if="ant:if" xmlns:unless="ant:unless" 
    name="swinburne-static"
    default="previewArticle">
   
@@ -20,6 +20,7 @@
     directory which will hold the directory of generated static site files, as well 
     as the full compressed site and derived Ant build file. -->
   <property name="toDir.base" value="..${file.separator}${toDir}"/>
+  <property name="dummy.input" value="common/xslt/dummy.xml" />
   
   <!-- Within ${toDir.base}, individually generated static site files will be 
     written to the ${context} directory. -->
@@ -127,8 +128,9 @@ is loaded when Ant starts up. Please run Ant again like this:
   </target>
   
   <target name="processContents">
-    <xslt destdir="${toDir.tmpHTML}"
-      basedir="."
+	  <xslt 
+      in="common/xslt/dummy.xml"
+      out="${toDir.tmpHTML}/contents.html"
       style="common${file.separator}xslt${file.separator}contents-json-html.xsl"
       classpath="${processor.location}">
       <!-- To prevent Ant/Saxon from hitting the W3C servers too hard with requests 
@@ -139,10 +141,12 @@ is loaded when Ant starts up. Please run Ant again like this:
           location="${toDir.base}${file.separator}xhtml1-strict.dtd"/>
       </xmlcatalog>
       <factory name="${processor.name}">
-		  <attribute name="http://saxon.sf.net/feature/initialTemplate"/>
+		  <attribute name="http://saxon.sf.net/feature/initialTemplate" value="{http://www.w3.org/1999/XSL/Transform}initial-template"/>
 	  </factory>
+	  <!--
       <param name="assets-path" expression="..${file.separator}"/>
       <param name="context" expression="swinburne"/>
+	  -->
     </xslt>
   </target>
   
@@ -166,7 +170,7 @@ is loaded when Ant starts up. Please run Ant again like this:
     </xslt>
   </target>
   
-  <target name="addNavigation" depends="processTEI processContents">
+  <target name="addNavigation" >
 	  <xslt destdir="${toDir.static}${file.separator}/html"
       basedir="${toDir.tmpHTML}"
       includes="*.html"
