@@ -3,7 +3,7 @@
     xmlns:fn="http://www.w3.org/2005/xpath-functions" 
     version="3.0">
     <xsl:import href="config.xsl"/>
-    <xsl:output method="html" indent="yes"/>
+    <xsl:output method="xhtml" indent="yes"/>
 
     <!-- Initial Template -->
     <xsl:template name="xsl:initial-template">
