@@ -7,6 +7,7 @@
 	 expand-text="true">
 	<!-- embed the page in global navigation -->
 	<xsl:param name="current-uri"/>
+	<xsl:param name="context"/>
 	<xsl:variable name="menus" select="json-to-xml(unparsed-text('../data/menus.json'))"/>
 	
 	<xsl:mode on-no-match="shallow-copy"/>
@@ -108,7 +109,7 @@
 		</ul>
 	</xsl:template>
 	<xsl:template match="fn:string" mode="main-menu">
-		<li class="nav-item"><a class="nav-link" href="{.}"><xsl:value-of select="@key"/></a></li>
+		<li class="nav-item"><a class="nav-link" href="{concat('/',$context,.)}"><xsl:value-of select="@key"/></a></li>
 	</xsl:template>
 	<xsl:template match="fn:map[ancestor::fn:map]/fn:string" mode="main-menu">
 		<a class="dropdown-item" href="{.}"><xsl:value-of select="@key"/></a>
