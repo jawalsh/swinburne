@@ -13,6 +13,8 @@
 	<xsl:param name="server" select="'biblicon.org'"/>
 	<xsl:param name="site-dir" select="'acs'"/>
 	-->
+	<xsl:key name="rendition-by-id" match="teiHeader/encodingDesc/tagsDecl/rendition" use="@xml:id"/>
+	<xsl:key name="rendition-by-selector" match="teiHeader/encodingDesc/tagsDecl/rendition" use="@selector"/>
 	<xsl:param name="doc-id" select="/TEI/@xml:id"/>
 	
 	<xsl:key name="char-by-ref" match="char[@xml:id]" use="concat('#', @xml:id)"/>
@@ -33,49 +35,37 @@
 					<!--				<link href="{$embedded-manifest-uri}" rel="alternate" type="application/ld+json" title="iiif-manifest"/> -->
 				<!-- output the rendition elements as CSS rules -->
 				<!-- TODO move CSS validation into schematron rules -->
-				<style type="text/css">
-					<xsl:value-of select="
-						let 
-							$properties-regex:='^\s*[^:\s]+\s*:[^;]+(;\s?[^:\s]+\s*:[^;]+)*', (: i.e. 'property:value; property-2: value; ...' :)
-							$css-comment-regex:='/\*.*?\*/' (: i.e. /* this is a comment */ :)
-						return string-join(
-							for $rendition in teiHeader/encodingDesc/tagsDecl/rendition
-								[not(@scheme!='css')] (: rendition specifies CSS, explicitly or implicitly :)
-							return 
-								let 
-									$properties:=normalize-space(string-join(tokenize($rendition, $css-comment-regex))),
-									$selector-for-elements-which-individually-reference-this-rendition:=concat('.rendition-', $rendition/@xml:id), (: e.g. '.rendition-bold' :)
-									$rendition-reference:=concat('#', $rendition/@xml:id), (: URI a tagUsage/@rendition might use to refer to this rendition, e.g. '#bold' :)
-									$selectors-for-elements-having-this-rendition-as-their-default:= (: e.g. '.tei-head', '.tei-docTitle' :)
-										for $element-name in 
-											teiHeader/encodingDesc/tagsDecl/namespace[@name='http://www.tei-c.org/ns/1.0']/
-												tagUsage[contains-token(@rendition, $rendition-reference)]/@gi
-										return
-											concat('.tei-', $element-name),
-									$scoped-selectors:= (: appends CSS pseudo-element classes e.g. ':before' to selectors, where specified in rendition/@scope  :)
-										for $individual-selector in 
-											($selector-for-elements-which-individually-reference-this-rendition, $selectors-for-elements-having-this-rendition-as-their-default)
-										return
-											string-join(($individual-selector, $rendition/@scope), ':'),
-									$composite-selector:=string-join($scoped-selectors, ', ') (: e.g. '.rendition-bold', '.tei-head', '.tei-docTitle' :)								
-								return concat(
-									$composite-selector,
-									' {', codepoints-to-string(10),
-									if (matches($properties, '[{}]') or not(matches($properties, $properties-regex))) then (: rules containing media queries not allowed :)
-										'   /* invalid CSS */'
-									else 
-										string-join(
-											for $property in tokenize($properties, ';')[normalize-space()] 
-											return concat('   ', $property, ';'), 
-											codepoints-to-string(10)
-										),
-									codepoints-to-string(10),
-									'}'
-								),							
-							codepoints-to-string((10, 10))
-						)
-					"/>
-				</style>
+    <style type="text/css">
+        <xsl:for-each select="teiHeader/encodingDesc/tagsDecl/rendition">
+            <xsl:variable name="id" select="@xml:id"/>
+            <xsl:variable name="selector" select="@selector"/>
+            <xsl:variable name="css-properties" select="normalize-space(.)"/>
+
+            <!-- Process @xml:id -->
+            <xsl:if test="$id">
+                <xsl:text>.rendition-</xsl:text>
+                <xsl:value-of select="$id"/>
+                <xsl:text> {</xsl:text>
+                <xsl:call-template name="process-css-properties">
+                    <xsl:with-param name="properties" select="$css-properties"/>
+                </xsl:call-template>
+                <xsl:text>}</xsl:text>
+            </xsl:if>
+
+            <!-- Process @selector -->
+            <xsl:if test="$selector">
+                <xsl:for-each select="tokenize($selector, ',\s*')">
+                    <xsl:text>.tei-</xsl:text>
+                    <xsl:value-of select="normalize-space(.)"/>
+                    <xsl:text> {</xsl:text>
+                    <xsl:call-template name="process-css-properties">
+                        <xsl:with-param name="properties" select="$css-properties"/>
+                    </xsl:call-template>
+                    <xsl:text>}</xsl:text>
+                </xsl:for-each>
+            </xsl:if>
+        </xsl:for-each>
+    </style>
 			</head>
 			<body class="tei">
 				<div class="tei">
@@ -90,6 +80,25 @@
 			</body>
 		</html>
 	</xsl:template>
+
+<xsl:template name="process-css-properties">
+    <xsl:param name="properties"/>
+    <xsl:choose>
+        <xsl:when test="matches($properties, '^\s*[^:]+:\s*[^;]+;\s*(?:[^:]+:\s*[^;]+;\s*)*$')">
+            <xsl:for-each select="tokenize($properties, ';')">
+                <xsl:variable name="property" select="normalize-space(.)"/>
+                <xsl:if test="$property">
+                    <xsl:text>    </xsl:text>
+                    <xsl:value-of select="$property"/>
+                    <xsl:text>;</xsl:text>
+                </xsl:if>
+            </xsl:for-each>
+        </xsl:when>
+        <xsl:otherwise>
+            <xsl:text>    /* invalid CSS */</xsl:text>
+        </xsl:otherwise>
+    </xsl:choose>
+</xsl:template>
 	
 	<xsl:template mode="toc" match="sourceDesc[@n='table-of-contents']">
 		<div id="toc">
