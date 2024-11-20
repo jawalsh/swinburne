@@ -6,4 +6,11 @@ $primary: #75070C;
 // Import Bootstrap's SCSS
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+.text-wrapper-shrink-to-fit {
+  text-align: center;
+  font-size: calc(5vw + 1em); /* Add spaces around "+" */
+  line-height: 1.2; /* Optional for better readability */
+  overflow-wrap: break-word; /* Ensure text wraps */
+}
+
 
