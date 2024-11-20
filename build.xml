@@ -213,9 +213,11 @@ is loaded when Ant starts up. Please run Ant again like this:
     
 
   <!-- Generate a static version of the Swinburne Project website. -->
-  <target name="generateSite" depends="checkXmlResolver, processStaticHTML, processTEI, processContents, addNavigation"
+  <target name="generateSite" depends="checkXmlResolver, processStaticHTML, processTEI, processContents, addNavigation, build-css"
      description="Generate a full static copy of Swinburne Project intended for the Swinburne Project server. This is NOT a standalone copy.">
     <mkdir dir="${toDir.static}"/>
+    <mkdir dir="${toDir.static}/js"/>
+    <mkdir dir="${toDir.static}/css"/>
     <!-- Use the Ant build file created in "generateIssues" to copy articles' 
       resources to the right static directories. -->
     <!-- Copy specific files in the base directory. -->
@@ -233,6 +235,11 @@ is loaded when Ant starts up. Please run Ant again like this:
     -->
     <copy todir="${toDir.static}/css">
       <fileset dir="css"/>
+    </copy>
+    <copy todir="${toDir.static}/js">
+	    <fileset dir="node_modules/bootstrap/dist/js">
+        	<include name="bootstrap.bundle.min.js"/>
+	</fileset>
     </copy>
     <copy todir="${toDir.static}">
       <fileset dir=".">
@@ -346,5 +353,13 @@ is loaded when Ant starts up. Please run Ant again like this:
       </fileset>
     </zip>
   </target>
+
+    <!-- Target to execute npm run build-css -->
+    <target name="build-css">
+        <exec executable="npm">
+            <arg value="run"/>
+            <arg value="build-css"/>
+        </exec>
+    </target>
   
 </project>
