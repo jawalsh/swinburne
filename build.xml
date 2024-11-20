@@ -25,7 +25,9 @@
   <!-- Within ${toDir.base}, individually generated static site files will be 
     written to the ${context} directory. -->
   <property name="toDir.static" value="${toDir.base}${file.separator}${context}"/>
-  <property name="toDir.tmpHTML" value="${toDir.base}${file.separator}${file.separator}tmpHTML"/>
+  <property name="toDir.tmpHTML" value="${toDir.base}${file.separator}tmpHTML"/>
+  <property name="toDir.tmpTEI" value="${toDir.base}${file.separator}tmpTEI"/>
+
   
   
   
@@ -149,27 +151,47 @@ is loaded when Ant starts up. Please run Ant again like this:
 	  -->
     </xslt>
   </target>
-  
-  <target name="processTEI">
+
+<target name="processTEI" depends="processXIncludes">
+    <!-- Step 1: Create output directory for HTML files -->
+    <echo message="Processing TEI to HTML transformation." />
+    <mkdir dir="${toDir.tmpHTML}" />
+
+    <!-- Step 2: Perform XSLT transformation on preprocessed files -->
     <xslt destdir="${toDir.tmpHTML}"
-      basedir="tei"
-      includes="*.xml"
-      excludes="glossary.xml"
-      style="common${file.separator}xslt${file.separator}p5-to-html.xsl"
-      classpath="${processor.location}">
-      <!-- To prevent Ant/Saxon from hitting the W3C servers too hard with requests 
-        for the XHTML DTD, we use a catalog entry to map the ID to the local copy of 
-        the DTD. -->
-      <xmlcatalog>
-        <dtd publicId="-//W3C//DTD XHTML 1.0 Strict//EN"
-          location="${toDir.base}${file.separator}xhtml1-strict.dtd"/>
-      </xmlcatalog>
-      <factory name="${processor.name}"/>
-      <param name="assets-path" expression="..${file.separator}"/>
-      <param name="context" expression="swinburne"/>
+          basedir="${toDir.tmpTEI}"
+          includes="*.xml"
+          style="common${file.separator}xslt${file.separator}p5-to-html.xsl"
+          classpath="${processor.location}">
+        <!-- Map the XHTML DTD to a local copy -->
+        <xmlcatalog>
+            <dtd publicId="-//W3C//DTD XHTML 1.0 Strict//EN"
+                 location="${toDir.base}${file.separator}xhtml1-strict.dtd"/>
+        </xmlcatalog>
+        <param name="assets-path" expression="..${file.separator}"/>
+        <param name="context" expression="swinburne"/>
     </xslt>
-  </target>
-  
+
+    <!-- Step 3: Log completion -->
+    <echo message="TEI to HTML transformation completed. Output in ${toDir.tmpHTML}" />
+</target>
+
+<target name="processXIncludes">
+    <!-- Step 1: Create output directory for files with expanded XIncludes -->
+    <echo message="Processing XIncludes." />
+    <mkdir dir="${toDir.tmpTEI}" />
+
+    <!-- Step 2: Process files using xmllint with a compatible shell -->
+    <exec executable="bash">
+        <arg value="-c" />
+        <arg value="for file in tei/*.xml; do xmllint --xinclude --noent --dropdtd $file -o ${toDir.tmpTEI}/$(basename $file); done" />
+    </exec>
+
+    <!-- Step 3: Log completion -->
+    <echo message="XInclude processing completed for files in ${dir.data}" />
+</target>
+
+
   <target name="addNavigation" >
     <xslt destdir="${toDir.static}"
       basedir="${toDir.tmpHTML}"
