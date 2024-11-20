@@ -19,5 +19,12 @@
   "homepage": "https://github.com/jawalsh/swinburne-static#readme",
   "dependencies": {
     "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "sass": "^1.81.0"
+  },
+  "scripts": {
+  "build-css": "sass sass/custom.scss css/custom.css",
+  "watch-css": "sass --watch sass/custom.scss css/custom.css"
   }
 }
