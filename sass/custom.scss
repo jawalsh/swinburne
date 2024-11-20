@@ -1,1 +1,9 @@
+$font-family-base: 'Cambria','Georgia','Times New Roman',serif;
+$font-size-base: 1.2rem;
+// Define your custom primary color
+$primary: #75070C; 
+
+// Import Bootstrap's SCSS
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+
