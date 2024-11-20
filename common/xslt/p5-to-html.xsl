@@ -179,6 +179,8 @@
 					<xsl:apply-templates select="profileDesc/langUsage"/>
 					<xsl:apply-templates select="fileDesc/sourceDesc/msDesc/history" />
 					<!-- identifiers -->
+					<!-- keep msIdentifier code for when I publish MSS. -->
+					<!--
 					<xsl:variable name="msIdentifier" select="fileDesc/sourceDesc/msDesc/msIdentifier"/>
 					<div>
 						<h2 class="inline">Physical Location:</h2>
@@ -200,8 +202,15 @@
 							'&#160;'
 						)"/>
 					</div>
+					-->
 					<div>
-						<h2 class="inline">Electronic Publication:</h2>
+						<xsl:variable name="base-text" select="//biblStruct[@xml:id = concat(/TEI/@xml:id,'-bibl')]"/>
+						<h4>Source description</h4>
+						The text below is based on that found in:
+						
+						<xsl:value-of select="string-join($base-text/analytic/author/persName,'.')"/>	
+
+						<!--
 						<xsl:value-of select="concat(
 							$msIdentifier/altIdentifier/idno[@type='collection'], 
 							'&#160;', 
@@ -211,10 +220,11 @@
 						<xsl:for-each select="fileDesc/publicationStmt">
 							<xsl:value-of select="concat('Published ', date, ', ', publisher, '&#160;', pubPlace, '.')"/>
 						</xsl:for-each>
+						-->
 					</div>
 					<xsl:apply-templates select="fileDesc/titleStmt/respStmt" />
 					<div>
-						<h2>Preferred Citation:</h2>
+						<h4>Preferred Citation:</h4>
 						<xsl:for-each select="fileDesc/titleStmt/author/persName">
 							<xsl:value-of select="concat(., '. ')"/>
 						</xsl:for-each>
