@@ -231,6 +231,9 @@ is loaded when Ant starts up. Please run Ant again like this:
       <fileset dir="dist" excludes=""/>
     </copy>
     -->
+    <copy todir="${toDir.static}/css">
+      <fileset dir="css"/>
+    </copy>
     <copy todir="${toDir.static}">
       <fileset dir=".">
         <include name="*.html"/>
