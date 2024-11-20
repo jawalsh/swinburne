@@ -6,7 +6,7 @@
 	<body class="d-flex flex-column h-100">
 		<main role="main" class="flex-shrink-0">
 			<div class="container">
-				<div id="splash" class="text-center w-75 h-50 mx-auto align-items-center">
+				<div id="splash" class="py-2 text-center w-75 h-50 mx-auto align-items-center">
 					<h1>The <br />
 						<span class="text-primary">Algernon Charles Swinburne</span><br /> Project </h1>
 
