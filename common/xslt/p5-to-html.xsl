@@ -164,7 +164,7 @@
 	
 	<xsl:template match="teiHeader">
 		<xsl:param name="html-link">
-			<xsl:value-of select="concat('https://',$server,'/',$site-dir,'/html/',$doc-id,'.html')"/>
+			<xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$doc-id,'.html')"/>
 		</xsl:param>
 
 		<div class="tei-teiHeader">
