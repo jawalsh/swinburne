@@ -21,13 +21,8 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 			<meta name="description" content="The Algernon Charles Swinburne Project: A Scholarly Edition"/>
 			<meta name="author" content="John A. Walsh"/>
+			<!-- link to customized bootstrap css -->
 			<link rel="stylesheet" href="css/custom.min.css"/>
-			<!--
-			<xsl:comment>Customized Bootstrap core CSS</xsl:comment>
-			<link href="/css/swinburne-bs.css" rel="stylesheet"/>
-			<xsl:comment>Local CSS</xsl:comment>
-			<link href="/css/swinburne-local.css" rel="stylesheet"/>
-			-->
 		</xsl:copy>
 	</xsl:template>
 	
@@ -49,7 +44,7 @@
 			<!-- menus read from menus.json -->
 			<nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-dark">
 				<div class="container-fluid">
-				<a class="navbar-brand" href="/">ACS</a>
+					<a class="navbar-brand" href="{concat('/',$context,'/')}/">ACS</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -112,7 +107,7 @@
 		<li class="nav-item"><a class="nav-link" href="{concat('/',$context,.)}"><xsl:value-of select="@key"/></a></li>
 	</xsl:template>
 	<xsl:template match="fn:map[ancestor::fn:map]/fn:string" mode="main-menu">
-		<a class="dropdown-item" href="{.}"><xsl:value-of select="@key"/></a>
+		<a class="dropdown-item" href="{concat('/',$context,.)}"><xsl:value-of select="@key"/></a>
 	</xsl:template>
 	<xsl:template match="fn:map/fn:map" mode="main-menu">
 		<li class="nav-item dropdown">
@@ -132,13 +127,18 @@
 				Copyright © 1997-2021  by <a class="text-light" href="mailto:jawalsh@indiana.edu">John A. Walsh</a>
 			</div>
 		</footer>
+		<!-- link to local bootstrap js -->
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<!--
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+		-->
 	</xsl:template>
 	
 	<!-- add wrapper div elements for bootstrap-based layout -->
 	<xsl:template match="div[@class='tei']">
 		<xsl:copy>
 			<xsl:copy-of select="@*"/>
+		<xsl:apply-templates select="." mode="replace-class"/>
 			<div class="container">
 				<!-- wrap the <cite> containing the page title, and the <div> containing the teiHeader-based metadata -->
 				<div class="row">
@@ -221,6 +221,9 @@
 	<xsl:template mode="replace-class" match="body[@class='tei']">
 		<xsl:attribute name="class">d-flex flex-column h-100</xsl:attribute>
 	</xsl:template>
+	<xsl:template mode="replace-class" match="div[@class='tei']">
+		<xsl:attribute name="class">tei py-4</xsl:attribute>
+	</xsl:template>
 	<xsl:template mode="replace-class" match="body[@class='admin']">
 		<xsl:attribute name="class">d-flex flex-column h-100</xsl:attribute>
 	</xsl:template>
@@ -268,7 +271,7 @@
 	
 	<!-- teiHeader summary -->
 	<xsl:template mode="replace-class" match="details[contains-token(@class, 'tei-teiHeader')]/summary">
-		<xsl:attribute name="class">btn btn-primary</xsl:attribute>
+		<xsl:attribute name="class">btn btn-outline-primary btn-sm</xsl:attribute>
 	</xsl:template>
 	<xsl:template mode="replace-class" match="details[contains-token(@class, 'tei-teiHeader')]/div">
 		<xsl:attribute name="class">expansion card card-body mt-3</xsl:attribute>
