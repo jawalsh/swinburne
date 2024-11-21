@@ -60,6 +60,7 @@
                 <moduleRef key="verse"/> 
                 <moduleRef key="corpus"/> 
                 <moduleRef key="tagdocs"/> 
+                <moduleRef key="dictionaries"/>
                 <!--
  		        <moduleRef key="nets"/>
  		        -->
