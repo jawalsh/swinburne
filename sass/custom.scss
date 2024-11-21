@@ -2,6 +2,15 @@ $font-family-base: 'Cambria','Georgia','Times New Roman',serif;
 $font-size-base: 1.2rem;
 // Define your custom primary color
 $primary: #75070C; 
+$headings-font-family:        helvetica, sans-serif;
+$headings-font-size: (
+  h1: 2rem,
+  h2: 1.5rem,
+  h3: 2rem,
+  h4: .75rem,
+  h5: .5rem,
+  h6: .25rem
+);
 
 // Import Bootstrap's SCSS
 @import "../node_modules/bootstrap/scss/bootstrap";
