@@ -34,13 +34,13 @@
     <rendition n="double underline" xml:id="uu" scheme="css">-webkit-text-decoration: underline double; text-decoration: underline double;
         </rendition>
     <rendition selector="l" n="block" xml:id="block" scheme="css">display: block !important; </rendition>
-    <rendition n="blockquote" xml:id="blockquote" scheme="css">display: block; margin-left:4em;</rendition>
+    <rendition n="blockquote" xml:id="blockquote" scheme="css">display: block; margin-left:2rem; margin-right:2rem;</rendition>
     <rendition n="expanded letter spacing" xml:id="expanded" scheme="css">letter-spacing: +3pt;</rendition>
     
     <!-- text-transform -->
     <rendition n="uppercase" xml:id="uc" scheme="css">text-transform: uppercase;</rendition>
     <!-- text-align -->
-    <rendition n="align center" xml:id="center" scheme="css">text-align: center;</rendition>
+    <rendition n="align center" xml:id="center" scheme="css">display:block; text-align: center;</rendition>
     <rendition n="align right" xml:id="right" scheme="css">text-align: right;</rendition>
     
     
