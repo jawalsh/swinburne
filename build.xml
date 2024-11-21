@@ -239,6 +239,10 @@ is loaded when Ant starts up. Please run Ant again like this:
     <copy todir="${toDir.static}/js">
 	    <fileset dir="node_modules/bootstrap/dist/js">
         	<include name="bootstrap.bundle.min.js"/>
+		<!-- .map only necessary for debugging. -->
+		<!--
+		<include name="bootstrap.bundle.min.js.map"/>
+		-->
 	</fileset>
     </copy>
     <copy todir="${toDir.static}">
