@@ -4576,8 +4576,8 @@
                     </change>
       
          
-            <change when="2010-05-23" who="#jawalsh">Updated and tested notes.</change>
-            <change when="2008-10-12" who="#jawalsh">Updated XInclude links to reflect to ID scheme.</change>
+            <change when="2010-05-23" who="#ci-jawalsh">Updated and tested notes.</change>
+            <change when="2008-10-12" who="#ci-jawalsh">Updated XInclude links to reflect to ID scheme.</change>
             <change n="svninfo">
                 $Id: acs0000001-01.xml 1251 2015-07-31 15:41:43Z jawalsh $
                 $Rev: 1251 $
@@ -4697,11 +4697,11 @@
             <pb n="27" facs="acs0000001-01-070"/>
             <head rendition="#center #n #uc"><persName ref="#phaedra"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice></persName></head>
             <castList rendition="#center">
-                <castItem rendition="#inline #uc" xml:id="hippolytus"><persName ref="#hippolytus">Hippolytus</persName>;</castItem>
-                <castItem rendition="#inline #uc" xml:id="phaedra"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>;</castItem>
-                <castItem rendition="#inline #uc" xml:id="chorus_of_troezenian_women">Chorus of <choice><orig>Trœzenian</orig><reg>Trœzenian</reg></choice><lb/> Women</castItem>
+                <castItem rendition="#inline #uc" xml:id="ci-hippolytus"><persName ref="#hippolytus">Hippolytus</persName>;</castItem>
+                <castItem rendition="#inline #uc" xml:id="ci-phaedra"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>;</castItem>
+                <castItem rendition="#inline #uc" xml:id="ci-chorus_of_troezenian_women">Chorus of <choice><orig>Trœzenian</orig><reg>Trœzenian</reg></choice><lb/> Women</castItem>
             </castList>
-			<sp who="#hippolytus">
+			<sp who="#ci-hippolytus">
                 <speaker rendition="#center #uc">Hippolytus.</speaker>
                 <lg>
                     <l n="1">
@@ -4710,7 +4710,7 @@
                     <l n="3">What, wilt thou turn my loathing to thy death?</l>
                 </lg>
             </sp>
-            <sp who="#phaedra">
+            <sp who="#ci-phaedra">
                 <speaker rendition="#center #uc"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>.</speaker>
                 <lg>
                     <l n="4">Nay, I will never loosen hold nor breathe</l>
@@ -4721,7 +4721,7 @@
                     <l n="9" part="I">Why not of thee?</l>
                 </lg>
             </sp>
-            <sp who="#chorus_of_troezenian_women">
+            <sp who="#ci-chorus_of_troezenian_women">
                 <speaker rendition="#center #uc">Chorus.</speaker>
                 <lg>
                     <l n="9" part="F" rendition="#ti-9">O queen, take heed of words; </l>
@@ -4730,7 +4730,7 @@
                     <l n="12">And goodness for the binding of thy brows.</l>
                 </lg>
             </sp>
-            <sp who="#phaedra">
+            <sp who="#ci-phaedra">
                 <speaker rendition="#center #uc"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>.</speaker>
                 <lg>
                     <l n="13">Nay, but this god hath cause enow to smite;</l>
@@ -4764,7 +4764,7 @@
                     <l n="40">And I am sick with hating the sweet sun.</l>
                 </lg>
             </sp>
-            <sp who="#hippolytus">
+            <sp who="#ci-hippolytus">
                 <speaker rendition="#center #uc">Hippolytus.</speaker>
                 <lg>
                     <l n="41">Let not this woman wail and cleave to me,</l>
@@ -4780,13 +4780,13 @@
                 </lg>
             </sp>
             <pb n="29" facs="acs0000001-01-072"/>
-            <sp who="#hippolytus">
+            <sp who="#ci-hippolytus">
                 <speaker rendition="#center #uc">Hippolytus.</speaker>
                 <lg>
                     <l n="46">Man is as beast when shame stands off from him.</l>
                 </lg>
             </sp>
-            <sp who="#phaedra">
+            <sp who="#ci-phaedra">
                 <speaker rendition="#center #uc"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>.</speaker>
                 <lg>
                     <l n="47">Man, what have I to do with shame or thee?</l>
@@ -4817,7 +4817,7 @@
                     <l n="72">Till thou hast slain me. I am not good to live.</l>
                 </lg>
             </sp>
-            <sp who="#chorus_of_troezenian_women">
+            <sp who="#ci-chorus_of_troezenian_women">
                 <speaker rendition="#center #uc">Chorus.</speaker>
                 <lg>
                     <l n="73">This is an evil born with all its teeth,</l>
@@ -4825,13 +4825,13 @@
                 </lg>
             </sp>
             <pb n="30" facs="acs0000001-01-073"/>
-            <sp who="#hippolytus">
+            <sp who="#ci-hippolytus">
                 <speaker rendition="#center #uc">Hippolytus.</speaker>
                 <lg>
                     <l n="75">There is no hate that is so hateworthy.</l>
                 </lg>
             </sp>
-            <sp who="#phaedra">
+            <sp who="#ci-phaedra">
                 <speaker rendition="#center #uc"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>.</speaker>
                 <lg>
                     <l n="76">I pray thee turn that hate of thine my way,</l>
@@ -4885,7 +4885,7 @@
                     <l n="109">Lest a snare take them though the ground be good.</l>
                 </lg>
             </sp>
-            <sp who="#hippolytus">
+            <sp who="#ci-hippolytus">
                 <speaker rendition="#center #uc">Hippolytus.</speaker>
                 <lg>
                     <l n="110">Shame may do most where fear is found most weak;</l>
@@ -4894,47 +4894,47 @@
                     <l n="113">Better the foot slip than the whole soul swerve.</l>
                 </lg>
             </sp>
-            <sp who="#phaedra">
+            <sp who="#ci-phaedra">
                 <speaker rendition="#center #uc"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>.</speaker>
                 <lg>
                     <l n="114">The man is choice and exquisite of mouth;</l>
                     <l n="115">Yet in the end a curse shall curdle it.</l>
                 </lg>
             </sp>
-            <sp who="#chorus_of_troezenian_women">
+            <sp who="#ci-chorus_of_troezenian_women">
                 <speaker rendition="#center #uc">Chorus.</speaker>
                 <lg>
                     <l n="116">He goes with cloak upgathered to the lip,</l>
                     <l n="117">Holding his eye as with some ill in sight.</l>
                 </lg>
             </sp>
-            <sp who="#phaedra">
+            <sp who="#ci-phaedra">
                 <speaker rendition="#center #uc"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>.</speaker>
                 <lg>
                     <l n="118">A bitter ill he hath i’ the way thereof,</l>
                     <l n="119">And it shall burn the sight out as with fire.</l>
                 </lg>
             </sp>
-            <sp who="#chorus_of_troezenian_women">
+            <sp who="#ci-chorus_of_troezenian_women">
                 <speaker rendition="#center #uc">Chorus.</speaker>
                 <lg>
                     <l n="120">Speak no such word whereto mischance is kin.</l>
                 </lg>
             </sp>
-            <sp who="#phaedra">
+            <sp who="#ci-phaedra">
                 <speaker rendition="#center #uc"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>.</speaker>
                 <lg>
                     <l n="121">Out of my heart and by fate’s leave I speak.</l>
                 </lg>
             </sp>
-            <sp who="#chorus_of_troezenian_women">
+            <sp who="#ci-chorus_of_troezenian_women">
                 <speaker rendition="#center #uc">Chorus.</speaker>
                 <lg>
                     <l n="122">Set not thy heart to follow after fate.</l>
                 </lg>
             </sp>
             <pb n="32" facs="acs0000001-01-075"/>
-            <sp who="#phaedra">
+            <sp who="#ci-phaedra">
                 <speaker rendition="#center #uc"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>.</speaker>
                 <lg>
                     <l n="123">O women, O sweet people of this land,</l>
