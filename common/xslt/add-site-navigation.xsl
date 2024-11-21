@@ -245,6 +245,9 @@
 	<xsl:template mode="replace-class" match="ul[@class='pagination']">
 		<xsl:attribute name="class">pagination justify-content-center text-sansserif</xsl:attribute>
 	</xsl:template>
+	<xsl:template mode="replace-class" match="//div[contains-token(@class, 'tei-text')]">
+		<xsl:attribute name="class"><xsl:value-of select="concat(@class,' large-padding')"/></xsl:attribute>
+	</xsl:template>
 	<xsl:template mode="replace-class" match="div[@class='field']">
 		<xsl:attribute name="class">mb-3</xsl:attribute>
 	</xsl:template>
