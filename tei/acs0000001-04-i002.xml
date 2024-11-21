@@ -4699,7 +4699,7 @@
             	<pb n="[237]" facs="acs0000001-04-248"/>
                 <head rendition="#center #uc">To the Memory <lb/> of <lb/>
                     <persName ref="#landor">Walter Savage Landor</persName></head>
-            	<p rendition="#justify #uc" rend="width:36em; line-height:2em;">I now dedicate, with equal affection, reverence, and regret, a poem
+            	<p rendition="#justify #uc" rend="line-height:2rem;">I now dedicate, with equal affection, reverence, and regret, a poem
             		inscribed to him while yet alive in words which are now retained because they
             		were laid before him; and to which, rather than cancel them, I have added such
             		others as were evoked by the news of his death: that though losing the pleasure
