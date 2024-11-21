@@ -205,7 +205,7 @@
 					-->
 					<div>
 						<xsl:variable name="base-text" select="//biblStruct[@xml:id = concat(/TEI/@xml:id,'-bibl')]"/>
-						<h4>Source description</h4>
+						<h2 class="h6">Source description</h2>
 						The text below is based on that found in:
 						
 						<xsl:value-of select="string-join($base-text/analytic/author/persName,'.')"/>	
@@ -224,11 +224,12 @@
 					</div>
 					<xsl:apply-templates select="fileDesc/titleStmt/respStmt" />
 					<div>
-						<h4>Preferred Citation:</h4>
+						<h2 class="h6">Preferred Citation</h2>
+						<div class="hang">
 						<xsl:for-each select="fileDesc/titleStmt/author/persName">
 							<xsl:value-of select="concat(., '. ')"/>
 						</xsl:for-each>
-						<xsl:value-of select="concat(normalize-space(fileDesc/titleStmt/title),'.')"/>
+						<xsl:value-of select="concat(normalize-space(fileDesc/titleStmt/title),'. ')"/>
 						<cite>The Algernon Charles Swinburne Project</cite>
 						<xsl:text>.  Ed. </xsl:text>
 						<xsl:value-of select="fileDesc/titleStmt/editor/persName"/>
@@ -240,6 +241,7 @@
 						<a href="{$html-link}">
 							<xsl:value-of select="$html-link"/>
 						</a>
+					</div>
 					</div>
 				</div>
 			</details>
@@ -761,4 +763,20 @@
 				src="https://www.google.com/maps/embed/v1/view?key={$google-api-key}&amp;center={$latitude},{$longitude}&amp;zoom=18&amp;maptype=satellite"/>
 		</div>
 	</xsl:template> 	
+
+  
+  <!-- Template to match <head> elements -->
+	  <xsl:template match="div/head">
+	    <xsl:variable name="ancestor-div-count" select="count(ancestor::div)" />
+    
+    <!-- Determine the heading level (maximum of 6) -->
+    <xsl:variable name="heading-level" select="if ($ancestor-div-count &gt;= 6) then 6 else $ancestor-div-count + 1" />
+    
+    <!-- Output the <hN> element with the content of <head> -->
+    <xsl:element name="h{ $heading-level }">
+			<xsl:apply-templates mode="create-attributes" select="."/>
+			<xsl:apply-templates mode="create-content" select="."/>
+    </xsl:element>
+  </xsl:template>
+  
 </xsl:stylesheet>
