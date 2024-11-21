@@ -1,8 +1,10 @@
-$font-family-base: 'Cambria','Georgia','Times New Roman',serif;
-$font-size-base: 1.2rem;
-// Define your custom primary color
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;700&display=swap');
+$font-family-sans-serif: 'Jost', 'helvetica', sans-serif;
+$font-family-base: 'Jost', 'helvetica', sans-serif;
+$font-size-base: 1rem;
 $primary: #75070C; 
-$headings-font-family:        helvetica, sans-serif;
+$headings-font-family: 'Crimson Pro', 'Cambria', 'Georgia', 'Times New Roman', serif; 
 $headings-font-size: (
   h1: 2rem,
   h2: 1.5rem,
