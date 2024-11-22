@@ -1,6 +1,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0"
 	xmlns:c="http://www.w3.org/ns/xproc-step" 
 	xmlns:chymistry="tag:conaltuohy.com,2018:chymistry"
+	xmlns:swinburne="tag:biblicon.org,2024:swinburne"
 	xmlns:tei="http://www.tei-c.org/ns/1.0"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema"
 	xmlns="http://www.w3.org/1999/xhtml"
@@ -8,11 +9,19 @@
 	<!-- transform a TEI document into an HTML page-->
 	<!--<xsl:import href="render-metadata.xsl"/>-->
 	<xsl:import href="config.xsl"/>
-	<!--
 	<xsl:param name="google-api-key"/>
 	<xsl:param name="server" select="'biblicon.org'"/>
-	<xsl:param name="site-dir" select="'acs'"/>
-	-->
+	<xsl:param name="context"/>
+	<xsl:param name="site-dir">
+		<xsl:choose>
+			<xsl:when test="$context = ''">
+				<xsl:value-of select="'acs'"/>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="$context"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:param>
 	<xsl:key name="rendition-by-id" match="teiHeader/encodingDesc/tagsDecl/rendition" use="@xml:id"/>
 	<xsl:key name="rendition-by-selector" match="teiHeader/encodingDesc/tagsDecl/rendition" use="@selector"/>
 	<xsl:param name="doc-id" select="/TEI/@xml:id"/>
@@ -152,7 +161,7 @@
 		</cite>
 	</xsl:template>
 	<xsl:template mode="toc" match="ref">
-		<a href="{chymistry:expand-reference(@target)}">
+		<a href="{swinburne:expand-reference(@target)}">
 			<xsl:if test="substring-after(@target, 'document:') = /TEI/@xml:id">
 				<xsl:attribute name="class">current</xsl:attribute>
 			</xsl:if>
@@ -364,18 +373,18 @@
 		<xsl:for-each select="@rend"><xsl:attribute name="style" select="."/></xsl:for-each>
 		<xsl:for-each select="@xml:lang"><xsl:attribute name="lang" select="."/></xsl:for-each>
 		<xsl:for-each select="@target">
-			<xsl:attribute name="href" select="chymistry:expand-reference(.)"/>
+			<xsl:attribute name="href" select="swinburne:expand-reference(.)"/>
 		</xsl:for-each>
 		<xsl:if test="@hand">
 			<xsl:variable name="hand" select="key('hand-note-by-reference', @hand)"/>
 			<xsl:attribute name="title" select="concat('Hand: ', $hand/@scribe)"/>
 		</xsl:if>
-		<xsl:copy-of select="chymistry:mint-id(.)"/>
+		<xsl:copy-of select="swinburne:mint-id(.)"/>
 	</xsl:template>
 	
 	<!-- the declared reference systems which might be used to expand URI references -->
 	<xsl:variable name="expansions" select="/TEI/teiHeader/encodingDesc/listPrefixDef/prefixDef"/>
-	<xsl:function name="chymistry:expand-reference">
+	<xsl:function name="swinburne:expand-reference">
 		<xsl:param name="reference"/>
 		<xsl:sequence select="
 			let 
@@ -543,7 +552,7 @@
 	</xsl:template>
 	<xsl:template match="graphic">
 		<xsl:element name="img">
-			<xsl:attribute name="src" select="chymistry:expand-reference(@url)"/>
+			<xsl:attribute name="src" select="swinburne:expand-reference(@url)"/>
 		</xsl:element>
 	</xsl:template>
 	
@@ -701,7 +710,7 @@
 	<xsl:template match="ref[@n]" mode="create-content">
 		<xsl:value-of select="@n"/>
 	</xsl:template>
-	<xsl:function name="chymistry:mint-id">
+	<xsl:function name="swinburne:mint-id">
 		<xsl:param name="element"/>
 		<xsl:choose>
 			<xsl:when test="$element/@xml:id">
@@ -725,7 +734,7 @@
 		<xsl:variable name="annotation-id" select="@xml:id"/>
 		<header>
 			<xsl:for-each select="key('reference-by-target', concat('#', @xml:id))">
-				<a href="#{chymistry:mint-id(.)}">^</a>
+				<a href="#{swinburne:mint-id(.)}">^</a>
 				<xsl:text> </xsl:text>
 			</xsl:for-each>
 			<xsl:for-each select="@n">
