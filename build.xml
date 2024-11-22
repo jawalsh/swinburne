@@ -169,7 +169,7 @@ is loaded when Ant starts up. Please run Ant again like this:
                  location="${toDir.base}${file.separator}xhtml1-strict.dtd"/>
         </xmlcatalog>
         <param name="assets-path" expression="..${file.separator}"/>
-        <param name="context" expression="swinburne"/>
+	<param name="context" expression="${context}"/>
     </xslt>
 
     <!-- Step 3: Log completion -->
@@ -329,7 +329,7 @@ is loaded when Ant starts up. Please run Ant again like this:
           failOnTransformationError="false">
       <factory name="${processor.name}"/>
       <param name="assets-path" expression="${assets.path}"/>
-      <param name="context" expression="swinburne"/>
+      <param name="context" expression="${context}"/>
       <param name="dir-separator" expression="${file.separator}"/>
       <param name="doProofing" expression="true"/>
     </xslt>
