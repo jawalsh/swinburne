@@ -14,6 +14,15 @@ $headings-font-size: (
   h6: .25rem
 );
 
+// TEI handling
+.tei-l::after {
+         display: block;
+         float: right;    
+         text-align: right;
+         content: attr(data-line);
+         color: #999999;
+}                      
+
 // Import Bootstrap's SCSS
 @import "../node_modules/bootstrap/scss/bootstrap";
 
