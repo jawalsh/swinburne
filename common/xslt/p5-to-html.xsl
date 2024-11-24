@@ -22,6 +22,7 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:param>
+	<xsl:param name="line-num-frequency" select="10"/>
 	<xsl:key name="rendition-by-id" match="teiHeader/encodingDesc/tagsDecl/rendition" use="@xml:id"/>
 	<xsl:key name="rendition-by-selector" match="teiHeader/encodingDesc/tagsDecl/rendition" use="@selector"/>
 	<xsl:param name="doc-id" select="/TEI/@xml:id"/>
@@ -295,7 +296,7 @@
 	
 	<!-- handle line numbers: l/@n (if @n is divisible by 10) should be displayed floating off to the right of the line -->
 	<xsl:template match="l" mode="create-attributes">
-		<xsl:if test="number(@n) mod 10 = 0">
+		<xsl:if test="number(@n) mod $line-num-frequency = 0">
 			<xsl:attribute name="data-line" select="@n"/>
 		</xsl:if>
 		<xsl:next-match/>
@@ -352,6 +353,7 @@
 			<xsl:apply-templates mode="create-content" select="."/>
 		</xsl:element>
 	</xsl:template>
+
 	
 	<xsl:variable name="tag-usage" select="/TEI/teiHeader/encodingDesc/tagsDecl/namespace/tagUsage"/>
 	<!-- populate an HTML element's set of attributes -->
