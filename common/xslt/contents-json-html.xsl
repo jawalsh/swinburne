@@ -24,6 +24,7 @@
                     
                     <!-- Iterate over the root array -->
                     <xsl:for-each select="$json-xml/fn:array/fn:map">
+			    <xsl:sort select="fn:string[@key='date']" data-type="text" order="ascending"/>
 			    <xsl:choose>
 				    <xsl:when test="fn:map[@key='volume']/fn:array[@key='works']/fn:map">
                         <li>
