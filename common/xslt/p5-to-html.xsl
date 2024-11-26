@@ -213,12 +213,20 @@
 						)"/>
 					</div>
 					-->
+					<xsl:if test="//biblStruct[@xml:id = concat(/TEI/@xml:id,'-bibl')]">
 					<div>
+
 						<xsl:variable name="base-text" select="//biblStruct[@xml:id = concat(/TEI/@xml:id,'-bibl')]"/>
 						<h2 class="h6">Source description</h2>
 						The text below is based on that found in:
-						
-						<xsl:value-of select="string-join($base-text/analytic/author/persName,'.')"/>	
+					        <xsl:choose>
+							<xsl:when test="$base-text/analytic">
+								<xsl:value-of select="string-join($base-text/analytic/author/persName,'.')"/>	
+								<xsl:value-of select="string-join(('‘',$base-text/analytic/title,'.','’'))"/>
+							</xsl:when>
+							<xsl:otherwise/>
+							</xsl:choose>
+
 
 						<!--
 						<xsl:value-of select="concat(
@@ -232,20 +240,24 @@
 						</xsl:for-each>
 						-->
 					</div>
+					</xsl:if>
+
 					<xsl:apply-templates select="fileDesc/titleStmt/respStmt" />
 					<div>
 						<h2 class="h6">Preferred Citation</h2>
 						<div class="hang">
 						<xsl:for-each select="fileDesc/titleStmt/author/persName">
-							<xsl:value-of select="concat(., '. ')"/>
+								<xsl:call-template name="lookup-persName-by-id">
+									<xsl:with-param name="ref" select="@ref"/>
+								</xsl:call-template>
+							<xsl:value-of select="'. '"/>
 						</xsl:for-each>
 						<xsl:value-of select="concat(normalize-space(fileDesc/titleStmt/title),'. ')"/>
 						<cite>The Algernon Charles Swinburne Project</cite>
+						<!-- editor -->
 						<xsl:text>.  Ed. </xsl:text>
-						<xsl:value-of select="fileDesc/titleStmt/editor/persName"/>
-						<xsl:text>&#160;</xsl:text>
-						<xsl:value-of select="fileDesc/publicationStmt/date"/>
-						<xsl:text>. Retrieved </xsl:text>
+						<xsl:value-of select="concat(normalize-space(fileDesc/titleStmt/editor),'. ')"/>
+						<xsl:text>Retrieved </xsl:text>
 						<xsl:value-of select="format-dateTime($now, '[MNn] [D], [Y]', 'en', (),() )"/>
 						<xsl:text> from: </xsl:text>
 						<a href="{$html-link}">
@@ -789,5 +801,20 @@
 			<xsl:apply-templates mode="create-content" select="."/>
     </xsl:element>
   </xsl:template>
+
+
+  <!-- Named template for lookup -->
+  <xsl:template name="lookup-persName-by-id">
+    <!-- Accept the target value as a parameter -->
+    <xsl:param name="ref" as="xs:string"/>
+    
+    <!-- Remove the leading '#' from the target value -->
+    <xsl:variable name="id" select="substring-after($ref, '#')"/>
+    
+    <!-- Use XPath to retrieve the element with the matching xml:id -->
+    <xsl:value-of select="//person[@xml:id = $id]/persName"/>
+    
+  </xsl:template>
+  
   
 </xsl:stylesheet>
