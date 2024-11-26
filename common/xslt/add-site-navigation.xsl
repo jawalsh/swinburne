@@ -120,9 +120,11 @@
 	<xsl:template name="footer">
 		<footer class="footer mt-auto py-3 bg-dark text-light text-sansserif fs-70">
 			<div class="container-fluid ml-0">
-				Last Updated: 28 February 2021. <br />
+				Last Updated: 
+            <xsl:value-of select="format-date(current-date(), '[D] [MNn] [Y]')" />
+<br />
 				
-				Copyright © 1997-2021  by <a class="text-light" href="mailto:jawalsh@indiana.edu">John A. Walsh</a>
+Copyright © 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  by <a class="text-light" href="mailto:jawalsh@indiana.edu">John A. Walsh</a>
 			</div>
 		</footer>
 	</xsl:template>
@@ -239,7 +241,7 @@
 		<xsl:attribute name="class">pagination justify-content-center text-sansserif</xsl:attribute>
 	</xsl:template>
 	<xsl:template mode="replace-class" match="//div[contains-token(@class, 'tei-text')]">
-		<xsl:attribute name="class"><xsl:value-of select="concat(@class,' large-padding')"/></xsl:attribute>
+		<xsl:attribute name="class"><xsl:value-of select="concat(@class,' mx-4')"/></xsl:attribute>
 	</xsl:template>
 	<xsl:template mode="replace-class" match="div[@class='field']">
 		<xsl:attribute name="class">mb-3</xsl:attribute>
