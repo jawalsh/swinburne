@@ -10,8 +10,10 @@
 		margin-bottom: 1rem;
 	</rendition>
 
-    <rendition xml:id="p">
-        text-align: justify;
+    <rendition xml:id="p" selector="p">
+	    margin-top: 0;
+	    margin-bottom: 1rem;
+	    text-indent: 2rem;
     </rendition>
     
     <!-- font-size -->
@@ -34,7 +36,7 @@
     <rendition n="double underline" xml:id="uu" scheme="css">-webkit-text-decoration: underline double; text-decoration: underline double;
         </rendition>
     <rendition selector="l" n="block" xml:id="block" scheme="css">display: block !important; </rendition>
-    <rendition n="blockquote" xml:id="blockquote" scheme="css">display: block; margin-left:2rem; margin-right:2rem;</rendition>
+    <rendition n="blockquote" xml:id="blockquote" scheme="css">display: block; margin-left:4rem; margin-right:4rem; text-indent:0;</rendition>
     <rendition n="expanded letter spacing" xml:id="expanded" scheme="css">letter-spacing: +3pt;</rendition>
     
     <!-- text-transform -->
