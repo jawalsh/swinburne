@@ -1,20 +1,6 @@
 [
     {
         "volume": {
-            "title": "Poems of Algernon Charles Swinburne",
-            "date": "1904",
-            "works": [
-                {
-                    "work": {
-                        "title": "Dedicatory Epistle",
-                        "id": "acs0000001-01-i000"
-                    }
-                }
-            ]
-        }
-    },
-    {
-        "volume": {
             "title": "Atalanta in Calydon",
             "date": "1865",
             "id": "acs0000001-04-i002"
@@ -2707,6 +2693,20 @@
                     "work": {
                         "title": "Dedication",
                         "id": "acs0000001-06-i127"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "volume": {
+            "title": "Poems of Algernon Charles Swinburne",
+            "date": "1904",
+            "works": [
+                {
+                    "work": {
+                        "title": "Dedicatory Epistle",
+                        "id": "acs0000001-01-i000"
                     }
                 }
             ]
