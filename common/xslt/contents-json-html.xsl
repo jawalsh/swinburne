@@ -14,6 +14,9 @@
                 <title>Volume and Work Titles</title>
             </head>
             <body>
+		    <main role="main" class="flex-shrink-0">
+			    <div class="container">
+				    <div id="content" class="py2 w-75 mx-auto">
                 <h1>Volume and Work Titles</h1>
                 <ul>
                     <!-- Convert JSON to XML -->
@@ -25,7 +28,7 @@
 				    <xsl:when test="fn:map[@key='volume']/fn:array[@key='works']/fn:map">
                         <li>
                             <!-- Extract the volume title -->
-                            <xsl:value-of select="fn:map[@key='volume']/fn:string[@key='title']"/>
+				<xsl:value-of select="fn:map[@key='volume']/fn:string[@key='title']"/> <xsl:value-of select="concat(' (',fn:map[@key='volume']/fn:string[@key='date'],')')"/>
                             <ul>
                                 <!-- Iterate over works if they exist -->
                                 <xsl:for-each select="fn:map[@key='volume']/fn:array[@key='works']/fn:map">
@@ -56,12 +59,15 @@
 					</xsl:attribute>
 				<!-- Extract the volume title -->
 				<xsl:value-of select="fn:map[@key='volume']/fn:string[@key='title']"/>
-			</a>
+			</a> <xsl:value-of select="concat(' (',fn:map[@key='volume']/fn:string[@key='date'],')')"/>
 			</li>
 		</xsl:otherwise>
 	</xsl:choose>
                     </xsl:for-each>
                 </ul>
+	</div>
+	</div>
+</main>
             </body>
         </html>
     </xsl:template>
