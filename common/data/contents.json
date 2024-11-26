@@ -10,6 +10,7 @@
         "volume": {
             "title": "Poems and Ballads, First Series",
             "date": "1866",
+	    "id": "pb1",
             "works": [
                 {
                     "work": {
@@ -390,6 +391,7 @@
         "volume": {
             "title": "Songs Before Sunrise",
             "date": "1871",
+	    "id": "sos",
             "works": [
                 {
                     "work": {
@@ -632,6 +634,7 @@
         "volume": {
             "title": "Songs of Two Nations",
             "date": "1875",
+	    "id": "sotn",
             "works": [
                 {
                     "work": {
@@ -665,6 +668,7 @@
         "volume": {
             "title": "Poems and Ballads, Second Series",
             "date": "1878",
+	    "id": "pb2",
             "works": [
                 {
                     "work": {
@@ -949,6 +953,7 @@
         "volume": {
             "title": "Songs of the Springtides",
             "date": "1880",
+	    "id": "sos",
             "works": [
                 {
                     "work": {
@@ -993,6 +998,7 @@
         "volume": {
             "title": "Studies in Song",
             "date": "1880",
+	    "id": "sis",
             "works": [
                 {
                     "work": {
@@ -1079,6 +1085,7 @@
         "volume": {
             "title": "The Heptalogia or The Seven Against Sense: A Cap with Seven Bells",
             "date": "1880",
+	    "id": "hept",
             "works": [
                 {
                     "work": {
@@ -1129,6 +1136,7 @@
         "volume": {
             "title": "Tristram of Lyonesse and Other Poems",
             "date": "1882",
+	    "id": "tol",
             "works": [
                 {
                     "work": {
@@ -1383,6 +1391,7 @@
         "volume": {
             "title": "A Century of Roundels",
             "date": "1883",
+	    "id": "cor",
             "works": [
                 {
                     "work": {
@@ -1703,6 +1712,7 @@
         "volume": {
             "title": "A Midsummer Holiday and Other Poems",
             "date": "1884",
+	    "id": "mhop",
             "works": [
                 {
                     "work": {
@@ -1879,6 +1889,7 @@
         "volume": {
             "title": "Poems and Ballads, Third Series",
             "date": "1889",
+	    "id": "pb3",
             "works": [
                 {
                     "work": {
@@ -2097,6 +2108,7 @@
         "volume": {
             "title": "Astrophel and Other Poems",
             "date": "1894",
+	    "id": "aop",
             "works": [
                 {
                     "work": {
@@ -2358,6 +2370,7 @@
         "volume": {
             "title": "A Channel Passage and Other Poems",
             "date": "1904",
+	    "id": "cpop",
             "works": [
                 {
                     "work": {
@@ -2702,6 +2715,7 @@
         "volume": {
             "title": "Poems of Algernon Charles Swinburne",
             "date": "1904",
+	    "id": "poemsacs",
             "works": [
                 {
                     "work": {
@@ -2716,6 +2730,7 @@
         "volume": {
             "title": "The Algernon Charles Swinburne Project",
             "date": "2024",
+	    "id": "acsp",
             "works": [
                 {
                     "work": {
