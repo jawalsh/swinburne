@@ -23,6 +23,10 @@ $headings-font-size: (
          color: #999999;
 }                      
 
+.first-tei-p {
+text-indent:0 !important;
+}
+
 // Import Bootstrap's SCSS
 @import "../node_modules/bootstrap/scss/bootstrap";
 
