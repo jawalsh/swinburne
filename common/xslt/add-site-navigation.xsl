@@ -243,6 +243,9 @@ Copyright © 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  b
 	<xsl:template mode="replace-class" match="//div[contains-token(@class, 'tei-text')]">
 		<xsl:attribute name="class"><xsl:value-of select="concat(@class,' mx-4')"/></xsl:attribute>
 	</xsl:template>
+<xsl:template mode="replace-class" match="//div[contains-token(@class, 'tei-p')][. is ../div[contains-token(@class, 'tei-p')][1]]">
+		<xsl:attribute name="class"><xsl:value-of select="concat(@class,' first-tei-p')"/></xsl:attribute>
+	</xsl:template>
 	<xsl:template mode="replace-class" match="div[@class='field']">
 		<xsl:attribute name="class">mb-3</xsl:attribute>
 	</xsl:template>
