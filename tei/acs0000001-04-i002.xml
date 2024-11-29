@@ -4892,6 +4892,7 @@
             </div>
         	<pb n="[246]" facs="acs0000001-04-257"/>
             <div xml:id="id335711">
+		    <epigraph>
                 <cit rendition="#block">
                     <quote xml:lang="gr">
                         <lg>
@@ -4910,6 +4911,7 @@
                         <author rendition="#sc"><choice><orig>Æsch.</orig><reg>Aesch.</reg></choice></author>
                         <title>Cho.</title> <biblScope unit="line">602-612</biblScope>.</bibl>
                 </cit>
+	</epigraph>
             </div>
         </front>
         <body>
