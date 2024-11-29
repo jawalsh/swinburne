@@ -1,18 +1,37 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;700&display=swap');
 $font-family-sans-serif: 'Jost', 'helvetica', sans-serif;
 $font-family-base: 'Jost', 'helvetica', sans-serif;
-$font-size-base: 1rem;
+$font-size-base: 1.2rem;
 $primary: #75070C; 
 $headings-font-family: 'Crimson Pro', 'Cambria', 'Georgia', 'Times New Roman', serif; 
+/*
 $headings-font-size: (
   h1: 2rem,
   h2: 1.5rem,
-  h3: 2rem,
+  h3: 1rem,
   h4: .75rem,
   h5: .5rem,
   h6: .25rem
 );
+*/
+
+@media (min-width: 576px) { /* Small screens and up */ 
+	.large-padding {
+		padding: 0 1rem 0 1rem;
+	}
+}
+@media (min-width: 768px) { /* Medium screens and up */ 
+	.large-padding {
+		padding: 0 4rem 0 4rem;
+	}
+}
+@media (min-width: 992px) { /* Large screens and up */ 
+	.large-padding { 
+		padding: 0 8rem 0 8rem;
+	}
+}
 
 // TEI handling
 .tei-l::after {
@@ -24,9 +43,55 @@ $headings-font-size: (
 }                      
 
 .first-tei-p {
-text-indent:0 !important;
+	text-indent:0 !important;
+}
+
+
+h1.tei-head, h2.tei-head, h3.tei-head, h4.tei-head, h5.tei-head, h6.tei-head {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+h1.tei-head.project-doc {
+	font-size: $h1-font-size;
+	font-family: $headings-font-family;
+	font-weight: 500;
+}
+
+h2.tei-head.project-doc {
+	font-size: $h2-font-size;
+	font-family: $headings-font-family;
+	font-weight: 500;
+}
+
+h3.tei-head.project-doc {
+	font-size: $h3-font-size;
+	font-family: $headings-font-family;
+	font-weight: 500;
+}
+
+h4.tei-head.project-doc {
+	font-size: $h4-font-size;
+	font-family: $headings-font-family;
+	font-weight: 500;
+}
+
+h5.tei-head.project-doc {
+	font-size: $h5-font-size;
+	font-family: $headings-font-family;
+	font-weight: 500;
+}
+
+h6.tei-head.project-doc {
+	font-size: $h6-font-size;
+	font-family: $headings-font-family;
+	font-weight: 500;
 }
 
 // Import Bootstrap's SCSS
+
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+
 
