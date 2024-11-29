@@ -88,7 +88,7 @@
     
     
     <!-- color -->
-    <rendition n="red" xml:id="red" scheme="css">color: red;</rendition>
+    <rendition n="red" xml:id="red" scheme="css">color: #75070C;</rendition>
     
     <!-- compound CSS -->
     <rendition n="hanging indent" xml:id="hang" scheme="css">margin-left: 2em; text-indent: -2em;
