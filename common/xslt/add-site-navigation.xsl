@@ -219,6 +219,12 @@ Copyright © 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  b
 	<xsl:template mode="replace-class" match="div[@class='tei']">
 		<xsl:attribute name="class">tei py-4</xsl:attribute>
 	</xsl:template>
+	<!-- identify project-docs that get regular headings -->
+	<xsl:template mode="replace-class" match="h1[contains-token(@class, 'tei-head')]|h2[contains-token(@class, 'tei-head')]|h3[contains-token(@class, 'tei-head')]|h4[contains-token(@class, 'tei-head')]|h5[contains-token(@class, 'tei-head')]|h6[contains-token(@class, 'tei-head')]">
+		<xsl:if test="/html/@xml:id = 'acs0000503-01'">
+			<xsl:attribute name="class"><xsl:value-of select="concat(@class, ' project-doc')"/></xsl:attribute>
+		</xsl:if>
+	</xsl:template>
 	<xsl:template mode="replace-class" match="body[@class='admin']">
 		<xsl:attribute name="class">d-flex flex-column h-100</xsl:attribute>
 	</xsl:template>
@@ -241,7 +247,10 @@ Copyright © 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  b
 		<xsl:attribute name="class">pagination justify-content-center text-sansserif</xsl:attribute>
 	</xsl:template>
 	<xsl:template mode="replace-class" match="//div[contains-token(@class, 'tei-text')]">
-		<xsl:attribute name="class"><xsl:value-of select="concat(@class,' mx-4')"/></xsl:attribute>
+		<xsl:attribute name="class"><xsl:value-of select="concat(@class,' large-padding')"/></xsl:attribute>
+	</xsl:template>
+	<xsl:template mode="replace-class" match="//div[contains-token(@class, 'tei-epigraph')]|//div[contains-token(@class, 'tei-castList')]">
+		<xsl:attribute name="class"><xsl:value-of select="concat(@class,' my-4')"/></xsl:attribute>
 	</xsl:template>
 <xsl:template mode="replace-class" match="//div[contains-token(@class, 'tei-p')][. is ../div[contains-token(@class, 'tei-p')][1]]">
 		<xsl:attribute name="class"><xsl:value-of select="concat(@class,' first-tei-p')"/></xsl:attribute>
