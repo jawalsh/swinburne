@@ -4252,7 +4252,7 @@
                                 <language xml:id="d1e112" ident="ita">Italian</language>
                         </langUsage>
                   <textClass>
-                    <catRef target="#collex_genre_fiction"/>
+                    <catRef target="#collex_genre_fiction"/><catRef xml:id="parent_vol" target="#fix"/>
                   </textClass>
                 </profileDesc>
                 <encodingDesc>

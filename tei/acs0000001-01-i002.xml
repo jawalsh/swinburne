@@ -4540,7 +4540,7 @@
 </classDecl></encodingDesc><profileDesc>
          <textClass>
             <catRef n="collex" target="#collex_genre_poetry"/>
-	    <catRef n="genre" target="#canzone"/>
+	    <catRef n="genre" target="#canzone"/><catRef xml:id="parent_vol" target="#pb1"/>
          </textClass>
       </profileDesc>
       <encodingDesc>

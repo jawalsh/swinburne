@@ -4517,7 +4517,7 @@
 	</taxonomy>
 </classDecl></encodingDesc><profileDesc>
          <textClass>
-            <catRef target="#collex_genre_poetry"/>
+            <catRef target="#collex_genre_poetry"/><catRef xml:id="parent_vol" target="#fix"/>
          </textClass>
       </profileDesc>
       <encodingDesc>

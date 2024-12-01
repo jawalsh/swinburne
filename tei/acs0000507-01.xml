@@ -4506,7 +4506,7 @@
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <catRef target="#collex_genre_review"/>
+                <catRef target="#collex_genre_review"/><catRef xml:id="parent_vol" target="#fix"/>
             </textClass>
         </profileDesc>
     </teiHeader>

@@ -4519,7 +4519,7 @@
                 <language ident="fr">French</language>
             </langUsage>
          <textClass>
-            <catRef target="#collex_genre_poetry"/>
+            <catRef target="#collex_genre_poetry"/><catRef xml:id="parent_vol" target="#pb1"/>
          </textClass>
       </profileDesc>
       <encodingDesc>

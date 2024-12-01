@@ -4507,7 +4507,7 @@
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <catRef target="#collex_genre_reference_works"/>
+                <catRef target="#collex_genre_reference_works"/><catRef xml:id="parent_vol" target="#fix"/>
             </textClass>
         </profileDesc>
         <revisionDesc>

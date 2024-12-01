@@ -4544,7 +4544,7 @@
             </langUsage>
          <textClass>
             <catRef n="collex" target="#collex_genre_poetry"/>
-         <catRef target="#dramatic_monologue"/>
+         <catRef target="#dramatic_monologue"/><catRef xml:id="parent_vol" target="#pb1"/>
          </textClass>
       </profileDesc>
       <encodingDesc>

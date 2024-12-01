@@ -4520,7 +4520,7 @@
             <language ident="el">Greek</language>
          </langUsage>
          <textClass>
-            <catRef n="collex" target="#collex_genre_poetry"/>
+            <catRef n="collex" target="#collex_genre_poetry"/><catRef xml:id="parent_vol" target="#pb1"/>
          </textClass>
       </profileDesc>
       <encodingDesc>

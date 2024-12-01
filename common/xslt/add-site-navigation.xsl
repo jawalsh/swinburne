@@ -4,7 +4,9 @@
 	xmlns:map="http://www.w3.org/2005/xpath-functions/map"
 	xpath-default-namespace="http://www.w3.org/1999/xhtml"
 	exclude-result-prefixes="fn map"
-	 expand-text="true">
+	expand-text="true">
+
+	<xsl:import href="config.xsl"/>
 	<!-- embed the page in global navigation -->
 	<xsl:param name="current-uri"/>
 	<xsl:param name="context"/>
@@ -147,12 +149,65 @@ Copyright © 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  b
 						<xsl:apply-templates select="child::div[@class='searchable-content']"/>
 					</div>
 					<div class="col-sm-3">
-						<xsl:apply-templates select="child::div[@id='toc']"/>
+						<!--	<xsl:apply-templates select="child::div[@id='toc']"/> -->
+						<xsl:call-template name="toc">
+							<xsl:with-param name="volume-id" select="'sos'"/>
+						</xsl:call-template>
 					</div>
 				</div>
 			</div>
 		</xsl:copy>
 	</xsl:template>
+	<xsl:template name="toc">
+	<!-- Convert JSON to XML -->
+		    <xsl:param name="volume-id"/>
+                    <xsl:variable name="json-xml" select="fn:json-to-xml(fn:unparsed-text('../data/contents.json'))"/>
+		    <xsl:variable name="volume" select="$json-xml//fn:map[@key = 'volume' and fn:string[@key = 'id'] = $volume-id]" />
+                    <div id="toc"> 
+                    <!-- Iterate over the root array -->
+		    <ul>
+                        <li>
+                            <!-- Extract the volume title -->
+				<xsl:value-of select="$volume/fn:string[@key='title']"/> <xsl:value-of select="concat(' (',$volume/fn:string[@key='date'],')')"/>
+			    <xsl:choose>
+				    <xsl:when test="$volume/fn:array[@key='works']/fn:map">
+                            <ul>
+                                <!-- Iterate over works if they exist -->
+                                <xsl:for-each select="$volume/fn:array[@key='works']/fn:map">
+                                    <li>
+                                        <!-- Extract the work title -->
+					<a>
+						<xsl:attribute name="href">
+							<xsl:call-template name="generateURL">
+								<xsl:with-param name="docID" select="fn:map[@key='work']/fn:string[@key='id']"/>
+							</xsl:call-template>
+						</xsl:attribute>
+
+                                        <xsl:value-of select="fn:map[@key='work']/fn:string[@key='title']"/>
+				</a>
+                                    </li>
+                                </xsl:for-each>
+                            </ul>
+		</xsl:when>
+		<xsl:otherwise>
+			<li>
+				<a>
+					<xsl:attribute name="href">
+						<xsl:call-template name="generateURL">
+
+							<xsl:with-param name="docID" select="fn:map[@key='volume']/fn:string[@key='id']"/>
+						</xsl:call-template>
+					</xsl:attribute>
+				<!-- Extract the volume title -->
+				<xsl:value-of select="fn:map[@key='volume']/fn:string[@key='title']"/>
+			</a> <xsl:value-of select="concat(' (',fn:map[@key='volume']/fn:string[@key='date'],')')"/>
+			</li>
+		</xsl:otherwise>
+	</xsl:choose>
+</li>
+</ul>
+	    </div>
+	    </xsl:template>	
 	
 	<!-- add wrapper divs in the search and browse page -->
 	<xsl:template match="main[@class='search']">
@@ -309,4 +364,8 @@ Copyright © 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  b
 		</xsl:copy>
 	</xsl:template>
 	
+	<xsl:template name="generateURL">
+		<xsl:param name="docID"/>
+		<xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$docID,'.html')"/>
+	</xsl:template>
 </xsl:stylesheet>

@@ -4496,7 +4496,7 @@
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <catRef target="#collex_genre_letters"/>
+                <catRef target="#collex_genre_letters"/><catRef xml:id="parent_vol" target="#fix"/>
             </textClass>
         </profileDesc>
         <revisionDesc>
