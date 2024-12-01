@@ -85,7 +85,9 @@
 					<div class="searchable-content">
 						<xsl:apply-templates select="tei:text"/>
 					</div>
+					<!--
 					<xsl:apply-templates mode="toc" select="/TEI/teiHeader/fileDesc/sourceDesc[@n='table-of-contents']"/>
+					-->
 				</div>
 			</body>
 		</html>
