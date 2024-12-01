@@ -151,7 +151,9 @@ Copyright © 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  b
 					<div class="col-sm-3">
 						<!--	<xsl:apply-templates select="child::div[@id='toc']"/> -->
 						<xsl:call-template name="toc">
-							<xsl:with-param name="volume-id" select="'sos'"/>
+							<xsl:with-param name="volume-id">
+								<xsl:value-of select="//meta[@name = 'parent_vol']/@content"/>
+							</xsl:with-param>
 						</xsl:call-template>
 					</div>
 				</div>
