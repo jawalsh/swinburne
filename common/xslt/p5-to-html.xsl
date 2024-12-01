@@ -45,6 +45,13 @@
 					<!--				<link href="{$embedded-manifest-uri}" rel="alternate" type="application/ld+json" title="iiif-manifest"/> -->
 				<!-- output the rendition elements as CSS rules -->
 				<!-- TODO move CSS validation into schematron rules -->
+					<xsl:if test="//*[@xml:id = 'parent_vol']">
+						<meta name="parent_vol">
+							<xsl:attribute name="content">
+								<xsl:value-of select="substring-after(//*[@xml:id = 'parent_vol']/@target, '#')"/>
+					</xsl:attribute>
+				</meta>
+					</xsl:if>
     <style type="text/css">
         <xsl:for-each select="teiHeader/encodingDesc/tagsDecl/rendition">
             <xsl:variable name="id" select="@xml:id"/>
