@@ -1,13 +1,8 @@
-<project xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:if="ant:if" xmlns:unless="ant:unless" 
-   name="swinburne-static"
-   default="previewArticle">
-  
-  
-  
+<?xml version="1.0"?>
+<project xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:if="ant:if" xmlns:unless="ant:unless" name="swinburne-static" default="previewArticle">
   <description>
     Apache Ant buildfile for The Algernon Charles Swiburne Project.
   </description>
-  
   <!-- 
     See build-properties.xml for the settings used in this file. When referenced, 
     properties look like this:
@@ -15,23 +10,16 @@
     For more information, see https://ant.apache.org/manual/Tasks/xmlproperty.html
   -->
   <xmlproperty file="build-properties.xml" keepRoot="false"/>
-  
   <!-- Define the relative path from the swinburne-static repository (this directory) to the 
     directory which will hold the directory of generated static site files, as well 
     as the full compressed site and derived Ant build file. -->
   <property name="toDir.base" value="..${file.separator}${toDir}"/>
-  <property name="dummy.input" value="common/xslt/dummy.xml" />
-  
+  <property name="dummy.input" value="common/xslt/dummy.xml"/>
   <!-- Within ${toDir.base}, individually generated static site files will be 
     written to the ${context} directory. -->
   <property name="toDir.static" value="${toDir.base}${file.separator}${context}"/>
   <property name="toDir.tmpHTML" value="${toDir.base}${file.separator}tmpHTML"/>
   <property name="toDir.tmpTEI" value="${toDir.base}${file.separator}tmpTEI"/>
-
-  
-  
-  
-
   <!-- Check for the XML Resolver Java class, as it is a dependency for using the 
     Saxon HE processor. From the Saxon documentation on XSLT with Ant:
       "In particular, the classpath attribute of the xslt task element has been 
@@ -42,43 +30,38 @@
     https://www.saxonica.com/html/documentation11/using-xsl/xsltfromant.html
    -->
   <available classname="org.xmlresolver.Resolver" property="has.xmlresolver"/>
-  
-  
   <!-- 
     ANT TASKS
   -->
-  
   <!-- If the XML Resolver JAR file is not already loaded, provide instructions for 
     running Ant with the "lib" command line option. Ant <target>s that use Saxon HE 
     should list this one as a dependency. -->
   <target name="checkXmlResolver">
-    <echo unless:true="${has.xmlresolver}" level="error"
->XSL transformations cannot occur unless the XML Resolver JAR 
+    <echo unless:true="${has.xmlresolver}" level="error">XSL transformations cannot occur unless the XML Resolver JAR 
 is loaded when Ant starts up. Please run Ant again like this:
       ant -lib common${file.separator}lib${file.separator}saxon</echo>
     <fail unless="${has.xmlresolver}">Java class `org.xmlresolver.Resolver` is not available.</fail>
     <!-- Otherwise, a little acknowledgement that this build target succeeded. -->
     <echo level="info">OK</echo>
   </target>
-  
   <target name="help">
     <echo>** Swinburne Project static site generation build process **</echo>
-    <echo></echo>
+    <echo/>
     <echo>General format:</echo>
     <echo>  ant [-lib common${file.separator}lib${file.separator}saxon] [-Dprop=val ...] [target ...]</echo>
     <echo>Where:</echo>
     <echo>-lib common${file.separator}lib${file.separator}saxon</echo>
     <echo>  is required if the chosen target performs XSL transformations, but is optional otherwise.</echo>
     <echo>-Dprop=val</echo>
-    <echo>  is how you send parameters (which ant calls “properties”) to the process; typically</echo>
-    <echo>  used to say which specific article file to work on, e.g. “-Ddocument.id=000370”.</echo>
-    <echo>  (The “...” just means that you can use multiple -Dprop=val, as needed.)</echo>
+    <echo>  is how you send parameters (which ant calls &#x201C;properties&#x201D;) to the process; typically</echo>
+    <echo>  used to say which specific article file to work on, e.g. &#x201C;-Ddocument.id=000370&#x201D;.</echo>
+    <echo>  (The &#x201C;...&#x201D; just means that you can use multiple -Dprop=val, as needed.)</echo>
     <echo>target</echo>
     <echo>  indicates what you want done. For a list of possible targets with short descriptions,</echo>
     <echo>  issue `ant -projecthelp`. For longer descriptions, read on.</echo>
     <echo/>
     <echo>Targets:</echo>
-    <echo>       (Note that the “...” above means you can execute multiple targets at once;</echo>
+    <echo>       (Note that the &#x201C;...&#x201D; above means you can execute multiple targets at once;</echo>
     <echo>        however, this should rarely be necessary or even particularly helpful in</echo>
     <echo>        the Swinburne Project case.)</echo>
     <echo>help</echo>
@@ -98,9 +81,9 @@ is loaded when Ant starts up. Please run Ant again like this:
     <echo>  and the ZIP file are put in the ${previewDir}${file.separator} subdirectory, overwrit-</echo>
     <echo>  ing any previous version there.</echo>
     <echo>generateIssues</echo>
-    <echo>  generates the entire static site — index pages and HTML for each issue</echo>
+    <echo>  generates the entire static site &#x2014; index pages and HTML for each issue</echo>
     <echo>  listed in the toc${file.separator}toc.xml file, including the article itself, the author</echo>
-    <echo>  biographies, and the “landing” page. The output is placed in the</echo>
+    <echo>  biographies, and the &#x201C;landing&#x201D; page. The output is placed in the</echo>
     <echo>  ${toDir.static}/ directory, i.e. in a sibling to this directory, over-</echo>
     <echo>  writing any previous version. (Some temporary files are also placed in</echo>
     <echo>  ${toDir.base}/.) The output is designed to be viewed from a server, as</echo>
@@ -111,110 +94,76 @@ is loaded when Ant starts up. Please run Ant again like this:
     <echo>  it easy to transfer (e.g., to a server). The output file can be found at</echo>
     <echo>  ${toDir.base}${file.separator}${context}.zip.</echo>
   </target>
-  
   <target name="html">
-    <saxon-xslt basedir="${dir.to_xtf}" includes="*.xml" destdir="${dir.rdf}" force="true" extension=".rdf" style="${xslt.swinburne2rdf}" />
+    <saxon-xslt basedir="${dir.to_xtf}" includes="*.xml" destdir="${dir.rdf}" force="true" extension=".rdf" style="${xslt.swinburne2rdf}"/>
   </target>
-  
   <target name="processStaticHTML">
-    <xslt destdir="${toDir.tmpHTML}"
-      basedir="html"
-      includes="*.xml"
-      style="common${file.separator}xslt${file.separator}processHTML.xsl"
-      >
+    <xslt destdir="${toDir.tmpHTML}" basedir="html" includes="*.xml" style="common${file.separator}xslt${file.separator}processHTML.xsl">
       <factory name="${processor.name}">
-        <attribute name="http://saxon.sf.net/feature/xinclude-aware" 
-          value="on"/>
+        <attribute name="http://saxon.sf.net/feature/xinclude-aware" value="on"/>
       </factory>
     </xslt>
   </target>
-  
   <target name="processContents">
-	  <xslt 
-      in="common/xslt/dummy.xml"
-      out="${toDir.tmpHTML}/contents.html"
-      style="common${file.separator}xslt${file.separator}contents-json-html.xsl"
-      classpath="${processor.location}">
+    <xslt in="common/xslt/dummy.xml" out="${toDir.tmpHTML}/contents.html" style="common${file.separator}xslt${file.separator}contents-json-html.xsl" classpath="${processor.location}">
       <!-- To prevent Ant/Saxon from hitting the W3C servers too hard with requests 
         for the XHTML DTD, we use a catalog entry to map the ID to the local copy of 
         the DTD. -->
       <xmlcatalog>
-        <dtd publicId="-//W3C//DTD XHTML 1.0 Strict//EN"
-          location="${toDir.base}${file.separator}xhtml1-strict.dtd"/>
+        <dtd publicId="-//W3C//DTD XHTML 1.0 Strict//EN" location="${toDir.base}${file.separator}xhtml1-strict.dtd"/>
       </xmlcatalog>
       <factory name="${processor.name}">
-		  <attribute name="http://saxon.sf.net/feature/initialTemplate" value="{http://www.w3.org/1999/XSL/Transform}initial-template"/>
-	  </factory>
-	  <!--
+        <attribute name="http://saxon.sf.net/feature/initialTemplate" value="{http://www.w3.org/1999/XSL/Transform}initial-template"/>
+      </factory>
+      <!--
       <param name="assets-path" expression="..${file.separator}"/>
       <param name="context" expression="swinburne"/>
 	  -->
     </xslt>
   </target>
-
-<target name="processTEI" depends="processXIncludes">
+  <target name="processTEI" depends="processXIncludes">
     <!-- Step 1: Create output directory for HTML files -->
-    <echo message="Processing TEI to HTML transformation." />
-    <mkdir dir="${toDir.tmpHTML}" />
-
+    <echo message="Processing TEI to HTML transformation."/>
+    <mkdir dir="${toDir.tmpHTML}"/>
     <!-- Step 2: Perform XSLT transformation on preprocessed files -->
-    <xslt destdir="${toDir.tmpHTML}"
-          basedir="${toDir.tmpTEI}"
-          includes="*.xml"
-          style="common${file.separator}xslt${file.separator}p5-to-html.xsl"
-          classpath="${processor.location}">
-        <!-- Map the XHTML DTD to a local copy -->
-        <xmlcatalog>
-            <dtd publicId="-//W3C//DTD XHTML 1.0 Strict//EN"
-                 location="${toDir.base}${file.separator}xhtml1-strict.dtd"/>
-        </xmlcatalog>
-        <param name="assets-path" expression="..${file.separator}"/>
-	<param name="context" expression="${context}"/>
+    <xslt destdir="${toDir.tmpHTML}" basedir="${toDir.tmpTEI}" includes="*.xml" style="common${file.separator}xslt${file.separator}p5-to-html.xsl" classpath="${processor.location}">
+      <!-- Map the XHTML DTD to a local copy -->
+      <xmlcatalog>
+        <dtd publicId="-//W3C//DTD XHTML 1.0 Strict//EN" location="${toDir.base}${file.separator}xhtml1-strict.dtd"/>
+      </xmlcatalog>
+      <param name="assets-path" expression="..${file.separator}"/>
+      <param name="context" expression="${context}"/>
     </xslt>
-
     <!-- Step 3: Log completion -->
-    <echo message="TEI to HTML transformation completed. Output in ${toDir.tmpHTML}" />
-</target>
-
-<target name="processXIncludes">
+    <echo message="TEI to HTML transformation completed. Output in ${toDir.tmpHTML}"/>
+  </target>
+  <target name="processXIncludes">
     <!-- Step 1: Create output directory for files with expanded XIncludes -->
-    <echo message="Processing XIncludes." />
-    <mkdir dir="${toDir.tmpTEI}" />
-
+    <echo message="Processing XIncludes."/>
+    <mkdir dir="${toDir.tmpTEI}"/>
     <!-- Step 2: Process files using xmllint with a compatible shell -->
     <exec executable="bash">
-        <arg value="-c" />
-        <arg value="for file in tei/*.xml; do xmllint --xinclude --noent --dropdtd $file -o ${toDir.tmpTEI}/$(basename $file); done" />
+      <arg value="-c"/>
+      <arg value="for file in tei/*.xml; do xmllint --xinclude --noent --dropdtd $file -o ${toDir.tmpTEI}/$(basename $file); done"/>
     </exec>
-
     <!-- Step 3: Log completion -->
-    <echo message="XInclude processing completed for files in ${dir.data}" />
-</target>
-
-
-  <target name="addNavigation" >
-    <xslt destdir="${toDir.static}"
-      basedir="${toDir.tmpHTML}"
-      includes="*.html"
-      style="common${file.separator}xslt${file.separator}add-site-navigation.xsl"
-      classpath="${processor.location}">
+    <echo message="XInclude processing completed for files in ${dir.data}"/>
+  </target>
+  <target name="addNavigation">
+    <xslt destdir="${toDir.static}" basedir="${toDir.tmpHTML}" includes="*.html" style="common${file.separator}xslt${file.separator}add-site-navigation.xsl" classpath="${processor.location}">
       <!-- To prevent Ant/Saxon from hitting the W3C servers too hard with requests 
         for the XHTML DTD, we use a catalog entry to map the ID to the local copy of 
         the DTD. -->
       <xmlcatalog>
-        <dtd publicId="-//W3C//DTD XHTML 1.0 Strict//EN"
-          location="${toDir.base}${file.separator}xhtml1-strict.dtd"/>
+        <dtd publicId="-//W3C//DTD XHTML 1.0 Strict//EN" location="${toDir.base}${file.separator}xhtml1-strict.dtd"/>
       </xmlcatalog>
       <factory name="${processor.name}"/>
       <param name="assets-path" expression="..${file.separator}"/>
       <param name="context" expression="${context}"/>
     </xslt>
-</target>
-    
-
+  </target>
   <!-- Generate a static version of the Swinburne Project website. -->
-  <target name="generateSite" depends="checkXmlResolver, processStaticHTML, processTEI, processContents, addNavigation, build-css"
-     description="Generate a full static copy of Swinburne Project intended for the Swinburne Project server. This is NOT a standalone copy.">
+  <target name="generateSite" depends="checkXmlResolver, processStaticHTML, processTEI, processContents, addNavigation, build-css" description="Generate a full static copy of Swinburne Project intended for the Swinburne Project server. This is NOT a standalone copy.">
     <mkdir dir="${toDir.static}"/>
     <mkdir dir="${toDir.static}/js"/>
     <mkdir dir="${toDir.static}/css"/>
@@ -237,13 +186,13 @@ is loaded when Ant starts up. Please run Ant again like this:
       <fileset dir="css"/>
     </copy>
     <copy todir="${toDir.static}/js">
-	    <fileset dir="node_modules/bootstrap/dist/js">
-        	<include name="bootstrap.bundle.min.js"/>
-		<!-- .map only necessary for debugging. -->
-		<!--
+      <fileset dir="node_modules/bootstrap/dist/js">
+        <include name="bootstrap.bundle.min.js"/>
+        <!-- .map only necessary for debugging. -->
+        <!--
 		<include name="bootstrap.bundle.min.js.map"/>
 		-->
-	</fileset>
+      </fileset>
     </copy>
     <copy todir="${toDir.static}">
       <fileset dir=".">
@@ -253,16 +202,10 @@ is loaded when Ant starts up. Please run Ant again like this:
     <!-- Download a copy of the W3C XHTML 1.0 Strict DTD, and its supporting 
       character entity files. If these are already present in the swinburne-static 
       directory, nothing is downloaded. -->
-    <get src="https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
-         dest="${toDir.base}" skipexisting="true"/>
-    <get src="https://www.w3.org/TR/xhtml1/DTD/xhtml-lat1.ent"
-         dest="${toDir.base}" skipexisting="true"/>
-    <get src="https://www.w3.org/TR/xhtml1/DTD/xhtml-symbol.ent"
-         dest="${toDir.base}" skipexisting="true"/>
-    <get src="https://www.w3.org/TR/xhtml1/DTD/xhtml-special.ent"
-         dest="${toDir.base}" skipexisting="true"/>
-
-    
+    <get src="https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" dest="${toDir.base}" skipexisting="true"/>
+    <get src="https://www.w3.org/TR/xhtml1/DTD/xhtml-lat1.ent" dest="${toDir.base}" skipexisting="true"/>
+    <get src="https://www.w3.org/TR/xhtml1/DTD/xhtml-symbol.ent" dest="${toDir.base}" skipexisting="true"/>
+    <get src="https://www.w3.org/TR/xhtml1/DTD/xhtml-special.ent" dest="${toDir.base}" skipexisting="true"/>
     <!-- Process static HTML pages -->
     <!--
     <xslt destdir="${toDir.static}"
@@ -277,19 +220,17 @@ is loaded when Ant starts up. Please run Ant again like this:
     </xslt>
     -->
     <!-- Generate the ZIP file of all articles' XML. -->
-        <!-- Use the Ant build file created in "generateIssues" to zip up all article 
+    <!-- Use the Ant build file created in "generateIssues" to zip up all article 
       XML. -->
     <!-- Generate the ZIP file of the entire static site. -->
     <!-- <antcall target="compressStatic"/> -->
   </target>
-  
   <!-- Compress the static site's files for backup and transportation. -->
   <target name="compressStatic">
     <zip destfile="${toDir.base}${file.separator}${context}.zip">
       <fileset dir="${toDir.static}"/>
     </zip>
   </target>
-
   <target name="defaultnotice">
     <echo>#</echo>
     <echo># Generating single article preview.</echo>
@@ -298,35 +239,24 @@ is loaded when Ant starts up. Please run Ant again like this:
     <echo># For target list issue `ant -projecthelp`.</echo>
     <echo>#</echo>
   </target>
-  
   <!-- Create an HTML preview version of a single article. -->
-  <target name="previewArticle" depends="defaultnotice,checkXmlResolver" 
-     description="Create an HTML preview version of a single article.">
+  <target name="previewArticle" depends="defaultnotice,checkXmlResolver" description="Create an HTML preview version of a single article.">
     <!-- If the 'document.id' property wasn't already set using the command line, Ant 
       will prompt for it. -->
-    <input unless:set="document.id" 
-       message="Please type the ID of the article you want to preview:" 
-       addproperty="document.id"/>
+    <input unless:set="document.id" message="Please type the ID of the article you want to preview:" addproperty="document.id"/>
     <!-- Test the 'document.id' property to make sure it has 6 digits and doesn't 
       start with '9'. -->
     <condition property="document.id.ok" value="${document.id}">
       <matches string="${document.id}" pattern="^[0-8]\d{5,5}$"/>
     </condition>
-    <fail unless="document.id.ok"
-       message="An article ID must be 6 digits long. It must not start with '9'"/>
+    <fail unless="document.id.ok" message="An article ID must be 6 digits long. It must not start with '9'"/>
     <!-- Set the assets path if it hasn't already been set. -->
-    <property unless:set="assets.path" name="assets.path" 
-      value="..${file.separator}"/>
+    <property unless:set="assets.path" name="assets.path" value="..${file.separator}"/>
     <!-- If it doesn't exist yet, create the preview directory specified in 
       build-properties.xml. -->
     <mkdir dir="${previewDir}"/>
     <!-- Transform the article with XSLT, using the Saxon HE processor. -->
-    <xslt in="articles${file.separator}${document.id}${file.separator}${document.id}.xml" 
-          out="${previewDir}${file.separator}${document.id}.html"
-          style="common${file.separator}xslt${file.separator}template_article.xsl"
-          classpath="${processor.location}"
-          force="true"
-          failOnTransformationError="false">
+    <xslt in="articles${file.separator}${document.id}${file.separator}${document.id}.xml" out="${previewDir}${file.separator}${document.id}.html" style="common${file.separator}xslt${file.separator}template_article.xsl" classpath="${processor.location}" force="true" failOnTransformationError="false">
       <factory name="${processor.name}"/>
       <param name="assets-path" expression="${assets.path}"/>
       <param name="context" expression="${context}"/>
@@ -335,14 +265,10 @@ is loaded when Ant starts up. Please run Ant again like this:
     </xslt>
     <echo message="Created article preview at ${previewDir}${file.separator}${document.id}.html"/>
   </target>
-  
-  <target name="zipPreviewArticle"
-     description="Create a ZIP file which contains the HTML preview for a single article.">
+  <target name="zipPreviewArticle" description="Create a ZIP file which contains the HTML preview for a single article.">
     <!-- If the 'document.id' property wasn't already set using the command line, Ant 
       will prompt for it. -->
-    <input unless:set="document.id" 
-       message="Please type the ID of the article you want to preview:" 
-       addproperty="document.id"/>
+    <input unless:set="document.id" message="Please type the ID of the article you want to preview:" addproperty="document.id"/>
     <!-- The "previewArticle" task assumes that the common directory is a sibling of 
       the current one. For the ZIP, we want the HTML file at the same level as the 
       common directory. -->
@@ -350,20 +276,17 @@ is loaded when Ant starts up. Please run Ant again like this:
     <antcall target="previewArticle" inheritall="yes"/>
     <zip destfile="${previewDir}${file.separator}petrarchive-document-${document.id}.zip">
       <fileset dir="." includes="common/css/ common/js/"/>
-      <fileset dir=".${file.separator}articles${file.separator}${document.id}" 
-        excludes="**${file.separator}${document.id}.xml **${file.separator}${document.id}.xhtml"/>
+      <fileset dir=".${file.separator}articles${file.separator}${document.id}" excludes="**${file.separator}${document.id}.xml **${file.separator}${document.id}.xhtml"/>
       <fileset dir="${previewDir}">
         <filename name="${document.id}.html"/>
       </fileset>
     </zip>
   </target>
-
-    <!-- Target to execute npm run build-css -->
-    <target name="build-css">
-        <exec executable="npm">
-            <arg value="run"/>
-            <arg value="build-css"/>
-        </exec>
-    </target>
-  
+  <!-- Target to execute npm run build-css -->
+  <target name="build-css">
+    <exec executable="npm">
+      <arg value="run"/>
+      <arg value="build-css"/>
+    </exec>
+  </target>
 </project>
