@@ -2,7 +2,7 @@
         <teiHeader xml:id="d1e4">
                 <fileDesc xml:id="d1e6">
                         <titleStmt xml:id="d1e8">
-                                <title xml:id="d1e10">Love’s Cross-Currents</title>
+                                <title xml:id="d1e10">Love’s Cross-Currents: A Year’s Letter</title>
                                 <author xml:id="d1e13">
                                         <persName xml:id="d1e15" ref="#acs">Algernon Charles Swinburne</persName>
                                 </author>
@@ -4251,9 +4251,6 @@
                                 <language xml:id="d1e109" ident="lat">Latin</language>
                                 <language xml:id="d1e112" ident="ita">Italian</language>
                         </langUsage>
-                  <textClass>
-                    <catRef target="#collex_genre_fiction"/><catRef xml:id="parent_vol" target="#fix"/>
-                  </textClass>
                 </profileDesc>
                 <encodingDesc>
 					<classDecl>

@@ -4526,7 +4526,7 @@
                 </setting>
             </settingDesc>
          <textClass>
-            <catRef target="#collex_genre_poetry"/><catRef xml:id="parent_vol" target="#fix"/>
+            <catRef target="#collex_genre_poetry"/>
          </textClass>
       </profileDesc>
       <encodingDesc>
