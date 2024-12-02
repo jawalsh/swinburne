@@ -43,6 +43,29 @@
                         </ul>
                       </li>
                     </xsl:when>
+                    <xsl:when test="fn:map[@key='volume']/fn:array[@key='contents']/fn:map"><li>
+                      <!-- Extract the volume title -->
+                      <xsl:value-of select="fn:map[@key='volume']/fn:string[@key='title']"/>
+                      <xsl:value-of select="concat(' (',fn:map[@key='volume']/fn:string[@key='date'],')')"/>
+                      <ul>
+                        <!-- Iterate over contents if they exist -->
+                        <xsl:for-each select="fn:map[@key='volume']/fn:array[@key='contents']/fn:map">
+                          <li>
+                            <!-- Extract the item title -->
+                            <a>
+                              <xsl:attribute name="href">
+                                <xsl:call-template name="generateInternalURL">
+                                  <xsl:with-param name="docID" select="ancestor::fn:map[@key = 'volume']/fn:string[@key = 'id']"/>
+                                  <xsl:with-param name="ref" select="fn:map[@key='item']/fn:string[@key='id']"/>
+                                </xsl:call-template>
+                              </xsl:attribute>
+                              <xsl:value-of select="fn:map[@key='item']/fn:string[@key='title']"/>
+                            </a>
+                          </li>
+                        </xsl:for-each>
+                      </ul>
+                    </li>
+                    </xsl:when>
                     <xsl:otherwise>
                       <li>
                         <a>
@@ -69,5 +92,11 @@
   <xsl:template name="generateURL">
     <xsl:param name="docID"/>
     <xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$docID,'.html')"/>
+  </xsl:template>
+  
+  <xsl:template name="generateInternalURL">
+    <xsl:param name="docID"/>
+    <xsl:param name="ref"/>
+    <xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$docID,'.html#',$ref)"/>
   </xsl:template>
 </xsl:stylesheet>
