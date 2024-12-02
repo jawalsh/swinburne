@@ -4919,7 +4919,7 @@
                                         </row>
                                 </table>
                         </div>
-                  <div xml:id="d1e948">
+                  <div xml:id="prologue">
                     <index xml:id="d1e950" indexName="nav"/>
                     <pb n="[1]" facs="acs0000005-01-018"/>
                                 <head xml:id="d1e952" rendition="#center">PROLOGUE</head>
@@ -5983,7 +5983,7 @@
                     
                                         <pb xml:id="d1e1467" n="[41]" facs="acs0000005-01-058"/>
                                         <head xml:id="d1e1469" rendition="#center">A YEAR’S LETTERS</head>
-                                        <div xml:id="d1e1473">
+                                        <div xml:id="lcc_i">
                                           <index xml:id="d1e1475" indexName="nav"/>
                                                 <head xml:id="d1e1477" rendition="#center">I<lb xml:id="d1e1479"/>
                                                   <hi xml:id="d1e1481" rendition="#sc">Lady Midhurst to Mrs.
@@ -6257,7 +6257,7 @@
                                         </div>
                                         <pb xml:id="d1e1615" n="51" facs="acs0000005-01-068"/>
                                         <!-- <fw type="header" rendition="#center">A Year's Letters</fw> -->
-                                        <div xml:id="d1e1619">
+                                        <div xml:id="lcc_ii">
   <index xml:id="d1e1621" indexName="nav"/>
                                                 <head xml:id="d1e1623" rendition="#center">II<lb xml:id="d1e1625"/>
                                                   <hi xml:id="d1e1627" rendition="#sc">Mrs. Radworth to Francis
@@ -6365,7 +6365,7 @@
                                         </div>
                                         <pb xml:id="d1e1707" n="55" facs="acs0000005-01-072"/>
                                         <!-- <fw type="header" rendition="#center">A Year's Letters</fw> -->
-                                        <div xml:id="d1e1712">
+                                        <div xml:id="lcc_iii">
   <index xml:id="d1e1714" indexName="nav"/>
                                                 <head xml:id="d1e1716" rendition="#center">III<lb xml:id="d1e1718"/>
                                                   <hi xml:id="d1e1720" rendition="#sc">Lady Midhurst to Lady
@@ -6638,7 +6638,7 @@
                                         </div>
                                         <pb xml:id="d1e1880" n="65" facs="acs0000005-01-082"/>
                                         <!-- <fw type="header" rendition="#center">A Year's Letters</fw> -->
-                                        <div xml:id="d1e1884">
+                                        <div xml:id="lcc_iv">
   <index xml:id="d1e1886" indexName="nav"/>
                                                 <head xml:id="d1e1888" rendition="#center">IV<lb xml:id="d1e1890"/>
                                                   <hi xml:id="d1e1892" rendition="#sc">Francis Cheyne to Mrs.
@@ -6734,7 +6734,7 @@
                                         </div>
                                         <pb xml:id="d1e1946" n="69" facs="acs0000005-01-086"/>
                                         <!-- <fw type="header" rendition="#center">A Year's Letters</fw> -->
-                                        <div xml:id="d1e1951">
+                                        <div xml:id="lcc_v">
   <index xml:id="d1e1953" indexName="nav"/>
                                                 <head xml:id="d1e1955" rendition="#center">V<lb xml:id="d1e1957"/>
                                                   <hi xml:id="d1e1959" rendition="#sc">Lady Cheyne to Francis
@@ -6826,7 +6826,7 @@
                                         <pb xml:id="d1e2005" n="72" facs="acs0000005-01-089"/>
                                         <!-- <fw type="header" rendition="#center #uc">Love's
                                                 Cross-Currents</fw> -->
-                                        <div xml:id="d1e2009">
+                                        <div xml:id="lcc_vi">
   <index xml:id="d1e2011" indexName="nav"/>
                                                 <head xml:id="d1e2013" rendition="#center">VI<lb xml:id="d1e2015"/>
                                                   <hi xml:id="d1e2017" rendition="#sc">Lady Midhurst to Reginald
@@ -7151,7 +7151,7 @@
                                         <pb xml:id="d1e2178" n="84" facs="acs0000005-01-101"/>
                                         <!-- <fw type="header" rendition="#center #uc">Love's
                                                 Cross-Currents</fw> -->
-                                        <div xml:id="d1e2183">
+                                        <div xml:id="lcc_vii">
   <index xml:id="d1e2185" indexName="nav"/>
                                                 <head xml:id="d1e2187" rendition="#center">VII<lb xml:id="d1e2189"/>
                                                   <hi xml:id="d1e2191" rendition="#sc">Reginald Harewood to Edward
@@ -7244,7 +7244,7 @@
                                         <pb xml:id="d1e2223" n="88" facs="acs0000005-01-105"/>
                                         <!-- <fw type="header" rendition="#center #uc">Love's
                                                 Cross-Currents</fw> -->
-                                        <div xml:id="d1e2227">
+                                        <div xml:id="lcc_viii">
   <index xml:id="d1e2229" indexName="nav"/>
                                                 <head xml:id="d1e2231" rendition="#center">VIII<lb xml:id="d1e2233"/>
                                                   <hi xml:id="d1e2235" rendition="#sc">Francis Cheyne to Mrs.
@@ -7340,7 +7340,7 @@
                                         <pb xml:id="d1e2288" n="92" facs="acs0000005-01-109"/>
                                         <!-- <fw type="header" rendition="#center #uc">Love's
                                                 Cross-Currents</fw> -->
-                                        <div xml:id="d1e2293">
+                                        <div xml:id="lcc_ix">
   <index xml:id="d1e2295" indexName="nav"/>
                                                 <head xml:id="d1e2297" rendition="#center">IX<lb xml:id="d1e2299"/>
                                                   <hi xml:id="d1e2301" rendition="#sc">Lady Midhurst to Lady
@@ -7560,7 +7560,7 @@
                                         <pb xml:id="d1e2394" n="100" facs="acs0000005-01-117"/>
                                         <!-- <fw type="header" rendition="#center #uc">Love's
                                                 Cross-Currents</fw> -->
-                                        <div xml:id="d1e2398">
+                                        <div xml:id="lcc_x">
   <index xml:id="d1e2400" indexName="nav"/>
                                                 <head xml:id="d1e2402" rendition="#center">X<lb xml:id="d1e2404"/>
                                                   <hi xml:id="d1e2406" rendition="#sc">Lady Midhurst to Lady
