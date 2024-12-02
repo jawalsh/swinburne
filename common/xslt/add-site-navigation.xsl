@@ -150,11 +150,14 @@ Copyright © 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  b
 					</div>
 					<div class="col-sm-3">
 						<!--	<xsl:apply-templates select="child::div[@id='toc']"/> -->
+						<!-- if no *[@xml:id = 'parent-vol'] then not a collection with toc. Maybe. Have to figure out later what to do with internal table of contents, for e.g., Year's Letters, Blake, etc. -->
+						<xsl:if test="//meta[@name = 'parent_vol']">
 						<xsl:call-template name="toc">
 							<xsl:with-param name="volume-id">
 								<xsl:value-of select="//meta[@name = 'parent_vol']/@content"/>
 							</xsl:with-param>
 						</xsl:call-template>
+						</xsl:if>
 					</div>
 				</div>
 			</div>
@@ -162,6 +165,7 @@ Copyright © 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  b
 	</xsl:template>
 	<xsl:template name="toc">
 	<!-- Convert JSON to XML -->
+		    <xsl:param name="html-doc-id" select="/html/@id"/>
 		    <xsl:param name="volume-id"/>
                     <xsl:variable name="json-xml" select="fn:json-to-xml(fn:unparsed-text('../data/contents.json'))"/>
 		    <xsl:variable name="volume" select="$json-xml//fn:map[@key = 'volume' and fn:string[@key = 'id'] = $volume-id]" />
@@ -177,6 +181,17 @@ Copyright © 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  b
                                 <!-- Iterate over works if they exist -->
                                 <xsl:for-each select="$volume/fn:array[@key='works']/fn:map">
                                     <li>
+					    <xsl:if test="fn:map[@key = 'work']/fn:string[@key = 'id'] = $html-doc-id">
+						    <xsl:attribute name="class">
+							<xsl:value-of select="'fw-bold'"/>
+						    </xsl:attribute>
+					    </xsl:if>
+					    <xsl:comment>
+						    <xsl:value-of select="concat('map-id: ', fn:map[@key = 'work']/fn:string[@key = 'id'])"/>
+					    </xsl:comment>
+					    <xsl:comment>
+						    <xsl:value-of select="concat,('html-id: ',/html/@id)"/>
+					    </xsl:comment>
                                         <!-- Extract the work title -->
 					<a>
 						<xsl:attribute name="href">
