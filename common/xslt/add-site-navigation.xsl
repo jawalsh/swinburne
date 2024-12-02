@@ -206,6 +206,26 @@ Copyright © 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  b
                                 </xsl:for-each>
                             </ul>
 		</xsl:when>
+		<xsl:when test="$volume/fn:array[@key='contents']/fn:map">
+                            <ul>
+                                <!-- Iterate over works if they exist -->
+                                <xsl:for-each select="$volume/fn:array[@key='contents']/fn:map">
+                                    <li>
+									<!-- Extract the work title -->
+					<a>
+						<xsl:attribute name="href">
+							<xsl:call-template name="generateInternalURL">
+								<xsl:with-param name="docID" select="$volume/fn:string[@key='id']"/>
+								<xsl:with-param name="ref" select="fn:map[@key='item']/fn:string[@key='id']"/>
+							</xsl:call-template>
+						</xsl:attribute>
+
+                                        <xsl:value-of select="fn:map[@key='item']/fn:string[@key='title']"/>
+				</a>
+                                    </li>
+                                </xsl:for-each>
+                            </ul>
+		</xsl:when>
 		<xsl:otherwise>
 			<li>
 				<a>
@@ -385,4 +405,10 @@ Copyright © 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  b
 		<xsl:param name="docID"/>
 		<xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$docID,'.html')"/>
 	</xsl:template>
+	
+	<xsl:template name="generateInternalURL">
+    <xsl:param name="docID"/>
+    <xsl:param name="ref"/>
+    <xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$docID,'.html#',$ref)"/>
+  </xsl:template>
 </xsl:stylesheet>
