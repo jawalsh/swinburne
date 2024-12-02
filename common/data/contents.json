@@ -1,10 +1,37 @@
 [
+    {   "volume": {
+	    "title": "The Queen-Mother. Rosamond.: Two Plays",
+	    "date": "1860",
+	    "id": "qmr",
+	    "works": [
+	        {
+		    "work": {
+		        "title": "The Queen-Mother",
+			"id": "acs0000002-01-i001"
+		    }
+		},
+		{
+		    "work": {
+		        "title": "Rosamond",
+			"id": "acs0000002-01-i002"
+		    }
+		}
+	    ]
+    	}	
+    },
     {
         "volume": {
             "title": "Atalanta in Calydon",
             "date": "1865",
             "id": "acs0000001-04-i002"
         }
+    },
+    {
+        "volume": {
+	    "title": "Love’s Cross Currents: A Year’s Letters",
+	    "date": "1905",
+	    "id": "acs0000005-01"
+	}
     },
     {
         "volume": {
