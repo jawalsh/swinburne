@@ -1,23 +1,24 @@
 [
-    {   "volume": {
-	    "title": "The Queen-Mother. Rosamond.: Two Plays",
-	    "date": "1860",
-	    "id": "qmr",
-	    "works": [
-	        {
-		    "work": {
-		        "title": "The Queen-Mother",
-			"id": "acs0000002-01-i001"
-		    }
-		},
-		{
-		    "work": {
-		        "title": "Rosamond",
-			"id": "acs0000002-01-i002"
-		    }
-		}
-	    ]
-    	}	
+    {
+        "volume": {
+            "title": "The Queen-Mother. Rosamond.: Two Plays",
+            "date": "1860",
+            "id": "qmr",
+            "works": [
+                {
+                    "work": {
+                        "title": "The Queen-Mother",
+                        "id": "acs0000002-01-i001"
+                    }
+                },
+                {
+                    "work": {
+                        "title": "Rosamond",
+                        "id": "acs0000002-01-i002"
+                    }
+                }
+            ]
+        }
     },
     {
         "volume": {
@@ -28,16 +29,204 @@
     },
     {
         "volume": {
-	    "title": "Love’s Cross Currents: A Year’s Letters",
-	    "date": "1905",
-	    "id": "acs0000005-01"
-	}
+            "title": "Love’s Cross Currents: A Year’s Letters",
+            "date": "1905",
+            "id": "acs0000005-01",
+            "contents": [
+                {
+                    "item": {
+                        "title": "Prologue",
+                        "id": "llc_prologue"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "I. Lady Midhurst to Mrs. Radworth",
+                        "id": "lcc_i"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "II. Mrs. Radworth to Francis Cheyne",
+                        "id": "lcc_ii"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "III. Lady Midhurst to Lady Cheyne",
+                        "id": "lcc_iii"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "IV. Francis Cheyne to Mrs. Radworth",
+                        "id": "lcc_iv"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "V. Lady Cheyne to Francis Cheyne",
+                        "id": "lcc_v"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "VI. Lady Midhurst to Reginald Harewood",
+                        "id": "lcc_vi"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "VII. Reginald Harewood to Edward Audley",
+                        "id": "lcc_vii"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "VIII. Francis Cheyne to Mrs. Radworth",
+                        "id": "lcc_viii"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "IX. Lady Midhurst to Lady Cheyne",
+                        "id": "lcc_ix"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "X. Lady Midhurst to Lady Cheyne",
+                        "id": "lcc_x"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XI. Reginald Harewood to Mrs. Radworth",
+                        "id": "lcc_xi"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XII. Mrs. Radworth to Reginald Harewood",
+                        "id": "lcc_xii"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XIII. Francis Cheyne to Lady Cheyne",
+                        "id": "lcc_xiii"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XIV. Lady Midhurst to Reginald Harewood",
+                        "id": "lcc_xiv"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XV. Lady Cheyne to Francis",
+                        "id": "lcc_xv"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XVI. Mrs. Radworth to Lady Midhurst",
+                        "id": "lcc_xvi"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XVII. Lady Midhurst to Lady Cheyne",
+                        "id": "lcc_xvii"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XVIII. Lady Midhurst to Francis Cheyne",
+                        "id": "lcc_xviii"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XIX. Francis Cheyne to Mrs. Radworth",
+                        "id": "lcc_xix"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XX. Reginald Harewood to Lady Cheyne",
+                        "id": "lcc_xx"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XXI. Lady Midhurst to Mrs. Radworth",
+                        "id": "lcc_xxi"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XXII. Captain Harewood to Reginald",
+                        "id": "lcc_xxii"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XXIII. Francis Cheyne to Mrs. Radworth",
+                        "id": "lcc_xxiii"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XXIV. Lady Cheyne to Mrs. Radworth",
+                        "id": "lcc_xxiv"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XXV. Reginald Harewood to Edward Audley",
+                        "id": "lcc_xxv"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XXVI. Lady Cheyne to Reginald Harewood",
+                        "id": "lcc_xxvi"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XXVII. Reginald Harewood to Mrs. Radworth",
+                        "id": "lcc_xxvii"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XXVIII. Lady Midhurst to Mrs. Radworth",
+                        "id": "lcc_xxviii"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XXIX. Francis Cheyne to Lady Midhurst",
+                        "id": "lcc_xxix"
+                    }
+                },
+                {
+                    "item": {
+                        "title": "XXX. Lady Midhurst to Lady Cheyne",
+                        "id": "lcc_xxx"
+                    }
+                }
+            ]
+        }
     },
     {
         "volume": {
             "title": "Poems and Ballads, First Series",
             "date": "1866",
-	    "id": "pb1",
+            "id": "pb1",
             "works": [
                 {
                     "work": {
@@ -418,7 +607,7 @@
         "volume": {
             "title": "Songs Before Sunrise",
             "date": "1871",
-	    "id": "sbs",
+            "id": "sbs",
             "works": [
                 {
                     "work": {
@@ -661,7 +850,7 @@
         "volume": {
             "title": "Songs of Two Nations",
             "date": "1875",
-	    "id": "sotn",
+            "id": "sotn",
             "works": [
                 {
                     "work": {
@@ -695,7 +884,7 @@
         "volume": {
             "title": "Poems and Ballads, Second Series",
             "date": "1878",
-	    "id": "pb2",
+            "id": "pb2",
             "works": [
                 {
                     "work": {
@@ -980,7 +1169,7 @@
         "volume": {
             "title": "Songs of the Springtides",
             "date": "1880",
-	    "id": "sos",
+            "id": "sos",
             "works": [
                 {
                     "work": {
@@ -1025,7 +1214,7 @@
         "volume": {
             "title": "Studies in Song",
             "date": "1880",
-	    "id": "sis",
+            "id": "sis",
             "works": [
                 {
                     "work": {
@@ -1112,7 +1301,7 @@
         "volume": {
             "title": "The Heptalogia or The Seven Against Sense: A Cap with Seven Bells",
             "date": "1880",
-	    "id": "hept",
+            "id": "hept",
             "works": [
                 {
                     "work": {
@@ -1163,7 +1352,7 @@
         "volume": {
             "title": "Tristram of Lyonesse and Other Poems",
             "date": "1882",
-	    "id": "tol",
+            "id": "tol",
             "works": [
                 {
                     "work": {
@@ -1418,7 +1607,7 @@
         "volume": {
             "title": "A Century of Roundels",
             "date": "1883",
-	    "id": "cor",
+            "id": "cor",
             "works": [
                 {
                     "work": {
@@ -1739,7 +1928,7 @@
         "volume": {
             "title": "A Midsummer Holiday and Other Poems",
             "date": "1884",
-	    "id": "mhop",
+            "id": "mhop",
             "works": [
                 {
                     "work": {
@@ -1916,7 +2105,7 @@
         "volume": {
             "title": "Poems and Ballads, Third Series",
             "date": "1889",
-	    "id": "pb3",
+            "id": "pb3",
             "works": [
                 {
                     "work": {
@@ -2135,7 +2324,7 @@
         "volume": {
             "title": "Astrophel and Other Poems",
             "date": "1894",
-	    "id": "aop",
+            "id": "aop",
             "works": [
                 {
                     "work": {
@@ -2397,7 +2586,7 @@
         "volume": {
             "title": "A Channel Passage and Other Poems",
             "date": "1904",
-	    "id": "cpop",
+            "id": "cpop",
             "works": [
                 {
                     "work": {
@@ -2742,7 +2931,7 @@
         "volume": {
             "title": "Poems of Algernon Charles Swinburne",
             "date": "1904",
-	    "id": "poemsacs",
+            "id": "poemsacs",
             "works": [
                 {
                     "work": {
@@ -2757,7 +2946,7 @@
         "volume": {
             "title": "The Algernon Charles Swinburne Project",
             "date": "2024",
-	    "id": "acsp",
+            "id": "acsp",
             "works": [
                 {
                     "work": {
