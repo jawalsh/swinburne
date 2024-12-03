@@ -202,7 +202,7 @@
 					<!--
 					<xsl:variable name="msIdentifier" select="fileDesc/sourceDesc/msDesc/msIdentifier"/>
 					<div>
-						<h2 class="inline">Physical Location:</h2>
+						<h2 class="d-inline">Physical Location:</h2>
 						<xsl:value-of select="string-join(
 							(
 								$msIdentifier/collection, 
@@ -226,7 +226,7 @@
 					<div>
 
 						<xsl:variable name="base-text" select="//biblStruct[@xml:id = concat(/TEI/@xml:id,'-bibl')]"/>
-						<h2 class="h6">Source description</h2>
+						<h2>Source description</h2>
 						The text below is based on that found in:
 					        <xsl:choose>
 							<xsl:when test="$base-text/analytic">
@@ -253,7 +253,7 @@
 
 					<xsl:apply-templates select="fileDesc/titleStmt/respStmt" />
 					<div>
-						<h2 class="h6">Preferred Citation</h2>
+						<h2>Preferred Citation</h2>
 						<div class="hang">
 						<xsl:for-each select="fileDesc/titleStmt/author/persName">
 								<xsl:call-template name="lookup-persName-by-id">
@@ -280,34 +280,34 @@
 	</xsl:template>
 	<xsl:template match="titleStmt/respStmt" mode="create-content">
 		<xsl:if test="name/@type=('editor', 'reviewer', 'transcriber')">
-			<h2 class="inline"><xsl:value-of select="resp"/>:</h2>
+			<h2 class="d-inline"><xsl:value-of select="resp"/>:</h2>
 			<xsl:value-of select="name"/>
 		</xsl:if>
 	</xsl:template>
 	<xsl:template match="history" mode="create-content">
-		<h2 class="inline">Custodial History:</h2>
+		<h2 class="d-inline">Custodial History:</h2>
 		<xsl:apply-templates/>
 	</xsl:template>
 	<xsl:template match="msItem/author" mode="create-content">
-		<h2 class="inline">Author:</h2>
+		<h2 class="d-inline">Author:</h2>
 		<xsl:apply-templates/>
 	</xsl:template>
 	<xsl:template match="msItem/title" mode="create-content">
 		<xsl:if test="position()=1"><!-- only add "TItle:" before the first title -->
-			<h2 class="inline">Title:</h2>
+			<h2 class="d-inline">Title:</h2>
 		</xsl:if>
 		<xsl:apply-templates/>
 	</xsl:template>	
 	<xsl:template match="msItem/note[@type='description']" mode="create-content">
-		<h2 class="inline">Contents:</h2>
+		<h2 class="d-inline">Contents:</h2>
 		<xsl:apply-templates/>
 	</xsl:template>
 	<xsl:template match="support" mode="create-content">
-		<h2 class="inline">Physical Description:</h2>
+		<h2 class="d-inline">Physical Description:</h2>
 		<xsl:apply-templates/>
 	</xsl:template>	
 	<xsl:template match="langUsage" mode="create-content">
-		<h2 class="inline">Languages:</h2>
+		<h2 class="d-inline">Languages: </h2>
 		<xsl:value-of select="string-join(language, ', ')"/>
 	</xsl:template>
 	

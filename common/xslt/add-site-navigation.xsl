@@ -344,6 +344,13 @@ Copyright © 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  b
 	<xsl:template mode="replace-class" match="//div[contains-token(@class, 'tei-epigraph')]|//div[contains-token(@class, 'tei-castList')]">
 		<xsl:attribute name="class"><xsl:value-of select="concat(@class,' my-4')"/></xsl:attribute>
 	</xsl:template>
+	<!-- elements that should add bottom margin -->
+	<xsl:template mode="replace-class" match="//div[contains-token(@class, 'tei-stage')]|//div[contains-token(@class, 'tei-sp')]">
+		<xsl:attribute name="class"><xsl:value-of select="concat(@class,' mb-4')"/></xsl:attribute>
+	</xsl:template>
+	<xsl:template mode="replace-class" match="//div[contains-token(@class, 'tei-castGroup')]">
+		<xsl:attribute name="class"><xsl:value-of select="concat(@class,' mb-4')"/></xsl:attribute>
+	</xsl:template>
 <xsl:template mode="replace-class" match="//div[contains-token(@class, 'tei-p')][. is ../div[contains-token(@class, 'tei-p')][1]]">
 		<xsl:attribute name="class"><xsl:value-of select="concat(@class,' first-tei-p')"/></xsl:attribute>
 	</xsl:template>
@@ -378,6 +385,11 @@ Copyright © 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  b
 	<xsl:template mode="replace-class" match="details[contains-token(@class, 'tei-teiHeader')]/div">
 		<xsl:attribute name="class">expansion card card-body mt-3</xsl:attribute>
 	</xsl:template>
+	<!-- style headings in teiHeader Document Information -->
+	<xsl:template mode="replace-class" match="div[contains-token(@class, 'tei-teiHeader')]//h2">
+		<xsl:attribute name="class">{@class} h5</xsl:attribute>
+	</xsl:template>
+	
 	
 	<!-- hyperlinks which point to the next and previous search highlight -->
 	<xsl:template mode="replace-class" match="a[@class = 'hit-link']">

@@ -5,16 +5,15 @@ $font-family-base: 'Jost', 'helvetica', sans-serif;
 $font-size-base: 1.2rem;
 $primary: #75070C; 
 $headings-font-family: 'Crimson Pro', 'Cambria', 'Georgia', 'Times New Roman', serif; 
-/*
-$headings-font-size: (
-  h1: 2rem,
-  h2: 1.5rem,
-  h3: 1rem,
-  h4: .75rem,
-  h5: .5rem,
-  h6: .25rem
-);
-*/
+
+$display-font-sizes: (
+  1: 3rem,
+  2: 2.5rem,
+  3: 2rem,
+  4: 1.5rem,
+  5: 1rem,
+  6: .5rem
+) !default;
 
 @media (min-width: 576px) { /* Small screens and up */ 
 	.large-padding {
@@ -41,6 +40,14 @@ $headings-font-size: (
          color: #999999;
 }                      
 
+:not(.tei-castGroup) div.tei-castItem:last-of-type {
+	@extend .mb-4;	
+}
+
+div.tei-castItem + div.tei-castGroup {
+	@extend .mt-4;
+}
+
 .first-tei-p {
 	text-indent:0 !important;
 }
@@ -52,6 +59,16 @@ h1.tei-head, h2.tei-head, h3.tei-head, h4.tei-head, h5.tei-head, h6.tei-head {
 	font-weight: inherit;
 }
 
+// Element handling
+
+#toc {
+  position: sticky;
+  top: 0; /* Initial sticky position at the top of the viewport */
+  max-height: calc(100vh - 20px); /* Allow the column to scroll to its bottom before sticking */
+  overflow-y: auto; /* Enable internal scrolling for the column */
+  font-size: .9rem;
+  @extend .py-4;
+}
 
 // Import Bootstrap's SCSS
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -91,3 +108,5 @@ h6.tei-head.project-doc {
 	font-family: $headings-font-family;
 	font-weight: 500;
 }
+
+
