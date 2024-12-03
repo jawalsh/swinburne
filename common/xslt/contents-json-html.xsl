@@ -45,7 +45,14 @@
                     </xsl:when>
                     <xsl:when test="fn:map[@key='volume']/fn:array[@key='contents']/fn:map"><li>
                       <!-- Extract the volume title -->
+				    <a>
+                          <xsl:attribute name="href">
+                            <xsl:call-template name="generateURL">
+                              <xsl:with-param name="docID" select="fn:map[@key='volume']/fn:string[@key='id']"/>
+                            </xsl:call-template>
+                          </xsl:attribute>
                       <xsl:value-of select="fn:map[@key='volume']/fn:string[@key='title']"/>
+	      </a>
                       <xsl:value-of select="concat(' (',fn:map[@key='volume']/fn:string[@key='date'],')')"/>
                       <ul>
                         <!-- Iterate over contents if they exist -->
