@@ -12,7 +12,7 @@
         <main role="main" class="flex-shrink-0">
           <div class="container">
             <div id="content" class="py2 w-75 mx-auto">
-              <h1>Volume and Work Titles</h1>
+              <h1>Contents</h1>
               <ul>
                 <!-- Convert JSON to XML -->
                 <xsl:variable name="json-xml" select="fn:json-to-xml(fn:unparsed-text('../data/contents.json'))"/>
