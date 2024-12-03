@@ -5062,8 +5062,8 @@ For example:
                   <speaker rendition="#uc #center">Duchess</speaker>
                   <space dim="vertical" unit="lines" quantity="1"/>
 <l part="F" rendition="#ti-11">I keep it for him.</l>                                         
-  <stage type="exit" rendition="#ti-17">[<hi rendition="#i">Exit Duchess.</hi></stage>
 </sp>
+  <stage type="exit" rendition="#ti-17">[<hi rendition="#i">Exit Duchess.</hi></stage>
   <space dim="vertical" unit="lines" quantity="1"/>
 <sp who="#Cino">
                   <speaker rendition="#uc #center">Cino</speaker>
