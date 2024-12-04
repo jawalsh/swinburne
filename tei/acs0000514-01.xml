@@ -4407,6 +4407,11 @@ For example:
 </p>
             <p><note n="true" xml:id="hasPageImages"/></p>
         </encodingDesc>
+	<profileDesc>                                                                                
+	  <textClass>
+             <catRef target="#collex_genre_criticism"/>
+          </textClass>   
+       </profileDesc>
         
     </teiHeader>
 					<standOff>

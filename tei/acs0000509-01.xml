@@ -4505,6 +4505,11 @@ For example:
         </taxonomy>
       </classDecl>
     </encodingDesc>
+    <profileDesc>                                    
+	    <textClass>
+           	 <catRef target="#collex_genre_bibliography"/>
+            </textClass>   
+    </profileDesc>
   </teiHeader>
 					<standOff>
 						<entry xml:id="miltonsland">

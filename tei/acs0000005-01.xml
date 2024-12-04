@@ -4504,6 +4504,11 @@
         </taxonomy>
       </classDecl>
                 </encodingDesc>
+		<profileDesc>
+			<textClass>
+				<catRef target="#collex_genre_fiction"/>
+			</textClass>
+		</profileDesc>
                 <revisionDesc xml:id="d1e488">
                         <change xml:id="d1e490" n="svninfo"> $Id$ $Rev$ $Date$ $Author$ </change>
                 </revisionDesc>
