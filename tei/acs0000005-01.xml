@@ -4697,7 +4697,7 @@
                     </docImprint>
                   </titlePage>
                   <pb n="[iv]" facs="acs0000005-01-011"/>
-                        <div xml:id="dedication" type="dedication">
+                        <div xml:id="lcc_dedication" type="dedication">
                           <index xml:id="d1e503" indexName="nav"/>
                           
                                 <pb xml:id="d1e505" n="[v]" facs="acs0000005-01-012"/>
@@ -4927,7 +4927,7 @@
                                         </row>
                                 </table>
                         </div>
-                  <div xml:id="prologue">
+                  <div xml:id="lcc_prologue">
                     <index xml:id="d1e950" indexName="nav"/>
                     <pb n="[1]" facs="acs0000005-01-018"/>
                                 <head xml:id="d1e952" rendition="#center">PROLOGUE</head>
