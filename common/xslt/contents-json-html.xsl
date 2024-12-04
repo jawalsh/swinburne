@@ -9,22 +9,35 @@
         <title>Volume and Work Titles</title>
       </head>
       <body>
-        <main role="main" class="flex-shrink-0">
+        <main role="main" class="flex-shrink-0 py-4">
           <div class="container">
             <div id="content" class="py2 w-75 mx-auto">
-              <h1>Volume and Work Titles</h1>
+              <h1 class="h4">The Algernon Charles Swinburne Project: Contents</h1>
               <ul>
                 <!-- Convert JSON to XML -->
                 <xsl:variable name="json-xml" select="fn:json-to-xml(fn:unparsed-text('../data/contents.json'))"/>
                 <!-- Iterate over the root array -->
                 <xsl:for-each select="$json-xml/fn:array/fn:map">
                   <xsl:sort select="fn:map/fn:string[@key='date']" data-type="text" order="ascending"/>
+                        <!-- Extract the volume title -->
+		  <xsl:variable name="volume-title"> 
+                        <xsl:value-of select="fn:map[@key='volume']/fn:string[@key='title']"/>
+		</xsl:variable>
+		<xsl:variable name="volume-date">
+                        <xsl:value-of select="fn:map[@key='volume']/fn:string[@key='date']"/>
+			<!--  <xsl:value-of select="concat(' (',fn:map[@key='volume']/fn:string[@key='date'],')')"/> -->
+		</xsl:variable>
+		<xsl:variable name="volume-id">
+                        <xsl:value-of select="fn:map[@key='volume']/fn:string[@key='id']"/>
+		</xsl:variable>
+			<div>
                   <xsl:choose>
                     <xsl:when test="fn:map[@key='volume']/fn:array[@key='works']/fn:map">
-                      <li>
-                        <!-- Extract the volume title -->
-                        <xsl:value-of select="fn:map[@key='volume']/fn:string[@key='title']"/>
-                        <xsl:value-of select="concat(' (',fn:map[@key='volume']/fn:string[@key='date'],')')"/>
+			    <a class="w-auto mb-2 h5" data-bs-toggle="collapse" href="{concat('#',$volume-id,'-contents')}">
+			      <xsl:value-of select="concat($volume-title,' (',$volume-date,')')"/>
+		      </a>
+		      <div class="collapse" id="{concat($volume-id,'-contents')}">
+			      <div class="ms-2 mb-2 card card-body">
                         <ul>
                           <!-- Iterate over works if they exist -->
                           <xsl:for-each select="fn:map[@key='volume']/fn:array[@key='works']/fn:map">
@@ -41,11 +54,14 @@
                             </li>
                           </xsl:for-each>
                         </ul>
-                      </li>
+		</div>
+	</div>
                     </xsl:when>
-                    <xsl:when test="fn:map[@key='volume']/fn:array[@key='contents']/fn:map"><li>
-                      <!-- Extract the volume title -->
-				    <a>
+                    <xsl:when test="fn:map[@key='volume']/fn:array[@key='contents']/fn:map">
+			   <a class="w-auto mb-2 h5" data-bs-toggle="collapse" href="{concat('#',$volume-id,'-contents')}">
+			      <xsl:value-of select="concat($volume-title,' (',$volume-date,')')"/>
+		      </a>
+					    <!--
                           <xsl:attribute name="href">
                             <xsl:call-template name="generateURL">
                               <xsl:with-param name="docID" select="fn:map[@key='volume']/fn:string[@key='id']"/>
@@ -54,6 +70,9 @@
                       <xsl:value-of select="fn:map[@key='volume']/fn:string[@key='title']"/>
 	      </a>
                       <xsl:value-of select="concat(' (',fn:map[@key='volume']/fn:string[@key='date'],')')"/>
+					    -->
+		      <div class="collapse" id="{concat($volume-id,'-contents')}">
+			      <div class="ms-2 mb-2 card card-body">
                       <ul>
                         <!-- Iterate over contents if they exist -->
                         <xsl:for-each select="fn:map[@key='volume']/fn:array[@key='contents']/fn:map">
@@ -71,23 +90,22 @@
                           </li>
                         </xsl:for-each>
                       </ul>
-                    </li>
+	      </div>
+      </div>
                     </xsl:when>
                     <xsl:otherwise>
-                      <li>
-                        <a>
+                        <a class="w-auto mb-2 h5">
                           <xsl:attribute name="href">
                             <xsl:call-template name="generateURL">
                               <xsl:with-param name="docID" select="fn:map[@key='volume']/fn:string[@key='id']"/>
                             </xsl:call-template>
                           </xsl:attribute>
                           <!-- Extract the volume title -->
-                          <xsl:value-of select="fn:map[@key='volume']/fn:string[@key='title']"/>
+			      <xsl:value-of select="concat($volume-title,' (',$volume-date,')')"/>
                         </a>
-                        <xsl:value-of select="concat(' (',fn:map[@key='volume']/fn:string[@key='date'],')')"/>
-                      </li>
                     </xsl:otherwise>
                   </xsl:choose>
+	  </div>
                 </xsl:for-each>
               </ul>
             </div>
