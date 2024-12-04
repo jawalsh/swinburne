@@ -145,20 +145,30 @@ Copyright © 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  b
 				</div>
 				<!-- arrange the 'searchable-content' (i.e. the actual text) and the table of contents in a single row -->
 				<div class="row mt-5">
-					<div class="col-sm-9">
+					<div>
+						<xsl:attribute name="class">
+							<xsl:choose>
+								<xsl:when test="//meta[@name = 'parent_vol']">
+									<xsl:value-of select="'col-sm-10'"/>
+								</xsl:when>
+								<xsl:otherwise>
+									<xsl:value-of select="'col'"/>
+								</xsl:otherwise>
+							</xsl:choose>
+						</xsl:attribute>
 						<xsl:apply-templates select="child::div[@class='searchable-content']"/>
 					</div>
-					<div class="col-sm-3">
+						<xsl:if test="//meta[@name = 'parent_vol']">
+					<div class="col-sm-2">
 						<!--	<xsl:apply-templates select="child::div[@id='toc']"/> -->
 						<!-- if no *[@xml:id = 'parent-vol'] then not a collection with toc. Maybe. Have to figure out later what to do with internal table of contents, for e.g., Year's Letters, Blake, etc. -->
-						<xsl:if test="//meta[@name = 'parent_vol']">
 						<xsl:call-template name="toc">
 							<xsl:with-param name="volume-id">
 								<xsl:value-of select="//meta[@name = 'parent_vol']/@content"/>
 							</xsl:with-param>
 						</xsl:call-template>
-						</xsl:if>
 					</div>
+						</xsl:if>
 				</div>
 			</div>
 		</xsl:copy>
@@ -342,7 +352,7 @@ Copyright © 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  b
 		<xsl:attribute name="class"><xsl:value-of select="concat(@class,' large-padding')"/></xsl:attribute>
 	</xsl:template>
 	<xsl:template mode="replace-class" match="//span[contains-token(@class, 'type-chorus')]">
-		<xsl:attribute name="class"><xsl:value-of select="concat(@class,' d-inline-block float-end me-4 fs-sm')"/></xsl:attribute>
+		<xsl:attribute name="class"><xsl:value-of select="concat(@class,' d-inline-block')"/></xsl:attribute>
 	</xsl:template>
 	<xsl:template mode="replace-class" match="//div[contains-token(@class, 'tei-epigraph')]|//div[contains-token(@class, 'tei-castList')]">
 		<xsl:attribute name="class"><xsl:value-of select="concat(@class,' my-4')"/></xsl:attribute>
@@ -394,6 +404,11 @@ Copyright © 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  b
 	</xsl:template>
 	
 	
+	<!-- style lines to support label[@type = 'chorus'] -->
+	<xsl:template mode="replace-class" match="//span[contains-token(@class, 'tei-l')]">
+		<xsl:attribute name="class">{@class} position-relative</xsl:attribute>
+	</xsl:template>
+
 	<!-- hyperlinks which point to the next and previous search highlight -->
 	<xsl:template mode="replace-class" match="a[@class = 'hit-link']">
 		<xsl:attribute name="class">hit-link badge bg-secondary text-sansserif</xsl:attribute>

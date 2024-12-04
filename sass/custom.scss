@@ -44,6 +44,12 @@ $display-font-sizes: (
 	@extend .mb-4;	
 }
 
+.type-chorus {
+position: absolute;
+right: 4rem;
+font-size: 70%;
+}
+
 div.tei-castItem + div.tei-castGroup {
 	@extend .mt-4;
 }
