@@ -109,4 +109,16 @@ h6.tei-head.project-doc {
 	font-weight: 500;
 }
 
+.toggle-hover-line {
+	text-decoration: none;
+}
 
+.toggle-hover-line:hover {
+	text-decoration: underline;
+}
+
+.d-list-item {
+	display: list-item;
+	/* list-style-type: "– ";*/
+	list-style-type: "❦ ";
+}

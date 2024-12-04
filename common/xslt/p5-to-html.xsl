@@ -354,6 +354,12 @@
 		quote
 		|
 		biblScope
+		|
+		publisher
+		|
+		pubPlace
+		|
+		street
 	">
 		<xsl:element name="span">
 			<xsl:apply-templates mode="create-attributes" select="."/>
