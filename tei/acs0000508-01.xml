@@ -4624,19 +4624,15 @@
           <index indexName="nav"/>
 						<head>Overview</head>
 						
-						<p><title>The Swinburne Project</title> aims to create and provide access to
-							high-quality texts of the wide range of literary and critical works by
-							Swinburne, an important and influential Victorian cultural figure. These
-							texts constitute the <title>Project</title>'s textual/documentary core,
-							around which is built a digital, paratextual framework of investigation
-							and performance. These paratextual performances include information
-							visualizations, maps (geographic and topical), timelines, textual
-							analysis interfaces and algorithms, and more.</p>
+						<p><title>The Swinburne Project</title> edits and publishes 
+							high-quality texts of the wide range of literary and critical works by Victorian poet, critic, and novelist Algernon Charles Swinburne, an important and influential Victorian cultural figure. These
+							texts constitute the <title>Project</title>'s textual and documentary core,
+								around which is built a supporting scholarly apparatus, including an <ptr target="document:acs0000503-01">introduction to Swinburne’s life and works</ptr>, chronology, and growing body of annotations and commentary on individual works.</p>
 					</div>
          			<div xml:id="peer_review">
          				<index indexName="nav"/>
          				<head>Peer Review</head>
-         				<p><title>The Swinburne Project</title> has been peer reviewed by NINES. The NINES Web site describes the goals of the organization:</p>
+         				<p><title>The Swinburne Project</title> was peer reviewed in 2012 by NINES. The NINES Web site describes the goals of the organization:</p>
          				<p>
          					<cit rendition="#blockquote">
          						<quote>
