@@ -32,11 +32,17 @@
             "title": "Love’s Cross Currents: A Year’s Letters",
             "date": "1905",
             "id": "acs0000005-01",
-            "contents": [
+            "contents": [                
+		{
+                    "item": {
+                        "title": "[dedication]",
+                        "id": "lcc_dedication"
+                    }
+                },
                 {
                     "item": {
                         "title": "Prologue",
-                        "id": "llc_prologue"
+                        "id": "lcc_prologue"
                     }
                 },
                 {
