@@ -187,9 +187,6 @@
 		</xsl:param>
 
 		<div class="tei-teiHeader">
-			<xsl:apply-templates select="fileDesc/sourceDesc/msDesc/msContents/msItem/author" />
-			<xsl:apply-templates select="fileDesc/sourceDesc/msDesc/msContents/msItem/title" />
-			<xsl:apply-templates select="fileDesc/sourceDesc/msDesc/msContents/msItem/note[@type='description']" />
 			<details class="tei-teiHeader">
 				<summary>Document Information</summary>
 				<div>
@@ -227,34 +224,32 @@
 
 						<xsl:variable name="base-text" select="//biblStruct[@xml:id = concat(/TEI/@xml:id,'-bibl')]"/>
 						<h2>Source description</h2>
-						The text below is based on that found in:
+						The text below is based on that found in:						<div class="bibl">
 					        <xsl:choose>
 							<xsl:when test="$base-text/analytic">
-								<xsl:value-of select="string-join($base-text/analytic/author/persName,'.')"/>	
+								<xsl:call-template name="lookup-persName-by-id">
+									<xsl:with-param name="ref" select="$base-text/analytic/author/persName/@ref"/>
+								</xsl:call-template>
+								<xsl:value-of select="'. '"/>
 								<xsl:value-of select="string-join(('‘',$base-text/analytic/title,'.','’'))"/>
+								<cite>
+									<xsl:value-of select="string-join(($base-text/monogr/title,'. '))"/>
+								</cite>
+								<xsl:value-of select="string-join(($base-text/monogr/imprint/pubPlace,': ',$base-text/monogr/imprint/publisher,', ',$base-text/monogr/imprint/date/@when,'.'))"/>
 							</xsl:when>
 							<xsl:otherwise/>
 							</xsl:choose>
 
 
-						<!--
-						<xsl:value-of select="concat(
-							$msIdentifier/altIdentifier/idno[@type='collection'], 
-							'&#160;', 
-							$msIdentifier/idno, 
-							'. '
-						)"/>
-						<xsl:for-each select="fileDesc/publicationStmt">
-							<xsl:value-of select="concat('Published ', date, ', ', publisher, '&#160;', pubPlace, '.')"/>
-						</xsl:for-each>
-						-->
+					</div>
+	
 					</div>
 					</xsl:if>
 
 					<xsl:apply-templates select="fileDesc/titleStmt/respStmt" />
 					<div>
 						<h2>Preferred Citation</h2>
-						<div class="hang">
+						<div class="bibl">
 						<xsl:for-each select="fileDesc/titleStmt/author/persName">
 								<xsl:call-template name="lookup-persName-by-id">
 									<xsl:with-param name="ref" select="@ref"/>
