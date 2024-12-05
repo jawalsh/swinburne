@@ -30,8 +30,8 @@
             <persName ref="#jawalsh">John A. Walsh</persName>
         </respStmt>
 </seriesStmt>
-            <sourceDesc>
-					<listBibl>
+<sourceDesc>
+	<listBibl>
                <bibl xml:id="cor" ana="#work">
                   <title>A Century of Roundels</title>
                </bibl>
@@ -385,7 +385,8 @@
                   <title>Tristram of Lyonesse</title>
                   <ptr target="http://www.purl.org/swinburnearchive/acs0000001-04-i000.xml" ana="#do"/>
                </bibl>
-            </listBibl><listPerson>
+            </listBibl>
+            <listPerson>
                <person xml:id="antigone" ana="#person">
                   <persName> Antigone </persName>
                   <note ana="#description">
@@ -2220,6 +2221,9 @@
                <person xml:id="stowe" ana="#person">
                   <persName>Stowe, Harriet Beecher</persName>
                </person>
+	       <person xml:id="jawalsh" ana="#person">
+		       <persName>Walsh, John A.</persName>
+	       </person>
                <person xml:id="acs" ana="#person">
                   <persName>Swinburne, Algernon Charles</persName>
                </person>
@@ -3069,7 +3073,8 @@
                   <persName>Yvain</persName>
                   <ptr target="https://pantheon.org/articles/y/yvain.html" ana="occurrenceTypes.xtm#article"/>
                </person>
-            </listPerson><listOrg>
+            </listPerson>
+            <listOrg>
                <org xml:id="french_first_republic" ana="#institution">
                   <orgName>French First Republic</orgName>
                   <note ana="#description">
@@ -3108,7 +3113,8 @@
                      <ptr target="http://en.wikipedia.org/wiki/Uffizi"/>
                   </bibl>
                </org>
-            </listOrg><listEvent>
+            </listOrg>
+            <listEvent>
                <event ana="#event" when="1588-08-08">
                   <label>Spanish Armada, Defeat of</label>
                   <note ana="#description">
@@ -3210,7 +3216,8 @@
                      <ptr target="http://en.wikipedia.org/wiki/Anthesteria"/>
                   </bibl>
                </event>
-            </listEvent><listPlace>
+            </listEvent>
+            <listPlace>
                <place xml:id="beloye_more" ana="#geog">
                   <geogName>Beloye More</geogName>
                   <geogName ana=" #alternate">White Sea</geogName>
@@ -4225,27 +4232,23 @@
                   <ptr target="https://pantheon.org/articles/c/camelot.html" ana="occurrenceTypes.xtm#article"/>
                </place>
             </listPlace>
-				
-                <biblStruct>
-                    <analytic>
-                        <author><persName ref="#jawalsh">John A. Walsh</persName></author>
-                        <title>An Introduction to Algernon Charles Swinburne</title>
-                    </analytic>
-                    
-                    <monogr>
-                        <title>The Algernon Charles Swinburne Project</title>
-                        
-                        <editor><persName ref="#jawalsh">John A. Walsh</persName></editor>
-                            <imprint>
-                                <publisher>Digital Culture Lab, <ref target="http://ils.indiana.edu/">Department of Information and Library Science</ref>, <ref target="http://luddy.indiana.edu/">Luddy School of Informatics, Computing, and Engineering</ref>, <ref target="http://www.indiana.edu/">Indiana
-    University</ref>
-</publisher>
-                                <pubPlace>Bloomington, IN</pubPlace>
-                                <date xml:id="sort_date" when="2012"/>
-                            </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
+		    <biblStruct xml:id="acs0000503-01-bibl">
+			    <analytic>
+				    <title>An Introduction to Algernon Charles Swinburne</title>
+				    <author><persName ref="#jawalsh">John A. Walsh</persName></author>
+			    </analytic>
+			    <monogr>
+				    <title>The Algernon Charles Swinburne Project</title>
+				    <editor><persName ref="#jawalsh">John A. Walsh</persName></editor>
+				    <imprint>
+					    <pubPlace>Bloomington</pubPlace>
+					    <publisher>Indiana University</publisher>
+					    <date when="2024"/>
+				    </imprint>
+			    </monogr>
+			    <note>This TEI/XML document is the original source.</note>
+		    </biblStruct>
+	</sourceDesc>
         </fileDesc>
         <encodingDesc>
 					<classDecl>
