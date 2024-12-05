@@ -1,0 +1,103 @@
+<listEvent>
+               <event ana="#event" when="1588-08-08">
+                  <label>Spanish Armada, Defeat of</label>
+                  <note ana="#description">
+                     <p> A battle between the Spanish and English naval armies near Gravelines,
+                        France in the English Channel. Though the Spanish fleet only lost 4 of its
+                        130 ships during the battle, over 50 ships were lost in retreat. The defeat
+                        marked the beginning of the end of Spanish dominance in Europe. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Spanish_Armada"/>
+                  </bibl>
+               </event>
+               <event ana="#event" when="1870">
+                  <label>First Vatican Council, 1869-70</label>
+                  <note ana="#description">
+                     <p> The Vatican council of <date when="1870">1870</date>, at which
+                        the dotrine of Papal infallibility was established. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/First_Vatican_Council"/>
+                  </bibl>
+               </event>
+               <event ana="#event" when="1867-11-03">
+                  <label>Mentana, Battle of</label>
+                  <note ana="#description">
+                     <p> French and Papal armies numbering 9000 defeat Garibaldi's forces
+                        numbering 4000. </p>
+                  </note>
+               </event>
+               <event ana="#event">
+                  <label>Insurrection in Candia</label>
+                  <note ana="description">
+                     <p> The largest of series of Cretan Christian uprisings against the Ottoman
+                        Empire that last from <date>1866-1869</date>. </p>
+                  </note>
+               </event>
+               <event ana="#event" when="1862-08-29">
+                  <label>Battle of Aspromonte</label>
+                  <note ana="#description">
+                     <p> A encounter that occured on <date when="1862-08-29">August 29,
+                            1862</date> in southern Italy between the Italian government and the
+                        Italian Unificationists. The Unificationist leader, Garibaldi, was wounded
+                        and taken prisoner during the battle. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Battle_of_Aspromonte"/>
+                  </bibl>
+               </event>
+               <event ana="#event">
+                  <label>English Civil War</label>
+                  <note ana="#description">
+                     <p> A series of battles between Parliamentarians and Royalists. The civil
+                        war resulted in the execution of King Charles I and the establishment of the
+                        Commonwealth of England. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/English_Civil_War"/>
+                  </bibl>
+               </event>
+               <event ana="#event">
+                  <label>Battle of Trebbia</label>
+                  <note ana="#description">
+                     <p> A battle fought by the Trebbia river in northern Italy between the
+                        French and the Austrians and Russians. Both sides lost 6,000 soldiers, but
+                        the Austro-Russian army was victorious. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Battle_of_the_Trebia"/>
+                  </bibl>
+               </event>
+               <event ana="#event" when="1567-06-15">
+                  <label>Carberry Hill, Battle of</label>
+                  <note ana="#description">
+                     <p> Supporters of Mary, Queen of Scotland and her new husband, James
+                        Hepburn, Earl of Bothwell, uprise against Queen Elizabeth I a few miles east
+                        of Ediburgh, Scotland. Mary I is captured, imprisoned in Loch Leven Castle,
+                        and later executed. </p>
+                  </note>
+               </event>
+               <event ana="#event">
+                  <label>St. Bartholomew's Day Massacre</label>
+                  <note ana="#description">
+                     <p> A wave of targeted assassinations and subsequent Roman Catholic mob
+                        violence against the Huguenots. The events began on the <date when="1572-08-23">23 August 1572</date>, the eve of St.
+                        Bartholomew's feast day, with murders ordered by Charles IX of France. The
+                        massacres lasted several weeks, and spread throughout Paris and then to
+                        other urban centers and the country side. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/St._Bartholomew%27s_Day_massacre"/>
+                  </bibl>
+               </event>
+               <event ana="#event">
+                  <label>Anthesteria</label>
+                  <note ana="#description">
+                     <p> One of four Athenian festivals honoring Dionysus. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Anthesteria"/>
+                  </bibl>
+               </event>
+            </listEvent>

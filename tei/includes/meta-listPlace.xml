@@ -1,0 +1,1015 @@
+<listPlace>
+               <place xml:id="beloye_more" ana="#geog">
+                  <geogName>Beloye More</geogName>
+                  <geogName ana=" #alternate">White Sea</geogName>
+                  <note ana="#description">
+                     <p> An inlet of the Barents Sea, located in northwest Russia. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/White_Sea"/>
+                  </bibl>
+               </place>
+               <place xml:id="calabria" ana="#place">
+                  <placeName>Calabria</placeName>
+                  <note ana="#description">
+                     <p> A region of southern Italy that was at the center of Italian
+                        republicanism during the middle of the 19th century. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Calabria"/>
+                  </bibl>
+               </place>
+               <place xml:id="phyrgia" ana="#place">
+                  <placeName>Phyrgia</placeName>
+                  <note ana="#description">
+                     <p> A kingdom in the west central portion of Anatolia, in what is now
+                        modern-day Turkey. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Phrygia"/>
+                  </bibl>
+               </place>
+               <place xml:id="adria" ana="#place">
+                  <placeName>Adria</placeName>
+                  <note ana="#description">
+                     <p> A town in the Rivigo province in northern Italy. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Adria"/>
+                  </bibl>
+               </place>
+               <place xml:id="adriatic_sea" ana="#geog">
+                  <geogName> Adriatic Sea </geogName>
+                  <note ana="#description">
+                     <p> A body of water that is part of the Mediterranean Sea and separates the
+                        Italian peninsula from the Balkan peninsula. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Adriatic_Sea"/>
+                  </bibl>
+               </place>
+               <place xml:id="tiber" ana="#geog">
+                  <geogName>Tiber</geogName>
+                  <note ana="#description">
+                     <p> A river in central Italy. It was the main waterway of Rome. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Tiber"/>
+                  </bibl>
+               </place>
+               <place xml:id="asia" ana="#place">
+                  <placeName>Asia</placeName>
+                  <note ana="#description">
+                     <p> The world's largest continent, which spans from the Pacific in the
+                        East to the Indiana Ocean in the south, and Artic in the north. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Asia"/>
+                  </bibl>
+               </place>
+               <place xml:id="europe" ana="#place">
+                  <placeName>Europe</placeName>
+                  <note ana="#description">
+                     <p> Consists of the western part of Eurasia that enxtends from Iceland and
+                        Russia south to Greece. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Europe"/>
+                  </bibl>
+               </place>
+               <place xml:id="athens" ana="#place">
+                  <placeName>Athens</placeName>
+                  <note ana="#place">
+                     <p> Captal of Greece. An important cultural center in ancient Greece, home
+                        of Plato's Academy, and bithplace of Socrates and Sophocles. </p>
+                  </note>
+               </place>
+               <place xml:id="thebes" ana="#place">
+                  <placeName>Thebes</placeName>
+                  <note ana="#description">
+                     <p> An ancient city in southern Boetia, a region in central Greece, that was
+                        one of the major ancient Greek settlements. It was founded by Cadmus.
+                    </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Thebes,_Greece"/>
+                  </bibl>
+               </place>
+               <place xml:id="helicon" ana="#geog">
+                  <geogName>Helicon</geogName>
+                  <note ana="#description">
+                     <p> Mountain in central Greece, in southwest Boeotia, near the Gulf of
+                        Corinth. The mountain was said to be sacred to the muses. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Mount_Helicon"/>
+                  </bibl>
+               </place>
+               <place xml:id="gethsemane" ana="#place">
+                  <placeName>Gethsemane</placeName>
+                  <note ana="#description">
+                     <p> Garden outside Jerusalem on the Mount of Olives. The site where Jesus
+                        prayed after the last supper and where He was arrested by Roman soldiers.
+                    </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Garden_of_Gethsemane"/>
+                  </bibl>
+               </place>
+               <place xml:id="crete" ana="#place">
+                  <placeName> Crete </placeName>
+                  <placeName ana=" #alternate">Candia</placeName>
+                  <note ana="#place">
+                     <p> Largest of the Greek islands. Site of the first European civilization
+                        and later part of the Roman, Byzantine, and Ottoman Empire. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Crete"/>
+                  </bibl>
+               </place>
+               <place xml:id="arcadia" ana="#place">
+                  <placeName>Arcadia</placeName>
+                  <note ana="#description">
+                     <p> A region in the Peloponnesus, a penisula in sourthern Greece. </p>
+                  </note>
+               </place>
+               <place xml:id="dircean_spring" ana="#geog">
+                  <geogName>Dircean Spring</geogName>
+                  <note ana="#description">
+                     <p> A spring in Thebes. Named for Dirce, who was killed by the two sons of
+                        Antiope for Dirce's mistreatment of their mother. They threw her body into
+                        the spring that afterwards bore her name. </p>
+                  </note>
+               </place>
+               <place xml:id="cayenne" corresp="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7005770" ana="#place">
+                  <placeName>Cayenne</placeName>
+                  <note ana="#description">
+                     <p> Cayenne is the capital of French Guiana and a former penal coloney.
+                    </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Cayenne"/>
+                  </bibl>
+               </place>
+               <place xml:id="phrygia" corresp="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002613" ana="#place">
+                  <placeName>Phrygia</placeName>
+                  <note ana="#description">
+                     <p> Ancient country in W central Asia Minor, now central Turkey. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Phrygia"/>
+                  </bibl>
+               </place>
+               <place xml:id="aetolia" corresp="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002678" ana="#place">
+                  <placeName>Aetolia</placeName>
+                  <note ana="#description">
+                     <p> A city of ancient Greece, near Mount X </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Aetolia"/>
+                  </bibl>
+               </place>
+               <place xml:id="calydon" corresp="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;subjectid=5004281" ana="#place">
+                  <placeName>Calydon</placeName>
+                  <note ana="#description">
+                     <p> A city of ancient Greece, near Mount X </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Calydon"/>
+                  </bibl>
+               </place>
+               <place xml:id="thrace" ana="#place">
+                  <placeName>Thrace</placeName>
+                  <note ana="#description">
+                     <p> A ancient kingdom in sourtheast Europe that spanned over parts of
+                        Bulgaria, Turkey, and Greece. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Thrace"/>
+                  </bibl>
+               </place>
+               <place xml:id="aceldama" ana="#place">
+                  <placeName>Aceldama</placeName>
+                  <note ana="#description">
+                     <p>The field bought with the money Judas received for betraying
+                        Christ.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Akeldama"/>
+                  </bibl>
+               </place>
+               <place xml:id="tuscany" ana="#region">
+                  <region>Tuscany</region>
+                  <note ana="#description">
+                     <p> A region in central Italy considered to be the birthplace of the
+                        Renaissance. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Tuscany"/>
+                  </bibl>
+               </place>
+               <place xml:id="aspromonte" ana="#region">
+                  <region>Aspromonte</region>
+               </place>
+               <place xml:id="taygetus" ana="#geog">
+                  <geogName>Taygetus</geogName>
+                  <note ana="#description">
+                     <p> Mountain range in Southern Greece, south west of Sparta. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Taygetus"/>
+                  </bibl>
+               </place>
+               <place xml:id="golgotha" ana="#place">
+                  <placeName> Golgotha </placeName>
+                  <placeName ana=" #alternate">Calvary</placeName>
+                  <note ana="#description">
+                     <p> Site outside ancient Jersusalem, where, according to the
+                            <title>Bible</title>, Jesus was crucified. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Calvary"/>
+                  </bibl>
+               </place>
+               <place xml:id="cithaeron" ana="#geog">
+                  <geogName> Cithaeron </geogName>
+                  <note ana="#description">
+                     <p> Mountain range in central Greece, separating Boeotia from Megaris and
+                        Attica. These mountains were said to be sacred to Dionysus and were the
+                        setting for several Greek myths. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Cithaeron"/>
+                  </bibl>
+               </place>
+               <place xml:id="thermopylae" ana="#place">
+                  <placeName>Thermoplylae</placeName>
+                  <note ana="#description">
+                     <p> Narrow pass linking Greece with the north, between Thessaly and Locris.
+                        The site of a famous battle in <date when="-0479">480 BC</date>
+                        between the Greeks and Persians. </p>
+                  </note>
+               </place>
+               <place xml:id="salamis" ana="#place">
+                  <placeName>Salamis</placeName>
+                  <note ana="#description">
+                     <p> Island off the south-west coast of Attica. It was the site, in <date when="-0479-09">September 480 BC</date>, of the great naval defeat
+                        of the Persians by the Greeks. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Salamis_Island"/>
+                  </bibl>
+               </place>
+               <place xml:id="rhineland" ana="#place">
+                  <placeName>Rhineland</placeName>
+                  <note ana="#description">
+                     <p> Name given to the land located in Germany, west of the Rhine. The land
+                        was annexed by the Prussian government after the fall of the French emprire
+                        in the early 19th century. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Rhineland"/>
+                  </bibl>
+               </place>
+               <place xml:id="it" ana="#place">
+                  <placeName>Italy</placeName>
+                  <note ana="#description">
+                     <p> A country in southern Europe that includes the Italian Penisula and the
+                        islands of Sicily and Sardinia. It was the birthplace of the Renaissance and
+                        center of the Roman Empire. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Italy"/>
+                  </bibl>
+               </place>
+               <place xml:id="marathon" ana="#place">
+                  <placeName>Marathon</placeName>
+                  <note ana="#description">
+                     <p> Large Greek deme (local community or parish) on the north-east coast of
+                        Attica. The site in <date when="-0489">490 BC</date> of a great
+                        Greek victory over invading Persians. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Marathon,_Greece"/>
+                  </bibl>
+               </place>
+               <place xml:id="eurotas" ana="#geog">
+                  <geogName>Eurotas</geogName>
+                  <note ana="#description">
+                     <p> Principal river of Laconia, a region of Greece. Named for an early king
+                        of Laconia. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Evrotas_River"/>
+                  </bibl>
+               </place>
+               <place xml:id="po" ana="#geog">
+                  <geogName>Po</geogName>
+                  <geogName ana=" #alternate">Po River</geogName>
+                  <geogName ana=" #alternate">Eridanus</geogName>
+                  <note ana="#description">
+                     <p> A river in northern Italy. </p>
+                  </note>
+               </place>
+               <place xml:id="cephisus" ana="#geog">
+                  <geogName>Cephisus</geogName>
+                  <note ana="#description">
+                     <p> A river that runs through Attica and the Athenean plains in Greece.
+                    </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Cephissus_(Athenian_plain)"/>
+                  </bibl>
+               </place>
+               <place xml:id="the_pines" ana="#place">
+                  <placeName>The Pines</placeName>
+                  <placeName ana=" #sort">Pines, The</placeName>
+                  <note ana="#description">
+                     <p>
+                        <soCalled>The Pines,</soCalled> 11 Putney Hill, Putney, a district
+                        of south-west London. Swinburne lived here with his friend Theodore
+                        Watts-Dunton, from 1879 until Swinburne's in 1909. </p>
+                  </note>
+               </place>
+               <place xml:id="loch_torridon" ana="#geog">
+                  <geogName>Torridon, Loch</geogName>
+                  <note ana="#description">
+                     <p> A sea loch or bay on the west coast of Scotland. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Loch_Torridon"/>
+                  </bibl>
+               </place>
+               <place xml:id="dunwich" ana="#place">
+                  <placeName>Dunwich</placeName>
+                  <note ana="#description">
+                     <p> A town in northwest Suffolk county in England. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Dunwich"/>
+                  </bibl>
+               </place>
+               <place xml:id="west_undercliff" ana="#geog">
+                  <geogName>West Undercliff</geogName>
+                  <geogName ana=" #alternate">Dorset-East Devon Undercliff</geogName>
+                  <note ana="#description">
+                     <p> Undercliff southwest England that stetches for five miles. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Undercliff"/>
+                  </bibl>
+               </place>
+               <place xml:id="earlston" ana="#place">
+                  <placeName>Earlston</placeName>
+                  <placeName ana=" #alternate">Ercildoune</placeName>
+                  <note ana="#description">
+                     <p> A parish and market town in Berwickshire, Scotland. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Earlston"/>
+                  </bibl>
+               </place>
+               <place xml:id="bamborough" ana="#place">
+                  <placeName>Bamburgh</placeName>
+                  <placeName ana=" #alternate">Bamborough</placeName>
+                  <note ana="#description">
+                     <p> A villiage on the eastern coast of Northumberland in England. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Bamburgh"/>
+                  </bibl>
+               </place>
+               <place xml:id="guernsey" ana="#place">
+                  <placeName>Guernsey</placeName>
+                  <placeName ana=" #alternate">Bailiwick of Guernsey</placeName>
+                  <note ana="#description">
+                     <p> A dependant state of England in the off the coast of Normandy that
+                        includes the island of Guernsey and various other islands in the English
+                        Channel. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Guernsey"/>
+                  </bibl>
+               </place>
+               <place xml:id="troy" ana="#place">
+                  <placeName>Troy</placeName>
+                  <placeName ana=" #alternate">Hisarlik</placeName>
+                  <note ana="#description">
+                     <p> A legendary city located in present day northwest Turkey. In
+                        Homer's <title>Iliad</title> it was the center of the Trojan
+                        War. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Guernsey"/>
+                  </bibl>
+               </place>
+               <place xml:id="mentana" ana="#place">
+                  <placeName>Mentana</placeName>
+                  <note ana="#description">
+                     <p> A comune in the province of Rome in Italy. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Mentana"/>
+                  </bibl>
+               </place>
+               <place xml:id="gr" ana="#place">
+                  <placeName>Greece</placeName>
+                  <note ana="#description">
+                     <p> Country in southeast Europe and site of the first European civilization.
+                    </p>
+                  </note>
+               </place>
+               <place xml:id="babylon" ana="#place">
+                  <placeName>Babylon</placeName>
+                  <placeName ana=" #alternate">Babylonis</placeName>
+                  <note ana="#description">
+                     <p>A city-state of ancient Mesopetamia. First appeared as a small town in
+                        the 23rd century B.C. It became the center of the Neo-Baylonian Empire in
+                        6th century B.C.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Babylon"/>
+                  </bibl>
+               </place>
+               <place xml:id="fiesole" ana="#place">
+                  <placeName>Fiesole</placeName>
+                  <note ana="#description">
+                     <p> A comune in the province of Florence in Italy that is located on a hill
+                        which overlooks the city of Florence. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Fiesole"/>
+                  </bibl>
+               </place>
+               <place xml:id="caucasus" ana="#place">
+                  <placeName>Caucacus</placeName>
+                  <placeName ana=" #alternate">Caucas</placeName>
+                  <note ana="#description">
+                     <p> A geopolitical region between Europe, Asia, and the Middle East. The
+                        area includes the Caucasus Mountains, which separate Europe from Asia.
+                    </p>
+                  </note>
+               </place>
+               <place xml:id="fr" ana="#place">
+                  <placeName>France</placeName>
+                  <note ana="#description">
+                     <p> Country located in western Europe, bordered by the Atlantic Ocean to the
+                        west, the English Channel to the north, and the Mediterranean Sea to the
+                        south. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/France"/>
+                  </bibl>
+               </place>
+               <place xml:id="pl" ana="#place">
+                  <placeName>Poland</placeName>
+                  <note ana="#description">
+                     <p> Country in central Europe located to the north of Czech Republic and to
+                        the east of Germany. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Poland"/>
+                  </bibl>
+               </place>
+               <place xml:id="ru" ana="#place">
+                  <placeName>Russia</placeName>
+                  <note ana="#description">
+                     <p> The largest country in the world, which spans multiple continents over
+                        much of northern Eurasia. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Russia"/>
+                  </bibl>
+               </place>
+               <place xml:id="ch" ana="#place">
+                  <placeName>Switzerland</placeName>
+                  <note ana="#description">
+                     <p> A landlocked country in western Europe bordered by France to the west,
+                        Germany to the north, Italy to the south, and Austria to the east. During
+                        the Napoleonic Wars, Switzerland was invaded by Austria and Russia. It was
+                        in Switzerland where Giuseppe Mazzini met Garibaldi. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Switzerland"/>
+                  </bibl>
+               </place>
+               <place xml:id="at" ana="#place">
+                  <placeName> Austria </placeName>
+                  <note ana="#description">
+                     <p> A country in western Europe to the east of Switzerland and north of
+                        Italy. The country was in constant war during the 19th century with France
+                        and Prussia. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Austria"/>
+                  </bibl>
+               </place>
+               <place xml:id="es" ana="#place">
+                  <placeName>Spain</placeName>
+                  <note ana="#description">
+                     <p> Country located in southwestern Europe in the Iberian Peninsula.
+                    </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Spain"/>
+                  </bibl>
+               </place>
+               <place xml:id="us" ana="#place">
+                  <placeName>United States</placeName>
+                  <placeName ana=" #alternate">United States of America</placeName>
+                  <placeName ana=" #alternate">America</placeName>
+                  <note ana="#description">
+                     <p> A country in the southern part of the North American continent.
+                        Separated from England in the late 18th century. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/United_States"/>
+                  </bibl>
+               </place>
+               <place xml:id="florence" ana="#place">
+                  <placeName> Florence </placeName>
+                  <note ana="#description">
+                     <p> The capital of the Tuscany region in Italy and an important cultural
+                        center during the Renaissance. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Florence"/>
+                  </bibl>
+               </place>
+               <place xml:id="rome" ana="#place">
+                  <placeName>Rome</placeName>
+                  <note ana="#description">
+                     <p>Capital of Italy.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Rome"/>
+                  </bibl>
+               </place>
+               <place xml:id="gb-eng" ana="#place">
+                  <placeName>England</placeName>
+                  <note ana="#description">
+                     <p> Island to the north of continental Europe. Part of the United Kingdom,
+                        along with Wales, Scotland, and Northern Ireland. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/England"/>
+                  </bibl>
+               </place>
+               <place xml:id="de" ana="#place">
+                  <placeName>Germany</placeName>
+                  <note ana="#description">
+                     <p> A country in the northern part of central Europe that became an
+                        independent nation-state in <date when="1871">1871</date>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Germany"/>
+                  </bibl>
+               </place>
+               <place xml:id="mediterranean_sea" ana="#geog">
+                  <geogName>Mediterranean Sea</geogName>
+                  <note ana="#description">
+                     <p> Body of the water enclosed by Europe to the North, Africa to the South,
+                        and Asia to the East. It was an important trade and travel route for Ancient
+                        civilizations. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Mediterranean"/>
+                  </bibl>
+               </place>
+               <place xml:id="hades" ana="#place">
+                  <placeName>Hades</placeName>
+                  <placeName ana=" #alternative">Underworld</placeName>
+                  <note ana="#description">
+                     <p> The Greek and Roman name for the Underworld. Thought to be the only
+                        destination of the dead, unitl <date when="-0500">5th century
+                            B.C.</date>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://www.pantheon.org/articles/u/underworld.html"/>
+                  </bibl>
+               </place>
+               <place xml:id="galilee" ana="#place">
+                  <placeName>Galilee</placeName>
+                  <placeName ana=" #alternative">Galilea</placeName>
+                  <note ana="#description">
+                     <p>Large reason in northern Israel, originally divided into Upper Galilee, Lower Galilee, and Western Galilee.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Galilee"/>
+                  </bibl>
+               </place>
+               <place xml:id="cyrrhus" ana="#place">
+                  <placeName>Cyrrhus</placeName>
+                  <placeName ana=" #alternative">Kyrros</placeName>
+                  <note ana="#description">
+                     <p>A city in ancient Syria founded by Seleucus Nicator, one of Alexander the Great's generals.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Cyrrhus"/>
+                  </bibl>
+               </place>
+               <place xml:id="elysium" ana="#place">
+                  <placeName>Elysium</placeName>
+                  <note ana="#description">
+                     <p> A setion of the Underworld located at the end of the Earth where the
+                        distinguished live in pleasure after death. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Elysium"/>
+                  </bibl>
+               </place>
+               <place xml:id="eridanus" ana="#place">
+                  <placeName>Eridanus</placeName>
+                  <note ana="#description">
+                     <p> A mythical European river that is associated with the Po River in
+                        Northern Italy. The river into which Phaëthon fell from the sky and by which
+                        his sisters, the Heliades, wept until they were changed into poplars. The
+                        Argonauts traveled the Eridanus in their quest for the golden fleece.
+                    </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://www.pantheon.org/articles/e/eridanus.html"/>
+                  </bibl>
+               </place>
+               <place xml:id="lethe" ana="#geog">
+                  <geogName>Lethe</geogName>
+                  <note ana="#description">
+                     <p> One of the rivers that runs through the Underworld. The dead drink from
+                        this river to forget about their lives on Earth. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://www.pantheon.org/articles/l/lethe.html"/>
+                  </bibl>
+               </place>
+               <place xml:id="mt_ida_asia_minor" ana="#geog">
+                  <geogName>Mount Ida</geogName>
+                  <note ana="#description">
+                     <p> From the Anatolian Mount Ida, Zeus was said to have abducted Ganymede to
+                        Olympus. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Mount_Ida"/>
+                  </bibl>
+               </place>
+               <place xml:id="mt_dindymus" ana="#geog">
+                  <geogName>Mount Dindymus</geogName>
+                  <note ana="#description">
+                     <p> A mountain in Phrygia, sacred to Dybele, the mother of the gods.
+                    </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Mount_Ida"/>
+                  </bibl>
+               </place>
+               <place xml:id="styx" ana="#geog">
+                  <geogName>Styx</geogName>
+                  <note ana="#description">
+                     <p> A river that separates the living world from the Underworld, around
+                        which it wraps nine times. Also known as the river of hate. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://www.pantheon.org/articles/s/styx_river.html"/>
+                  </bibl>
+               </place>
+               <place xml:id="alcyone_star" ana="#star">
+                  <geogName>Alcyone</geogName>
+                  <note ana="#description">
+                     <p>A star system in the constellation Taurus. The brightest star in the
+                        Pleiades open cluster.</p>
+                  </note>
+               </place>
+               <place xml:id="apennines" ana="#geog">
+                  <geogName>Apennines</geogName>
+                  <note ana="#description">
+                     <p> A mountain range that stretches north to south on the east coast of the
+                        Italian peninsula. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Apennine_Mountains"/>
+                  </bibl>
+               </place>
+               <place xml:id="pyrenees" ana="#geog">
+                  <geogName>Pyrenees</geogName>
+                  <note ana="#description">
+                     <p> A mountain range in central Europe that borders Spain and France and
+                        separates the Iberian peninsula and the rest of central Europe. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Pyrenees"/>
+                  </bibl>
+               </place>
+               <place xml:id="san_domenico" ana="#place">
+                  <placeName>San Domenico</placeName>
+                  <note ana="#description">
+                     <p> A hamlet to the southwest of Fiesole on the Florence border in central
+                        Italy. </p>
+                  </note>
+               </place>
+               <place xml:id="san_domenico_church" ana="#architectural_structure">
+                  <placeName>San Domenico (Church : Siena, Italy)</placeName>
+                  <note ana="#description">
+                     <p> A church in Siena in the Tuscan region of Italy. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/San_Domenico,_Siena"/>
+                  </bibl>
+               </place>
+               <place xml:id="san_lorenzo_basillica" ana="#architectural_structure">
+                  <placeName>San Lorenzo (Church:Florence, Italy)</placeName>
+                  <note ana="#description">
+                     <p> One of the largest and oldest churches in Florence, Italy. Several of
+                        the Medici family are buried in the church cemetery. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Basilica_di_San_Lorenzo_di_Firenze"/>
+                  </bibl>
+               </place>
+               <place xml:id="siena" ana="#place">
+                  <placeName>Siena</placeName>
+                  <note ana="#description">
+                     <p> A city in the Tuscany region of central Italy. It was the home of St,
+                        Catherine and the church of San Domenico. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Siena"/>
+                  </bibl>
+               </place>
+               <place xml:id="aphaca" ana="#place">
+                  <placeName>Aphaca</placeName>
+                  <note ana="#description">
+                     <p> A town of Syria, with a famous temple of Aphrodite, destroyed by
+                        Constantine. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikisource.org/wiki/Dictionary_of_Greek_and_Roman_Geography/Aphaca"/>
+                  </bibl>
+               </place>
+               <place xml:id="avignon" ana="#place">
+                  <placeName>Avignon</placeName>
+                  <note ana="#description">
+                     <p> A commune in southerneastern France that was the seat of the Papacy from
+                            <date from="1309" to="1377">1309-1377</date>. It became part of
+                        France in <date when="1791">1791</date>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Avignon"/>
+                  </bibl>
+               </place>
+               <place xml:id="san_domenico_basillica" ana="#architectural_structure">
+                  <placeName>San Domenico (Church: Siena, Italy)</placeName>
+                  <note ana="#description">
+                     <p> A church located in Siena, Italy, which contains the works of Sodoma and
+                        the emtombed head and thumb of Catherine of Siena. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Basilica_of_San_Domenico"/>
+                  </bibl>
+               </place>
+               <place xml:id="alps" ana="#geog">
+                  <geogName>Alps</geogName>
+                  <note ana="#description">
+                     <p> A range of mountains that separates the Iberian peninsula from the rest
+                        of Europe. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Alps"/>
+                  </bibl>
+               </place>
+               <place xml:id="idalium" ana="#place">
+                  <placeName>Idalium</placeName>
+                  <note ana="#description">
+                     <p> Ancient inland city of Cyprus, which became a center for the worship of
+                        Aphrodite. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Idalium"/>
+                  </bibl>
+               </place>
+               <place xml:id="paphos" ana="#place">
+                  <placeName>Paphos</placeName>
+                  <note ana="#description">
+                     <p> An ancient city-kingdom in southwest Cyprus. Also known as the
+                        mythological birthplace of Aphrodite and the site of a famous sanctuary to
+                        the goddess. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Paphos"/>
+                  </bibl>
+               </place>
+               <place xml:id="cythera" ana="#place">
+                  <placeName>Cythera</placeName>
+                  <note ana="#description">
+                     <p> A small island off the coast of Greece. According to certain myths, it
+                        is where Aphrodite emerged from the sea. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Kythera"/>
+                  </bibl>
+               </place>
+               <place xml:id="amathus" ana="#place">
+                  <placeName>Amathus</placeName>
+                  <note ana="#description">
+                     <p> An ancient royal city in southern Cyprus known for its santuary
+                        dedicated to Aphrodite. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Amathus"/>
+                  </bibl>
+               </place>
+               <place xml:id="maremma" ana="#place">
+                  <placeName>Maremma</placeName>
+                  <note ana="#description">
+                     <p> A region in western Italy, mostly in the province of Grosseto. It is
+                        where Pia Tolomei was killed. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Maremma"/>
+                  </bibl>
+               </place>
+               <place xml:id="atlantic_ocean" ana="#geog">
+                  <geogName>Atlantic Ocean</geogName>
+                  <note ana="#description">
+                     <p> The 2nd largest ocean in the world. It separates North and South
+                        American from Europe and Africa. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Atlantic_Ocean"/>
+                  </bibl>
+               </place>
+               <place xml:id="africa" ana="#place">
+                  <placeName>Africa</placeName>
+                  <note ana="#description">
+                     <p> The world's second largest continent, which is located to the south of
+                        Europe. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Africa"/>
+                  </bibl>
+               </place>
+               <place xml:id="delphi" ana="#place">
+                  <placeName>Delphi</placeName>
+                  <note ana="#description">
+                     <p> Town on the edge of Mt. Parnassus in central Greece. In Ancient Greece,
+                        it was the site of the Oracle of Delphi and thought to be the center of the
+                        world. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Delphi"/>
+                  </bibl>
+               </place>
+               <place xml:id="sark" ana="#place">
+                  <placeName>Sark</placeName>
+                  <note ana="#description">
+                     <p>Island in the southwestern English Channel, part of the Bailiwick of
+                        Gurnsey.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Sark"/>
+                  </bibl>
+               </place>
+               <place xml:id="globe_theatre" ana="#architectural_structure">
+                  <placeName>Globe Theatre (London, England : 1599-1644)</placeName>
+                  <note ana="#description">
+                     <p> A London theatre built by William Shakespeare's playing company,
+                        the Lord Chamberlain's Men, in <date when="1599">1599</date>.
+                        It was destroyed by fire in <date when="1613">1613</date>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Globe_Theatre"/>
+                  </bibl>
+               </place>
+               <place xml:id="red_bull_theatre" ana="#architectural_structure">
+                  <placeName>Red Bull Theatre (London, England)</placeName>
+                  <note ana="#description">
+                     <p> A London playhouse in the 17th century. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Red_Bull_Theatre"/>
+                  </bibl>
+               </place>
+               <place xml:id="blackfriars_theatre" ana="#architectural_structure">
+                  <placeName>Blackfriairs Theatre (London, England)</placeName>
+                  <note ana="#description">
+                     <p> A playhouse in central London during the Renaissance. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Blackfriars_Theatre"/>
+                  </bibl>
+               </place>
+               <place xml:id="eg" ana="#place">
+                  <placeName>Egypt</placeName>
+                  <note ana="#description">
+                     <p>A country in northeast Africa near the Middle East. Site of the ancient
+                        Egyptian empire.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Egypt"/>
+                  </bibl>
+               </place>
+               <place xml:id="et" ana="#place">
+                  <placeName>Ethiopia</placeName>
+                  <note ana="#description">
+                     <p>A landlocked country in northeast Africa.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Ethiopia"/>
+                  </bibl>
+               </place>
+               <place xml:id="daulis" ana="#place">
+                  <placeName>Daulis</placeName>
+                  <note ana="#description">
+                     <p>An ancient city in Phocis, in central Greece.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Daulis"/>
+                  </bibl>
+               </place>
+               <place xml:id="lesbos" ana="#place">
+                  <placeName>Lesbos</placeName>
+                  <note ana="#description">
+                     <p>Greek island in the northeast Aegean Sea. Birthplace of Sappho.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Lesbos_Island"/>
+                  </bibl>
+               </place>
+               <place xml:id="loire" ana="#geog">
+                  <geogName>Loire</geogName>
+                  <note ana="#description">
+                     <p>The largest river in France.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Loire_River"/>
+                  </bibl>
+               </place>
+               <place xml:id="mitylene" ana="#place">
+                  <placeName>Mitilíni</placeName>
+                  <placeName ana=" #alternate">Mitylene</placeName>
+                  <note ana="#description">
+                     <p> The capital of the Greek island of Lesbos in the Aegean Sea. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Mytilene"/>
+                  </bibl>
+               </place>
+               <place xml:id="lampsacus" ana="#place">
+                  <placeName>Lâpseki</placeName>
+                  <placeName ana=" #alternate">Lampsacus</placeName>
+                  <note ana="#description">
+                     <p> An ancient city located in northeastern Turkey. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Mytilene"/>
+                  </bibl>
+               </place>
+               <place xml:id="broceliande" corresp="arthurian.xtm#broceliande" ana="#place">
+                  <placeName>Broceliande</placeName>
+                  <ptr target="document:toltrist00#placeName_005"/>
+                  <ptr target="document:toltrist00#placeName_436"/>
+                  <ptr target="document:toltrist00#placeName_438"/>
+               </place>
+               <place xml:id="brittany" corresp="arthurian.xtm#brittany" ana="#place">
+                  <placeName>Brittany</placeName>
+                  <ptr target="document:toltrist00#placeName_004"/>
+                  <ptr target="document:toltrist00#placeName_006"/>
+               </place>
+               <place xml:id="carlion" corresp="arthurian.xtm#carlion" ana="#place">
+                  <placeName>Carlion</placeName>
+                  <ptr target="document:toltrist00#placeName_132"/>
+               </place>
+               <place xml:id="carthage" ana="#place">
+                  <placeName>Carthaginian</placeName>
+                  <ptr target="document:toltrist00#placeName_111"/>
+               </place>
+               <place xml:id="cornwall" ana="#place">
+                  <placeName>Cornwall</placeName>
+                  <ptr target="document:toltrist00#placeName_130"/>
+                  <ptr target="document:toltrist00#placeName_434"/>
+                  <ptr target="document:toltrist00#persName_140"/>
+                  <ptr target="document:toltrist00#persName_262"/>
+                  <ptr target="document:toltrist00#persName_278"/>
+                  <ptr target="document:toltrist00#persName_285"/>
+                  <ptr target="document:toltrist00#persName_329"/>
+                  <ptr target="document:toltrist00#persName_419"/>
+                  <ptr target="document:toltrist00#persName_462"/>
+               </place>
+               <place xml:id="agned" corresp="#agned" ana="#geographicFeature">
+                  <geogName>Agned</geogName>
+                  <note>
+				A mountain, the site of Arthur's eleventh victory over the Saxons. 
+			</note>
+                  <ptr target="https://pantheon.org/articles/a/agned.html" ana="occurrenceTypes.xtm#article"/>
+               </place>
+               <place xml:id="amesbury" corresp="#amesbury" ana="#place">
+                  <placeName>Amesbury</placeName>
+                  <ptr target="https://pantheon.org/articles/a/amesbury.html" ana="occurrenceTypes.xtm#article"/>
+               </place>
+               <place xml:id="avalon" corresp="#avalon" ana="#place">
+                  <placeName>Avalon</placeName>
+                  <ptr target="https://pantheon.org/articles/a/avalon.html" ana="occurrenceTypes.xtm#article"/>
+               </place>
+               <place xml:id="camelot" corresp="#camelot" ana="#place">
+                  <placeName>Camelot</placeName>
+                  <ptr target="https://pantheon.org/articles/c/camelot.html" ana="occurrenceTypes.xtm#article"/>
+               </place>
+            </listPlace>

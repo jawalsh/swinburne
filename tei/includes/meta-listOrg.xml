@@ -1,0 +1,40 @@
+<listOrg>
+               <org xml:id="french_first_republic" ana="#institution">
+                  <orgName>French First Republic</orgName>
+                  <note ana="#description">
+                     <p>
+                        Declared on <date when="1792-09-21">September 21, 1792</date> with the disposing of Louis XVI.  Came to an end when Napoleon 
+                        declared himself emperor of France in <date when="1804">1804</date>.
+                    </p>
+                  </note>
+                  <ptr target="http://en.wikipedia.org/wiki/French_First_Republic" ana="encyclopedia_article"/>
+               </org>
+               <org xml:id="louvre" ana="#institution">
+                  <orgName>Musée du Louvre</orgName>
+                  <note ana="#description">
+                     <p> The national museum of France located in Paris, which opened <date when="1793-08-10">August 10, 1793</date>. </p>
+                  </note>
+                  <ptr target="http://en.wikipedia.org/wiki/Louvre_Museum" ana="encyclopedia_article"/>
+               </org>
+               <org xml:id="sienese_academy" ana="#institution">
+                  <orgName>Sienese Academy</orgName>
+                  <note ana="#description">
+                     <p> A school of painting in Siena, Italy that flourished between the 13th
+                        and 15th century. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Sienese_School"/>
+                  </bibl>
+               </org>
+               <org xml:id="uffizi" ana="#institution">
+                  <orgName>Uffizi Gallery</orgName>
+                  <note ana="#description">
+                     <p> One of the oldest art museums in the world, built in Florence, Italy in
+                            <date when="1581">1581</date>. </p>
+                  </note>
+                  <ptr target="http://www.uffizi.com/" ana="#collection"/>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Uffizi"/>
+                  </bibl>
+               </org>
+            </listOrg>

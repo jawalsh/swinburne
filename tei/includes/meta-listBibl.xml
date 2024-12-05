@@ -1,0 +1,355 @@
+<listBibl>
+               <bibl xml:id="cor" ana="#work">
+                  <title>A Century of Roundels</title>
+               </bibl>
+               <bibl xml:id="acs0000001-03-i003" ana="#work">
+                  <title>A Forsaken Garden</title>
+                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-03-i003.xml" ana="#do"/>
+               </bibl>
+               <bibl xml:id="acs0000001-06-i034" ana="#work">
+                  <title>A Swimmer's Dream</title>
+                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-06-i034.xml" ana="#do"/>
+               </bibl>
+               <bibl xml:id="acs0000001-06-i033" ana="#work">
+                  <title>An Autumn Vision</title>
+                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-06-i033.xml" ana="#do"/>
+               </bibl>
+               <bibl xml:id="atalanta_in_calydon" ana="#work">
+                  <title>Atalanta in Calydon</title>
+                  <note ana="#description">
+                     <p> A dramatic poem written in <date when="1865">1865</date> by
+                        Swinburne about the tragic mythological story of the queen of Calydon,
+                        Althaea, her son, Meleager, and his love for Atalanta. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Atalanta"/>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="birds" ana="#work">
+                  <title>Birds</title>
+                  <note ana="#description">
+                     <p> A play written by Aristophanes about escaping wartime Athens to create a
+                        utopia. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/The_Birds_(play)"/>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bothwell" ana="#work">
+                  <title>Bothwell</title>
+                  <note ana="#description">
+                     <p> A play written in <date when="1874">1874</date> by Swinburne
+                        about Mary Stuart's lover and eventual third husband, James Hepburn, 4th
+                        Earl of Bothwell. The second in a trilogy of dramas Swinburne wrote about
+                        Mary Stuart. </p>
+                  </note>
+               </bibl>
+               <bibl xml:id="caractacus" ana="#work">
+                  <title>Caractacus</title>
+                  <note ana="#description">
+                     <p> A dramatic poem written by William Mason in <date when="1759">1759</date> about the British chieftain, Caractacus, who led the
+                        British resistance against the Roman invasion in the middle of the 1st
+                        century. </p>
+                  </note>
+               </bibl>
+               <bibl xml:id="carmina" ana="#work">
+                  <title>Carmina</title>
+                  <note ana="#description">
+                     <p> A book of poetry by Catullus. </p>
+                  </note>
+               </bibl>
+               <bibl xml:id="chastelard" ana="#work">
+                  <title>Chastelard</title>
+                  <note ana="#description">
+                     <p> A play written in <date when="1865">1865</date> by Swinburne
+                        about a French poet and supposed lover of Mary Stuart, Chastelard. The first
+                        in a trilogy of dramas Swinburne wrote about Mary Stuart. </p>
+                  </note>
+               </bibl>
+               <bibl xml:id="choephori" ana="#work">
+                  <title>Choephori</title>
+                  <title ana=" #alternate">Libation Bearers</title>
+                  <note ana="#description">
+                     <p> A second play in the series, <title>Oresteia</title>, written by
+                        Aeschylus. The play is about the reuniting of Orestes and his sister,
+                        Electra and their revenge against their mother, Clymnestra. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/The_Oresteia#The_Libation_Bearers"/>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="christ_bound_to_the_column" ana="#work">
+                  <title>Christ Bound to the Column</title>
+                  <note ana="#description">
+                     <p> A painting by Sodoma displayed in the Sienese Academy in Siena, Italy.
+                    </p>
+                  </note>
+               </bibl>
+               <bibl xml:id="dejection_an_ode" ana="#work">
+                  <title>Dejection: An Ode</title>
+                  <note ana="#description">
+                     <p> An ode by Samuel Taylor Coleridge </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Dejection:_An_Ode"/>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="edict_of_milan" ana="#work">
+                  <title>Edict of Milan</title>
+                  <note ana="#description">
+                     <p> Law issued by Constantine I that proclaimed religious tolerance across
+                        the Roman empire. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Iliad"/>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="erechtheus" ana="#work">
+                  <title>Erechtheus</title>
+                  <note ana="#description">
+                     <p> A dramatic poem written in <date when="1876">1876</date> by
+                        Swinburne about the ancient king of Athens often equated with Poseidon in
+                        Greek mythology. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Erechtheus"/>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="france_an_ode" ana="#work">
+                  <title>France: An Ode</title>
+                  <note ana="#description">
+                     <p> An ode by Samuel Taylor Coleridge. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/France:_An_Ode"/>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="grandes_chroniques_de_france" ana="#work">
+                  <title>Grandes chroniques de France</title>
+                  <note ana="#description">
+                     <p> A book about the history of France up until the 15th century. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Grandes_Chroniques_de_France"/>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="H5" ana="#work">
+                  <title>Henry V</title>
+                  <note ana="#description">
+                     <p> A drama written around <date when="1599">1599</date> by
+                        Shakespeare about the English King, Henry V, before and after the Battle of
+                        Agincourt in The Hundred Years' War against the French. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Henry_V_(play)"/>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="king_henry_vi" ana="#work">
+                  <title>Henry VI, parts one, two, and three</title>
+                  <note ana="#description">
+                     <p> A three-part play written by William Shakespeare, loosely based on the
+                        15th century English politics and the rise of Henry VI to the English
+                        throne. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Henry_VI,_part_1"/>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="acs0000001-02-i013" ana="#work">
+                  <title>Hymn of Man</title>
+                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-02-i013.xml" ana="#do"/>
+               </bibl>
+               <bibl xml:id="acs0000001-01-i011" ana="#work">
+                  <title>Hymn to Proserpine</title>
+                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-01-i011.xml" ana="#do"/>
+               </bibl>
+               <bibl xml:id="iliad" ana="#work">
+                  <title>Iliad of Homer</title>
+                  <note ana="#description">
+                     <p> An epic poem attributed to Homer about the last years of the Trojan War.
+                    </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Iliad"/>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="acs0000001-03-i002" ana="#work">
+                  <title>In the Bay</title>
+                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-03-i002.xml" ana="#do"/>
+               </bibl>
+               <bibl xml:id="king_lear" ana="#work">
+                  <title>King Lear</title>
+                  <note ana="#description">
+                     <p> A drama written around <date when="1606">1606</date> by
+                        Shakespeare about the pre-Roman king, Leir of Britain. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/King_Lear"/>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="king_leir" ana="#work">
+                  <title>King Leir</title>
+                  <note ana="#description">
+                     <p> A Elizabethan drama of unknown authorship about King Leir and his three
+                        daughters. Written before Shakespeare's <title>King Henry
+                            V</title> around <date when="1605">1605</date>. </p>
+                  </note>
+               </bibl>
+               <bibl xml:id="archipel" ana="#work">
+                  <title>L'Archipel de la Manche</title>
+               </bibl>
+               <bibl xml:id="lavacrum_palladis" ana="#work">
+                  <title>Lavacrum Palladis</title>
+                  <note ana="#description">
+                     <p> A book of poems written by Callimachus. </p>
+                  </note>
+               </bibl>
+               <bibl xml:id="les_djinns" ana="#work">
+                  <title>Les Djinns</title>
+                  <note ana="#description">
+                     <p> A poem by Victor Hugo. </p>
+                  </note>
+               </bibl>
+               <bibl xml:id="acslocrine" ana="#work">
+                  <title>Locrine</title>
+               </bibl>
+               <bibl xml:id="locrine" ana="#work">
+                  <title>Locrine</title>
+                  <note ana="#description">
+                     <p> An Elizabethan play of unknown authorship about the founding of England.
+                    </p>
+                  </note>
+                  <bibl>
+                     <ptr target="Locrine"/>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="acsmarino_faliero" ana="#work">
+                  <title>Marino Faliero</title>
+               </bibl>
+               <bibl xml:id="marino_faliero" ana="#work">
+                  <title>Marino Faliero</title>
+                  <note ana="#description">
+                     <p> A drama written in <date when="1820">1820</date> by Lord Byron
+                        about Faliero, the Doge of Venice, and his attempted coup d'etat in
+                            <date when="1355">1355</date>. </p>
+                  </note>
+               </bibl>
+               <bibl xml:id="mary_stuart" ana="#work">
+                  <title>Mary Stuart</title>
+                  <note ana="#description">
+                     <p> A play written in <date when="1881">1881</date> by Swinburne.
+                        The second in a trilogy of dramas Swinburne wrote about Mary Stuart.
+                    </p>
+                  </note>
+               </bibl>
+               <bibl xml:id="merope" ana="#work">
+                  <title>Merope</title>
+                  <note ana="#description">
+                     <p> A dramatic poem written by Matthew Arnold in <date when="1858">1858</date> about the queen of the Messiana, a city in the
+                        Peloponnese region of Greece, whose husband is murdered by their son.
+                    </p>
+                  </note>
+               </bibl>
+               <bibl xml:id="miserables" ana="#work">
+                  <title>Misérables</title>
+                  <note ana="#description">
+                     <p> A novel written in <date when="1862">1862</date> by the French
+                        author, Victor Hugo, about the stuggles of the French after Napoleon's
+                        reign. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Les_Miserables"/>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="acs0000001-03-i073" ana="#work">
+                  <title>Neap-Tide</title>
+                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-03-i073.xml" ana="#do"/>
+               </bibl>
+               <bibl xml:id="acs0000001-05-i003" ana="#work">
+                  <title>Off Shore</title>
+                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-05-i003.xml" ana="#do"/>
+               </bibl>
+               <bibl xml:id="acs0000001-03-i100" ana="#work">
+                  <title>On the Cliffs</title>
+                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-03-i100.xml" ana="#do"/>
+               </bibl>
+               <bibl xml:id="acs0000001-06-i032" ana="#work">
+                  <title>On the South Coast</title>
+                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-06-i032.xml" ana="#do"/>
+               </bibl>
+               <bibl xml:id="othello" ana="#work">
+                  <title>Othello</title>
+                  <note ana="#description">
+                     <p> A tragic drama written around <date when="1603">1603</date> by
+                        Shakespeare about a Moorish General in the Venetian army. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Othello"/>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="prometheus_unbound" ana="#work">
+                  <title>Prometheus unbound</title>
+                  <note ana="#description">
+                     <p> A drama written in <date when="1820">1820</date> by Percey
+                        Bysshe Shelley about Zeus' torment of Prometheus for giving man fire.
+                    </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Prometheus_Unbound_(Shelley)"/>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="rosamund_queen_of_the_lombards" ana="#work">
+                  <title>Rosamund, queen of the Lombards</title>
+                  <note ana="#description">
+                     <p> A tragic, free verse drama written in <date when="1899">1899</date> by Swinburne. </p>
+                  </note>
+               </bibl>
+               <bibl xml:id="tamburlaine_the_great" ana="#work">
+                  <title>Tamburlaine the Great</title>
+                  <note ana="#description">
+                     <p> A two-part play written by Christopher Marlowe, loosely based on the
+                        14th century central Asia emperor, Timbur. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Tamburlaine_(play)"/>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="sir_thomas_wyatt" ana="#work">
+                  <title>The Famous History of Sir Thomas Wyatt</title>
+                  <note ana="#description">
+                     <p> A play written in <date when="1607">1607</date> by John Webster
+                        and Thomas Dekkar, based on the Elizabethan English poet, Sir Thomas Wyatt.
+                    </p>
+                  </note>
+               </bibl>
+               <bibl xml:id="famous_victories_of_king_henry_fifth" ana="#work">
+                  <title>The Famous Victories of King Henry the Fifth</title>
+                  <note ana="#description">
+                     <p> A Elizabethan drama of unknown authorship about the life of King Henry
+                        V. Written before Shakespeare's <title>King Henry V</title>.
+                    </p>
+                  </note>
+               </bibl>
+               <bibl xml:id="sisters" ana="#work">
+                  <title>The Sisters</title>
+               </bibl>
+               <bibl xml:id="acs0000001-04-i001" ana="#work">
+                  <title>The Tale of Balen</title>
+                  <ptr target="acs0000001-04-i001" ana="#do"/>
+               </bibl>
+               <bibl xml:id="three_graces" ana="#work">
+                  <title>Three Graces</title>
+                  <note ana="#description">
+                     <p> A Roman copy of a Greek sculpture of the mythological Graces that was
+                        displayed in the main hall of the Sienese Academy in Siena, Italy in the mid
+                        19th century. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Charites"/>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="acs0000001-04-i000" ana="#work">
+                  <title>Tristram of Lyonesse</title>
+                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-04-i000.xml" ana="#do"/>
+               </bibl>
+            </listBibl>
