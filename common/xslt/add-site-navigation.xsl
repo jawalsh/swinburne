@@ -40,7 +40,7 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<!-- masthead -->
-			<header>
+			<header class="position-sticky top-0">
 				
 			
 			<!-- menus read from menus.json -->
