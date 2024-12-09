@@ -36,7 +36,10 @@
 	<xsl:variable name="embedded-manifest-uri" select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno[@type='iiif-manifest']"/>
 	
 	<xsl:template match="/tei:TEI">
-		<html xml:id="{/tei:TEI/@xml:id}" id="{/tei:TEI/@xml:id}" class="tei">
+		<html class="tei">
+			<xsl:attribute name="xml:id"><xsl:value-of select="TEI/@xml:id"/></xsl:attribute>
+			<xsl:attribute name="id"><xsl:value-of select="TEI/@xml:id"/></xsl:attribute>
+			
 			<head>
 				<title><xsl:value-of select="$title"/></title>
 				<link href="/css/tei.css" rel="stylesheet" type="text/css"/>
@@ -85,10 +88,10 @@
     </style>
 			</head>
 			<body class="tei">
+					<xsl:apply-templates select="tei:teiHeader"/>
 				<div class="tei">
 					<cite><xsl:value-of select="$title"/></cite>
 					<!-- render the document metadata details -->
-					<xsl:apply-templates select="tei:teiHeader"/>
 					<div class="searchable-content">
 						<xsl:apply-templates select="tei:text"/>
 					</div>
@@ -185,40 +188,21 @@
 		<xsl:param name="html-link">
 			<xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$doc-id,'.html')"/>
 		</xsl:param>
-
+		<div id="doc-meta">
+			<div class="doc-meta-nav"> 
+				<button id="doc-info-btn">Document Information</button>
+				<xsl:if test="//*[@xml:id = 'parent_vol']">
+					<button id="vol-contents-btn">Volume Contents</button>
+				</xsl:if>
+				
+			</div>
 		<div class="tei-teiHeader">
-			<details class="tei-teiHeader">
-				<summary>Document Information</summary>
-				<div>
+				<div id="doc-info">
+					<h1>Document Information</h1>
 					<xsl:variable name="now" select="current-dateTime()"/>
 					<xsl:apply-templates select="fileDesc/sourceDesc/msDesc/physDesc/objectDesc/supportDesc" />
 					<xsl:apply-templates select="profileDesc/langUsage"/>
 					<xsl:apply-templates select="fileDesc/sourceDesc/msDesc/history" />
-					<!-- identifiers -->
-					<!-- keep msIdentifier code for when I publish MSS. -->
-					<!--
-					<xsl:variable name="msIdentifier" select="fileDesc/sourceDesc/msDesc/msIdentifier"/>
-					<div>
-						<h2 class="d-inline">Physical Location:</h2>
-						<xsl:value-of select="string-join(
-							(
-								$msIdentifier/collection, 
-								$msIdentifier/idno, 
-								$msIdentifier/repository, 
-								$msIdentifier/institution, 
-								string-join(
-									(
-										$msIdentifier/settlement, 
-										$msIdentifier/region, 
-										$msIdentifier/country
-									),
-									', '
-								)
-							),
-							'&#160;'
-						)"/>
-					</div>
-					-->
 					<xsl:if test="//biblStruct[@xml:id = concat(/TEI/@xml:id,'-bibl')]">
 					<div>
 
@@ -270,8 +254,8 @@
 					</div>
 					</div>
 				</div>
-			</details>
 		</div>
+	</div>
 	</xsl:template>
 	<xsl:template match="titleStmt/respStmt" mode="create-content">
 		<xsl:if test="name/@type=('editor', 'reviewer', 'transcriber')">
