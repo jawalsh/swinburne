@@ -3,9 +3,94 @@
 $font-family-sans-serif: 'Jost', 'helvetica', sans-serif;
 $font-family-base: 'Jost', 'helvetica', sans-serif;
 $font-size-base: 1.2rem;
-$primary: #75070C; 
 $headings-font-family: 'Crimson Pro', 'Cambria', 'Georgia', 'Times New Roman', serif; 
 
+/* color theme: start */
+
+// Base Colors
+$body-bg: #f8f8f8; // Light background for the theme
+$body-color: #211500; // Base dark text color for light backgrounds
+$primary: #75070C; // Primary color (deep red)
+
+// Updated Dark Backgrounds
+$dark: #211500; // Overrides Bootstrap's $dark variable for bg-dark
+$bg-dark-secondary: #3a2b14; // Slightly lighter dark background
+
+// Updated Text Color
+$text-color-dark: #e9ddc3; // Complementary light beige color that meets AAA contrast
+
+// Derived Colors
+$secondary: #9e7c6d; // Soft complementary color to the primary
+$success: #4CAF50; // Green for success
+$info: #0275d8; // Blue for info
+$warning: #FFC107; // Yellow for warning
+$danger: #dc3545; // Red for danger
+$light: #ffffff; // Pure white for light elements
+
+// Custom Background Utility for bg-dark-secondary
+.bg-dark-secondary {
+  background-color: $bg-dark-secondary !important;
+  color: $text-color-dark !important;
+}
+
+// Theme Colors Map (for utilities)
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark
+);
+
+/* color theme: end */
+
+/* #doc-meta-nav styles: start */
+/* Spacing between menu items */
+#doc-meta-nav .nav-link {
+  padding-left: 1rem; /* Adjust horizontal spacing (left padding) */
+  padding-right: 1rem; /* Adjust horizontal spacing (right padding) */
+  white-space: nowrap; /* Prevent text wrapping */
+  font-size: 0.85rem; /* Smaller font size for better fit */
+}
+
+/* Adjust height of the navigation bar */
+#doc-meta-nav {
+  padding-top: 0.25rem; /* Aesthetic padding above items */
+  padding-bottom: 0.25rem; /* Aesthetic padding below items */
+  height: auto; /* Automatically adjust to content height */
+  min-height: 2.5rem; /* Set a comfortable minimum height */
+  line-height: 1.2; /* Compact line height to save vertical space */
+}
+
+/* Ensure proper visibility and accessibility */
+#doc-meta-nav .nav-link {
+  color: #fff; /* Ensure good contrast for visibility */
+}
+
+#doc-meta-nav .nav-link:hover {
+  text-decoration: underline; /* Add hover feedback for better UX */
+}
+
+#doc-meta-nav ul.navbar-nav {
+  scrollbar-width: thin; /* Firefox */
+}
+
+#doc-meta-nav ul.navbar-nav::-webkit-scrollbar {
+  height: 6px; /* Horizontal scrollbar height */
+}
+
+#doc-meta-nav ul.navbar-nav::-webkit-scrollbar-thumb {
+  background: #888; /* Scrollbar thumb color */
+  border-radius: 4px;
+}
+
+#doc-meta-nav ul.navbar-nav::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Scrollbar track color */
+}
+/* #doc-meta-nav styles: end */
 $display-font-sizes: (
   1: 3rem,
   2: 2.5rem,
@@ -48,6 +133,8 @@ html {
 	scroll-padding-top: 75px;
 }
 
+
+
 .type-chorus {
 position: absolute;
 right: 4rem;
@@ -71,9 +158,7 @@ h1.tei-head, h2.tei-head, h3.tei-head, h4.tei-head, h5.tei-head, h6.tei-head {
 
 // Element handling
 
-#toc {
-  position: sticky;
-  top: 0; /* Initial sticky position at the top of the viewport */
+#toc, #doc-info {
   max-height: calc(100vh - 20px); /* Allow the column to scroll to its bottom before sticking */
   overflow-y: auto; /* Enable internal scrolling for the column */
   font-size: .9rem;
