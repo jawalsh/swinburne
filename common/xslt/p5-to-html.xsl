@@ -37,8 +37,8 @@
 	
 	<xsl:template match="/tei:TEI">
 		<html class="tei">
-			<xsl:attribute name="xml:id"><xsl:value-of select="TEI/@xml:id"/></xsl:attribute>
-			<xsl:attribute name="id"><xsl:value-of select="TEI/@xml:id"/></xsl:attribute>
+			<xsl:attribute name="xml:id"><xsl:value-of select="/TEI/@xml:id"/></xsl:attribute>
+			<xsl:attribute name="id"><xsl:value-of select="/TEI/@xml:id"/></xsl:attribute>
 			
 			<head>
 				<title><xsl:value-of select="$title"/></title>
