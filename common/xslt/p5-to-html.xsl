@@ -189,13 +189,6 @@
 			<xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$doc-id,'.html')"/>
 		</xsl:param>
 		<div id="doc-meta">
-			<div class="doc-meta-nav"> 
-				<button id="doc-info-btn">Document Information</button>
-				<xsl:if test="//*[@xml:id = 'parent_vol']">
-					<button id="vol-contents-btn">Volume Contents</button>
-				</xsl:if>
-				
-			</div>
 		<div class="tei-teiHeader">
 				<div id="doc-info">
 					<h1>Document Information</h1>

@@ -43,6 +43,21 @@
             </div>
           </div>
         </nav>
+	<xsl:if test="div[@class='tei']">
+	<nav id="doc-meta-nav" class="navbar navbar-expand-lg navbar-dark bg-dark-secondary">
+		<div class="container-fluid">
+		<ul class="navbar-nav d-flex flex-row flex-nowrap overflow-auto w-100">
+			<li class="nav-item">  
+				<a class="nav-link px-3" href="#doc-infoModal" data-bs-toggle="modal" id="doc-info-lnk">Document Information</a></li>
+			<xsl:if test="//meta[@name = 'parent_vol']">
+				<li class="nav-item">
+				<a class="nav-link px-3" data-bs-toggle="modal" href="#tocModal" id="vol-contents-lnk">Volume Contents</a>
+			</li>
+			</xsl:if>
+		</ul>
+		</div>
+	</nav>
+	</xsl:if>
       </header>
       <!-- contextual sidebar of the menu to which this page belongs, if any -->
       <xsl:variable name="sub-menu">
@@ -134,6 +149,27 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
             <xsl:apply-templates select="*" mode="replace-class"/>
           </xsl:copy>
   </xsl:template>
+
+  <!-- modal-ize #doc-info -->
+  <xsl:template match="div[@id = 'doc-info']">
+	  <div class="modal" id="doc-infoModal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Document Information" aria-hidden="true">
+		  <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-scrollable ">
+              <div class="modal-content">
+		<xsl:copy>
+			<xsl:copy-of select="@*"/>
+			<xsl:apply-templates select="." mode="replace-class"/>
+			<xsl:apply-templates select="*"/>
+		</xsl:copy>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+  </xsl:template>
+
   <!-- add wrapper div elements for bootstrap-based layout -->
   <xsl:template match="div[@class='tei']">
     <xsl:copy>
@@ -156,7 +192,7 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
         </div>
         <xsl:if test="//meta[@name = 'parent_vol']">
           <div class="modal" id="tocModal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Table of Contents" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-scrollable">
+		  <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-scrollable ">
               <div class="modal-content">
                 <!--	<xsl:apply-templates select="child::div[@id='toc']"/> -->
                 <!-- if no *[@xml:id = 'parent-vol'] then not a collection with toc. Maybe. Have to figure out later what to do with internal table of contents, for e.g., Year's Letters, Blake, etc. -->
@@ -415,21 +451,8 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
     <xsl:attribute name="class">facet chart list-group mt-5</xsl:attribute>
   </xsl:template>
   <!-- teiHeader summary -->
-  <xsl:template mode="replace-class" match="*[@id = 'doc-meta']">
-    <xsl:attribute name="class">{@class} my-2 mx-5 p-2</xsl:attribute>
-  </xsl:template>
-  <xsl:template mode="replace-class" match="button[@id = 'doc-info-btn']">
-    <xsl:attribute name="class">btn btn-outline-primary btn-sm me-2</xsl:attribute>
-    <xsl:attribute name="data-bs-toggle">collapse</xsl:attribute>
-    <xsl:attribute name="data-bs-target">#doc-info</xsl:attribute>
-  </xsl:template>
-  <xsl:template mode="replace-class" match="button[@id = 'vol-contents-btn']">
-    <xsl:attribute name="class">btn btn-outline-primary btn-sm me-2</xsl:attribute>
-    <xsl:attribute name="data-bs-toggle">modal</xsl:attribute>
-    <xsl:attribute name="data-bs-target">#tocModal</xsl:attribute>
-  </xsl:template>
-  <xsl:template mode="replace-class" match="div[@id = 'doc-info']">
-    <xsl:attribute name="class">{@class} collapse card card-body mt-3</xsl:attribute>
+  <xsl:template mode="replace-class" match="*[@id = 'doc-info']">
+    <xsl:attribute name="class">{@class} px-4</xsl:attribute>
   </xsl:template>
   <!-- style headings in teiHeader Document Information -->
   <xsl:template mode="replace-class" match="div[contains-token(@class, 'tei-teiHeader')]//h1">
