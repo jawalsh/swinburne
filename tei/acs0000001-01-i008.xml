@@ -4,10 +4,10 @@
          <titleStmt>
             <title>A Leave-Taking</title>
             <author>
-               <persName ref="#acs" xml:id="acs">Algernon Charles Swinburne</persName>
+               <persName ref="#acs">Algernon Charles Swinburne</persName>
             </author>
             <editor role="editor">
-               <persName ref="#jawalsh" xml:id="jawalsh">John A. Walsh</persName>
+               <persName ref="#jawalsh">John A. Walsh</persName>
             </editor>
          </titleStmt><publicationStmt>
     <publisher>Digital Culture Lab, <ref target="http://ils.indiana.edu/">Department of Information and Library Science</ref>, <ref target="http://luddy.indiana.edu/">Luddy School of Informatics, Computing, and Engineering</ref>, <ref target="http://www.indiana.edu/">Indiana
