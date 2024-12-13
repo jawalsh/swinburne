@@ -40,7 +40,7 @@
                      <title>Faustine</title>
                      <author>
                             <persName ref="#acs">Algernon Charles Swinburne</persName>
-                        </author>
+                        </author><idno type="nines">pb1faust00</idno>
                   </analytic><monogr>
                         <title>The Poems of Algernon Charles Swinburne</title>
                         <imprint>
@@ -51,7 +51,7 @@
                             <biblScope unit="page">106-112</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
-                    </monogr><idno type="nines">pb1faust00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                    </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>Faustine</title>
                      <author>
                             <persName ref="#acs">Algernon Charles Swinburne</persName>
