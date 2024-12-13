@@ -2,18 +2,6 @@
                <bibl xml:id="cor" ana="#work">
                   <title>A Century of Roundels</title>
                </bibl>
-               <bibl xml:id="acs0000001-03-i003" ana="#work">
-                  <title>A Forsaken Garden</title>
-                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-03-i003.xml" ana="#do"/>
-               </bibl>
-               <bibl xml:id="acs0000001-06-i034" ana="#work">
-                  <title>A Swimmer's Dream</title>
-                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-06-i034.xml" ana="#do"/>
-               </bibl>
-               <bibl xml:id="acs0000001-06-i033" ana="#work">
-                  <title>An Autumn Vision</title>
-                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-06-i033.xml" ana="#do"/>
-               </bibl>
                <bibl xml:id="atalanta_in_calydon" ana="#work">
                   <title>Atalanta in Calydon</title>
                   <note ana="#description">
@@ -155,14 +143,6 @@
                      <ptr target="http://en.wikipedia.org/wiki/Henry_VI,_part_1"/>
                   </bibl>
                </bibl>
-               <bibl xml:id="acs0000001-02-i013" ana="#work">
-                  <title>Hymn of Man</title>
-                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-02-i013.xml" ana="#do"/>
-               </bibl>
-               <bibl xml:id="acs0000001-01-i011" ana="#work">
-                  <title>Hymn to Proserpine</title>
-                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-01-i011.xml" ana="#do"/>
-               </bibl>
                <bibl xml:id="iliad" ana="#work">
                   <title>Iliad of Homer</title>
                   <note ana="#description">
@@ -172,10 +152,6 @@
                   <bibl>
                      <ptr target="http://en.wikipedia.org/wiki/Iliad"/>
                   </bibl>
-               </bibl>
-               <bibl xml:id="acs0000001-03-i002" ana="#work">
-                  <title>In the Bay</title>
-                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-03-i002.xml" ana="#do"/>
                </bibl>
                <bibl xml:id="king_lear" ana="#work">
                   <title>King Lear</title>
@@ -261,22 +237,6 @@
                      <ptr target="http://en.wikipedia.org/wiki/Les_Miserables"/>
                   </bibl>
                </bibl>
-               <bibl xml:id="acs0000001-03-i073" ana="#work">
-                  <title>Neap-Tide</title>
-                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-03-i073.xml" ana="#do"/>
-               </bibl>
-               <bibl xml:id="acs0000001-05-i003" ana="#work">
-                  <title>Off Shore</title>
-                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-05-i003.xml" ana="#do"/>
-               </bibl>
-               <bibl xml:id="acs0000001-03-i100" ana="#work">
-                  <title>On the Cliffs</title>
-                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-03-i100.xml" ana="#do"/>
-               </bibl>
-               <bibl xml:id="acs0000001-06-i032" ana="#work">
-                  <title>On the South Coast</title>
-                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-06-i032.xml" ana="#do"/>
-               </bibl>
                <bibl xml:id="othello" ana="#work">
                   <title>Othello</title>
                   <note ana="#description">
@@ -333,10 +293,6 @@
                <bibl xml:id="sisters" ana="#work">
                   <title>The Sisters</title>
                </bibl>
-               <bibl xml:id="acs0000001-04-i001" ana="#work">
-                  <title>The Tale of Balen</title>
-                  <ptr target="acs0000001-04-i001" ana="#do"/>
-               </bibl>
                <bibl xml:id="three_graces" ana="#work">
                   <title>Three Graces</title>
                   <note ana="#description">
@@ -347,9 +303,5 @@
                   <bibl>
                      <ptr target="http://en.wikipedia.org/wiki/Charites"/>
                   </bibl>
-               </bibl>
-               <bibl xml:id="acs0000001-04-i000" ana="#work">
-                  <title>Tristram of Lyonesse</title>
-                  <ptr target="http://www.purl.org/swinburnearchive/acs0000001-04-i000.xml" ana="#do"/>
                </bibl>
             </listBibl>
