@@ -43,21 +43,22 @@
             </div>
           </div>
         </nav>
-	<xsl:if test="div[@class='tei']">
-	<nav id="doc-meta-nav" class="navbar navbar-expand-lg navbar-dark bg-dark-secondary">
-		<div class="container-fluid">
-		<ul class="navbar-nav d-flex flex-row flex-nowrap overflow-auto w-100">
-			<li class="nav-item">  
-				<a class="nav-link px-3" href="#doc-infoModal" data-bs-toggle="modal" id="doc-info-lnk">Document Information</a></li>
-			<xsl:if test="//meta[@name = 'parent_vol']">
-				<li class="nav-item">
-				<a class="nav-link px-3" data-bs-toggle="modal" href="#tocModal" id="vol-contents-lnk">Volume Contents</a>
-			</li>
-			</xsl:if>
-		</ul>
-		</div>
-	</nav>
-	</xsl:if>
+        <xsl:if test="div[@class='tei']">
+          <nav id="doc-meta-nav" class="navbar navbar-expand-lg navbar-dark bg-dark-secondary">
+            <div class="container-fluid">
+              <ul class="navbar-nav d-flex flex-row flex-nowrap overflow-auto w-100">
+                <li class="nav-item">
+                  <a class="nav-link px-3" href="#doc-infoModal" data-bs-toggle="modal" id="doc-info-lnk">Document Information</a>
+                </li>
+                <xsl:if test="//meta[@name = 'parent_vol']">
+                  <li class="nav-item">
+                    <a class="nav-link px-3" data-bs-toggle="modal" href="#tocModal" id="vol-contents-lnk">Volume Contents</a>
+                  </li>
+                </xsl:if>
+              </ul>
+            </div>
+          </nav>
+        </xsl:if>
       </header>
       <!-- contextual sidebar of the menu to which this page belongs, if any -->
       <xsl:variable name="sub-menu">
@@ -116,7 +117,17 @@
     </li>
   </xsl:template>
   <xsl:template match="fn:map[ancestor::fn:map]/fn:string" mode="main-menu">
-    <a class="dropdown-item" href="{concat('/',$context,.)}">
+    <a class="dropdown-item">
+      <xsl:attribute name="href">
+        <xsl:choose>
+          <xsl:when test="starts-with(.,'http')">
+            <xsl:value-of select="."/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="concat('/',$context,.)"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
       <xsl:value-of select="@key"/>
     </a>
   </xsl:template>
@@ -142,34 +153,30 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
     </footer>
   </xsl:template>
   <xsl:template match="div[@id = 'doc-meta']">
+    <xsl:copy>
+      <xsl:copy-of select="@*"/>
+      <xsl:apply-templates select="." mode="replace-class"/>
+      <xsl:apply-templates select="*"/>
+      <xsl:apply-templates select="*" mode="replace-class"/>
+    </xsl:copy>
+  </xsl:template>
+  <!-- modal-ize #doc-info -->
+  <xsl:template match="div[@id = 'doc-info']">
+    <div class="modal" id="doc-infoModal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Document Information" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-scrollable ">
+        <div class="modal-content">
           <xsl:copy>
             <xsl:copy-of select="@*"/>
             <xsl:apply-templates select="." mode="replace-class"/>
             <xsl:apply-templates select="*"/>
-            <xsl:apply-templates select="*" mode="replace-class"/>
           </xsl:copy>
-  </xsl:template>
-
-  <!-- modal-ize #doc-info -->
-  <xsl:template match="div[@id = 'doc-info']">
-	  <div class="modal" id="doc-infoModal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Document Information" aria-hidden="true">
-		  <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-scrollable ">
-              <div class="modal-content">
-		<xsl:copy>
-			<xsl:copy-of select="@*"/>
-			<xsl:apply-templates select="." mode="replace-class"/>
-			<xsl:apply-templates select="*"/>
-		</xsl:copy>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
           </div>
-
-
+        </div>
+      </div>
+    </div>
   </xsl:template>
-
   <!-- add wrapper div elements for bootstrap-based layout -->
   <xsl:template match="div[@class='tei']">
     <xsl:copy>
@@ -192,7 +199,7 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
         </div>
         <xsl:if test="//meta[@name = 'parent_vol']">
           <div class="modal" id="tocModal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Table of Contents" aria-hidden="true">
-		  <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-scrollable ">
+            <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-scrollable ">
               <div class="modal-content">
                 <!--	<xsl:apply-templates select="child::div[@id='toc']"/> -->
                 <!-- if no *[@xml:id = 'parent-vol'] then not a collection with toc. Maybe. Have to figure out later what to do with internal table of contents, for e.g., Year's Letters, Blake, etc. -->
