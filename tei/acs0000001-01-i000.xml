@@ -177,7 +177,7 @@
             </taxonomy>
          </classDecl>
       </encodingDesc>
-      <encodingDesc><listPrefixDef><!--The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website.--><prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/><!--The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved.--><prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/><!--The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry.--><prefixDef ident="glossary" matchPattern="(.*)" replacementPattern="#$1"/></listPrefixDef>
+      <encodingDesc><listPrefixDef><!--The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website.--><prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/><!--The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved.--><prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/acs/$1.html"/><!--The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry.--><prefixDef ident="glossary" matchPattern="(.*)" replacementPattern="#$1"/></listPrefixDef>
          
 <classDecl xml:id="collex_genres">
         <taxonomy>
@@ -318,13 +318,13 @@
 						<!-- The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website. -->
 						<prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/>
 						<!-- The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved. -->
-						<prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/>
+						<prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/acs/$1.html"/>
 						<!-- The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry. -->
 						<prefixDef ident="glossary" matchPattern="(.+)" replacementPattern="#$1"/>
 						<!-- The 'image' reference system points to an image resource. These references expand to the URL of the resource in the Swinburne website.. -->
 						<prefixDef ident="image" matchPattern="(.+)" replacementPattern="/figure/$1"/>
 					</listPrefixDef>
-				<listPrefixDef><!--The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website.--><prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/><!--The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved.--><prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/><!--The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry.--><prefixDef ident="glossary" matchPattern="(.*)" replacementPattern="#$1"/></listPrefixDef>
+				<listPrefixDef><!--The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website.--><prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/><!--The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved.--><prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/acs/$1.html"/><!--The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry.--><prefixDef ident="glossary" matchPattern="(.*)" replacementPattern="#$1"/></listPrefixDef>
             <editorialDecl>
                 <quotation>
                     <p xml:id="quotation_format">single</p>
@@ -865,9 +865,9 @@
      of a mile or so. No contrast could be stronger than that between the majestic and exquisite
      glory of cliff <!-- stopped proofing, 2008-11-16--><pb n="xxii" facs="acs0000001-01-027"/> and crag, lawn and woodland, garden
      and lea, to which I have done homage though assuredly I have not done justice in these four
-     poems—<title rendition="#sq #n" ref="document:acs0000001-03-i002">In the Bay,</title>
-        <title level="a" rendition="#sq #n" ref="document:acs0000001-03-i100">On the Cliffs,</title>
-        <title level="a" rendition="#sq #n" ref="document:acs0000001-03-i003">A Forsaken Garden,</title> the <choice n="eol">
+	     poems—<title rendition="#sq #n" ref="document:acs0000001-03-i002"><ref target="document:acs0000001-03-i002">In the Bay</ref>,</title>
+     <title level="a" rendition="#sq #n" ref="document:acs0000001-03-i100"><ref target="document:acs0000001-03-i100">On the Cliffs</ref>,</title>
+     <title level="a" rendition="#sq #n" ref="document:acs0000001-03-i003"><ref target="document:acs0000001-03-i003">A Forsaken Garden</ref>,</title> the <choice n="eol">
       <reg>dedication</reg>
       <orig>dedica-tion</orig>
      </choice> of <title level="a" rendition="#sq #n" ref="#sisters">The Sisters</title>—and the dreary beauty,
@@ -888,11 +888,11 @@
       <orig>fasci-nation</orig>
      </choice> of the sea whose beauties and delights, whose translucent depths of water and
      divers-coloured banks of submarine foliage and flowerage, but faintly reflected in the stanzas
-     of the little ode of <title rendition="#sq #n" ref="document:acs0000001-05-i003">Off Shore,</title> complete the charm of the
+     of the little ode of <title rendition="#sq #n" ref="document:acs0000001-05-i003"><ref target="document:acs0000001-05-i003">Off Shore</ref>,</title> complete the charm of the
      scenes as faintly sketched or shadowed forth in the poems just named, or the sterner and
-     stranger magic of the seaboard to which tribute was paid in <title rendition="#sq #n" ref="document:acs0000001-06-i033">An Autumn
-         Vision,</title> <title rendition="#sq #n" ref="document:acs0000001-06-i034">A Swimmer’s Dream,</title> <title rendition="#sq #n" ref="document:acs0000001-06-i032">On
-             the South Coast,</title> <title rendition="#sq #n" ref="document:acs0000001-03-i073">Neap-tide<!-- Hyphen appears in original title of poem and so is not regularized.--></title>: or, again, between the sterile stretches and sad limitless outlook of the shore
+     stranger magic of the seaboard to which tribute was paid in <title rendition="#sq #n" ref="document:acs0000001-06-i033"><ref target="document:acs0000001-06-i033">An Autumn
+     Vision</ref>,</title> <title rendition="#sq #n" ref="document:acs0000001-06-i034"><ref target="document:acs0000001-06-i034">A Swimmer’s Dream</ref>,</title> <title rendition="#sq #n" ref="document:acs0000001-06-i032">On
+     the South Coast,</title> <title rendition="#sq #n" ref="document:acs0000001-03-i073"><ref target="document:acs0000001-03-i073">Neap-tide<!-- Hyphen appears in original title of poem and so is not regularized.--></ref></title>: or, again, between the sterile stretches and sad limitless outlook of the shore
      which faces a hitherto undetermined and interminable sea, and the <pb n="xxiii" facs="acs0000001-01-028"/> joyful and fateful beauty of the seas of
       <placeName><settlement type="inhabited_place" ref="#bamborough">Bamborough</settlement></placeName> and the seas about <placeName><settlement type="island" ref="#sark">Sark</settlement></placeName> and
       <placeName><settlement type="island" ref="#guernsey">Guernsey</settlement></placeName>. But if there is enough of the human or personal note to
