@@ -78,6 +78,19 @@ $theme-colors: (
   scrollbar-width: thin; /* Firefox */
 }
 
+/* pageFind stuff: start */
+#search {
+	background-color: $body-bg;
+	opacity: 1;
+	@extend .my-5;
+}
+
+footer.footer {
+z-index: -1;
+}
+
+/* pageFind stuff: end */
+
 #doc-meta-nav ul.navbar-nav::-webkit-scrollbar {
   height: 6px; /* Horizontal scrollbar height */
 }
