@@ -193,6 +193,9 @@ is loaded when Ant starts up. Please run Ant again like this:
 		<include name="bootstrap.bundle.min.js.map"/>
 		-->
       </fileset>
+      <fileset dir="js">
+	      <include name="*.js"/>
+      </fileset>
     </copy>
     <copy todir="${toDir.static}">
       <fileset dir=".">
