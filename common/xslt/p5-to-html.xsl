@@ -647,7 +647,7 @@
     <!-- 
 <meta name="Date of publication" class="staticSearch_date" content="1895-01-05"/>	
 	  -->
-    <meta name="pubDate`">
+    <meta name="docDate">
 	    <xsl:attribute name="content">
 		    <xsl:value-of select="$base-text/monogr/imprint/date/@when"/>
   	    </xsl:attribute>
