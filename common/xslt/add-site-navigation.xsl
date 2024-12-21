@@ -2,7 +2,6 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns="http://www.w3.org/1999/xhtml" xmlns:map="http://www.w3.org/2005/xpath-functions/map" version="3.0" xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="fn map" expand-text="true">
   <xsl:output cdata-section-elements="script" indent="yes"/>
   <xsl:import href="config.xsl"/>
-
   <!-- embed the page in global navigation -->
   <xsl:param name="current-uri"/>
   <xsl:param name="context"/>
@@ -18,7 +17,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
       <meta name="description" content="The Algernon Charles Swinburne Project: A Scholarly Edition"/>
       <meta name="author" content="John A. Walsh"/>
-      <!-- js --> 
+      <!-- js -->
       <!-- link to customized bootstrap css -->
       <link rel="stylesheet" href="css/custom.min.css"/>
     </xsl:copy>
@@ -81,16 +80,10 @@
           <xsl:apply-templates select="node()"/>
         </xsl:otherwise>
       </xsl:choose>
-      <!-- pageFind metadata -->
-      <div id="pageFindMetadata" style="display:none;">
-	      <span data-pagefind-meta="title">
-		      <xsl:value-of select="//meta[@name = 'docTitle']/@content"/>
-	      </span>
-      </div>
       <!-- footer -->
       <xsl:call-template name="footer"/>
       <!-- link to local bootstrap js -->
-      <script type="module" src="js/pageFindHighlight.js"></script>
+      <script type="module" src="js/pageFindHighlight.js"/>
       <script src="js/bootstrap.bundle.min.js"/>
     </xsl:copy>
   </xsl:template>
@@ -495,10 +488,25 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
     <xsl:param name="ref"/>
     <xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$docID,'.html#',$ref)"/>
   </xsl:template>
-
   <!-- pagefind -->
   <xsl:template match="script[@id='loadSearch']">
-    <script src="js/pageFindLoadSearch.js"></script>
+    <script src="js/pageFindLoadSearch.js"/>
+  </xsl:template>
+  <xsl:template match="/html/head/meta[@name = 'docDate']">
+    <xsl:copy>
+      <xsl:copy-of select="@*"/>
+      <xsl:attribute name="data-pagefind-filter">
+        <xsl:value-of select="'data[content]'"/>
+      </xsl:attribute>
+    </xsl:copy>
+  </xsl:template>
+  <xsl:template match="/html/head/meta[@name = 'docTitle']">
+    <xsl:copy>
+      <xsl:copy-of select="@*"/>
+      <xsl:attribute name="data-pagefind-meta">
+        <xsl:value-of select="'title[content]'"/>
+      </xsl:attribute>
+    </xsl:copy>
   </xsl:template>
 
 </xsl:stylesheet>
