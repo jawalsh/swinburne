@@ -144,7 +144,7 @@ is loaded when Ant starts up. Please run Ant again like this:
     <!-- Step 2: Process files using xmllint with a compatible shell -->
     <exec executable="bash">
       <arg value="-c"/>
-      <arg value="for file in tei/*.xml; do xmllint --xinclude --noent --dropdtd $file -o ${toDir.tmpTEI}/$(basename $file); done"/>
+      <arg value="for file in tei/acs*.xml; do xmllint --xinclude --noent --dropdtd $file -o ${toDir.tmpTEI}/$(basename $file); done"/>
     </exec>
     <!-- Step 3: Log completion -->
     <echo message="XInclude processing completed for files in ${dir.data}"/>
