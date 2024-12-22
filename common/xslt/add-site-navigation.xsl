@@ -153,7 +153,7 @@
     </li>
   </xsl:template>
   <xsl:template name="footer">
-    <footer class="footer mt-auto py-3 bg-dark text-light text-sansserif fs-70">
+    <footer data-pagefind-ignore="all" class="footer mt-auto py-3 bg-dark text-light text-sansserif fs-70">
       <div class="container-fluid ml-0">
 				Last Updated: 
             <xsl:value-of select="format-date(current-date(), '[D] [MNn] [Y]')"/>
@@ -209,7 +209,7 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
           </div>
         </div>
         <xsl:if test="//meta[@name = 'parent_vol']">
-          <div class="modal" id="tocModal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Table of Contents" aria-hidden="true">
+          <div class="modal" id="tocModal" data-pagefind-ignore="all" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Table of Contents" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-scrollable ">
               <div class="modal-content">
                 <!--	<xsl:apply-templates select="child::div[@id='toc']"/> -->
