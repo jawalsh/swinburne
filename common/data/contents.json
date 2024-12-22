@@ -2977,75 +2977,10 @@
     },
     {
         "volume": {
-            "title": "internal: works in development",
-            "date": "2024",
+            "title": "Preface",
+            "date": "1875",
+            "id": "eas",
             "works": [
-                {
-                    "work": {
-                        "title": "The Queen-Mother",
-                        "id": "acs0000002-01-i001"
-                    }
-                },
-                {
-                    "work": {
-                        "title": "Rosamond",
-                        "id": "acs0000002-01-i002"
-                    }
-                },
-                {
-                    "work": {
-                        "title": "Chastelard",
-                        "id": "acs0000002-02-i001"
-                    }
-                },
-                {
-                    "work": {
-                        "title": "Rondel",
-                        "id": "acs0000003-01-i001"
-                    }
-                },
-                {
-                    "work": {
-                        "title": "Love’s Cross-Currents",
-                        "id": "acs0000005-01"
-                    }
-                },
-                {
-                    "work": {
-                        "title": "A Swinburne Bibliography",
-                        "id": "acs0000501-01"
-                    }
-                },
-                {
-                    "work": {
-                        "title": "Some Notes Relating to Swinburne's Funeral",
-                        "id": "acs0000504-01"
-                    }
-                },
-                {
-                    "work": {
-                        "title": "Supplementary Material to the",
-                        "id": "acs0000505-01"
-                    }
-                },
-                {
-                    "work": {
-                        "title": "Swinburne Details",
-                        "id": "acs0000506-01"
-                    }
-                },
-                {
-                    "work": {
-                        "title": "N/A",
-                        "id": "acs0000507-01"
-                    }
-                },
-                {
-                    "work": {
-                        "title": "Algernon Charles Swinburne: An Enumerative Bibliography, 1980-2010",
-                        "id": "acs0000509-01"
-                    }
-                },
                 {
                     "work": {
                         "title": "Essays and Studies",
@@ -3116,6 +3051,80 @@
                     "work": {
                         "title": "Notes on some Pictures 1868",
                         "id": "acs0000513-01-i011"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "volume": {
+            "title": "internal: works in development",
+            "date": "2024",
+            "works": [
+                {
+                    "work": {
+                        "title": "The Queen-Mother",
+                        "id": "acs0000002-01-i001"
+                    }
+                },
+                {
+                    "work": {
+                        "title": "Rosamond",
+                        "id": "acs0000002-01-i002"
+                    }
+                },
+                {
+                    "work": {
+                        "title": "Chastelard",
+                        "id": "acs0000002-02-i001"
+                    }
+                },
+                {
+                    "work": {
+                        "title": "Rondel",
+                        "id": "acs0000003-01-i001"
+                    }
+                },
+                {
+                    "work": {
+                        "title": "Love’s Cross-Currents",
+                        "id": "acs0000005-01"
+                    }
+                },
+                {
+                    "work": {
+                        "title": "A Swinburne Bibliography",
+                        "id": "acs0000501-01"
+                    }
+                },
+                {
+                    "work": {
+                        "title": "Some Notes Relating to Swinburne's Funeral",
+                        "id": "acs0000504-01"
+                    }
+                },
+                {
+                    "work": {
+                        "title": "Supplementary Material to the",
+                        "id": "acs0000505-01"
+                    }
+                },
+                {
+                    "work": {
+                        "title": "Swinburne Details",
+                        "id": "acs0000506-01"
+                    }
+                },
+                {
+                    "work": {
+                        "title": "N/A",
+                        "id": "acs0000507-01"
+                    }
+                },
+                {
+                    "work": {
+                        "title": "Algernon Charles Swinburne: An Enumerative Bibliography, 1980-2010",
+                        "id": "acs0000509-01"
                     }
                 },
                 {
