@@ -507,7 +507,7 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
     </xsl:copy>
   </xsl:template>
   <xsl:template name="pagefind-meta">
-	  <meta name="volume-title" data-pagefind-filter="volume[content]" content="{$volume-title}"/>
+	  <meta name="volume-title" data-pagefind-filter="collection[content]" content="{$volume-title}"/>
   </xsl:template>
 
 </xsl:stylesheet>
