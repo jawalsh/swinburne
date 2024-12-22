@@ -2,29 +2,29 @@
 <html xmlns="http://www.w3.org/1999/xhtml" class="h-100">
   <head>
     <title>Home</title>
-            <link href="pagefind/pagefind-ui.css" rel="stylesheet"/>
+    <link href="pagefind/pagefind-ui.css" rel="stylesheet"/>
   </head>
   <body class="d-flex flex-column h-100">
     <main role="main" class="flex-shrink-0">
       <div class="container">
-        <div id="splash" class="py-2 text-center w-75 h-50 mx-auto align-items-center">
-          <h1>The <br/>
+        <div id="splash" class="py-2 w-75 h-50 mx-auto align-items-center">
+          <div id="splash_text" class="text-center">
+            <h1>The <br/>
 						<span class="text-primary">Algernon Charles Swinburne</span><br/> Project </h1>
-          <div>
-		  <div class="splash-responsive-font">
-            <p class="text-smallcaps mb-4">Edited by John A. Walsh</p>
-            <hr class="w-50 mb-4 mx-auto"/>
-            <p class="pb-0 mb-0"> &#x201C;For the matter of it&#x2014;I consent to much&#x2014;I regret much&#x2014;I blame or reject nothing. I should as soon think of finding fault with you as with a thundercloud or a nightshade blossom. All I can say
+            <div class="splash-responsive-font">
+              <p class="text-smallcaps mb-4">Edited by John A. Walsh</p>
+              <hr class="w-50 mb-4 mx-auto"/>
+              <p class="pb-0 mb-0"> &#x201C;For the matter of it&#x2014;I consent to much&#x2014;I regret much&#x2014;I blame or reject nothing. I should as soon think of finding fault with you as with a thundercloud or a nightshade blossom. All I can say
 of you or them&#x2014;is that God made you, and that you are very wonderful and
 beautiful.&#x201D; </p>
-            <p class="pb-0 mb-0 fs-80"> &#x2014;John Ruskin, from a letter to Swinburne, commenting on the poet&#x2019;s <cite>Poems and Ballads</cite>. </p>
-    </div>
-
-            <div id="search"/>
+              <p class="pb-0 mb-0 fs-80"> &#x2014;John Ruskin, from a letter to Swinburne, commenting on the poet&#x2019;s <cite>Poems and Ballads</cite>. </p>
+            </div>
           </div>
+          <div id="search"/>
         </div>
       </div>
-    </main><script src="pagefind/pagefind-ui.js"/>
-	    <script id="loadSearch"/>
+    </main>
+    <script src="pagefind/pagefind-ui.js"/>
+    <script id="loadSearch"/>
   </body>
 </html>
