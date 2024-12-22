@@ -5,7 +5,13 @@
   <!-- embed the page in global navigation -->
   <xsl:param name="current-uri"/>
   <xsl:param name="context"/>
-  <xsl:variable name="menus" select="json-to-xml(unparsed-text('../data/menus.json'))"/>
+  <xsl:param name="html-doc-id" select="/html/@id"/>
+  <xsl:variable name="menus" select="json-to-xml(unparsed-text('../data/menus.json'))"/>    
+  <xsl:variable name="volume-id" select="/html/head/meta[@name = 'parent_vol']/@content"/>
+  <xsl:variable name="contents-json-xml" select="fn:json-to-xml(fn:unparsed-text('../data/contents.json'))"/>
+  <xsl:variable name="volume" select="$contents-json-xml//fn:map[@key = 'volume' and fn:string[@key = 'id'] = $volume-id]"/>
+  <xsl:variable name="volume-title"  select="$volume/fn:string[@key='title']"/>
+
   <xsl:mode on-no-match="shallow-copy"/>
   <!-- insert link to global CSS, any global <meta> elements belong here too -->
   <xsl:template match="head">
@@ -17,6 +23,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
       <meta name="description" content="The Algernon Charles Swinburne Project: A Scholarly Edition"/>
       <meta name="author" content="John A. Walsh"/>
+      <xsl:call-template name="pagefind-meta"/>
       <!-- js -->
       <!-- link to customized bootstrap css -->
       <link rel="stylesheet" href="css/custom.min.css"/>
@@ -207,11 +214,7 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
               <div class="modal-content">
                 <!--	<xsl:apply-templates select="child::div[@id='toc']"/> -->
                 <!-- if no *[@xml:id = 'parent-vol'] then not a collection with toc. Maybe. Have to figure out later what to do with internal table of contents, for e.g., Year's Letters, Blake, etc. -->
-                <xsl:call-template name="toc">
-                  <xsl:with-param name="volume-id">
-                    <xsl:value-of select="//meta[@name = 'parent_vol']/@content"/>
-                  </xsl:with-param>
-                </xsl:call-template>
+		<xsl:call-template name="toc"/>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
                 </div>
@@ -223,11 +226,6 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
     </xsl:copy>
   </xsl:template>
   <xsl:template name="toc">
-    <!-- Convert JSON to XML -->
-    <xsl:param name="html-doc-id" select="/html/@id"/>
-    <xsl:param name="volume-id"/>
-    <xsl:variable name="json-xml" select="fn:json-to-xml(fn:unparsed-text('../data/contents.json'))"/>
-    <xsl:variable name="volume" select="$json-xml//fn:map[@key = 'volume' and fn:string[@key = 'id'] = $volume-id]"/>
     <div id="toc">
       <!-- Iterate over the root array -->
       <ul>
@@ -499,7 +497,7 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
         <xsl:value-of select="'data[content]'"/>
       </xsl:attribute>
     </xsl:copy>
-  </xsl:template>
+    </xsl:template>
   <xsl:template match="/html/head/meta[@name = 'docTitle']">
     <xsl:copy>
       <xsl:copy-of select="@*"/>
@@ -507,6 +505,9 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
         <xsl:value-of select="'title[content]'"/>
       </xsl:attribute>
     </xsl:copy>
+  </xsl:template>
+  <xsl:template name="pagefind-meta">
+	  <meta name="volume-title" data-pagefind-filter="volume[content]" content="{$volume-title}"/>
   </xsl:template>
 
 </xsl:stylesheet>
