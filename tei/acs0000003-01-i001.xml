@@ -33,10 +33,25 @@
             <persName ref="#jawalsh">John A. Walsh</persName>
         </respStmt>
 </seriesStmt>
-         <sourceDesc n="table-of-contents"><bibl><title>Rondel. Algernon Swinburne Collection. Special Collections Research Center. Syracuse University.</title><relatedItem type="component"><bibl><ref target="document:acs0000003-01-i001">Rondel</ref></bibl></relatedItem></bibl></sourceDesc>
+         <sourceDesc n="table-of-contents"><bibl><title>Rondel. Algernon charles Swinburne Collection. Special Collections Research Center. Syracuse University.</title><relatedItem type="component"><bibl><ref target="document:acs0000003-01-i001">Rondel</ref></bibl></relatedItem></bibl></sourceDesc>
          <sourceDesc>
             <xi:include href="includes/meta-listBibl.xml"/><xi:include href="includes/meta-listPerson.xml"/><xi:include href="includes/meta-listOrg.xml"/><xi:include href="includes/meta-listEvent.xml"/><xi:include href="includes/meta-listPlace.xml"/>
-            inclusion of primary biblStruct from metadata/acs0000001-01-i015-md.xml failed
+	    <msDesc>
+		    <msIdentifier>
+			    <settlement>Syracuse</settlement>
+			    <region>New York>
+			    <repository>Special Collections Reseach Center</repository>
+			    <collection>Algernon Charles Swinburne Collection</collection>
+			    <institution>Syracuse University</institution>
+		    </msIdentifier>
+		    <msContents>
+			    <msItem>
+			    <author>Algernon Charles Swinburne</author>
+			    <title>Rondel</title>
+			    <msItem>
+			    </msContents>
+			    
+	    </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
