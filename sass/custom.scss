@@ -9,6 +9,7 @@ $headings-font-family: 'Crimson Pro', 'Cambria', 'Georgia', 'Times New Roman', s
 
 // Base Colors
 $body-bg: #f8f8f8; // Light background for the theme
+$body-bg-secondary: #f3ebe1; // Slightly darker contrast background for theme
 $body-color: #211500; // Base dark text color for light backgrounds
 $primary: #75070C; // Primary color (deep red)
 
@@ -46,6 +47,11 @@ $theme-colors: (
 );
 
 /* color theme: end */
+
+.pagefind-ui__drawer {
+background-color: $body-bg-secondary;
+@extend .px-2;
+}
 
 /* #doc-meta-nav styles: start */
 /* Spacing between menu items */
