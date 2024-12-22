@@ -649,7 +649,14 @@
 	  -->
     <meta name="docDate">
 	    <xsl:attribute name="content">
+		    <xsl:choose>
+			    <xsl:when test="//date[@xml:id = 'sort_date']">
+				    <xsl:value-of select="//date[@xml:id = 'sort_date']/@when"/>
+			    </xsl:when>
+			    <xsl:otherwise>
 		    <xsl:value-of select="$base-text/monogr/imprint/date/@when"/>
+	    </xsl:otherwise>
+    </xsl:choose>
   	    </xsl:attribute>
     </meta>
     <meta name="docTitle">
