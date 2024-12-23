@@ -6,12 +6,11 @@
   <xsl:param name="current-uri"/>
   <xsl:param name="context"/>
   <xsl:param name="html-doc-id" select="/html/@id"/>
-  <xsl:variable name="menus" select="json-to-xml(unparsed-text('../data/menus.json'))"/>    
+  <xsl:variable name="menus" select="json-to-xml(unparsed-text('../data/menus.json'))"/>
   <xsl:variable name="volume-id" select="/html/head/meta[@name = 'parent_vol']/@content"/>
   <xsl:variable name="contents-json-xml" select="fn:json-to-xml(fn:unparsed-text('../data/contents.json'))"/>
   <xsl:variable name="volume" select="$contents-json-xml//fn:map[@key = 'volume' and fn:string[@key = 'id'] = $volume-id]"/>
-  <xsl:variable name="volume-title"  select="$volume/fn:string[@key='title']"/>
-
+  <xsl:variable name="volume-title" select="$volume/fn:string[@key='title']"/>
   <xsl:mode on-no-match="shallow-copy"/>
   <!-- insert link to global CSS, any global <meta> elements belong here too -->
   <xsl:template match="head">
@@ -214,7 +213,7 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
               <div class="modal-content">
                 <!--	<xsl:apply-templates select="child::div[@id='toc']"/> -->
                 <!-- if no *[@xml:id = 'parent-vol'] then not a collection with toc. Maybe. Have to figure out later what to do with internal table of contents, for e.g., Year's Letters, Blake, etc. -->
-		<xsl:call-template name="toc"/>
+                <xsl:call-template name="toc"/>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
                 </div>
@@ -486,6 +485,31 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
     <xsl:param name="ref"/>
     <xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$docID,'.html#',$ref)"/>
   </xsl:template>
+  <!-- notes -->
+  <xsl:template match="div[contains-token(@class, 'tei-note')]">
+    <!-- generate button  -->
+	  <button type="button" class="btn btn-primary p-1" style="font-size: .7rem; vertical-align: super;" data-bs-toggle="modal" data-bs-target="{concat('#m-',@id)}">&#x2020;</button>
+    <!-- generate modal -->
+	  <div class="modal fade" id="{concat('m-',@id)}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5">Note</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"/>
+          </div>
+          <div class="modal-body">
+            <xsl:copy>
+              <xsl:copy-of select="@*"/>
+              <xsl:apply-templates/>
+            </xsl:copy>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </xsl:template>
   <!-- pagefind -->
   <xsl:template match="script[@id='loadSearch']">
     <script src="js/pageFindLoadSearch.js"/>
@@ -497,7 +521,7 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
         <xsl:value-of select="'data[content]'"/>
       </xsl:attribute>
     </xsl:copy>
-    </xsl:template>
+  </xsl:template>
   <xsl:template match="/html/head/meta[@name = 'docTitle']">
     <xsl:copy>
       <xsl:copy-of select="@*"/>
@@ -507,7 +531,6 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
     </xsl:copy>
   </xsl:template>
   <xsl:template name="pagefind-meta">
-	  <meta name="volume-title" data-pagefind-filter="collection[content]" content="{$volume-title}"/>
+    <meta name="volume-title" data-pagefind-filter="collection[content]" content="{$volume-title}"/>
   </xsl:template>
-
 </xsl:stylesheet>
