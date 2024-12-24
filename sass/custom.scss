@@ -148,6 +148,12 @@ $display-font-sizes: (
 	@extend .mb-4;	
 }
 
+
+/** turn of text-indent for notes inside lines */
+.tei-l .modal {
+text-indent:0;
+}
+
 html {
 	scroll-padding-top: 75px;
 }
