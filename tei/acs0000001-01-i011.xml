@@ -619,16 +619,15 @@
                 <l n="105">Therefore now at thy feet I abide for a season in silence. I know</l>
                 <l n="106">I shall die as my fathers died, and sleep as they sleep; even so.</l>
                 <l n="107">For the glass of the years is brittle wherein we gaze for a span;</l>
-                <l n="108">A little soul for a little bears up this corpse which is man.<ptr type="note" target="#acs0000001-01-i011-note01"/>
+                <l n="108">A little soul for a little bears up this corpse which is man.<note xml:id="acs0000001-01-i011-note01" resp="#acs" rendition="#n"><cit><quote rendition="#block #nq" xml:lang="gr">ψυχάριον εἶ βαστάζον νεκρόν.</quote>
+                            <bibl rendition="#ti-8"><author><persName rendition="#sc">Epictetus</persName></author></bibl>
+                        </cit>
+                </note>
                </l>
                 <l n="109">So long I endure, no longer; and laugh not again, neither weep.</l>
                 <l n="110">For there is no God found stronger than death; and death is a sleep.</l>
             </lg>
-            <note xml:id="acs0000001-01-i011-note01" resp="#acs" rend="margin-left:4em;"><cit><quote rendition="#block #nq" xml:lang="gr"><ref rendition="#super">1</ref> ψυχάριον εἶ βαστάζον νεκρόν.</quote>
-                            <bibl rendition="#ti-8"><author><persName rendition="#sc">Epictetus</persName></author></bibl>
-                        </cit>
-                </note>
-        </body>
+                    </body>
     
       <back>
          <!--DEBUG: no existing back matter-->

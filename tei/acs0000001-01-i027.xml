@@ -693,17 +693,16 @@
                 <l n="137">I am grown blind with all these things:</l>
                 <l n="138" rendition="#ti-1">It may be now she hath in sight</l>
                 <l n="139">Some better knowledge; still there clings</l>
-                <l n="140" rendition="#ti-1">The old question. Will not God do right? <ptr type="note" target="#acs0000001-01-i027-note01"/>
-               </l>
-            </lg>
-            <note xml:id="acs0000001-01-i027-note01" resp="#acs">
-                    <cit><quote xml:lang="fr" rendition="#block #nq #indent"><ref>*</ref> En ce temps-là estoyt dans ce pays grand nombre de ladres et de meseaulx, ce dont le roy eut grand desplaisir, veu que Dieu dust en estre moult griefvement courroucé. Ores il advint qu’une noble damoyselle appelée Yolande de Sallières estant atteincte et touste guastée de ce vilain mal, tous ses amys et ses parens ayant devant leurs yeux la paour de Dieu la firent issir fors de leurs maisons et oncques ne voulurent recepvoir ni reconforter chose mauldicte de Dieu et à tous les hommes puante et abhominable. Ceste dame avoyt esté moult belle et gracieuse de formes, et de son corps elle estoyt large et de vie lascive. Pourtant nul des amans qui l’avoyent souventesfois accollée et baisée moult tendrement ne voulust plus héberger si laide femme et si détestable pescheresse. Ung seul clerc qui feut premièrement son lacquays et son entremetteur en matière d’amour la reçut chez luy et la récéla dans une petite cabane. Là mourut la meschinette de grande misère et de male mort: et après elle décéda ledist clerc qui pour grand amour l’avoyt six mois durant soignée, lavée, habillée et deshabillée tous les jours de ses mains propres. Mesme dist-on que ce meschant homme et mauldict clerc se remémourant de la grande beauté passée et guastée de ceste femme se délectoyt maintesfois à la baiser sur sa bouche orde et lépreuse et l’accoller doulcement de ses mains amoureuses. Aussy est-il mort de ceste mesme maladie abhominable. Cecy advint près Fontainebellant en Gastinois. Et quand ouyt le roy Philippe ceste adventure moult en estoyt esmerveillé.
+                <l n="140" rendition="#ti-1">The old question. Will not God do right?<note xml:id="acs0000001-01-i027-note01" resp="#acs">
+                    <cit><quote xml:lang="fr" rendition="#block #nq #indent">En ce temps-là estoyt dans ce pays grand nombre de ladres et de meseaulx, ce dont le roy eut grand desplaisir, veu que Dieu dust en estre moult griefvement courroucé. Ores il advint qu’une noble damoyselle appelée Yolande de Sallières estant atteincte et touste guastée de ce vilain mal, tous ses amys et ses parens ayant devant leurs yeux la paour de Dieu la firent issir fors de leurs maisons et oncques ne voulurent recepvoir ni reconforter chose mauldicte de Dieu et à tous les hommes puante et abhominable. Ceste dame avoyt esté moult belle et gracieuse de formes, et de son corps elle estoyt large et de vie lascive. Pourtant nul des amans qui l’avoyent souventesfois accollée et baisée moult tendrement ne voulust plus héberger si laide femme et si détestable pescheresse. Ung seul clerc qui feut premièrement son lacquays et son entremetteur en matière d’amour la reçut chez luy et la récéla dans une petite cabane. Là mourut la meschinette de grande misère et de male mort: et après elle décéda ledist clerc qui pour grand amour l’avoyt six mois durant soignée, lavée, habillée et deshabillée tous les jours de ses mains propres. Mesme dist-on que ce meschant homme et mauldict clerc se remémourant de la grande beauté passée et guastée de ceste femme se délectoyt maintesfois à la baiser sur sa bouche orde et lépreuse et l’accoller doulcement de ses mains amoureuses. Aussy est-il mort de ceste mesme maladie abhominable. Cecy advint près Fontainebellant en Gastinois. Et quand ouyt le roy Philippe ceste adventure moult en estoyt esmerveillé.
                         </quote>
                         <bibl rendition="#i #ti-5"><title ref="#grandes_chroniques_de_france">Grandes Chroniques de France</title>, <hi rendition="#n">1505.</hi>
                         </bibl>
                     </cit>
                 </note>
-        </body>
+               </l>
+            </lg>
+                    </body>
     
       <back>
          <!--DEBUG: no existing back matter-->

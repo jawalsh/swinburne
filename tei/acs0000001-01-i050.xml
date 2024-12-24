@@ -475,7 +475,8 @@
         <index corresp="acs0000001-01-i050-md.xml" indexName="text"/>		
 		<body>
 			<pb n="218" facs="acs0000001-01-261"/>
-		    <head rendition="#center #n #uc">A Christmas Carol<ptr type="note" target="#acs0000001-01-i050-note01"/>
+		    <head rendition="#center #uc">A Christmas Carol<note rendition="#n" xml:id="acs0000001-01-i050-note01" resp="#acs">
+		        Suggested by a drawing of Mr. D. G. Rossetti’s. </note>
 			</head>
 			<lg>
 				<l n="1">
@@ -502,9 +503,7 @@
 				<l n="17" rendition="#ti-4">Mary that all good may,</l>
 				<l n="18" rendition="#ti-4">Bring us to thy Son’s way.</l>
 			</lg>
-		    <note xml:id="acs0000001-01-i050-note01" n="1" resp="#acs">
-		        <ref rendition="#super #n">1</ref>Suggested by a drawing of Mr. D. G. Rossetti’s. </note>
-			<pb n="219" facs="acs0000001-01-262"/>
+		    			<pb n="219" facs="acs0000001-01-262"/>
 			<lg>
 				<l n="19">Mary had three women for her bed,</l>
 				<l n="20" rendition="#ti-2">The twain were maidens clean;</l>

@@ -9,6 +9,9 @@
 		display: block;
 		margin-bottom: 1rem;
 	</rendition>
+	<rendition selector="note">
+		text-indent: 0;
+	</rendition>
 
     <rendition xml:id="p" selector="p">
 	    margin-top: 0;
@@ -25,7 +28,25 @@
     <rendition n="xx-large" xml:id="xx-large" scheme="css">font-size: xx-large</rendition>
     <!-- font-style -->
     <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
-    <rendition n="normal" xml:id="n" scheme="css">font-style: normal;</rendition>
+    <rendition n="normal" xml:id="n" scheme="css">
+      all: unset;
+      display: inline; /* Reinstate display since 'unset' resets it to 'inherit' or 'initial'. */
+      text-transform: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      font-size: medium;
+      font-family: inherit;
+      letter-spacing: normal;
+      word-spacing: normal;
+      line-height: normal;
+      color: inherit;
+      text-align: start;
+      white-space: normal;
+      direction: inherit;
+      text-decoration: none;
+      vertical-align: baseline;
+    </rendition>
     <!-- font-variant -->
     <rendition n="small caps" xml:id="sc" scheme="css">font-variant: small-caps;</rendition>
     <!-- font-weight -->
@@ -126,8 +147,7 @@
     <rendition n="justify" xml:id="justify" scheme="css">text-align: justify;</rendition>
     
     
-    <rendition n="indent" xml:id="indent" scheme="css">.indent:before {content:
-        "\A0\A0\A0\A0\A0\A0";} /* Should be implmented as .indent {text-indent: 4em;}, but a bug in Safari causes block elements to re-indent when interrupted by another block element. */&gt;</rendition>
+    <rendition n="indent" xml:id="indent" scheme="css">text-indent:2rem;</rendition>
     
     <rendition n="single quotes" xml:id="sq" scheme="css">
         span.sq:before {
