@@ -18,7 +18,7 @@
 	    margin-bottom: 1rem;
 	    text-indent: 2rem;
     </rendition>
-    
+    <rendition xml:id="rester-en-place" scheme="free">For notes or other elements that might it some cases be supplementary information. The "rester-en-place" rendition indicates this element is an integaral part of the work and/or page and should be rendered in place, not as a pop-up, modal, or ssome other mechanism employed for supplemtary information.</rendition>   
     <!-- font-size -->
     <rendition n="small" xml:id="small" scheme="css">font-size: small;</rendition>
     <rendition n="x-small" xml:id="x-small" scheme="css">font-size: x-small;</rendition>
