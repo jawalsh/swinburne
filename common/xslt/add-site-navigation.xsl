@@ -486,9 +486,9 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
     <xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$docID,'.html#',$ref)"/>
   </xsl:template>
   <!-- notes -->
-  <xsl:template match="div[contains-token(@class, 'tei-note')]">
+  <xsl:template match="div[contains-token(@class, 'tei-note') and not(contains-token(@class,'rendition-render-en-place'))]">
     <!-- generate button  -->
-	  <button type="button" class="btn btn-primary p-1" style="font-size: .7rem; vertical-align: super;" data-bs-toggle="modal" data-bs-target="{concat('#m-',@id)}">&#x2020;</button>
+	  <button type="button" class="btn btn-outline-primary p-1" style="font-size: .7rem; vertical-align: super;" data-bs-toggle="modal" data-bs-target="{concat('#m-',@id)}">&#x2020;</button>
     <!-- generate modal -->
 	  <div class="modal fade" id="{concat('m-',@id)}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
