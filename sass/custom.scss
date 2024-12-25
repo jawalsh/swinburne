@@ -150,8 +150,9 @@ $display-font-sizes: (
 
 
 /** turn of text-indent for notes inside lines */
-.tei-l .modal {
+.tei-l .modal, .tei-head .modal, .tei-speaker .modal {
 text-indent:0;
+text-align: left;
 }
 
 html {
@@ -170,7 +171,7 @@ div.tei-castItem + div.tei-castGroup {
 	@extend .mt-4;
 }
 
-.first-tei-p {
+div:not(.tei-note) > .first-tei-p {
 	text-indent:0 !important;
 }
 
