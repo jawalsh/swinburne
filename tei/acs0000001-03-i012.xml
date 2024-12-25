@@ -789,19 +789,21 @@
                 <l n="168">And music made of doubts unmusical;</l>
             </lg>
             <lg>
-                <l n="169">The love that caught strange light from death's own eyes, <ptr type="note" target="#de5430"/></l>
+		    <l n="169">The love that caught strange light from death's own eyes, <note resp="#acs" rendition="#i #inline" xml:id="de5430"><title xml:lang="fr">La Morte Amoureuse.</title></note></l>
                 <l n="170">And filled death's lips with fiery words and sighs,</l>
                 <l n="171" rendition="#ti-1">And half asleep let feed from veins of his</l>
                 <l n="172">Her close red warm snake's mouth, Egyptian-wise:</l>
             </lg>
             <lg>
-                <l n="173">And that great night of love more strange than this, <ptr type="note" target="#de5431"/></l>
+                <l n="173">And that great night of love more strange than this, <note resp="#acs" rendition="#i #inline" type="auth" xml:id="de5431"><title xml:lang="fr">Une
+                            Nuit de Cléopâtre.</title></note></l>
                 <l n="174">When she that made the whole world's bale and bliss</l>
                 <l n="175" rendition="#ti-1">Made king of all the world's desire a slave,</l>
                 <l n="176">And killed him in mid kingdom with a kiss;</l>
             </lg>
             <lg>
-                <l n="177">Veiled loves that shifted shapes and shafts, and gave,<ptr type="note" target="#de5432"/></l>
+                <l n="177">Veiled loves that shifted shapes and shafts, and gave, <note resp="#acs" rendition="#i #inline" type="auth" xml:id="de5432"><title xml:lang="fr">Mademoiselle de Maupin.</title></note>
+</l>
                 <l n="178">Laughing, strange gifts to hands that durst not crave,</l>
                 <l n="179" rendition="#ti-1">Flowers double-blossomed, fruits of scent and hue</l>
                 <l n="180">Sweet as the bride-bed, stranger than the grave;</l>
@@ -812,12 +814,7 @@
                 <l n="183" rendition="#ti-1">And all the grief whereof he dreams and grieves,</l>
                 <l n="184">And all sweet roots fed on his light and dew;</l>
             </lg>
-                <ab rendition="#center" type="notes">
-                    <note resp="#acs" rendition="#inline" xml:id="de5430"><ref rendition="#super">1</ref><title xml:lang="fr">La
-                        Morte Amoureuse.</title></note><lb/> <note resp="#acs" rendition="#inline" type="auth" xml:id="de5431"><ref rendition="#super">2</ref><title xml:lang="fr">Une
-                            Nuit de Cléopâtre.</title></note> <note resp="#acs" rendition="#inline" type="auth" xml:id="de5432"><ref rendition="#super">3</ref><title xml:lang="fr">Mademoiselle de Maupin.</title></note>
-                </ab>
-            <pb n="65" facs="acs0000001-03-076"/>
+                                <pb n="65" facs="acs0000001-03-076"/>
             <lg>
                 <l n="185">All these through thee our spirit of sense perceives,</l>
                 <l n="186">As threads in the unseen woof thy music weaves,</l>

@@ -878,7 +878,24 @@
                         <lg rendition="#ti-2">
                                 <l n="305">Then still, through dry seasons and moister,</l>
                                 <l n="306" rendition="#ti-1">One god had a wreath to his shrine;</l>
-                            <l n="307">Then love was the pearl of his oyster,<ptr type="note" target="#acs0000001-01-i037-note01"/>
+                            <l n="307">Then love was the pearl of his oyster,<note xml:id="acs0000001-01-i037-note01" resp="#acs">
+                                <cit>
+                                    <quote rendition="#block #nq" xml:lang="la">
+                                        <lg rendition="#ti-2">
+                                            <l>Nam te <choice>
+                                                <orig>præcipuè</orig>
+                                                <reg>praecipuè</reg>
+                                            </choice> in suis urbibus
+                                                colit ora</l>
+                                            <l>Hellespontia, cæteris ostreosior
+                                                oris.</l>
+                                        </lg>
+                                    </quote>
+                                    <bibl rendition="#ti-8">
+                                        <hi rendition="#sc"><persName ref="#catullus">Catull.</persName></hi>
+                                        <title rendition="#i"><title ref="#carmina">Carm</title>.</title> xviii.</bibl>
+                                </cit>
+                            </note>
                                </l>
                                 <l n="308" rendition="#ti-1">And <persName ref="#venus">Venus</persName> rose red out of wine.</l>
                                 <l n="309">We have all done amiss, choosing rather</l>
@@ -911,25 +928,7 @@
                                 <l n="330" rendition="#ti-1">Cry out; for the <rs type="place" ref="#phrygia">Phrygian</rs> is priest,</l>
                                 <l n="331">And rears not the bountiful token</l>
                                 <l n="332" rendition="#ti-1">And spreads not the fatherly feast.</l>
-                            <note xml:id="acs0000001-01-i037-note01" resp="#acs">
-                                <cit>
-                                    <quote rendition="#block #nq" xml:lang="la">
-                                        <lg rendition="#ti-2">
-                                            <l><ref rendition="#super">1</ref>Nam te <choice>
-                                                <orig>præcipuè</orig>
-                                                <reg>praecipuè</reg>
-                                            </choice> in suis urbibus
-                                                colit ora</l>
-                                            <l>Hellespontia, cæteris ostreosior
-                                                oris.</l>
-                                        </lg>
-                                    </quote>
-                                    <bibl rendition="#ti-8">
-                                        <hi rendition="#sc"><persName ref="#catullus">Catull.</persName></hi>
-                                        <title rendition="#i"><title ref="#carmina">Carm</title>.</title> xviii.</bibl>
-                                </cit>
-                            </note>
-                                <pb n="165" facs="acs0000001-01-208"/>
+                                                            <pb n="165" facs="acs0000001-01-208"/>
                             <l n="333">From the midmost of <geogName type="mountain" ref="#mt_ida_asia_minor">Ida</geogName>, from shady</l>
                                 <l n="334" rendition="#ti-1">Recesses that murmur at morn,</l>
                                 <l n="335">They have brought and baptized her, Our Lady,</l>

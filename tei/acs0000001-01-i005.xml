@@ -659,14 +659,7 @@
                     <l n="94">And by the fillet-leaves of <persName ref="#artemis">Artemis</persName>.</l>
                     <l n="95">Nay, but thou wilt not. Death is not like thee,</l>
                     <l n="96">Albeit men hold him worst of all the gods.</l>
-                    <l n="97">For of all gods Death only loves not gifts,<ptr type="note" target="#acs0000001-01-i005-note01"/>
-                   </l>
-                    <l n="98">Nor with burnt-offering nor blood-sacrifice</l>
-                    <l n="99">Shalt thou do aught to get thee grace of him;</l>
-                    <l n="100">He will have nought of altar and altar-song,</l>
-                    <l n="101">And from him only of all the lords in heaven</l>
-                    <l n="102">Persuasion turns a sweet averted mouth.</l>
-                    <note xml:id="acs0000001-01-i005-note01" resp="#acs" rendition="#block" rend="margin-left:3em;"><ref rendition="#super">1</ref>
+                    <l n="97">For of all gods Death only loves not gifts,<note xml:id="acs0000001-01-i005-note01" resp="#acs" rendition="#block" rend="margin-left:3em;">
                             <cit>
                                 <bibl>                                
                                  <persName ref="#aeschylus">Æsch.</persName> Fr.
@@ -679,7 +672,13 @@
                                 </quote>
                             </cit>
                         </note>
-                    <pb n="31" facs="acs0000001-01-074"/>
+                   </l>
+                    <l n="98">Nor with burnt-offering nor blood-sacrifice</l>
+                    <l n="99">Shalt thou do aught to get thee grace of him;</l>
+                    <l n="100">He will have nought of altar and altar-song,</l>
+                    <l n="101">And from him only of all the lords in heaven</l>
+                    <l n="102">Persuasion turns a sweet averted mouth.</l>
+                                        <pb n="31" facs="acs0000001-01-074"/>
                     <l n="103">But thou art worse: from thee with baffled breath</l>
                     <l n="104">Back on my lips my prayer falls like a blow,</l>
                     <l n="105">And beats upon them, dumb. What shall I say?</l>

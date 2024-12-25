@@ -586,7 +586,9 @@
             </lg>
             <lg>
                 <head rendition="#suppress">[<hi rendition="#i">Epode</hi> 1.</head>
-                <l n="33" rendition="#ti-4">First in the dewy ray<ptr type="note" target="#acs0000001-03-i103-note01"/>
+                <l n="33" rendition="#ti-4">First in the dewy ray<note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note01">
+                    <label rendition="#n">v. 33.</label>
+                    <title rendition="#i">Odes et Ballades</title>, 1822–1824. </note>
                     <label rendition="#n">[<hi rendition="#i">Epode</hi> 1.</label></l>
                 <l n="34" rendition="#ti-4">Ere
                     <seg corresp="#kw-time" type="keyword" xml:id="d1e595">dawn be slain of day</seg></l>
@@ -638,7 +640,10 @@
                 <l n="57" rendition="#ti-1">Then
                     <seg corresp="#kw-compass" type="keyword" xml:id="d1e717">eastward</seg> far
                     past <seg corresp="#kw-compass" type="keyword" xml:id="d1e720">northland</seg>
-                    lea and lawn<ptr type="note" target="#acs0000001-03-i103-note02"/><label rendition="#n">[<hi rendition="#i">Ant.</hi> 2</label></l>
+                    lea and lawn<note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note02">
+                    <label rendition="#n">57.</label>
+                    <title rendition="#i">Les Orientales</title>, 1829. </note>
+<label rendition="#n">[<hi rendition="#i">Ant.</hi> 2</label></l>
                 <l n="58" rendition="#ti-1">Beneath a heavier light</l>
                 <l n="59" rendition="#ti-1">Of
                     <seg corresp="#kw-time" type="keyword">stormier day and night</seg></l>
@@ -660,19 +665,24 @@
                     <seg corresp="#kw-heavens" type="keyword" xml:id="d1e773">earth-born lightnings</seg>
                     out of bloodbright spray;</l>
                 <l n="69" rendition="#ti-1">Then through the flushed grey gloom on shadowy
-                        sheaves<ptr type="note" target="#acs0000001-03-i103-note03"/></l>
+                        sheaves <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note03">
+                    <label rendition="#n">69.</label>
+                    <title>Les Feuilles d'Automne</title>, 1831. </note> </l>
                 <l n="70" rendition="#ti-1">Low flights of falling leaves;</l>
                 <l n="71" rendition="#ti-1">And
                     <seg corresp="#kw-song" type="keyword">choirs of birds</seg> transfiguring as
-                    they throng<ptr type="note" target="#acs0000001-03-i103-note04"/></l>
+                    they throng <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note04">
+                    <label rendition="#n">71.</label>
+                    <title>Les Chants du Crépuscule</title>, 1835. </note> </l>
                 <l n="72" rendition="#ti-1">All the
                     <seg corresp="#kw-time" type="keyword">world's twilight</seg> and the soul's to
                     <seg corresp="#kw-song" type="keyword" xml:id="d1e790">song</seg>.</l>
             </lg>
             <lg>
                 <head rendition="#suppress">[<hi rendition="#i">Ep.</hi> 2.</head>
-                <l n="73" rendition="#ti-4">Voices more dimly deep<ptr type="note" target="#acs0000001-03-i103-note05"/>
-                    <label rendition="#n">[<hi rendition="#i">Ep.</hi> 2.</label></l>
+                <l n="73" rendition="#ti-4">Voices more dimly deep <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note05">
+                    <label rendition="#n">73.</label>
+                    <title>Les Voix Intérieures</title>, 1837. </note> <label rendition="#n">[<hi rendition="#i">Ep.</hi> 2.</label></l>
                 <l n="74" rendition="#ti-4">Than the inmost heart of sleep,</l>
                 <l n="75" rendition="#ti-2">And tenderer than the rose-mouthed
                     <seg corresp="#kw-time" type="keyword" xml:id="dde818">morning's lips</seg>;</l>
@@ -690,7 +700,9 @@
             <pb n="344" facs="acs0000001-03-355"/>
             <lg>
                 <head n="strophe 3" rendition="#suppress">[<hi rendition="#i">Str.</hi> 3</head>
-                <l n="81" rendition="#ti-1">But ah! the glory of shadow and mingling ray,<ptr type="note" target="#acs0000001-03-i103-note06"/>
+                <l n="81" rendition="#ti-1">But ah! the glory of shadow and mingling ray,                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note06">
+                    <label rendition="#n">81.</label>
+                    <title>Les Rayons et les Ombres</title>, 1840. </note>
                     <label rendition="#n">[<hi rendition="#i">Str.</hi> 3</label></l>
                 <l n="82" rendition="#ti-1">
                     <seg corresp="#kw-time" type="keyword">The story of morn and even</seg>
@@ -734,7 +746,10 @@
                 <l n="99" rendition="#ti-1">Girt with red clouds and storms</l>
                 <l n="100" rendition="#ti-1">Mix their strong hearts with theirs that soar and
                     <seg corresp="#kw-song" type="keyword" xml:id="d1e970">sing</seg>?</l>
-                <l n="101" rendition="#ti-1">Before the storm-blast blown of death's dark horn<ptr type="note" target="#acs0000001-03-i103-note07"/></l>
+                <l n="101" rendition="#ti-1">Before the storm-blast blown of death's dark horn                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note07">
+                    <label rendition="#n">101.</label>
+                    <title>Hernani</title>, 1830. </note>
+    </l>
                 <l n="102" rendition="#ti-1">The marriage
                     <seg corresp="#kw-heavens" type="keyword">moonlight</seg> withers, that
                     <seg corresp="#kw-time" type="keyword">the morn</seg></l>
@@ -742,7 +757,9 @@
                 <l n="104" rendition="#ti-1">One ruin at the blasting of its breath:</l>
                 <l n="105" rendition="#ti-1">Clothed with
                     <seg corresp="#kw-fire" type="keyword" xml:id="d1e990">heart's flame</seg>
-                        renewed<ptr type="note" target="#acs0000001-03-i103-note08"/>
+                        renewed                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note08">
+                    <label rendition="#n">105.</label>
+                    <title>Marion de Lorme</title>, 1831. </note>
                 </l>
                 <l n="106" rendition="#ti-1">And strange new maidenhood,</l>
                 <l n="107" rendition="#ti-1">Faith lightens on the lips that bloomed for hire</l>
@@ -1499,6 +1516,7 @@
                 <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note08">
                     <label rendition="#n">105.</label>
                     <title>Marion de Lorme</title>, 1831. </note>
+		    <!-- paused -->
                 <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note09">
                     <label rendition="#n">109.</label>
                     <title>Le Roi s'amuse</title>, 1832. </note>

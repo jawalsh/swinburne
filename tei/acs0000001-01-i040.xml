@@ -523,17 +523,9 @@
                 <l n="34">Lies where no man will steer,</l>
                 <l n="35" rendition="#ti-2">No maiden land.</l>
             </lg>
-            <note resp="#acs" rendition="#block" rend="margin-left:4em;">
+            <note resp="#acs" rendition="#block">
                 <hi rendition="#i">Imitated from Théophile Gautier. </hi>
             </note>
         </body>
-    
-      <back>
-         <!--DEBUG: no existing back matter-->
-         <div n="[notes]">
-            <!--DEBUG: No notes-->
-         </div>
-         <!--DEBUG: No commentary-->
-      </back>
    </text>
 </TEI>

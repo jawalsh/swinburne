@@ -518,8 +518,8 @@
                 <pb n="[274]"/> -->
             <pb n="129" facs="acs0000001-03-140"/>
             <head rendition="#center #uc">The White Czar</head>
-            <note resp="#acs">
-                <p rendition="#indent #justify" rend="width:30em;">
+            <note rendition="#render-en-place" resp="#acs">
+                <p rendition="#small #indent #center-block #justify" rend="width:28rem;">
                 [In an English magazine of 1877 there appeared a version of some insolent lines
                 addressed by <q>A Russian Poet to the Empress of India.</q> To these the first of the two
                 following sonnets was designed to serve by way of counterblast. The writer will scarcely

@@ -527,7 +527,7 @@
             <pb n="42" facs="acs0000001-03-053"/>
             <head rendition="#center #uc">The Complaint of Lisa</head>
             <head rendition="#center #i" rend="margin-bottom:2em;">(Double Sestina)</head>
-            <note rendition="#center #sc" resp="#acs">Decameron, x. 7</note>
+            <note rendition="#center #sc #render-en-place" resp="#acs">Decameron, x. 7</note>
             <lg>
                 <l n="1"><hi rendition="#sc">There</hi> is no woman living that draws breath</l>
                 <l n="2">So sad as I, though all things sadden her.</l>
