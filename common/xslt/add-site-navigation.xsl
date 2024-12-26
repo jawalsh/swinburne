@@ -522,12 +522,17 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
       </xsl:attribute>
     </xsl:copy>
   </xsl:template>
+  <xsl:template match="/html/body//header[contains-token(@class,'tei-head')][1]">
+	  <xsl:copy>
+      <xsl:copy-of select="@*"/>
+      <xsl:attribute name="data-pagefind-weight" select="'10'"/>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
   <xsl:template match="/html/head/meta[@name = 'docTitle']">
     <xsl:copy>
       <xsl:copy-of select="@*"/>
-      <xsl:attribute name="data-pagefind-meta">
-        <xsl:value-of select="'title[content]'"/>
-      </xsl:attribute>
+      <xsl:attribute name="data-pagefind-meta" select="'title[content]'"/>
     </xsl:copy>
   </xsl:template>
   <xsl:template name="pagefind-meta">
