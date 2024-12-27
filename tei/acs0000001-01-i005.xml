@@ -551,7 +551,7 @@
                     <l n="23">Yea, if mine own blood ran upon my mouth, </l>
                     <l n="24">I would drink that. Nay, but be swift with me; </l>
                     <l n="25">Set thy sword here between the girdle and breast, </l>
-                    <l n="26">For I shall grow a poison if I live<supplied>.</supplied><note xml:id="d71fe438" resp="#jawalsh" type="textual">Full stop is missing at the end of the line in the 1904 edition, but appears in other editions of <title>Poems and Ballads, First Series</title> and subsequent editions of the collected <title>Poems</title>.</note></l>
+                    <l n="26">For I shall grow a poison if I live<supplied>.</supplied><note xml:id="note01" resp="#jawalsh" type="textual">Full stop is missing at the end of the line in the 1904 edition, but appears in other editions of <title>Poems and Ballads, First Series</title> and subsequent editions of the collected <title>Poems</title>.</note></l>
                     <l n="27">Are not my cheeks as grass, my body pale, </l>
                     <l n="28">And my breath like a dying poisoned man’s? </l>
                     <l n="29">O whatsoever of godlike names thou be, </l>
@@ -577,7 +577,7 @@
                 </lg>
             </sp>
             <sp>
-                <speaker rendition="#center">CHORUS<supplied>.</supplied><note resp="#jawalsh" type="textual">Full stop is missing after “CHORUS” speaker label, but appears in other editions of <title>Poems and Ballads, First Series</title> and subsequent editions of the collected <title>Poems</title>. Furthermore, all other instances of speaker labels, including “CHORUS,” in the poem are followed by a full stop.</note></speaker>
+                <speaker rendition="#center">CHORUS<supplied>.</supplied><note xml:id="note02" resp="#jawalsh" type="textual">Full stop is missing after “CHORUS” speaker label, but appears in other editions of <title>Poems and Ballads, First Series</title> and subsequent editions of the collected <title>Poems</title>. Furthermore, all other instances of speaker labels, including “CHORUS,” in the poem are followed by a full stop.</note></speaker>
                 <lg>
                     <l n="44">Lady, this speech and majesty are twain;</l>
                     <l n="45">Pure shame is of one counsel with the gods.</l>

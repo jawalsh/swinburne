@@ -525,7 +525,7 @@ For example:
         	<pb n="293" facs="acs0000001-02-308"/>
             <head rendition="#center">I</head>
             <head rendition="#center #uc">A Dead King</head>
-            <note rendition="#i #center #render-en-place" resp="#acs">[Ferdinand II. entered Malebolge <date when="1859-05-22">May <hi rendition="#n">22</hi>nd, <hi rendition="#n">1859</hi></date>.]</note>
+            <note rendition="#i #center #rester-en-place" resp="#acs">[Ferdinand II. entered Malebolge <date when="1859-05-22">May <hi rendition="#n">22</hi>nd, <hi rendition="#n">1859</hi></date>.]</note>
             
             <l n="1">
                 <hi rendition="#sc">
@@ -1100,7 +1100,7 @@ For example:
         	<pb n="314" facs="acs0000001-02-329"/>
             <head rendition="#center">XVI</head>
             <head rendition="#center #uc">The Descent into Hell</head>
-            <note resp="#acs" rendition="#i #render-en-place #center"><date when="1873-01-09">January 9th, <hi rendition="#n">1873</hi></date></note>
+            <note resp="#acs" rendition="#i #rester-en-place #center"><date when="1873-01-09">January 9th, <hi rendition="#n">1873</hi></date></note>
             <lg>
                 <head rendition="#center">I</head>
                 <l n="1"><hi rendition="#sc">O night</hi> and death, to whom we grudged him then,</l>

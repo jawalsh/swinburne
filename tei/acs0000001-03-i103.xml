@@ -960,7 +960,9 @@
                 <pb n="348" facs="acs0000001-03-359"/>
                 <l n="203" rendition="#ti-1">Waxed always, drawn more near,</l>
                 <l n="204" rendition="#ti-1">The face of Duty lit with Love's own eyes;</l>
-                <l n="205" rendition="#ti-1">Till the awful hands that culled in rosier hours<ptr type="note" target="#acs0000001-03-i103-note20"/>
+                <l n="205" rendition="#ti-1">Till the awful hands that culled in rosier hours <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note20">
+                    <label rendition="#n">v. 205.</label>
+                    <title rendition="#i">Le Rhin</title>, 1845. </note>
                 </l>
                 <l n="206" rendition="#ti-1">From fairy-footed fields of wild old flowers</l>
                 <l n="207" rendition="#ti-1">And sorcerous woods of Rhineland, green and hoary,</l>
@@ -972,7 +974,46 @@
                 <l n="213" rendition="#ti-1">And opened for Napoleon's wandering kin</l>
                 <l n="214" rendition="#ti-1">France, and bade enter in,</l>
                 <l n="215" rendition="#ti-1">And threw for all the doors of refuge wide,</l>
-                <l n="216" rendition="#ti-1">Took to them lightning in the thunder-tide.<ptr type="note" target="#acs0000001-03-i103-note21"/></l>
+		<l n="216" rendition="#ti-1">Took to them lightning in the thunder-tide. 
+		<note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note21">
+                    <label rendition="#n">v. 216.</label>
+                    <title rendition="#i">Napoléon le Petit</title>, 1852. <title rendition="#i">Châtiments</title>, 1853.
+                        <title rendition="#i">Histoire d'un Crime</title>, 1877. In this place I must take occasion
+                    to relieve my conscience from a sense of duty unfulfilled so long as I for one
+                    have not uttered my own poor private protest—worthless and weightless though it
+                    may seem, if cast as a grain into the scale of public opinion—against a
+                    projected insult at once to contemporary France and to the present only less
+                    than to past generations of Englishmen. <pb n="360" facs="acs0000001-03-371"/>
+                    <floatingText type="poem">
+                        <body>
+                            <head rendition="#center #i">On the proposed desecration of Westminster
+                                Abbey<lb/> by the erection of a monument to<lb/> the son of Napoleon
+                                III</head>
+                            <lg>
+                                <l n="1" rendition="#ti-1" xml:id="acs0000001-03-i103.de1753">“Let us go hence.”<ptr target="document:acs0000001-03-i103-md#a001" type="annotation"/> From the inmost shrine of grace</l>
+                                <l n="2" rendition="#ti-2">Where England hold the elect of her dead</l>
+                                <l n="3" rendition="#ti-2">There comes a word like one of old time
+                                    said</l>
+                                <l n="4" rendition="#ti-1">By gods of old cast out. Here is no place</l>
+                                <l n="5" rendition="#ti-1">At once for these and one of poisonous
+                                    race.</l>
+                                <l n="6" rendition="#ti-2">Let each rise up from his dishallowed bed</l>
+                                <l n="7" rendition="#ti-2">And pass forth silent. Each divine veiled
+                                    head</l>
+                                <l n="8" rendition="#ti-1">Shall speak in silence with averted face.</l>
+                                <l n="9" rendition="#ti-1">“Scorn everlasting and eternal shame</l>
+                                <l n="10" rendition="#ti-1">Eat out the rotting record of his name</l>
+                                <l n="11" rendition="#ti-1">Who had the glory of all these graves in
+                                    trust</l>
+                                <l n="12" rendition="#ti-2">And turned it to a hissing. His offence</l>
+                                <l n="13" rendition="#ti-1">Makes havoc of their desecrated dust</l>
+                                <l n="14" rendition="#ti-2">Whose place is here no more. Let us go
+                                    hence.”</l>
+                            </lg>
+                        </body>
+                    </floatingText>
+                </note>
+	</l>
             </lg>
             <lg>
                 <head n="antistrophe 6" rendition="#suppress">[<hi rendition="#i">Ant.</hi> 6</head>
@@ -1119,7 +1160,9 @@
             </lg>
             <lg>
                 <head n="antistrophe 8" rendition="#suppress">[<hi rendition="#i">Ant.</hi> 8</head>
-                <l n="297" rendition="#ti-1">But higher than stars and deeper than the waves<ptr type="note" target="#acs0000001-03-i103-note22"/>
+                <l n="297" rendition="#ti-1">But higher than stars and deeper than the waves  <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note22">
+                    <label rendition="#n">v. 297.</label>
+                    <title rendition="#i">Les Contemplations</title>, 1856 </note>
                     <label rendition="#n">[<hi rendition="#i">Ant.</hi> 8</label></l>
                 <l n="298" rendition="#ti-1">Of day and night and morrow</l>
                 <l n="299" rendition="#ti-1">That roll for all time, sorrow</l>
@@ -1164,7 +1207,10 @@
             <lg>
                 <head n="strophe 9" rendition="#suppress">[<hi rendition="#i">Str.</hi> 9</head>
                 <l n="321" rendition="#ti-1">But now from all the world-old winds of the
-                        <seg corresp="#kw-air" type="keyword" xml:id="d1e2098">air</seg><ptr type="note" target="#acs0000001-03-i103-note23"/>
+                        <seg corresp="#kw-air" type="keyword" xml:id="d1e2098">air</seg> <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note23">
+                    <label rendition="#n">v. 321.</label>
+                    <title rendition="#i">La Légende des Siècles</title>. <title rendition="#i">Premeière série</title>, 1859;
+                        <title rendition="#i">nouvelle série</title>, 1877. </note>
                     <label rendition="#n">[<hi rendition="#i">Str.</hi> 9</label></l>
                 <l n="322" rendition="#ti-1">One blast of record rings</l>
                 <l n="323" rendition="#ti-1">As from time's hidden springs</l>
@@ -1281,7 +1327,10 @@
                     <seg corresp="#kw-heavens" type="keyword" xml:id="d1e2440">suns</seg> that were,</l>
                 <l n="390" rendition="#ti-1">Past height and depth of air;</l>
                 <l n="391" rendition="#ti-1">And in the abyss whence all things move that are</l>
-                <l n="392" rendition="#ti-1">Finds only living Love, the sovereign star.<ptr type="note" target="#acs0000001-03-i103-note24"/></l>
+                <l n="392" rendition="#ti-1">Finds only living Love, the sovereign star. <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note24">
+                    <label rendition="#n">v. 392.</label>
+                    <title rendition="#i">Les Misérables</title>, 1862. </note>
+    </l>
             </lg>
             <lg>
                 <head rendition="#suppress">[<hi rendition="#i">Ep.</hi> 10.</head>
@@ -1312,7 +1361,10 @@
                     <seg corresp="#kw-sea" type="keyword" xml:id="d1e2537">sea</seg>,</l>
                 <l n="407" rendition="#ti-1">Mother of life and death inextricate,</l>
                 <l n="408" rendition="#ti-1">What work should Love do there, to war with fate?</l>
-                <l n="409" rendition="#ti-1">Yet there must Love too keep<ptr type="note" target="#acs0000001-03-i103-note25"/></l>
+                <l n="409" rendition="#ti-1">Yet there must Love too keep  <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note25">
+                    <label rendition="#n">v. 409.</label>
+                    <title rendition="#i">Les Travailleurs de la Mer</title>, 1866. </note>
+		</l>
                 <l n="410" rendition="#ti-1">At heart of the eyeless deep</l>
                 <l n="411" rendition="#ti-1">Watch, and wage war wide-eyed with all its wonders,</l>
                 <l n="412" rendition="#ti-1">Lower than the lightnings of its waves, and thunders</l>
@@ -1328,7 +1380,9 @@
             </lg>
             <lg>
                 <head n="antistrophe 11" rendition="#suppress">[<hi rendition="#i">Ant.</hi> 11</head>
-                <l n="417" rendition="#ti-1">A day of direr doom arisen thereafter<ptr type="note" target="#acs0000001-03-i103-note26"/>
+                <l n="417" rendition="#ti-1">A day of direr doom arisen thereafter <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note26">
+                    <label rendition="#n">v. 417.</label>
+                    <title rendition="#i">L'Homme qui Rit</title>, 1869. </note>
                     <label rendition="#n">[<hi rendition="#i">Ant.</hi> 11</label></l>
                 <l n="418" rendition="#ti-1">With cloud and
                     <seg corresp="#kw-fire" type="keyword" xml:id="d1e2603">fire</seg> in strife</l>
@@ -1355,7 +1409,9 @@
             <lg>
                 <head rendition="#suppress">[<hi rendition="#i">Ep.</hi> 11.</head>
                 <l n="433" rendition="#ti-4">Above a
-                        <seg corresp="#kw-air #kw-sea" type="keyword" xml:id="d1e2671">windier sea</seg>,<ptr type="note" target="#acs0000001-03-i103-note27"/>
+                        <seg corresp="#kw-air #kw-sea" type="keyword" xml:id="d1e2671">windier sea</seg>, <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note27">
+                    <label rendition="#n">v. 433.</label>
+                    <title rendition="#i">Quatre-vingt-treize</title>, 1874. </note>
                     <label rendition="#n">[<hi rendition="#i">Ep.</hi> 11.</label></l>
                 <l n="434" rendition="#ti-4">The glory of Ninety-three</l>
                 <l n="435" rendition="#ti-2">Fills
@@ -1373,7 +1429,9 @@
             <lg>
                 <head n="strophe 12" rendition="#suppress">[<hi rendition="#i">Str.</hi> 12</head>
                 <l n="441" rendition="#ti-1">And deeper than all deeps of
-                    <seg corresp="#kw-sea" type="keyword" xml:id="d1e2724">seas</seg> and skies<ptr type="note" target="#acs0000001-03-i103-note28"/>
+                    <seg corresp="#kw-sea" type="keyword" xml:id="d1e2724">seas</seg> and skies <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note28">
+                    <label rendition="#n">v. 441.</label>
+                    <title rendition="#i">William Shakespeare</title>, 1864. </note>
                     <label rendition="#n">[<hi rendition="#i">Str.</hi> 12</label></l>
                 <l n="442" rendition="#ti-1">Wherein the shadows are</l>
                 <l n="443" rendition="#ti-1">Called
@@ -1387,22 +1445,38 @@
                     beholden;</l>
                 <l n="448" rendition="#ti-1">And
                     <seg corresp="#kw-time" type="keyword" xml:id="d1e2766">forward years as backward years</seg>
-                    grow golden<ptr type="note" target="#acs0000001-03-i103-note29"/></l>
+                    grow golden <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note29">
+                    <label rendition="#n">v. 448.</label>
+                    <title rendition="#i">Actes et Paroles</title>; <title rendition="#i">Avant l'Exil</title>, 1841-1851;
+                        <title rendition="#i">Pendant l'Exil</title>, 1852-1870; <title rendition="#i">Depuis l'Exil</title>,
+                    1870-1876. </note>
+    		</l>
                 <l n="449" rendition="#ti-1">With light of deeds and words</l>
                 <l n="450" rendition="#ti-1">And flight of God's fleet birds,</l>
                 <l n="451" rendition="#ti-1">Angels of wrath and love and truth and pity;</l>
-                <l n="452" rendition="#ti-1">And higher on exiled eyes their natural city<ptr type="note" target="#acs0000001-03-i103-note30"/></l>
+                <l n="452" rendition="#ti-1">And higher on exiled eyes their natural city  <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note30">
+                    <label rendition="#n">v. 452.</label>
+                    <title rendition="#i">Paris</title>, 1867. </note>
+    		</l>
                 <l n="453" rendition="#ti-1">Dawns down the depths of vision, more sublime</l>
                 <l n="454" rendition="#ti-1">Than all truths born of
                     <seg corresp="#kw-time" type="keyword" xml:id="d1e2790">time</seg>;</l>
-                <l n="455" rendition="#ti-1">And eyes that wept above two dear sons dead<ptr type="note" target="#acs0000001-03-i103-note31"/></l>
+                <l n="455" rendition="#ti-1">And eyes that wept above two dear sons dead <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note31">
+                    <label rendition="#n">v. 455.</label>
+                    <title rendition="#i">Mes Fils</title>, 1875. </note>
+		</l>
                 <l n="456" rendition="#ti-1">Grow saving
                     <seg corresp="#kw-heavens" type="keyword" xml:id="d1e2800">stars</seg> to guard
-                    one hopeless head.<ptr type="note" target="#acs0000001-03-i103-note32"/></l>
+                    one hopeless head.  <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note32">
+                    <label rendition="#n">v. 456.</label>
+                    <title rendition="#i">Pour un Soldat</title>, 1875. </note>
+		</l>
             </lg>
             <lg>
                 <head n="antistrophe 12" rendition="#suppress">[<hi rendition="#i">Ant.</hi> 12</head>
-                <l n="457" rendition="#ti-1">Bright round the brows of banished age had shone<ptr type="note" target="#acs0000001-03-i103-note33"/>
+                <l n="457" rendition="#ti-1">Bright round the brows of banished age had shone <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note33">
+                    <label rendition="#n">v. 457.</label>
+                    <title rendition="#i">Les Chansons des Rues et des Bois</title>, 1865. </note>
                     <label rendition="#n">[<hi rendition="#i">Ant.</hi> 12</label></l>
                 <l n="458" rendition="#ti-1">In vision flushed with truth</l>
                 <l n="459" rendition="#ti-1">The rosy glory of youth</l>
@@ -1411,11 +1485,17 @@
                     <seg corresp="#kw-song" type="keyword" xml:id="d1e2836">sang</seg> light and
                     loud and deep and dear:</l>
                 <l n="462" rendition="#ti-1">And far the trumpets of the dreadful
-                        <seg corresp="#kw-time" type="keyword" xml:id="d1e2842">year</seg><ptr type="note" target="#acs0000001-03-i103-note34"/></l>
+                        <seg corresp="#kw-time" type="keyword" xml:id="d1e2842">year</seg> <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note34">
+                    <label rendition="#n">v. 462.</label>
+                    <title rendition="#i">L'Année Terrible</title>, 1872. </note>
+		</l>
                 <l n="463" rendition="#ti-1">Had pealed and wailed in darkness: last arose</l>
                 <l n="464" rendition="#ti-1">The
                     <seg corresp="#kw-song" type="keyword" xml:id="d1e2851">song of children</seg>,
-                    kindling as a rose<ptr type="note" target="#acs0000001-03-i103-note35"/></l>
+                    kindling as a rose <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note35">
+                    <label rendition="#n">v. 464.</label>
+                    <title rendition="#i">L'Art d'être Grandpère</title>, 1877. </note>
+		</l>
                 <l n="465" rendition="#ti-1">At breath of
                     <seg corresp="#kw-time" type="keyword" xml:id="d1e2858">sunrise</seg>, born</l>
                 <l n="466" rendition="#ti-1">Of the red flower of
@@ -1425,7 +1505,10 @@
                     odorous light</l>
                 <l n="468" rendition="#ti-1">And thrills all through the wings of souls in flight</l>
                 <l n="469" rendition="#ti-1">Close as the press of children at His knee</l>
-                <l n="470" rendition="#ti-1">Whom if the high priest see,<ptr type="note" target="#acs0000001-03-i103-note36"/></l>
+                <l n="470" rendition="#ti-1">Whom if the high priest see, <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note36">
+                    <label rendition="#n">v. 470.</label>
+                    <title rendition="#i">Le Pape</title>, 1878. </note>
+		</l>
                 <pb n="357" facs="acs0000001-03-368"/>
                 <l n="471" rendition="#ti-1">Dreaming, as homeless on dark
                     <seg corresp="#kw-heavens" type="keyword" xml:id="d1e2888">earth</seg> he trod,</l>
@@ -1471,7 +1554,30 @@
                 <l n="497" rendition="#ti-1">The
                     <seg corresp="#kw-time" type="keyword" xml:id="d1e3022">seventh day</seg> in the
                     <seg corresp="#kw-air #kw-time" type="keyword" xml:id="d1e3025">wind's month</seg>,
-                    <seg corresp="#kw-time" type="keyword" xml:id="d1e3028">ten years</seg> gone<ptr type="note" target="#acs0000001-03-i103-note37"/>
+		    <seg corresp="#kw-time" type="keyword" xml:id="d1e3028">ten years</seg> gone 
+		    <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note37">
+                    <label rendition="#n">v. 497.</label> “Septidi ventôse an X de la République (26
+                    février 1802).” <hi rendition="#i">Victor Hugo raconté par un témoin de sa
+                    vie</hi>, 1863, <hi rendition="#i">tome</hi> 1, <hi rendition="#i">p</hi>. 28.
+                        <p>At the end of such a list so incomparable as to seem incredible, of one
+                        great man's good works, we may be forgiven the alteration of a word even in
+                        a verse from <choice><orig>Æschylus</orig><reg>Aeschylus</reg></choice> which we cannot choose but apply once more to this
+                        leader in the advance of men made perfect through doom of trial and long
+                        wayfaring, whose progress he furthers by example and stimulates by song:— <cit rendition="#block" rend="margin-left:2em;">
+                            <quote rendition="#nq">
+                                <lg rend="margin-bottom:0;">
+                                    <l>κύριός ἐστι θροεῖν ὅδιον κράτος αἴσιον ἀνδρῶν</l>
+                                    <l>ἐκτελέων· ἔτι γὰρ θεόθεν καταπνείει</l>
+                                    <l>πειθὼ μολπᾶν</l>
+                                    <l>ἀλκᾷ σύμφυτος αἰών.</l>
+                                </lg>
+                            </quote>
+                            <bibl rendition="#block #ti-10"><author><choice><abbr><choice><orig>Æsch.</orig><reg>Aesch.</reg></choice></abbr><expan>Aeschylus</expan></choice></author>
+                                <title rendition="#i"><choice><abbr>Agam.</abbr><expan>Agamemnon</expan></choice></title>
+                                <biblScope unit="line">104-8</biblScope>.</bibl>
+                        </cit>
+                    </p>
+                </note>
                     <label rendition="#n">[<hi rendition="#i">Ant.</hi> 13</label></l>
                 <l n="498" rendition="#ti-1">Since
                     <seg corresp="#kw-heavens" type="keyword" xml:id="d1e3041">heaven-espousing earth</seg></l>
@@ -1521,368 +1627,45 @@
             <div>
                 <pb n="[359]" facs="acs0000001-03-370"/>
                 <head rendition="#center">NOTES</head>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note01">
-                    <label rendition="#n">v. 33.</label>
-                    <title rendition="#i">Odes et Ballades</title>, 1822–1824. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note02">
-                    <label rendition="#n">v. 57.</label>
-                    <title rendition="#i">Les Orientales</title>, 1829. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note03">
-                    <label rendition="#n">v. 69.</label>
-                    <title rendition="#i">Les Feuilles d'Automne</title>, 1831. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note04">
-                    <label rendition="#n">v. 71.</label>
-                    <title rendition="#i">Les Chants du Crépuscule</title>, 1835. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note05">
-                    <label rendition="#n">v. 73.</label>
-                    <title rendition="#i">Les Voix Intérieures</title>, 1837. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note06">
-                    <label rendition="#n">v. 81.</label>
-                    <title rendition="#i">Les Rayons et les Ombres</title>, 1840. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note07">
-                    <label rendition="#n">v. 101.</label>
-                    <title rendition="#i">Hernani</title>, 1830. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note08">
-                    <label rendition="#n">v. 105.</label>
-                    <title rendition="#i">Marion de Lorme</title>, 1831. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note09">
-                    <label rendition="#n">v. 109.</label>
-                    <title rendition="#i">Le Roi s'amuse</title>, 1832. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note10">
-                    <label rendition="#n">v. 113.</label>
-                    <title rendition="#i">Lucrèce Borgia</title>, 1833. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note11">
-                    <label rendition="#n">v. 121.</label>
-                    <title rendition="#i">Marie Tudor</title>, 1835. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note12">
-                    <label rendition="#n">v. 127.</label>
-                    <title rendition="#i">Angelo, Tyran de Padoue</title>, 1835. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note13">
-                    <label rendition="#n">v. 129.</label>
-                    <title rendition="#i">La Esmeralda</title>, 1836. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note14">
-                    <label rendition="#n">v. 133.</label>
-                    <title rendition="#i">Ruy Blas</title>, 1838. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note15">
-                    <label rendition="#n">v. 137.</label>
-                    <title rendition="#i">Les Burgraves</title>, 1842. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note16">
-                    <label rendition="#n">v. 153.</label>
-                    <title rendition="#i">Cromwell</title>, 1827: <title rendition="#i">Étude sur Mirabeau</title>, 1834
-                        (<title rendition="#i">Littérature et Philosophie mêlées</title>, 1819–1834). </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note17">
-                    <label rendition="#n">v. 177.</label>
-                    <title rendition="#i">Han d' Islande</title>, 1823. <title rendition="#i">Bug-Jargal</title>, 1826. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note18">
-                    <label rendition="#n">v. 182.</label>
-                    <title rendition="#i">Le Dernier Jour d'un Condamné</title>, 1829: <title rendition="#i">Claude
-                    Gueux</title>,1834. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note19">
-                    <label rendition="#n">v. 193.</label>
-                    <title rendition="#i">Notre-Dame de Paris</title>, 1831. </note>
-		    <!-- paused -->
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note20">
-                    <label rendition="#n">v. 205.</label>
-                    <title rendition="#i">Le Rhin</title>, 1845. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note21">
-                    <label rendition="#n">v. 216.</label>
-                    <title rendition="#i">Napoléon le Petit</title>, 1852. <title rendition="#i">Châtiments</title>, 1853.
-                        <title rendition="#i">Histoire d'un Crime</title>, 1877. In this place I must take occasion
-                    to relieve my conscience from a sense of duty unfulfilled so long as I for one
-                    have not uttered my own poor private protest—worthless and weightless though it
-                    may seem, if cast as a grain into the scale of public opinion—against a
-                    projected insult at once to contemporary France and to the present only less
-                    than to past generations of Englishmen. <pb n="360" facs="acs0000001-03-371"/>
-                    <floatingText type="poem">
-                        <body>
-                            <head rendition="#center #i">On the proposed desecration of Westminster
-                                Abbey<lb/> by the erection of a monument to<lb/> the son of Napoleon
-                                III</head>
-                            <lg>
-                                <l n="1" rendition="#ti-1" xml:id="acs0000001-03-i103.de1753">“Let us go hence.”<ptr target="document:acs0000001-03-i103-md#a001" type="annotation"/> From the inmost shrine of grace</l>
-                                <l n="2" rendition="#ti-2">Where England hold the elect of her dead</l>
-                                <l n="3" rendition="#ti-2">There comes a word like one of old time
-                                    said</l>
-                                <l n="4" rendition="#ti-1">By gods of old cast out. Here is no place</l>
-                                <l n="5" rendition="#ti-1">At once for these and one of poisonous
-                                    race.</l>
-                                <l n="6" rendition="#ti-2">Let each rise up from his dishallowed bed</l>
-                                <l n="7" rendition="#ti-2">And pass forth silent. Each divine veiled
-                                    head</l>
-                                <l n="8" rendition="#ti-1">Shall speak in silence with averted face.</l>
-                                <l n="9" rendition="#ti-1">“Scorn everlasting and eternal shame</l>
-                                <l n="10" rendition="#ti-1">Eat out the rotting record of his name</l>
-                                <l n="11" rendition="#ti-1">Who had the glory of all these graves in
-                                    trust</l>
-                                <l n="12" rendition="#ti-2">And turned it to a hissing. His offence</l>
-                                <l n="13" rendition="#ti-1">Makes havoc of their desecrated dust</l>
-                                <l n="14" rendition="#ti-2">Whose place is here no more. Let us go
-                                    hence.”</l>
-                            </lg>
-                        </body>
-                    </floatingText>
-                </note>
+                <note copyOf="#acs0000001-03-i103-note01"/>
+                <note copyOf="#acs0000001-03-i103-note02"/>
+                <note copyOf="#acs0000001-03-i103-note03"/>
+                <note copyOf="#acs0000001-03-i103-note04"/>
+                <note copyOf="#acs0000001-03-i103-note05"/>
+                <note copyOf="#acs0000001-03-i103-note06"/>
+                <note copyOf="#acs0000001-03-i103-note07"/>
+                <note copyOf="#acs0000001-03-i103-note08"/>
+                <note copyOf="#acs0000001-03-i103-note09"/>
+                <note copyOf="#acs0000001-03-i103-note10"/>
+                <note copyOf="#acs0000001-03-i103-note11"/>
+                <note copyOf="#acs0000001-03-i103-note12"/>
+                <note copyOf="#acs0000001-03-i103-note13"/>
+                <note copyOf="#acs0000001-03-i103-note14"/>
+                <note copyOf="#acs0000001-03-i103-note15"/>
+                <note copyOf="#acs0000001-03-i103-note16"/>
+                <note copyOf="#acs0000001-03-i103-note17"/>
+                <note copyOf="#acs0000001-03-i103-note18"/>
+                <note copyOf="#acs0000001-03-i103-note19"/>
+                <note copyOf="#acs0000001-03-i103-note20"/>
+                <note copyOf="#acs0000001-03-i103-note21"/>
                 <pb n="361" facs="acs0000001-03-372"/>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note22">
-                    <label rendition="#n">v. 297.</label>
-                    <title rendition="#i">Les Contemplations</title>, 1856 </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note23">
-                    <label rendition="#n">v. 321.</label>
-                    <title rendition="#i">La Légende des Siècles</title>. <title rendition="#i">Premeière série</title>, 1859;
-                        <title rendition="#i">nouvelle série</title>, 1877. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note24">
-                    <label rendition="#n">v. 392.</label>
-                    <title rendition="#i">Les Misérables</title>, 1862. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note25">
-                    <label rendition="#n">v. 409.</label>
-                    <title rendition="#i">Les Travailleurs de la Mer</title>, 1866. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note26">
-                    <label rendition="#n">v. 417.</label>
-                    <title rendition="#i">L'Homme qui Rit</title>, 1869. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note27">
-                    <label rendition="#n">v. 433.</label>
-                    <title rendition="#i">Quatre-vingt-treize</title>, 1874. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note28">
-                    <label rendition="#n">v. 441.</label>
-                    <title rendition="#i">William Shakespeare</title>, 1864. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note29">
-                    <label rendition="#n">v. 448.</label>
-                    <title rendition="#i">Actes et Paroles</title>; <title rendition="#i">Avant l'Exil</title>, 1841-1851;
-                        <title rendition="#i">Pendant l'Exil</title>, 1852-1870; <title rendition="#i">Depuis l'Exil</title>,
-                    1870-1876. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note30">
-                    <label rendition="#n">v. 452.</label>
-                    <title rendition="#i">Paris</title>, 1867. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note31">
-                    <label rendition="#n">v. 455.</label>
-                    <title rendition="#i">Mes Fils</title>, 1875. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note32">
-                    <label rendition="#n">v. 456.</label>
-                    <title rendition="#i">Pour un Soldat</title>, 1875. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note33">
-                    <label rendition="#n">v. 457.</label>
-                    <title rendition="#i">Les Chansons des Rues et des Bois</title>, 1865. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note34">
-                    <label rendition="#n">v. 462.</label>
-                    <title rendition="#i">L'Année Terrible</title>, 1872. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note35">
-                    <label rendition="#n">v. 464.</label>
-                    <title rendition="#i">L'Art d'être Grandpère</title>, 1877. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note36">
-                    <label rendition="#n">v. 470.</label>
-                    <title rendition="#i">Le Pape</title>, 1878. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note37">
-                    <label rendition="#n">v. 497.</label> “Septidi ventôse an X de la République (26
-                    février 1802).” <hi rendition="#i">Victor Hugo raconté par un témoin de sa
-                    vie</hi>, 1863, <hi rendition="#i">tome</hi> 1, <hi rendition="#i">p</hi>. 28.
-                        <p>At the end of such a list so incomparable as to seem incredible, of one
-                        great man's good works, we may be forgiven the alteration of a word even in
-                        a verse from <choice><orig>Æschylus</orig><reg>Aeschylus</reg></choice> which we cannot choose but apply once more to this
-                        leader in the advance of men made perfect through doom of trial and long
-                        wayfaring, whose progress he furthers by example and stimulates by song:— <cit rendition="#block" rend="margin-left:2em;">
-                            <quote rendition="#nq">
-                                <lg rend="margin-bottom:0;">
-                                    <l>κύριός ἐστι θροεῖν ὅδιον κράτος αἴσιον ἀνδρῶν</l>
-                                    <l>ἐκτελέων· ἔτι γὰρ θεόθεν καταπνείει</l>
-                                    <l>πειθὼ μολπᾶν</l>
-                                    <l>ἀλκᾷ σύμφυτος αἰών.</l>
-                                </lg>
-                            </quote>
-                            <bibl rendition="#block #ti-10"><author><choice><abbr><choice><orig>Æsch.</orig><reg>Aesch.</reg></choice></abbr><expan>Aeschylus</expan></choice></author>
-                                <title rendition="#i"><choice><abbr>Agam.</abbr><expan>Agamemnon</expan></choice></title>
-                                <biblScope unit="line">104-8</biblScope>.</bibl>
-                        </cit>
-                    </p>
-                </note>
+                <note copyOf="#acs0000001-03-i103-note22"/>
+                <note copyOf="#acs0000001-03-i103-note23"/>
+                <note copyOf="#acs0000001-03-i103-note24"/>
+                <note copyOf="#acs0000001-03-i103-note25"/>
+                <note copyOf="#acs0000001-03-i103-note26"/>
+                <note copyOf="#acs0000001-03-i103-note27"/>
+                <note copyOf="#acs0000001-03-i103-note28"/>
+                <note copyOf="#acs0000001-03-i103-note29"/>
+                <note copyOf="#acs0000001-03-i103-note30"/>
+                <note copyOf="#acs0000001-03-i103-note31"/>
+                <note copyOf="#acs0000001-03-i103-note32"/>
+                <note copyOf="#acs0000001-03-i103-note33"/>
+                <note copyOf="#acs0000001-03-i103-note34"/>
+                <note copyOf="#acs0000001-03-i103-note35"/>
+                <note copyOf="#acs0000001-03-i103-note36"/>
+                <note copyOf="#acs0000001-03-i103-note37"/>
             </div>
         </back>
-    
-      <back>
-         <div>
-                <pb n="[359]" facs="acs0000001-03-370"/>
-                <head rendition="#center">NOTES</head>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note01">
-                    <label rendition="#n">v. 33.</label>
-                    <title rendition="#i">Odes et Ballades</title>, 1822–1824. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note02">
-                    <label rendition="#n">57.</label>
-                    <title rendition="#i">Les Orientales</title>, 1829. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note03">
-                    <label rendition="#n">69.</label>
-                    <title rendition="#i">Les Feuilles d'Automne</title>, 1831. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note04">
-                    <label rendition="#n">71.</label>
-                    <title rendition="#i">Les Chants du Crépuscule</title>, 1835. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note05">
-                    <label rendition="#n">73.</label>
-                    <title rendition="#i">Les Voix Intérieures</title>, 1837. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note06">
-                    <label rendition="#n">81.</label>
-                    <title rendition="#i">Les Rayons et les Ombres</title>, 1840. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note07">
-                    <label rendition="#n">101.</label>
-                    <title rendition="#i">Hernani</title>, 1830. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note08">
-                    <label rendition="#n">105.</label>
-                    <title rendition="#i">Marion de Lorme</title>, 1831. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note09">
-                    <label rendition="#n">109.</label>
-                    <title rendition="#i">Le Roi s'amuse</title>, 1832. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note10">
-                    <label rendition="#n">113.</label>
-                    <title rendition="#i">Lucrèce Borgia</title>, 1833. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note11">
-                    <label rendition="#n">121.</label>
-                    <title rendition="#i">Marie Tudor</title>, 1835. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note12">
-                    <label rendition="#n">127.</label>
-                    <title rendition="#i">Angelo, Tyran de Padoue</title>, 1835. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note13">
-                    <label rendition="#n">129.</label>
-                    <title rendition="#i">La Esmeralda</title>, 1836. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note14">
-                    <label rendition="#n">133.</label>
-                    <title rendition="#i">Ruy Blas</title>, 1838. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note15">
-                    <label rendition="#n">137.</label>
-                    <title rendition="#i">Les Burgraves</title>, 1842. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note16">
-                    <label rendition="#n">153.</label>
-                    <title rendition="#i">Cromwell</title>, 1827: <title rendition="#i">Étude sur Mirabeau</title>, 1834
-                        (<title rendition="#i">Littérature et Philosophie mêlées</title>, 1819–1834). </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note17">
-                    <label rendition="#n">177.</label>
-                    <title rendition="#i">Han d' Islande</title>, 1823. <title rendition="#i">Bug-Jargal</title>, 1826. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note18">
-                    <label rendition="#n">182.</label>
-                    <title rendition="#i">Le Dernier Jour d'un Condamné</title>, 1829: <title rendition="#i">Claude
-                    Gueux</title>,1834. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note19">
-                    <label rendition="#n">193.</label>
-                    <title rendition="#i">Notre-Dame de Paris</title>, 1831. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note20">
-                    <label rendition="#n">205.</label>
-                    <title rendition="#i">Le Rhin</title>, 1845. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note21">
-                    <label rendition="#n">216.</label>
-                    <title rendition="#i">Napoléon le Petit</title>, 1852. <title rendition="#i">Châtiments</title>, 1853.
-                        <title rendition="#i">Histoire d'un Crime</title>, 1877. In this place I must take occasion
-                    to relieve my conscience from a sense of duty unfulfilled so long as I for one
-                    have not uttered my own poor private protest—worthless and weightless though it
-                    may seem, if cast as a grain into the scale of public opinion—against a
-                    projected insult at once to contemporary France and to the present only less
-                    than to past generations of Englishmen. <pb n="360" facs="acs0000001-03-371"/>
-                    <floatingText type="poem">
-                        <body>
-                            <head rendition="#center #i">On the proposed desecration of Westminster
-                                Abbey<lb/> by the erection of a monument to<lb/> the son of Napoleon
-                                III</head>
-                            <lg>
-                                <l n="1" rendition="#ti-1" xml:id="acs0000001-03-i103.de1753">“Let us go hence.”<ptr target="document:acs0000001-03-i103-md#a001" type="annotation"/> From the inmost shrine of grace</l>
-                                <l n="2" rendition="#ti-2">Where England hold the elect of her dead</l>
-                                <l n="3" rendition="#ti-2">There comes a word like one of old time
-                                    said</l>
-                                <l n="4" rendition="#ti-1">By gods of old cast out. Here is no place</l>
-                                <l n="5" rendition="#ti-1">At once for these and one of poisonous
-                                    race.</l>
-                                <l n="6" rendition="#ti-2">Let each rise up from his dishallowed bed</l>
-                                <l n="7" rendition="#ti-2">And pass forth silent. Each divine veiled
-                                    head</l>
-                                <l n="8" rendition="#ti-1">Shall speak in silence with averted face.</l>
-                                <l n="9" rendition="#ti-1">“Scorn everlasting and eternal shame</l>
-                                <l n="10" rendition="#ti-1">Eat out the rotting record of his name</l>
-                                <l n="11" rendition="#ti-1">Who had the glory of all these graves in
-                                    trust</l>
-                                <l n="12" rendition="#ti-2">And turned it to a hissing. His offence</l>
-                                <l n="13" rendition="#ti-1">Makes havoc of their desecrated dust</l>
-                                <l n="14" rendition="#ti-2">Whose place is here no more. Let us go
-                                    hence.”</l>
-                            </lg>
-                        </body>
-                    </floatingText>
-                </note>
-                <pb n="361" facs="acs0000001-03-372"/>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note22">
-                    <label rendition="#n">v. 297.</label>
-                    <title rendition="#i">Les Contemplations</title>, 1856 </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note23">
-                    <label rendition="#n">321.</label>
-                    <title rendition="#i">La Légende des Siècles</title>. <title rendition="#i">Premeière série</title>, 1859;
-                        <title rendition="#i">nouvelle série</title>, 1877. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note24">
-                    <label rendition="#n">392.</label>
-                    <title rendition="#i">Les Misérables</title>, 1862. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note25">
-                    <label rendition="#n">409.</label>
-                    <title rendition="#i">Les Travailleurs de la Mer</title>, 1866. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note26">
-                    <label rendition="#n">417.</label>
-                    <title rendition="#i">L'Homme qui Rit</title>, 1869. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note27">
-                    <label rendition="#n">433.</label>
-                    <title rendition="#i">Quatre-vingt-treize</title>, 1874. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note28">
-                    <label rendition="#n">441.</label>
-                    <title rendition="#i">William Shakespeare</title>, 1864. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note29">
-                    <label rendition="#n">448.</label>
-                    <title rendition="#i">Actes et Paroles</title>; <title rendition="#i">Avant l'Exil</title>, 1841-1851;
-                        <title rendition="#i">Pendant l'Exil</title>, 1852-1870; <title rendition="#i">Depuis l'Exil</title>,
-                    1870-1876. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note30">
-                    <label rendition="#n">452.</label>
-                    <title rendition="#i">Paris</title>, 1867. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note31">
-                    <label rendition="#n">455.</label>
-                    <title rendition="#i">Mes Fils</title>, 1875. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note32">
-                    <label rendition="#n">456.</label>
-                    <title rendition="#i">Pour un Soldat</title>, 1875. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note33">
-                    <label rendition="#n">457.</label>
-                    <title rendition="#i">Les Chansons des Rues et des Bois</title>, 1865. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note34">
-                    <label rendition="#n">462.</label>
-                    <title rendition="#i">L'Année Terrible</title>, 1872. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note35">
-                    <label rendition="#n">464.</label>
-                    <title rendition="#i">L'Art d'être Grandpère</title>, 1877. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note36">
-                    <label rendition="#n">470.</label>
-                    <title rendition="#i">Le Pape</title>, 1878. </note>
-                <note rendition="#block" resp="#acs" xml:id="acs0000001-03-i103-note37">
-                    <label rendition="#n">497.</label> “Septidi ventôse an X de la République (26
-                    février 1802).” <hi rendition="#i">Victor Hugo raconté par un témoin de sa
-                    vie</hi>, 1863, <hi rendition="#i">tome</hi> 1, <hi rendition="#i">p</hi>. 28.
-                        <p>At the end of such a list so incomparable as to seem incredible, of one
-                        great man's good works, we may be forgiven the alteration of a word even in
-                        a verse from <choice><orig>Æschylus</orig><reg>Aeschylus</reg></choice> which we cannot choose but apply once more to this
-                        leader in the advance of men made perfect through doom of trial and long
-                        wayfaring, whose progress he furthers by example and stimulates by song:— <cit rendition="#block" rend="margin-left:2em;">
-                            <quote rendition="#nq">
-                                <lg rend="margin-bottom:0;">
-                                    <l>κύριός ἐστι θροεῖν ὅδιον κράτος αἴσιον ἀνδρῶν</l>
-                                    <l>ἐκτελέων· ἔτι γὰρ θεόθεν καταπνείει</l>
-                                    <l>πειθὼ μολπᾶν</l>
-                                    <l>ἀλκᾷ σύμφυτος αἰών.</l>
-                                </lg>
-                            </quote>
-                            <bibl rendition="#block #ti-10"><author><choice><abbr><choice><orig>Æsch.</orig><reg>Aesch.</reg></choice></abbr><expan>Aeschylus</expan></choice></author>
-                                <title rendition="#i"><choice><abbr>Agam.</abbr><expan>Agamemnon</expan></choice></title>
-                                <biblScope unit="line">104-8</biblScope>.</bibl>
-                        </cit>
-                    </p>
-                </note>
-            </div>
-         <div n="[notes]">
-            <!--DEBUG: No notes-->
-         </div>
-         <div xml:id="commentary">
-            <head>Commentary</head>
-            <div xml:id="notes">
-               <note rendition="#suppress" resp="#jawalsh" corresp="acs0000001-03-i103.xml#acs0000001-03-i103.de1753" xml:id="a001">See <bibl><title rendition="#n">John</title> <biblScope unit="chapter">14</biblScope>:<biblScope unit="verse">31</biblScope>.</bibl></note>
-            </div>
-         </div>
-      </back>
    </text>
 </TEI>
