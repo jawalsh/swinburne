@@ -468,7 +468,7 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
   </xsl:template>
   <xsl:template mode="replace-class" match="div[contains-token(@class, 'tei-teiHeader')]//h2">
     <xsl:attribute name="class">{@class} h5</xsl:attribute>
-  </xsl:template>
+    </xsl:template>
   <xsl:template match="li[@class='page-item active']/a[@class='page-link']">
     <xsl:copy>
       <xsl:copy-of select="@*"/>
@@ -486,7 +486,7 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
     <xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$docID,'.html#',$ref)"/>
   </xsl:template>
   <!-- notes -->
-  <xsl:template match="div[contains-token(@class, 'tei-note') and not(contains-token(@class,'rendition-render-en-place'))]">
+  <xsl:template match="div[contains-token(@class, 'tei-note') and (@id) and not(contains-token(@class,'rendition-rester-en-place'))]">
     <!-- generate button  -->
 	  <button type="button" class="btn btn-outline-primary p-1" style="font-size: .7rem; vertical-align: super;" data-bs-toggle="modal" data-bs-target="{concat('#m-',@id)}">&#x2020;</button>
     <!-- generate modal -->
