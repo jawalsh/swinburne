@@ -279,10 +279,18 @@
   <!-- TODO how to deal with tei:join? -->
   <xsl:template match="join"/>
   <!-- non-phrase-level TEI elements (plus author and title within the item description) are mapped to html:div -->
-  <xsl:template match="* | fileDesc/sourceDesc/msDesc/msContents/msItem/author | fileDesc/sourceDesc/msDesc/msContents/msItem/title">
+  <xsl:template match="* | fileDesc/sourceDesc/msDesc/msContents/msItem/author | fileDesc/sourceDesc/msDesc/msContents/msItem/title | back//note[@copyOf]">
+    <xsl:param name="copiedElementID" select="substring-after(@copyOf,'#')"/>
     <xsl:element name="div">
       <xsl:apply-templates mode="create-attributes" select="."/>
-      <xsl:apply-templates mode="create-content" select="."/>
+      <xsl:choose>
+	      <xsl:when test="@copyOf">
+		      <xsl:apply-templates mode="create-content" select="id($copiedElementID)"/>
+	      </xsl:when>
+	      <xsl:otherwise>
+		      <xsl:apply-templates mode="create-content" select="."/>
+	      </xsl:otherwise>
+      </xsl:choose>
     </xsl:element>
   </xsl:template>
   <xsl:variable name="tag-usage" select="/TEI/teiHeader/encodingDesc/tagsDecl/namespace/tagUsage"/>
