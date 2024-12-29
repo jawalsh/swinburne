@@ -114,7 +114,7 @@
     <!-- compound CSS -->
     <rendition n="hanging indent" xml:id="hang" scheme="css">margin-left: 2em; text-indent: -2em;
         padding: 0;</rendition>
-    <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+    <rendition n="inline" xml:id="inline" scheme="css">display: inline !important;</rendition>
     <rendition n="suppress" xml:id="suppress" scheme="css">display: none</rendition>
     
     
