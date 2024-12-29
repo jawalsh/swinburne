@@ -1080,13 +1080,12 @@
                 <l xml:id="d1e1877131" n="292">I for instance might groan as a bag-pipe groans,</l>
                 <l xml:id="d1e1880131" rendition="#ti-1" n="293">Give the flesh of my heart for sharp sorrows to flagellate,</l>
                 <l xml:id="d1e1883131" n="294">Grief might grind my cheeks down, age make sticks of my bones,</l>
-                <l xml:id="d1e1886131" rendition="#ti-1" n="295">(Though a queen drowned in tears must be worth more than Madge elate)<ref rendition="#super" target="#d1e1888131">1</ref></l>
+                <l xml:id="d1e1886131" rendition="#ti-1" n="295">(Though a queen drowned in tears must be worth more than Madge elate)<note xml:id="note_01" resp="#acs" n="1" rendition="#indent">
+        		First edition:—<lb/>And my face bear his brand—mine, that once bore Love's badge elate!
+        	</note></l>
                 <l xml:id="d1e1892131" n="296">Rose might turn burdock, and pine-apples cones;</l>
             </lg>
-        	<note xml:id="d1e1888131" resp="#acs" n="1" rendition="#indent">
-        		<ref rendition="#super">1</ref>First edition:—<lb/>And my face bear his brand—mine, that once bore Love's badge elate!
-        	</note>
-            <pb n="395" facs="acs0000001-05-410"/>
+        	            <pb n="395" facs="acs0000001-05-410"/>
             <lg xml:id="d1e1899131">
                 <head xml:id="d1e1900131" rendition="#center">IX</head>
                 <l xml:id="d1e1903131" n="297">My skin might change to a pitiful crone's,</l>

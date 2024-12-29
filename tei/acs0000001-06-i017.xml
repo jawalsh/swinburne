@@ -511,7 +511,7 @@
             <lg n="III">
                 <head rendition="#center">III</head>
                 <lg>
-                <l n="29"><q>Now, what a thing it is to be an ass!</q><ref rendition="#super" target="#d1e78f0388">1</ref></l>
+			<l n="29"><q>Now, what a thing it is to be an ass!</q> <note resp="#acs" xml:id="note_01"><bibl><title rendition="#i">Titus Andronicus</title>, <biblScope unit="act">Act iv.</biblScope>, <biblScope unit="scene">Scene 2.</biblScope></bibl></note></l>
                 <l n="30" rendition="#ti-1">If one, that strutted up the brawling streets</l>
                 <l n="31" rendition="#ti-1">As foreman of the flock whose concourse greets</l>
                 <l n="32">Men's ears with bray more dissonant than brass,</l>
@@ -524,8 +524,7 @@
                 <l n="37">Mocked and reviled by men of poisonous breath,</l>
                 <l n="38" rendition="#ti-1">A great man dies: but one thing worst was spared;</l>
                 <l n="39" rendition="#ti-1">Not all his heart by their base hands lay bared.</l>
-                <note resp="#acs" rendition="#ti-7" xml:id="d1e78f0388" n="1"><ref rendition="#super">1</ref><bibl><title>Titus Andronicus</title>, <biblScope unit="act">Act iv.</biblScope>, <biblScope unit="scene">Scene 2.</biblScope></bibl></note>
-                <pb n="87" facs="acs0000001-06-104"/><l n="40">One comes to crown with praise the dust of death;</l>
+                                <pb n="87" facs="acs0000001-06-104"/><l n="40">One comes to crown with praise the dust of death;</l>
                 <l n="41" rendition="#ti-1">And lo, through him this worst is brought to pass.</l>
                 <l n="42" rendition="#ti-1">Now, what a thing it is to be an ass!</l>
                 </lg>

@@ -1136,7 +1136,8 @@
             <l n="500">Here where our natural people born behold</l>
             <l n="501">The golden Gorgon of the shield's defence</l>
             <l n="502">That screens their flowering olive, nor strange Gods</l>
-            <l n="503">Be graced, and Pallas here have praise no more. <ptr type="note" target="#note_01"/></l>
+	    <l n="503">Be graced, and Pallas here have praise no more. <note resp="#acs" xml:id="note_01"><label rendition="#n">v. 497-503.</label> Cf. <bibl>Eurip. Fr. <title rendition="#i">Erechtheus</title>, 46-49.</bibl></note>
+</l>
             <l n="504">And if this be not I must give my child,</l>
             <l n="505">Thee, mine own very blood and spirit of mine,</l>
             <pb n="360" facs="acs0000001-04-371"/>
@@ -1164,7 +1165,11 @@
             <l n="527">Is this not all good? I shall give thee, child,</l>
             <l n="528">Thee but by fleshly nature mine, to bleed</l>
             <l n="529">For dear land's love; but if the city fall</l>
-            <l n="530">What part is left me in my children then? <ptr type="note" target="#df1708"/></l>
+            <l n="530">What part is left me in my children then? <note resp="#acs" xml:id="note_02" rendition="#block">
+          <label rendition="#n">v. 522-530.</label>
+          <bibl>Id. 32-40.</bibl>
+        </note>
+</l>
             <l n="531">But if it stand and thou for it lie dead,</l>
             <l n="532">Then hast thou in it a better part than we,</l>
             <l n="533">A holier portion than we all; for each</l>
@@ -1627,7 +1632,10 @@
                                           done, <label type="chorus" rendition="#n">[<hi rendition="#i">Ant.</hi> 2</label></l>
             <l n="777" rendition="#ti-3">As a cloud is the face of his strength.</l>
             <l n="778">King of kings, holiest of holies, and mightiest of
-                                          might, <ptr type="note" target="#df9685"/></l>
+                                          might, <note resp="#acs" xml:id="note_03" rendition="#block">
+          <label rendition="#n">v. 778.</label>
+          <bibl>Æsch. <title rendition="#i">Supp.</title>
+			  524-6.</bibl></note></l>
             <l n="779">Lord of the lords of thine heaven that are humble in
                                           thy sight,</l>
             <l n="780">Hast thou set not an end for the path of the fires of
@@ -1981,7 +1989,29 @@
             <l n="980">Long since one graft of me disbranched, and bore</l>
             <l n="981">Beyond the wild ways of the unwandered world</l>
             <l n="982">And loud wastes of the thunder-throated sea,</l>
-            <l n="983">Springs of the night and openings of the heaven, <ptr type="note" target="#note_04"/></l>
+            <l n="983">Springs of the night and openings of the heaven, <note resp="#acs" xml:id="note_04" rendition="#block">
+          <label rendition="#n">v 983.</label>
+          <cit rendition="#inline">
+            <bibl>Soph. Fr. (<title rendition="#i">Oreithyia</title>) 655.</bibl>
+            <quote rendition="#block #nq" rend="padding-left:4em;">
+              <lg rend="margin-top:0;margin-bottom:0;">
+                <l>
+                  <foreign xml:lang="gr">ὑπέρ τε πόντον πάντ' ἐπ'
+                                                  ἔσχατα χθονὸς</foreign>
+                </l>
+                <l>
+                  <foreign xml:lang="gr">νυκτός τε πηγὰς οὐρανοῦ τ'
+                                                  ἀναπτυχὰς,</foreign>
+                </l>
+                <l>
+                  <foreign xml:lang="gr">φοίβου παλαιὸν
+                                                κῆπον</foreign>
+                </l>
+              </lg>
+            </quote>
+          </cit>
+        </note>
+	    </l>
             <l n="984">The old garden of the Sun; whence never more</l>
             <l n="985">From west or east shall winds bring back that blow</l>
             <l n="986">From folds of opening heaven or founts of night</l>
@@ -2366,7 +2396,24 @@
             <l n="1162">Made fruitful the love in thy veins and the depth of
                                           thine heart.</l>
             <l n="1163">And the showers out of heaven overflowing and liquid
-                                          with love<ptr type="note" target="#note_05"/></l>
+                                          with love <note resp="#acs" xml:id="note_05" rendition="#block">
+          <label rendition="#n">v. 1163.</label>
+          <cit rendition="#inline">
+            <bibl>Æsch. Fr. (<title rendition="#i">Danaides</title>) 38.</bibl>
+            <quote rendition="#block #nq" rend="padding-left:4em;">
+              <lg rend="margin-top:0;margin-bottom:0;">
+                <l>
+                  <foreign xml:lang="gr">ὄμβρος δ' ἀπ' εὐνάεντος
+                                                  οὐρανοῦ πεσὼν</foreign>
+                </l>
+                <l>
+                  <foreign xml:lang="gr">ἔκυσε γαῖαν.</foreign>
+                </l>
+              </lg>
+            </quote>
+          </cit>
+        </note>
+            </l>
             <l n="1164">Fulfilled thee with child of his godhead as rain
                                           from above.</l>
             <l n="1165">Such desire had ye twain of each other, till molten
@@ -2376,7 +2423,24 @@
             <l n="1167">And the trees in their season brought forth and were
                                           kindled anew</l>
             <l n="1168">By the warmth of the moisture of marriage, the
-                                          child-bearing dew. <ptr type="note" target="#note_06"/></l>
+                                          child-bearing dew. <note resp="#acs" xml:id="note_06" rendition="#block">
+          <label rendition="#n">v. 1168.</label>
+          <cit rendition="#inline">
+            <bibl>Id.</bibl>
+            <quote rendition="#block #nq" rend="padding-left:4em;">
+              <lg rend="margin-top:0;margin-bottom:0;">
+                <l>
+                  <foreign xml:lang="gr">δενδρῶτις ὥρα δ' ἐκ
+                                                  νοτίζοντος γάμου</foreign>
+                </l>
+                <l>
+                  <foreign xml:lang="gr">τέλειός ἐστι</foreign>
+                </l>
+              </lg>
+            </quote>
+          </cit>
+        </note>
+</l>
             <l n="1169">And the firstlings were fair of the wedlock of
                                           heaven and of earth;</l>
             <l n="1170">All countries were bounteous with blossom and
@@ -3456,7 +3520,17 @@
             <l n="1746">The circling crown of heaven. There is no grief</l>
             <l n="1747">Great as the joy to be made one in will</l>
             <l n="1748">With him that is the heart and rule of life</l>
-            <l n="1749">And thee, God born of God; thy name is ours, <ptr type="note" target="#note_07"/></l>
+            <l n="1749">And thee, God born of God; thy name is ours, <note resp="#acs" xml:id="note_07" rendition="#block">
+          <label rendition="#n">v. 1749.</label>
+          <hi rendition="#i">‘God born of God.’</hi>
+          <cit rendition="#inline">
+            <bibl>Soph. <title rendition="#i">Ant.</title> 834.</bibl>
+            <quote rendition="#nq">
+              <foreign xml:lang="gr">θεός τοι καὶ θεογεννής.</foreign>
+            </quote>
+          </cit>
+        </note>
+	</l>
             <l n="1750">And thy large grace more great than our desire.</l>
           </lg>
         </sp>
@@ -3489,82 +3563,13 @@
       <div xml:id="div21" n="Notes" type="notes">
         <pb n="[413]" facs="acs0000001-04-424"/>
         <head rendition="#center #uc">Notes</head>
-        <note resp="#acs" xml:id="note_01" rendition="#block"><label rendition="#n">v. 497-503.</label> Cf. <bibl>Eurip. Fr. <title rendition="#i">Erechtheus</title>, 46-49.</bibl></note>
-        <note resp="#acs" xml:id="df1708" rendition="#block">
-          <label rendition="#n">v. 522-530.</label>
-          <bibl>Id. 32-40.</bibl>
-        </note>
-        <note resp="#acs" xml:id="df9685" rendition="#block">
-          <label rendition="#n">v. 778.</label>
-          <bibl>Æsch. <title rendition="#i">Supp.</title>
-                              524-6.</bibl>
-        </note>
-        <note resp="#acs" xml:id="note_04" rendition="#block">
-          <label rendition="#n">v 983.</label>
-          <cit>
-            <bibl>Soph. Fr. (<title rendition="#i">Oreithyia</title>) 655.</bibl>
-            <quote rendition="#block #nq" rend="padding-left:4em;">
-              <lg rend="margin-top:0;margin-bottom:0;">
-                <l>
-                  <foreign xml:lang="gr">ὑπέρ τε πόντον πάντ' ἐπ'
-                                                  ἔσχατα χθονὸς</foreign>
-                </l>
-                <l>
-                  <foreign xml:lang="gr">νυκτός τε πηγὰς οὐρανοῦ τ'
-                                                  ἀναπτυχὰς,</foreign>
-                </l>
-                <l>
-                  <foreign xml:lang="gr">φοίβου παλαιὸν
-                                                κῆπον</foreign>
-                </l>
-              </lg>
-            </quote>
-          </cit>
-        </note>
-        <note resp="#acs" xml:id="note_05" rendition="#block">
-          <label rendition="#n">v. 1163.</label>
-          <cit>
-            <bibl>Æsch. Fr. (<title rendition="#i">Danaides</title>) 38.</bibl>
-            <quote rendition="#block #nq" rend="padding-left:4em;">
-              <lg rend="margin-top:0;margin-bottom:0;">
-                <l>
-                  <foreign xml:lang="gr">ὄμβρος δ' ἀπ' εὐνάεντος
-                                                  οὐρανοῦ πεσὼν</foreign>
-                </l>
-                <l>
-                  <foreign xml:lang="gr">ἔκυσε γαῖαν.</foreign>
-                </l>
-              </lg>
-            </quote>
-          </cit>
-        </note>
-        <note resp="#acs" xml:id="note_06" rendition="#block">
-          <label rendition="#n">v. 1168.</label>
-          <cit>
-            <bibl>Id.</bibl>
-            <quote rendition="#block #nq" rend="padding-left:4em;">
-              <lg rend="margin-top:0;margin-bottom:0;">
-                <l>
-                  <foreign xml:lang="gr">δενδρῶτις ὥρα δ' ἐκ
-                                                  νοτίζοντος γάμου</foreign>
-                </l>
-                <l>
-                  <foreign xml:lang="gr">τέλειός ἐστι</foreign>
-                </l>
-              </lg>
-            </quote>
-          </cit>
-        </note>
-        <note resp="#acs" xml:id="note_07" rendition="#block">
-          <label rendition="#n">v. 1749.</label>
-          <hi rendition="#i">'God born of God.'</hi>
-          <cit>
-            <bibl>Soph. <title rendition="#i">Ant.</title> 834.</bibl>
-            <quote rendition="#nq">
-              <foreign xml:lang="gr">θεός τοι καὶ θεογεννής.</foreign>
-            </quote>
-          </cit>
-        </note>
+	<note copyOf="#note_01"/>
+	<note copyOf="#note_02"/>
+	<note copyOf="#note_03"/>
+	<note copyOf="#note_04"/>
+	<note copyOf="#note_05"/>
+	<note copyOf="#note_06"/>
+	<note copyOf="#note_07"/>
       </div>
     </back>
   </text>

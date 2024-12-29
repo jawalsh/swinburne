@@ -469,7 +469,8 @@
 				            
         <body>
             <pb n="340" facs="acs0000001-06-357"/>
-            <head rendition="#center #uc">Cromwell's Statue<ref rendition="#super" target="#ff0001454">1</ref></head>
+            <head rendition="#center #uc">Cromwell's Statue <note xml:id="note_01" rendition="#n #indent" resp="#acs">Refused by the party of reaction and disunion in the House of Commons on the <date when="1895-06-17">17th of June, 1895</date>.</note>
+</head>
             
             <lg>
                 <l n="1"><hi rendition="#sc">What</hi> needs our Cromwell stone or bronze to say</l>
@@ -495,8 +496,7 @@
                 <l n="15" rendition="#ti-1">No lordlier presence. How should Cromwell stand</l>
                 <l n="16">With kinglets and with queenlings hewn in stone?</l>
             </lg>
-            <note xml:id="ff0001454" n="1" rendition="#indent #block" rend="width:30em;" resp="#acs"><ref rendition="#super">1</ref>Refused by the party of reaction and disunion in the House of Commons on the <date when="1895-06-17">17th of June, 1895</date>.</note>
-            <pb n="341" facs="acs0000001-06-358"/>
+                        <pb n="341" facs="acs0000001-06-358"/>
             <lg>
                 <l n="17">Incarnate England in his warrior hand</l>
                 <l n="18">Smote, and as fire devours the blackening brand</l>
