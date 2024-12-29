@@ -268,7 +268,7 @@
   <!-- TEI "phrase-level", model.global.edit, "gLike", and "lLike" elements are mapped to html:span -->
   <!-- Also tei:label since it is only used in the chymistry corpus with phrase content -->
   <!-- Also tei:q, tei:quote -->
-  <xsl:template priority="-0.1" match="   author | fw   |   binaryObject | formula | graphic | media | code | distinct | emph | foreign | gloss | ident | mentioned |    soCalled | term | title | hi | caesura | rhyme | address | affiliation | email | date | time | depth | dim |    geo | height | measure | measureGrp | num | unit | width | name | orgName | persName | geogFeat |   offset | addName | forename | genName | nameLink | roleName | surname | bloc | country | district |    geogName | placeName | region | settlement | climate | location | population | state | terrain | trait |    idno | lang | objectName | rs | abbr | am | choice | ex | expan | subst | add | corr | damage | del |    handShift | mod | orig | redo | reg | restore | retrace | secl | sic | supplied | surplus | unclear | undo |    catchwords | dimensions | heraldry | locus | locusGrp | material | objectType | origDate | origPlace |    secFol | signatures | stamp | watermark | att | gi | tag | val | ptr | ref | oRef | pRef | c | cl | m | pc |    phr | s | seg | w | specDesc | specList   |   addSpan | app | damageSpan | delSpan | gap | space | witDetail   |   g   |   l   |   label   |   q   |   quote   |   biblScope   |   publisher   |   pubPlace   |   street  ">
+  <xsl:template priority="-0.1" match="bibl |   author | fw   |   binaryObject | formula | graphic | media | code | distinct | emph | foreign | gloss | ident | mentioned |    soCalled | term | title | hi | caesura | rhyme | address | affiliation | email | date | time | depth | dim |    geo | height | measure | measureGrp | num | unit | width | name | orgName | persName | geogFeat |   offset | addName | forename | genName | nameLink | roleName | surname | bloc | country | district |    geogName | placeName | region | settlement | climate | location | population | state | terrain | trait |    idno | lang | objectName | rs | abbr | am | choice | ex | expan | subst | add | corr | damage | del |    handShift | mod | orig | redo | reg | restore | retrace | secl | sic | supplied | surplus | unclear | undo |    catchwords | dimensions | heraldry | locus | locusGrp | material | objectType | origDate | origPlace |    secFol | signatures | stamp | watermark | att | gi | tag | val | ptr | ref | oRef | pRef | c | cl | m | pc |    phr | s | seg | w | specDesc | specList   |   addSpan | app | damageSpan | delSpan | gap | space | witDetail   |   g   |   l   |   label   |   q   |   quote   |   biblScope   |   publisher   |   pubPlace   |   street  ">
     <xsl:element name="span">
       <xsl:apply-templates mode="create-attributes" select="."/>
       <xsl:apply-templates mode="create-content" select="."/>
@@ -599,6 +599,7 @@
   <xsl:template match="note[@xml:id]" mode="create-content">
     <!-- content of an annotation should start with a link back to the note anchor -->
     <xsl:variable name="annotation-id" select="@xml:id"/>
+    <!--
     <header>
       <xsl:for-each select="key('reference-by-target', concat('#', @xml:id))">
         <a href="#{swinburne:mint-id(.)}">^</a>
@@ -610,6 +611,7 @@
         </span>
       </xsl:for-each>
     </header>
+    -->
     <xsl:next-match/>
   </xsl:template>
   <xsl:template match="note[@type='translation']">
