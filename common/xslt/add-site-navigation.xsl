@@ -399,7 +399,13 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
     <xsl:attribute name="class">
       <xsl:value-of select="concat(@class,' my-4')"/>
     </xsl:attribute>
+    </xsl:template>  
+  <xsl:template mode="replace-class" match="//*[contains-token(@class, 'rendition-blockquote')]">
+    <xsl:attribute name="class">
+      <xsl:value-of select="concat(@class,' my-2')"/>
+    </xsl:attribute>
   </xsl:template>
+
   <!-- elements that should add bottom margin -->
   <xsl:template mode="replace-class" match="//div[contains-token(@class, 'tei-stage')]|//div[contains-token(@class, 'tei-sp')]">
     <xsl:attribute name="class">
