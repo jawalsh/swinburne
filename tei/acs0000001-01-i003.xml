@@ -989,13 +989,5 @@
             </lg>
             <pb n="[8]" facs="acs0000001-01-051"/>
         </body>
-    
-      <back>
-         <!--DEBUG: no existing back matter-->
-         <div n="[notes]">
-            <!--DEBUG: No notes-->
-         </div>
-         <!--DEBUG: No commentary-->
-      </back>
    </text>
 </TEI>

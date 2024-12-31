@@ -850,13 +850,5 @@
                </l>
             </lg>
         </body>
-    
-      <back>
-         <!--DEBUG: no existing back matter-->
-         <div n="[notes]">
-            <!--DEBUG: No notes-->
-         </div>
-         <!--DEBUG: No commentary-->
-      </back>
    </text>
 </TEI>
