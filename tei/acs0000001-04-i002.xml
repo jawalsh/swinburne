@@ -335,6 +335,9 @@
          <textClass>
             <catRef target="#collex_genre_poetry"/>
          </textClass>
+	 <textClass>
+            <catRef xml:id="parent_vol" target="#acs0000001-04-i002"/>
+         </textClass>
       </profileDesc>
       <encodingDesc>
 					<listPrefixDef xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:chymistry="tag:conaltuohy.com,2018:chymistry" xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:z="https://github.com/Conal-Tuohy/XProc-Z">
@@ -484,7 +487,7 @@
                     <titlePart type="main" rendition="#center #uc">Atalanta in Calydon</titlePart><lb/>
                     <titlePart type="subtitle" rendition="#center #uc">A Tragedy</titlePart>
                 </docTitle>
-                <epigraph rend="padding-left: 7em;">
+                <epigraph xml:id="atalanta_epi1" rend="padding-left: 7em;">
                     <cit rendition="#block">
                         <quote>
                             <lg xml:lang="gr">
@@ -499,7 +502,7 @@
                 </epigraph>
             </titlePage>
         	<pb n="[236]" facs="acs0000001-04-247"/>
-            <div n="To the Memory of Walter Savage Landor" xml:id="df78ae" type="dedication">
+            <div xml:id="atalanta_dedication" n="To the Memory of Walter Savage Landor" type="dedication">
             <index indexName="nav"/>
             <div>
             	<pb n="[237]" facs="acs0000001-04-248"/>
@@ -606,7 +609,7 @@
             </div>
             </div>
         	<pb n="243" facs="acs0000001-04-254"/>
-            <div xml:id="id335061" type="argument">
+            <div xml:id="atalanta_argument" type="argument">
                 <head rendition="#center #uc">The Argument</head>
                 <p>
                 	<hi rendition="#sc"><persName ref="#althaea"><choice><orig>Althæa</orig><reg>Althaea</reg></choice></persName></hi>,
@@ -658,47 +661,47 @@
                     for very sorrow; and this was his end, and the end of that hunting. </p>
             </div>
         	<pb n="[245]" facs="acs0000001-04-256"/>
-            <div xml:id="id335480" type="cast-list" rend="padding-left: 8em;">
+            <div xml:id="atalanta_persons" type="cast-list" rend="padding-left: 8em;">
             	<castList rendition="#list-style-type_none #list">
                     <head rendition="#uc">The Persons</head>
-                    <castItem rendition="#uc" type="role">
+                    <castItem rendition="#uc #small" type="role">
                         <role xml:id="cast.huntsman">Chief Huntsman</role>
                     </castItem>
-                    <castItem rendition="#uc" type="role">
+                    <castItem rendition="#uc #small" type="role">
                         <role xml:id="cast.chorus">Chorus</role>
                     </castItem>
-                    <castItem rendition="#uc" type="role">
+                    <castItem rendition="#uc #small" type="role">
                     	<role xml:id="cast.althaea"><persName ref="#althaea"><choice><orig>Althæa</orig><reg>Althaea</reg></choice></persName></role>
                     </castItem>
-                    <castItem rendition="#uc" type="role">
+                    <castItem rendition="#uc #small" type="role">
                         <role xml:id="cast.meleager"><persName ref="#meleager">Meleager</persName></role>
                     </castItem>
-                    <castItem rendition="#uc" type="role">
+                    <castItem rendition="#uc #small" type="role">
                         <role xml:id="cast.oeneus"><persName ref="#oeneus">Oeneus</persName></role>
                     </castItem>
-                    <castItem rendition="#uc" type="role">
+                    <castItem rendition="#uc #small" type="role">
                         <role xml:id="cast.atalanta"><persName ref="#atalanta">Atalanta</persName></role>
                     </castItem>
-                    <castItem rendition="#uc" type="role">
+                    <castItem rendition="#uc #small" type="role">
                         <role xml:id="cast.toxeus"><persName ref="#toxeus">Toxeus</persName></role>
                     </castItem>
-                    <castItem rendition="#uc" type="role">
+                    <castItem rendition="#uc #small" type="role">
                         <role xml:id="cast.plexippus"><persName ref="#plexippus">Plexippus</persName></role>
                     </castItem>
-                    <castItem rendition="#uc" type="role">
+                    <castItem rendition="#uc #small" type="role">
                         <role xml:id="cast.herald">Herald</role>
                     </castItem>
-                    <castItem rendition="#uc" type="role">
+                    <castItem rendition="#uc #small" type="role">
                         <role xml:id="cast.messenger">Messenger</role>
                     </castItem>
-                    <castItem rendition="#uc" type="role">
+                    <castItem rendition="#uc #small" type="role">
                         <role xml:id="cast.secondMessenger">Second Messenger</role>
                     </castItem>
                 </castList>
             </div>
         	<pb n="[246]" facs="acs0000001-04-257"/>
             <div xml:id="id335711">
-		    <epigraph>
+		    <epigraph xml:id="atalanta_epi2">
                 <cit rendition="#block">
                     <quote xml:lang="gr">
                         <lg>
@@ -725,7 +728,7 @@
             <head>
             	<title rendition="#center #uc">Atalanta in Calydon</title>
             </head>
-            <div xml:id="id002" n="[Prologue]" type="prologue">
+            <div xml:id="atalanta_i" n="[Prologue]" type="prologue">
                 <sp who="cast.huntsman">
                     <speaker rendition="#center #uc">Chief Huntsman</speaker>
                     <lg>
@@ -808,7 +811,7 @@
                     </lg>
                 </sp>
             </div>
-            <div xml:id="id003" n="[Parados]" type="parados">
+            <div xml:id="atalanta_ii" n="[Parados]" type="parados">
                 <sp who="cast.chorus">
                     <speaker rendition="#center #uc">Chorus</speaker>
                     <lg>
@@ -882,7 +885,7 @@
                 </sp>
             </div>
         	<pb n="251" facs="acs0000001-04-262"/>
-            <div xml:id="id004" n="[Episode I]" type="episode">
+            <div xml:id="atalanta_iii" n="[Episode I]" type="episode">
                 <sp who="cast.althaea">
                     <speaker rendition="#center #uc"><choice><orig>Althæa</orig><reg>Althaea</reg></choice></speaker>
                     <lg>
@@ -1256,7 +1259,7 @@
                     </lg>
                 </sp>
             </div>
-            <div xml:id="id005" n="[Stasimon I]" type="stasimon">
+            <div xml:id="atalanta_iv" n="[Stasimon I]" type="stasimon">
                 <sp>
                     <speaker rendition="#center #uc">Chorus</speaker>
                     <lg>
@@ -1315,7 +1318,7 @@
                     </lg>
                 </sp>
             </div>
-            <div xml:id="div006" n="[Episode II]" type="episode">
+            <div xml:id="atalanta_v" n="[Episode II]" type="episode">
                 <sp who="cast.meleager">
                     <speaker rendition="#center #uc">Meleager</speaker>
                     <lg>
@@ -1923,7 +1926,7 @@
                     </lg>
                 </sp>
             </div>
-            <div xml:id="id007" n="[Stasimon II]" type="stasimon">
+            <div xml:id="atalanta_vi" n="[Stasimon II]" type="stasimon">
                 <sp who="cast.chorus">
                     <speaker rendition="#center #uc">Chorus</speaker>
                     <lg>
@@ -2109,7 +2112,7 @@
                     </lg>
                 </sp>
             </div>
-            <div xml:id="id008" n="[Episode III]" type="episdoe">
+            <div xml:id="atalanta_vii" n="[Episode III]" type="episdoe">
                 <sp>
                     <speaker rendition="#center #uc">Atalanta</speaker>
                     <lg>
@@ -2390,7 +2393,7 @@
                     </lg>
                 </sp>
             </div>
-            <div xml:id="id009" n="[Stasimon III]" type="stasimon">
+            <div xml:id="atalanta_viii" n="[Stasimon III]" type="stasimon">
                 <sp>
                     <speaker rendition="#center #uc">Chorus</speaker>
                     <lg>
@@ -2590,7 +2593,7 @@
                     </lg>
                 </sp>
             </div>
-            <div xml:id="id010" n="[Episode IV]" type="episdoe">
+            <div xml:id="atalanta_ix" n="[Episode IV]" type="episdoe">
                 <sp who="cast.althaea">
                     <speaker rendition="#center #uc"><choice><orig>Althæa</orig><reg>Althaea</reg></choice></speaker>
                     <lg>
@@ -2912,7 +2915,7 @@
                     </lg>
                 </sp>
             </div>
-            <div xml:id="id011" n="[Stasimon IV]" type="stasimon">
+            <div xml:id="atalanta_x" n="[Stasimon IV]" type="stasimon">
                 <sp>
                     <speaker rendition="#center #uc">Chorus</speaker>
                     <lg>
@@ -3019,7 +3022,7 @@
                     </lg>
                 </sp>
             </div>
-            <div xml:id="id012" n="[Episode V]" type="episode">
+            <div xml:id="atalanta_xi" n="[Episode V]" type="episode">
                 <sp>
                     <speaker rendition="#center #uc">Messenger</speaker>
                     <lg>
@@ -3696,7 +3699,7 @@
                     </lg>
                 </sp>
             </div>
-            <div xml:id="div013" n="[Stasimon V]" type="stasimon">
+            <div xml:id="atalanta_xii" n="[Stasimon V]" type="stasimon">
                 <sp who="cast.chorus">
                     <speaker rendition="#center #uc">Chorus</speaker>
                     <lg>
@@ -3761,7 +3764,7 @@
                     </lg>
                 </sp>
             </div>
-            <div xml:id="id014" n="[Episode VI]" type="episode">
+            <div xml:id="atalanta_xiii" n="[Episode VI]" type="episode">
                 <sp who="cast.althaea">
                     <speaker rendition="#center #uc"><choice><orig>Althæa</orig><reg>Althaea</reg></choice></speaker>
                     <lg>
@@ -3988,7 +3991,7 @@
                     </lg>
                 </sp>
             </div>
-            <div xml:id="id015" n="[Stasimon VI]" type="stasimon">
+            <div xml:id="atalanta_xiv" n="[Stasimon VI]" type="stasimon">
                 <sp>
                     <speaker rendition="#center #uc">Semichorus</speaker>
                     <lg>
@@ -4057,7 +4060,7 @@
                     </lg>
                 </sp>
             </div>
-            <div xml:id="id016" n="[Episode VII]" type="episode">
+            <div xml:id="atalanta_xv" n="[Episode VII]" type="episode">
                 <sp>
                     <speaker rendition="#center #uc">Second Messenger</speaker>
                     <lg>
@@ -4189,7 +4192,7 @@
                     </lg>
                 </sp>
             </div>
-            <div xml:id="id018" n="[Kommos]" type="kommos">
+            <div xml:id="atalanta_xvi" n="[Kommos]" type="kommos">
                 <sp who="cast.meleager">
                     <speaker rendition="#center #uc">Meleager</speaker>
                     <lg>
@@ -4540,7 +4543,7 @@
                     </lg>
                 </sp>
             </div>
-            <div xml:id="id019" n="[Exodos]" type="exodos">
+            <div xml:id="atalanta_xvii" n="[Exodos]" type="exodos">
                 <sp who="cast.meleager">
                     <speaker rendition="#center #uc">Meleager</speaker>
                     <lg>
@@ -4700,7 +4703,7 @@
                     </lg>
                 </sp>
             </div>
-            <div xml:id="id020" n="[Epilogue]" type="epilogue">
+            <div xml:id="atalanta_xiii" n="[Epilogue]" type="epilogue">
                 <sp>
                     <speaker rendition="#center #uc">Chorus</speaker>
                     <lg>
@@ -4717,10 +4720,6 @@
         </body>
     
       <back>
-         <!--DEBUG: no existing back matter-->
-         <div n="[notes]">
-            <!--DEBUG: No notes-->
-         </div>
          <div xml:id="commentary">
             <head>Commentary</head>
                <div xml:id="notes">

@@ -24,7 +24,149 @@
         "volume": {
             "title": "Atalanta in Calydon",
             "date": "1865",
-            "id": "acs0000001-04-i002"
+            "id": "acs0000001-04-i002",
+	    "contents": [
+		    {
+			    "item": {
+				    "title": "[Epigraph: Eur. Fr. Mel. 20 (537)]",
+				    "id": "atalanta_epi1"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "[Dedication: “To the Memory of Walter Savage Landor”]",
+				    "id": "atalanta_dedication"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "The Argument",
+				    "id": "atalanta_argument"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "The Persons",
+				    "id": "atalanta_persons"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "[Epigraph: Aesch. Cho. 602-612.]",
+				    "id": "atalanta_epi2"
+			    }
+		    },
+
+		    {
+			    "item": {
+				"title": "[I. Prologue. Spoken by Chief Huntsman.]",
+				"id": "atalanta_i"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "[II. Parados. “When the hounds of Spring…”]",
+				    "id": "atalanta_ii"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "[III. Episode I. Althaea tells the story of the boar, and the story of Meleager’s birth; she speaks of the coming of Atalanta, and of her son’s passion, as the final revenge of Artemis, and inveighs against the implacability of the gods.]",
+				    "id": "atalanta_iii"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "[IV. Stasimon I. Chorus: “Before the beginning of years.”]",
+				    "id": "atalanta_iv"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "[V. Episode II. Meleager and his mother: dialogue on the conflict between love and duty.]",
+				    "id": "atalanta_v"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "[VI. Stasimon II. Chorus: “We have seen thee, O Love”; Hymn to Venus Anadyomene.]",
+				    "id": "atalanta_vi"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "[VII. Episode III. Atalanta, Toxeus, and Plexippus enter. Departure for the hunt.]",
+				    "id": "atalanta_vii"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "[VIII. Stasimon III. Chorus: “Who hath given men speech”; Revolt against the gods.]",
+				    "id": "atalanta_viii"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "[IX. Episode IV. Herald announces the death of the boar.]",
+				    "id": "atalanta_ix"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "[X. Stasimon IV. Chorus: “Oh, that I now”; Hymn to Artemis.]",
+				    "id": "atalanta_x"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "[XI. Episode V. First messenger announces the murder of Toxeus and Plexippus. Althaea retires to the palace to burn the brand.]",
+				    "id": "atalanta_xi"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "[XII. Stasimon V. Chorus: “Not as with the sundering of the earth”—the suddenness of fate.]",
+				    "id": "atalanta_xii"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "[XIII. Episode VI. Re-entry of Althaea, having thrust the brand into the flames.]",
+				    "id": "atalanta_xiii"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "[XIV. Stasimon VI. Semi-chorus: “She has filled with sighing the city.”]",
+				    "id": "atalanta_xiv"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "[XV. Episode VII. Second messenger announces the approach of the dying Meleager.]",
+				    "id": "atalanta_xv"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "[XVI. Kommos. Melic passage between Meleager and the chorus.]",
+				    "id": "atalanta_xvi"
+			    }
+		    },
+		    {
+			    "item": {
+				    "title": "[XVII. Exodos. Farewell and death of Meleager.]",
+				    "id": "atalanta_xvii"
+			    }
+		    },
+		    {
+
+			    "item": {
+				    "title": "[XIII. Epilogue. Chorus: “Who shall contend with his lords.” (75-76)]",
+				    "id": "atalanta_xviii"
+			    }
+		    }
+	    ]
         }
     },
     {
