@@ -1,0 +1,2845 @@
+[
+    {
+        "title": "The Queen-Mother. Rosamond.: Two Plays",
+        "date": "1860",
+        "id": "qmr",
+        "works_or_contents": [
+            {
+                "type": "work",
+                "title": "The Queen-Mother",
+                "id": "acs0000002-01-i001"
+            },
+            {
+                "type": "work",
+                "title": "Rosamond",
+                "id": "acs0000002-01-i002"
+            }
+        ]
+    },
+    {
+        "title": "Atalanta in Calydon",
+        "date": "1865",
+        "id": "acs0000001-04-i002",
+        "works_or_contents": [
+            {
+                "type": "content",
+                "title": "[Epigraph: Eur. Fr. Mel. 20 (537)]",
+                "id": "atalanta_epi1"
+            },
+            {
+                "type": "content",
+                "title": "[Dedication: \u201cTo the Memory of Walter Savage Landor\u201d]",
+                "id": "atalanta_dedication"
+            },
+            {
+                "type": "content",
+                "title": "The Argument",
+                "id": "atalanta_argument"
+            },
+            {
+                "type": "content",
+                "title": "The Persons",
+                "id": "atalanta_persons"
+            },
+            {
+                "type": "content",
+                "title": "[Epigraph: Aesch. Cho. 602-612.]",
+                "id": "atalanta_epi2"
+            },
+            {
+                "type": "content",
+                "title": "[I. Prologue. Spoken by Chief Huntsman.]",
+                "id": "atalanta_i"
+            },
+            {
+                "type": "content",
+                "title": "[II. Parados. \u201cWhen the hounds of Spring\u2026\u201d]",
+                "id": "atalanta_ii"
+            },
+            {
+                "type": "content",
+                "title": "[III. Episode I. Althaea tells the story of the boar, and the story of Meleager\u2019s birth; she speaks of the coming of Atalanta, and of her son\u2019s passion, as the final revenge of Artemis, and inveighs against the implacability of the gods.]",
+                "id": "atalanta_iii"
+            },
+            {
+                "type": "content",
+                "title": "[IV. Stasimon I. Chorus: \u201cBefore the beginning of years.\u201d]",
+                "id": "atalanta_iv"
+            },
+            {
+                "type": "content",
+                "title": "[V. Episode II. Meleager and his mother: dialogue on the conflict between love and duty.]",
+                "id": "atalanta_v"
+            },
+            {
+                "type": "content",
+                "title": "[VI. Stasimon II. Chorus: \u201cWe have seen thee, O Love\u201d; Hymn to Venus Anadyomene.]",
+                "id": "atalanta_vi"
+            },
+            {
+                "type": "content",
+                "title": "[VII. Episode III. Atalanta, Toxeus, and Plexippus enter. Departure for the hunt.]",
+                "id": "atalanta_vii"
+            },
+            {
+                "type": "content",
+                "title": "[VIII. Stasimon III. Chorus: \u201cWho hath given men speech\u201d; Revolt against the gods.]",
+                "id": "atalanta_viii"
+            },
+            {
+                "type": "content",
+                "title": "[IX. Episode IV. Herald announces the death of the boar.]",
+                "id": "atalanta_ix"
+            },
+            {
+                "type": "content",
+                "title": "[X. Stasimon IV. Chorus: \u201cOh, that I now\u201d; Hymn to Artemis.]",
+                "id": "atalanta_x"
+            },
+            {
+                "type": "content",
+                "title": "[XI. Episode V. First messenger announces the murder of Toxeus and Plexippus. Althaea retires to the palace to burn the brand.]",
+                "id": "atalanta_xi"
+            },
+            {
+                "type": "content",
+                "title": "[XII. Stasimon V. Chorus: \u201cNot as with the sundering of the earth\u201d\u2014the suddenness of fate.]",
+                "id": "atalanta_xii"
+            },
+            {
+                "type": "content",
+                "title": "[XIII. Episode VI. Re-entry of Althaea, having thrust the brand into the flames.]",
+                "id": "atalanta_xiii"
+            },
+            {
+                "type": "content",
+                "title": "[XIV. Stasimon VI. Semi-chorus: \u201cShe has filled with sighing the city.\u201d]",
+                "id": "atalanta_xiv"
+            },
+            {
+                "type": "content",
+                "title": "[XV. Episode VII. Second messenger announces the approach of the dying Meleager.]",
+                "id": "atalanta_xv"
+            },
+            {
+                "type": "content",
+                "title": "[XVI. Kommos. Melic passage between Meleager and the chorus.]",
+                "id": "atalanta_xvi"
+            },
+            {
+                "type": "content",
+                "title": "[XVII. Exodos. Farewell and death of Meleager.]",
+                "id": "atalanta_xvii"
+            },
+            {
+                "type": "content",
+                "title": "[XIII. Epilogue. Chorus: \u201cWho shall contend with his lords.\u201d (75-76)]",
+                "id": "atalanta_xviii"
+            }
+        ]
+    },
+    {
+        "title": "Love\u2019s Cross Currents: A Year\u2019s Letters",
+        "date": "1905",
+        "id": "acs0000005-01",
+        "works_or_contents": [
+            {
+                "type": "content",
+                "title": "[dedication]",
+                "id": "lcc_dedication"
+            },
+            {
+                "type": "content",
+                "title": "Prologue",
+                "id": "lcc_prologue"
+            },
+            {
+                "type": "content",
+                "title": "I. Lady Midhurst to Mrs. Radworth",
+                "id": "lcc_i"
+            },
+            {
+                "type": "content",
+                "title": "II. Mrs. Radworth to Francis Cheyne",
+                "id": "lcc_ii"
+            },
+            {
+                "type": "content",
+                "title": "III. Lady Midhurst to Lady Cheyne",
+                "id": "lcc_iii"
+            },
+            {
+                "type": "content",
+                "title": "IV. Francis Cheyne to Mrs. Radworth",
+                "id": "lcc_iv"
+            },
+            {
+                "type": "content",
+                "title": "V. Lady Cheyne to Francis Cheyne",
+                "id": "lcc_v"
+            },
+            {
+                "type": "content",
+                "title": "VI. Lady Midhurst to Reginald Harewood",
+                "id": "lcc_vi"
+            },
+            {
+                "type": "content",
+                "title": "VII. Reginald Harewood to Edward Audley",
+                "id": "lcc_vii"
+            },
+            {
+                "type": "content",
+                "title": "VIII. Francis Cheyne to Mrs. Radworth",
+                "id": "lcc_viii"
+            },
+            {
+                "type": "content",
+                "title": "IX. Lady Midhurst to Lady Cheyne",
+                "id": "lcc_ix"
+            },
+            {
+                "type": "content",
+                "title": "X. Lady Midhurst to Lady Cheyne",
+                "id": "lcc_x"
+            },
+            {
+                "type": "content",
+                "title": "XI. Reginald Harewood to Mrs. Radworth",
+                "id": "lcc_xi"
+            },
+            {
+                "type": "content",
+                "title": "XII. Mrs. Radworth to Reginald Harewood",
+                "id": "lcc_xii"
+            },
+            {
+                "type": "content",
+                "title": "XIII. Francis Cheyne to Lady Cheyne",
+                "id": "lcc_xiii"
+            },
+            {
+                "type": "content",
+                "title": "XIV. Lady Midhurst to Reginald Harewood",
+                "id": "lcc_xiv"
+            },
+            {
+                "type": "content",
+                "title": "XV. Lady Cheyne to Francis",
+                "id": "lcc_xv"
+            },
+            {
+                "type": "content",
+                "title": "XVI. Mrs. Radworth to Lady Midhurst",
+                "id": "lcc_xvi"
+            },
+            {
+                "type": "content",
+                "title": "XVII. Lady Midhurst to Lady Cheyne",
+                "id": "lcc_xvii"
+            },
+            {
+                "type": "content",
+                "title": "XVIII. Lady Midhurst to Francis Cheyne",
+                "id": "lcc_xviii"
+            },
+            {
+                "type": "content",
+                "title": "XIX. Francis Cheyne to Mrs. Radworth",
+                "id": "lcc_xix"
+            },
+            {
+                "type": "content",
+                "title": "XX. Reginald Harewood to Lady Cheyne",
+                "id": "lcc_xx"
+            },
+            {
+                "type": "content",
+                "title": "XXI. Lady Midhurst to Mrs. Radworth",
+                "id": "lcc_xxi"
+            },
+            {
+                "type": "content",
+                "title": "XXII. Captain Harewood to Reginald",
+                "id": "lcc_xxii"
+            },
+            {
+                "type": "content",
+                "title": "XXIII. Francis Cheyne to Mrs. Radworth",
+                "id": "lcc_xxiii"
+            },
+            {
+                "type": "content",
+                "title": "XXIV. Lady Cheyne to Mrs. Radworth",
+                "id": "lcc_xxiv"
+            },
+            {
+                "type": "content",
+                "title": "XXV. Reginald Harewood to Edward Audley",
+                "id": "lcc_xxv"
+            },
+            {
+                "type": "content",
+                "title": "XXVI. Lady Cheyne to Reginald Harewood",
+                "id": "lcc_xxvi"
+            },
+            {
+                "type": "content",
+                "title": "XXVII. Reginald Harewood to Mrs. Radworth",
+                "id": "lcc_xxvii"
+            },
+            {
+                "type": "content",
+                "title": "XXVIII. Lady Midhurst to Mrs. Radworth",
+                "id": "lcc_xxviii"
+            },
+            {
+                "type": "content",
+                "title": "XXIX. Francis Cheyne to Lady Midhurst",
+                "id": "lcc_xxix"
+            },
+            {
+                "type": "content",
+                "title": "XXX. Lady Midhurst to Lady Cheyne",
+                "id": "lcc_xxx"
+            }
+        ]
+    },
+    {
+        "title": "Poems and Ballads, First Series",
+        "date": "1866",
+        "id": "pb1",
+        "works_or_contents": [
+            {
+                "type": "work",
+                "title": "A Ballad of Life",
+                "id": "acs0000001-01-i002"
+            },
+            {
+                "type": "work",
+                "title": "A Ballad of Death",
+                "id": "acs0000001-01-i003"
+            },
+            {
+                "type": "work",
+                "title": "Laus Veneris",
+                "id": "acs0000001-01-i004"
+            },
+            {
+                "type": "work",
+                "title": "Phaedra",
+                "id": "acs0000001-01-i005"
+            },
+            {
+                "type": "work",
+                "title": "The Triumph of Time",
+                "id": "acs0000001-01-i006"
+            },
+            {
+                "type": "work",
+                "title": "Les Noyades",
+                "id": "acs0000001-01-i007"
+            },
+            {
+                "type": "work",
+                "title": "A Leave-Taking",
+                "id": "acs0000001-01-i008"
+            },
+            {
+                "type": "work",
+                "title": "Itylus",
+                "id": "acs0000001-01-i009"
+            },
+            {
+                "type": "work",
+                "title": "Anactoria",
+                "id": "acs0000001-01-i010"
+            },
+            {
+                "type": "work",
+                "title": "Hymn to Proserpine",
+                "id": "acs0000001-01-i011"
+            },
+            {
+                "type": "work",
+                "title": "Ilicet",
+                "id": "acs0000001-01-i012"
+            },
+            {
+                "type": "work",
+                "title": "Hermaphroditus",
+                "id": "acs0000001-01-i013"
+            },
+            {
+                "type": "work",
+                "title": "Fragoletta",
+                "id": "acs0000001-01-i014"
+            },
+            {
+                "type": "work",
+                "title": "Rondel",
+                "id": "acs0000001-01-i015"
+            },
+            {
+                "type": "work",
+                "title": "Satia te Sanguine",
+                "id": "acs0000001-01-i016"
+            },
+            {
+                "type": "work",
+                "title": "A Litany",
+                "id": "acs0000001-01-i017"
+            },
+            {
+                "type": "work",
+                "title": "A Lamentation",
+                "id": "acs0000001-01-i018"
+            },
+            {
+                "type": "work",
+                "title": "Anima Anceps",
+                "id": "acs0000001-01-i019"
+            },
+            {
+                "type": "work",
+                "title": "In the Orchard",
+                "id": "acs0000001-01-i020"
+            },
+            {
+                "type": "work",
+                "title": "A Match",
+                "id": "acs0000001-01-i021"
+            },
+            {
+                "type": "work",
+                "title": "Faustine",
+                "id": "acs0000001-01-i022"
+            },
+            {
+                "type": "work",
+                "title": "A Cameo",
+                "id": "acs0000001-01-i023"
+            },
+            {
+                "type": "work",
+                "title": "Song Before Death",
+                "id": "acs0000001-01-i024"
+            },
+            {
+                "type": "work",
+                "title": "Rococo",
+                "id": "acs0000001-01-i025"
+            },
+            {
+                "type": "work",
+                "title": "Stage Love",
+                "id": "acs0000001-01-i026"
+            },
+            {
+                "type": "work",
+                "title": "The Leper",
+                "id": "acs0000001-01-i027"
+            },
+            {
+                "type": "work",
+                "title": "A Ballad of Burdens",
+                "id": "acs0000001-01-i028"
+            },
+            {
+                "type": "work",
+                "title": "Rondel",
+                "id": "acs0000001-01-i029"
+            },
+            {
+                "type": "work",
+                "title": "Before the Mirror",
+                "id": "acs0000001-01-i030"
+            },
+            {
+                "type": "work",
+                "title": "Erotion",
+                "id": "acs0000001-01-i031"
+            },
+            {
+                "type": "work",
+                "title": "In Memory of Walter Savage Landor",
+                "id": "acs0000001-01-i032"
+            },
+            {
+                "type": "work",
+                "title": "A Song in Time of Order. 1852",
+                "id": "acs0000001-01-i033"
+            },
+            {
+                "type": "work",
+                "title": "A Song in Time of Revolution. 1860",
+                "id": "acs0000001-01-i034"
+            },
+            {
+                "type": "work",
+                "title": "To Victor Hugo",
+                "id": "acs0000001-01-i035"
+            },
+            {
+                "type": "work",
+                "title": "Before Dawn",
+                "id": "acs0000001-01-i036"
+            },
+            {
+                "type": "work",
+                "title": "Dolores",
+                "id": "acs0000001-01-i037"
+            },
+            {
+                "type": "work",
+                "title": "The Garden of Proserpine",
+                "id": "acs0000001-01-i038"
+            },
+            {
+                "type": "work",
+                "title": "Hesperia",
+                "id": "acs0000001-01-i039"
+            },
+            {
+                "type": "work",
+                "title": "Love at Sea",
+                "id": "acs0000001-01-i040"
+            },
+            {
+                "type": "work",
+                "title": "April",
+                "id": "acs0000001-01-i041"
+            },
+            {
+                "type": "work",
+                "title": "Before Parting",
+                "id": "acs0000001-01-i042"
+            },
+            {
+                "type": "work",
+                "title": "The Sundew",
+                "id": "acs0000001-01-i043"
+            },
+            {
+                "type": "work",
+                "title": "F\u00e9lise",
+                "id": "acs0000001-01-i044"
+            },
+            {
+                "type": "work",
+                "title": "An Interlude",
+                "id": "acs0000001-01-i045"
+            },
+            {
+                "type": "work",
+                "title": "Hendecasyllabics",
+                "id": "acs0000001-01-i046"
+            },
+            {
+                "type": "work",
+                "title": "Sapphics",
+                "id": "acs0000001-01-i047"
+            },
+            {
+                "type": "work",
+                "title": "At Eleusis",
+                "id": "acs0000001-01-i048"
+            },
+            {
+                "type": "work",
+                "title": "August",
+                "id": "acs0000001-01-i049"
+            },
+            {
+                "type": "work",
+                "title": "A Christmas Carol",
+                "id": "acs0000001-01-i050"
+            },
+            {
+                "type": "work",
+                "title": "The Masque of Queen Bersabe",
+                "id": "acs0000001-01-i051"
+            },
+            {
+                "type": "work",
+                "title": "St. Dorothy",
+                "id": "acs0000001-01-i052"
+            },
+            {
+                "type": "work",
+                "title": "The Two Dreams",
+                "id": "acs0000001-01-i053"
+            },
+            {
+                "type": "work",
+                "title": "Aholibah",
+                "id": "acs0000001-01-i054"
+            },
+            {
+                "type": "work",
+                "title": "Love and Sleep",
+                "id": "acs0000001-01-i055"
+            },
+            {
+                "type": "work",
+                "title": "Madonna Mia",
+                "id": "acs0000001-01-i056"
+            },
+            {
+                "type": "work",
+                "title": "The King's Daughter",
+                "id": "acs0000001-01-i057"
+            },
+            {
+                "type": "work",
+                "title": "After Death",
+                "id": "acs0000001-01-i058"
+            },
+            {
+                "type": "work",
+                "title": "May Janet",
+                "id": "acs0000001-01-i059"
+            },
+            {
+                "type": "work",
+                "title": "The Bloody Son",
+                "id": "acs0000001-01-i060"
+            },
+            {
+                "type": "work",
+                "title": "The Sea-Swallows",
+                "id": "acs0000001-01-i061"
+            },
+            {
+                "type": "work",
+                "title": "The Year of Love",
+                "id": "acs0000001-01-i062"
+            },
+            {
+                "type": "work",
+                "title": "Dedication, 1865",
+                "id": "acs0000001-01-i063"
+            }
+        ]
+    },
+    {
+        "title": "Songs Before Sunrise",
+        "date": "1871",
+        "id": "sbs",
+        "works_or_contents": [
+            {
+                "type": "work",
+                "title": "Dedication to Joseph Mazzini",
+                "id": "acs0000001-02-i000"
+            },
+            {
+                "type": "work",
+                "title": "Prelude",
+                "id": "acs0000001-02-i002"
+            },
+            {
+                "type": "work",
+                "title": "The Eve of Revolution",
+                "id": "acs0000001-02-i003"
+            },
+            {
+                "type": "work",
+                "title": "A Watch in the Night",
+                "id": "acs0000001-02-i004"
+            },
+            {
+                "type": "work",
+                "title": "Super Flumina Babylonis",
+                "id": "acs0000001-02-i005"
+            },
+            {
+                "type": "work",
+                "title": "The Halt before Rome",
+                "id": "acs0000001-02-i006"
+            },
+            {
+                "type": "work",
+                "title": "Mentana: First Anniversary",
+                "id": "acs0000001-02-i007"
+            },
+            {
+                "type": "work",
+                "title": "Blessed among Women",
+                "id": "acs0000001-02-i008"
+            },
+            {
+                "type": "work",
+                "title": "The Litany of Nations",
+                "id": "acs0000001-02-i009"
+            },
+            {
+                "type": "work",
+                "title": "Hertha",
+                "id": "acs0000001-02-i010"
+            },
+            {
+                "type": "work",
+                "title": "Before a Crucifix",
+                "id": "acs0000001-02-i011"
+            },
+            {
+                "type": "work",
+                "title": "Tenebrae",
+                "id": "acs0000001-02-i012"
+            },
+            {
+                "type": "work",
+                "title": "Hymn of Man",
+                "id": "acs0000001-02-i013"
+            },
+            {
+                "type": "work",
+                "title": "The Pilgrims",
+                "id": "acs0000001-02-i014"
+            },
+            {
+                "type": "work",
+                "title": "Armand Barb\u00e9s",
+                "id": "acs0000001-02-i015"
+            },
+            {
+                "type": "work",
+                "title": "Quia Multum Amavit",
+                "id": "acs0000001-02-i016"
+            },
+            {
+                "type": "work",
+                "title": "Genesis",
+                "id": "acs0000001-02-i017"
+            },
+            {
+                "type": "work",
+                "title": "To Walt Whitman in America",
+                "id": "acs0000001-02-i018"
+            },
+            {
+                "type": "work",
+                "title": "Christmas Antiphones",
+                "id": "acs0000001-02-i019"
+            },
+            {
+                "type": "work",
+                "title": "A New Year's Message",
+                "id": "acs0000001-02-i020"
+            },
+            {
+                "type": "work",
+                "title": "Mater Dolorosa",
+                "id": "acs0000001-02-i021"
+            },
+            {
+                "type": "work",
+                "title": "Mater Triumphalis",
+                "id": "acs0000001-02-i022"
+            },
+            {
+                "type": "work",
+                "title": "A Marching Song",
+                "id": "acs0000001-02-i023"
+            },
+            {
+                "type": "work",
+                "title": "Siena",
+                "id": "acs0000001-02-i024"
+            },
+            {
+                "type": "work",
+                "title": "Cor Cordium",
+                "id": "acs0000001-02-i025"
+            },
+            {
+                "type": "work",
+                "title": "In San Lorenzo",
+                "id": "acs0000001-02-i026"
+            },
+            {
+                "type": "work",
+                "title": "Tiresias",
+                "id": "acs0000001-02-i027"
+            },
+            {
+                "type": "work",
+                "title": "The Song of the Standard",
+                "id": "acs0000001-02-i028"
+            },
+            {
+                "type": "work",
+                "title": "On the Downs",
+                "id": "acs0000001-02-i029"
+            },
+            {
+                "type": "work",
+                "title": "Messidor",
+                "id": "acs0000001-02-i030"
+            },
+            {
+                "type": "work",
+                "title": "Ode on the Insurrection in Candia",
+                "id": "acs0000001-02-i031"
+            },
+            {
+                "type": "work",
+                "title": "\u201cNon Dolet\u201d",
+                "id": "acs0000001-02-i032"
+            },
+            {
+                "type": "work",
+                "title": "Eurydice",
+                "id": "acs0000001-02-i033"
+            },
+            {
+                "type": "work",
+                "title": "An Appeal",
+                "id": "acs0000001-02-i034"
+            },
+            {
+                "type": "work",
+                "title": "Perinde ac Cadaver",
+                "id": "acs0000001-02-i035"
+            },
+            {
+                "type": "work",
+                "title": "Monotones",
+                "id": "acs0000001-02-i036"
+            },
+            {
+                "type": "work",
+                "title": "The Oblation",
+                "id": "acs0000001-02-i037"
+            },
+            {
+                "type": "work",
+                "title": "A Year's Burden",
+                "id": "acs0000001-02-i038"
+            },
+            {
+                "type": "work",
+                "title": "Epilogue",
+                "id": "acs0000001-02-i039"
+            }
+        ]
+    },
+    {
+        "title": "Songs of Two Nations",
+        "date": "1875",
+        "id": "sotn",
+        "works_or_contents": [
+            {
+                "type": "work",
+                "title": "A Song of Italy",
+                "id": "acs0000001-02-i043"
+            },
+            {
+                "type": "work",
+                "title": "Ode on the Proclamation of the French Republic",
+                "id": "acs0000001-02-i044"
+            },
+            {
+                "type": "work",
+                "title": "Dirae",
+                "id": "acs0000001-02-i045"
+            }
+        ]
+    },
+    {
+        "title": "Erechtheus",
+        "date": "1876",
+        "id": "acs0000001-04-i003",
+        "works_or_contents": [
+            {
+                "type": "content",
+                "title": "[Epigraphs]",
+                "id": "erechtheus_epi"
+            },
+            {
+                "type": "content",
+                "title": "[Dedication]",
+                "id": "erechtheus_dedication"
+            },
+            {
+                "type": "content",
+                "title": "Persons",
+                "id": "erechtheus_persons"
+            },
+            {
+                "type": "content",
+                "title": "[I. Prologue: The prayer of Erechtheus.]",
+                "id": "erechtheus_i"
+            },
+            {
+                "type": "content",
+                "title": "[II. Parode: \u201cSun that hast lightened and loosed by thy might\u2014\u201d]",
+                "id": "erechtheus_ii"
+            },
+            {
+                "type": "content",
+                "title": "[III. Stasimon I: \u201cA noise has arisen against us of waters\u2014\u201d]",
+                "id": "erechtheus_iii"
+            },
+            {
+                "type": "content",
+                "title": "[IV. Episode 1: Erechtheus, Praxithea and Chorus.]",
+                "id": "erechtheus_iv"
+            },
+            {
+                "type": "content",
+                "title": "[V. Stasimon 2: \u201cHe hath uttered too surely his wrath not obscurely\u2014\u201d]",
+                "id": "erechtheus_v"
+            },
+            {
+                "type": "content",
+                "title": "[VI. Episode 2: Chthonia, Praxithea and Chorus.]",
+                "id": "erechtheus_vi"
+            },
+            {
+                "type": "content",
+                "title": "[VII. Stasimon 3: \u201cOut of the North wind grief came forth\u2014\u201d]",
+                "id": "erechtheus_vii"
+            },
+            {
+                "type": "content",
+                "title": "[VIII. Episode 3: Herald of Eumolpus, Chorus and Erechtheus.]",
+                "id": "erechtheus_viii"
+            },
+            {
+                "type": "content",
+                "title": "[IX. Stasimon 4: \u201cWho shall put a bridle in the mourner\u2019s lips to chasten them.\u201d]",
+                "id": "erechtheus_ix"
+            },
+            {
+                "type": "content",
+                "title": "[X. First Commos: Chthonia, Praxithea and Chorus.]",
+                "id": "erechtheus_x"
+            },
+            {
+                "type": "content",
+                "title": "[XI. Episode 4: Chthonia, Praxithea and Chorus.]",
+                "id": "erechtheus_xi"
+            },
+            {
+                "type": "content",
+                "title": "[XII. Second Commos: Chthonia and Chorus.]",
+                "id": "erechtheus_xii"
+            },
+            {
+                "type": "content",
+                "title": "[XIII. Stasimon 5: \u201cMany loves of many a mood and many a kind\u2014\u201d]",
+                "id": "erechtheus_xiii"
+            },
+            {
+                "type": "content",
+                "title": "[XIV. Episode 5: Messenger-choral interlude Messenger.]",
+                "id": "erechtheus_xiv"
+            },
+            {
+                "type": "content",
+                "title": "[XV. Stasimon 6: \u201cIll thoughts breed fear\u2014\u201d ]",
+                "id": "erechtheus_xv"
+            },
+            {
+                "type": "content",
+                "title": "[XVI. Episode 6: Athenian Herald, Chorus and Praxithea, ]",
+                "id": "erechtheus_xvi"
+            },
+            {
+                "type": "content",
+                "title": "[XVII. Stasimon 7: \u201cFrom the cup of my heart I pour through my lips along\u2014\u201d ]",
+                "id": "erechtheus_xvii"
+            },
+            {
+                "type": "content",
+                "title": "[XVIII. Episode 7: Athene and Praxithea.]",
+                "id": "erechtheus_xviii"
+            },
+            {
+                "type": "content",
+                "title": "[XIX. Exode: \u201cFrom the depths of the springs of my spirit\u2014\u201d]",
+                "id": "erechtheus_xix"
+            }
+        ]
+    },
+    {
+        "title": "Poems and Ballads, Second Series",
+        "date": "1878",
+        "id": "pb2",
+        "works_or_contents": [
+            {
+                "type": "work",
+                "title": "The Last Oracle",
+                "id": "acs0000001-03-i001"
+            },
+            {
+                "type": "work",
+                "title": "In the Bay",
+                "id": "acs0000001-03-i002"
+            },
+            {
+                "type": "work",
+                "title": "A Forsaken Garden",
+                "id": "acs0000001-03-i003"
+            },
+            {
+                "type": "work",
+                "title": "Relics",
+                "id": "acs0000001-03-i004"
+            },
+            {
+                "type": "work",
+                "title": "At a Month's End",
+                "id": "acs0000001-03-i005"
+            },
+            {
+                "type": "work",
+                "title": "Sestina",
+                "id": "acs0000001-03-i006"
+            },
+            {
+                "type": "work",
+                "title": "The Year of the Rose",
+                "id": "acs0000001-03-i007"
+            },
+            {
+                "type": "work",
+                "title": "A Wasted Vigil",
+                "id": "acs0000001-03-i008"
+            },
+            {
+                "type": "work",
+                "title": "The Complaint of Lisa",
+                "id": "acs0000001-03-i009"
+            },
+            {
+                "type": "work",
+                "title": "For the Feast of Giordano Bruno,",
+                "id": "acs0000001-03-i010"
+            },
+            {
+                "type": "work",
+                "title": "Ave Atque Vale",
+                "id": "acs0000001-03-i011"
+            },
+            {
+                "type": "work",
+                "title": "Memorial Verses on the Death of Th\u00e9ophile Gautier",
+                "id": "acs0000001-03-i012"
+            },
+            {
+                "type": "work",
+                "title": "Sonnet (with a Copy of",
+                "id": "acs0000001-03-i013"
+            },
+            {
+                "type": "work",
+                "title": "Age and Song (to Barry Cornwall)",
+                "id": "acs0000001-03-i014"
+            },
+            {
+                "type": "work",
+                "title": "In Memory of Barry Cornwall",
+                "id": "acs0000001-03-i015"
+            },
+            {
+                "type": "work",
+                "title": "Epicede",
+                "id": "acs0000001-03-i016"
+            },
+            {
+                "type": "work",
+                "title": "To Victor Hugo",
+                "id": "acs0000001-03-i017"
+            },
+            {
+                "type": "work",
+                "title": "Inferiae",
+                "id": "acs0000001-03-i018"
+            },
+            {
+                "type": "work",
+                "title": "A Birth-Song",
+                "id": "acs0000001-03-i019"
+            },
+            {
+                "type": "work",
+                "title": "Ex-voto",
+                "id": "acs0000001-03-i020"
+            },
+            {
+                "type": "work",
+                "title": "A Ballad of Dreamland",
+                "id": "acs0000001-03-i021"
+            },
+            {
+                "type": "work",
+                "title": "Cyril Tourneur",
+                "id": "acs0000001-03-i022"
+            },
+            {
+                "type": "work",
+                "title": "A Ballad of Fran\u00e7ois Villon",
+                "id": "acs0000001-03-i023"
+            },
+            {
+                "type": "work",
+                "title": "Pastiche",
+                "id": "acs0000001-03-i024"
+            },
+            {
+                "type": "work",
+                "title": "Before Sunset",
+                "id": "acs0000001-03-i025"
+            },
+            {
+                "type": "work",
+                "title": "Song",
+                "id": "acs0000001-03-i026"
+            },
+            {
+                "type": "work",
+                "title": "A Vision of Spring in Winter",
+                "id": "acs0000001-03-i027"
+            },
+            {
+                "type": "work",
+                "title": "Choriambics",
+                "id": "acs0000001-03-i028"
+            },
+            {
+                "type": "work",
+                "title": "At Parting",
+                "id": "acs0000001-03-i029"
+            },
+            {
+                "type": "work",
+                "title": "A Song in Season",
+                "id": "acs0000001-03-i030"
+            },
+            {
+                "type": "work",
+                "title": "Two Leaders",
+                "id": "acs0000001-03-i031"
+            },
+            {
+                "type": "work",
+                "title": "Victor Hugo in 1877",
+                "id": "acs0000001-03-i032"
+            },
+            {
+                "type": "work",
+                "title": "Child's Song",
+                "id": "acs0000001-03-i033"
+            },
+            {
+                "type": "work",
+                "title": "Triads",
+                "id": "acs0000001-03-i034"
+            },
+            {
+                "type": "work",
+                "title": "Four Songs of Four Seasons",
+                "id": "acs0000001-03-i035"
+            },
+            {
+                "type": "work",
+                "title": "The White Czar",
+                "id": "acs0000001-03-i040"
+            },
+            {
+                "type": "work",
+                "title": "Rizpah",
+                "id": "acs0000001-03-i041"
+            },
+            {
+                "type": "work",
+                "title": "To Louis Kossuth",
+                "id": "acs0000001-03-i042"
+            },
+            {
+                "type": "work",
+                "title": "Translations from the French of Villon",
+                "id": "acs0000001-03-i043"
+            },
+            {
+                "type": "work",
+                "title": "From Victor Hugo",
+                "id": "acs0000001-03-i054"
+            },
+            {
+                "type": "work",
+                "title": "Nocturne",
+                "id": "acs0000001-03-i055"
+            },
+            {
+                "type": "work",
+                "title": "Th\u00e9ophile Gautier",
+                "id": "acs0000001-03-i056"
+            },
+            {
+                "type": "work",
+                "title": "Ode",
+                "id": "acs0000001-03-i057"
+            },
+            {
+                "type": "work",
+                "title": "In Obitum Theophili Poetae",
+                "id": "acs0000001-03-i058"
+            },
+            {
+                "type": "work",
+                "title": "Ad Catullum",
+                "id": "acs0000001-03-i059"
+            },
+            {
+                "type": "work",
+                "title": "Dedication",
+                "id": "acs0000001-03-i060"
+            }
+        ]
+    },
+    {
+        "title": "Songs of the Springtides",
+        "date": "1880",
+        "id": "sos",
+        "works_or_contents": [
+            {
+                "type": "work",
+                "title": "Dedication: To Edward John Trelawny",
+                "id": "acs0000001-03-i098"
+            },
+            {
+                "type": "work",
+                "title": "Thalassius",
+                "id": "acs0000001-03-i099"
+            },
+            {
+                "type": "work",
+                "title": "On the Cliffs",
+                "id": "acs0000001-03-i100"
+            },
+            {
+                "type": "work",
+                "title": "The Garden of Cymodoce",
+                "id": "acs0000001-03-i101"
+            },
+            {
+                "type": "work",
+                "title": "[\u201cBetween two seas the sea-bird's wing makes halt\u201d]",
+                "id": "acs0000001-03-i102"
+            },
+            {
+                "type": "work",
+                "title": "Birthday Ode",
+                "id": "acs0000001-03-i103"
+            }
+        ]
+    },
+    {
+        "title": "Studies in Song",
+        "date": "1880",
+        "id": "sis",
+        "works_or_contents": [
+            {
+                "type": "work",
+                "title": "Song for the Centenary of Walter Savage Landor",
+                "id": "acs0000001-05-i001"
+            },
+            {
+                "type": "work",
+                "title": "Grand Chorus of Birds from Aristophanes",
+                "id": "acs0000001-05-i002"
+            },
+            {
+                "type": "work",
+                "title": "Off Shore",
+                "id": "acs0000001-05-i003"
+            },
+            {
+                "type": "work",
+                "title": "After Nine Years",
+                "id": "acs0000001-05-i004"
+            },
+            {
+                "type": "work",
+                "title": "For a Portrait of Felice Orsini",
+                "id": "acs0000001-05-i005"
+            },
+            {
+                "type": "work",
+                "title": "Evening on the Broads",
+                "id": "acs0000001-05-i006"
+            },
+            {
+                "type": "work",
+                "title": "The Emperor's Progress",
+                "id": "acs0000001-05-i007"
+            },
+            {
+                "type": "work",
+                "title": "The Resurrection of Alcilia",
+                "id": "acs0000001-05-i008"
+            },
+            {
+                "type": "work",
+                "title": "The Fourteenth of July",
+                "id": "acs0000001-05-i009"
+            },
+            {
+                "type": "work",
+                "title": "The Launch of the Livadia",
+                "id": "acs0000001-05-i010"
+            },
+            {
+                "type": "work",
+                "title": "Six Years Old",
+                "id": "acs0000001-05-i011"
+            },
+            {
+                "type": "work",
+                "title": "A Parting Song",
+                "id": "acs0000001-05-i012"
+            },
+            {
+                "type": "work",
+                "title": "By the North Sea",
+                "id": "acs0000001-05-i013"
+            }
+        ]
+    },
+    {
+        "title": "The Heptalogia or The Seven Against Sense: A Cap with Seven Bells",
+        "date": "1880",
+        "id": "hept",
+        "works_or_contents": [
+            {
+                "type": "work",
+                "title": "The Higher Pantheism in a Nutshell",
+                "id": "acs0000001-05-i130"
+            },
+            {
+                "type": "work",
+                "title": "John Jones's Wife",
+                "id": "acs0000001-05-i131"
+            },
+            {
+                "type": "work",
+                "title": "The Poet and the Woodlouse",
+                "id": "acs0000001-05-i132"
+            },
+            {
+                "type": "work",
+                "title": "The Person of the House",
+                "id": "acs0000001-05-i133"
+            },
+            {
+                "type": "work",
+                "title": "Last Words of a Seventh-Rate Poet",
+                "id": "acs0000001-05-i134"
+            },
+            {
+                "type": "work",
+                "title": "Sonnet for a Picture",
+                "id": "acs0000001-05-i135"
+            },
+            {
+                "type": "work",
+                "title": "Nephelidia",
+                "id": "acs0000001-05-i136"
+            }
+        ]
+    },
+    {
+        "title": "Tristram of Lyonesse and Other Poems",
+        "date": "1882",
+        "id": "tol",
+        "works_or_contents": [
+            {
+                "type": "work",
+                "title": "Tristram of Lyonesse",
+                "id": "acs0000001-04-i000"
+            },
+            {
+                "type": "work",
+                "title": "Athens: An Ode",
+                "id": "acs0000001-05-i067"
+            },
+            {
+                "type": "work",
+                "title": "The Statue of Victor Hugo",
+                "id": "acs0000001-05-i068"
+            },
+            {
+                "type": "work",
+                "title": "Hope and Fear",
+                "id": "acs0000001-05-i070"
+            },
+            {
+                "type": "work",
+                "title": "After Sunset",
+                "id": "acs0000001-05-i071"
+            },
+            {
+                "type": "work",
+                "title": "A Study from Memory",
+                "id": "acs0000001-05-i072"
+            },
+            {
+                "type": "work",
+                "title": "To Dr. John Brown",
+                "id": "acs0000001-05-i073"
+            },
+            {
+                "type": "work",
+                "title": "To William Bell Scott",
+                "id": "acs0000001-05-i074"
+            },
+            {
+                "type": "work",
+                "title": "A Death on Easter Day",
+                "id": "acs0000001-05-i075"
+            },
+            {
+                "type": "work",
+                "title": "On the Deaths of Thomas Carlyle and George Eliot",
+                "id": "acs0000001-05-i076"
+            },
+            {
+                "type": "work",
+                "title": "After Looking into Carlyle's Reminiscences",
+                "id": "acs0000001-05-i077"
+            },
+            {
+                "type": "work",
+                "title": "A Last Look",
+                "id": "acs0000001-05-i078"
+            },
+            {
+                "type": "work",
+                "title": "Dickens",
+                "id": "acs0000001-05-i079"
+            },
+            {
+                "type": "work",
+                "title": "On Lamb's Specimens of Dramatic Poets",
+                "id": "acs0000001-05-i080"
+            },
+            {
+                "type": "work",
+                "title": "To John Nichol",
+                "id": "acs0000001-05-i081"
+            },
+            {
+                "type": "work",
+                "title": "Dysthanatos",
+                "id": "acs0000001-05-i082"
+            },
+            {
+                "type": "work",
+                "title": "Euonymos",
+                "id": "acs0000001-05-i083"
+            },
+            {
+                "type": "work",
+                "title": "On the Russian Persecution of the Jews",
+                "id": "acs0000001-05-i084"
+            },
+            {
+                "type": "work",
+                "title": "Bismarck At Canossa",
+                "id": "acs0000001-05-i085"
+            },
+            {
+                "type": "work",
+                "title": "Quia Nominor Leo",
+                "id": "acs0000001-05-i086"
+            },
+            {
+                "type": "work",
+                "title": "The Channel Tunnel",
+                "id": "acs0000001-05-i087"
+            },
+            {
+                "type": "work",
+                "title": "Sir William Gomm",
+                "id": "acs0000001-05-i088"
+            },
+            {
+                "type": "work",
+                "title": "Euthanatos",
+                "id": "acs0000001-05-i089"
+            },
+            {
+                "type": "work",
+                "title": "First and Last",
+                "id": "acs0000001-05-i090"
+            },
+            {
+                "type": "work",
+                "title": "Lines on the Death of Edward John Trelawny",
+                "id": "acs0000001-05-i091"
+            },
+            {
+                "type": "work",
+                "title": "Adieux \u00e0 Marie Stuart",
+                "id": "acs0000001-05-i092"
+            },
+            {
+                "type": "work",
+                "title": "Herse",
+                "id": "acs0000001-05-i093"
+            },
+            {
+                "type": "work",
+                "title": "Twins",
+                "id": "acs0000001-05-i094"
+            },
+            {
+                "type": "work",
+                "title": "The Salt of the Earth",
+                "id": "acs0000001-05-i095"
+            },
+            {
+                "type": "work",
+                "title": "Seven Years Old",
+                "id": "acs0000001-05-i096"
+            },
+            {
+                "type": "work",
+                "title": "Eight Years Old",
+                "id": "acs0000001-05-i097"
+            },
+            {
+                "type": "work",
+                "title": "Comparisons",
+                "id": "acs0000001-05-i098"
+            },
+            {
+                "type": "work",
+                "title": "What is Death?",
+                "id": "acs0000001-05-i099"
+            },
+            {
+                "type": "work",
+                "title": "A Child's Pity",
+                "id": "acs0000001-05-i100"
+            },
+            {
+                "type": "work",
+                "title": "A Child's Laughter",
+                "id": "acs0000001-05-i101"
+            },
+            {
+                "type": "work",
+                "title": "A Child's Thanks",
+                "id": "acs0000001-05-i102"
+            },
+            {
+                "type": "work",
+                "title": "A Child's Battles",
+                "id": "acs0000001-05-i103"
+            },
+            {
+                "type": "work",
+                "title": "A Child's Future",
+                "id": "acs0000001-05-i104"
+            },
+            {
+                "type": "work",
+                "title": "Sonnets on English Dramatic Poets (1590-1650)",
+                "id": "acs0000001-05-i105"
+            },
+            {
+                "type": "work",
+                "title": "A Dark Month",
+                "id": "acs0000001-05-i127"
+            },
+            {
+                "type": "work",
+                "title": "Sunrise",
+                "id": "acs0000001-05-i128"
+            }
+        ]
+    },
+    {
+        "title": "A Century of Roundels",
+        "date": "1883",
+        "id": "cor",
+        "works_or_contents": [
+            {
+                "type": "work",
+                "title": "Dedication to Christina G. Rossetti",
+                "id": "acs0000001-05-i015"
+            },
+            {
+                "type": "work",
+                "title": "In Harbour",
+                "id": "acs0000001-05-i016"
+            },
+            {
+                "type": "work",
+                "title": "The Way of the Wind",
+                "id": "acs0000001-05-i017"
+            },
+            {
+                "type": "work",
+                "title": "Had I Wist",
+                "id": "acs0000001-05-i018"
+            },
+            {
+                "type": "work",
+                "title": "Recollections",
+                "id": "acs0000001-05-i019"
+            },
+            {
+                "type": "work",
+                "title": "Time and Life",
+                "id": "acs0000001-05-i020"
+            },
+            {
+                "type": "work",
+                "title": "A Dialogue",
+                "id": "acs0000001-05-i021"
+            },
+            {
+                "type": "work",
+                "title": "Plus Ultra",
+                "id": "acs0000001-05-i022"
+            },
+            {
+                "type": "work",
+                "title": "A Dead Friend",
+                "id": "acs0000001-05-i023"
+            },
+            {
+                "type": "work",
+                "title": "Past Days",
+                "id": "acs0000001-05-i024"
+            },
+            {
+                "type": "work",
+                "title": "Autumn and Winter",
+                "id": "acs0000001-05-i025"
+            },
+            {
+                "type": "work",
+                "title": "The Death of Richard Wagner",
+                "id": "acs0000001-05-i026"
+            },
+            {
+                "type": "work",
+                "title": "Two Preludes",
+                "id": "acs0000001-05-i027"
+            },
+            {
+                "type": "work",
+                "title": "The Lute and the Lyre",
+                "id": "acs0000001-05-i028"
+            },
+            {
+                "type": "work",
+                "title": "Plus Intra",
+                "id": "acs0000001-05-i029"
+            },
+            {
+                "type": "work",
+                "title": "Change",
+                "id": "acs0000001-05-i030"
+            },
+            {
+                "type": "work",
+                "title": "A Baby's Death",
+                "id": "acs0000001-05-i031"
+            },
+            {
+                "type": "work",
+                "title": "One of Twain",
+                "id": "acs0000001-05-i032"
+            },
+            {
+                "type": "work",
+                "title": "Death and Birth",
+                "id": "acs0000001-05-i033"
+            },
+            {
+                "type": "work",
+                "title": "Birth and Death",
+                "id": "acs0000001-05-i034"
+            },
+            {
+                "type": "work",
+                "title": "Benediction",
+                "id": "acs0000001-05-i035"
+            },
+            {
+                "type": "work",
+                "title": "\u00c9tude R\u00e9aliste",
+                "id": "acs0000001-05-i036"
+            },
+            {
+                "type": "work",
+                "title": "Babyhood",
+                "id": "acs0000001-05-i037"
+            },
+            {
+                "type": "work",
+                "title": "First Footsteps",
+                "id": "acs0000001-05-i038"
+            },
+            {
+                "type": "work",
+                "title": "A Ninth Birthday",
+                "id": "acs0000001-05-i039"
+            },
+            {
+                "type": "work",
+                "title": "Not a Child",
+                "id": "acs0000001-05-i040"
+            },
+            {
+                "type": "work",
+                "title": "To Dora Dorian",
+                "id": "acs0000001-05-i041"
+            },
+            {
+                "type": "work",
+                "title": "The Roundel",
+                "id": "acs0000001-05-i042"
+            },
+            {
+                "type": "work",
+                "title": "At Sea",
+                "id": "acs0000001-05-i043"
+            },
+            {
+                "type": "work",
+                "title": "Wasted Love",
+                "id": "acs0000001-05-i044"
+            },
+            {
+                "type": "work",
+                "title": "Before Sunset",
+                "id": "acs0000001-05-i045"
+            },
+            {
+                "type": "work",
+                "title": "A Singing Lesson",
+                "id": "acs0000001-05-i046"
+            },
+            {
+                "type": "work",
+                "title": "Flower-Pieces",
+                "id": "acs0000001-05-i047"
+            },
+            {
+                "type": "work",
+                "title": "Three Faces",
+                "id": "acs0000001-05-i048"
+            },
+            {
+                "type": "work",
+                "title": "Eros",
+                "id": "acs0000001-05-i049"
+            },
+            {
+                "type": "work",
+                "title": "Sorrow",
+                "id": "acs0000001-05-i050"
+            },
+            {
+                "type": "work",
+                "title": "Sleep",
+                "id": "acs0000001-05-i051"
+            },
+            {
+                "type": "work",
+                "title": "On an Old Roundel",
+                "id": "acs0000001-05-i052"
+            },
+            {
+                "type": "work",
+                "title": "A Landscape by Courbet",
+                "id": "acs0000001-05-i053"
+            },
+            {
+                "type": "work",
+                "title": "A Flower-Piece by Fantin",
+                "id": "acs0000001-05-i054"
+            },
+            {
+                "type": "work",
+                "title": "A Night-Piece by Millet",
+                "id": "acs0000001-05-i055"
+            },
+            {
+                "type": "work",
+                "title": "\u201cMarzo Pazzo\u201d",
+                "id": "acs0000001-05-i056"
+            },
+            {
+                "type": "work",
+                "title": "Dead Love",
+                "id": "acs0000001-05-i057"
+            },
+            {
+                "type": "work",
+                "title": "Discord",
+                "id": "acs0000001-05-i058"
+            },
+            {
+                "type": "work",
+                "title": "Concord",
+                "id": "acs0000001-05-i059"
+            },
+            {
+                "type": "work",
+                "title": "Mourning",
+                "id": "acs0000001-05-i060"
+            },
+            {
+                "type": "work",
+                "title": "Aperotos Eros",
+                "id": "acs0000001-05-i061"
+            },
+            {
+                "type": "work",
+                "title": "To Catullus",
+                "id": "acs0000001-05-i062"
+            },
+            {
+                "type": "work",
+                "title": "\u201cInsularum Ocelle\u201d",
+                "id": "acs0000001-05-i063"
+            },
+            {
+                "type": "work",
+                "title": "In Sark",
+                "id": "acs0000001-05-i064"
+            },
+            {
+                "type": "work",
+                "title": "In Guernsey",
+                "id": "acs0000001-05-i065"
+            },
+            {
+                "type": "work",
+                "title": "Envoi",
+                "id": "acs0000001-05-i066"
+            }
+        ]
+    },
+    {
+        "title": "A Midsummer Holiday and Other Poems",
+        "date": "1884",
+        "id": "mhop",
+        "works_or_contents": [
+            {
+                "type": "work",
+                "title": "A Midsummer Holiday",
+                "id": "acs0000001-06-i001"
+            },
+            {
+                "type": "work",
+                "title": "A New-Year Ode",
+                "id": "acs0000001-06-i002"
+            },
+            {
+                "type": "work",
+                "title": "Lines on the Monument of Giuseppe Mazzini",
+                "id": "acs0000001-06-i003"
+            },
+            {
+                "type": "work",
+                "title": "Les Casquets",
+                "id": "acs0000001-06-i004"
+            },
+            {
+                "type": "work",
+                "title": "A Ballad of Sark",
+                "id": "acs0000001-06-i005"
+            },
+            {
+                "type": "work",
+                "title": "Nine Years Old",
+                "id": "acs0000001-06-i006"
+            },
+            {
+                "type": "work",
+                "title": "After a Reading",
+                "id": "acs0000001-06-i007"
+            },
+            {
+                "type": "work",
+                "title": "Maytime in Midwinter",
+                "id": "acs0000001-06-i008"
+            },
+            {
+                "type": "work",
+                "title": "A Double Ballad of August",
+                "id": "acs0000001-06-i009"
+            },
+            {
+                "type": "work",
+                "title": "Heartsease Country",
+                "id": "acs0000001-06-i010"
+            },
+            {
+                "type": "work",
+                "title": "A Ballad of Appeal",
+                "id": "acs0000001-06-i011"
+            },
+            {
+                "type": "work",
+                "title": "Cradle Songs",
+                "id": "acs0000001-06-i012"
+            },
+            {
+                "type": "work",
+                "title": "Pelagius",
+                "id": "acs0000001-06-i013"
+            },
+            {
+                "type": "work",
+                "title": "Louis Blanc",
+                "id": "acs0000001-06-i014"
+            },
+            {
+                "type": "work",
+                "title": "Vos Deos Laudamus",
+                "id": "acs0000001-06-i015"
+            },
+            {
+                "type": "work",
+                "title": "On the Bicentenary of Corneille",
+                "id": "acs0000001-06-i016"
+            },
+            {
+                "type": "work",
+                "title": "In Sepulcretis",
+                "id": "acs0000001-06-i017"
+            },
+            {
+                "type": "work",
+                "title": "Love and Scorn",
+                "id": "acs0000001-06-i018"
+            },
+            {
+                "type": "work",
+                "title": "On the Death of Richard Doyle",
+                "id": "acs0000001-06-i019"
+            },
+            {
+                "type": "work",
+                "title": "In Memory of Henry A. Bright",
+                "id": "acs0000001-06-i020"
+            },
+            {
+                "type": "work",
+                "title": "A Solitude",
+                "id": "acs0000001-06-i021"
+            },
+            {
+                "type": "work",
+                "title": "Victor Hugo:  L'archipel de la Manche",
+                "id": "acs0000001-06-i022"
+            },
+            {
+                "type": "work",
+                "title": "The Twilight of the Lords",
+                "id": "acs0000001-06-i023"
+            },
+            {
+                "type": "work",
+                "title": "Clear the Way!",
+                "id": "acs0000001-06-i024"
+            },
+            {
+                "type": "work",
+                "title": "A Word for the Country",
+                "id": "acs0000001-06-i025"
+            },
+            {
+                "type": "work",
+                "title": "A Word for the Nation",
+                "id": "acs0000001-06-i026"
+            },
+            {
+                "type": "work",
+                "title": "A Word for the Psalmist",
+                "id": "acs0000001-06-i027"
+            },
+            {
+                "type": "work",
+                "title": "A Ballad at Parting",
+                "id": "acs0000001-06-i028"
+            }
+        ]
+    },
+    {
+        "title": "Poems and Ballads, Third Series",
+        "date": "1889",
+        "id": "pb3",
+        "works_or_contents": [
+            {
+                "type": "work",
+                "title": "March: An Ode",
+                "id": "acs0000001-03-i062"
+            },
+            {
+                "type": "work",
+                "title": "The Commonweal",
+                "id": "acs0000001-03-i063"
+            },
+            {
+                "type": "work",
+                "title": "The Armada",
+                "id": "acs0000001-03-i064"
+            },
+            {
+                "type": "work",
+                "title": "To a Seamew",
+                "id": "acs0000001-03-i065"
+            },
+            {
+                "type": "work",
+                "title": "Pan and Thalassius",
+                "id": "acs0000001-03-i066"
+            },
+            {
+                "type": "work",
+                "title": "A Ballad of Bath",
+                "id": "acs0000001-03-i067"
+            },
+            {
+                "type": "work",
+                "title": "In A Garden",
+                "id": "acs0000001-03-i068"
+            },
+            {
+                "type": "work",
+                "title": "A Rhyme",
+                "id": "acs0000001-03-i069"
+            },
+            {
+                "type": "work",
+                "title": "Baby-Bird",
+                "id": "acs0000001-03-i070"
+            },
+            {
+                "type": "work",
+                "title": "Olive",
+                "id": "acs0000001-03-i071"
+            },
+            {
+                "type": "work",
+                "title": "A Word with the Wind",
+                "id": "acs0000001-03-i072"
+            },
+            {
+                "type": "work",
+                "title": "Neap-Tide",
+                "id": "acs0000001-03-i073"
+            },
+            {
+                "type": "work",
+                "title": "By the Wayside",
+                "id": "acs0000001-03-i074"
+            },
+            {
+                "type": "work",
+                "title": "Night",
+                "id": "acs0000001-03-i075"
+            },
+            {
+                "type": "work",
+                "title": "In Time of Mourning",
+                "id": "acs0000001-03-i076"
+            },
+            {
+                "type": "work",
+                "title": "The Interpreters",
+                "id": "acs0000001-03-i077"
+            },
+            {
+                "type": "work",
+                "title": "The Recall",
+                "id": "acs0000001-03-i078"
+            },
+            {
+                "type": "work",
+                "title": "By Twilight",
+                "id": "acs0000001-03-i079"
+            },
+            {
+                "type": "work",
+                "title": "A Baby's Epitaph",
+                "id": "acs0000001-03-i080"
+            },
+            {
+                "type": "work",
+                "title": "On the Death of Sir Henry Taylor",
+                "id": "acs0000001-03-i081"
+            },
+            {
+                "type": "work",
+                "title": "In Memory of John William Inchbold",
+                "id": "acs0000001-03-i082"
+            },
+            {
+                "type": "work",
+                "title": "New Year's Day",
+                "id": "acs0000001-03-i083"
+            },
+            {
+                "type": "work",
+                "title": "To Sir Richard F. Burton",
+                "id": "acs0000001-03-i084"
+            },
+            {
+                "type": "work",
+                "title": "Nell Gwyn",
+                "id": "acs0000001-03-i085"
+            },
+            {
+                "type": "work",
+                "title": "Caliban on Ariel",
+                "id": "acs0000001-03-i086"
+            },
+            {
+                "type": "work",
+                "title": "The Weary Wedding",
+                "id": "acs0000001-03-i087"
+            },
+            {
+                "type": "work",
+                "title": "The Winds",
+                "id": "acs0000001-03-i088"
+            },
+            {
+                "type": "work",
+                "title": "A Lyke-Wake Song",
+                "id": "acs0000001-03-i089"
+            },
+            {
+                "type": "work",
+                "title": "A Reiver's Neck-Verse",
+                "id": "acs0000001-03-i090"
+            },
+            {
+                "type": "work",
+                "title": "The Witch-Mother",
+                "id": "acs0000001-03-i091"
+            },
+            {
+                "type": "work",
+                "title": "The Bride's Tragedy",
+                "id": "acs0000001-03-i092"
+            },
+            {
+                "type": "work",
+                "title": "A Jacobite's Farewell",
+                "id": "acs0000001-03-i093"
+            },
+            {
+                "type": "work",
+                "title": "A Jacobite's Exile",
+                "id": "acs0000001-03-i094"
+            },
+            {
+                "type": "work",
+                "title": "The Tyneside Widow",
+                "id": "acs0000001-03-i095"
+            },
+            {
+                "type": "work",
+                "title": "Dedication",
+                "id": "acs0000001-03-i096"
+            }
+        ]
+    },
+    {
+        "title": "Astrophel and Other Poems",
+        "date": "1894",
+        "id": "aop",
+        "works_or_contents": [
+            {
+                "type": "work",
+                "title": "Astrophel",
+                "id": "acs0000001-06-i030"
+            },
+            {
+                "type": "work",
+                "title": "A Nympholept",
+                "id": "acs0000001-06-i031"
+            },
+            {
+                "type": "work",
+                "title": "On the South Coast",
+                "id": "acs0000001-06-i032"
+            },
+            {
+                "type": "work",
+                "title": "An Autumn Vision",
+                "id": "acs0000001-06-i033"
+            },
+            {
+                "type": "work",
+                "title": "A Swimmer's Dream",
+                "id": "acs0000001-06-i034"
+            },
+            {
+                "type": "work",
+                "title": "Grace Darling",
+                "id": "acs0000001-06-i035"
+            },
+            {
+                "type": "work",
+                "title": "Loch Torridon",
+                "id": "acs0000001-06-i036"
+            },
+            {
+                "type": "work",
+                "title": "The Palace of Pan",
+                "id": "acs0000001-06-i037"
+            },
+            {
+                "type": "work",
+                "title": "A Year's Carols",
+                "id": "acs0000001-06-i038"
+            },
+            {
+                "type": "work",
+                "title": "England: An Ode",
+                "id": "acs0000001-06-i039"
+            },
+            {
+                "type": "work",
+                "title": "Eton: An Ode",
+                "id": "acs0000001-06-i040"
+            },
+            {
+                "type": "work",
+                "title": "The Union",
+                "id": "acs0000001-06-i041"
+            },
+            {
+                "type": "work",
+                "title": "East to West",
+                "id": "acs0000001-06-i042"
+            },
+            {
+                "type": "work",
+                "title": "Inscriptions  For the Four Sides of a Pedestal",
+                "id": "acs0000001-06-i043"
+            },
+            {
+                "type": "work",
+                "title": "On the Death of Richard Burton",
+                "id": "acs0000001-06-i044"
+            },
+            {
+                "type": "work",
+                "title": "Elegy",
+                "id": "acs0000001-06-i045"
+            },
+            {
+                "type": "work",
+                "title": "A Sequence of Sonnets on the Death of Robert Browning",
+                "id": "acs0000001-06-i046"
+            },
+            {
+                "type": "work",
+                "title": "Sunset and Moonrise",
+                "id": "acs0000001-06-i047"
+            },
+            {
+                "type": "work",
+                "title": "Birthday Ode",
+                "id": "acs0000001-06-i048"
+            },
+            {
+                "type": "work",
+                "title": "Threnody",
+                "id": "acs0000001-06-i049"
+            },
+            {
+                "type": "work",
+                "title": "The Ballad of Melicertes",
+                "id": "acs0000001-06-i050"
+            },
+            {
+                "type": "work",
+                "title": "Au Tombeau de Banville",
+                "id": "acs0000001-06-i051"
+            },
+            {
+                "type": "work",
+                "title": "Light: An Epicede",
+                "id": "acs0000001-06-i052"
+            },
+            {
+                "type": "work",
+                "title": "Threnody",
+                "id": "acs0000001-06-i053"
+            },
+            {
+                "type": "work",
+                "title": "A Dirge",
+                "id": "acs0000001-06-i054"
+            },
+            {
+                "type": "work",
+                "title": "A Reminiscence",
+                "id": "acs0000001-06-i055"
+            },
+            {
+                "type": "work",
+                "title": "Via Dolorosa",
+                "id": "acs0000001-06-i056"
+            },
+            {
+                "type": "work",
+                "title": "In Memory of Aurelio Saffi",
+                "id": "acs0000001-06-i057"
+            },
+            {
+                "type": "work",
+                "title": "The Festival of Beatrice",
+                "id": "acs0000001-06-i058"
+            },
+            {
+                "type": "work",
+                "title": "The Monument of Giordano Bruno",
+                "id": "acs0000001-06-i059"
+            },
+            {
+                "type": "work",
+                "title": "Life in Death",
+                "id": "acs0000001-06-i060"
+            },
+            {
+                "type": "work",
+                "title": "Epicede",
+                "id": "acs0000001-06-i061"
+            },
+            {
+                "type": "work",
+                "title": "Memorial Verses on the Death of William Bell Scott",
+                "id": "acs0000001-06-i062"
+            },
+            {
+                "type": "work",
+                "title": "An Old Saying",
+                "id": "acs0000001-06-i063"
+            },
+            {
+                "type": "work",
+                "title": "A Moss-Rose",
+                "id": "acs0000001-06-i064"
+            },
+            {
+                "type": "work",
+                "title": "To a Cat",
+                "id": "acs0000001-06-i065"
+            },
+            {
+                "type": "work",
+                "title": "Hawthorn Dyke",
+                "id": "acs0000001-06-i066"
+            },
+            {
+                "type": "work",
+                "title": "The Brothers",
+                "id": "acs0000001-06-i067"
+            },
+            {
+                "type": "work",
+                "title": "Jacobite Song",
+                "id": "acs0000001-06-i068"
+            },
+            {
+                "type": "work",
+                "title": "The Ballad of Dead Men's Bay",
+                "id": "acs0000001-06-i069"
+            },
+            {
+                "type": "work",
+                "title": "Dedication",
+                "id": "acs0000001-06-i070"
+            }
+        ]
+    },
+    {
+        "title": "The Tale of Balen",
+        "date": "1896",
+        "id": "acs0000001-04-i001",
+        "works_or_contents": []
+    },
+    {
+        "title": "A Channel Passage and Other Poems",
+        "date": "1904",
+        "id": "cpop",
+        "works_or_contents": [
+            {
+                "type": "work",
+                "title": "A Channel Passage",
+                "id": "acs0000001-06-i072"
+            },
+            {
+                "type": "work",
+                "title": "The Lake of Gaube",
+                "id": "acs0000001-06-i073"
+            },
+            {
+                "type": "work",
+                "title": "The Promise of the Hawthorn",
+                "id": "acs0000001-06-i074"
+            },
+            {
+                "type": "work",
+                "title": "Hawthorn Tide",
+                "id": "acs0000001-06-i075"
+            },
+            {
+                "type": "work",
+                "title": "The Passing of the Hawthorn",
+                "id": "acs0000001-06-i076"
+            },
+            {
+                "type": "work",
+                "title": "To a Baby Kinswoman",
+                "id": "acs0000001-06-i077"
+            },
+            {
+                "type": "work",
+                "title": "The Altar of the Righteousness",
+                "id": "acs0000001-06-i078"
+            },
+            {
+                "type": "work",
+                "title": "A New Year's Eve",
+                "id": "acs0000001-06-i079"
+            },
+            {
+                "type": "work",
+                "title": "In a Rosary",
+                "id": "acs0000001-06-i080"
+            },
+            {
+                "type": "work",
+                "title": "The High Oaks",
+                "id": "acs0000001-06-i081"
+            },
+            {
+                "type": "work",
+                "title": "Barking Hall: A Year After",
+                "id": "acs0000001-06-i082"
+            },
+            {
+                "type": "work",
+                "title": "Music: An Ode",
+                "id": "acs0000001-06-i083"
+            },
+            {
+                "type": "work",
+                "title": "The Centenary of the Battle of the Nile",
+                "id": "acs0000001-06-i084"
+            },
+            {
+                "type": "work",
+                "title": "Trafalgar Day",
+                "id": "acs0000001-06-i085"
+            },
+            {
+                "type": "work",
+                "title": "Cromwell's Statue",
+                "id": "acs0000001-06-i086"
+            },
+            {
+                "type": "work",
+                "title": "A Word for the Navy",
+                "id": "acs0000001-06-i087"
+            },
+            {
+                "type": "work",
+                "title": "Northumberland",
+                "id": "acs0000001-06-i088"
+            },
+            {
+                "type": "work",
+                "title": "Stratford-On-Avon",
+                "id": "acs0000001-06-i089"
+            },
+            {
+                "type": "work",
+                "title": "Burns:  An Ode",
+                "id": "acs0000001-06-i090"
+            },
+            {
+                "type": "work",
+                "title": "The Commonweal",
+                "id": "acs0000001-06-i091"
+            },
+            {
+                "type": "work",
+                "title": "The Question",
+                "id": "acs0000001-06-i092"
+            },
+            {
+                "type": "work",
+                "title": "Apostasy",
+                "id": "acs0000001-06-i093"
+            },
+            {
+                "type": "work",
+                "title": "Russia:  An Ode",
+                "id": "acs0000001-06-i094"
+            },
+            {
+                "type": "work",
+                "title": "For Greece and Crete",
+                "id": "acs0000001-06-i095"
+            },
+            {
+                "type": "work",
+                "title": "Delphic Hymn to Apollo",
+                "id": "acs0000001-06-i096"
+            },
+            {
+                "type": "work",
+                "title": "A New Century",
+                "id": "acs0000001-06-i097"
+            },
+            {
+                "type": "work",
+                "title": "An Evening at Vichy",
+                "id": "acs0000001-06-i098"
+            },
+            {
+                "type": "work",
+                "title": "To George Frederick Watts",
+                "id": "acs0000001-06-i099"
+            },
+            {
+                "type": "work",
+                "title": "On the Death of Mrs. Lynn Linton",
+                "id": "acs0000001-06-i100"
+            },
+            {
+                "type": "work",
+                "title": "In Memory of Aurelio Saffi",
+                "id": "acs0000001-06-i101"
+            },
+            {
+                "type": "work",
+                "title": "Carnot",
+                "id": "acs0000001-06-i102"
+            },
+            {
+                "type": "work",
+                "title": "After the Verdict",
+                "id": "acs0000001-06-i103"
+            },
+            {
+                "type": "work",
+                "title": "The Transvaal",
+                "id": "acs0000001-06-i104"
+            },
+            {
+                "type": "work",
+                "title": "Reverse",
+                "id": "acs0000001-06-i105"
+            },
+            {
+                "type": "work",
+                "title": "The Turning of the Tide",
+                "id": "acs0000001-06-i106"
+            },
+            {
+                "type": "work",
+                "title": "On the Death of Colonel Benson",
+                "id": "acs0000001-06-i107"
+            },
+            {
+                "type": "work",
+                "title": "Astraea Victrix",
+                "id": "acs0000001-06-i108"
+            },
+            {
+                "type": "work",
+                "title": "The First of June",
+                "id": "acs0000001-06-i109"
+            },
+            {
+                "type": "work",
+                "title": "Roundel",
+                "id": "acs0000001-06-i110"
+            },
+            {
+                "type": "work",
+                "title": "A Roundel of Rabelais",
+                "id": "acs0000001-06-i111"
+            },
+            {
+                "type": "work",
+                "title": "Lucifer",
+                "id": "acs0000001-06-i112"
+            },
+            {
+                "type": "work",
+                "title": "The Centenary of Alexandre Dumas",
+                "id": "acs0000001-06-i113"
+            },
+            {
+                "type": "work",
+                "title": "At a Dog's Grave",
+                "id": "acs0000001-06-i114"
+            },
+            {
+                "type": "work",
+                "title": "Three Weeks Old",
+                "id": "acs0000001-06-i115"
+            },
+            {
+                "type": "work",
+                "title": "A Clasp of Hands",
+                "id": "acs0000001-06-i116"
+            },
+            {
+                "type": "work",
+                "title": "Prologue to Doctor Faustus",
+                "id": "acs0000001-06-i117"
+            },
+            {
+                "type": "work",
+                "title": "Prologue to Arden of Feversham",
+                "id": "acs0000001-06-i118"
+            },
+            {
+                "type": "work",
+                "title": "Prologue to Old Fortunatus",
+                "id": "acs0000001-06-i119"
+            },
+            {
+                "type": "work",
+                "title": "Prologue to the Duchess of Malfy",
+                "id": "acs0000001-06-i120"
+            },
+            {
+                "type": "work",
+                "title": "Prologue to the Revenger's Tragedy",
+                "id": "acs0000001-06-i121"
+            },
+            {
+                "type": "work",
+                "title": "Prologue to the Broken Heart",
+                "id": "acs0000001-06-i122"
+            },
+            {
+                "type": "work",
+                "title": "Prologue to a Very Woman",
+                "id": "acs0000001-06-i123"
+            },
+            {
+                "type": "work",
+                "title": "Prologue to the Spanish Gipsy",
+                "id": "acs0000001-06-i124"
+            },
+            {
+                "type": "work",
+                "title": "Prologue to the Two Noble Kinsmen",
+                "id": "acs0000001-06-i125"
+            },
+            {
+                "type": "work",
+                "title": "The Afterglow of Shakespeare",
+                "id": "acs0000001-06-i126"
+            },
+            {
+                "type": "work",
+                "title": "Dedication",
+                "id": "acs0000001-06-i127"
+            }
+        ]
+    },
+    {
+        "title": "Poems of Algernon Charles Swinburne",
+        "date": "1904",
+        "id": "poemsacs",
+        "works_or_contents": [
+            {
+                "type": "work",
+                "title": "Dedicatory Epistle",
+                "id": "acs0000001-01-i000"
+            }
+        ]
+    },
+    {
+        "title": "The Algernon Charles Swinburne Project",
+        "date": "2024",
+        "id": "acsp",
+        "works_or_contents": [
+            {
+                "type": "work",
+                "title": "A Swinburne Chronology, 1837-1909",
+                "id": "acs0000500-01"
+            },
+            {
+                "type": "work",
+                "title": "An Introduction to Algernon Charles Swinburne",
+                "id": "acs0000503-01"
+            },
+            {
+                "type": "work",
+                "title": "Project Information",
+                "id": "acs0000508-01"
+            }
+        ]
+    },
+    {
+        "title": "Essays and Studies",
+        "date": "1875",
+        "id": "eas",
+        "works_or_contents": [
+            {
+                "type": "work",
+                "title": "Preface",
+                "id": "acs0000513-01-i000"
+            },
+            {
+                "type": "work",
+                "title": "Victor Hugo: L\u2019Homme Qui Rit",
+                "id": "acs0000513-01-i001"
+            },
+            {
+                "type": "work",
+                "title": "Victor Hugo: L\u2019Ann\u00e9e Terrible",
+                "id": "acs0000513-01-i002"
+            },
+            {
+                "type": "work",
+                "title": "The Poems of Dante Gabriel Rossetti",
+                "id": "acs0000513-01-i003"
+            },
+            {
+                "type": "work",
+                "title": "Morris\u2019s Life and Death of Jason",
+                "id": "acs0000513-01-i004"
+            },
+            {
+                "type": "work",
+                "title": "Matthew Arnold\u2019s New Poems",
+                "id": "acs0000513-01-i005"
+            },
+            {
+                "type": "work",
+                "title": "Notes on the Text of Shelley",
+                "id": "acs0000513-01-i006"
+            },
+            {
+                "type": "work",
+                "title": "Byron",
+                "id": "acs0000513-01-i007"
+            },
+            {
+                "type": "work",
+                "title": "Coleridge",
+                "id": "acs0000513-01-i008"
+            },
+            {
+                "type": "work",
+                "title": "John Ford",
+                "id": "acs0000513-01-i009"
+            },
+            {
+                "type": "work",
+                "title": "Notes on Designs of the Old Masters at Florence",
+                "id": "acs0000513-01-i010"
+            },
+            {
+                "type": "work",
+                "title": "Notes on some Pictures 1868",
+                "id": "acs0000513-01-i011"
+            }
+        ]
+    },
+    {
+        "title": "internal: works in development",
+        "date": "2024",
+        "id": null,
+        "works_or_contents": [
+            {
+                "type": "work",
+                "title": "The Queen-Mother",
+                "id": "acs0000002-01-i001"
+            },
+            {
+                "type": "work",
+                "title": "Rosamond",
+                "id": "acs0000002-01-i002"
+            },
+            {
+                "type": "work",
+                "title": "Chastelard",
+                "id": "acs0000002-02-i001"
+            },
+            {
+                "type": "work",
+                "title": "Rondel",
+                "id": "acs0000003-01-i001"
+            },
+            {
+                "type": "work",
+                "title": "Love\u2019s Cross-Currents",
+                "id": "acs0000005-01"
+            },
+            {
+                "type": "work",
+                "title": "A Swinburne Bibliography",
+                "id": "acs0000501-01"
+            },
+            {
+                "type": "work",
+                "title": "Some Notes Relating to Swinburne's Funeral",
+                "id": "acs0000504-01"
+            },
+            {
+                "type": "work",
+                "title": "Supplementary Material to the",
+                "id": "acs0000505-01"
+            },
+            {
+                "type": "work",
+                "title": "Swinburne Details",
+                "id": "acs0000506-01"
+            },
+            {
+                "type": "work",
+                "title": "N/A",
+                "id": "acs0000507-01"
+            },
+            {
+                "type": "work",
+                "title": "Algernon Charles Swinburne: An Enumerative Bibliography, 1980-2010",
+                "id": "acs0000509-01"
+            },
+            {
+                "type": "work",
+                "title": "William Blake: A Critical Essay",
+                "id": "acs0000514-01"
+            },
+            {
+                "type": "work",
+                "title": "Contextual Information",
+                "id": "authority"
+            },
+            {
+                "type": "work",
+                "title": "Swinburne Vocabulary Glossary",
+                "id": "glossary"
+            }
+        ]
+    }
+]

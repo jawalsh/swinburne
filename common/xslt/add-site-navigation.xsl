@@ -226,119 +226,45 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
     </xsl:copy>
   </xsl:template>
   <xsl:template name="toc">
-    <div id="toc">
-      <!-- Iterate over the root array -->
-      <ul>
-        <li>
-          <!-- Extract the volume title -->
-          <xsl:value-of select="$volume/fn:string[@key='title']"/>
-          <xsl:value-of select="concat(' (',$volume/fn:string[@key='date'],')')"/>
-          <xsl:choose>
-            <xsl:when test="$volume/fn:array[@key='works']/fn:map">
-              <ul>
-                <!-- Iterate over works if they exist -->
-                <xsl:for-each select="$volume/fn:array[@key='works']/fn:map">
-                  <li>
-                    <xsl:if test="fn:map[@key = 'work']/fn:string[@key = 'id'] = $html-doc-id">
-                      <xsl:attribute name="class">
-                        <xsl:value-of select="'fw-bold'"/>
-                      </xsl:attribute>
-                    </xsl:if>
-                    <xsl:comment>
-                      <xsl:value-of select="concat('map-id: ', fn:map[@key = 'work']/fn:string[@key = 'id'])"/>
-                    </xsl:comment>
-                    <xsl:comment>
-                      <xsl:value-of select="concat,('html-id: ',/html/@id)"/>
-                    </xsl:comment>
-                    <!-- Extract the work title -->
-                    <a>
-                      <xsl:attribute name="href">
-                        <xsl:call-template name="generateURL">
-                          <xsl:with-param name="docID" select="fn:map[@key='work']/fn:string[@key='id']"/>
-                        </xsl:call-template>
-                      </xsl:attribute>
-                      <xsl:value-of select="fn:map[@key='work']/fn:string[@key='title']"/>
-		      </a>
-		      <xsl:if test="fn:map[@key='work']/fn:array[@key='contents']">
-					  <ul>
-						  <xsl:for-each select="fn:map[@key='work']/fn:array[@key='contents']/fn:map">
-                                <li>
-                                  <!-- Extract the item title -->
-                                  <a class="{$a-nested-class}">
-                                    <xsl:attribute name="href">
-                                      <xsl:call-template name="generateInternalURL">
-                                        <xsl:with-param name="docID" select="ancestor::fn:map[@key = 'work']/fn:string[@key = 'id']"/>
-                                        <xsl:with-param name="ref" select="fn:map[@key='item']/fn:string[@key='id']"/>
-                                      </xsl:call-template>
-                                    </xsl:attribute>
-                                    <xsl:value-of select="fn:map[@key='item']/fn:string[@key='title']"/>
-                                  </a>
-                                </li>
-                              </xsl:for-each>
-		      </ul>
-	      </xsl:if>
-
-                  </li>
-                </xsl:for-each>
-              </ul>
-            </xsl:when>
-            <xsl:when test="$volume/fn:array[@key='contents']/fn:map">
-              <ul>
-                <!-- Iterate over works if they exist -->
-                <xsl:for-each select="$volume/fn:array[@key='contents']/fn:map">
-                  <li>
-                    <!-- Extract the work title -->
-                    <a>
-                      <xsl:attribute name="href">
-                        <xsl:call-template name="generateInternalURL">
-                          <xsl:with-param name="docID" select="$volume/fn:string[@key='id']"/>
-                          <xsl:with-param name="ref" select="fn:map[@key='item']/fn:string[@key='id']"/>
-                        </xsl:call-template>
-                      </xsl:attribute>
-                      <xsl:value-of select="fn:map[@key='item']/fn:string[@key='title']"/>
-		      </a>
-		      <xsl:if test="fn:map[@key='work']/fn:array[@key='contents']">
-					  <ul>
-						  <xsl:for-each select="fn:map[@key='work']/fn:array[@key='contents']/fn:map">
-                                <li>
-                                  <!-- Extract the item title -->
-                                  <a class="{$a-nested-class}">
-                                    <xsl:attribute name="href">
-                                      <xsl:call-template name="generateInternalURL">
-                                        <xsl:with-param name="docID" select="ancestor::fn:map[@key = 'work']/fn:string[@key = 'id']"/>
-                                        <xsl:with-param name="ref" select="fn:map[@key='item']/fn:string[@key='id']"/>
-                                      </xsl:call-template>
-                                    </xsl:attribute>
-                                    <xsl:value-of select="fn:map[@key='item']/fn:string[@key='title']"/>
-                                  </a>
-                                </li>
-                              </xsl:for-each>
-		      </ul>
-	      </xsl:if>
-
-                  </li>
-                </xsl:for-each>
-              </ul>
-            </xsl:when>
-            <xsl:otherwise>
-              <li>
-                <a>
-                  <xsl:attribute name="href">
-                    <xsl:call-template name="generateURL">
-                      <xsl:with-param name="docID" select="fn:map[@key='volume']/fn:string[@key='id']"/>
-                    </xsl:call-template>
-                  </xsl:attribute>
-                  <!-- Extract the volume title -->
-                  <xsl:value-of select="fn:map[@key='volume']/fn:string[@key='title']"/>
-                </a>
-                <xsl:value-of select="concat(' (',fn:map[@key='volume']/fn:string[@key='date'],')')"/>
-              </li>
-            </xsl:otherwise>
-          </xsl:choose>
-        </li>
-      </ul>
-    </div>
-  </xsl:template>
+  <div id="toc">
+    <ul>
+      <li>
+        <!-- Extract the volume title and date -->
+        <xsl:value-of select="$volume/fn:string[@key='title']"/>
+        <xsl:value-of select="concat(' (', $volume/fn:string[@key='date'], ')')"/>
+        <ul>
+          <!-- Iterate over works_or_contents -->
+          <xsl:for-each select="$volume/fn:array[@key='works_or_contents']/fn:map">
+            <li>
+              <!-- Apply styles if it matches the current document -->
+              <xsl:if test="fn:string[@key='id'] = $html-doc-id">
+                <xsl:attribute name="class">fw-bold</xsl:attribute>
+              </xsl:if>
+              <!-- Comment for debugging -->
+              <xsl:comment>
+                <xsl:value-of select="concat('map-id: ', fn:string[@key='id'])"/>
+              </xsl:comment>
+              <!-- Generate URL for links -->
+              <a>
+                <xsl:attribute name="href">
+                  <xsl:call-template name="generateURL">
+                    <xsl:with-param name="docID" select="fn:string[@key='id']"/>
+                  </xsl:call-template>
+                </xsl:attribute>
+                <xsl:choose>
+                  <xsl:when test="fn:string[@key='type'] = 'work'">Work: </xsl:when>
+                  <xsl:when test="fn:string[@key='type'] = 'content'">Content: </xsl:when>
+                  <xsl:otherwise>Unknown: </xsl:otherwise>
+                </xsl:choose>
+                <xsl:value-of select="fn:string[@key='title']"/>
+              </a>
+            </li>
+          </xsl:for-each>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</xsl:template>
   <!-- add wrapper divs in the search and browse page -->
   <xsl:template match="main[@class='search']">
     <xsl:copy>
