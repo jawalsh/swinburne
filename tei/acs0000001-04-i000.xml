@@ -475,7 +475,7 @@
 				</docTitle>
 			</titlePage>
 			<pb n="[viii]" facs="acs0000001-04-011"/>
-			<div xml:id="df7f72" n="[Dedication]" type="dedication">
+			<div xml:id="tristram_dedication" n="[Dedication]" type="dedication">
 				<index indexName="nav"/>
 				<pb n="[1]" facs="acs0000001-04-012"/>
 				<p rendition="#center #uc"> To my best friend </p>
@@ -522,7 +522,7 @@
 			<pb n="[4]" facs="acs0000001-04-015"/>
 		</front>
 		<body>
-			<div xml:id="df78ab" n="Prelude">
+			<div xml:id="tristram_prelude" n="Prelude">
 				<index indexName="nav"/>
 				<pb n="[5]" facs="acs0000001-04-016"/>
 				<head rendition="#center #uc">Prelude</head>
@@ -807,7 +807,7 @@
 					<l n="250">From morning into morning, sea to sea.</l>
 				</lg>
 			</div>
-			<div xml:id="df89ab" n="I. The Sailing of the Swallow">
+			<div xml:id="tristram_i" n="I. The Sailing of the Swallow">
 				<index indexName="nav"/>
 				<pb n="13" facs="acs0000001-04-024"/>
 				<head rendition="#center">I</head>
@@ -1791,7 +1791,7 @@
 					<l n="802">And their four lips became one burning mouth.</l>
 				</lg>
 			</div>
-			<div xml:id="df22ca" n="II. The Queen’s Pleasance">
+			<div xml:id="tristram_ii" n="II. The Queen’s Pleasance">
 				<index indexName="nav"/>
 				<pb n="39" facs="acs0000001-04-050"/>
 				<head rendition="#center">II</head>
@@ -2333,7 +2333,7 @@
 					<l n="480">And all the sea lay subject to the sun.</l>
 				</lg>
 			</div>
-			<div xml:id="df7614" n="III. Tristram in Brittany">
+			<div xml:id="tristram_iii" n="III. Tristram in Brittany">
 				<index indexName="nav"/>
 				<pb n="54" facs="acs0000001-04-065"/>
 				<head rendition="#center #uc"> III <lb/>
@@ -2815,7 +2815,7 @@
 					<l n="425">So dawned the moonrise of their marriage night.</l>
 				</lg>
 			</div>
-			<div xml:id="df8967" n="IV. The Maiden Marriage">
+			<div xml:id="tristram_iv" n="IV. The Maiden Marriage">
 				<index indexName="nav"/>
 				<pb n="68" facs="acs0000001-04-079"/>
 				<head rendition="#center">IV</head>
@@ -3070,7 +3070,7 @@
 					<l n="230">All night safe sleeping in her maidenhood.</l>
 				</lg>
 			</div>
-			<div xml:id="df7821" n="V. Iseult at Tintagel">
+			<div xml:id="tristram_v" n="V. Iseult at Tintagel">
 				<index indexName="nav"/>
 				<pb n="76" facs="acs0000001-04-087"/>
 				<head rendition="#center">V</head>
@@ -3497,7 +3497,7 @@
 					<l n="341">Woke with glad eyes <persName ref="#iseultOfBrittany" xml:id="persName_319">Iseult of Brittany</persName> .</l>
 				</lg>
 			</div>
-			<div xml:id="dfab11" n="VI. Joyous Gard">
+			<div xml:id="tristram_vi" n="VI. Joyous Gard">
 				<index indexName="nav"/>
 				<pb facs="acs0000001-04-098"/>
 				<head rendition="#center">VI</head>
@@ -4068,7 +4068,7 @@
 					<l n="503">And life in them sank silent as the night.</l>
 				</lg>
 			</div>
-			<div xml:id="df24a9" n="VII. The Wife's Vigil">
+			<div xml:id="tristram_vii" n="VII. The Wife's Vigil">
 				<index indexName="nav"/>
 				<pb n="104" facs="acs0000001-04-115"/>
 				<head rendition="#center">VII</head>
@@ -4324,7 +4324,7 @@
 					<l n="230">All round her not of darkness, but of death.</l>
 				</lg>
 			</div>
-			<div xml:id="df9011" n="VIII. The Last Pilgrimage">
+			<div xml:id="tristram_viii" n="VIII. The Last Pilgrimage">
 				<index indexName="nav"/>
 				<pb n="112" facs="acs0000001-04-123"/>
 				<head rendition="#center">VIII</head>
@@ -5039,7 +5039,7 @@
 					<l n="644">And all things born took comfort from the sun.</l>
 				</lg>
 			</div>
-			<div xml:id="df2211" n="IX. The Sailing of the Swan">
+			<div xml:id="tristram_ix" n="IX. The Sailing of the Swan">
 				<index indexName="nav"/>
 				<pb n="133" facs="acs0000001-04-144"/>
 				<head rendition="#center">IX</head>
@@ -5715,13 +5715,5 @@
 			</div>
 			<pb facs="acs0000001-04-163"/>
 		</body>
-	
-      <back>
-         <!--DEBUG: no existing back matter-->
-         <div n="[notes]">
-            <!--DEBUG: No notes-->
-         </div>
-         <!--DEBUG: No commentary-->
-      </back>
    </text>
 </TEI>
