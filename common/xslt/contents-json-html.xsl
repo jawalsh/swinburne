@@ -41,7 +41,25 @@
                         <div class="collapse" id="{concat($volume-id,'-contents')}">
                           <div class="ms-2 mb-2 card card-body">
                             <ul>
-                              <!-- Iterate over works if they exist -->
+        				  <xsl:if test="fn:map[@key='work']/fn:array[@key='contents']">
+					  <ul>
+						  <xsl:for-each select="fn:map[@key='work']/fn:array[@key='contents']/fn:map">
+                                <li>
+                                  <!-- Extract the item title -->
+                                  <a class="{$a-nested-class}">
+                                    <xsl:attribute name="href">
+                                      <xsl:call-template name="generateInternalURL">
+                                        <xsl:with-param name="docID" select="ancestor::fn:map[@key = 'work']/fn:string[@key = 'id']"/>
+                                        <xsl:with-param name="ref" select="fn:map[@key='item']/fn:string[@key='id']"/>
+                                      </xsl:call-template>
+                                    </xsl:attribute>
+                                    <xsl:value-of select="fn:map[@key='item']/fn:string[@key='title']"/>
+                                  </a>
+                                </li>
+                              </xsl:for-each>
+		      </ul>
+	      </xsl:if>
+                      <!-- Iterate over works if they exist -->
                               <xsl:for-each select="fn:map[@key='volume']/fn:array[@key='works']/fn:map">
                                 <li>
                                   <!-- Extract the work title -->
@@ -53,6 +71,26 @@
                                     </xsl:attribute>
                                     <xsl:value-of select="fn:map[@key='work']/fn:string[@key='title']"/>
                                   </a>
+				  <xsl:if test="fn:map[@key='work']/fn:array[@key='contents']">
+					  <ul>
+						  <xsl:for-each select="fn:map[@key='work']/fn:array[@key='contents']/fn:map">
+                                <li>
+                                  <!-- Extract the item title -->
+                                  <a class="{$a-nested-class}">
+                                    <xsl:attribute name="href">
+                                      <xsl:call-template name="generateInternalURL">
+                                        <xsl:with-param name="docID" select="ancestor::fn:map[@key = 'work']/fn:string[@key = 'id']"/>
+                                        <xsl:with-param name="ref" select="fn:map[@key='item']/fn:string[@key='id']"/>
+                                      </xsl:call-template>
+                                    </xsl:attribute>
+                                    <xsl:value-of select="fn:map[@key='item']/fn:string[@key='title']"/>
+                                  </a>
+                                </li>
+                              </xsl:for-each>
+		      </ul>
+	      </xsl:if>
+ 
+
                                 </li>
                               </xsl:for-each>
                             </ul>

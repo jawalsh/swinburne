@@ -6,6 +6,7 @@
   <xsl:param name="current-uri"/>
   <xsl:param name="context"/>
   <xsl:param name="html-doc-id" select="/html/@id"/>
+  <xsl:param name="a-nested-class" select="'link-underline-opacity-0 toggle-hover-line'"/>
   <xsl:variable name="menus" select="json-to-xml(unparsed-text('../data/menus.json'))"/>
   <xsl:variable name="volume-id" select="/html/head/meta[@name = 'parent_vol']/@content"/>
   <xsl:variable name="contents-json-xml" select="fn:json-to-xml(fn:unparsed-text('../data/contents.json'))"/>
@@ -257,7 +258,26 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
                         </xsl:call-template>
                       </xsl:attribute>
                       <xsl:value-of select="fn:map[@key='work']/fn:string[@key='title']"/>
-                    </a>
+		      </a>
+		      <xsl:if test="fn:map[@key='work']/fn:array[@key='contents']">
+					  <ul>
+						  <xsl:for-each select="fn:map[@key='work']/fn:array[@key='contents']/fn:map">
+                                <li>
+                                  <!-- Extract the item title -->
+                                  <a class="{$a-nested-class}">
+                                    <xsl:attribute name="href">
+                                      <xsl:call-template name="generateInternalURL">
+                                        <xsl:with-param name="docID" select="ancestor::fn:map[@key = 'work']/fn:string[@key = 'id']"/>
+                                        <xsl:with-param name="ref" select="fn:map[@key='item']/fn:string[@key='id']"/>
+                                      </xsl:call-template>
+                                    </xsl:attribute>
+                                    <xsl:value-of select="fn:map[@key='item']/fn:string[@key='title']"/>
+                                  </a>
+                                </li>
+                              </xsl:for-each>
+		      </ul>
+	      </xsl:if>
+
                   </li>
                 </xsl:for-each>
               </ul>
@@ -276,7 +296,26 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
                         </xsl:call-template>
                       </xsl:attribute>
                       <xsl:value-of select="fn:map[@key='item']/fn:string[@key='title']"/>
-                    </a>
+		      </a>
+		      <xsl:if test="fn:map[@key='work']/fn:array[@key='contents']">
+					  <ul>
+						  <xsl:for-each select="fn:map[@key='work']/fn:array[@key='contents']/fn:map">
+                                <li>
+                                  <!-- Extract the item title -->
+                                  <a class="{$a-nested-class}">
+                                    <xsl:attribute name="href">
+                                      <xsl:call-template name="generateInternalURL">
+                                        <xsl:with-param name="docID" select="ancestor::fn:map[@key = 'work']/fn:string[@key = 'id']"/>
+                                        <xsl:with-param name="ref" select="fn:map[@key='item']/fn:string[@key='id']"/>
+                                      </xsl:call-template>
+                                    </xsl:attribute>
+                                    <xsl:value-of select="fn:map[@key='item']/fn:string[@key='title']"/>
+                                  </a>
+                                </li>
+                              </xsl:for-each>
+		      </ul>
+	      </xsl:if>
+
                   </li>
                 </xsl:for-each>
               </ul>
