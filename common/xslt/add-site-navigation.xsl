@@ -27,6 +27,7 @@
       <!-- js -->
       <!-- link to customized bootstrap css -->
       <link rel="stylesheet" href="css/custom.min.css"/>
+      <script defer="defer" src="https://umami.biblicon.org/script.js" data-website-id="a43c1768-6a95-4dd4-8f44-832a473a6945"></script>
     </xsl:copy>
   </xsl:template>
   <!-- add a global suffix to every page title -->
@@ -563,7 +564,7 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
     <xsl:copy>
       <xsl:copy-of select="@*"/>
       <xsl:attribute name="data-pagefind-filter">
-        <xsl:value-of select="'data[content]'"/>
+        <xsl:value-of select="'date[content]'"/>
       </xsl:attribute>
     </xsl:copy>
   </xsl:template>
