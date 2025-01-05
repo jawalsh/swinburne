@@ -195,7 +195,10 @@
       <langUsage>
         <language ident="el">Greek</language>
       </langUsage>
-    </profileDesc>
+      </profileDesc>      
+      <revisionDesc status="published">
+       	<change when="2025-01-05" who="#jawalsh">Proofed</change>  
+      </revisionDesc>
   </teiHeader>
   <text xml:id="acs0000001-04-i003-content" n="Erechtheus" type="poem">
     <index indexName="text" corresp="acs0000001-04-i003-md"/>

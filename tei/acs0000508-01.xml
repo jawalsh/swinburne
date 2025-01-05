@@ -318,7 +318,10 @@
             <textClass>
                 <catRef target="#collex_genre_review"/><catRef xml:id="parent_vol" target="#fix"/>
             </textClass>
-        </profileDesc>
+	    </profileDesc>
+	    <revisionDesc status="published">
+       	<change when="2025-01-05" who="#jawalsh">Proofed</change>  
+      </revisionDesc>
     </teiHeader>
 					<standOff>
 						<entry xml:id="miltonsland">

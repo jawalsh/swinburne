@@ -218,8 +218,12 @@ For example:
 	  <textClass>
              <catRef target="#collex_genre_criticism"/>
           </textClass>   
-       </profileDesc>
-        
+	  </profileDesc>
+	  <revisionDesc status="draft">
+       	<change when="2025-01-05" who="#jawalsh">Edit</change>  
+      </revisionDesc>
+
+       
     </teiHeader>
 					<standOff>
 						<entry xml:id="miltonsland">
