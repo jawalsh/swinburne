@@ -6,5 +6,5 @@
 						<!-- The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry. -->
 						<prefixDef ident="glossary" matchPattern="(.+)" replacementPattern="#$1"/>
 						<!-- The 'image' reference system points to an image resource. These references expand to the URL of the resource in the Swinburne website.. -->
-						<prefixDef ident="image" matchPattern="(.+)" replacementPattern="/figure/$1"/>
+						<prefixDef ident="image" matchPattern="(.+)" replacementPattern="images/$1"/>
 					</listPrefixDef>

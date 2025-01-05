@@ -53,6 +53,23 @@ background-color: $body-bg-secondary;
 @extend .px-2;
 }
 
+/* figures and images */
+figure img {
+@extend .figure-img;
+@extend .img-fluid;
+@extend .mx-auto;
+text-indent: 0 !important;
+max-width: 90% !important;
+}
+
+figure {
+@extend .text-center;
+}
+
+figCaption {
+@extend .figure-caption
+}
+
 /* #doc-meta-nav styles: start */
 /* Spacing between menu items */
 #doc-meta-nav .nav-link {

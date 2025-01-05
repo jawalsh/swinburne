@@ -275,7 +275,7 @@
     </xsl:element>
   </xsl:template>
   <!-- suppressed elements -->
-  <xsl:template match="pb"/>
+  <xsl:template match="pb|figDesc"/>
   <!-- TODO how to deal with tei:join? -->
   <xsl:template match="join"/>
   <!-- non-phrase-level TEI elements (plus author and title within the item description) are mapped to html:div -->
@@ -431,7 +431,7 @@
       <xsl:apply-templates mode="create-content" select="."/>
     </xsl:element>
   </xsl:template>
-  <xsl:template match="figDesc">
+  <xsl:template match="figure/head">
     <xsl:element name="figcaption">
       <xsl:apply-templates mode="create-attributes" select="."/>
       <xsl:apply-templates mode="create-content" select="."/>
@@ -439,7 +439,8 @@
   </xsl:template>
   <xsl:template match="graphic">
     <xsl:element name="img">
-      <xsl:attribute name="src" select="swinburne:expand-reference(@url)"/>
+	    <xsl:attribute name="src" select="swinburne:expand-reference(@url)"/>
+	    <xsl:attribute name="alt" select="string(../figDesc)"/> 
     </xsl:element>
   </xsl:template>
   <!-- glossed terms -->

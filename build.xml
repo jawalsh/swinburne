@@ -167,6 +167,7 @@ is loaded when Ant starts up. Please run Ant again like this:
     <mkdir dir="${toDir.static}"/>
     <mkdir dir="${toDir.static}/js"/>
     <mkdir dir="${toDir.static}/css"/>
+    <mkdir dir="${toDir.static}/images"/>
     <!-- Use the Ant build file created in "generateIssues" to copy articles' 
       resources to the right static directories. -->
     <!-- Copy specific files in the base directory. -->
@@ -194,8 +195,11 @@ is loaded when Ant starts up. Please run Ant again like this:
 		-->
       </fileset>
       <fileset dir="js">
-	      <include name="*.js"/>
+        <include name="*.js"/>
       </fileset>
+    </copy>
+    <copy todir="${toDir.static}/images">
+      <fileset dir="images"/>
     </copy>
     <copy todir="${toDir.static}">
       <fileset dir=".">

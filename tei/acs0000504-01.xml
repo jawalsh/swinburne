@@ -165,19 +165,8 @@
                   <gloss/>
                </category>
             </taxonomy>
-				</classDecl>
-				
-					<listPrefixDef xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:chymistry="tag:conaltuohy.com,2018:chymistry" xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:z="https://github.com/Conal-Tuohy/XProc-Z">
-						<!-- The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website. -->
-						<prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/>
-						<!-- The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved. -->
-						<prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/>
-						<!-- The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry. -->
-						<prefixDef ident="glossary" matchPattern="(.+)" replacementPattern="#$1"/>
-						<!-- The 'image' reference system points to an image resource. These references expand to the URL of the resource in the Swinburne website.. -->
-						<prefixDef ident="image" matchPattern="(.+)" replacementPattern="/figure/$1"/>
-					</listPrefixDef>
-				<listPrefixDef><!--The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website.--><prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/><!--The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved.--><prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/><!--The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry.--><prefixDef ident="glossary" matchPattern="(.*)" replacementPattern="#$1"/></listPrefixDef>
+    </classDecl>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/listPrefixDef.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
             <classDecl xml:id="collex_genres">
         <taxonomy>
@@ -414,7 +403,10 @@
             Further Notes On Swinburne’s Funeral
             by Terry L. Meyers
             -->
-          <note rendition="#center #x-small" rend="margin-left:auto;margin-right:auto;">(Drawn from talks in July 2009 on the Isle of Wight to the Farringford Tennyson and Literary &amp; Arts Society and in <ref target="https://youtu.be/dK4zwndIB8w">November 2009 at the Georgetown University Library</ref> in connection with its centenary exhibition “A Swinburne Gallimaufry: Selections from the John S. Mayfield Papers”)</note>
+<head>Some Notes Relating to Swinburne's Funeral</head>
+<head rendition="#small">By Terry L. Meyers, Chancellor Professor of English, College of William and Mary</head>
+
+          <note rendition="#center #small">(Drawn from talks in July 2009 on the Isle of Wight to the Farringford Tennyson and Literary &amp; Arts Society and in <ref target="https://youtu.be/dK4zwndIB8w">November 2009 at the Georgetown University Library</ref> in connection with its centenary exhibition “A Swinburne Gallimaufry: Selections from the John S. Mayfield Papers”)</note>
                 
                 <p>Swinburne’s funeral is an occasion that has been discussed before, in an article in 1974 by a Canadian scholar, Roger Peattie (“Swinburne’s Funeral, <title>Notes and Queries</title>, 21[December 1974], 466-469, the source of the following quotations, unless otherwise indicated), and in modern biographies, especially in the best and most recent of Swinburne’s biographies, <title>A. C. Swinburne</title>, by Rikky Rooksby.   What I offer here is an account of the fractious occasion that draws more extensively than has ever been done from a number of documents and photographs that as far as I know have never been brought together.  I should express my gratitude to Rikky Rooksby for his generosity—we both discovered several years ago that we were each about to write about Swinburne’s funeral, each with a collection of photographs and newspaper clippings we had individually formed, and Rikky very kindly withdrew and left the field to me, even going so far as to send me copies of the material in his collection, some of which I did not have.</p>
             <figure rend="margin-left:auto; margin-right:auto;">
@@ -423,9 +415,23 @@
             
                 <p>The standard account of Swinburne’s funeral is easily accessible in Cecil Y. Lang’s edition of Swinbune’s letters, at the very end of volume 6.  I won’t rehearse that account—it comes from several articles drawn from the <title>Times</title>—since what I’m interested in is what has not generally been known even to Swinburne scholars.</p>
                 <p>Let me start by noting the situation poor Theodore Watts-Dunton found himself in when Swinburne died.   Watts-Dunton, of course, was the solicitor and friend who saved Swinburne’s life in 1879 by almost literally kidnapping him and moving him forcibly to the suburban scene of Putney.  Swinburne had lived a life of dissipation in drink and otherwise throughout the 1860’s and 1870’s and there’s little doubt he would have died if Watt-Dunton hadn’t dried him out and overseen him domestically for the rest of his life.  Swinburne’s life settled down considerably at The Pines, Putney, and though I think he had a more vigorous social and intellectual life than many biographers allow and though some of his later poetry is beginning to attract critical interest, it is true that his later life was a more mundane one.   Each day, for example, he walked regularly across Wimbledon Common to a pub, The Rose and Crown, where he enjoyed one drink, one bottle of Bass Ale.  That pub still preserves Swinburne’s chair and will display it if you ask.</p>
-            <figure rend="margin-left:auto; margin-right:auto;">
-                <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;" url="image:acs0000504-01-002.png"/>
-                <head rend="width:60%;margin-left:auto;margin-right:auto;">Clipping in the collection of Terry L. Meyers<ref xml:id="ref_97def" rendition="#super">1</ref></head>
+            <figure>
+                <graphic url="image:acs0000504-01-002.png"/>
+                <head>Clipping in the collection of Terry L. Meyers<note xml:id="note_28"><p>In the first series of pictures, the circular inset is from a photograph taken 4 April 1907, the day before Swinburne turned 70; that photograph was printed in the <title>Daily Mirror</title>, 5 April 1907 (p. 6) (and reprinted, cropped as below, 12 April 1909 p. [8?]; this cropped picture was also printed, seemingly retouched somewhat, in the <title>Daily News</title>, 12 April p. 7b (see below), where is credited the editor of <title>Reynold’s Newspaper</title> and where are also pictured The Pines, the Rose and Crown, and the poet’s favorite bench on Putney Heath).  The photograph shows Swinburne striding along near Putney:
+                    <figure>
+                        <graphic url="image:acs0000504-01-008.png"/>
+                        <head>Swinburne striding along near Putney.</head>
+                        <figDesc>Swinburne striding along near Putney.</figDesc>
+                    </figure>
+                    <figure>
+                        <graphic url="image:acs0000504-01-009.png"/>
+                        <head>Swinburne striding along near Putney. I am grateful to the Deputy Chief Librarian for the Daily Mirror in 1988, A. E. Freeman, who supplied the picture.</head>
+                        <figDesc>Swinburne striding along near Putney.</figDesc>
+                    </figure></p>
+                    <p>The photograph of Swinburne’s coffin being carried from The Pines would have been taken shortly after 7 a.m. on the day of the funeral, 15 April 1909; the gentleman leading the way was presumably the undertaker, Mr. Haslett of Wandsworth (<title>Daily News</title>, 14 April p. 7d).</p>
+                    
+                </note>                                 
+</head>
                 <figDesc>Clipping in the collection of Terry L. Meyers</figDesc>
             </figure>     
                 <p>When Swinburne died, April 10, 1909, Watts-Dunton was himself ill with influenza (so ill he could not even attend the funeral itself on April 15).  But he rose to his duty on April 14 and wrote a distressed and distressing letter to Swinburne’s surviving sister, Isabel.   He informed her that “the Church of England Burial Service cannot be read over Algernon’s grave” and went on, “there is no hope for it” as he sketched out his intentions for the funeral, with Swinburne’s coffin to be transported directly from Ventnor Station “strait to the grave.”  Though he allowed Isabel to contemplate “some other plan” if she or a “good Clergyman” could come up with one, he emphasized to her that “the burial service cannot be read over him.”  Watt-Dunton’s plan was simply for “assembled Friends … [to] gather round the grave and the Flowers will be dropped in the grave in the usual way and then the Ceremony will end.”</p>
@@ -642,25 +648,10 @@
                 <p>The funeral was covered in detail in the <title>Isle of Wight County Press</title> (Feb. 26, 1926) where, with another photograph, it is recorded that the burial was in a grave next to that of General Disney Leith, C.B. “in the pretty village churchyard at Shorwell.” In the account of the service and those attending, Mary Gordon Leith is remembered as a “great lover of nature … [whose beauty her] pen had so faithfully portrayed in prose and verse.” The eulogy stresses her accomplishments as “the writer, the traveller, the poet, the author of ‘Auld Fernie’s son’” who “did more than interpret the rich Scotch tongue. At the age of 70 she crossed the Northern seas and found romance amongst the fisher folk of Iceland…. She was a most faithful and loyal member of her Church, loving this church and the village school, and loving Niton” (thanks to Vic King for a copy of the <title>County Press</title> article).</p>
                 <figure xml:id="figure12" rend="margin-left:auto; margin-right:auto;margin-top:2em">
                     <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;" url="image:acs0000504-01-014.jpg"/>
-                    <head rend="width:60%;margin-left:auto;margin-right:auto;">The Grave of Mary Gordon Leith (courtesy of Tony O'Nions, who, with friends, has tended the grave.</head><figDesc>The Grave of Mary Gordon Leith (courtesy of Tony O'Nions, who, with friends, has tended the grave.</figDesc>
+                    <head rend="width:60%;margin-left:auto;margin-right:auto;">The Grave of Mary Gordon Leith (courtesy of Tony O'Nions, who, with friends, has tended the grave).</head><figDesc>The Grave of Mary Gordon Leith (courtesy of Tony O'Nions, who, with friends, has tended the grave).</figDesc>
                 </figure> 
             </div>
             <div>
-                <note xml:id="note_28" rendition="#block #small"><p><ref target="#ref_97def" rendition="#super" xml:id="note_97def">1</ref>In the first series of pictures, the circular inset is from a photograph taken 4 April 1907, the day before Swinburne turned 70; that photograph was printed in the <title>Daily Mirror</title>, 5 April 1907 (p. 6) (and reprinted, cropped as below, 12 April 1909 p. [8?]; this cropped picture was also printed, seemingly retouched somewhat, in the <title>Daily News</title>, 12 April p. 7b (see below), where is credited the editor of <title>Reynold’s Newspaper</title> and where are also pictured The Pines, the Rose and Crown, and the poet’s favorite bench on Putney Heath).  The photograph shows Swinburne striding along near Putney:
-                    <figure rend="margin-left:auto; margin-right:auto;margin-top:1em;">
-                        <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;" url="image:acs0000504-01-008.png"/>
-                        <head rend="width:60%;margin-left:auto;margin-right:auto;">Swinburne striding along near Putney.</head>
-                        <figDesc>Swinburne striding along near Putney.</figDesc>
-                    </figure>
-                    <figure rend="margin-left:auto; margin-right:auto;margin-top:2em">
-                        <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;" url="image:acs0000504-01-009.png"/>
-                        <head rend="width:60%;margin-left:auto;margin-right:auto;">Swinburne striding along near Putney. I am grateful to the Deputy Chief Librarian for the Daily Mirror in 1988, A. E. Freeman, who supplied the picture.</head>
-                        <figDesc>Swinburne striding along near Putney.</figDesc>
-                    </figure></p>
-                    <p>The photograph of Swinburne’s coffin being carried from The Pines would have been taken shortly after 7 a.m. on the day of the funeral, 15 April 1909; the gentleman leading the way was presumably the undertaker, Mr. Haslett of Wandsworth (<title>Daily News</title>, 14 April p. 7d).</p>
-                    
-                    
-                </note>                                 
                                                 
                                                 
   
