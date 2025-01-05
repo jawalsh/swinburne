@@ -316,9 +316,10 @@
 				<catRef target="#collex_genre_fiction"/>
 			</textClass>
 		</profileDesc>
-                <revisionDesc xml:id="d1e488">
-                        <change xml:id="d1e490" n="svninfo"> $Id$ $Rev$ $Date$ $Author$ </change>
-                </revisionDesc>
+	<revisionDesc status="published">    
+		<change when="2025-01-05" who="#jawalsh">Proofed</change>         
+        </revisionDesc>
+
         </teiHeader>
 					<standOff>
 						<entry xml:id="miltonsland">
