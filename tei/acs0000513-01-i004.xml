@@ -355,12 +355,9 @@ For example:
 </p>
             <p><note n="true" xml:id="hasPageImages"/></p>
         </encodingDesc>
-      <revisionDesc>
-         inclusion of revisionDesc content from metadata file metadata/acs0000513-01-i004-md.xml failed
-         
-            <change n="svninfo"> $Id: acs0000499-01.xml 1054 2009-11-22 12:18:07Z jawalsh $ $Rev:
-                687 $ $Date: 2009-11-22 07:18:07 -0500 (Sun, 22 Nov 2009) $ $Author: jawalsh $
-            </change>
+      <revisionDesc status="published">        <change when="2025-01-05" who="#jawalsh">Proofed</change>         
+                  
+            
         
       </revisionDesc>
    </teiHeader>

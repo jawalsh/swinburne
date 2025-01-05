@@ -204,14 +204,9 @@
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
             <p><note n="true" xml:id="hasPageImages"/></p>
         </encodingDesc>
-        <revisionDesc>
+        <revisionDesc status="published">        <change when="2025-01-05" who="#jawalsh">Proofed</change>         
             <change when="2008-10-12">Updated XInclude links to reflect to ID scheme.</change>
-            <change n="svninfo">
-                $Id: acs0000001-01.xml 1013 2009-09-24 16:29:08Z jawalsh $
-                $Rev: 1013 $
-                $Date: 2009-09-24 12:29:08 -0400 (Thu, 24 Sep 2009) $
-                $Author: jawalsh $
-            </change>
+            
         </revisionDesc>
     </teiHeader>
 					<standOff>

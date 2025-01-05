@@ -8,7 +8,7 @@
                     <persName ref="#acs">Algernon Charles Swinburne</persName>
                 </author>
                 <editor role="editor">
-                    <persName xml:id="jawalsh" ref="#jawalsh">John A. Walsh</persName>
+                    <persName ref="#jawalsh">John A. Walsh</persName>
                 </editor>
                 <respStmt>
                     <resp>Encoded by</resp>
@@ -44,7 +44,7 @@
             <sourceDesc>
 					<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/meta-listBibl.xml"/><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/meta-listPerson.xml"/><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/meta-listOrg.xml"/><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/meta-listEvent.xml"/><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/meta-listPlace.xml"/>
 				
-                <p>This TEI/XML document is the original source.</p>
+                <bibl>This TEI/XML document is the original source.</bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>

@@ -317,12 +317,10 @@
                 <catRef target="#collex_genre_reference_works"/><catRef xml:id="parent_vol" target="#acsp"/>
             </textClass>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc status="published">        <change when="2025-01-05" who="#jawalsh">Proofed</change>         
             <change when="20071018" who="#mewilley"> Added literary and historical contexts. </change>
             <change when="20071019" who="#jawalsh"> Validated. </change>
-            <change n="svninfo"> $Id: acs0000500-01.xml 1249 2015-05-01 14:12:53Z jawalsh $ $Rev:
-                1017 $ $Date: 2015-05-01 10:12:53 -0400 (Fri, 01 May 2015) $ $Author: jawalsh $
-            </change>
+            
         </revisionDesc>
     </teiHeader>
 					<standOff>

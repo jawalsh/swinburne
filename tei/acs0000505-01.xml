@@ -306,10 +306,8 @@
                 <catRef target="#collex_genre_letters"/><catRef xml:id="parent_vol" target="#fix"/>
             </textClass>
         </profileDesc>
-        <revisionDesc>
-            <change n="svninfo"> $Id: acs0000499-01.xml 1094 2010-01-12 02:39:26Z jawalsh $ $Rev:
-                687 $ $Date: 2010-01-11 21:39:26 -0500 (Mon, 11 Jan 2010) $ $Author: jawalsh $
-            </change>
+        <revisionDesc status="published">        <change when="2025-01-05" who="#jawalsh">Proofed</change>         
+            
         </revisionDesc>
     </teiHeader>
 					<standOff>

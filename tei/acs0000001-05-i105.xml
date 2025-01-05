@@ -345,14 +345,9 @@
 			</editorialDecl>
 			<xi:include href="includes/tagsDecl.xml"/>
 		</encodingDesc>
-      <revisionDesc>
+      <revisionDesc status="published">        <change when="2025-01-05" who="#jawalsh">Proofed</change>         
          
-         <change n="svninfo">
-                        $Id$
-                        $Rev$
-                        $Date$
-                        $Author$
-                    </change>
+         
       
          
 			<change when="2008-10-12">Updated XInclude links to reflect to ID scheme.</change>
@@ -1057,38 +1052,5 @@
     			</body>
     		</text>
     	</group>
-    
-      <back>
-         <div type="notes" rend="margin-left: 4em;">
-    					<note xml:id="de1230116" rendition="#block" resp="#acs" n="1"><ref rendition="#super">1</ref>Author of <title>The Hog hath lost his Pearl</title>.</note>
-    					<note xml:id="de1231116" rendition="#block" resp="#acs" n="2"><ref rendition="#super">2</ref>Author of <title>Fuimus Troes, or the True Trojans</title>.</note>
-    					<note xml:id="de1232116" rendition="#block" resp="#acs" n="3"><ref rendition="#super">3</ref>Author of <title>Two Tragedies in One</title>.</note>
-    					<note xml:id="de1233116" rendition="#block" resp="#acs" n="4"><ref rendition="#super">4</ref>Author of <title>The City Match</title>.</note>
-    					<note xml:id="de1234116" rendition="#block" resp="#acs" n="5"><ref rendition="#super">5</ref>Author of <title>Ram-Alley, or Merry Tricks</title>.</note>
-    				</div><div type="notes">
-    					<note xml:id="de1001122" n="1" rendition="#inline" resp="#acs"><ref rendition="#super">1</ref><title>Doctor Dodypol</title>.</note>
-    					<note xml:id="de1002122" n="2" rendition="#inline #indent" resp="#acs"><ref rendition="#super">2</ref><title>Nobody and Somebody</title>.</note>
-    				</div><div type="notes" rend="margin-left: 4em;">
-    					<note rendition="#block" xml:id="e17f1123" n="1" resp="#acs">
-    						<ref rendition="#super">1</ref><title>A Warning for Fair Women</title>.
-    					</note>
-    					<note rendition="#block" xml:id="e17f2123" n="2" resp="#acs">
-    						<ref rendition="#super">2</ref><title>The Tragedy of Nero</title>.
-    					</note>
-    					<note rendition="#block" xml:id="e17f3123" n="3" resp="#acs">
-    						<ref rendition="#super">3</ref><title>A Yorkshire Tragedy</title>.
-    					</note>
-    					<note rendition="#block" xml:id="e17f4123" n="4" resp="#acs">
-    						<ref rendition="#super">4</ref><title>Look about you</title>.
-    					</note>
-    					<note rendition="#block" xml:id="e17f5123" n="5" resp="#acs">
-    						<ref rendition="#super">5</ref><title>The Merry Devil of Edmonton</title>.
-    					</note>
-    				</div>
-         <div n="[notes]">
-            <!--DEBUG: No notes-->
-         </div>
-         <!--DEBUG: No commentary-->
-      </back>
    </text>
 </TEI>
