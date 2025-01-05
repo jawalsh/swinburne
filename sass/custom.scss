@@ -16,6 +16,7 @@ $primary: #75070C; // Primary color (deep red)
 // Updated Dark Backgrounds
 $dark: #211500; // Overrides Bootstrap's $dark variable for bg-dark
 $bg-dark-secondary: #3a2b14; // Slightly lighter dark background
+$bg-dark-tertiary: #f5cfa1;
 
 // Updated Text Color
 $text-color-dark: #e9ddc3; // Complementary light beige color that meets AAA contrast
@@ -48,10 +49,7 @@ $theme-colors: (
 
 /* color theme: end */
 
-.pagefind-ui__drawer {
-background-color: $body-bg-secondary;
-@extend .px-2;
-}
+
 
 /* figures and images */
 figure img {
@@ -210,6 +208,26 @@ h1.tei-head, h2.tei-head, h3.tei-head, h4.tei-head, h5.tei-head, h6.tei-head {
 
 // Import Bootstrap's SCSS
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.pagefind-ui__drawer {
+background-color: $body-bg-secondary;
+@extend .px-2;
+}
+
+.pagefind-ui__filter-panel {
+  @include media-breakpoint-up(lg) {
+          border-right: 1px solid $bg-dark-tertiary;
+          padding-right: 1rem;
+  }
+  @include media-breakpoint-down(md) {
+	border-bottom: 1px solid $bg-dark-tertiary;
+	padding-bottom: 1rem;
+  }
+}
+
+.pagefind-ui__button {
+ @extend .mb-2;
+}
 
 h1.tei-head.project-doc {
 	font-size: $h1-font-size;
