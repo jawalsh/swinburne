@@ -175,7 +175,8 @@
              <catRef target="#collex_genre_bibliography"/>
           </textClass>   
        </profileDesc>
-        <revisionDesc status="published">        <change when="2025-01-05" who="#jawalsh">Proofed</change>         
+       <revisionDesc status="draft">
+	       <change when="2025-01-05" who="#jawalsh">Edit</change>         
             
         </revisionDesc>
     </teiHeader>

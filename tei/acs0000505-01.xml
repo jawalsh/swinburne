@@ -306,8 +306,8 @@
                 <catRef target="#collex_genre_letters"/><catRef xml:id="parent_vol" target="#fix"/>
             </textClass>
         </profileDesc>
-        <revisionDesc status="published">        <change when="2025-01-05" who="#jawalsh">Proofed</change>         
-            
+	<revisionDesc status="published">
+		<change when="2025-01-05" who="#jawalsh">Proofed</change>
         </revisionDesc>
     </teiHeader>
 					<standOff>

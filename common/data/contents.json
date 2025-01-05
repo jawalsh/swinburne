@@ -3400,18 +3400,6 @@
       "works": [
         {
           "work": {
-            "title": "The Queen-Mother",
-            "id": "acs0000002-01-i001"
-          }
-        },
-        {
-          "work": {
-            "title": "Rosamond",
-            "id": "acs0000002-01-i002"
-          }
-        },
-        {
-          "work": {
             "title": "Chastelard",
             "id": "acs0000002-02-i001"
           }
@@ -3420,12 +3408,6 @@
           "work": {
             "title": "Rondel",
             "id": "acs0000003-01-i001"
-          }
-        },
-        {
-          "work": {
-            "title": "Love’s Cross-Currents",
-            "id": "acs0000005-01"
           }
         },
         {
@@ -3442,7 +3424,7 @@
         },
         {
           "work": {
-            "title": "Supplementary Material to the",
+            "title": "Supplementary Material to the Uncollected Letters of Algernon Charles Swinburne",
             "id": "acs0000505-01"
           }
         },
@@ -3454,7 +3436,7 @@
         },
         {
           "work": {
-            "title": "N/A",
+            "title": "The Queen Mother. Rosamond. Two Plays. By Algernon Charles Swinburne.—London: B. M. Pickering, 1861. [Review]",
             "id": "acs0000507-01"
           }
         },
@@ -3468,18 +3450,6 @@
           "work": {
             "title": "William Blake: A Critical Essay",
             "id": "acs0000514-01"
-          }
-        },
-        {
-          "work": {
-            "title": "Contextual Information",
-            "id": "authority"
-          }
-        },
-        {
-          "work": {
-            "title": "Swinburne Vocabulary Glossary",
-            "id": "glossary"
           }
         }
       ]
