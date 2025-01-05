@@ -5,7 +5,7 @@
             <titleStmt>
                 <title>Project Information</title>
                 <author>
-                	<persName xml:id="jawalsh" ref="#jawalsh">John A. Walsh</persName>
+                	<persName ref="#jawalsh">John A. Walsh</persName>
                 </author>
                 <editor role="editor">
                     <persName ref="#jawalsh">John A. Walsh</persName>
@@ -434,7 +434,7 @@
 						<p><title>The Swinburne Project</title> edits and publishes 
 							high-quality texts of the wide range of literary and critical works by Victorian poet, critic, and novelist Algernon Charles Swinburne, an important and influential Victorian cultural figure. These
 							texts constitute the <title>Project</title>'s textual and documentary core,
-								around which is built a supporting scholarly apparatus, including an <ptr target="document:acs0000503-01">introduction to Swinburne’s life and works</ptr>, chronology, and growing body of annotations and commentary on individual works.</p>
+								around which is built a supporting scholarly apparatus, including an <ref target="document:acs0000503-01">introduction to Swinburne’s life and works</ref>, chronology, and growing body of annotations and commentary on individual works.</p>
 					</div>
          			<div xml:id="peer_review">
          				<index indexName="nav"/>

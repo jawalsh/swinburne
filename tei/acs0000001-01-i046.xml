@@ -51,7 +51,7 @@
 							                 <biblScope unit="page"> 202-203 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-					             </monogr><idno type="nines">pb1hndca00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+					             </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>Hendecasyllabics</title>
                      <author>
 							                 <persName ref="#acs"> Algernon Charles Swinburne </persName>

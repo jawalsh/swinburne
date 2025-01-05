@@ -214,7 +214,7 @@
                             <biblScope unit="page">5-10</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
-                  </monogr><idno type="nines">pb2oracl00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>The Last Oracle</title>
                      <author>
                             <persName ref="#acs">Algernon Charles Swinburne</persName>

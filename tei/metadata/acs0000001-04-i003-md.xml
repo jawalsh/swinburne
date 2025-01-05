@@ -212,7 +212,7 @@
                                           <biblScope unit="page">335-413</biblScope>
                                     </imprint>
                                     <extent>6 vols.</extent>
-                              </monogr><idno type="nines">ercerech00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><monogr>
+                              </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><monogr>
                      <author><persName ref="#acs">Algernon Charles Swinburne</persName></author>
                      <title>Erechtheus</title>
                      <imprint>

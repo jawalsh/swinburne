@@ -51,7 +51,7 @@
 							                 <biblScope unit="page"> 191-196 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sbsdowns00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>On the Downs</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

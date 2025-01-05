@@ -51,7 +51,7 @@
 							                 <biblScope unit="page"> 56-63 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sbsblssd00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>Blessed among Women</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>
@@ -588,7 +588,7 @@ For example:
 				<l n="60" rendition="#ti-2">All thine own land as one</l>
 				<l n="61" rendition="#ti-2">New-born, a nursing son,</l>
 				<l n="62">All thine own people a new birth undefiled;</l>
-				<l n="63" rendition="#ti-1">And all the unborn <rs type="place" xml:id="it">Italian</rs> time,</l>
+				<l n="63" rendition="#ti-1">And all the unborn <rs type="place" ref="#it">Italian</rs> time,</l>
 				<l n="64">And all its glory, and all its works, thy seed sublime.</l>
 			</lg>
 			</div>

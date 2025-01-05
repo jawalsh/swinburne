@@ -37,7 +37,7 @@
          <sourceDesc>
             <xi:include href="includes/meta-listBibl.xml"/><xi:include href="includes/meta-listPerson.xml"/><xi:include href="includes/meta-listOrg.xml"/><xi:include href="includes/meta-listEvent.xml"/><xi:include href="includes/meta-listPlace.xml"/>
             <biblStruct xml:id="acs0000001-02-i011-bibl"><analytic>
-                     <idno type="nines">sbscrcfx00</idno>
+                     
                      <title>Before a Crucifix</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

@@ -215,7 +215,7 @@
 							                 <biblScope unit="page"> 111-116 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sbsquiam00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>Quia Multum Amavit</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

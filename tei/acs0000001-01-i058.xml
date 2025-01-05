@@ -51,7 +51,7 @@
 							                 <biblScope unit="page"> 279-281 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-					             </monogr><idno type="nines">pb1aftrd00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+					             </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>After Death</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

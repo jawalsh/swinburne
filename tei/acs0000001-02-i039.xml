@@ -51,7 +51,7 @@
 							                 <biblScope unit="page"> 226-236 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sbsepilo00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>Epilogue</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

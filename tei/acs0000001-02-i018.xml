@@ -51,7 +51,7 @@
 							                 <biblScope unit="page"> 120-125 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sbswhtmn00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>To Walt Whitman in America</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

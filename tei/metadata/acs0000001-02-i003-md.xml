@@ -209,7 +209,7 @@
 							                 <biblScope unit="page"> 10-26 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sbsevrev00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>The Eve of Revolution</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

@@ -220,7 +220,7 @@
                             <biblScope unit="page">293</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
-                  </monogr><idno type="nines">sosdedic00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>Dedication: To Edward John Trelawny</title>
                      <author>
                             <persName ref="#acs">Algernon Charles Swinburne</persName>

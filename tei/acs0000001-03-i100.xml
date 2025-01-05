@@ -39,7 +39,7 @@
             <biblStruct xml:id="acs0000001-03-i100-bibl"><analytic>
                      <title>On the Cliffs</title>
                      <author>
-                            <persName ref="##acs">Algernon Charles Swinburne</persName>
+                            <persName ref="#acs">Algernon Charles Swinburne</persName>
                         </author>
                   </analytic><monogr>
                         <title>The Poems of Algernon Charles Swinburne</title>
@@ -51,10 +51,10 @@
                             <biblScope unit="page">311-325</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
-                  </monogr><idno type="nines">soscliff00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>On the Cliffs</title>
                      <author>
-                            <persName ref="##acs">Algernon Charles Swinburne</persName>
+                            <persName ref="#acs">Algernon Charles Swinburne</persName>
                         </author>
                   </analytic><monogr>
                      <title>Songs of the Springtides</title>

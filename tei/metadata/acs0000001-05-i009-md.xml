@@ -216,7 +216,7 @@
 							                 <biblScope unit="page"> 71 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sisfourt00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>The Fourteenth of July</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

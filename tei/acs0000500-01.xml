@@ -4,7 +4,7 @@
             <titleStmt>
                 <title>A Swinburne Chronology, 1837-1909</title>
                 <author>
-                    <persName xml:id="jawalsh" ref="#jawalsh">John A. Walsh</persName>
+                    <persName ref="#jawalsh">John A. Walsh</persName>
                 </author>
                 <!--
                 <respStmt>
@@ -30,7 +30,7 @@
                 Walsh</editor></bibl>, is freely licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0
             Unported License</ref>. </p>
 </availability>
-                <idno type="nines"><!-- old ID -->tsachron00</idno>
+                
             </publicationStmt>
             <seriesStmt>
         <title>The Algernon Charles Swinburne Project: A Digital Collection Devoted to the Life and Work of Victorian Poet Algernon Charles Swinburne.</title>

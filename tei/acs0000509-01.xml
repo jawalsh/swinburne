@@ -5,11 +5,11 @@
         <title>Algernon Charles Swinburne: An Enumerative Bibliography, 1980-2010</title>
         <author ref="#williams" xml:id="kawilliams">Kelsey Williams</author>
         <editor role="editor">
-          <persName ref="#jawalsh" xml:id="jawalsh">John A. Walsh</persName>
+          <persName ref="#jawalsh">John A. Walsh</persName>
         </editor>
         <respStmt>
           <resp>encoder</resp>
-          <persName ref="#ghthomas" xml:id="ghthomas">Grace Thomas</persName>
+          <persName ref="#ghthomas">Grace Thomas</persName>
         </respStmt>
       </titleStmt>
       <publicationStmt>

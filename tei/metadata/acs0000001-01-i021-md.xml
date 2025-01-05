@@ -209,7 +209,7 @@
                             <biblScope unit="page">104-105</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
-                    </monogr><idno type="nines">pb1match00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                    </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>A Match</title>
                      <author>
                             <persName ref="#acs">Algernon Charles Swinburne</persName>

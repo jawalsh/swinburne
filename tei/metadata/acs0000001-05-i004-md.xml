@@ -224,7 +224,7 @@
 							                 <biblScope unit="page"> 55-57 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sisafter00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>After Nine Years</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

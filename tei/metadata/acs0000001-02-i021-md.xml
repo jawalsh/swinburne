@@ -215,7 +215,7 @@
 							                 <biblScope unit="page"> 140-143 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sbsmatrd00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>Mater Dolorosa</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

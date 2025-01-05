@@ -209,7 +209,7 @@
                             <biblScope unit="page">326-338</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
-                  </monogr><idno type="nines">soscymdc00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>The Garden of Cymodoce</title>
                      <author>
                             <persName ref="#acs">Algernon Charles Swinburne</persName>

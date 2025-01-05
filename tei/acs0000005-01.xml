@@ -495,7 +495,7 @@
                     </docTitle>
                     <docAuthor rendition="#uc #center #block" rend="margin-top:4em;">
                       <hi rendition="#small">By</hi> <lb/>
-                      <persName ref="##acs">Algernon Charles Swinburne</persName>
+                      <persName ref="#acs">Algernon Charles Swinburne</persName>
                     </docAuthor>
                     <docImprint rendition="#uc #center" rend="margin-top:6em;">
                       <pubPlace rendition="#block">London</pubPlace>
@@ -6363,7 +6363,7 @@
                                         </div>
                                         <pb xml:id="d1e4054" n="207" facs="acs0000005-01-224"/>
                                         <!-- <fw type="header" rendition="#center">A Year's Letters</fw> -->
-                                        <div xml:id="lcc_xv">
+                                        <div xml:id="lcc_xxv">
   <index xml:id="d1e4061" indexName="nav"/>
                                                 <head xml:id="d1e4063" rendition="#center">XXV<lb xml:id="d1e4065"/>
                                                   <hi xml:id="d1e4067" rendition="#sc">Reginald Harewood to Edward

@@ -214,7 +214,7 @@
 							                 <biblScope unit="page"> 171 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sbscorcr00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>Cor Cordium</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

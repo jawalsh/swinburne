@@ -214,7 +214,7 @@
 							                 <biblScope unit="page"> 144-150 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sbsmatrt00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>Mater Triumphalis</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

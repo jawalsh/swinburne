@@ -8,7 +8,7 @@
                     <persName ref="#anonymous">Anonymous</persName>
                 </author>
                 <editor role="editor">
-                    <persName xml:id="jawalsh" ref="#jawalsh">John A. Walsh</persName>
+                    <persName ref="#jawalsh">John A. Walsh</persName>
                 </editor>
                 <respStmt>
                     <resp>Encoded by</resp>

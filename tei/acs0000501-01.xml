@@ -24,12 +24,12 @@
                 Walsh</editor></bibl>, is freely licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0
             Unported License</ref>. </p>
 </availability>
-                <idno type="nines"><!-- old ID -->uclintro00</idno>
+                
             </publicationStmt>
             <sourceDesc>
+                <bibl>This TEI XML document is the original source.</bibl>
 					<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/meta-listBibl.xml"/><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/meta-listPerson.xml"/><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/meta-listOrg.xml"/><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/meta-listEvent.xml"/><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/meta-listPlace.xml"/>
-				
-                <p> This TEI XML document is the original source. </p>
+                
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
