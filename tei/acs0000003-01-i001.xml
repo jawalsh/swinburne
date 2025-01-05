@@ -329,23 +329,13 @@
             <xi:include href="includes/tagsDecl.xml"/>
             <p><note n="true" xml:id="hasPageImages"/></p>
         </encodingDesc>
-      <revisionDesc>
+      <revisionDesc status="published">        <change when="2025-01-05" who="#jawalsh">Proofed</change>         
          
-         <change n="svninfo">
-                        $Id$
-                        $Rev$
-                        $Date$
-                        $Author$
-                    </change>
+         
       
          
             <change when="2008-10-12">Updated XInclude links to reflect to ID scheme.</change>
-            <change n="svninfo">
-                $Id: acs0000001-01.xml 1040 2009-11-08 21:31:57Z jawalsh $
-                $Rev: 1040 $
-                $Date: 2009-11-08 16:31:57 -0500 (Sun, 08 Nov 2009) $
-                $Author: jawalsh $
-            </change>
+            
         
       </revisionDesc>
    </teiHeader>

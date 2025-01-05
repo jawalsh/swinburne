@@ -333,8 +333,8 @@
             <xi:include href="includes/tagsDecl.xml"/>
             <p><note n="true" xml:id="hasPageImages"/></p>
         </encodingDesc>
-      <revisionDesc status="published">
-       	<change when="2025-01-05" who="#jawalsh">Proofed</change>  
+      <revisionDesc status="published">        <change when="2025-01-05" who="#jawalsh">Proofed</change>         
+       	  
       </revisionDesc>
    </teiHeader>
    <standOff>
