@@ -51,7 +51,7 @@
 							                 <biblScope unit="page"> 83-110 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sisnorth00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>By the North Sea</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

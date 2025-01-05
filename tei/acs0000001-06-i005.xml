@@ -347,10 +347,7 @@
                 <xi:include href="includes/tagsDecl.xml"/>
             </encodingDesc>
       <revisionDesc>
-         inclusion of revisionDesc content from metadata file metadata/acs0000001-06-i005-md.xml failed
-         
                 <change when="2013-10-31" who="#jawalsh">Corrected typo in transcriptions. Changed "brig is" to "brightens" in l. 7 of “Astrophel.” Correction submitted by Michael Fantina <ptr target="mailto:michaelfantina@gmail.com"/>.</change>
-            
       </revisionDesc>
    </teiHeader>
    <standOff>

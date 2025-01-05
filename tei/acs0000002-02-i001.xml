@@ -5662,15 +5662,7 @@
           </div>
         </body>
         <back>
-          <trailer>EXPLICIT.</trailer> <!-- canurk: What is this? -->
+          <trailer>EXPLICIT.</trailer>
         </back>
-      
-      <back>
-         <trailer>EXPLICIT.</trailer>
-         <div n="[notes]">
-            <!--DEBUG: No notes-->
-         </div>
-         <!--DEBUG: No commentary-->
-      </back>
    </text>
 </TEI>

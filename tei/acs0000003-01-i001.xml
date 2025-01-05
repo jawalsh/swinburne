@@ -38,17 +38,17 @@
             <xi:include href="includes/meta-listBibl.xml"/><xi:include href="includes/meta-listPerson.xml"/><xi:include href="includes/meta-listOrg.xml"/><xi:include href="includes/meta-listEvent.xml"/><xi:include href="includes/meta-listPlace.xml"/>
 	    <msDesc>
 		    <msIdentifier>
+			    <region>New York</region>
 			    <settlement>Syracuse</settlement>
-			    <region>New York>
+			    <institution>Syracuse University</institution>
 			    <repository>Special Collections Reseach Center</repository>
 			    <collection>Algernon Charles Swinburne Collection</collection>
-			    <institution>Syracuse University</institution>
 		    </msIdentifier>
 		    <msContents>
 			    <msItem>
 			    <author>Algernon Charles Swinburne</author>
 			    <title>Rondel</title>
-			    <msItem>
+		    </msItem>
 			    </msContents>
 			    
 	    </msDesc>
