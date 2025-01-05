@@ -51,6 +51,18 @@
             </xsl:attribute>
           </meta>
         </xsl:if>
+        <xsl:choose>
+          <xsl:when test="/TEI/teiHeader/revisionDesc/@status">
+            <meta name="status">
+              <xsl:attribute name="content">
+                <xsl:value-of select="/TEI/teiHeader/revisionDesc/@status"/>
+              </xsl:attribute>
+            </meta>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:message>NO publication status documented!!!</xsl:message>
+          </xsl:otherwise>
+        </xsl:choose>
         <xsl:call-template name="searchMeta"/>
         <style type="text/css">
           <xsl:for-each select="teiHeader/encodingDesc/tagsDecl/rendition">
@@ -284,12 +296,12 @@
     <xsl:element name="div">
       <xsl:apply-templates mode="create-attributes" select="."/>
       <xsl:choose>
-	      <xsl:when test="@copyOf">
-		      <xsl:apply-templates mode="create-content" select="id($copiedElementID)"/>
-	      </xsl:when>
-	      <xsl:otherwise>
-		      <xsl:apply-templates mode="create-content" select="."/>
-	      </xsl:otherwise>
+        <xsl:when test="@copyOf">
+          <xsl:apply-templates mode="create-content" select="id($copiedElementID)"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates mode="create-content" select="."/>
+        </xsl:otherwise>
       </xsl:choose>
     </xsl:element>
   </xsl:template>
@@ -439,8 +451,8 @@
   </xsl:template>
   <xsl:template match="graphic">
     <xsl:element name="img">
-	    <xsl:attribute name="src" select="swinburne:expand-reference(@url)"/>
-	    <xsl:attribute name="alt" select="string(../figDesc)"/> 
+      <xsl:attribute name="src" select="swinburne:expand-reference(@url)"/>
+      <xsl:attribute name="alt" select="string(../figDesc)"/>
     </xsl:element>
   </xsl:template>
   <!-- glossed terms -->
@@ -659,21 +671,21 @@
 <meta name="Date of publication" class="staticSearch_date" content="1895-01-05"/>	
 	  -->
     <meta name="docDate">
-	    <xsl:attribute name="content">
-		    <xsl:choose>
-			    <xsl:when test="//date[@xml:id = 'sort_date']">
-				    <xsl:value-of select="//date[@xml:id = 'sort_date']/@when"/>
-			    </xsl:when>
-			    <xsl:otherwise>
-		    <xsl:value-of select="$base-text/monogr/imprint/date/@when"/>
-	    </xsl:otherwise>
-    </xsl:choose>
-  	    </xsl:attribute>
+      <xsl:attribute name="content">
+        <xsl:choose>
+          <xsl:when test="//date[@xml:id = 'sort_date']">
+            <xsl:value-of select="//date[@xml:id = 'sort_date']/@when"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="$base-text/monogr/imprint/date/@when"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
     </meta>
     <meta name="docTitle">
-	    <xsl:attribute name="content">
-		    <xsl:value-of select="normalize-space(/TEI/teiHeader/fileDesc/titleStmt/title)"/>
-	    </xsl:attribute>
+      <xsl:attribute name="content">
+        <xsl:value-of select="normalize-space(/TEI/teiHeader/fileDesc/titleStmt/title)"/>
+      </xsl:attribute>
     </meta>
   </xsl:template>
 </xsl:stylesheet>

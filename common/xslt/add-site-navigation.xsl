@@ -39,6 +39,9 @@
   <!-- insert boiler plate into the body -->
   <xsl:template match="body">
     <xsl:copy>
+	    <xsl:if test="/html/head/meta[@name = 'status']/@content = 'published'">
+		    <xsl:attribute name="data-pagefind-body" select="'data-pagefind-body'"/>
+	    </xsl:if>
       <xsl:apply-templates select="@*"/>
       <!-- masthead -->
       <header class="sticky-top">
