@@ -197,6 +197,10 @@ h1.tei-head, h2.tei-head, h3.tei-head, h4.tei-head, h5.tei-head, h6.tei-head {
 	font-weight: inherit;
 }
 
+h2.tei-head + h2.tei-head {
+font-size: 100%;
+}
+
 // Element handling
 
 #toc, #doc-info {
