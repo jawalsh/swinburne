@@ -1,12 +1,16 @@
 <?xml version="1.0"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:chymistry="tag:conaltuohy.com,2018:chymistry" xmlns:swinburne="tag:biblicon.org,2024:swinburne" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/1999/xhtml" version="3.0" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:chymistry="tag:conaltuohy.com,2018:chymistry"
+  xmlns:swinburne="tag:biblicon.org,2024:swinburne" xmlns:tei="http://www.tei-c.org/ns/1.0"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/1999/xhtml" version="3.0"
+  xpath-default-namespace="http://www.tei-c.org/ns/1.0">
   <!-- transform a TEI document into an HTML page-->
   <!--<xsl:import href="render-metadata.xsl"/>-->
   <xsl:import href="config.xsl"/>
   <xsl:param name="google-api-key"/>
   <xsl:param name="server" select="'biblicon.org'"/>
   <xsl:param name="context"/>
-  <xsl:variable name="base-text" select="//biblStruct[@xml:id = concat(/TEI/@xml:id,'-bibl')]"/>
+  <xsl:variable name="base-text" select="//biblStruct[@xml:id = concat(/TEI/@xml:id, '-bibl')]"/>
   <xsl:param name="site-dir">
     <xsl:choose>
       <xsl:when test="$context = ''">
@@ -19,13 +23,16 @@
   </xsl:param>
   <xsl:param name="line-num-frequency" select="10"/>
   <xsl:key name="rendition-by-id" match="teiHeader/encodingDesc/tagsDecl/rendition" use="@xml:id"/>
-  <xsl:key name="rendition-by-selector" match="teiHeader/encodingDesc/tagsDecl/rendition" use="@selector"/>
+  <xsl:key name="rendition-by-selector" match="teiHeader/encodingDesc/tagsDecl/rendition"
+    use="@selector"/>
   <xsl:param name="doc-id" select="/TEI/@xml:id"/>
   <xsl:key name="char-by-ref" match="char[@xml:id]" use="concat('#', @xml:id)"/>
   <!-- TODO shouldn't the title be a string constructed from msIdentifer? -->
-  <xsl:variable name="title" select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/title"/>
+  <xsl:variable name="title"
+    select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/title"/>
   <!-- get the IIIF manifest -->
-  <xsl:variable name="embedded-manifest-uri" select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno[@type='iiif-manifest']"/>
+  <xsl:variable name="embedded-manifest-uri"
+    select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno[@type = 'iiif-manifest']"/>
   <xsl:template match="/tei:TEI">
     <html class="tei">
       <xsl:attribute name="xml:id">
@@ -129,7 +136,7 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-  <xsl:template mode="toc" match="sourceDesc[@n='table-of-contents']">
+  <xsl:template mode="toc" match="sourceDesc[@n = 'table-of-contents']">
     <div id="toc">
       <nav class="toc">
         <xsl:apply-templates select="bibl" mode="toc"/>
@@ -151,11 +158,13 @@
 			document. This ensures that the current document is visible by default when
 			the web page loads.
 			-->
-      <xsl:if test="     some $component-reference in       .//bibl/ref/@target     satisfies       $component-reference =&gt; substring-after('document:') = /TEI/@xml:id    ">
+      <xsl:if test="
+          some $component-reference in .//bibl/ref/@target
+            satisfies $component-reference =&gt; substring-after('document:') = /TEI/@xml:id">
         <xsl:attribute name="open">open</xsl:attribute>
       </xsl:if>
       <summary>
-        <xsl:apply-templates mode="toc" select="ref|title"/>
+        <xsl:apply-templates mode="toc" select="ref | title"/>
       </summary>
       <ul>
         <xsl:for-each select="relatedItem">
@@ -172,7 +181,8 @@
   </xsl:template>
   <xsl:template mode="toc" match="title">
     <cite>
-      <xsl:if test="parent::bibl/descendant::ref[substring-after(@target, 'document:') = /TEI/@xml:id]">
+      <xsl:if
+        test="parent::bibl/descendant::ref[substring-after(@target, 'document:') = /TEI/@xml:id]">
         <xsl:attribute name="class">current</xsl:attribute>
       </xsl:if>
       <xsl:apply-templates mode="toc"/>
@@ -186,10 +196,11 @@
       <xsl:apply-templates mode="toc"/>
     </a>
   </xsl:template>
-  <xsl:variable name="introduction" select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/note[@type='introduction']"/>
+  <xsl:variable name="introduction"
+    select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/note[@type = 'introduction']"/>
   <xsl:template match="teiHeader">
     <xsl:param name="html-link">
-      <xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$doc-id,'.html')"/>
+      <xsl:value-of select="concat('https://', $server, '/', $site-dir, '/', $doc-id, '.html')"/>
     </xsl:param>
     <div id="doc-meta">
       <div class="tei-teiHeader">
@@ -199,11 +210,18 @@
           <xsl:apply-templates select="fileDesc/sourceDesc/msDesc/physDesc/objectDesc/supportDesc"/>
           <xsl:apply-templates select="profileDesc/langUsage"/>
           <xsl:apply-templates select="fileDesc/sourceDesc/msDesc/history"/>
-          <xsl:if test="//biblStruct[@xml:id = concat(/TEI/@xml:id,'-bibl')]">
-            <div><h2>Source description</h2>
-						The text below is based on that found in:						<div class="bibl"><xsl:choose><xsl:when test="$base-text/analytic"><xsl:call-template name="lookup-persName-by-id"><xsl:with-param name="ref" select="$base-text/analytic/author/persName/@ref"/></xsl:call-template><xsl:value-of select="'. '"/><xsl:value-of select="string-join(('&#x2018;',$base-text/analytic/title,'.','&#x2019;'))"/><cite><xsl:value-of select="string-join(($base-text/monogr/title,'. '))"/></cite><xsl:value-of select="string-join(($base-text/monogr/imprint/pubPlace,': ',$base-text/monogr/imprint/publisher,', ',$base-text/monogr/imprint/date/@when,'.'))"/></xsl:when><xsl:otherwise/></xsl:choose></div>
-	
-					</div>
+          <xsl:if test="//biblStruct[@xml:id = concat(/TEI/@xml:id, '-bibl')]">
+            <div><h2>Source description</h2> The text below is based on that found in: <div
+                class="bibl"><xsl:choose><xsl:when test="$base-text/analytic"><xsl:call-template
+                      name="lookup-persName-by-id"><xsl:with-param name="ref"
+                        select="$base-text/analytic/author/persName/@ref"
+                      /></xsl:call-template><xsl:value-of select="'. '"/><xsl:value-of
+                      select="string-join(('&#x2018;', $base-text/analytic/title, '.', '&#x2019;'))"
+                        /><cite><xsl:value-of select="string-join(($base-text/monogr/title, '. '))"
+                      /></cite><xsl:value-of
+                      select="string-join(($base-text/monogr/imprint/pubPlace, ': ', $base-text/monogr/imprint/publisher, ', ', $base-text/monogr/imprint/date/@when, '.'))"
+                    /></xsl:when><xsl:otherwise/></xsl:choose></div>
+            </div>
           </xsl:if>
           <xsl:apply-templates select="fileDesc/titleStmt/respStmt"/>
           <div>
@@ -215,13 +233,13 @@
                 </xsl:call-template>
                 <xsl:value-of select="'. '"/>
               </xsl:for-each>
-              <xsl:value-of select="concat(normalize-space(fileDesc/titleStmt/title),'. ')"/>
+              <xsl:value-of select="concat(normalize-space(fileDesc/titleStmt/title), '. ')"/>
               <cite>The Algernon Charles Swinburne Project</cite>
               <!-- editor -->
               <xsl:text>.  Ed. </xsl:text>
-              <xsl:value-of select="concat(normalize-space(fileDesc/titleStmt/editor),'. ')"/>
+              <xsl:value-of select="concat(normalize-space(fileDesc/titleStmt/editor), '. ')"/>
               <xsl:text>Retrieved </xsl:text>
-              <xsl:value-of select="format-dateTime($now, '[MNn] [D], [Y]', 'en', (),() )"/>
+              <xsl:value-of select="format-dateTime($now, '[MNn] [D], [Y]', 'en', (), ())"/>
               <xsl:text> from: </xsl:text>
               <a href="{$html-link}">
                 <xsl:value-of select="$html-link"/>
@@ -233,7 +251,7 @@
     </div>
   </xsl:template>
   <xsl:template match="titleStmt/respStmt" mode="create-content">
-    <xsl:if test="name/@type=('editor', 'reviewer', 'transcriber')">
+    <xsl:if test="name/@type = ('editor', 'reviewer', 'transcriber')">
       <h2 class="d-inline"><xsl:value-of select="resp"/>:</h2>
       <xsl:value-of select="name"/>
     </xsl:if>
@@ -247,13 +265,13 @@
     <xsl:apply-templates/>
   </xsl:template>
   <xsl:template match="msItem/title" mode="create-content">
-    <xsl:if test="position()=1">
+    <xsl:if test="position() = 1">
       <!-- only add "TItle:" before the first title -->
       <h2 class="d-inline">Title:</h2>
     </xsl:if>
     <xsl:apply-templates/>
   </xsl:template>
-  <xsl:template match="msItem/note[@type='description']" mode="create-content">
+  <xsl:template match="msItem/note[@type = 'description']" mode="create-content">
     <h2 class="d-inline">Contents:</h2>
     <xsl:apply-templates/>
   </xsl:template>
@@ -267,7 +285,7 @@
   </xsl:template>
   <xsl:template match="langUsage/language">
     <xsl:value-of select="."/>
-    <xsl:if test="not(position()=last())">, </xsl:if>
+    <xsl:if test="not(position() = last())">, </xsl:if>
   </xsl:template>
   <!-- handle line numbers: l/@n (if @n is divisible by 10) should be displayed floating off to the right of the line -->
   <xsl:template match="l" mode="create-attributes">
@@ -280,19 +298,21 @@
   <!-- TEI "phrase-level", model.global.edit, "gLike", and "lLike" elements are mapped to html:span -->
   <!-- Also tei:label since it is only used in the chymistry corpus with phrase content -->
   <!-- Also tei:q, tei:quote -->
-  <xsl:template priority="-0.1" match="bibl |   author | fw   |   binaryObject | formula | graphic | media | code | distinct | emph | foreign | gloss | ident | mentioned |    soCalled | term | title | hi | caesura | rhyme | address | affiliation | email | date | time | depth | dim |    geo | height | measure | measureGrp | num | unit | width | name | orgName | persName | geogFeat |   offset | addName | forename | genName | nameLink | roleName | surname | bloc | country | district |    geogName | placeName | region | settlement | climate | location | population | state | terrain | trait |    idno | lang | objectName | rs | abbr | am | choice | ex | expan | subst | add | corr | damage | del |    handShift | mod | orig | redo | reg | restore | retrace | secl | sic | supplied | surplus | unclear | undo |    catchwords | dimensions | heraldry | locus | locusGrp | material | objectType | origDate | origPlace |    secFol | signatures | stamp | watermark | att | gi | tag | val | ptr | ref | oRef | pRef | c | cl | m | pc |    phr | s | seg | w | specDesc | specList   |   addSpan | app | damageSpan | delSpan | gap | space | witDetail   |   g   |   l   |   label   |   q   |   quote   |   biblScope   |   publisher   |   pubPlace   |   street  ">
+  <xsl:template priority="-0.1"
+    match="bibl | author | fw | binaryObject | formula | graphic | media | code | distinct | emph | foreign | gloss | ident | mentioned | soCalled | term | title | hi | caesura | rhyme | address | affiliation | email | date | time | depth | dim | geo | height | measure | measureGrp | num | unit | width | name | orgName | persName | geogFeat | offset | addName | forename | genName | nameLink | roleName | surname | bloc | country | district | geogName | placeName | region | settlement | climate | location | population | state | terrain | trait | idno | lang | objectName | rs | abbr | am | choice | ex | expan | subst | add | corr | damage | del | handShift | mod | orig | redo | reg | restore | retrace | secl | sic | supplied | surplus | unclear | undo | catchwords | dimensions | heraldry | locus | locusGrp | material | objectType | origDate | origPlace | secFol | signatures | stamp | watermark | att | gi | tag | val | ptr | ref | oRef | pRef | c | cl | m | pc | phr | s | seg | w | specDesc | specList | addSpan | app | damageSpan | delSpan | gap | space | witDetail | g | l | label | q | quote | biblScope | publisher | pubPlace | street">
     <xsl:element name="span">
       <xsl:apply-templates mode="create-attributes" select="."/>
       <xsl:apply-templates mode="create-content" select="."/>
     </xsl:element>
   </xsl:template>
   <!-- suppressed elements -->
-  <xsl:template match="pb|figDesc"/>
+  <xsl:template match="pb | figDesc"/>
   <!-- TODO how to deal with tei:join? -->
   <xsl:template match="join"/>
   <!-- non-phrase-level TEI elements (plus author and title within the item description) are mapped to html:div -->
-  <xsl:template match="* | fileDesc/sourceDesc/msDesc/msContents/msItem/author | fileDesc/sourceDesc/msDesc/msContents/msItem/title | back//note[@copyOf]">
-    <xsl:param name="copiedElementID" select="substring-after(@copyOf,'#')"/>
+  <xsl:template
+    match="* | fileDesc/sourceDesc/msDesc/msContents/msItem/author | fileDesc/sourceDesc/msDesc/msContents/msItem/title | back//note[@copyOf]">
+    <xsl:param name="copiedElementID" select="substring-after(@copyOf, '#')"/>
     <xsl:element name="div">
       <xsl:apply-templates mode="create-attributes" select="."/>
       <xsl:choose>
@@ -308,7 +328,27 @@
   <xsl:variable name="tag-usage" select="/TEI/teiHeader/encodingDesc/tagsDecl/namespace/tagUsage"/>
   <!-- populate an HTML element's set of attributes -->
   <xsl:template mode="create-attributes" match="*">
-    <xsl:attribute name="class" select="    string-join(     (      concat('tei-', local-name()),      for $type in tokenize(@type) return concat('type-', $type),      for $place in tokenize(@place) return concat('place-', $place),      for $rendition in tokenize(       if (@rendition) then @rendition else $tag-usage[@gi=local-name(current())]/@rendition      ) return concat('rendition-', substring-after($rendition, '#')),      if (@hand) then 'hand' else ()     ),     ' '    )   "/>
+    <xsl:attribute name="class" select="
+        string-join((concat('tei-', local-name()),
+        for $type in tokenize(@type)
+        return
+          concat('type-', $type),
+        for $place in tokenize(@place)
+        return
+          concat('place-', $place),
+        for $resp in tokenize(@resp)
+        return
+          concat('resp-', substring-after($resp, '#')),
+        for $rendition in tokenize(if (@rendition) then
+          @rendition
+        else
+          $tag-usage[@gi = local-name(current())]/@rendition)
+        return
+          concat('rendition-', substring-after($rendition, '#')),
+        if (@hand) then
+          'hand'
+        else
+          ()), ' ')"/>
     <xsl:for-each select="@rend">
       <xsl:attribute name="style" select="."/>
     </xsl:for-each>
@@ -328,7 +368,13 @@
   <xsl:variable name="expansions" select="/TEI/teiHeader/encodingDesc/listPrefixDef/prefixDef"/>
   <xsl:function name="swinburne:expand-reference">
     <xsl:param name="reference"/>
-    <xsl:sequence select="    let      (: the expansion to use is the first one whose @ident matches the prefix used in the reference :)     $expansion := head($expansions[starts-with($reference, concat(@ident, ':'))])    return      if ($expansion) then      (: use the expansion's regex to expand and replace the reference :)      replace(       substring-after($reference, ':'),        $expansion/@matchPattern,        $expansion/@replacementPattern      )     else      (: no expansion matches the reference's prefix; the reference is already, by assumption, a usable URI :)      $reference              "/>
+    <xsl:sequence select="
+        let (: the expansion to use is the first one whose @ident matches the prefix used in the reference :) $expansion := head($expansions[starts-with($reference, concat(@ident, ':'))])
+        return
+          if ($expansion) then (: use the expansion's regex to expand and replace the reference :)
+            replace(substring-after($reference, ':'), $expansion/@matchPattern, $expansion/@replacementPattern)
+          else (: no expansion matches the reference's prefix; the reference is already, by assumption, a usable URI :)
+            $reference"/>
   </xsl:function>
   <xsl:key name="hand-note-by-reference" match="handNote" use="concat('#', @xml:id)"/>
   <!-- populate an HTML element's content -->
@@ -353,11 +399,13 @@
   </xsl:template>
   <xsl:template match="gap" mode="create-attributes">
     <xsl:next-match/>
-    <xsl:attribute name="title" select="    string-join(     (      'illegible; reason:',      @reason,      @extent     ),     ' '    )   "/>
+    <xsl:attribute name="title" select="string-join(('illegible; reason:', @reason, @extent), ' ')"
+    />
   </xsl:template>
   <xsl:template match="unclear[@reason]" mode="create-attributes">
     <xsl:next-match/>
-    <xsl:attribute name="title" select="    string-join(     (      'illegible; reason:',      @reason,      @extent     ),     ' '    )   "/>
+    <xsl:attribute name="title" select="string-join(('illegible; reason:', @reason, @extent), ' ')"
+    />
   </xsl:template>
   <!-- capture the original version of regularized text in a data-orig attribute  -->
   <!-- so that the text content is regularized for index, searching, and highlight, -->
@@ -366,7 +414,7 @@
 		EXCEPT that the original form is not captured for choices which are about end of line
 		hyphenation; without the data-orig value, the regularized form (without hyphen) will be displayed
 	-->
-  <xsl:template match="choice[not(@n='eol')][orig]" mode="create-attributes" priority="999">
+  <xsl:template match="choice[not(@n = 'eol')][orig]" mode="create-attributes" priority="999">
     <xsl:attribute name="data-orig" select="orig"/>
     <xsl:next-match/>
   </xsl:template>
@@ -391,7 +439,7 @@
   <!-- quantified significant white space -->
   <xsl:template match="space[@quantity castable as xs:integer]" mode="create-content">
     <xsl:choose>
-      <xsl:when test="@dim='vertical'">
+      <xsl:when test="@dim = 'vertical'">
         <xsl:for-each select="1 to @quantity">
           <lb/>
         </xsl:for-each>
@@ -412,7 +460,7 @@
   </xsl:template>
   <!-- page breaks -->
   <xsl:key name="surface-by-id" match="surface[@xml:id]" use="@xml:id"/>
-  <xsl:template match="milestone[@unit='folio'][@xml:id]">
+  <xsl:template match="milestone[@unit = 'folio'][@xml:id]">
     <xsl:element name="figure">
       <xsl:apply-templates mode="create-attributes" select="."/>
       <xsl:element name="figcaption">
@@ -461,14 +509,16 @@
   <xsl:template match="term[@corresp]" mode="create-attributes">
     <xsl:variable name="gloss">
       <div class="entry">
-        <xsl:apply-templates select="key('entry-by-id', substring-after(@corresp, 'glossary:'))/node()"/>
+        <xsl:apply-templates
+          select="key('entry-by-id', substring-after(@corresp, 'glossary:'))/node()"/>
       </div>
     </xsl:variable>
-    <xsl:attribute name="title" select=" serialize($gloss)"/>
+    <xsl:attribute name="title" select="serialize($gloss)"/>
     <xsl:next-match/>
   </xsl:template>
   <!-- bibliographic citations -->
-  <xsl:key name="citation-by-id" match="/TEI/teiHeader/fileDesc/sourceDesc/listBibl/biblStruct[@xml:id]" use="@xml:id"/>
+  <xsl:key name="citation-by-id"
+    match="/TEI/teiHeader/fileDesc/sourceDesc/listBibl/biblStruct[@xml:id]" use="@xml:id"/>
   <xsl:template match="bibl[@corresp]">
     <xsl:element name="a">
       <xsl:apply-templates mode="create-attributes" select="."/>
@@ -493,7 +543,7 @@
     <div class="citation-popup">
       <p>
         <xsl:apply-templates mode="citation-popup" select="monogr/author[*]"/>
-        <xsl:apply-templates mode="citation-popup" select="monogr/title[@type='short']"/>
+        <xsl:apply-templates mode="citation-popup" select="monogr/title[@type = 'short']"/>
         <xsl:apply-templates mode="citation-popup" select="monogr/imprint"/>
       </p>
       <p>
@@ -506,10 +556,10 @@
     </div>
   </xsl:template>
   <xsl:template mode="citation-popup" match="imprint">
-    <xsl:value-of select="    concat(     string-join(      (publisher, date),       ', '     ),     '.'    )   "/>
+    <xsl:value-of select="concat(string-join((publisher, date), ', '), '.')"/>
   </xsl:template>
-  <xsl:template mode="citation-popup" match="title[@type='short']"><cite><xsl:value-of select="."/></cite>.
-	</xsl:template>
+  <xsl:template mode="citation-popup" match="title[@type = 'short']"><cite><xsl:value-of select="."
+      /></cite>. </xsl:template>
   <xsl:template match="author" mode="citation-popup">
     <xsl:value-of select="string-join((surname, forename), ', ')"/>
     <xsl:value-of select="name"/>
@@ -530,7 +580,8 @@
       <xsl:apply-templates mode="create-attributes" select="."/>
       <xsl:variable name="current-item" select="."/>
       <!-- include a rendition of the preceding non-<item>, non-<head> siblings as part of this <li> -->
-      <xsl:apply-templates select="preceding-sibling::*[not(self::tei:item | self::tei:head)][following-sibling::tei:item[1] is $current-item]"/>
+      <xsl:apply-templates
+        select="preceding-sibling::*[not(self::tei:item | self::tei:head)][following-sibling::tei:item[1] is $current-item]"/>
       <xsl:apply-templates mode="create-content" select="."/>
     </li>
   </xsl:template>
@@ -552,7 +603,8 @@
       <xsl:apply-templates mode="create-attributes" select="."/>
       <xsl:variable name="current-row" select="."/>
       <!-- include a rendition of the preceding non-<row> siblings as part of this <tr> -->
-      <xsl:apply-templates select="preceding-sibling::*[not(self::tei:row)][following-sibling::tei:row[1] is $current-row]"/>
+      <xsl:apply-templates
+        select="preceding-sibling::*[not(self::tei:row)][following-sibling::tei:row[1] is $current-row]"/>
       <xsl:apply-templates mode="create-content" select="."/>
     </tr>
   </xsl:template>
@@ -567,7 +619,8 @@
       </xsl:if>
       <xsl:variable name="current-cell" select="."/>
       <!-- include a rendition of the preceding non-<cell> siblings as part of this <td> -->
-      <xsl:apply-templates select="preceding-sibling::*[not(self::tei:cell)][following-sibling::tei:cell[1] is $current-cell]"/>
+      <xsl:apply-templates
+        select="preceding-sibling::*[not(self::tei:cell)][following-sibling::tei:cell[1] is $current-cell]"/>
       <xsl:apply-templates mode="create-content" select="."/>
     </td>
   </xsl:template>
@@ -588,7 +641,8 @@
     <!-- a link to an annotation -->
     <xsl:element name="a">
       <xsl:apply-templates mode="create-attributes" select="."/>
-      <xsl:attribute name="title" select="substring-after(@target, '#') =&gt; id() =&gt; normalize-space()"/>
+      <xsl:attribute name="title"
+        select="substring-after(@target, '#') =&gt; id() =&gt; normalize-space()"/>
       <xsl:apply-templates mode="create-content" select="."/>
     </xsl:element>
   </xsl:template>
@@ -603,7 +657,9 @@
       </xsl:when>
       <xsl:when test="$element/@target">
         <!-- element doesn't have an id, but it has a target, so we can use that as the base and ensure uniqueness by appending a counter -->
-        <xsl:attribute name="id" select="      concat(       substring-after($element/@target, '#'),       '-ref-',        1 + count($element/preceding::*[@target=$element/@target])      )"/>
+        <xsl:attribute name="id"
+          select="concat(substring-after($element/@target, '#'), '-ref-', 1 + count($element/preceding::*[@target = $element/@target]))"
+        />
       </xsl:when>
     </xsl:choose>
   </xsl:function>
@@ -627,7 +683,7 @@
     -->
     <xsl:next-match/>
   </xsl:template>
-  <xsl:template match="note[@type='translation']">
+  <xsl:template match="note[@type = 'translation']">
     <span>
       <xsl:apply-templates mode="create-attributes" select="."/>
       <xsl:attribute name="title" select="normalize-space()"/>
@@ -643,14 +699,21 @@
     <xsl:param name="longitude" select="substring-after(normalize-space(.//geo), ' ')"/>
     <!--<xsl:param name="google-api-key" select="'AIzaSyC3B5gD68KIlH_n1WboUaDh3qW05TpEoFw'"/>-->
     <div style="margin-left:auto;margin-right:auto;width:430px;margin-top:1em;">
-      <iframe sandbox="allow-scripts allow-same-origin allow-popups" style="border:1px solid black;" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/view?key={$google-api-key}&amp;center={$latitude},{$longitude}&amp;zoom=18&amp;maptype=satellite"/>
+      <iframe sandbox="allow-scripts allow-same-origin allow-popups" style="border:1px solid black;"
+        width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+        src="https://www.google.com/maps/embed/v1/view?key={$google-api-key}&amp;center={$latitude},{$longitude}&amp;zoom=18&amp;maptype=satellite"
+      />
     </div>
   </xsl:template>
   <!-- Template to match <head> elements -->
   <xsl:template match="div/head">
     <xsl:variable name="ancestor-div-count" select="count(ancestor::div)"/>
     <!-- Determine the heading level (maximum of 6) -->
-    <xsl:variable name="heading-level" select="if ($ancestor-div-count &gt;= 6) then 6 else $ancestor-div-count + 1"/>
+    <xsl:variable name="heading-level" select="
+        if ($ancestor-div-count &gt;= 6) then
+          6
+        else
+          $ancestor-div-count + 1"/>
     <!-- Output the <hN> element with the content of <head> -->
     <xsl:element name="h{ $heading-level }">
       <xsl:apply-templates mode="create-attributes" select="."/>
