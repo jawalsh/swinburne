@@ -543,7 +543,9 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5">Note</h1>
+		  <h1 class="modal-title fs-5">Note
+		 	 <xsl:if test="not(contains(@class, 'resp-acs'))">(editor)</xsl:if>
+	          </h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"/>
           </div>
           <div class="modal-body">
