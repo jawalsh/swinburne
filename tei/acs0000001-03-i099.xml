@@ -962,9 +962,8 @@
                     <w lemma="full">full</w>
                     <w lemma="calm">calm's</w>
                     <w lemma="emerald">emerald</w>
-		    <w lemma="hyaline">hyaline</w><note type="dev" xml:id="note_01" resp="#jawalsh">poetic/literary a thing that is clear and translucent like
-                        glass, esp. a smooth sea or a clear sky. 2 another term for hyalin . ORIGIN
-                        mid 17th cent.: from Latin hyalinus (see hyalin ).</note>.</l>
+                    <w lemma="hyaline">hyaline</w>. <note type="dev" xml:id="note_01" resp="#jawalsh"><term rendition="#b">hyaline</term> Poetic/literary language for something clear and translucent like
+                        glass, esp. a smooth sea or a clear sky.</note></l>
                 <l n="54">
                     <w lemma="and">And</w>
                     <w lemma="from">from</w>
@@ -1896,39 +1895,7 @@
                     <w lemma="round">round</w>
                     <w lemma="and">and</w>
                     <w lemma="impend">impend</w>
-                    <note type="dev" resp="#jawalsh"> impend(1) Obs. trans. To pay to some one; to spend, expend; to
-                        apply (money); to bestow. c1486 Plumpton Corr. 67 Ye shall bynd me..to
-                        impend unto your sayd mastership our prayer and service, according unto our
-                        duety. 1494 FABYAN Chron. VII. 354 For theyr fydelytie, whiche they to vs
-                        dayly impende. 1612 STURTEVANT Metallica (1854) 60 Monie to be impended and
-                        disbursed in Charges. 1669 BOYLE Contn. New Exp. ii. (1682) Pref. 9, I am
-                        almost ashamed to tell how much was impended on these Trials. a1690 R. Law's
-                        Mem. (1818) 142 May they not also forbidd all tennants and vassals to
-                        pay..rents to them, because they know not how they will impend them?
-                        impend(2) 1. intr. To hang or be suspended (over); to overhang. (With
-                        indirect pass.) 1780 A. YOUNG Tour Irel. 290 Bulging rocks..which seem to
-                        impend in horrid forms over the lake. 1803 K. WHITE Clifton Grove 224
-                        Mournful larches o'er the wave impend. 1863 MRS. OLIPHANT Salem Ch. i. 5 Old
-                        Mr. Tufton, spiritual but homely, had been wont to impend over the desk and
-                        exhort his beloved brethren. 1878 H. S. WILSON Alp. Ascents i. 9 Impended
-                        over by great rock boulders. 2. transf. and fig. Of evil or danger: To hang
-                        threateningly or hover (over) as about to fall. 1599 MASSINGER, etc. Old Law
-                        V. i, Your father's curses, which have brought Vengeance impending on you.
-                        1706 PHILLIPS, To Impend, to hang over one's Head, as Dangers or Judgments
-                        do; to be likely to happen. 1725 POPE Odyss. II. 191 Destruction sure o'er
-                        all your heads impends. 1849 MACAULAY Hist. Eng. iv. I. 515 Great dangers
-                        impended over the ecclesiastical and civil constitution. 1853 J. H. NEWMAN
-                        Hist. Sk. (1873) II. I. i. 12 Barbarism is ever impending over the civilized
-                        world. 3. Hence, generally, To be about to happen; to be imminent or near at
-                        hand. 1674 tr. Martiniere's Voy. N. Countries 141 Giving them notice of any
-                        accident or distemper impending. 1712-14 POPE Rape Lock I. 109, I saw, alas!
-                        some dread event impend. 1744 AKENSIDE Pleas. Imag. II. 68 The same glad
-                        task Impends. 1840 THIRLWALL Greece VII. 163 A war which was believed to be
-                        impending. 4. trans. To overhang, hover over; to be imminently near to.
-                        rare. 1652 GAULE Magastrom. 354 Thine own Art..lets thee not foresee what
-                        impends thee on earth. 1670 PENN Case Lib. Consc. 6 The dreadful Judgments
-                        that now impend the Nation. 1810 SHELLEY Zastrozzi xiii. Pr. Wks. 1888 I. 86
-                        The alarming danger which impended her. </note>
+                    <note type="dev" resp="#jawalsh"> <term rendition="#b">impend</term> To hang or be suspended (over); to overhang. </note>
                     <w lemma="above">above</w>,</l>
                 <l n="165"><w lemma="imperishable">Imperishable</w>; <w lemma="and">and</w>
                     <w lemma="all">all</w>
@@ -4393,10 +4360,8 @@
                     <w lemma="than">than</w>
                     <w lemma="the">the</w>
                     <w lemma="lightning">lightning</w>
-                    <w lemma="levin">levin's</w>
-                    <note type="dev" resp="#jawalsh"> Oxford American Dictionary levin |ˈlevin| |ˌlɛvən| |ˌlɛvɪn|
-                        noun archaic lightning; thunderbolts. ORIGIN Middle English : probably of
-                        Scandinavian origin.</note>
+                    <w lemma="levin">levin’s</w>
+                    <note type="dev" resp="#jawalsh"><term rendition="#b">levin</term>Archaic term for lightning; thunderbolts.</note>
                 </l>
                 <l n="460"><w lemma="and">And</w>
                     <w lemma="breath">breath</w>
