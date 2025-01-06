@@ -21,6 +21,23 @@
     }
   },
   {
+	  "volume": {
+            "title": "Some Notes Relating to Swinburne's Funeral",
+	    "date": "2012",
+	    "author": "Terry L. Meyers",
+            "id": "acs0000504-01"
+	  }
+  }, 
+  {
+	  "volume": {
+            "title": "Supplementary Material to the Uncollected Letters of Algernon Charles Swinburne",
+	    "date": "2012",
+	    "author": "Terry L. Meyers",
+            "id": "acs0000505-01"
+	  }
+  }, 
+
+  {
     "volume": {
       "title": "Atalanta in Calydon",
       "date": "1865",
@@ -3419,12 +3436,16 @@
         {
           "work": {
             "title": "Some Notes Relating to Swinburne's Funeral",
+	    "date": "2012",
+	    "author": "Terry L. Meyers",
             "id": "acs0000504-01"
           }
         },
         {
           "work": {
             "title": "Supplementary Material to the Uncollected Letters of Algernon Charles Swinburne",
+	    "date": "2012",
+	    "author": "Terry L. Meyers",
             "id": "acs0000505-01"
           }
         },
