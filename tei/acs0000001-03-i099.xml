@@ -1895,7 +1895,7 @@
                     <w lemma="round">round</w>
                     <w lemma="and">and</w>
                     <w lemma="impend">impend</w>
-                    <note type="dev" resp="#jawalsh"> <term rendition="#b">impend</term> To hang or be suspended (over); to overhang. </note>
+                    <note xml:id="note_02" type="dev" resp="#jawalsh"> <term rendition="#b">impend</term> To hang or be suspended (over); to overhang. </note>
                     <w lemma="above">above</w>,</l>
                 <l n="165"><w lemma="imperishable">Imperishable</w>; <w lemma="and">and</w>
                     <w lemma="all">all</w>
@@ -4361,7 +4361,7 @@
                     <w lemma="the">the</w>
                     <w lemma="lightning">lightning</w>
                     <w lemma="levin">levin’s</w>
-                    <note type="dev" resp="#jawalsh"><term rendition="#b">levin</term>Archaic term for lightning; thunderbolts.</note>
+                    <note xml:id="note_03" type="dev" resp="#jawalsh"><term rendition="#b">levin</term> Archaic term for lightning; thunderbolts.</note>
                 </l>
                 <l n="460"><w lemma="and">And</w>
                     <w lemma="breath">breath</w>
