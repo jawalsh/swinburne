@@ -962,11 +962,7 @@
                     <w lemma="full">full</w>
                     <w lemma="calm">calm's</w>
                     <w lemma="emerald">emerald</w>
-                    <w lemma="hyaline">hyaline</w><note type="dev" resp="#jawalsh"> Oxford American Dictionary
-                        hyaline |ˈhīəlin; -ˌlīn| |ˌhaɪələn| |ˌhaɪəˈlaɪn| |ˌhʌɪəlɪn| |-iːn| |-ʌɪn|
-                        adjective Anatomy &amp; Zoology having a glassy, translucent appearance.
-                        • relating to, consisting of, or characterized by hyaline material. noun 1 (
-                        the hyaline) poetic/literary a thing that is clear and translucent like
+		    <w lemma="hyaline">hyaline</w><note type="dev" xml:id="note_01" resp="#jawalsh">poetic/literary a thing that is clear and translucent like
                         glass, esp. a smooth sea or a clear sky. 2 another term for hyalin . ORIGIN
                         mid 17th cent.: from Latin hyalinus (see hyalin ).</note>.</l>
                 <l n="54">
