@@ -39,7 +39,11 @@
                     <xsl:choose>
                       <xsl:when test="fn:map[@key='volume']/fn:array[@key='works']/fn:map">
                         <a class="{$a-vol-class}" data-bs-toggle="collapse" href="{concat('#',$volume-id,'-contents')}">
-                          <xsl:value-of select="concat($volume-title,' (',$volume-date,')')"/>
+                          <xsl:value-of select="concat($volume-title,' (',$volume-date,')')"/>                          <xsl:if test="not($volume-author = '')">
+                            <br/>
+			    <span class="h6"><xsl:value-of select="$volume-author"/></span>
+                          </xsl:if>
+
                         </a>
                         <div class="collapse" id="{concat($volume-id,'-contents')}">
                           <div class="ms-2 mb-2 card card-body">
@@ -100,7 +104,11 @@
                       </xsl:when>
                       <xsl:when test="fn:map[@key='volume']/fn:array[@key='contents']/fn:map">
                         <a class="{$a-vol-class}" data-bs-toggle="collapse" href="{concat('#',$volume-id,'-contents')}">
-                          <xsl:value-of select="concat($volume-title,' (',$volume-date,')')"/>
+                          <xsl:value-of select="concat($volume-title,' (',$volume-date,')')"/>                          <xsl:if test="not($volume-author = '')">
+                            <br/>
+			    <span class="h6"><xsl:value-of select="$volume-author"/></span>
+                          </xsl:if>
+
                         </a>
                         <!--
                           <xsl:attribute name="href">
