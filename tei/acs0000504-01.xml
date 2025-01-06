@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Some Notes Relating to Swinburne's Funeral</title>
+                <title>Some Notes Relating to Swinburne’s Funeral</title>
                 <author>
                     <persName ref="#meyers">Terry L. Meyers</persName>, Chancellor Professor of English <lb/>College of William and Mary
                 </author>
@@ -394,14 +394,15 @@
                 </entry>
 					</standOff>
 				
-    <text xml:id="acs0000498-01-content">
+    <text xml:id="acs0000504-01-content">
         <body>
+		<div>
             <pb n="1" rendition="#suppress" facs="dummy"/>
             <!--
             Further Notes On Swinburne’s Funeral
             by Terry L. Meyers
             -->
-<head>Some Notes Relating to Swinburne's Funeral</head>
+<head>Some Notes Relating to Swinburne’s Funeral</head>
 <head rendition="#small">By Terry L. Meyers, Chancellor Professor of English, College of William and Mary</head>
 
           <note rendition="#center #small">(Drawn from talks in July 2009 on the Isle of Wight to the Farringford Tennyson and Literary &amp; Arts Society and in <ref target="https://youtu.be/dK4zwndIB8w">November 2009 at the Georgetown University Library</ref> in connection with its centenary exhibition “A Swinburne Gallimaufry: Selections from the John S. Mayfield Papers”)</note>
@@ -774,6 +775,7 @@
                 
             </note>
             -->
+    </div>
         </body>
     </text>
 </TEI>
