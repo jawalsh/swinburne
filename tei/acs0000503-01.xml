@@ -417,7 +417,8 @@ For example:
 				
     <text xml:id="acs0000503-01-content">
         <body>
-            <pb n="1" rendition="#suppress" facs="dummy"/>
+                <head>An Introduction to Algernon Charles Swinburne</head>
+		<head>John A. Walsh</head>
             <!--
             <div>
                 <head rendition="#styled">Overview</head>
