@@ -731,6 +731,12 @@
       <xsl:apply-templates mode="create-content" select="."/>
     </xsl:element>
   </xsl:template>
+  <xsl:template match="body/head">
+    <xsl:element name="h1">
+      <xsl:apply-templates mode="create-attributes" select="."/>
+      <xsl:apply-templates mode="create-content" select="."/>
+    </xsl:element>
+  </xsl:template>
   <!-- Named template for lookup -->
   <xsl:template name="lookup-persName-by-id">
     <!-- Accept the target value as a parameter -->
