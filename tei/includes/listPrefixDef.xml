@@ -2,7 +2,7 @@
 						<!-- The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website. -->
 						<prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/>
 						<!-- The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved. -->
-						<prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/>
+						<prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="$1.html"/>
 						<!-- The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry. -->
 						<prefixDef ident="glossary" matchPattern="(.+)" replacementPattern="#$1"/>
 						<!-- The 'image' reference system points to an image resource. These references expand to the URL of the resource in the Swinburne website.. -->
