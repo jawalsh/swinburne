@@ -423,6 +423,9 @@
             <ptr target="acs0000500-md.xml"/>
         </note>-->
         <body>
+		<div>
+		<head>A Swinburne Chronology: 1837-1909</head>
+		<head>John A. Walsh</head>
             <table xml:id="chronoTable">
                 <row role="label">
                     <cell role="label">date</cell>
@@ -2714,6 +2717,7 @@
                                 <date rendition="#suppress" when="1909-06-26"/>Victoria and Albert Museum opens</item></list></cell>
                 </row>
             </table>
+    </div>
         </body>
         <back>
             <div n="works cited" rend="width:35em;">
