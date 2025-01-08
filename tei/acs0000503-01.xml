@@ -304,7 +304,8 @@ For example:
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <catRef target="#collex_genre_criticism"/><catRef xml:id="parent_vol" target="#fix"/>
+                <catRef target="#collex_genre_criticism"/>
+         	<catRef xml:id="parent_vol" target="#acsp"/>
             </textClass>
         </profileDesc>
        <revisionDesc status="published">

@@ -336,7 +336,7 @@
         <profileDesc>
             <textClass>
                 <catRef target="#collex_genre_review"/>
-                <catRef xml:id="parent_vol" target="#fix"/>
+		<catRef xml:id="parent_vol" target="#acsp"/>
             </textClass>
         </profileDesc>
         <revisionDesc status="published">
