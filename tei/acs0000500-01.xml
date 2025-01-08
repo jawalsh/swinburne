@@ -1597,14 +1597,14 @@
                     <cell role="data" rows="1" cols="1">
                         <list>
                             <item>
-                                <title><title><ref target="collection:Poems%20and%20Ballads,%20First%20Series">Poems and Ballads</ref></title></title>.
+                                <title><title><ref target="collection:pb1">Poems and Ballads</ref></title></title>.
                             </item>
                             <item><date rendition="#suppress" when="1866-08-04"/>First reviews of
-                                    <title><ref target="collection:Poems%20and%20Ballads,%20First%20Series">Poems and Ballads</ref></title> appear.</item>
-                            <item><date rendition="#suppress" when="1866-08-05"/><label rendition="#suppress">Moxon withdraws <title><ref target="collection:Poems%20and%20Ballads,%20First%20Series">Poems and Ballads</ref></title></label> Moxon decides he will no longer publish <title><ref target="collection:Poems%20and%20Ballads,%20First%20Series">Poems and Ballads</ref></title>, and Swinburne agrees to publish with John Camden Hotton</item>
+                                    <title><ref target="collection:pb1">Poems and Ballads</ref></title> appear.</item>
+                            <item><date rendition="#suppress" when="1866-08-05"/><label rendition="#suppress">Moxon withdraws <title><ref target="collection:pb1">Poems and Ballads</ref></title></label> Moxon decides he will no longer publish <title><ref target="collection:pb1">Poems and Ballads</ref></title>, and Swinburne agrees to publish with John Camden Hotton</item>
                             <item><label rendition="#suppress">Advice from Lord Lytton</label><date rendition="#suppress" from="1866-08-17" to="1866-08-24"/>Visits
                                 his friend Lord Lytton at Kenbworth. Receives advice on the
-                                firestorm surrounding <title><ref target="collection:Poems%20and%20Ballads,%20First%20Series">Poems and Ballads</ref></title>.
+                                firestorm surrounding <title><ref target="collection:pb1">Poems and Ballads</ref></title>.
                                 <!-- Rooksby 138. --></item>
                             <item><label rendition="#suppress"><title>Notes on Poems and Reviews,</title></label> Swinburne writes Notes on Poems and Reviews as a response to his
                                 critics.</item>
@@ -1784,7 +1784,7 @@
                     <cell role="data" rows="1" cols="1">
                         <list>
                             <item>
-                                <title><ref target="collection:Songs%20Before%20Sunrise">Songs before Sunrise</ref></title>.
+                                <title><ref target="collection:sbs">Songs before Sunrise</ref></title>.
                             </item>
                             <item><label rendition="#suppress">Recovery at Holmwood</label>Swinburne is removed to Holmwood 
                             by his father to recover from severe illness due to alcoholism.</item>
@@ -1913,7 +1913,7 @@
                     <cell role="data" rows="1" cols="1">
                         <list>
                             <item>
-                                <title><ref target="collection:Songs%20of%20Two%20Nations">Songs of Two Nations</ref></title>.
+                                <title><ref target="collection:sotn">Songs of Two Nations</ref></title>.
                             </item>
                             <item>
                                 <title>Essays and Studies.</title>
@@ -2025,7 +2025,7 @@
                     </cell>
                     <cell role="data" rows="1" cols="1">
                         <list>
-                            <item><title><ref target="collection:Poems%20and%20Ballads,%20Second%20Series">Poems and Ballads,  Second
+                            <item><title><ref target="collection:pb2">Poems and Ballads,  Second
                             Series</ref></title>.</item>
                             <item><date when="1878-01" rendition="#suppress"/>Stay at Glasgow with Nichol.</item>
                         </list></cell>
@@ -2094,9 +2094,9 @@
                     <cell role="data" rows="1" cols="1">
                         <list>
                             <item><title>A Study of Shakespeare.</title></item>
-                            <item><title><ref target="collection:Songs%20of%20the%20Springtides">Songs of the Springtides</ref></title>.</item>
-                            <item><title><ref target="collection:Studies%20in%20Song">Studies in Song</ref></title>.</item>
-                            <item><title><ref target="collection:The%20Heptalogia%20or%20The%20Seven%20Against%20Sense%3A%20A%20Cap%20with%20Seven%20Bells">The Heptalogia, or The Seven Against Sense</ref></title>.</item>
+                            <item><title><ref target="collection:sos">Songs of the Springtides</ref></title>.</item>
+                            <item><title><ref target="collection:sis">Studies in Song</ref></title>.</item>
+                            <item><title><ref target="collection:hept">The Heptalogia, or The Seven Against Sense</ref></title>.</item>
                         </list>
                     </cell>
                     <cell>
@@ -2154,7 +2154,7 @@
                     </cell>
                     <cell role="data" rows="1" cols="1">
                         <list>
-                            <item><title><ref target="collection:Tristram%20of%20Lyonesse%20and%20Other%20Poems">Tristram of Lyonesse and Other Poems</ref></title>.</item>
+                            <item><title><ref target="collection:tol">Tristram of Lyonesse and Other Poems</ref></title>.</item>
                             <item><label rendition="#suppress">Visits Hugo</label><date when="1872-11" rendition="#suppress"/>Swinburne and Watts visit Victor Hugo in Paris.</item>
                         </list>
                     </cell>
@@ -2181,7 +2181,7 @@
                     </cell>
                     <cell role="data" rows="1" cols="1">
                         <list>
-                            <item><title><ref target="collection:A%20Century%20of%20Roundels">A Century of Roundels</ref></title>.</item>
+                            <item><title><ref target="collection:cor">A Century of Roundels</ref></title>.</item>
                             <item><date when="1883-07" rendition="#suppress"/>At Cromer with Watts.</item>
                         </list>
                     </cell>
@@ -2212,7 +2212,7 @@
                     </cell>
                     <cell role="data" rows="1" cols="1">
                         <list>
-                            <item><title><ref target="collection:A%20Midsummer%20Holiday%20and%20Other%20Poems">A Midsummer Holiday and Other Poems</ref></title>.</item>
+                            <item><title><ref target="collection:mhop">A Midsummer Holiday and Other Poems</ref></title>.</item>
                             <item><date when="1884-07" rendition="#suppress"/>With Watts in Norfolk.</item>
                         </list>
                     </cell>
@@ -2376,7 +2376,7 @@
                     <cell role="data" rows="1" cols="1">
                         <list>
                             <item><title>A Study of Ben Jonson.</title></item>
-                            <item><title><ref target="collection:Poems%20and%20Ballads,%20Third%20Series">Poems and Ballads, Third Series</ref></title>.</item>
+                            <item><title><ref target="collection:pb3">Poems and Ballads, Third Series</ref></title>.</item>
                         </list>
                     </cell>
                     <cell>
@@ -2498,7 +2498,7 @@
                         <date when="1894"/>
                     </cell>
                     <cell role="data" rows="1" cols="1"><list>
-                        <item><title><ref target="collection:Astrophel%20and%20Other%20Poems">Astrophel and Other Poems</ref></title>.</item>
+                        <item><title><ref target="collection:aop">Astrophel and Other Poems</ref></title>.</item>
                         <item>
                         <title>Studies in Prose and Poetry</title>.</item></list></cell>
                     <cell/>
@@ -2624,7 +2624,7 @@
                     <cell role="data" rows="1" cols="1">
                         <list>
                             <item>
-                                <title><ref target="collection:A%20Channel%20Passage%20and%20Other%20Poems">A Channel Passage and Other Poems</ref></title>.
+                                <title><ref target="collection:cpop">A Channel Passage and Other Poems</ref></title>.
                             </item>
                             <item><title>The Poems of Algernon Charles Swinburne</title>, six volumes of Swinburne's collected poems.</item>
                            
