@@ -482,6 +482,10 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
   <xsl:template mode="replace-class" match="hr[contains-token(@class, 'tei-milestone')]">
     <xsl:attribute name="class">{@class} w-25 mb-4 m-auto</xsl:attribute>
   </xsl:template>
+  <xsl:template mode="replace-class" match="table[@id='chronoTable']">
+    <xsl:attribute name="class">{@class} table table-striped-columns</xsl:attribute>
+  </xsl:template>
+
   <xsl:template mode="replace-class" match="details[contains-token(@class, 'tei-bibl')]/ul/li">
     <xsl:attribute name="class">list-group-item</xsl:attribute>
   </xsl:template>
