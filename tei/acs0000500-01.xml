@@ -304,7 +304,8 @@
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <catRef target="#collex_genre_reference_works"/><catRef xml:id="parent_vol" target="#acsp"/>
+		    <catRef target="#collex_genre_reference_works"/>
+		    <catRef xml:id="parent_vol" target="#acsp"/>
             </textClass>
         </profileDesc>
         <revisionDesc status="published">        <change when="2025-01-05" who="#jawalsh">Proofed</change>         
