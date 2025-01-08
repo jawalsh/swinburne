@@ -299,12 +299,20 @@
   <!-- Also tei:label since it is only used in the chymistry corpus with phrase content -->
   <!-- Also tei:q, tei:quote -->
   <xsl:template priority="-0.1"
-    match="bibl | author | fw | binaryObject | formula | graphic | media | code | distinct | emph | foreign | gloss | ident | mentioned | soCalled | term | title | hi | caesura | rhyme | address | affiliation | email | date | time | depth | dim | geo | height | measure | measureGrp | num | unit | width | name | orgName | persName | geogFeat | offset | addName | forename | genName | nameLink | roleName | surname | bloc | country | district | geogName | placeName | region | settlement | climate | location | population | state | terrain | trait | idno | lang | objectName | rs | abbr | am | choice | ex | expan | subst | add | corr | damage | del | handShift | mod | orig | redo | reg | restore | retrace | secl | sic | supplied | surplus | unclear | undo | catchwords | dimensions | heraldry | locus | locusGrp | material | objectType | origDate | origPlace | secFol | signatures | stamp | watermark | att | gi | tag | val | ptr | ref | oRef | pRef | c | cl | m | pc | phr | s | seg | w | specDesc | specList | addSpan | app | damageSpan | delSpan | gap | space | witDetail | g | l | label | q | quote | biblScope | publisher | pubPlace | street">
+    match="respStmt | bibl | author | fw | binaryObject | formula | graphic | media | code | distinct | emph | foreign | gloss | ident | mentioned | soCalled | term | title | hi | caesura | rhyme | address | affiliation | email | date | time | depth | dim | geo | height | measure | measureGrp | num | unit | width | name | orgName | persName | geogFeat | offset | addName | forename | genName | nameLink | roleName | surname | bloc | country | district | geogName | placeName | region | settlement | climate | location | population | state | terrain | trait | idno | lang | objectName | rs | abbr | am | choice | ex | expan | subst | add | corr | damage | del | handShift | mod | orig | redo | reg | restore | retrace | secl | sic | supplied | surplus | unclear | undo | catchwords | dimensions | heraldry | locus | locusGrp | material | objectType | origDate | origPlace | secFol | signatures | stamp | watermark | att | gi | tag | val | ptr | ref | oRef | pRef | c | cl | m | pc | phr | s | seg | w | specDesc | specList | addSpan | app | damageSpan | delSpan | gap | space | witDetail | g | l | label | q | quote | biblScope | publisher | pubPlace | street">
     <xsl:element name="span">
       <xsl:apply-templates mode="create-attributes" select="."/>
       <xsl:apply-templates mode="create-content" select="."/>
     </xsl:element>
   </xsl:template>
+  <xsl:template match="date[@when and not(node())]">
+  	<xsl:element name="span">
+	  	<xsl:apply-templates mode="create-attributes" select="."/>
+      		<xsl:apply-templates mode="create-content" select="."/>
+		<xsl:value-of select="@when"/>
+	</xsl:element>
+</xsl:template>
+
   <!-- suppressed elements -->
   <xsl:template match="pb | figDesc"/>
   <!-- TODO how to deal with tei:join? -->
@@ -336,6 +344,9 @@
         for $place in tokenize(@place)
         return
           concat('place-', $place),
+        for $role in tokenize(@role)
+	return
+	  concat('role-', $role),
         for $resp in tokenize(@resp)
         return
           concat('resp-', substring-after($resp, '#')),
