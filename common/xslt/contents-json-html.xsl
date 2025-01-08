@@ -164,6 +164,7 @@
             </div>
           </div>
         </main>
+	<script src="js/openContents.js"/>
       </body>
     </html>
   </xsl:template>
