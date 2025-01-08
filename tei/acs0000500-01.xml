@@ -423,8 +423,6 @@
             <ptr target="acs0000500-md.xml"/>
         </note>-->
         <body>
-            <pb n="1" rendition="#suppress" facs="dummy"/>
-            <p>This chronology is also available as an <ref target="http://purl.org/swinburnearchive/chronology/">interactive timeline</ref>.</p>
             <table xml:id="chronoTable">
                 <row role="label">
                     <cell role="label">date</cell>
@@ -519,7 +517,7 @@
                         <item><bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Prout</persName>
-                            </respStmt>: <title>Skectches in France, Switzerland and
+                            </respStmt>: <title>Sketches in France, Switzerland and
                             Italy</title>.</bibl></item>
                     </list>
                     </cell>
