@@ -222,7 +222,7 @@ h6.tei-head {
   font-weight: inherit;
 }
 
-h2.tei-head + h2.tei-head, h1.tei-head + h1.tei-head {
+h2.tei-head.project-doc + h2.tei-head.project-doc, h1.tei-head.project-doc + h1.tei-head.project-doc {
   font-size: 100%;
   padding-bottom: .5rem;
   margin-bottom: 1rem;
