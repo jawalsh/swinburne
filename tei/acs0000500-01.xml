@@ -450,13 +450,13 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Carlye</author>: <title>History of the French
+                                <bibl><author>Carlye</author>: <title rendition="#i">History of the French
                                         Revolution</title>.</bibl>
                             </item>
-                            <item><bibl><author>Hugo</author>. <title>Les Voix intérieures </title>.</bibl></item>
-                            <item><bibl><author>Landor</author>. <title>The Pentameron and Pentalogia</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">Les Voix intérieures </title>.</bibl></item>
+                            <item><bibl><author>Landor</author>. <title rendition="#i">The Pentameron and Pentalogia</title>.</bibl></item>
                             <item>
-                                <bibl><author>Lockhart</author>: <title>Memoirs of the Life of Sir
+                                <bibl><author>Lockhart</author>: <title rendition="#i">Memoirs of the Life of Sir
                                         Walter
                                     Scott</title>.<!--jw: title not formatting correctly.--></bibl>
                             </item>
@@ -469,7 +469,7 @@
                             <item><bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Turner</persName>
-                            </respStmt>: <title>Interior at Petworth</title>.</bibl></item></list></cell>
+                            </respStmt>: <title rendition="#i">Interior at Petworth</title>.</bibl></item></list></cell>
                 </row>
                 <row role="data">
                     <cell rendition="#chronoTableDate">
@@ -478,8 +478,8 @@
                     <cell/>
                     <cell>
                         <list>
-                            <item><bibl><author>Dickens</author>: <title>Oliver Twist</title>.</bibl></item>
-                            <item><bibl><author>Hugo</author>. <title>Ruy Blas</title>.</bibl></item>
+                            <item><bibl><author>Dickens</author>: <title rendition="#i">Oliver Twist</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">Ruy Blas</title>.</bibl></item>
                         </list>
                     </cell>
                     <cell>
@@ -496,14 +496,14 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Carlyle</author>: <title>Chartism</title>.</bibl>
+                                <bibl><author>Carlyle</author>: <title rendition="#i">Chartism</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Darwin</author>: <title>The Voyage of the
+                                <bibl><author>Darwin</author>: <title rendition="#i">The Voyage of the
                                         Beagle</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Dickens</author>: <title>Nicholas
+                                <bibl><author>Dickens</author>: <title rendition="#i">Nicholas
                                     Nickleby</title>.</bibl>
                             </item>
                         </list>
@@ -514,14 +514,14 @@
                         <item><bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Turner</persName>
-                            </respStmt> exhibits his <title>Fighting Temeraire</title>.
+                            </respStmt> exhibits his <title rendition="#i">Fighting Temeraire</title>.
                             <!--need accent mark.--></bibl></item>
                         <item>Daguerrotype process in photography made
                         public.</item> 
                         <item><bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Prout</persName>
-                            </respStmt>: <title>Sketches in France, Switzerland and
+                            </respStmt>: <title rendition="#i">Sketches in France, Switzerland and
                             Italy</title>.</bibl></item>
                     </list>
                     </cell>
@@ -534,7 +534,7 @@
                     <cell/>
                     <cell>
                         <list>
-                            <item><bibl><author>Hugo</author>. <title>Les Rayons et les ombres </title>.</bibl></item></list>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">Les Rayons et les ombres </title>.</bibl></item></list>
                     </cell>
                     <cell>
                         <list>
@@ -552,16 +552,16 @@
                     <cell>
                         <list>
                             <item>
-                                        <bibl><author>Carlyle</author>: <title>On Heroes,
+                                        <bibl><author>Carlyle</author>: <title rendition="#i">On Heroes,
                                                 Hero-Worship and the Heroic in
                                             History</title>.</bibl>
                             </item>
                                     <item>
                                         <bibl><author>Emerson</author>:
-                                            <title>Essays</title>.</bibl>
+                                            <title rendition="#i">Essays</title>.</bibl>
                                     </item>
                                     <item>
-                                        <bibl><author>Pugin</author>: <title>The Principles of
+                                        <bibl><author>Pugin</author>: <title rendition="#i">The Principles of
                                                 Christian Architecture</title>.</bibl>
                                     </item>
                                 </list>
@@ -584,8 +584,8 @@
                     <cell/>
                     <cell>
                         <list>
-                            <item><bibl><author>Hugo</author>. <title>Le Rhin</title>.</bibl></item>
-                            <item><bibl><author>Tennyson</author>: <title>Collected Poems</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">Le Rhin</title>.</bibl></item>
+                            <item><bibl><author>Tennyson</author>: <title rendition="#i">Collected Poems</title>.</bibl></item>
                             
                         </list>
                     </cell>
@@ -606,19 +606,19 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Carlyle</author>: <title>Past and
+                                <bibl><author>Carlyle</author>: <title rendition="#i">Past and
                                     Present</title>.</bibl>
                             </item>
-                            <item><bibl><author>Hugo</author>. <title>Les Burgraves</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">Les Burgraves</title>.</bibl></item>
                             <item>
-                                <bibl><author>Mill</author>: <title>System of Logic</title>.</bibl>
+                                <bibl><author>Mill</author>: <title rendition="#i">System of Logic</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Borrow</author>: <title>The Bible in
+                                <bibl><author>Borrow</author>: <title rendition="#i">The Bible in
                                     Spain</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Ruskin</author>: <title>Modern Painters</title>.
+                                <bibl><author>Ruskin</author>: <title rendition="#i">Modern Painters</title>.
                                         <biblScope unit="volume">Vol. 1</biblScope>.</bibl>
                             </item>
                         </list>
@@ -637,22 +637,22 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Haydon</author>: <title>Lectures on Painting and
+                                <bibl><author>Haydon</author>: <title rendition="#i">Lectures on Painting and
                                         Desing</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>A. P. Stanley</author>: <title>Life of Dr.
+                                <bibl><author>A. P. Stanley</author>: <title rendition="#i">Life of Dr.
                                         Arnold</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Kinglake</author>: <title>Eothen</title>.</bibl>
+                                <bibl><author>Kinglake</author>: <title rendition="#i">Eothen</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Leigh Hunt</author>: <title>Imagination and
+                                <bibl><author>Leigh Hunt</author>: <title rendition="#i">Imagination and
                                         Fancy</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Chambers</author>: <title>Vestiges of
+                                <bibl><author>Chambers</author>: <title rendition="#i">Vestiges of
                                     Creation</title>.</bibl>
                             </item>
                         </list>
@@ -664,7 +664,7 @@
                             <item><bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Turner</persName>
-                            </respStmt>: <title>Rain, Steam, and Speed</title>.</bibl></item>
+                            </respStmt>: <title rendition="#i">Rain, Steam, and Speed</title>.</bibl></item>
                             <item><label rendition="#suppress">First cooperative store</label>The first cooperative store opens in Rochdale.</item>
                         </list> 
                     </cell>
@@ -677,10 +677,10 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Disraeli</author>: <title>Sybil</title>.</bibl>
+                                <bibl><author>Disraeli</author>: <title rendition="#i">Sybil</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>J. D. Harding</author>: <title>The Principles and
+                                <bibl><author>J. D. Harding</author>: <title rendition="#i">The Principles and
                                         Practice of Art</title>.</bibl>
                             </item>
                         </list>
@@ -699,19 +699,19 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Strauss</author>: <title>The Life of
+                                <bibl><author>Strauss</author>: <title rendition="#i">The Life of
                                     Jesus</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Grote</author>: <title>History of
+                                <bibl><author>Grote</author>: <title rendition="#i">History of
                                     Greece</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Lear</author>: <title>A Book of
+                                <bibl><author>Lear</author>: <title rendition="#i">A Book of
                                     Nonsense</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Ruskin</author>: <title>Modern Painters</title>.
+                                <bibl><author>Ruskin</author>: <title rendition="#i">Modern Painters</title>.
                                         <biblScope unit="volume">Vol. 2</biblScope>.</bibl>
                             </item>
                         </list>
@@ -732,13 +732,13 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>C. Brontë</author>: <title>Jane Eyre</title>.</bibl>
+                                <bibl><author>C. Brontë</author>: <title rendition="#i">Jane Eyre</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>E. Brontë</author>: <title>Wuthering
+                                <bibl><author>E. Brontë</author>: <title rendition="#i">Wuthering
                                     Heights</title>.</bibl>
                             </item>
-                            <item><bibl><author>Landor</author>. <title>The Hellenics of Walter Savage Landor. Enlarged and Completed</title>.</bibl></item>
+                            <item><bibl><author>Landor</author>. <title rendition="#i">The Hellenics of Walter Savage Landor. Enlarged and Completed</title>.</bibl></item>
                         </list>
                     </cell>
                     <cell>
@@ -765,20 +765,20 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Thackery</author>: <title>Vanity Fair</title>.</bibl>
+                                <bibl><author>Thackery</author>: <title rendition="#i">Vanity Fair</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Gaskell</author>: <title>Mary Barton</title>.</bibl>
+                                <bibl><author>Gaskell</author>: <title rendition="#i">Mary Barton</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Dickens</author>: <title>Dombey and
+                                <bibl><author>Dickens</author>: <title rendition="#i">Dombey and
                                     Son</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Mill</author>: <title>Principles of Political
+                                <bibl><author>Mill</author>: <title rendition="#i">Principles of Political
                                         Economy</title>.</bibl>
                             </item>
-                            <item><bibl><author>Landor</author>. <title>The Italics of Walter Savage Landor</title>.</bibl></item>
+                            <item><bibl><author>Landor</author>. <title rendition="#i">The Italics of Walter Savage Landor</title>.</bibl></item>
                         </list>
                     </cell>
                     <cell><list><item>Year of Revolutions in Europe.</item>
@@ -788,7 +788,7 @@
                         <item><label rendition="#suppress">Pre-Raphaelite Brotherhood founded</label>William Holman Hunt, John Everett Millais and Dante Gabriel Rossetti begin the
                             Pre-Raphelite Brotherhood artistic group and movement.</item>
                         <item>Marx and
-                        Engels publish <bibl><title>Communist Manifesto</title></bibl>.</item></list></cell>
+                        Engels publish <bibl><title rendition="#i">Communist Manifesto</title></bibl>.</item></list></cell>
                 </row>
                 <row role="data">
                     <cell rendition="#chronoTableDate" role="data" rows="1" cols="1">
@@ -806,14 +806,14 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Macaulay</author>: <title>History of
+                                <bibl><author>Macaulay</author>: <title rendition="#i">History of
                                     England</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Kingsley</author>: <title>Alton Locke</title>.</bibl>
+                                <bibl><author>Kingsley</author>: <title rendition="#i">Alton Locke</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Ruskin</author>: <title>The Seven Lamps of
+                                <bibl><author>Ruskin</author>: <title rendition="#i">The Seven Lamps of
                                         Architecture</title></bibl>
                             </item>
                         </list>
@@ -824,7 +824,7 @@
                         <item><bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Millais</persName>
-                            </respStmt>: <title>Isabella</title>.</bibl></item></list>
+                            </respStmt>: <title rendition="#i">Isabella</title>.</bibl></item></list>
                     </cell>
                 </row>
                 <row role="data">
@@ -836,14 +836,14 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Tennyson</author>: <title>In Memoriam</title>.</bibl>
+                                <bibl><author>Tennyson</author>: <title rendition="#i">In Memoriam</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Wordsworth</author>: <title>The
+                                <bibl><author>Wordsworth</author>: <title rendition="#i">The
                                     Prelude</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Ruskin</author>: <title>Collected Poems</title></bibl>
+                                <bibl><author>Ruskin</author>: <title rendition="#i">Collected Poems</title></bibl>
                             </item>
                         </list>
                     </cell>
@@ -857,12 +857,12 @@
                            <item><bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Millais</persName>
-                           </respStmt>: <title>Christ in the House of His Parents</title>.</bibl></item>
+                           </respStmt>: <title rendition="#i">Christ in the House of His Parents</title>.</bibl></item>
                            <item>
                         <bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Rossetti</persName>
-                        </respStmt>: <title><ref target="http://www.rossettiarchive.org/docs/s44.raw.html">Ecce Ancilla Domini</ref></title>.</bibl>
+                        </respStmt>: <title rendition="#i"><ref target="http://www.rossettiarchive.org/docs/s44.raw.html">Ecce Ancilla Domini</ref></title>.</bibl>
                            </item>
 </list>
                     </cell>
@@ -875,13 +875,13 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Mayhew</author>: <title>London Labour and the London
+                                <bibl><author>Mayhew</author>: <title rendition="#i">London Labour and the London
                                         Poor</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Ruskin</author>: <title>The Stones of Venice</title>.
+                                <bibl><author>Ruskin</author>: <title rendition="#i">The Stones of Venice</title>.
                                         <biblScope unit="volume">Vol. 1</biblScope>.
-                                        <title>Pre-Raphaelitism</title>.</bibl>
+                                        <title rendition="#i">Pre-Raphaelitism</title>.</bibl>
                             </item>
                         </list>
                     </cell>
@@ -889,13 +889,13 @@
                         <item><bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Millais</persName>
-                            </respStmt>: <title>The Return of the Dove to the Ark </title>.
-                                <title>Ophelia</title>.</bibl></item>
+                            </respStmt>: <title rendition="#i">The Return of the Dove to the Ark </title>.
+                                <title rendition="#i">Ophelia</title>.</bibl></item>
                         <item>
                         <bibl><respStmt>
                                 <resp n="artist"/>
                             <persName>William Holman Hunt</persName>
-                        </respStmt>: <title>The Hireling Shepard</title>. </bibl></item>
+                        </respStmt>: <title rendition="#i">The Hireling Shepard</title>. </bibl></item>
                         <item>Death of Turner
                         (Ruskin is a trustee of his will).</item></list> </cell>
                 </row>
@@ -909,13 +909,13 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Thackery</author>: <title>Henry Esmond</title></bibl>
+                                <bibl><author>Thackery</author>: <title rendition="#i">Henry Esmond</title></bibl>
                             </item>
                             <item>
-                                <bibl><author>Balzac</author>: <title>Maximes and pensées</title>.
+                                <bibl><author>Balzac</author>: <title rendition="#i">Maximes and pensées</title>.
                                    </bibl>
                             </item>
-                            <item><bibl><author>Hugo</author>. <title>Napoléon le Petit </title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">Napoléon le Petit </title>.</bibl></item>
                         </list>
                     </cell>
                     <cell>
@@ -923,13 +923,13 @@
                             <item><bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>William Holman Hunt</persName>
-                            </respStmt>: <title>Our English Coasts</title>. <title>The Awakening
+                            </respStmt>: <title rendition="#i">Our English Coasts</title>. <title rendition="#i">The Awakening
                             Conscience</title>.</bibl></item>
                             <item>
                         <bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Madox Brown</persName>
-                        </respStmt>: <title>The Pretty Baa-Lambs</title>. </bibl></item>
+                        </respStmt>: <title rendition="#i">The Pretty Baa-Lambs</title>. </bibl></item>
                             <item>C.H. Spurgeon
                         begins preaching at Exeter Hall, London.</item></list></cell>
                 </row>
@@ -947,16 +947,16 @@
                                 <bibl><author>Arnold</author>: <title rend="sq">The
                                         Scholar-Gipsy</title>.</bibl>
                             </item>
-                            <item><bibl><author>Hugo</author>. <title>Les Châtiments</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">Les Châtiments</title>.</bibl></item>
                             <item>
-                                <bibl><author>Ruskin</author>: <title>The Stones of Venice</title>.
+                                <bibl><author>Ruskin</author>: <title rendition="#i">The Stones of Venice</title>.
                                         <biblScope unit="volume">Vol. 2</biblScope>. </bibl></item>
                             <item>
-                                <bibl><author>Ruskin</author>: <title>The Stones
+                                <bibl><author>Ruskin</author>: <title rendition="#i">The Stones
                                         of Venice</title>. <biblScope unit="volume">Vol.
                                     3</biblScope>.</bibl>
                             </item>
-                            <item><bibl><author>Landor</author>. <title>Imaginary Conversations of Greeks and Romans</title>.</bibl></item><item><bibl><author>Landor</author>. <title>The Last Fruit off an Old Tree</title>.</bibl></item>
+                            <item><bibl><author>Landor</author>. <title rendition="#i">Imaginary Conversations of Greeks and Romans</title>.</bibl></item><item><bibl><author>Landor</author>. <title rendition="#i">The Last Fruit off an Old Tree</title>.</bibl></item>
                         </list>
                     </cell>
                     <cell/>
@@ -981,7 +981,7 @@
                                         <bibl rendition="#parens-before #parens-after"><title level="a">1. To Captain
                                                 Charles Henry Swinburne [Swinburne's
                                             father], <date when="1854-04-02">2 April 1854</date>.</title>
-                                            <title level="m">Letters</title>. <biblScope unit="volume">1</biblScope>:<biblScope unit="page">1</biblScope></bibl>
+                                            <title rendition="#i" level="m">Letters</title>. <biblScope unit="volume">1</biblScope>:<biblScope unit="page">1</biblScope></bibl>
                                     </cit>
                         </note>
                         <list>
@@ -991,14 +991,14 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Dickens</author>: <title>Hard Times</title>.</bibl>
+                                <bibl><author>Dickens</author>: <title rendition="#i">Hard Times</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Patmore</author>: <title>The Angel in the
+                                <bibl><author>Patmore</author>: <title rendition="#i">The Angel in the
                                         House</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Ruskin</author>: <title>Lectures on Art and
+                                <bibl><author>Ruskin</author>: <title rendition="#i">Lectures on Art and
                                         Architecture</title>.</bibl>
                             </item>
                         </list>
@@ -1015,14 +1015,14 @@
                                 <bibl><respStmt>
                                         <resp n="artist"/>
                                     <persName>William Holman Hunt</persName>
-                                    </respStmt>: <title>The Light of the World</title>.</bibl>
+                                    </respStmt>: <title rendition="#i">The Light of the World</title>.</bibl>
                             </item>
                             <!--
                             <item>
                                 <bibl><respStmt>
                                         <resp n="artist"/>
                                         <persName>Rossetti</persName>
-                                    </respStmt>: <title>Found</title>.</bibl>
+                                    </respStmt>: <title rendition="#i">Found</title>.</bibl>
                             </item>
                             -->
                         </list>
@@ -1039,7 +1039,7 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Browning</author>: <title>Men and
+                                <bibl><author>Browning</author>: <title rendition="#i">Men and
                                     Women</title>.</bibl>
                             </item>
                             <item>
@@ -1047,24 +1047,24 @@
                                         Grande Chartreuse</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Trollope</author>: <title>The Warden</title>.</bibl>
+                                <bibl><author>Trollope</author>: <title rendition="#i">The Warden</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Gaskell</author>: <title>North and
+                                <bibl><author>Gaskell</author>: <title rendition="#i">North and
                                     South</title>.</bibl>
                             </item>
-                            <item><bibl><author>Whitman</author>. <title><ref target="http://whitmanarchive.org/published/LG/index.html">Leaves of Grass</ref></title>.</bibl></item>
+                            <item><bibl><author>Whitman</author>. <title rendition="#i"><ref target="http://whitmanarchive.org/published/LG/index.html">Leaves of Grass</ref></title>.</bibl></item>
                         </list>
                     </cell>
                     <cell><list><item>Palmerston becomes Prime Minister (to 1858).</item>
                         <item><bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Madox Brown</persName>
-                            </respStmt>: <title>The Last of England</title>.</bibl></item>
+                            </respStmt>: <title rendition="#i">The Last of England</title>.</bibl></item>
  <item>                       <bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Hughes</persName>
- </respStmt>: <title>April Love</title>.</bibl></item>
+ </respStmt>: <title rendition="#i">April Love</title>.</bibl></item>
                         <item><label rendition="#suppress">Woodward
                             and Deane's University Museum</label>Work starts on Woodward
                         and Deane's University Museum, Oxford, an attempt at 'Ruskinian' Gothic
@@ -1088,14 +1088,14 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Froude</author>: <title>History of
+                                <bibl><author>Froude</author>: <title rendition="#i">History of
                                     England</title>.</bibl>
                             </item>
-                            <item><bibl><author>Hugo</author>. <title>Les Contemplations</title>.</bibl></item>
-                            <item><bibl><author>Landor</author>. <title>Antony and Octavius. Scenes for the Study</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">Les Contemplations</title>.</bibl></item>
+                            <item><bibl><author>Landor</author>. <title rendition="#i">Antony and Octavius. Scenes for the Study</title>.</bibl></item>
                             <item>
-                                <bibl><author>Ruskin</author>: <title>Modern Painters</title>.
-                                        <biblScope unit="volume">Vol. 3</biblScope>.<lb/> <title>Modern
+                                <bibl><author>Ruskin</author>: <title rendition="#i">Modern Painters</title>.
+                                        <biblScope unit="volume">Vol. 3</biblScope>.<lb/> <title rendition="#i">Modern
                                         Painters</title>. <biblScope unit="volume">Vol.
                                     4</biblScope>.</bibl>
                             </item>
@@ -1107,18 +1107,18 @@
                         <bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Millais</persName>
-                            </respStmt>: <title>Autumn Leaves</title>. <title>The Blind
+                            </respStmt>: <title rendition="#i">Autumn Leaves</title>. <title rendition="#i">The Blind
                             Girl</title>.</bibl></item>
                             <item>
                         <bibl><respStmt>
                                 <resp n="artist"/>
                             <persName>William Holman Hunt</persName>
-                        </respStmt>: <title>The Scapegoat</title>.</bibl></item>
+                        </respStmt>: <title rendition="#i">The Scapegoat</title>.</bibl></item>
                             <item>
                         <bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>John Brett</persName>
-                        </respStmt>: <title>The Glacier of Rosenlaui</title>. </bibl></item>
+                        </respStmt>: <title rendition="#i">The Glacier of Rosenlaui</title>. </bibl></item>
                             <item>Dissenters
                         enabled to take degrees at Cambridge.</item></list></cell>
                 </row>
@@ -1145,31 +1145,31 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Dickens</author>: <title>Little Dorrit</title>.</bibl>
+                                <bibl><author>Dickens</author>: <title rendition="#i">Little Dorrit</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Hughes</author>: <title>Tom Brown's
+                                <bibl><author>Hughes</author>: <title rendition="#i">Tom Brown's
                                     Schooldays</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Gaskell</author>: <title>Life of Charlotte
+                                <bibl><author>Gaskell</author>: <title rendition="#i">Life of Charlotte
                                         Brontë</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Barret Browning</author>: <title>Aurora
+                                <bibl><author>Barret Browning</author>: <title rendition="#i">Aurora
                                     Leigh</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Baudelaire</author>: <title>Les Fleurs du
+                                <bibl><author>Baudelaire</author>: <title rendition="#i">Les Fleurs du
                                     mal</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Flaubert</author>: <title>Madame
+                                <bibl><author>Flaubert</author>: <title rendition="#i">Madame
                                     Bovary</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Ruskin</author>: <title>The Elements of
-                                        Drawing</title>. <title>The Political Economy of
+                                <bibl><author>Ruskin</author>: <title rendition="#i">The Elements of
+                                        Drawing</title>. <title rendition="#i">The Political Economy of
                                     Art</title>.</bibl>
                             </item>
                         </list>
@@ -1188,7 +1188,7 @@
                         <note type="chronoLetter" xml:id="df1235">
                             <cit rendition="#block">
                                 <quote>I long to be with you by firelight between the sunset and the
-                                    sea to have talk of <title>Sordello</title>; it is one of my
+                                    sea to have talk of <title rendition="#i">Sordello</title>; it is one of my
                                     canonical scriptures. Does he sleep and forget? I think yes. Did
                                     the first time Palma's mouth trembled to touch his in the golden
                                     rose-lands of Paradise, a sudden power of angelic action come
@@ -1200,7 +1200,7 @@
                                     his shut lids and fretted the eyes apart as they trickled. Who
                                     knows these matters? Only we keep the honey-stain of hair. </quote>
                                 <bibl rendition="#parens-before #parens-after"><title level="a">10. To Edwin Hatch, <date when="1858-02-17">17 February 1858</date></title>
-                                    <title level="m">Letters</title>. <biblScope unit="volume">1</biblScope>:<biblScope unit="page">16-17</biblScope></bibl>
+                                    <title rendition="#i" level="m">Letters</title>. <biblScope unit="volume">1</biblScope>:<biblScope unit="page">16-17</biblScope></bibl>
                             </cit>
                         </note>
                         <list>
@@ -1212,15 +1212,15 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Clough</author>: <title>Amours de
+                                <bibl><author>Clough</author>: <title rendition="#i">Amours de
                                     Voyage</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Morris</author>: <title><ref target="http://morrisedition.lib.uiowa.edu/defenceguenevere.html">The Defense of Guenvere and Other Poems</ref></title>.</bibl>
+                                <bibl><author>Morris</author>: <title rendition="#i"><ref target="http://morrisedition.lib.uiowa.edu/defenceguenevere.html">The Defense of Guenvere and Other Poems</ref></title>.</bibl>
                             </item>
-                            <item><bibl><author>Landor</author>. <title>Dry Sticks, Fagoted by Walter Savage Landor</title>.</bibl></item>
+                            <item><bibl><author>Landor</author>. <title rendition="#i">Dry Sticks, Fagoted by Walter Savage Landor</title>.</bibl></item>
                             <item>
-                                <bibl><author>Smiles</author>: <title>Self-Help</title>.</bibl>
+                                <bibl><author>Smiles</author>: <title rendition="#i">Self-Help</title>.</bibl>
                             </item>
                         </list>
                     </cell>
@@ -1228,7 +1228,7 @@
                         Brunel's 'Great Eastern' steamship launched.</item></list> <bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Brett</persName>
-                            </respStmt>: <title>The Val d'Aosta</title>.</bibl>
+                            </respStmt>: <title rendition="#i">The Val d'Aosta</title>.</bibl>
                     </cell>
                 </row>
                 <row role="data">
@@ -1240,7 +1240,7 @@
                             <cit rendition="#block">
                                 <quote>
                                     <p>I have got <bibl rendition="#i"><respStmt><resp rendition="#suppress">artist</resp><persName>Blake's</persName></respStmt>
-                                            <title>Dante</title></bibl>—seven plates—stunners. Also
+                                            <title rendition="#i">Dante</title></bibl>—seven plates—stunners. Also
                                         his <title rendition="#n">Job</title>. I shall bring them
                                         north next year. I wish to goodness I was going up this
                                         winter but I shan't be let, with that blessed Oxford
@@ -1264,7 +1264,7 @@
                                 <bibl rendition="#parens-before #parens-after"><title level="a">19. To William Bell
                                         Scott, <date when="1859-12-16">16 December
                                         1859</date>.</title>
-                                    <title level="m">Letters</title>. <biblScope unit="volume">1</biblScope>:<biblScope unit="page">27-28</biblScope></bibl>
+                                    <title rendition="#i" level="m">Letters</title>. <biblScope unit="volume">1</biblScope>:<biblScope unit="page">27-28</biblScope></bibl>
                             </cit>
                         </note>
                         <list>
@@ -1277,25 +1277,25 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Darwin</author>: <title>The Origin of
+                                <bibl><author>Darwin</author>: <title rendition="#i">The Origin of
                                     Species</title>.</bibl>
                             </item>
-                            <item><label rendition="#suppress">Landor: The Hellenics of Walter Savage landor; Comprising Heroic Idyls, etc.</label><bibl><author>Landor's</author> <title>The Hellenics of Walter Savage landor; Comprising Heroic Idyls, etc.</title> is published in a New edition and enlarged.</bibl></item>
+                            <item><label rendition="#suppress">Landor: The Hellenics of Walter Savage landor; Comprising Heroic Idyls, etc.</label><bibl><author>Landor's</author> <title rendition="#i">The Hellenics of Walter Savage landor; Comprising Heroic Idyls, etc.</title> is published in a New edition and enlarged.</bibl></item>
                             <item>
-                                <bibl><author>Mill</author>: <title>On Liberty</title>.</bibl>
+                                <bibl><author>Mill</author>: <title rendition="#i">On Liberty</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Tennyson</author>: <title>Idylls of the
+                                <bibl><author>Tennyson</author>: <title rendition="#i">Idylls of the
                                     King</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Fitzgerald</author>: <title>The Rubaiyat of Omar
+                                <bibl><author>Fitzgerald</author>: <title rendition="#i">The Rubaiyat of Omar
                                         Khayyám</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Eliot</author>: <title>Adam Bede</title>.</bibl>
+                                <bibl><author>Eliot</author>: <title rendition="#i">Adam Bede</title>.</bibl>
                             </item>
-                            <item><bibl><author>Hugo</author>. <title>La Légende des siècles</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">La Légende des siècles</title>.</bibl></item>
                             <item><date when="1859-08-28"/>Leigh Hunt dies.</item>
                             <item><date when="1859-12-08"/>De Quincey dies.</item>
                             <item><date when="1859-12-28"/>Macaulay dies.</item>
@@ -1316,19 +1316,19 @@
                             <item><label rendition="#suppress">Returns to Oxford</label>Passes Classics examination, but later withdraws from finals and leaves Oxford.</item>
                             <item>Moves to London</item>
                             <item>
-                                <title>The Queen Mother and Rosamond.</title>
+                                <title rendition="#i">The Queen Mother and Rosamond.</title>
                             </item>
                         </list>
                     </cell>
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Collins</author>: <title>The Woman in
+                                <bibl><author>Collins</author>: <title rendition="#i">The Woman in
                                     White</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Ruskin</author>: <title>Modern Painters</title>.
-                                        <biblScope unit="volume">Vol. 5</biblScope>. <title>Unto This
+                                <bibl><author>Ruskin</author>: <title rendition="#i">Modern Painters</title>.
+                                        <biblScope unit="volume">Vol. 5</biblScope>. <title rendition="#i">Unto This
                                         Last</title>.</bibl>
                             </item>
                         </list>
@@ -1352,15 +1352,15 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Mill</author>: <title>Utillitarianism</title>.</bibl>
+                                <bibl><author>Mill</author>: <title rendition="#i">Utillitarianism</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Dickens</author>: <title>Great
+                                <bibl><author>Dickens</author>: <title rendition="#i">Great
                                     Expectations</title>.</bibl>
                             </item>
                             <item>
                                 <bibl><editor>Palgrave</editor>:
-                                    <title>The Golden Treasury.</title>
+                                    <title rendition="#i">The Golden Treasury.</title>
                                     <!--ed. Palgrave.-->
                                 </bibl>
                             </item>
@@ -1381,7 +1381,7 @@
                     </cell>
                     <cell role="data" rows="1" cols="1">
                         <list>
-                            <item><label rendition="#suppress">Publishes in the <title>Spectator</title>.</label>Publishes poetry and essays in the Spectator, including reviews of Baudelaire's <title>Les Fleurs du Mal</title> and Hugo's <title>Les Misérables</title> and a defense of Meredith's <title>Modern Love</title>.
+                            <item><label rendition="#suppress">Publishes in the <title rendition="#i">Spectator</title>.</label>Publishes poetry and essays in the Spectator, including reviews of Baudelaire's <title rendition="#i">Les Fleurs du Mal</title> and Hugo's <title rendition="#i">Les Misérables</title> and a defense of Meredith's <title rendition="#i">Modern Love</title>.
                             </item>
                             <item><label rendition="#suppress">Introction to de Sade.</label>Introduced to the works of the Marquis de Sade by Milnes.</item>
                             <!--??? Miss Simon-->
@@ -1401,7 +1401,7 @@
                                 <bibl rendition="#parens-before #parens-after"><title level="a">32. To Lady Jane
                                         Henrietta Swinburne, <date when="1862-03-13">13
                                         March [1862]</date>.</title>
-                                    <title level="m">Letters</title>. <biblScope unit="volume">1</biblScope>:<biblScope unit="page">50</biblScope></bibl>
+                                    <title rendition="#i" level="m">Letters</title>. <biblScope unit="volume">1</biblScope>:<biblScope unit="page">50</biblScope></bibl>
                             </cit>
                         </note>
                         <note type="chronoLetter" xml:id="df1238">
@@ -1420,21 +1420,21 @@
                                 <bibl rendition="#parens-before #parens-after"><title level="a">34. To Richard Monckton
                                         Milnes, <date when="1862-08-18">18 August
                                         [1862]</date>.</title>
-                                    <title level="m">Letters</title>. <biblScope unit="volume">1</biblScope>:<biblScope unit="page">53</biblScope></bibl>
+                                    <title rendition="#i" level="m">Letters</title>. <biblScope unit="volume">1</biblScope>:<biblScope unit="page">53</biblScope></bibl>
                             </cit>
                         </note>
                     </cell>
                     <cell>
                         <list>
-                            <item><bibl><author>Hugo</author>. <title>Les Misérables</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">Les Misérables</title>.</bibl></item>
                             <item>
-                                <bibl><author>Meredith</author>: <title>Modern Love</title>.</bibl>
+                                <bibl><author>Meredith</author>: <title rendition="#i">Modern Love</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>C. Rossetti</author>: <title>Goblin Market</title>.</bibl>
+                                <bibl><author>C. Rossetti</author>: <title rendition="#i">Goblin Market</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Spencer</author>: <title>First
+                                <bibl><author>Spencer</author>: <title rendition="#i">First
                                     Principles</title>.</bibl>
                             </item>
                             <item>
@@ -1456,27 +1456,27 @@
                         <item>Befriends the painter Simeon Solomon</item>
                         <item><date when="1863-03" rendition="#suppress"/>Visits Paris with Whistler</item>
                         <item><label rendition="#suppress">Edith Dies</label>Swinburne's favorite sister, Edith, dies.</item>
-                        <item><label rendition="#suppress">Isle of Wight</label>Stays on the Isle of Wight with his cousin, Mary Gordon, and her family and begins <title><ref target="document:acs0000001-04-i002">Atalanta in Calydon</ref></title>.</item>
+                        <item><label rendition="#suppress">Isle of Wight</label>Stays on the Isle of Wight with his cousin, Mary Gordon, and her family and begins <title rendition="#i"><ref target="document:acs0000001-04-i002">Atalanta in Calydon</ref></title>.</item>
                     </list></cell>
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Mill</author>: <title>Utilitarianism</title>.</bibl>
+                                <bibl><author>Mill</author>: <title rendition="#i">Utilitarianism</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Lyell</author>: <title>The Antiquity of
+                                <bibl><author>Lyell</author>: <title rendition="#i">The Antiquity of
                                     Man</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Huxley</author>: <title>Evidence as to Man's Place in
+                                <bibl><author>Huxley</author>: <title rendition="#i">Evidence as to Man's Place in
                                         Nature</title>.</bibl>
                             </item>
-                            <item><bibl><author>Landor</author>: <title>Heroic Idyls, with Additional Poems</title>.</bibl></item>
+                            <item><bibl><author>Landor</author>: <title rendition="#i">Heroic Idyls, with Additional Poems</title>.</bibl></item>
                             <item>
-                                <bibl><author>Eliot</author>: <title>Romola</title>.</bibl>
+                                <bibl><author>Eliot</author>: <title rendition="#i">Romola</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Kingsley</author>: <title>The Water
+                                <bibl><author>Kingsley</author>: <title rendition="#i">The Water
                                     Babies</title>.</bibl>
                             </item>
                         </list>
@@ -1500,15 +1500,15 @@
                                     To which missive of mine came a note of invitation which I answered by setting off again for his [Walter Savage Landor's] lodging. AFter losing myself for an hour in the accursed Borgo S. Frediano I found it at last, and found him as alert, brilliant and altogether delicious as i suppose others may have found him twenty years since. I cannot thank you enough for procuring me this great pleasure and exquisite satisfaction—I am seriously more obliged for this than for anything that could have been done for me. I have got the one thing I wanted with all my heart. If both or either of us die tomorrow, at least to-day he has told me that my presence here has made him happy; he said more than that—things for which of course I take no credit to myself but which are not the less pleasant to hear from such a man. There is not other man living from whom I should so much have prized any expression of acceptance or goodwill in return for my homage; for all other men as great are so much younger that in his case one sort of reverence serves as the lining for another. My grandfather was upon the whole mieux consent; but he had written no Hellenics. In answer to something that Mr. Landor said to-day of his own age I reminded him of his equals and precursors, Sophocles and Titian; he said he should not live up to the age of Sophocles—not see ninety. I don't see why he should not, if he has people about him to care for him as he should be cared for. I should like to throw up all other things on earth and devote myself to playing valet to him for the rest of his days. I should black his boots if he wore any—moi. He has given me the shock of adoration which one feels at thirteen towards great men. I am not sure that any other emotion is so durable and persistently delicious as that of worship, when your god is indubitable and incarnate before your eyes.3 I told him, as we were talking of poems and such things, that his poems had first given me inexplicable pleasure and a sort of blind relief when I was a small fellow of twelve at Eton much beaten upon and worried some twelve years back (or nearly) now. My first recollection of them is the Song of the Hours in the Iphigenia.4 Apart from their executive perfection, all those Greek poems of his always fitted on to my own way of feeling and thought infinitely more than even Tennyson's modern versions: and now I am more than ever sure that the 'Hamadryad'4 is a purer and better piece of work, from the highest point of view that art can take, than such magnificent hashes and stews of old and new with a sharp sauce of personality as 'Oenone' and 'Ulysses.' Not that I am disloyal to Tennyson, into whose church we were all in my time born and baptized as far back as we can remember at all; but he is not a Greek nor a heathen; and I imagine does not want to be; and I greatly fear believes it possible to be something better: an absurdity which should be left to the Brownings and other blatant creatures begotten on the slime of the modern chaos.
                                 </quote>
                                 <bibl><title level="a">55. To Lord Houghton, <date when="1864-03-31">31 March [1864]</date></title>
-                                    <title level="m">Letters</title>. <biblScope unit="volume">1</biblScope>:<biblScope unit="page">96-98</biblScope></bibl></cit>
+                                    <title rendition="#i" level="m">Letters</title>. <biblScope unit="volume">1</biblScope>:<biblScope unit="page">96-98</biblScope></bibl></cit>
                             
                         </note>
                         <note type="chronoLetter" xml:id="df1230">
                             <cit rendition="#block">
                                 <quote>
-                                    I have read all Browning's new book [<title>Dramatis Personae</title>] since we parted; and while quite holding to all I said and say about his work as a poet I must also say—I have even had the candour to say to Rossetti—that I fully recognize the unique and most admirable power of <title level="a" rendition="#sq">Sludge</title> and <title level="a" rendition="#sq">Caliban.</title> I want to send you my full acknowledgment of this: because we talked enough about the matter, and because I have really derived such rare and keen pleasure, in the teeth of all personal or artistic feelings of dislike, from these two poems (if poems they are to be called) that I don't want you to suppose me insensible to their delightful qualities. I class both these above Blougram—not as intellectual exercises, but as samples of good work done. They are as good as Swift—i.e. not so good here, and better there; incomparably above Thackeray—and I think only a little below Chamfort and Stendhal. This last with me is higher praise than all the rest. Not less noble is the opening of St. John—but long before the end the poem is swamped in controversial shallows, and the finer features effaced under a mask of indurate theological mud. In all the rest of the book I see much that is clever and nothing that is good—much that is ingenious and nothing that is right.</quote>
+                                    I have read all Browning's new book [<title rendition="#i">Dramatis Personae</title>] since we parted; and while quite holding to all I said and say about his work as a poet I must also say—I have even had the candour to say to Rossetti—that I fully recognize the unique and most admirable power of <title level="a" rendition="#sq">Sludge</title> and <title level="a" rendition="#sq">Caliban.</title> I want to send you my full acknowledgment of this: because we talked enough about the matter, and because I have really derived such rare and keen pleasure, in the teeth of all personal or artistic feelings of dislike, from these two poems (if poems they are to be called) that I don't want you to suppose me insensible to their delightful qualities. I class both these above Blougram—not as intellectual exercises, but as samples of good work done. They are as good as Swift—i.e. not so good here, and better there; incomparably above Thackeray—and I think only a little below Chamfort and Stendhal. This last with me is higher praise than all the rest. Not less noble is the opening of St. John—but long before the end the poem is swamped in controversial shallows, and the finer features effaced under a mask of indurate theological mud. In all the rest of the book I see much that is clever and nothing that is good—much that is ingenious and nothing that is right.</quote>
                                 <bibl><title level="a">57. To John Nichol, <date when="1864-06-19">19 June [1864]</date></title>
-                                    <title level="m">Letters</title>. <biblScope unit="volume">1</biblScope>:<biblScope unit="page">100</biblScope></bibl></cit>
+                                    <title rendition="#i" level="m">Letters</title>. <biblScope unit="volume">1</biblScope>:<biblScope unit="page">100</biblScope></bibl></cit>
                                 
                         </note>
                         
@@ -1517,7 +1517,7 @@
                             <item><label rendition="#suppress">Mary Gordon's Engagment</label>Swinburne's beloved cousin, Mary Gordon, 
                             announces her engagement to Colonel Disney Leith. They marry in June, 1865</item>
                             <item>
-                                <title>The Children of the Chapel.</title>
+                                <title rendition="#i">The Children of the Chapel.</title>
                             </item>
                             <item><label rendition="#suppress">Elected to the Arts Club</label>Swinburne is elected to the London gentlemen's club for those involved with the arts.</item>
                         </list>
@@ -1525,24 +1525,24 @@
                     </cell>
                     <cell>
                         <list>
-                            <item><bibl><author>Hugo</author>: <title>William Shakespeare</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>: <title rendition="#i">William Shakespeare</title>.</bibl></item>
                             <item>
-                                <bibl><author>Newman</author>: <title>Apologia pro Vita
+                                <bibl><author>Newman</author>: <title rendition="#i">Apologia pro Vita
                                     Sua</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Spencer</author>: <title>Principles of
+                                <bibl><author>Spencer</author>: <title rendition="#i">Principles of
                                     Biology</title>.</bibl>
                             </item>
                             <item><date rendition="#suppress" when="1864-09-17"/>Landor dies.</item>
                         </list>
                     </cell>
-                    <cell><list> <item><label rendition="#suppress">Whistler: <title>Symphony in White No. 2: The Little White Girl</title>.</label><bibl><respStmt><resp n="artist"/><persName>Whistler</persName></respStmt>: <title>Symphony in White No. 2: The Little White Girl</title>.</bibl> Swinburne wrote the poem <title level="a"><ref target="document:acs0000001-01-i030">Before the Mirror</ref></title> (1866) for Whistler's painting.</item><item>Gilbert Scott's Albert Memorial.</item>
+                    <cell><list> <item><label rendition="#suppress">Whistler: <title rendition="#i">Symphony in White No. 2: The Little White Girl</title>.</label><bibl><respStmt><resp n="artist"/><persName>Whistler</persName></respStmt>: <title rendition="#i">Symphony in White No. 2: The Little White Girl</title>.</bibl> Swinburne wrote the poem <title level="a"><ref target="document:acs0000001-01-i030">Before the Mirror</ref></title> (1866) for Whistler's painting.</item><item>Gilbert Scott's Albert Memorial.</item>
                         <item>
                             <bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Rossetti</persName>
-                            </respStmt>: <title><ref target="http://www.rossettiarchive.org/docs/s168.raw.html">Beata Beatrix</ref></title>. </bibl></item>
+                            </respStmt>: <title rendition="#i"><ref target="http://www.rossettiarchive.org/docs/s168.raw.html">Beata Beatrix</ref></title>. </bibl></item>
                     </list></cell>
                 </row>
                 <row role="data">
@@ -1552,13 +1552,13 @@
                     <cell role="data" rows="1" cols="1">
                         <note type="chronoLetter" xml:id="df123a"><cit rendition="#block"><quote><floatingText><body><opener><salute>My dear Ruskin</salute></opener><p>
                             I send you the song you asked for, finding that I can remember it after dinner. Nevertheless it has given me far more labour to recollect and transcribe than it did originally to compose. But your selection of it as a piece of work more satisfactory than usual gave me so much pleasure that I was determined to send it when I could. Since writing the verses (which were literally improvised and taken down on paper one Sunday morning after breakfast) I have been told more than once, and especially by Gabriel Rossetti, that they were better than the subject. Three or four days ago I had the good fortune to be able to look well over the picture which alone put them into my head, and came to the conclusion which I had drawn at first, that whatever merit my song may have, it is not so complete in beauty, in tenderness and significance, in exquisite execution and delicate strength as Whistler's picture. Whistler himself was the first critic who so far overpraised my verse as to rank it above his own painting. I stood up against him for himself, and will, of course, against all others.</p></body></floatingText></quote><bibl><title level="a">83. To John Ruskin, <date when="1865-08-11">11 August [1865]</date></title>
-                                <title level="m">Letters</title>. <biblScope unit="volume">1</biblScope>:<biblScope unit="page">130</biblScope></bibl></cit></note>
+                                <title rendition="#i" level="m">Letters</title>. <biblScope unit="volume">1</biblScope>:<biblScope unit="page">130</biblScope></bibl></cit></note>
                         <list>
                             <item>
-                                <title><ref target="document:acs0000001-04-i002">Atalanta in Calydon</ref></title>.
+                                <title rendition="#i"><ref target="document:acs0000001-04-i002">Atalanta in Calydon</ref></title>.
                             </item>
                             <item>
-                                <title>Chastelard.</title>
+                                <title rendition="#i">Chastelard.</title>
                             </item>
                             <item><label rendition="#suppress">Holmwood</label>Swinburne's family moves from <q>East Dene</q> on the Isle of Wight to <q>Holmwood</q> in Henley-on-Thames, Oxfordshire.</item>
                             <!-- Explain George Powell. -->
@@ -1568,21 +1568,21 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Carrol</author>: <title>Alice's Adventures in
+                                <bibl><author>Carrol</author>: <title rendition="#i">Alice's Adventures in
                                         Wonderland</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Dickens</author>: <title>Our Mutual
+                                <bibl><author>Dickens</author>: <title rendition="#i">Our Mutual
                                     Friend</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Arnold</author>: <title>Essays in
+                                <bibl><author>Arnold</author>: <title rendition="#i">Essays in
                                     Criticism</title>.</bibl>
                             </item>
-                            <item><bibl><author>Hugo</author>: <title>Les Chansons des rues et des bois</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>: <title rendition="#i">Les Chansons des rues et des bois</title>.</bibl></item>
                             <item>
-                                <bibl><author>Ruskin</author>: <title>Sesame and Lilies</title>.
-                                        <title>The Cestus of Aglaia</title>.</bibl>
+                                <bibl><author>Ruskin</author>: <title rendition="#i">Sesame and Lilies</title>.
+                                        <title rendition="#i">The Cestus of Aglaia</title>.</bibl>
                             </item>
                         </list>
                     </cell>
@@ -1592,7 +1592,7 @@
                         <item><bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Madox Brown</persName>
-                            </respStmt>completes <title>Work</title>.</bibl></item></list></cell>
+                            </respStmt>completes <title rendition="#i">Work</title>.</bibl></item></list></cell>
                 </row>
                 <row role="data">
                     <cell rendition="#chronoTableDate" role="data" rows="1" cols="1">
@@ -1601,23 +1601,23 @@
                     <cell role="data" rows="1" cols="1">
                         <list>
                             <item>
-                                <title><title><ref target="collection:pb1">Poems and Ballads</ref></title></title>.
+                                <title rendition="#i"><title rendition="#i"><ref target="collection:pb1">Poems and Ballads</ref></title></title>.
                             </item>
                             <item><date rendition="#suppress" when="1866-08-04"/>First reviews of
-                                    <title><ref target="collection:pb1">Poems and Ballads</ref></title> appear.</item>
-                            <item><date rendition="#suppress" when="1866-08-05"/><label rendition="#suppress">Moxon withdraws <title><ref target="collection:pb1">Poems and Ballads</ref></title></label> Moxon decides he will no longer publish <title><ref target="collection:pb1">Poems and Ballads</ref></title>, and Swinburne agrees to publish with John Camden Hotton</item>
+                                    <title rendition="#i"><ref target="collection:pb1">Poems and Ballads</ref></title> appear.</item>
+                            <item><date rendition="#suppress" when="1866-08-05"/><label rendition="#suppress">Moxon withdraws <title rendition="#i"><ref target="collection:pb1">Poems and Ballads</ref></title></label> Moxon decides he will no longer publish <title rendition="#i"><ref target="collection:pb1">Poems and Ballads</ref></title>, and Swinburne agrees to publish with John Camden Hotton</item>
                             <item><label rendition="#suppress">Advice from Lord Lytton</label><date rendition="#suppress" from="1866-08-17" to="1866-08-24"/>Visits
                                 his friend Lord Lytton at Kenbworth. Receives advice on the
-                                firestorm surrounding <title><ref target="collection:pb1">Poems and Ballads</ref></title>.
+                                firestorm surrounding <title rendition="#i"><ref target="collection:pb1">Poems and Ballads</ref></title>.
                                 <!-- Rooksby 138. --></item>
-                            <item><label rendition="#suppress"><title>Notes on Poems and Reviews,</title></label> Swinburne writes Notes on Poems and Reviews as a response to his
+                            <item><label rendition="#suppress"><title rendition="#i">Notes on Poems and Reviews,</title></label> Swinburne writes Notes on Poems and Reviews as a response to his
                                 critics.</item>
                             <item><label rendition="#suppress">Visit to mother</label><date rendition="#suppress" notBefore="1866-09-01" notAfter="1866-10-15">Much of September and early
                                     October.</date> Stays with mother, who is ill.</item>
                             <item><label rendition="#suppress">Visit to Powell</label><date rendition="#suppress" from="1866-10-15" notAfter="1866-10-29"/>
                                 Stays with Powell at Aberystwyth.</item>
                             <item><date rendition="#suppress" when="1866-11"/>William Michael
-                                Rossetti publishes <title>Swinburne's <title>Poems and
+                                Rossetti publishes <title rendition="#i">Swinburne's <title rendition="#i">Poems and
                                         Ballads</title></title>.<!-- Rooksby 144--></item>
                             <item>
                                 <label rendition="#suppress">Visit to Holmwood</label>
@@ -1628,8 +1628,8 @@
                         </list>
                     </cell>
                     <cell>
-                        <list><item><bibl><author>Hugo</author>. <title>Les Travailleurs de la Mer</title>.</bibl></item><item><bibl><author>Ruskin</author>: <title>The Ethics of the Dust</title>.
-                                <title>The Crown of Wild Olives</title>.</bibl></item></list>
+                        <list><item><bibl><author>Hugo</author>. <title rendition="#i">Les Travailleurs de la Mer</title>.</bibl></item><item><bibl><author>Ruskin</author>: <title rendition="#i">The Ethics of the Dust</title>.
+                                <title rendition="#i">The Crown of Wild Olives</title>.</bibl></item></list>
                     </cell>
                     <cell/>
                 </row>
@@ -1650,17 +1650,17 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Bargehot</author>: <title>The English
+                                <bibl><author>Bargehot</author>: <title rendition="#i">The English
                                         Constitution</title>.</bibl>
                             </item>
-                            <item><bibl><author>Hugo</author>. <title>La voix de Guernsey </title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">La voix de Guernsey </title>.</bibl></item>
                             <item>
-                                <bibl><author>Marx</author>: <title>Das Kapital</title>.</bibl>
+                                <bibl><author>Marx</author>: <title rendition="#i">Das Kapital</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Morris</author>: <title><ref target="http://morrisedition.lib.uiowa.edu/jason.html">The Life and Death of Jason</ref></title></bibl></item>
+                                <bibl><author>Morris</author>: <title rendition="#i"><ref target="http://morrisedition.lib.uiowa.edu/jason.html">The Life and Death of Jason</ref></title></bibl></item>
                             <item>
-                                <bibl><author>Ruskin</author>: <title>Time and Tide</title>.</bibl>
+                                <bibl><author>Ruskin</author>: <title rendition="#i">Time and Tide</title>.</bibl>
                             </item>
                         </list>
                     </cell>
@@ -1676,10 +1676,10 @@
                     <cell role="data" rows="1" cols="1">
                         <list>
                             <item>
-                                <title>William Blake: A Critical Essay.</title>
+                                <title rendition="#i">William Blake: A Critical Essay.</title>
                             </item>
                             <item>
-                                <title>Siena.</title>
+                                <title rendition="#i">Siena.</title>
                             </item>
                             <item><date when="1868-07" rendition="#suppress"/>Nearly drowns at Étreat.</item>
                         </list>
@@ -1687,11 +1687,11 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Morris</author>: <title><ref target="http://morrisedition.lib.uiowa.edu/eptexts.html">The Earthly Paradise</ref></title>.</bibl>
+                                <bibl><author>Morris</author>: <title rendition="#i"><ref target="http://morrisedition.lib.uiowa.edu/eptexts.html">The Earthly Paradise</ref></title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Baudelaire</author>: <title>Curiosités
-                                        esthétiques</title>. <title>L'Art
+                                <bibl><author>Baudelaire</author>: <title rendition="#i">Curiosités
+                                        esthétiques</title>. <title rendition="#i">L'Art
                                     Romantique</title>.</bibl>
                             </item>
                         </list>
@@ -1715,24 +1715,24 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Arnold</author>: <title>Culture and
+                                <bibl><author>Arnold</author>: <title rendition="#i">Culture and
                                     Anarchy</title></bibl>
                             </item>
-                            <item><bibl><author>Hugo</author>. <title>L'Homme qui rit</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">L'Homme qui rit</title>.</bibl></item>
                             <item>
-                                <bibl><author>Mill</author>: <title>The Subjection of
+                                <bibl><author>Mill</author>: <title rendition="#i">The Subjection of
                                     Women</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Trollope</author>: <title>He Knew He Was
-                                    Right</title>. <title>Phineas Finn</title>.</bibl>
+                                <bibl><author>Trollope</author>: <title rendition="#i">He Knew He Was
+                                    Right</title>. <title rendition="#i">Phineas Finn</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Browning</author>: <title>The Ring and the
+                                <bibl><author>Browning</author>: <title rendition="#i">The Ring and the
                                         Book</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Ruskin</author>: <title>The Queen of the
+                                <bibl><author>Ruskin</author>: <title rendition="#i">The Queen of the
                                     Air</title>.</bibl>
                             </item>
                         </list>
@@ -1749,17 +1749,17 @@
                     <cell>
                         <list>
                             <item>
-                                <title>Ode on the Proclamation of the French Republic.</title>
+                                <title rendition="#i">Ode on the Proclamation of the French Republic.</title>
                             </item>
                         </list>
                     </cell>
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>D. G. Rossetti</author>: <title><ref target="http://www.rossettiarchive.org/docs/1-1870.raw.html">Poems</ref></title>.</bibl>
+                                <bibl><author>D. G. Rossetti</author>: <title rendition="#i"><ref target="http://www.rossettiarchive.org/docs/1-1870.raw.html">Poems</ref></title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Ruskin</author>: <title>Lectures on
+                                <bibl><author>Ruskin</author>: <title rendition="#i">Lectures on
                                     Art</title>.</bibl>
                             </item>
                         </list>
@@ -1773,12 +1773,12 @@
                                 until the age of 12.  The law also recognized that basic schooling is a government responsibility.</item><item> <bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Millais</persName>
-                        </respStmt>: <title>The Boyhood of Raleigh</title>.</bibl></item>
+                        </respStmt>: <title rendition="#i">The Boyhood of Raleigh</title>.</bibl></item>
                         <item>
                         <bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Inchbold</persName>
-                            </respStmt>: <title>Early Spring</title>.</bibl></item></list>
+                            </respStmt>: <title rendition="#i">Early Spring</title>.</bibl></item></list>
                     </cell>
                 </row>
                 <row role="data">
@@ -1788,7 +1788,7 @@
                     <cell role="data" rows="1" cols="1">
                         <list>
                             <item>
-                                <title><ref target="collection:sbs">Songs before Sunrise</ref></title>.
+                                <title rendition="#i"><ref target="collection:sbs">Songs before Sunrise</ref></title>.
                             </item>
                             <item><label rendition="#suppress">Recovery at Holmwood</label>Swinburne is removed to Holmwood 
                             by his father to recover from severe illness due to alcoholism.</item>
@@ -1799,11 +1799,11 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Darwin</author>: <title>The Descent of
+                                <bibl><author>Darwin</author>: <title rendition="#i">The Descent of
                                     Man</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Carroll</author>: <title>Through the Looking
+                                <bibl><author>Carroll</author>: <title rendition="#i">Through the Looking
                                         Glass</title>.</bibl>
                             </item>
                         </list>
@@ -1820,8 +1820,8 @@
                     </cell>
                     <cell role="data" rows="1" cols="1">
                         <list>
-                            <item><label rendition="#suppress"><title>Under the
-                                    Microscope</title></label> Swinburne publishes <title>Under the
+                            <item><label rendition="#suppress"><title rendition="#i">Under the
+                                    Microscope</title></label> Swinburne publishes <title rendition="#i">Under the
                                     Microscope</title>, a reply to Robert Buchanan's <title level="a">The Fleshly School of Poetry</title> (1871), an attack on the Pre-Raphaelite poets,
                                 Rossetti, Swinburne, and Morris.</item>
                             <item><label rendition="#suppress">Relationship ends with DG Rossetti</label>The relationship between 
@@ -1832,20 +1832,20 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Eliot</author>: <title>Middlemarch</title>.</bibl>
+                                <bibl><author>Eliot</author>: <title rendition="#i">Middlemarch</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Butler</author>: <title>Erewhon</title>.</bibl>
+                                <bibl><author>Butler</author>: <title rendition="#i">Erewhon</title>.</bibl>
                             </item>
                            
                             <item>
-                                <bibl><author>Forster</author>: <title>Dickens</title>.</bibl>
+                                <bibl><author>Forster</author>: <title rendition="#i">Dickens</title>.</bibl>
                             </item>
-                            <item><bibl><author>Hugo</author>. <title>L'Année terrible</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">L'Année terrible</title>.</bibl></item>
                             <item>
-                                <bibl><author>Ruskin</author>: <title>Aratra Penteleci</title>.
-                                        <title>The Relation between Michael Angelo and
-                                        Tintoret</title>. <title>The Eagle's Nest</title>.</bibl>
+                                <bibl><author>Ruskin</author>: <title rendition="#i">Aratra Penteleci</title>.
+                                        <title rendition="#i">The Relation between Michael Angelo and
+                                        Tintoret</title>. <title rendition="#i">The Eagle's Nest</title>.</bibl>
                             </item>
                         </list>
                     </cell>
@@ -1862,15 +1862,15 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Mill</author>: <title>Autobiography</title>.</bibl>
+                                <bibl><author>Mill</author>: <title rendition="#i">Autobiography</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Pater</author>: <title>Studies in the History of the
+                                <bibl><author>Pater</author>: <title rendition="#i">Studies in the History of the
                                         Renaissance</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Ruskin</author>: <title>Lover's Meinie</title>.
-                                        <title>Ariadne's Fiorentina</title>.</bibl>
+                                <bibl><author>Ruskin</author>: <title rendition="#i">Lover's Meinie</title>.
+                                        <title rendition="#i">Ariadne's Fiorentina</title>.</bibl>
                             </item>
                         </list>
                     </cell>
@@ -1885,20 +1885,20 @@
                         <list>
                             <item><label rendition="#suppress">Chatto &amp; Windus</label> Swinburen reaches new publishing arrangement with Andrew Chatto.</item>
                             <item>
-                        <title>Bothwell.</title>
+                        <title rendition="#i">Bothwell.</title>
                             </item>
                         </list>
                     </cell>
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Sidgwick</author>: <title>The Methods of
+                                <bibl><author>Sidgwick</author>: <title rendition="#i">The Methods of
                                         Ethics</title>.</bibl>
                             </item>
-                            <item><bibl><author>Hugo</author>. <title>Quatrevingt-treize</title>.</bibl></item>
-                            <item><bibl><author>Hugo</author>. <title>Mes Fils</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">Quatrevingt-treize</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">Mes Fils</title>.</bibl></item>
                             <item>
-                                <bibl><author>Mill</author>: <title>Three Essays on
+                                <bibl><author>Mill</author>: <title rendition="#i">Three Essays on
                                     Religion</title>.</bibl>
                             </item>
                         </list>
@@ -1907,7 +1907,7 @@
                         Paris.</item><item> <bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Burne Jones</persName>
-                            </respStmt>: <title>The Beguiling of Merlin</title>.</bibl></item></list>
+                            </respStmt>: <title rendition="#i">The Beguiling of Merlin</title>.</bibl></item></list>
                     </cell>
                 </row>
                 <row role="data">
@@ -1917,33 +1917,33 @@
                     <cell role="data" rows="1" cols="1">
                         <list>
                             <item>
-                                <title><ref target="collection:sotn">Songs of Two Nations</ref></title>.
+                                <title rendition="#i"><ref target="collection:sotn">Songs of Two Nations</ref></title>.
                             </item>
                             <item>
-                                <title>Essays and Studies.</title>
+                                <title rendition="#i">Essays and Studies.</title>
                             </item>
                             <item>
-                                <title>George Chapman: A Critical Essay.</title>
+                                <title rendition="#i">George Chapman: A Critical Essay.</title>
                             </item>
-                            <item><date when="1875-07" rendition="#suppress"/>Composes <title><ref target="document:acs0000001-04-i003">Erechtheus</ref></title> in Suffolk.</item>
+                            <item><date when="1875-07" rendition="#suppress"/>Composes <title rendition="#i"><ref target="document:acs0000001-04-i003">Erechtheus</ref></title> in Suffolk.</item>
                         </list>
                     </cell>
                     <cell>
                         <list>
-                            <item><bibl><author>Hugo</author>. <title>Actes et paroles — Avant l'exil</title>.</bibl></item>
-                            <item><bibl><author>Hugo</author>. <title>Actes et paroles — Pendant l'exil</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">Actes et paroles — Avant l'exil</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">Actes et paroles — Pendant l'exil</title>.</bibl></item>
                             <item>
-                                <bibl><author>Trollope</author>: <title>The Way We Live
+                                <bibl><author>Trollope</author>: <title rendition="#i">The Way We Live
                                     Now</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Symonds</author>: <title>The Renaissance in
+                                <bibl><author>Symonds</author>: <title rendition="#i">The Renaissance in
                                         Italy</title>.</bibl>
                             </item>
                         </list>
                     </cell>
                     <cell><list><item><bibl><author>Gilbert and Sullivan</author>'s first successful
-                            collaboration, on <title>Trial by Jury</title>.
+                            collaboration, on <title rendition="#i">Trial by Jury</title>.
                     </bibl></item>
                         <item><!--same citation for a play?--><label rendition="#suppress">Norman Shaw's designs for Bedford
                     Park</label>Norman Shaw's designs for Bedford Park, London's first garden suburb.</item>
@@ -1957,24 +1957,24 @@
                     </cell>
                     <cell role="data" rows="1" cols="1">
                         <list>
-                            <item><label rendition="#suppress"><title>Erechtheus.</title></label>Publishes <title><ref target="document:acs0000001-04-i003">Erechtheus</ref></title>, the second of
+                            <item><label rendition="#suppress"><title rendition="#i">Erechtheus.</title></label>Publishes <title rendition="#i"><ref target="document:acs0000001-04-i003">Erechtheus</ref></title>, the second of
                             Swinburne's two lyrical dramas based on Greek myth and modeled on Greek tragedy.</item>
-                            <item><label rendition="#suppress">Controversy with Shakespeare Society.</label><date when="1876-01" rendition="#suppress"/> Letter to <title>Athenaeum</title> attacking Furnivall of the Shakespeare Society.</item>
+                            <item><label rendition="#suppress">Controversy with Shakespeare Society.</label><date when="1876-01" rendition="#suppress"/> Letter to <title rendition="#i">Athenaeum</title> attacking Furnivall of the Shakespeare Society.</item>
                             <item><label rendition="#suppress">Buchanan sues Swinburne.</label> Swinburne in court because of Buchanan's suite over the publication of Swinburn'es <title level="a">Epitaph on a Slanderer</title> and <title level="a">The Devil's Due</title>. The court rules in Buchanan's favor.</item>
-                            <item><title>Note of an English Republican on the Muscovite Crusade</title>.</item>
+                            <item><title rendition="#i">Note of an English Republican on the Muscovite Crusade</title>.</item>
                             <item><date when="1876-05" rendition="#suppress"/>Visit to Channel Islands with Nichol.</item>
                         </list></cell>
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>F.H. Bradley</author>: <title>Ethical
+                                <bibl><author>F.H. Bradley</author>: <title rendition="#i">Ethical
                                     Studies</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Eliot</author>: <title>Daniel Deronda</title>.</bibl>
+                                <bibl><author>Eliot</author>: <title rendition="#i">Daniel Deronda</title>.</bibl>
                             </item>
-                            <item><bibl><author>Hugo</author>: <title>Actes et paroles — Depuis l'exil</title>.</bibl></item>
-                            <item><bibl><author>Morris</author>: <title><ref target="http://morrisedition.lib.uiowa.edu/sigurd.html">The Story of Sigurd the Volsung and the Fall of the Niblungs</ref></title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>: <title rendition="#i">Actes et paroles — Depuis l'exil</title>.</bibl></item>
+                            <item><bibl><author>Morris</author>: <title rendition="#i"><ref target="http://morrisedition.lib.uiowa.edu/sigurd.html">The Story of Sigurd the Volsung and the Fall of the Niblungs</ref></title>.</bibl></item>
                         </list>
                     </cell>
                     <cell>
@@ -1994,20 +1994,20 @@
                         <list>
                             <item><date when="1877-03" rendition="#suppress"/>Swinburne's father dies in March.</item>
                             <item>
-                                <title>A Note on Charlotte Brontë.</title>
+                                <title rendition="#i">A Note on Charlotte Brontë.</title>
                             </item>
                             <item>
-                                <label rendition="#suppress"><title>A Year's Letters</title></label>Publishes A Year's
+                                <label rendition="#suppress"><title rendition="#i">A Year's Letters</title></label>Publishes A Year's
                                 Letters Letters (later known as Love's Cross-Currents) in serial form.
                             </item>
                         </list>
                     </cell>
                     <cell>
                         <list>
-                            <item><bibl><author>Hugo</author>: <title>a Légende des Siècles 2e série</title>.</bibl></item>
-                            <item><bibl><author>Hugo</author>: <title>L'Art d'être grand-père</title>.</bibl></item>
-                            <item><bibl><author>Hugo</author>: <title>Histoire d'un crime 1re partie</title>.</bibl></item>
-                            <item><bibl><author>Mallock</author>: <title>The New Republic</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>: <title rendition="#i">a Légende des Siècles 2e série</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>: <title rendition="#i">L'Art d'être grand-père</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>: <title rendition="#i">Histoire d'un crime 1re partie</title>.</bibl></item>
+                            <item><bibl><author>Mallock</author>: <title rendition="#i">The New Republic</title>.</bibl></item>
                         </list>
                     </cell>
                     <cell><list>
@@ -2019,7 +2019,7 @@
                         <respStmt>
                                 <resp n="artist"/>
                                 <persName>Whistler</persName>
-                        </respStmt>: <title>Nocturne in Black and Gold</title>. </bibl></item>
+                        </respStmt>: <title rendition="#i">Nocturne in Black and Gold</title>. </bibl></item>
                         <item>Morris founds Society for the Protection of Ancient Buildings.</item> 
                         <item>Edison invents phonograph. </item></list></cell>
                 </row>
@@ -2029,20 +2029,20 @@
                     </cell>
                     <cell role="data" rows="1" cols="1">
                         <list>
-                            <item><title><ref target="collection:pb2">Poems and Ballads,  Second
+                            <item><title rendition="#i"><ref target="collection:pb2">Poems and Ballads,  Second
                             Series</ref></title>.</item>
                             <item><date when="1878-01" rendition="#suppress"/>Stay at Glasgow with Nichol.</item>
                         </list></cell>
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Hardy</author>: <title>The Return of the
+                                <bibl><author>Hardy</author>: <title rendition="#i">The Return of the
                                         Native</title>.</bibl>
                             </item>
-                            <item><bibl><author>Hugo</author>. <title>Histoire d'un crime 2e partie</title>.</bibl></item>
-                            <item><bibl><author>Hugo</author>. <title>Le Pape</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">Histoire d'un crime 2e partie</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">Le Pape</title>.</bibl></item>
                             <item>
-                                <bibl><author>James</author>: <title>Daisy Miller</title>.</bibl>
+                                <bibl><author>James</author>: <title rendition="#i">Daisy Miller</title>.</bibl>
                             </item>
                         </list>
                     </cell>
@@ -2051,7 +2051,7 @@
                         <item>William Booth founds Salvation Army.</item><item> <bibl><respStmt>
                             <resp n="artist"/>
                             <persName>Rossetti</persName>
-                        </respStmt> completes <title>The Blessed Damozel</title>.</bibl></item></list></cell>
+                        </respStmt> completes <title rendition="#i">The Blessed Damozel</title>.</bibl></item></list></cell>
                 </row>
                 <row role="data">
                     <cell rendition="#chronoTableDate" role="data" rows="1" cols="1">
@@ -2063,7 +2063,7 @@
                                 <quote>I shall probably have three books coming out this winter on each other's heels: my Study of Shakespeare, this triad of sea-studies (for which I want a generic title: I had thought of <q rendition="#sq">Epithalassion</q>, forming the word after the types of the Latin Epithalamium &amp; the Shelleyan Epipsychidion; I still think it rather pretty and apt; … do <emph rendition="#i">you</emph> think it would do? or would it be held affected &amp; pedantic?) &amp; thirdly, under the very closest &amp; darkest petalled of roses (for the present at least) a little book of parodies or burlesques, whereof you know some. One on myself,  &amp; one on Tennyson, both just written, are, I do think models. But <emph rendition="#i">pray</emph> keep this a <emph rendition="#i">dead</emph> secret.</quote>
                                 <bibl rendition="#parens-before #parens-after"><title level="a">978F. To: William Michael Rossetti, <date when="1879-11-15">15
                                         November [1879]</date>.</title>
-                                    <title level="m">Uncollected Letters</title>. <biblScope unit="volume">2</biblScope>:<biblScope unit="page">182</biblScope></bibl>
+                                    <title rendition="#i" level="m">Uncollected Letters</title>. <biblScope unit="volume">2</biblScope>:<biblScope unit="page">182</biblScope></bibl>
                             </cit>
                         </note>
                         <list><item><label rendition="#suppress">Near Death Experience</label>Near death from alcohol abuse, Swinburne is
@@ -2073,16 +2073,16 @@
                         Swinburne henceforth lives a much quieter life.</item></list></cell>
                     <cell>
                         <list>
-                            <item><bibl><author>Hugo</author>. <title>La pitié suprême</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">La pitié suprême</title>.</bibl></item>
                             <item>
-                                <bibl><author>Meredith</author>: <title>The Egoist</title>.</bibl>
+                                <bibl><author>Meredith</author>: <title rendition="#i">The Egoist</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Stevenson</author>: <title>Travels with a Donkey in
+                                <bibl><author>Stevenson</author>: <title rendition="#i">Travels with a Donkey in
                                         the Cévennes</title>.<!--accent mark needed.--></bibl>
                             </item>
                             <item>
-                                <bibl><author>Balfour</author>: <title>A Defence of Philosophic
+                                <bibl><author>Balfour</author>: <title rendition="#i">A Defence of Philosophic
                                         Doubt</title>.</bibl>
                             </item>
                         </list>
@@ -2097,17 +2097,17 @@
                     </cell>
                     <cell role="data" rows="1" cols="1">
                         <list>
-                            <item><title>A Study of Shakespeare.</title></item>
-                            <item><title><ref target="collection:sos">Songs of the Springtides</ref></title>.</item>
-                            <item><title><ref target="collection:sis">Studies in Song</ref></title>.</item>
-                            <item><title><ref target="collection:hept">The Heptalogia, or The Seven Against Sense</ref></title>.</item>
+                            <item><title rendition="#i">A Study of Shakespeare.</title></item>
+                            <item><title rendition="#i"><ref target="collection:sos">Songs of the Springtides</ref></title>.</item>
+                            <item><title rendition="#i"><ref target="collection:sis">Studies in Song</ref></title>.</item>
+                            <item><title rendition="#i"><ref target="collection:hept">The Heptalogia, or The Seven Against Sense</ref></title>.</item>
                         </list>
                     </cell>
                     <cell>
                         <list>
-                            <item><bibl><author>Burton</author>. <title>The Kasidah of Haji Abdu El-Yezdi</title>.</bibl></item>
-                            <item><bibl><author>Hugo</author>. <title>Religions et religion</title>.</bibl></item>
-                            <item><bibl><author>Hugo</author>. <title>L'Âne</title>.</bibl></item>
+                            <item><bibl><author>Burton</author>. <title rendition="#i">The Kasidah of Haji Abdu El-Yezdi</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">Religions et religion</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>. <title rendition="#i">L'Âne</title>.</bibl></item>
                             <item><bibl><author>Ruskin</author>: <title rend="sq">Fiction, Fair and
                             Foul</title>.</bibl></item>
                         </list>
@@ -2117,7 +2117,7 @@
                         <item><bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Burne Jones</persName>
-                        </respStmt>: <title>The Golden Stairs</title>.</bibl></item>
+                        </respStmt>: <title rendition="#i">The Golden Stairs</title>.</bibl></item>
                     </list>
                     </cell>
                 </row>
@@ -2127,21 +2127,21 @@
                     </cell>
                     <cell role="data" rows="1" cols="1">
                         <list>
-                            <item><title>Mary Stuart.</title></item>
+                            <item><title rendition="#i">Mary Stuart.</title></item>
                         </list>
                     </cell>
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Carlyle</author>: <title>Reminiscences</title>.</bibl>
+                                <bibl><author>Carlyle</author>: <title rendition="#i">Reminiscences</title>.</bibl>
                             </item>
-                            <item><bibl><author>Hugo</author>: <title>Les Quatres vents de l'esprit</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>: <title rendition="#i">Les Quatres vents de l'esprit</title>.</bibl></item>
                             <item>
-                                <bibl><author>James</author>: <title>The Portrait of a
+                                <bibl><author>James</author>: <title rendition="#i">The Portrait of a
                                     Lady</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>D.G. Rossetti</author>: <title><ref target="http://www.rossettiarchive.org/docs/2-1881.raw.html">Ballads and Sonnets</ref></title>.</bibl></item>
+                                <bibl><author>D.G. Rossetti</author>: <title rendition="#i"><ref target="http://www.rossettiarchive.org/docs/2-1881.raw.html">Ballads and Sonnets</ref></title>.</bibl></item>
                         </list>
                     </cell>
                     <cell>
@@ -2158,21 +2158,21 @@
                     </cell>
                     <cell role="data" rows="1" cols="1">
                         <list>
-                            <item><title><ref target="collection:tol">Tristram of Lyonesse and Other Poems</ref></title>.</item>
+                            <item><title rendition="#i"><ref target="collection:tol">Tristram of Lyonesse and Other Poems</ref></title>.</item>
                             <item><label rendition="#suppress">Visits Hugo</label><date when="1872-11" rendition="#suppress"/>Swinburne and Watts visit Victor Hugo in Paris.</item>
                         </list>
                     </cell>
                     <cell>
                         <list>
                             <item>
-                                <bibl><title>Dictionary of National
+                                <bibl><title rendition="#i">Dictionary of National
                                     Biography</title>.<!--ed Leslie Stephen.--></bibl>
                             </item>
                             <item>
-                                <bibl><author>Besant</author>: <title>All Sorts and Conditions of
+                                <bibl><author>Besant</author>: <title rendition="#i">All Sorts and Conditions of
                                         Men</title>.</bibl>
                             </item>
-                            <item><bibl><author>Hugo</author>: <title>Torquemada </title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>: <title rendition="#i">Torquemada </title>.</bibl></item>
                             <item><date rendition="#suppress" when="1882-04-09"/>Dante Gabriel Rossetti dies.</item>
                         </list>
                     </cell>
@@ -2185,20 +2185,20 @@
                     </cell>
                     <cell role="data" rows="1" cols="1">
                         <list>
-                            <item><title><ref target="collection:cor">A Century of Roundels</ref></title>.</item>
+                            <item><title rendition="#i"><ref target="collection:cor">A Century of Roundels</ref></title>.</item>
                             <item><date when="1883-07" rendition="#suppress"/>At Cromer with Watts.</item>
                         </list>
                     </cell>
                     <cell>
                         <list>
-                            <item><bibl><author>Hugo</author>: <title>La Légende des siècles Tome III</title>.</bibl></item>
-                            <item><bibl><author>Hugo</author>: <title>L'Archipel de la Manche </title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>: <title rendition="#i">La Légende des siècles Tome III</title>.</bibl></item>
+                            <item><bibl><author>Hugo</author>: <title rendition="#i">L'Archipel de la Manche </title>.</bibl></item>
                             <item>
                                 <bibl><author>Trollope</author>:
-                                    <title>Autobiography</title>.</bibl>
+                                    <title rendition="#i">Autobiography</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Ruskin</author>: <title>The Art of
+                                <bibl><author>Ruskin</author>: <title rendition="#i">The Art of
                                     England</title>.</bibl>
                             </item>
                         </list>
@@ -2216,22 +2216,22 @@
                     </cell>
                     <cell role="data" rows="1" cols="1">
                         <list>
-                            <item><title><ref target="collection:mhop">A Midsummer Holiday and Other Poems</ref></title>.</item>
+                            <item><title rendition="#i"><ref target="collection:mhop">A Midsummer Holiday and Other Poems</ref></title>.</item>
                             <item><date when="1884-07" rendition="#suppress"/>With Watts in Norfolk.</item>
                         </list>
                     </cell>
                     <cell>
                         <list>
                             <item>
-                                <bibl><title>Oxford English
+                                <bibl><title rendition="#i">Oxford English
                                     Dictionary</title>.<!--ed. James Murray--></bibl>
                             </item>
                             <item>
-                                <bibl><author>Spencer</author>: <title>Man versus the
+                                <bibl><author>Spencer</author>: <title rendition="#i">Man versus the
                                     State</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Ruskin</author>: <title>The Pleasures of
+                                <bibl><author>Ruskin</author>: <title rendition="#i">The Pleasures of
                                         England</title>.</bibl>
                             </item>
                         </list>
@@ -2250,20 +2250,20 @@
                     </cell>
                     <cell role="data" rows="1" cols="1">
                         <list>
-                            <item><title>Marino Faliero,</title> a blank-verse
+                            <item><title rendition="#i">Marino Faliero,</title> a blank-verse
                             drama.</item>
                             <item><date rendition="#suppress" when="1885-08-11"/>Lord Houghton dies.</item>
                         </list>
                     </cell>
                     <cell>
                         <list>
-                            <item><bibl>Burton,trans. <title>The Book of the Thousand Nights and a Night </title>.</bibl></item>
+                            <item><bibl>Burton,trans. <title rendition="#i">The Book of the Thousand Nights and a Night </title>.</bibl></item>
                             <item>
-                                <bibl><author>Pater</author>: <title>Marius the
+                                <bibl><author>Pater</author>: <title rendition="#i">Marius the
                                     Epicurean</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Pattison</author>: <title>Memoirs</title>.</bibl>
+                                <bibl><author>Pattison</author>: <title rendition="#i">Memoirs</title>.</bibl>
                             </item>
                         </list>
                     </cell>
@@ -2282,17 +2282,17 @@
                     <cell>
                         <list>
                             <item>
-                                <title>Miscellanies.</title>
+                                <title rendition="#i">Miscellanies.</title>
                             </item>
                             <item>
-                                <title>A Study of Victor Hugo.</title>
+                                <title rendition="#i">A Study of Victor Hugo.</title>
                             </item>
                         </list>
                     </cell>
                     <cell>
                         <list>
-                            <item><bibl><author>Stevenson</author>: <title>Dr Jekyll and Mr Hyde</title>.
-                                <title>Kidnapped</title>.</bibl></item>
+                            <item><bibl><author>Stevenson</author>: <title rendition="#i">Dr Jekyll and Mr Hyde</title>.
+                                <title rendition="#i">Kidnapped</title>.</bibl></item>
                         </list>
                     </cell>
                     <cell>
@@ -2304,7 +2304,7 @@
                             <item><bibl><respStmt>
                                 <resp n="artist"/>
                                 <persName>Millais</persName>
-                            </respStmt>: <title>Bubbles</title>. </bibl></item>
+                            </respStmt>: <title rendition="#i">Bubbles</title>. </bibl></item>
                             <item>Daimler patents high-speed internal combustion engine.</item>
                         </list>
                     </cell>
@@ -2315,14 +2315,14 @@
                     </cell>
                     <cell role="data" rows="1" cols="1">
                         <list>
-                            <item><title>Locrine</title>, a lyrical drama.</item>
-                            <item><title>Whitmania.</title></item>
+                            <item><title rendition="#i">Locrine</title>, a lyrical drama.</item>
+                            <item><title rendition="#i">Whitmania.</title></item>
                             <item><date when="1887-07" rendition="#suppress"/>At Lancing with Watts.</item>
                         </list>
                     </cell>
                     <cell>
                         <list>
-                            <item><bibl><author>Rutherford</author>: <title>The Revolution in Tanner's
+                            <item><bibl><author>Rutherford</author>: <title rendition="#i">The Revolution in Tanner's
                             Lane</title>.</bibl></item>
                         </list>
                     </cell>
@@ -2349,18 +2349,18 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Mrs Humphry Ward</author>: <title>Robert
+                                <bibl><author>Mrs Humphry Ward</author>: <title rendition="#i">Robert
                                         Elsmere</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Morris</author>: <title><ref target="http://morrisedition.lib.uiowa.edu/dream.html">A Dream of John Ball</ref></title>.</bibl>
+                                <bibl><author>Morris</author>: <title rendition="#i"><ref target="http://morrisedition.lib.uiowa.edu/dream.html">A Dream of John Ball</ref></title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Doughty</author>: <title>Travels in Arabia
+                                <bibl><author>Doughty</author>: <title rendition="#i">Travels in Arabia
                                         Deserta</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Kipling</author>: <title>Plain Tales from the
+                                <bibl><author>Kipling</author>: <title rendition="#i">Plain Tales from the
                                         Hills</title>.</bibl>
                             </item>
                         </list>
@@ -2379,29 +2379,29 @@
                     </cell>
                     <cell role="data" rows="1" cols="1">
                         <list>
-                            <item><title>A Study of Ben Jonson.</title></item>
-                            <item><title><ref target="collection:pb3">Poems and Ballads, Third Series</ref></title>.</item>
+                            <item><title rendition="#i">A Study of Ben Jonson.</title></item>
+                            <item><title rendition="#i"><ref target="collection:pb3">Poems and Ballads, Third Series</ref></title>.</item>
                         </list>
                     </cell>
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Pater</author>: <title>Appreciations: with an Essay on
+                                <bibl><author>Pater</author>: <title rendition="#i">Appreciations: with an Essay on
                                         Style</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Patmore</author>: <title>Principles in
+                                <bibl><author>Patmore</author>: <title rendition="#i">Principles in
                                     Art</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Huxley</author>: <title>Agnosticism</title>.</bibl>
+                                <bibl><author>Huxley</author>: <title rendition="#i">Agnosticism</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><title>Fabian Essays in
+                                <bibl><title rendition="#i">Fabian Essays in
                                     Socialism</title>.<!--ed. Shaw.--></bibl>
                             </item>
                             <item>
-                                <bibl><author>Yeats</author>: <title>The Wanderings of
+                                <bibl><author>Yeats</author>: <title rendition="#i">The Wanderings of
                                     Oisin and Other Poems</title>.</bibl>
                             </item>
                         </list>
@@ -2427,14 +2427,14 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Frazer</author>: <title>The Golden
+                                <bibl><author>Frazer</author>: <title rendition="#i">The Golden
                                     Bough</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Morris</author>: <title><ref target="http://morrisedition.lib.uiowa.edu/news.html">News from Nowhere</ref></title>.</bibl>
+                                <bibl><author>Morris</author>: <title rendition="#i"><ref target="http://morrisedition.lib.uiowa.edu/news.html">News from Nowhere</ref></title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Gissing</author>: <title>The
+                                <bibl><author>Gissing</author>: <title rendition="#i">The
                                     Emancipated</title>.</bibl>
                             </item>
                         </list>
@@ -2454,11 +2454,11 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Wilde</author>: <title>The Picture of Dorian
+                                <bibl><author>Wilde</author>: <title rendition="#i">The Picture of Dorian
                                         Gray</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Gissing</author>: <title>New Grub
+                                <bibl><author>Gissing</author>: <title rendition="#i">New Grub
                                     Street</title>.</bibl>
                             </item>
                         </list>
@@ -2476,7 +2476,7 @@
                     </cell>
                     <cell role="data" rows="1" cols="1">
                         <list>
-                            <item><title>The Sisters,</title> a blank verse
+                            <item><title rendition="#i">The Sisters,</title> a blank verse
                             drama with a contemporary setting.</item>
                             <item>General Disney Leith dies.</item>
                         </list>
@@ -2502,9 +2502,9 @@
                         <date when="1894"/>
                     </cell>
                     <cell role="data" rows="1" cols="1"><list>
-                        <item><title><ref target="collection:aop">Astrophel and Other Poems</ref></title>.</item>
+                        <item><title rendition="#i"><ref target="collection:aop">Astrophel and Other Poems</ref></title>.</item>
                         <item>
-                        <title>Studies in Prose and Poetry</title>.</item></list></cell>
+                        <title rendition="#i">Studies in Prose and Poetry</title>.</item></list></cell>
                     <cell/>
                     <cell/>
                 </row>
@@ -2516,11 +2516,11 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Wells</author>: <title>The Time
+                                <bibl><author>Wells</author>: <title rendition="#i">The Time
                                     Machine</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Hardy</author>: <title>Jude the
+                                <bibl><author>Hardy</author>: <title rendition="#i">Jude the
                                     Obscure</title>.</bibl>
                             </item>
                         </list>
@@ -2531,7 +2531,7 @@
                     <cell rendition="#chronoTableDate" role="data" rows="1" cols="1">
                         <date when="1896"/>
                     </cell>
-                    <cell role="data" rows="1" cols="1"><list><item><title><ref target="document:acs0000001-04-i001">The Tale of Balen</ref></title>.</item><item>
+                    <cell role="data" rows="1" cols="1"><list><item><title rendition="#i"><ref target="document:acs0000001-04-i001">The Tale of Balen</ref></title>.</item><item>
                     Swinburne's mother, Lady Jane Swinburne, dies. </item>
                     <item><date rendition="#suppress" when="1896-10-03"/>William Morris dies.</item></list></cell>
                     <cell/>
@@ -2557,7 +2557,7 @@
                     <cell rendition="#chronoTableDate" role="data" rows="1" cols="1">
                         <date when="1899"/>
                     </cell>
-                    <cell role="data" rows="1" cols="1"><list><item><title>Rosamund, Queen of the
+                    <cell role="data" rows="1" cols="1"><list><item><title rendition="#i">Rosamund, Queen of the
                             Lombards,</title> a blank-verse drama.</item></list> </cell>
                     <cell/>
                     <cell><list><item>Boer War (to 1892).</item><item> <label rendition="#suppress">Ruskin College, Oxford, founded</label>The college is meant to provide higher
@@ -2572,15 +2572,15 @@
                     <cell>
                         <list>
                             <item>
-                                <bibl><author>Shaw</author>: <title>Three Plays for
+                                <bibl><author>Shaw</author>: <title rendition="#i">Three Plays for
                                     Puritans</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Freud</author>: <title>The Interpretation of
+                                <bibl><author>Freud</author>: <title rendition="#i">The Interpretation of
                                         Dreams</title>.</bibl>
                             </item>
                             <item>
-                                <bibl><author>Conrad</author>: <title>Lord Jim</title>.</bibl>
+                                <bibl><author>Conrad</author>: <title rendition="#i">Lord Jim</title>.</bibl>
                             </item>
                         </list>
                     </cell>
@@ -2593,7 +2593,7 @@
                         <date when="1901"/>
                     </cell>
                     <cell/>
-                    <cell><list><item><bibl><author>Kipling</author>. <title>Kim</title>.</bibl></item></list></cell>
+                    <cell><list><item><bibl><author>Kipling</author>. <title rendition="#i">Kim</title>.</bibl></item></list></cell>
                     <cell><list><item>Death of Queen Victoria.</item></list></cell>
                 </row>
                 <row role="data">
@@ -2601,10 +2601,10 @@
                         <date when="1902"/>
                     </cell>
                     <cell/>
-                    <cell><list><item><title>Times Literary Supplement</title> first published.</item>
-                        <item><bibl><author>Conan Doyle</author>. <title>The Hound of the Baskervilles</title>.</bibl></item>
-                    <item><bibl><author>Conrad</author>.<title>Heart of Darkness</title>.</bibl></item>
-                    <item><bibl><author>Kipling</author>. <title>Just So Stories</title>.</bibl></item></list></cell>
+                    <cell><list><item><title rendition="#i">Times Literary Supplement</title> first published.</item>
+                        <item><bibl><author>Conan Doyle</author>. <title rendition="#i">The Hound of the Baskervilles</title>.</bibl></item>
+                    <item><bibl><author>Conrad</author>.<title rendition="#i">Heart of Darkness</title>.</bibl></item>
+                    <item><bibl><author>Kipling</author>. <title rendition="#i">Just So Stories</title>.</bibl></item></list></cell>
                     <cell><list>
                         <item><date rendition="#suppress" when="1902-08-09"/>Coronation of Edward VII</item></list></cell>
                 </row>
@@ -2617,7 +2617,7 @@
                             <item><date when="1903-11" rendition="#suppress"/>First Attack of Pneumonia.</item>
                         </list>
                     </cell>
-                    <cell><list><item><bibl><author>Butler</author>. <title>The Way of All Flesh</title>.</bibl></item></list></cell>
+                    <cell><list><item><bibl><author>Butler</author>. <title rendition="#i">The Way of All Flesh</title>.</bibl></item></list></cell>
                     <cell>
                     </cell>
                 </row>
@@ -2628,13 +2628,13 @@
                     <cell role="data" rows="1" cols="1">
                         <list>
                             <item>
-                                <title><ref target="collection:cpop">A Channel Passage and Other Poems</ref></title>.
+                                <title rendition="#i"><ref target="collection:cpop">A Channel Passage and Other Poems</ref></title>.
                             </item>
-                            <item><title>The Poems of Algernon Charles Swinburne</title>, six volumes of Swinburne's collected poems.</item>
+                            <item><title rendition="#i">The Poems of Algernon Charles Swinburne</title>, six volumes of Swinburne's collected poems.</item>
                            
                         </list>
                     </cell>
-                    <cell><list><item><bibl><author>Conrad</author>. <title>Nostromo</title>.</bibl></item></list></cell>
+                    <cell><list><item><bibl><author>Conrad</author>. <title rendition="#i">Nostromo</title>.</bibl></item></list></cell>
                     <cell/>
                 </row>
                 <row role="data">
@@ -2643,17 +2643,17 @@
                     </cell>
                     <cell role="data" rows="1" cols="1">
                         <list>
-                            <item><label rendition="#suppress"><title>Love's
-                                    Cross-Currents</title></label><title>Love's
+                            <item><label rendition="#suppress"><title rendition="#i">Love's
+                                    Cross-Currents</title></label><title rendition="#i">Love's
                                     Cross-Currents,</title> a novel first published in 1877 as
-                                    <title>A Year's Letters</title> under the pseudonym Mrs. Horace
+                                    <title rendition="#i">A Year's Letters</title> under the pseudonym Mrs. Horace
                                     Manners.</item>
                             <item><label rendition="#suppress">Watts-Dunton Marries</label> Watts, now Watts-Dunton, marries his secretary, Miss Clara Reich.</item>
-                            <item><title>The Tragedies of Algernon Charles Swinburne</title>, five volumes of Swinburne's collected dramas.</item>
+                            <item><title rendition="#i">The Tragedies of Algernon Charles Swinburne</title>, five volumes of Swinburne's collected dramas.</item>
                         </list>
                     </cell>
-                    <cell><list><item><bibl><author>Conan Doyle</author>. <title>The Return of Sherlock Holmes</title>.</bibl></item>
-                        <item><bibl><author>Forster</author>. <title>Where Angels Fear to Tread</title>.</bibl></item></list>
+                    <cell><list><item><bibl><author>Conan Doyle</author>. <title rendition="#i">The Return of Sherlock Holmes</title>.</bibl></item>
+                        <item><bibl><author>Forster</author>. <title rendition="#i">Where Angels Fear to Tread</title>.</bibl></item></list>
                         </cell>
                     <cell/>
                 </row>
@@ -2674,8 +2674,8 @@
                         <date when="1907"/>
                     </cell>
                     <cell/>
-                    <cell><list><item><date rendition="#suppress" when="1907-01-26"/><bibl><author>Synge</author>. <title>The Playboy of the Western World</title>.</bibl> First performance at the Abbey Theatre in Dublin triggers a week of rioting</item>
-                    <item><bibl><author>Gosse</author>. <title>Father and Son</title>.</bibl></item></list></cell>
+                    <cell><list><item><date rendition="#suppress" when="1907-01-26"/><bibl><author>Synge</author>. <title rendition="#i">The Playboy of the Western World</title>.</bibl> First performance at the Abbey Theatre in Dublin triggers a week of rioting</item>
+                    <item><bibl><author>Gosse</author>. <title rendition="#i">Father and Son</title>.</bibl></item></list></cell>
                     <cell/>
                 </row>
                 <row role="data">
@@ -2684,16 +2684,16 @@
                     </cell>
                     <cell role="data" rows="1" cols="1">
                         <list>
-                            <item><title>The Duke of Gandia,</title> an unfinished blank-verse
+                            <item><title rendition="#i">The Duke of Gandia,</title> an unfinished blank-verse
                                 drama.</item>
                             <item>
-                                <title>The Age of Shakespeare.</title>
+                                <title rendition="#i">The Age of Shakespeare.</title>
                             </item>
                         </list>
                     </cell>
                     <cell>
                         <list>
-                            <item><bibl><author>Forster</author>. <title>A Room with a View</title>.</bibl></item></list></cell>
+                            <item><bibl><author>Forster</author>. <title rendition="#i">A Room with a View</title>.</bibl></item></list></cell>
                     <cell/>
                 </row>
                 <row role="data">
@@ -2704,7 +2704,7 @@
                     <cell role="data" rows="1" cols="1">
                         <list>
                             <item>
-                                <title>Three Plays of Shakespeare.</title>
+                                <title rendition="#i">Three Plays of Shakespeare.</title>
                             </item>
                             <item><label rendition="#suppress">Swinburne dies</label>On <date when="1909-04-10">April 10</date>, Swinburne dies of pneumonia
                                     at the age of seventy-three.</item>
@@ -2727,10 +2727,10 @@
                 <biblStruct xml:id="cassidy1965">
                         <analytic>
                             <author><persName>Cassidy, John A.</persName></author>
-                            <title>Chronology</title>
+                            <title rendition="#i">Chronology</title>
                         </analytic>
                         <monogr>
-                            <title>Algernon C. Swinburne</title>
+                            <title rendition="#i">Algernon C. Swinburne</title>
                             <imprint>
                                 <pubPlace>New York</pubPlace>
                                 <publisher>Twayne</publisher>
@@ -2741,11 +2741,11 @@
                 </biblStruct>
                     <biblStruct>
                         <analytic>
-                            <title>Chronology</title>
+                            <title rendition="#i">Chronology</title>
                         </analytic>
                         <monogr>
                             <author><persName ref="#ruskin"/></author>
-                            <title>Praeterita</title>
+                            <title rendition="#i">Praeterita</title>
                             <imprint>
                                 <pubPlace>New York</pubPlace>
                                 <publisher>Everyman's Library</publisher>
@@ -2758,10 +2758,10 @@
                 <biblStruct>
                     <analytic>
                         <author><persName>Maxwell, Catherine</persName></author>
-                        <title>Biographical Outline</title>
+                        <title rendition="#i">Biographical Outline</title>
                     </analytic>
                     <monogr>
-                        <title>Swinburne</title>
+                        <title rendition="#i">Swinburne</title>
                         <imprint>
                             <pubPlace>Tavistock</pubPlace>
                             <publisher>Northcote</publisher>
@@ -2772,7 +2772,7 @@
                 </biblStruct>
                 <biblStruct xml:id="Rooksby1997">
                     <monogr>
-                        <title>A. C. Swinburne: A Poet's Life</title>
+                        <title rendition="#i">A. C. Swinburne: A Poet's Life</title>
                         <idno type="bookends-rec-number">74725</idno>
                         <author><persName><surname>Rooksby</surname>, Rikky</persName></author>
                         
@@ -2786,7 +2786,7 @@
 
                 <biblStruct xml:id="lang1959">
                     <monogr>
-                        <title>The Swinburne Letters</title>
+                        <title rendition="#i">The Swinburne Letters</title>
                         <author><persName ref="#acs"/></author>
                         <editor><persName>Cecil Y. Lang</persName></editor>
                         <imprint>
@@ -2799,7 +2799,7 @@
                 </biblStruct>
                 <biblStruct xml:id="Swinburne2005">
                     <monogr>
-                        <title>Uncollected Letters of Algernon Charles Swinburne</title>
+                        <title rendition="#i">Uncollected Letters of Algernon Charles Swinburne</title>
                         <idno type="bookends-rec-number">3757</idno>
                         <author><persName><surname>Swinburne</surname>, Algernon Charles</persName></author>
                         <editor><persName><surname>Meyers</surname>, Terry L.</persName></editor>
@@ -2821,10 +2821,10 @@
                 
                             
                    <!--                            
-                <note>A great many biographies, Lang's <title>Letters</title> and Meyer's
-                        <title>Uncollected Letters</title> were consulted in compiling the facts and
+                <note>A great many biographies, Lang's <title rendition="#i">Letters</title> and Meyer's
+                        <title rendition="#i">Uncollected Letters</title> were consulted in compiling the facts and
                     incidents from Swinburne's life. The chronology found in Everyman's Library
-                    edition of John Ruskin's <title>Praeterita</title> (New York: Knopf, 2005)
+                    edition of John Ruskin's <title rendition="#i">Praeterita</title> (New York: Knopf, 2005)
                     served as a foundation for the literary and historical context timelines. I have
                     added additional material to extend the coverage to Swinburne's death in 1909.
                     To the literary context, I have added many events significant to Swinburne's

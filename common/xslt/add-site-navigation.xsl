@@ -27,7 +27,7 @@
       <!-- js -->
       <!-- link to customized bootstrap css -->
       <link rel="stylesheet" href="css/custom.min.css"/>
-      <script defer="defer" src="https://umami.biblicon.org/script.js" data-website-id="a43c1768-6a95-4dd4-8f44-832a473a6945"></script>
+      <script defer="defer" src="https://umami.biblicon.org/script.js" data-website-id="a43c1768-6a95-4dd4-8f44-832a473a6945"/>
     </xsl:copy>
   </xsl:template>
   <!-- add a global suffix to every page title -->
@@ -39,9 +39,9 @@
   <!-- insert boiler plate into the body -->
   <xsl:template match="body">
     <xsl:copy>
-	    <xsl:if test="/html/head/meta[@name = 'status']/@content = 'published'">
-		    <xsl:attribute name="data-pagefind-body" select="'data-pagefind-body'"/>
-	    </xsl:if>
+      <xsl:if test="/html/head/meta[@name = 'status']/@content = 'published'">
+        <xsl:attribute name="data-pagefind-body" select="'data-pagefind-body'"/>
+      </xsl:if>
       <xsl:apply-templates select="@*"/>
       <!-- masthead -->
       <header class="sticky-top">
@@ -262,26 +262,25 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
                         </xsl:call-template>
                       </xsl:attribute>
                       <xsl:value-of select="fn:map[@key='work']/fn:string[@key='title']"/>
-		      </a>
-		      <xsl:if test="fn:map[@key='work']/fn:array[@key='contents']">
-					  <ul>
-						  <xsl:for-each select="fn:map[@key='work']/fn:array[@key='contents']/fn:map">
-                                <li>
-                                  <!-- Extract the item title -->
-                                  <a class="{$a-nested-class}">
-                                    <xsl:attribute name="href">
-                                      <xsl:call-template name="generateInternalURL">
-                                        <xsl:with-param name="docID" select="ancestor::fn:map[@key = 'work']/fn:string[@key = 'id']"/>
-                                        <xsl:with-param name="ref" select="fn:map[@key='item']/fn:string[@key='id']"/>
-                                      </xsl:call-template>
-                                    </xsl:attribute>
-                                    <xsl:value-of select="fn:map[@key='item']/fn:string[@key='title']"/>
-                                  </a>
-                                </li>
-                              </xsl:for-each>
-		      </ul>
-	      </xsl:if>
-
+                    </a>
+                    <xsl:if test="fn:map[@key='work']/fn:array[@key='contents']">
+                      <ul>
+                        <xsl:for-each select="fn:map[@key='work']/fn:array[@key='contents']/fn:map">
+                          <li>
+                            <!-- Extract the item title -->
+                            <a class="{$a-nested-class}">
+                              <xsl:attribute name="href">
+                                <xsl:call-template name="generateInternalURL">
+                                  <xsl:with-param name="docID" select="ancestor::fn:map[@key = 'work']/fn:string[@key = 'id']"/>
+                                  <xsl:with-param name="ref" select="fn:map[@key='item']/fn:string[@key='id']"/>
+                                </xsl:call-template>
+                              </xsl:attribute>
+                              <xsl:value-of select="fn:map[@key='item']/fn:string[@key='title']"/>
+                            </a>
+                          </li>
+                        </xsl:for-each>
+                      </ul>
+                    </xsl:if>
                   </li>
                 </xsl:for-each>
               </ul>
@@ -300,26 +299,25 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
                         </xsl:call-template>
                       </xsl:attribute>
                       <xsl:value-of select="fn:map[@key='item']/fn:string[@key='title']"/>
-		      </a>
-		      <xsl:if test="fn:map[@key='work']/fn:array[@key='contents']">
-					  <ul>
-						  <xsl:for-each select="fn:map[@key='work']/fn:array[@key='contents']/fn:map">
-                                <li>
-                                  <!-- Extract the item title -->
-                                  <a class="{$a-nested-class}">
-                                    <xsl:attribute name="href">
-                                      <xsl:call-template name="generateInternalURL">
-                                        <xsl:with-param name="docID" select="ancestor::fn:map[@key = 'work']/fn:string[@key = 'id']"/>
-                                        <xsl:with-param name="ref" select="fn:map[@key='item']/fn:string[@key='id']"/>
-                                      </xsl:call-template>
-                                    </xsl:attribute>
-                                    <xsl:value-of select="fn:map[@key='item']/fn:string[@key='title']"/>
-                                  </a>
-                                </li>
-                              </xsl:for-each>
-		      </ul>
-	      </xsl:if>
-
+                    </a>
+                    <xsl:if test="fn:map[@key='work']/fn:array[@key='contents']">
+                      <ul>
+                        <xsl:for-each select="fn:map[@key='work']/fn:array[@key='contents']/fn:map">
+                          <li>
+                            <!-- Extract the item title -->
+                            <a class="{$a-nested-class}">
+                              <xsl:attribute name="href">
+                                <xsl:call-template name="generateInternalURL">
+                                  <xsl:with-param name="docID" select="ancestor::fn:map[@key = 'work']/fn:string[@key = 'id']"/>
+                                  <xsl:with-param name="ref" select="fn:map[@key='item']/fn:string[@key='id']"/>
+                                </xsl:call-template>
+                              </xsl:attribute>
+                              <xsl:value-of select="fn:map[@key='item']/fn:string[@key='title']"/>
+                            </a>
+                          </li>
+                        </xsl:for-each>
+                      </ul>
+                    </xsl:if>
                   </li>
                 </xsl:for-each>
               </ul>
@@ -404,7 +402,7 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
   </xsl:template>
   <!-- identify project-docs that get regular headings -->
   <xsl:template mode="replace-class" match="h1[contains-token(@class, 'tei-head')]|h2[contains-token(@class, 'tei-head')]|h3[contains-token(@class, 'tei-head')]|h4[contains-token(@class, 'tei-head')]|h5[contains-token(@class, 'tei-head')]|h6[contains-token(@class, 'tei-head')]">
-	  <xsl:if test="/html/@xml:id = 'acs0000503-01' or /html/@xml:id = 'acs0000508-01' or /html/@xml:id = 'acs0000504-01' or /html/@xml:id = 'acs0000500-01'">
+    <xsl:if test="/html/@xml:id = 'acs0000503-01' or /html/@xml:id = 'acs0000508-01' or /html/@xml:id = 'acs0000504-01' or /html/@xml:id = 'acs0000500-01'">
       <xsl:attribute name="class">
         <xsl:value-of select="concat(@class, ' project-doc')"/>
       </xsl:attribute>
@@ -442,13 +440,12 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
     <xsl:attribute name="class">
       <xsl:value-of select="concat(@class,' my-4')"/>
     </xsl:attribute>
-    </xsl:template>  
+  </xsl:template>
   <xsl:template mode="replace-class" match="//*[contains-token(@class, 'rendition-blockquote')]">
     <xsl:attribute name="class">
       <xsl:value-of select="concat(@class,' my-2')"/>
     </xsl:attribute>
   </xsl:template>
-
   <!-- elements that should add bottom margin -->
   <xsl:template mode="replace-class" match="//div[contains-token(@class, 'tei-stage')]|//div[contains-token(@class, 'tei-sp')]">
     <xsl:attribute name="class">
@@ -485,7 +482,6 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
   <xsl:template mode="replace-class" match="table[@id='chronoTable']">
     <xsl:attribute name="class">{@class} table table-striped-columns</xsl:attribute>
   </xsl:template>
-
   <xsl:template mode="replace-class" match="details[contains-token(@class, 'tei-bibl')]/ul/li">
     <xsl:attribute name="class">list-group-item</xsl:attribute>
   </xsl:template>
@@ -521,7 +517,7 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
   </xsl:template>
   <xsl:template mode="replace-class" match="div[contains-token(@class, 'tei-teiHeader')]//h2">
     <xsl:attribute name="class">{@class} h5</xsl:attribute>
-    </xsl:template>
+  </xsl:template>
   <xsl:template match="li[@class='page-item active']/a[@class='page-link']">
     <xsl:copy>
       <xsl:copy-of select="@*"/>
@@ -541,15 +537,31 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
   <!-- notes -->
   <xsl:template match="div[contains-token(@class, 'tei-note') and (@id) and not(contains-token(@class,'rendition-rester-en-place'))]">
     <!-- generate button  -->
-	  <button type="button" class="btn btn-outline-primary p-1" style="font-size: .7rem; vertical-align: super;" data-bs-toggle="modal" data-bs-target="{concat('#m-',@id)}">&#x2020;</button>
+    <xsl:choose>
+      <xsl:when test="contains-token(@class, 'type-chronoLetter')">
+	      &#x1f4c4; <button type="button" class="btn btn-link" style="font-size: inherit;" data-bs-toggle="modal" data-bs-target="{concat('#m-',@id)}">A Letter</button><br/>
+      </xsl:when>
+      <xsl:otherwise>
+        <button type="button" class="btn btn-outline-primary p-1" style="font-size: .7rem; vertical-align: super;" data-bs-toggle="modal" data-bs-target="{concat('#m-',@id)}">&#x2020;</button>
+      </xsl:otherwise>
+    </xsl:choose>
     <!-- generate modal -->
-	  <div class="modal fade" id="{concat('m-',@id)}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="{concat('m-',@id)}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-		  <h1 class="modal-title fs-5">Note
+            <h1 class="modal-title fs-5">
+              <xsl:choose>
+                <xsl:when test="contains-token(@class, 'type-chronoLetter')">
+					A letter&#x2026;
+				</xsl:when>
+                <xsl:otherwise>
+			  Note
+	                 					
 		 	 <xsl:if test="not(contains(@class, 'resp-acs'))">(editor)</xsl:if>
-	          </h1>
+		 </xsl:otherwise>
+              </xsl:choose>
+            </h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"/>
           </div>
           <div class="modal-body">
@@ -578,7 +590,7 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
     </xsl:copy>
   </xsl:template>
   <xsl:template match="/html/body//header[contains-token(@class,'tei-head')][1]">
-	  <xsl:copy>
+    <xsl:copy>
       <xsl:copy-of select="@*"/>
       <xsl:attribute name="data-pagefind-weight" select="'10'"/>
       <xsl:apply-templates/>
@@ -593,4 +605,5 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
   <xsl:template name="pagefind-meta">
     <meta name="volume-title" data-pagefind-filter="collection[content]" content="{$volume-title}"/>
   </xsl:template>
+  <!-- emoji: 📄 -->
 </xsl:stylesheet>

@@ -98,9 +98,7 @@ figCaption {
   scrollbar-width: thin; /* Firefox */
 }
 
-footer.footer {
-  z-index: -1;
-}
+
 
 
 #doc-meta-nav ul.navbar-nav::-webkit-scrollbar {
@@ -153,6 +151,30 @@ $h1-font-size: 2.5rem;
   text-align: right;
   content: attr(data-line);
   color: #999999;
+}
+
+tei a, footer a {
+	text-decoration:none;
+}
+
+tei a:hover, footer a:hover {
+	text-decoration:underline;
+}
+
+.rendition-parens-before::before {
+content:'(';
+}
+
+.rendition-parens-after::after {
+content:')';
+}
+
+.rendition-sq::before {
+content:'‘';
+}
+
+.rendition-sq::after {
+content:'’';
 }
 
 :not(.tei-castGroup) div.tei-castItem:last-of-type {
@@ -253,6 +275,8 @@ h2.tei-head + h2.tei-head, h1.tei-head + h1.tei-head {
   @extend .mb-2;
 }
 
+
+
 h1.tei-head.project-doc {
   font-size: $h1-font-size;
   font-family: $headings-font-family;
@@ -313,4 +337,8 @@ h6.tei-head.project-doc {
   @include media-breakpoint-down(sm) {
     font-size: 0.75rem;
   }
+}
+
+footer.footer , footer.footer * {
+  color: rgba(255, 255, 255, 0.55) !important;
 }
