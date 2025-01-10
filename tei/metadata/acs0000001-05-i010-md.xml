@@ -219,7 +219,7 @@
 							                 <biblScope unit="page"> 73-76 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sislaunc00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>The Launch of the Livadia</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

@@ -209,7 +209,7 @@
 							                 <biblScope unit="page">153-233</biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">tobbalen00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><monogr>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><monogr>
                      <author><persName ref="#acs"/></author>
                      <title>The Tale of Balen</title>
                      <imprint>

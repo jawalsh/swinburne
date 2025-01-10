@@ -33,10 +33,25 @@
             <persName ref="#jawalsh">John A. Walsh</persName>
         </respStmt>
 </seriesStmt>
-         <sourceDesc n="table-of-contents"><bibl><title>Rondel. Algernon Swinburne Collection. Special Collections Research Center. Syracuse University.</title><relatedItem type="component"><bibl><ref target="document:acs0000003-01-i001">Rondel</ref></bibl></relatedItem></bibl></sourceDesc>
+         <sourceDesc n="table-of-contents"><bibl><title>Rondel. Algernon charles Swinburne Collection. Special Collections Research Center. Syracuse University.</title><relatedItem type="component"><bibl><ref target="document:acs0000003-01-i001">Rondel</ref></bibl></relatedItem></bibl></sourceDesc>
          <sourceDesc>
             <xi:include href="includes/meta-listBibl.xml"/><xi:include href="includes/meta-listPerson.xml"/><xi:include href="includes/meta-listOrg.xml"/><xi:include href="includes/meta-listEvent.xml"/><xi:include href="includes/meta-listPlace.xml"/>
-            inclusion of primary biblStruct from metadata/acs0000001-01-i015-md.xml failed
+	    <msDesc>
+		    <msIdentifier>
+			    <region>New York</region>
+			    <settlement>Syracuse</settlement>
+			    <institution>Syracuse University</institution>
+			    <repository>Special Collections Reseach Center</repository>
+			    <collection>Algernon Charles Swinburne Collection</collection>
+		    </msIdentifier>
+		    <msContents>
+			    <msItem>
+			    <author>Algernon Charles Swinburne</author>
+			    <title>Rondel</title>
+		    </msItem>
+			    </msContents>
+			    
+	    </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -164,7 +179,7 @@
             </taxonomy>
          </classDecl>
       </encodingDesc>
-      <encodingDesc><listPrefixDef><!--The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website.--><prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/><!--The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved.--><prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/><!--The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry.--><prefixDef ident="glossary" matchPattern="(.*)" replacementPattern="#$1"/></listPrefixDef>
+      <encodingDesc><xi:include href="includes/listPrefixDef.xml"/>
          
 <classDecl xml:id="collex_genres">
         <taxonomy>
@@ -300,38 +315,12 @@
          </textClass>
       </profileDesc>
       <encodingDesc>
-					<listPrefixDef xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:chymistry="tag:conaltuohy.com,2018:chymistry" xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:z="https://github.com/Conal-Tuohy/XProc-Z">
-						<!-- The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website. -->
-						<prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/>
-						<!-- The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved. -->
-						<prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/>
-						<!-- The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry. -->
-						<prefixDef ident="glossary" matchPattern="(.+)" replacementPattern="#$1"/>
-						<!-- The 'image' reference system points to an image resource. These references expand to the URL of the resource in the Swinburne website.. -->
-						<prefixDef ident="image" matchPattern="(.+)" replacementPattern="/figure/$1"/>
-					</listPrefixDef>
-				<listPrefixDef><!--The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website.--><prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/><!--The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved.--><prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/><!--The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry.--><prefixDef ident="glossary" matchPattern="(.*)" replacementPattern="#$1"/></listPrefixDef>
+					<xi:include href="includes/listPrefixDef.xml"/>
             <xi:include href="includes/tagsDecl.xml"/>
             <p><note n="true" xml:id="hasPageImages"/></p>
         </encodingDesc>
-      <revisionDesc>
-         
-         <change n="svninfo">
-                        $Id$
-                        $Rev$
-                        $Date$
-                        $Author$
-                    </change>
-      
-         
+	<revisionDesc status="draft">
             <change when="2008-10-12">Updated XInclude links to reflect to ID scheme.</change>
-            <change n="svninfo">
-                $Id: acs0000001-01.xml 1040 2009-11-08 21:31:57Z jawalsh $
-                $Rev: 1040 $
-                $Date: 2009-11-08 16:31:57 -0500 (Sun, 08 Nov 2009) $
-                $Author: jawalsh $
-            </change>
-        
       </revisionDesc>
    </teiHeader>
    <standOff>

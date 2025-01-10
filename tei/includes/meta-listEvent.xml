@@ -1,4 +1,4 @@
-<listEvent>
+<listEvent xmlns="http://www.tei-c.org/ns/1.0">
                <event ana="#event" when="1588-08-08">
                   <label>Spanish Armada, Defeat of</label>
                   <note ana="#description">

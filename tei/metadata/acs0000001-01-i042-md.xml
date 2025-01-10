@@ -216,7 +216,7 @@
 							                 <biblScope unit="page">184-185</biblScope>
 						               </imprint>
 						               <extent>6 vols.</extent>
-					             </monogr><idno type="nines">pb1bfrpt00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+					             </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>Before Parting</title>
                      <author>
 							                 <persName ref="#acs">Algernon Charles Swinburne</persName>

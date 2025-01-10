@@ -214,7 +214,7 @@
 							                 <biblScope unit="page"> 215-218 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sbspernd00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>Perinde ac Cadaver</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

@@ -209,7 +209,7 @@
 							                 <biblScope unit="page"> 77-78 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sissixye00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>Six Years Old</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

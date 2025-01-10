@@ -222,7 +222,7 @@
                             <biblScope unit="page">114</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
-                    </monogr><idno type="nines">pb1sbdth00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                    </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>Song Before Death</title>
                      <author>
                             <persName ref="#acs">Algernon Charles Swinburne</persName>

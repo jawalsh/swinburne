@@ -239,7 +239,7 @@
             <biblStruct xml:id="acs0000001-04-i002-bibl"><analytic>
                      <title level="m">Atalanta in Calydon</title>
                      <author><persName ref="#acs"/></author>
-                     <idno type="nines">aicatlnt00</idno>
+                     
                   </analytic><monogr>
                         <title>The Poems of Algernon Charles Swinburne</title>
                         <imprint>

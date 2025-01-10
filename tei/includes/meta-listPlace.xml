@@ -1,4 +1,4 @@
-<listPlace>
+<listPlace xmlns="http://www.tei-c.org/ns/1.0">
                <place xml:id="beloye_more" ana="#geog">
                   <geogName>Beloye More</geogName>
                   <geogName ana=" #alternate">White Sea</geogName>

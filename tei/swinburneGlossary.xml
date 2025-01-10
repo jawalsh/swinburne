@@ -150,7 +150,11 @@
 						<!-- The 'image' reference system points to an image resource. These references expand to the URL of the resource in the Swinburne website.. -->
 						<prefixDef ident="image" matchPattern="(.+)" replacementPattern="/figure/$1"/>
 					</listPrefixDef>
-				</encodingDesc>
+					</encodingDesc>
+					<revisionDesc status="draft">      
+						<change when="2025-01-05" who="#jawalsh"/>
+      </revisionDesc>
+
 				
     </teiHeader>
     <text>

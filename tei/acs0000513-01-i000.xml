@@ -177,7 +177,7 @@
             </taxonomy>
          </classDecl>
       </encodingDesc>
-      <encodingDesc><listPrefixDef><!--The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website.--><prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/><!--The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved.--><prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/><!--The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry.--><prefixDef ident="glossary" matchPattern="(.*)" replacementPattern="#$1"/></listPrefixDef>
+      <encodingDesc><xi:include href="includes/listPrefixDef.xml"/>
          
 <classDecl xml:id="collex_genres">
         <taxonomy>
@@ -309,21 +309,11 @@
 	</taxonomy>
 </classDecl></encodingDesc><profileDesc>
          <textClass>
-            <catRef target="#collex_genre_criticism"/><catRef xml:id="parent_vol" target="#fix"/>
+            <catRef target="#collex_genre_criticism"/><catRef xml:id="parent_vol" target="#eas"/>
          </textClass>
       </profileDesc>
       <encodingDesc>
-					<listPrefixDef xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:chymistry="tag:conaltuohy.com,2018:chymistry" xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:z="https://github.com/Conal-Tuohy/XProc-Z">
-						<!-- The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website. -->
-						<prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/>
-						<!-- The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved. -->
-						<prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/>
-						<!-- The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry. -->
-						<prefixDef ident="glossary" matchPattern="(.+)" replacementPattern="#$1"/>
-						<!-- The 'image' reference system points to an image resource. These references expand to the URL of the resource in the Swinburne website.. -->
-						<prefixDef ident="image" matchPattern="(.+)" replacementPattern="/figure/$1"/>
-					</listPrefixDef>
-				<listPrefixDef><!--The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website.--><prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/><!--The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved.--><prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/><!--The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry.--><prefixDef ident="glossary" matchPattern="(.*)" replacementPattern="#$1"/></listPrefixDef>
+					<xi:include href="includes/listPrefixDef.xml"/>
             <editorialDecl>
                 <quotation>
                     <p xml:id="quotation_format">single</p>
@@ -342,19 +332,12 @@ For example:
 </p>
             <p><note n="true" xml:id="hasPageImages"/></p>
         </encodingDesc>
-      <revisionDesc>
+      <revisionDesc status="published">        <change when="2025-01-05" who="#jawalsh">Proofed</change>         
          
-         <change n="svninfo">
-                        $Id$
-                        $Rev$
-                        $Date$
-                        $Author$
-                    </change>
+         
       
          
-            <change n="svninfo"> $Id: acs0000499-01.xml 1054 2009-11-22 12:18:07Z jawalsh $ $Rev:
-                687 $ $Date: 2009-11-22 07:18:07 -0500 (Sun, 22 Nov 2009) $ $Author: jawalsh $
-            </change>
+            
         
       </revisionDesc>
    </teiHeader>

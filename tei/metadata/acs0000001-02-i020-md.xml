@@ -209,7 +209,7 @@
 							                 <biblScope unit="page"> 137-139 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sbsnewyr00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>A New Year's Message</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

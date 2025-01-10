@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/swinburne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000005-01">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/swinburne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000005-01">
         <teiHeader xml:id="d1e4">
                 <fileDesc xml:id="d1e6">
                         <titleStmt xml:id="d1e8">
@@ -187,17 +187,7 @@
             </taxonomy>
 				</classDecl>
 				
-					<listPrefixDef xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:chymistry="tag:conaltuohy.com,2018:chymistry" xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:z="https://github.com/Conal-Tuohy/XProc-Z">
-						<!-- The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website. -->
-						<prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/>
-						<!-- The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved. -->
-						<prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/>
-						<!-- The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry. -->
-						<prefixDef ident="glossary" matchPattern="(.+)" replacementPattern="#$1"/>
-						<!-- The 'image' reference system points to an image resource. These references expand to the URL of the resource in the Swinburne website.. -->
-						<prefixDef ident="image" matchPattern="(.+)" replacementPattern="/figure/$1"/>
-					</listPrefixDef>
-				<listPrefixDef><!--The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website.--><prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/><!--The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved.--><prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/><!--The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry.--><prefixDef ident="glossary" matchPattern="(.*)" replacementPattern="#$1"/></listPrefixDef>
+					<xi:include href="includes/listPrefixDef.xml"/>
                     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
                     <classDecl xml:id="collex_genres">
         <taxonomy>
@@ -316,9 +306,10 @@
 				<catRef target="#collex_genre_fiction"/>
 			</textClass>
 		</profileDesc>
-                <revisionDesc xml:id="d1e488">
-                        <change xml:id="d1e490" n="svninfo"> $Id$ $Rev$ $Date$ $Author$ </change>
-                </revisionDesc>
+	<revisionDesc status="published">    
+		<change when="2025-01-05" who="#jawalsh">Proofed</change>         
+        </revisionDesc>
+
         </teiHeader>
 					<standOff>
 						<entry xml:id="miltonsland">
@@ -495,7 +486,7 @@
                     </docTitle>
                     <docAuthor rendition="#uc #center #block" rend="margin-top:4em;">
                       <hi rendition="#small">By</hi> <lb/>
-                      <persName ref="##acs">Algernon Charles Swinburne</persName>
+                      <persName ref="#acs">Algernon Charles Swinburne</persName>
                     </docAuthor>
                     <docImprint rendition="#uc #center" rend="margin-top:6em;">
                       <pubPlace rendition="#block">London</pubPlace>
@@ -6363,7 +6354,7 @@
                                         </div>
                                         <pb xml:id="d1e4054" n="207" facs="acs0000005-01-224"/>
                                         <!-- <fw type="header" rendition="#center">A Year's Letters</fw> -->
-                                        <div xml:id="lcc_xv">
+                                        <div xml:id="lcc_xxv">
   <index xml:id="d1e4061" indexName="nav"/>
                                                 <head xml:id="d1e4063" rendition="#center">XXV<lb xml:id="d1e4065"/>
                                                   <hi xml:id="d1e4067" rendition="#sc">Reginald Harewood to Edward

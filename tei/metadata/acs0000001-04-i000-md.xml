@@ -196,7 +196,7 @@
             <head>texts</head>
             <biblStruct xml:id="acs0000001-04-i000-bibl"><analytic>
                      <title level="m">Tristram of Lyonesse</title>
-                     <idno type="nines">toltrist00</idno> 
+                      
                      <author><persName ref="#acs">Algernon Charles Swinburne</persName></author>
                   </analytic><monogr>
 						               <title>The Poems of Algernon Charles Swinburne</title>

@@ -51,7 +51,7 @@
                             <biblScope unit="page">119-124</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
-                    </monogr><idno type="nines">pb1leper00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                    </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>The Leper</title>
                      <author>
                             <persName ref="#acs">Algernon Charles Swinburne</persName>
@@ -191,7 +191,7 @@
             </taxonomy>
          </classDecl>
       </encodingDesc>
-      <encodingDesc><listPrefixDef><!--The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website.--><prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/><!--The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved.--><prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/><!--The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry.--><prefixDef ident="glossary" matchPattern="(.*)" replacementPattern="#$1"/></listPrefixDef>
+      <encodingDesc><xi:include href="includes/listPrefixDef.xml"/>
          
 <classDecl xml:id="collex_genres">
         <taxonomy>
@@ -330,17 +330,7 @@
          </textClass>
       </profileDesc>
       <encodingDesc>
-					<listPrefixDef xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:chymistry="tag:conaltuohy.com,2018:chymistry" xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:z="https://github.com/Conal-Tuohy/XProc-Z">
-						<!-- The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website. -->
-						<prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/>
-						<!-- The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved. -->
-						<prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/>
-						<!-- The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry. -->
-						<prefixDef ident="glossary" matchPattern="(.+)" replacementPattern="#$1"/>
-						<!-- The 'image' reference system points to an image resource. These references expand to the URL of the resource in the Swinburne website.. -->
-						<prefixDef ident="image" matchPattern="(.+)" replacementPattern="/figure/$1"/>
-					</listPrefixDef>
-				<listPrefixDef><!--The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website.--><prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/><!--The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved.--><prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/><!--The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry.--><prefixDef ident="glossary" matchPattern="(.*)" replacementPattern="#$1"/></listPrefixDef>
+					<xi:include href="includes/listPrefixDef.xml"/>
             <editorialDecl>
                 <quotation>
                     <p xml:id="quotation_format">single</p>
@@ -349,24 +339,14 @@
             <xi:include href="includes/tagsDecl.xml"/>
             <p><note n="true" xml:id="hasPageImages"/></p>
         </encodingDesc>
-      <revisionDesc>
+      <revisionDesc status="published">        <change when="2025-01-05" who="#jawalsh">Proofed</change>         
          
-         <change n="svninfo">
-                        $Id$
-                        $Rev$
-                        $Date$
-                        $Author$
-                    </change>
+         
       
          
             <change when="2010-05-23" who="#jawalsh">Updated and tested notes.</change>
             <change when="2008-10-12" who="#jawalsh">Updated XInclude links to reflect to ID scheme.</change>
-            <change n="svninfo">
-                $Id: acs0000001-01.xml 1251 2015-07-31 15:41:43Z jawalsh $
-                $Rev: 1251 $
-                $Date: 2015-07-31 11:41:43 -0400 (Fri, 31 Jul 2015) $
-                $Author: jawalsh $
-            </change>
+            
         
       </revisionDesc>
    </teiHeader>
@@ -693,17 +673,16 @@
                 <l n="137">I am grown blind with all these things:</l>
                 <l n="138" rendition="#ti-1">It may be now she hath in sight</l>
                 <l n="139">Some better knowledge; still there clings</l>
-                <l n="140" rendition="#ti-1">The old question. Will not God do right? <ptr type="note" target="#acs0000001-01-i027-note01"/>
-               </l>
-            </lg>
-            <note xml:id="acs0000001-01-i027-note01" resp="#acs">
-                    <cit><quote xml:lang="fr" rendition="#block #nq #indent"><ref>*</ref> En ce temps-là estoyt dans ce pays grand nombre de ladres et de meseaulx, ce dont le roy eut grand desplaisir, veu que Dieu dust en estre moult griefvement courroucé. Ores il advint qu’une noble damoyselle appelée Yolande de Sallières estant atteincte et touste guastée de ce vilain mal, tous ses amys et ses parens ayant devant leurs yeux la paour de Dieu la firent issir fors de leurs maisons et oncques ne voulurent recepvoir ni reconforter chose mauldicte de Dieu et à tous les hommes puante et abhominable. Ceste dame avoyt esté moult belle et gracieuse de formes, et de son corps elle estoyt large et de vie lascive. Pourtant nul des amans qui l’avoyent souventesfois accollée et baisée moult tendrement ne voulust plus héberger si laide femme et si détestable pescheresse. Ung seul clerc qui feut premièrement son lacquays et son entremetteur en matière d’amour la reçut chez luy et la récéla dans une petite cabane. Là mourut la meschinette de grande misère et de male mort: et après elle décéda ledist clerc qui pour grand amour l’avoyt six mois durant soignée, lavée, habillée et deshabillée tous les jours de ses mains propres. Mesme dist-on que ce meschant homme et mauldict clerc se remémourant de la grande beauté passée et guastée de ceste femme se délectoyt maintesfois à la baiser sur sa bouche orde et lépreuse et l’accoller doulcement de ses mains amoureuses. Aussy est-il mort de ceste mesme maladie abhominable. Cecy advint près Fontainebellant en Gastinois. Et quand ouyt le roy Philippe ceste adventure moult en estoyt esmerveillé.
+                <l n="140" rendition="#ti-1">The old question. Will not God do right?<note xml:id="acs0000001-01-i027-note01" resp="#acs">
+                    <cit><quote xml:lang="fr" rendition="#block #nq #indent">En ce temps-là estoyt dans ce pays grand nombre de ladres et de meseaulx, ce dont le roy eut grand desplaisir, veu que Dieu dust en estre moult griefvement courroucé. Ores il advint qu’une noble damoyselle appelée Yolande de Sallières estant atteincte et touste guastée de ce vilain mal, tous ses amys et ses parens ayant devant leurs yeux la paour de Dieu la firent issir fors de leurs maisons et oncques ne voulurent recepvoir ni reconforter chose mauldicte de Dieu et à tous les hommes puante et abhominable. Ceste dame avoyt esté moult belle et gracieuse de formes, et de son corps elle estoyt large et de vie lascive. Pourtant nul des amans qui l’avoyent souventesfois accollée et baisée moult tendrement ne voulust plus héberger si laide femme et si détestable pescheresse. Ung seul clerc qui feut premièrement son lacquays et son entremetteur en matière d’amour la reçut chez luy et la récéla dans une petite cabane. Là mourut la meschinette de grande misère et de male mort: et après elle décéda ledist clerc qui pour grand amour l’avoyt six mois durant soignée, lavée, habillée et deshabillée tous les jours de ses mains propres. Mesme dist-on que ce meschant homme et mauldict clerc se remémourant de la grande beauté passée et guastée de ceste femme se délectoyt maintesfois à la baiser sur sa bouche orde et lépreuse et l’accoller doulcement de ses mains amoureuses. Aussy est-il mort de ceste mesme maladie abhominable. Cecy advint près Fontainebellant en Gastinois. Et quand ouyt le roy Philippe ceste adventure moult en estoyt esmerveillé.
                         </quote>
                         <bibl rendition="#i #ti-5"><title ref="#grandes_chroniques_de_france">Grandes Chroniques de France</title>, <hi rendition="#n">1505.</hi>
                         </bibl>
                     </cit>
                 </note>
-        </body>
+               </l>
+            </lg>
+                    </body>
     
       <back>
          <!--DEBUG: no existing back matter-->

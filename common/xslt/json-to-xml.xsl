@@ -6,8 +6,7 @@
 
     <!-- Match the root element -->
     <xsl:template match="/">
-        <!-- Assume the JSON content is in a <json> element -->
-		<xsl:variable name="json-input" select="unparsed-text('../data/contents.json')" />
+	<xsl:variable name="json-input" select="unparsed-text('../data/contents.json')" />
         <xsl:variable name="parsed-json" select="json-to-xml($json-input)" as="document-node()" />
 
         <!-- Output the converted XML -->

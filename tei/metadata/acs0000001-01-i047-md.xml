@@ -210,7 +210,7 @@
 							                 <biblScope unit="page"> 204-207 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-					             </monogr><idno type="nines">pb1spphc00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+					             </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>Sapphics</title>
                      <author>
 							                 <persName ref="#acs"> Algernon Charles Swinburne </persName>

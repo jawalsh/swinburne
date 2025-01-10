@@ -52,7 +52,7 @@
                                                   <biblScope unit="page">154-168</biblScope>
                                                 </imprint>
                                                 <extent>6 vols.</extent>
-                                        </monogr><idno type="nines">pb1dolrs00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                                        </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>Dolores</title>
                      <author>
                                                   <persName ref="#acs">Algernon Charles
@@ -193,7 +193,7 @@
             </taxonomy>
          </classDecl>
       </encodingDesc>
-      <encodingDesc><listPrefixDef><!--The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website.--><prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/><!--The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved.--><prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/><!--The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry.--><prefixDef ident="glossary" matchPattern="(.*)" replacementPattern="#$1"/></listPrefixDef>
+      <encodingDesc><xi:include href="includes/listPrefixDef.xml"/>
          
 <classDecl xml:id="collex_genres">
         <taxonomy>
@@ -332,17 +332,7 @@
          </textClass>
       </profileDesc>
       <encodingDesc>
-					<listPrefixDef xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:chymistry="tag:conaltuohy.com,2018:chymistry" xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:z="https://github.com/Conal-Tuohy/XProc-Z">
-						<!-- The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website. -->
-						<prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/>
-						<!-- The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved. -->
-						<prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/>
-						<!-- The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry. -->
-						<prefixDef ident="glossary" matchPattern="(.+)" replacementPattern="#$1"/>
-						<!-- The 'image' reference system points to an image resource. These references expand to the URL of the resource in the Swinburne website.. -->
-						<prefixDef ident="image" matchPattern="(.+)" replacementPattern="/figure/$1"/>
-					</listPrefixDef>
-				<listPrefixDef><!--The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website.--><prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/><!--The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved.--><prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/><!--The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry.--><prefixDef ident="glossary" matchPattern="(.*)" replacementPattern="#$1"/></listPrefixDef>
+					<xi:include href="includes/listPrefixDef.xml"/>
             <editorialDecl>
                 <quotation>
                     <p xml:id="quotation_format">single</p>
@@ -351,24 +341,14 @@
             <xi:include href="includes/tagsDecl.xml"/>
             <p><note n="true" xml:id="hasPageImages"/></p>
         </encodingDesc>
-      <revisionDesc>
+      <revisionDesc status="published">        <change when="2025-01-05" who="#jawalsh">Proofed</change>         
          
-         <change n="svninfo">
-                        $Id$
-                        $Rev$
-                        $Date$
-                        $Author$
-                    </change>
+         
       
          
             <change when="2010-05-23" who="#jawalsh">Updated and tested notes.</change>
             <change when="2008-10-12" who="#jawalsh">Updated XInclude links to reflect to ID scheme.</change>
-            <change n="svninfo">
-                $Id: acs0000001-01.xml 1251 2015-07-31 15:41:43Z jawalsh $
-                $Rev: 1251 $
-                $Date: 2015-07-31 11:41:43 -0400 (Fri, 31 Jul 2015) $
-                $Author: jawalsh $
-            </change>
+            
         
       </revisionDesc>
    </teiHeader>
@@ -878,7 +858,24 @@
                         <lg rendition="#ti-2">
                                 <l n="305">Then still, through dry seasons and moister,</l>
                                 <l n="306" rendition="#ti-1">One god had a wreath to his shrine;</l>
-                            <l n="307">Then love was the pearl of his oyster,<ptr type="note" target="#acs0000001-01-i037-note01"/>
+                            <l n="307">Then love was the pearl of his oyster,<note xml:id="acs0000001-01-i037-note01" resp="#acs">
+                                <cit>
+                                    <quote rendition="#block #nq" xml:lang="la">
+                                        <lg rendition="#ti-2">
+                                            <l>Nam te <choice>
+                                                <orig>præcipuè</orig>
+                                                <reg>praecipuè</reg>
+                                            </choice> in suis urbibus
+                                                colit ora</l>
+                                            <l>Hellespontia, cæteris ostreosior
+                                                oris.</l>
+                                        </lg>
+                                    </quote>
+                                    <bibl rendition="#ti-8">
+                                        <hi rendition="#sc"><persName ref="#catullus">Catull.</persName></hi>
+                                        <title rendition="#i"><title ref="#carmina">Carm</title>.</title> xviii.</bibl>
+                                </cit>
+                            </note>
                                </l>
                                 <l n="308" rendition="#ti-1">And <persName ref="#venus">Venus</persName> rose red out of wine.</l>
                                 <l n="309">We have all done amiss, choosing rather</l>
@@ -911,25 +908,7 @@
                                 <l n="330" rendition="#ti-1">Cry out; for the <rs type="place" ref="#phrygia">Phrygian</rs> is priest,</l>
                                 <l n="331">And rears not the bountiful token</l>
                                 <l n="332" rendition="#ti-1">And spreads not the fatherly feast.</l>
-                            <note xml:id="acs0000001-01-i037-note01" resp="#acs">
-                                <cit>
-                                    <quote rendition="#block #nq" xml:lang="la">
-                                        <lg rendition="#ti-2">
-                                            <l><ref rendition="#super">1</ref>Nam te <choice>
-                                                <orig>præcipuè</orig>
-                                                <reg>praecipuè</reg>
-                                            </choice> in suis urbibus
-                                                colit ora</l>
-                                            <l>Hellespontia, cæteris ostreosior
-                                                oris.</l>
-                                        </lg>
-                                    </quote>
-                                    <bibl rendition="#ti-8">
-                                        <hi rendition="#sc"><persName ref="#catullus">Catull.</persName></hi>
-                                        <title rendition="#i"><title ref="#carmina">Carm</title>.</title> xviii.</bibl>
-                                </cit>
-                            </note>
-                                <pb n="165" facs="acs0000001-01-208"/>
+                                                            <pb n="165" facs="acs0000001-01-208"/>
                             <l n="333">From the midmost of <geogName type="mountain" ref="#mt_ida_asia_minor">Ida</geogName>, from shady</l>
                                 <l n="334" rendition="#ti-1">Recesses that murmur at morn,</l>
                                 <l n="335">They have brought and baptized her, Our Lady,</l>

@@ -209,7 +209,7 @@
                             <biblScope unit="page">140-143</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
-                    </monogr><idno type="nines">pb1rvltn00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                    </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>A Song in Time of Revolution. 1860</title>
                      <author>
                             <persName ref="#acs">Algernon Charles Swinburne</persName>

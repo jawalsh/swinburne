@@ -177,7 +177,7 @@
             </taxonomy>
          </classDecl>
       </encodingDesc>
-      <encodingDesc><listPrefixDef><!--The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website.--><prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/><!--The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved.--><prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/acs/$1.html"/><!--The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry.--><prefixDef ident="glossary" matchPattern="(.*)" replacementPattern="#$1"/></listPrefixDef>
+      <encodingDesc><xi:include href="includes/listPrefixDef.xml"/>
          
 <classDecl xml:id="collex_genres">
         <taxonomy>
@@ -314,17 +314,7 @@
          </textClass>
       </profileDesc>
       <encodingDesc>
-					<listPrefixDef xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:chymistry="tag:conaltuohy.com,2018:chymistry" xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:z="https://github.com/Conal-Tuohy/XProc-Z">
-						<!-- The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website. -->
-						<prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/>
-						<!-- The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved. -->
-						<prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/acs/$1.html"/>
-						<!-- The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry. -->
-						<prefixDef ident="glossary" matchPattern="(.+)" replacementPattern="#$1"/>
-						<!-- The 'image' reference system points to an image resource. These references expand to the URL of the resource in the Swinburne website.. -->
-						<prefixDef ident="image" matchPattern="(.+)" replacementPattern="/figure/$1"/>
-					</listPrefixDef>
-				<listPrefixDef><!--The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website.--><prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/><!--The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved.--><prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/acs/$1.html"/><!--The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry.--><prefixDef ident="glossary" matchPattern="(.*)" replacementPattern="#$1"/></listPrefixDef>
+					<xi:include href="includes/listPrefixDef.xml"/>
             <editorialDecl>
                 <quotation>
                     <p xml:id="quotation_format">single</p>
@@ -333,25 +323,8 @@
             <xi:include href="includes/tagsDecl.xml"/>
             <p><note n="true" xml:id="hasPageImages"/></p>
         </encodingDesc>
-      <revisionDesc>
-         
-         <change n="svninfo">
-         $Id: acs0000001-01-i000-md.xml 1194 2011-10-14 11:52:04Z jawalsh $
-         $Rev: 1194 $
-         $Date: 2011-10-14 07:52:04 -0400 (Fri, 14 Oct 2011) $
-         $Author: jawalsh $
-         </change>
-      
-         
-            <change when="2010-05-23" who="#jawalsh">Updated and tested notes.</change>
-            <change when="2008-10-12" who="#jawalsh">Updated XInclude links to reflect to ID scheme.</change>
-            <change n="svninfo">
-                $Id: acs0000001-01.xml 1251 2015-07-31 15:41:43Z jawalsh $
-                $Rev: 1251 $
-                $Date: 2015-07-31 11:41:43 -0400 (Fri, 31 Jul 2015) $
-                $Author: jawalsh $
-            </change>
-        
+      <revisionDesc status="published">        <change when="2025-01-05" who="#jawalsh">Proofed</change>         
+       	  
       </revisionDesc>
    </teiHeader>
    <standOff>
@@ -522,7 +495,7 @@
 
     <p> In my next work it should be superfluous to say that there is no touch of dramatic
      impersonation or <pb n="viii" facs="acs0000001-01-013"/> imaginary emotion. The writer of
-      <title rendition="#sq #n">Songs before Sunrise,</title> from the first line to the last, wrote
+      <title rendition="#sq">Songs before Sunrise,</title> from the first line to the last, wrote
         simply in submissive obedience to <persName ref="#sidney">Sir Philip Sidney</persName>’s precept —
       <quote rendition="#open-quote #close-quote">Look in thine heart, and write.</quote> The dedication of these poems, and the fact
      that dedication was accepted, must be sufficient evidence of this. They do not pretend and they
@@ -584,20 +557,20 @@
      as a possibly attainable example for ambitious Englishmen. And my first book, written while yet
      under academic or tutorial authority, bore evidence of that ambition in every line. I should be
      the last to deny that it also bore evidence of the fact that its writer had no more notion of
-     dramatic or theatrical construction than the authors of <title rendition="#sq #n" ref="#tamburlaine_the_great">Tamburlaine the
-      Great</title> , <title rendition="#sq #n" ref="#king_henry_vi">King Henry VI.,</title> and <title rendition="#sq #n">Sir
+     dramatic or theatrical construction than the authors of <title rendition="#sq" ref="#tamburlaine_the_great">Tamburlaine the
+      Great</title> , <title rendition="#sq" ref="#king_henry_vi">King Henry VI.,</title> and <title rendition="#sq">Sir
       Thomas Wyatt</title>. Not much more, you may possibly say, was <choice n="eol">
       <reg>discernible</reg>
       <orig>discern-ible</orig>
-     </choice> in <title rendition="#sq #n" ref="#chastelard">Chastelard</title> : a play also conceived and partly
+     </choice> in <title rendition="#sq" ref="#chastelard">Chastelard</title> : a play also conceived and partly
      written by a youngster not yet emancipated from servitude to college rule. I fear that in the
      former volume there had been little if any promise of power to grapple with the realities and
      subtleties of character and motive: that whatever may be in it of promise or of merit must be
      sought in the language and the style of such better passages as <pb n="xi" facs="acs0000001-01-016"/> may perhaps be found in single and separable speeches of
-        <persName>Catherine</persName> and <persName>Rosamond</persName>. But in <title rendition="#sq #n" ref="#chastelard">Chastelard</title> there are two figures and a sketch in which I
+        <persName>Catherine</persName> and <persName>Rosamond</persName>. But in <title rendition="#sq" ref="#chastelard">Chastelard</title> there are two figures and a sketch in which I
      certainly seem to see something of real and evident life. The sketch of
       <persName>Darnley</persName> was afterwards filled out and finished in the subsequent tragedy
-     of <title rendition="#sq #n" ref="#bothwell">Bothwell.</title> That ambitious, conscientious, and <choice n="eol">
+     of <title rendition="#sq" ref="#bothwell">Bothwell.</title> That ambitious, conscientious, and <choice n="eol">
       <reg>comprehensive</reg>
       <orig>com-prehensive</orig>
      </choice> piece of work is of course less properly definable as a tragedy than by the old
@@ -639,13 +612,13 @@
     <p> My first attempt to do something original in <pb n="xiii" facs="acs0000001-01-018"/>
      English which might in some degree reproduce for <rs type="place" ref="#gb-eng">English</rs> readers the likeness of a <rs type="place" ref="#gr">Greek</rs>
      tragedy, with possibly something more of its true poetic life and charm than could have
-     expected from the authors of <title rendition="#sq #n" ref="#caractacus">Caractacus</title> and <title rendition="#sq #n" ref="#merope">Merope,</title> was perhaps too exuberant and effusive in its dialogue, as
+     expected from the authors of <title rendition="#sq" ref="#caractacus">Caractacus</title> and <title rendition="#sq" ref="#merope">Merope,</title> was perhaps too exuberant and effusive in its dialogue, as
      it certainly was too irregular in the occasional license of its choral verse, to accomplish the
      design or achieve the success which its author should have aimed at. It may or may not be too
      long as a poem: it is, I fear, too long for a poem of the kind to which it belongs or aims at
      belonging. Poetical and mathematical truth are so different that I doubt, however unwilling I
-     may naturally be to doubt, whether it can truthfully be said of <title rendition="#sq #n">Atalanta in Calydon</title> that the whole is greater than any part of it. I hope it may be,
-     and I can honestly say no more. Of <title rendition="#sq #n">Erechtheus</title> I venture to
+     may naturally be to doubt, whether it can truthfully be said of <title rendition="#sq">Atalanta in Calydon</title> that the whole is greater than any part of it. I hope it may be,
+     and I can honestly say no more. Of <title rendition="#sq">Erechtheus</title> I venture to
      believe with somewhat more confidence that it can. Either poem, by the natural necessity of its
      kind and structure, has its crowning passage or passages which cannot, <choice n="eol">
       <reg>however</reg>
@@ -655,7 +628,7 @@
      <rs type="person" ref="#aeschylus"><choice><orig>Æschylean</orig><reg>Aeschylean</reg></choice></rs> or <rs type="person" ref="#sophocles">Sophoclean</rs> tragedy, must lose and ought to lose by a
      similar separation. The two best things in these two <rs type="place" ref="#gr">Greek</rs> plays, the
      antiphonal lamentation for the dying <persName ref="#meleager">Meleager</persName> and the choral presentation
-     of stormy battle between the forces of land and sea, lose less by such division <pb n="xiv" facs="acs0000001-01-019"/> from the main body of the poem than would those scenes in <title rendition="#sq #n" ref="#bothwell">Bothwell</title> which deal with the turning-point in the life of
+     of stormy battle between the forces of land and sea, lose less by such division <pb n="xiv" facs="acs0000001-01-019"/> from the main body of the poem than would those scenes in <title rendition="#sq" ref="#bothwell">Bothwell</title> which deal with the turning-point in the life of
      <persName ref="#stuart">Mary Stuart</persName> on the central and conclusive day of <name type="event" ref="#battle_carberry_hill">Carberry
       Hill</name>. </p>
 
@@ -688,7 +661,7 @@
      ambitious kind of ode. Not that the full <rs type="person" ref="#pindar">Pindaric</rs> form of threefold or triune structure need be
      or should be always adopted: but without an accurately corresponsive or antiphonal scheme of
      music even the master of masters, who is <persName ref="#coleridge">Coleridge</persName>, could not produce,
-     even through the superb and enchanting melodies of such a poem as his <title rendition="#sq #n" ref="#dejection_an_ode">Dejection,</title> a fit and complete companion, a full and perfect rival, to such a poem as
+     even through the superb and enchanting melodies of such a poem as his <title rendition="#sq" ref="#dejection_an_ode">Dejection,</title> a fit and complete companion, a full and perfect rival, to such a poem as
      his <rs type="work" ref="#france_an_ode">ode on France</rs>. </p>
 
     <p> The title of ode may more properly and fairly be so extended as to cover all lyrical poems in
@@ -707,7 +680,7 @@
      </choice> felicity of comparison to the gallop of the horses of the sun. Nor, I presume, should
      this title be denied to a poem written in the more modest metre—more modest as being
      shorter by a foot— which was chosen for those twin poems of antiphonal correspondence
-     in subject and in sound, the <title rendition="#sq #n" ref="document:acs0000001-01-i011">Hymn to Proserpine</title> and the <title rendition="#sq #n" ref="document:acs0000001-02-i013">Hymn of Man</title>: the death-song of spiritual decadence and the birthsong
+     in subject and in sound, the <title rendition="#sq" ref="document:acs0000001-01-i011">Hymn to Proserpine</title> and the <title rendition="#sq" ref="document:acs0000001-02-i013">Hymn of Man</title>: the death-song of spiritual decadence and the birthsong
      of spiritual renascence. Perhaps, too, my first stanzas addressed to <persName ref="#hugo">Victor
       Hugo</persName> may be ranked as no less of an ode than that on the <name ref="#insurrection_candia">insurrection in
       Candia</name>: a poem which attracted, whether or not it may have deserved,
@@ -771,7 +744,7 @@
       <reg>reference</reg>
       <orig>refer-ence</orig>
      </choice>: unless the <rs ref="document:acs0000001-04-i001">story of <persName ref="#balen">Balen</persName></rs> should be considered as something other than
-        a series or sequence of ballads. A more plausible objection was brought to bear against <title rendition="#sq #n" ref="document:acs0000001-04-i000">Tristram of Lyonesse</title> than that of failure in an enterprise which I
+        a series or sequence of ballads. A more plausible objection was brought to bear against <title rendition="#sq" ref="document:acs0000001-04-i000">Tristram of Lyonesse</title> than that of failure in an enterprise which I
      never thought of undertaking: the objection of an irreconcilable <choice n="eol">
       <reg>incongruity</reg>
       <orig>in-congruity</orig>
@@ -865,12 +838,12 @@
      of a mile or so. No contrast could be stronger than that between the majestic and exquisite
      glory of cliff <!-- stopped proofing, 2008-11-16--><pb n="xxii" facs="acs0000001-01-027"/> and crag, lawn and woodland, garden
      and lea, to which I have done homage though assuredly I have not done justice in these four
-	     poems—<title rendition="#sq #n" ref="document:acs0000001-03-i002"><ref target="document:acs0000001-03-i002">In the Bay</ref>,</title>
-     <title level="a" rendition="#sq #n" ref="document:acs0000001-03-i100"><ref target="document:acs0000001-03-i100">On the Cliffs</ref>,</title>
-     <title level="a" rendition="#sq #n" ref="document:acs0000001-03-i003"><ref target="document:acs0000001-03-i003">A Forsaken Garden</ref>,</title> the <choice n="eol">
+	     poems—<title rendition="#sq" ref="document:acs0000001-03-i002"><ref target="document:acs0000001-03-i002">In the Bay</ref>,</title>
+     <title level="a" rendition="#sq" ref="document:acs0000001-03-i100"><ref target="document:acs0000001-03-i100">On the Cliffs</ref>,</title>
+     <title level="a" rendition="#sq" ref="document:acs0000001-03-i003"><ref target="document:acs0000001-03-i003">A Forsaken Garden</ref>,</title> the <choice n="eol">
       <reg>dedication</reg>
       <orig>dedica-tion</orig>
-     </choice> of <title level="a" rendition="#sq #n" ref="#sisters">The Sisters</title>—and the dreary beauty,
+     </choice> of <title level="a" rendition="#sq" ref="#sisters">The Sisters</title>—and the dreary beauty,
       <choice n="eol">
       <reg>inhuman</reg>
       <orig>in-human</orig>
@@ -888,11 +861,11 @@
       <orig>fasci-nation</orig>
      </choice> of the sea whose beauties and delights, whose translucent depths of water and
      divers-coloured banks of submarine foliage and flowerage, but faintly reflected in the stanzas
-     of the little ode of <title rendition="#sq #n" ref="document:acs0000001-05-i003"><ref target="document:acs0000001-05-i003">Off Shore</ref>,</title> complete the charm of the
+     of the little ode of <title rendition="#sq" ref="document:acs0000001-05-i003"><ref target="document:acs0000001-05-i003">Off Shore</ref>,</title> complete the charm of the
      scenes as faintly sketched or shadowed forth in the poems just named, or the sterner and
-     stranger magic of the seaboard to which tribute was paid in <title rendition="#sq #n" ref="document:acs0000001-06-i033"><ref target="document:acs0000001-06-i033">An Autumn
-     Vision</ref>,</title> <title rendition="#sq #n" ref="document:acs0000001-06-i034"><ref target="document:acs0000001-06-i034">A Swimmer’s Dream</ref>,</title> <title rendition="#sq #n" ref="document:acs0000001-06-i032">On
-     the South Coast,</title> <title rendition="#sq #n" ref="document:acs0000001-03-i073"><ref target="document:acs0000001-03-i073">Neap-tide<!-- Hyphen appears in original title of poem and so is not regularized.--></ref></title>: or, again, between the sterile stretches and sad limitless outlook of the shore
+     stranger magic of the seaboard to which tribute was paid in <title rendition="#sq" ref="document:acs0000001-06-i033"><ref target="document:acs0000001-06-i033">An Autumn
+     Vision</ref>,</title> <title rendition="#sq" ref="document:acs0000001-06-i034"><ref target="document:acs0000001-06-i034">A Swimmer’s Dream</ref>,</title> <title rendition="#sq" ref="document:acs0000001-06-i032">On
+     the South Coast,</title> <title rendition="#sq" ref="document:acs0000001-03-i073"><ref target="document:acs0000001-03-i073">Neap-tide<!-- Hyphen appears in original title of poem and so is not regularized.--></ref></title>: or, again, between the sterile stretches and sad limitless outlook of the shore
      which faces a hitherto undetermined and interminable sea, and the <pb n="xxiii" facs="acs0000001-01-028"/> joyful and fateful beauty of the seas of
       <placeName><settlement type="inhabited_place" ref="#bamborough">Bamborough</settlement></placeName> and the seas about <placeName><settlement type="island" ref="#sark">Sark</settlement></placeName> and
       <placeName><settlement type="island" ref="#guernsey">Guernsey</settlement></placeName>. But if there is enough of the human or personal note to
@@ -956,12 +929,12 @@
      <persName ref="#lamb">Charles Lamb</persName>, as I need not remind you, wrote for antiquity: nor need you
      be assured that when I write plays it is with a view to their being acted at the
       <orgName type="theater" ref="#globe">Globe</orgName>, the <orgName type="theater" ref="#red_bull">Red Bull</orgName>, or the <orgName type="theater" ref="#black_friars">Black
-      Friars</orgName>. And whatever may be the dramatic or other defects of <title rendition="#sq #n" ref="#acsmarino_faliero">Marino Faliero</title> or <title rendition="#sq #n" ref="#acslocrine">Locrine,</title> they do
+      Friars</orgName>. And whatever may be the dramatic or other defects of <title rendition="#sq" ref="#acsmarino_faliero">Marino Faliero</title> or <title rendition="#sq" ref="#acslocrine">Locrine,</title> they do
      certainly bear the same relation to previous plays or attempts at plays on the same subjects as
-        <title rendition="#sq #n" ref="#H5">King Henry V.</title> to <title rendition="#sq #n" ref="#famous_victories_of_king_henry_fifth">The Famous
-      Victories</title> —if not as <title rendition="#sq #n" ref="#king_lear">King Lear,</title>
+        <title rendition="#sq" ref="#H5">King Henry V.</title> to <title rendition="#sq" ref="#famous_victories_of_king_henry_fifth">The Famous
+      Victories</title> —if not as <title rendition="#sq" ref="#king_lear">King Lear,</title>
      <pb n="xxvi" facs="acs0000001-01-031"/> a poem beyond comparison with all other works of man
-        except possibly <title rendition="#sq #n" ref="#prometheus_unbound">Prometheus</title> and <title rendition="#sq #n" ref="#othello">Othello,</title> to the primitive and infantile scrawl or drivel of <title rendition="#sq #n">King Leir and his three daughters.</title> The fifth act of <title rendition="#sq #n" ref="#marino_faliero">Marino
+        except possibly <title rendition="#sq" ref="#prometheus_unbound">Prometheus</title> and <title rendition="#sq" ref="#othello">Othello,</title> to the primitive and infantile scrawl or drivel of <title rendition="#sq">King Leir and his three daughters.</title> The fifth act of <title rendition="#sq" ref="#marino_faliero">Marino
       Faliero,</title> hopelessly impossible as it is from the point of view of modern stagecraft,
      could hardly have been found too untheatrical, too utterly given over to talk without action,
      by the <choice n="eol">
@@ -971,10 +944,10 @@
      eloquence—the fervent and inexhaustible declamation which was offered and accepted
      as a substitute for study of character and interest of action when his two finest plays, if
      plays they can be called, found favour with an incredibly intelligent and an inconceivably
-     tolerant audience. The metrical or executive experiment attempted and carried through in <title rendition="#sq #n" ref="#locrine">Locrine</title> would have been improper to any but a purely and wholly
+     tolerant audience. The metrical or executive experiment attempted and carried through in <title rendition="#sq" ref="#locrine">Locrine</title> would have been improper to any but a purely and wholly
      romantic play or poem: I do not think that the life of human character or lifelikeness of
      dramatic dialogue has suffered from the bondage of rhyme or has been sacrificed to the exigence
-     of metre. The tragedy of <title rendition="#sq #n" ref="#sisters">The Sisters,</title> however defective it may
+     of metre. The tragedy of <title rendition="#sq" ref="#sisters">The Sisters,</title> however defective it may
      be in theatrical interest or progressive action, is the only modern <choice n="eol">
       <reg>English</reg>
       <orig>Eng-lish</orig>
@@ -988,7 +961,7 @@
       <orig>with-out</orig>
      </choice> ever lapsing into platitude or breaking out of nature. </p>
 
-    <p> In <title rendition="#sq #n" ref="#rosamund_queen_of_the_lombards">Rosamund, Queen of the Lombards,</title> I took up a subject long
+    <p> In <title rendition="#sq" ref="#rosamund_queen_of_the_lombards">Rosamund, Queen of the Lombards,</title> I took up a subject long
      since mishandled by an <rs type="place" ref="#gb-eng">English</rs> dramatist of all but the highest rank, and one which in later
      days <persName ref="#alfieri">Alfieri</persName> had commemorated in a <choice n="eol">
       <reg>magnificent</reg>
@@ -1003,7 +976,7 @@
     <p> A writer conscious of any natural command over the musical resources of his language can
      hardly fail to take such pleasure in the enjoyment of this gift or instinct as the greatest
      writer and the greatest versifier of our age must have felt at its highest possible degree when
-     composing a musical exercise of such incomparable scope and fullness as <title rendition="#sq #n" ref="#les_djinns">Les Djinns.</title> But if he be a poet after the order of <persName ref="#hugo">Hugo</persName> or
+     composing a musical exercise of such incomparable scope and fullness as <title rendition="#sq" ref="#les_djinns">Les Djinns.</title> But if he be a poet after the order of <persName ref="#hugo">Hugo</persName> or
       <persName ref="#coleridge">Coleridge</persName> or <persName ref="#shelley">Shelley,</persName> the result will be something
      very much more than a musical exercise; though indeed, except to such ears as should always be
      kept closed against poetry, there is no music in verse which has not in it sufficient fullness
@@ -1012,7 +985,7 @@
      somewhat more depth and variety of feeling or <choice n="eol">
       <reg>reflection</reg>
       <orig>re-flection</orig>
-     </choice> condensed into the narrow frame of the poems which compose <title rendition="#sq #n" ref="#cor">A
+     </choice> condensed into the narrow frame of the poems which compose <title rendition="#sq" ref="#cor">A
       Century of Roundels</title> than would be needed to fulfil the epic vacuity of a
         <persName ref="#choerilus"><choice><orig>Chœrilus</orig><reg>Choerilus</reg></choice></persName> or <persName ref="#coluthus">Coluthus</persName>. And the form chosen
      for my only narrative poem was chosen as a test of the truth of my conviction that such work
@@ -1027,7 +1000,7 @@
      narrative which recasts in modern <rs type="place" ref="#gb-eng">English</rs> verse one of the noblest and loveliest old English
      legends. There is no episode in the cycle of <rs type="person" ref="#king_arthur">Arthurian</rs> romance more genuinely
       <rs type="person" ref="#homer">Homeric</rs> in its sublime simplicity and its pathetic sublimity of submission to the
-        masterdom of fate than that which I have rather reproduced than recast in <title rendition="#sq #n" ref="document:acs0000001-04-i001">The Tale of Balen</title> : and impossible as it is to render the text or
+        masterdom of fate than that which I have rather reproduced than recast in <title rendition="#sq" ref="document:acs0000001-04-i001">The Tale of Balen</title> : and impossible as it is to render the text or
      express the spirit of the <title rendition="#n" ref="#iliad">Iliad</title> in <rs type="place" ref="#gb-eng">English</rs> prose or rhyme—above all, in
      <rs type="place" ref="#gb-eng">English</rs> blank verse—it is possible, in such a metre <pb n="xxix" facs="acs0000001-01-034"/> as was chosen and refashioned for this poem, to give some sense
      of the rage and rapture of battle for which <persName ref="#homer">Homer</persName> himself could only find
@@ -1045,12 +1018,5 @@
    
          </div>
       </body>
-      <back>
-         <!--DEBUG: no existing back matter-->
-         <div n="[notes]">
-            <!--DEBUG: No notes-->
-         </div>
-         <!--DEBUG: No commentary-->
-      </back>
    </text>
 </TEI>

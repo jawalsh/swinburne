@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/swinburne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="../../tei2html/p5/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000506-01">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/swinburne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="../../tei2html/p5/css/tei.css"?><TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000506-01">
 
     <teiHeader>
         <fileDesc>
@@ -8,7 +8,7 @@
                     <persName ref="#acs">Algernon Charles Swinburne</persName>
                 </author>
                 <editor role="editor">
-                    <persName xml:id="jawalsh" ref="#jawalsh">John A. Walsh</persName>
+                    <persName ref="#jawalsh">John A. Walsh</persName>
                 </editor>
                 <respStmt>
                     <resp>Encoded by</resp>
@@ -44,7 +44,7 @@
             <sourceDesc>
 					<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/meta-listBibl.xml"/><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/meta-listPerson.xml"/><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/meta-listOrg.xml"/><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/meta-listEvent.xml"/><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/meta-listPlace.xml"/>
 				
-                <p>This TEI/XML document is the original source.</p>
+                <bibl>This TEI/XML document is the original source.</bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -172,19 +172,12 @@
             </taxonomy>
 				</classDecl>
 				
-					<listPrefixDef xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:chymistry="tag:conaltuohy.com,2018:chymistry" xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:z="https://github.com/Conal-Tuohy/XProc-Z">
-						<!-- The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website. -->
-						<prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/>
-						<!-- The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved. -->
-						<prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/>
-						<!-- The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry. -->
-						<prefixDef ident="glossary" matchPattern="(.+)" replacementPattern="#$1"/>
-						<!-- The 'image' reference system points to an image resource. These references expand to the URL of the resource in the Swinburne website.. -->
-						<prefixDef ident="image" matchPattern="(.+)" replacementPattern="/figure/$1"/>
-					</listPrefixDef>
-				<listPrefixDef><!--The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website.--><prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/><!--The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved.--><prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/><!--The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry.--><prefixDef ident="glossary" matchPattern="(.*)" replacementPattern="#$1"/></listPrefixDef>
+					<xi:include href="includes/listPrefixDef.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
         </encodingDesc>
+      <revisionDesc status="draft">
+	      <change when="2025-01-05" who="#jawalsh"/>
+      </revisionDesc>
     </teiHeader>
 					<standOff>
 						<entry xml:id="miltonsland">

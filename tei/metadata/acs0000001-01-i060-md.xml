@@ -209,7 +209,7 @@
 							                 <biblScope unit="page"> 284-287 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-					             </monogr><idno type="nines">pb1blood00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+					             </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>The Bloody Son</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

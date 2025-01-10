@@ -212,7 +212,7 @@
 							</biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sbscandi00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>Ode on the Insurrection in Candia</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

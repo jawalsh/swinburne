@@ -209,7 +209,7 @@
 							                 <biblScope unit="page"> 68-69 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sisemper00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>The Emperor's Progress</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

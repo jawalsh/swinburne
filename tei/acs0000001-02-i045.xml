@@ -201,7 +201,7 @@
             </taxonomy>
          </classDecl>
       </encodingDesc>
-      <encodingDesc><listPrefixDef><!--The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website.--><prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/><!--The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved.--><prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/><!--The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry.--><prefixDef ident="glossary" matchPattern="(.*)" replacementPattern="#$1"/></listPrefixDef>
+      <encodingDesc><xi:include href="includes/listPrefixDef.xml"/>
          
 <classDecl xml:id="collex_genres">
         <taxonomy>
@@ -337,17 +337,7 @@
          </textClass>
       </profileDesc>
       <encodingDesc>
-					<listPrefixDef xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:chymistry="tag:conaltuohy.com,2018:chymistry" xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:z="https://github.com/Conal-Tuohy/XProc-Z">
-						<!-- The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website. -->
-						<prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/>
-						<!-- The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved. -->
-						<prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/>
-						<!-- The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry. -->
-						<prefixDef ident="glossary" matchPattern="(.+)" replacementPattern="#$1"/>
-						<!-- The 'image' reference system points to an image resource. These references expand to the URL of the resource in the Swinburne website.. -->
-						<prefixDef ident="image" matchPattern="(.+)" replacementPattern="/figure/$1"/>
-					</listPrefixDef>
-				<listPrefixDef><!--The 'collection' reference system identifies a set of texts by the title of the containing collection. These references expand to the URL of a search result in the Swinburne website.--><prefixDef ident="collection" matchPattern="(.+)" replacementPattern="/search/?collection=$1"/><!--The 'document' reference system identifies a text by id. These references expand to the URL of the text's web page in the Swinburne website. Any URL fragment identifier is preserved.--><prefixDef ident="document" matchPattern="([^#]+)(.*)" replacementPattern="/text/$1/$2"/><!--The 'glossary' reference system identifies a term by id. These references expand to a reference to a TEI/standoff/entry.--><prefixDef ident="glossary" matchPattern="(.*)" replacementPattern="#$1"/></listPrefixDef>
+					<xi:include href="includes/listPrefixDef.xml"/>
 			<editorialDecl>
 				<quotation>
 					<p xml:id="quotation_format">double</p>
@@ -365,14 +355,9 @@ For example:
     </egXML>
 </p>
 		</encodingDesc>
-      <revisionDesc>
+      <revisionDesc status="published">        <change when="2025-01-05" who="#jawalsh">Proofed</change>         
          
-         <change n="svninfo">
-                        $Id$
-                        $Rev$
-                        $Date$
-                        $Author$
-                    </change>
+         
       
          
 			<change when="2008-10-12">Updated XInclude links to reflect to ID scheme.</change>
@@ -496,7 +481,7 @@ For example:
             
             <titlePage>
                 <docTitle>
-                    <titlePart rendition="#center #uc"><choice><orig>Diræ</orig><reg>Dirae</reg></choice><ptr target="#d1ff783"/><note rendition="#suppress" resp="#jawalsh" type="annotation" xml:id="d1ff783">Literally <q>the terrible</q>; a Latin name for the Furies</note></titlePart>
+                    <titlePart rendition="#center #uc"><choice><orig>Diræ</orig><reg>Dirae</reg></choice> <note rendition="#n #suppress" resp="#jawalsh" type="annotation" xml:id="d1ff783">Literally <q>the terrible</q>; a Latin name for the Furies</note></titlePart>
                 </docTitle>
             </titlePage>
         	<pb n="[292]" facs="acs0000001-02-307"/>
@@ -525,7 +510,7 @@ For example:
         	<pb n="293" facs="acs0000001-02-308"/>
             <head rendition="#center">I</head>
             <head rendition="#center #uc">A Dead King</head>
-            <note rendition="#i #center" resp="#acs">[Ferdinand II. entered Malebolge <date when="1859-05-22">May <hi rendition="#n">22</hi>nd, <hi rendition="#n">1859</hi></date>.]</note>
+            <note rendition="#i #center #rester-en-place" resp="#acs">[Ferdinand II. entered Malebolge <date when="1859-05-22">May <hi rendition="#n">22</hi>nd, <hi rendition="#n">1859</hi></date>.]</note>
             
             <l n="1">
                 <hi rendition="#sc">
@@ -625,11 +610,10 @@ For example:
             <l n="11" rendition="#ti-2">In the ears of all who shed men's blood or sell</l>
             <l n="12">Pius the Ninth, Judas the Second, come</l>
             <l n="13" rendition="#ti-1">Where Boniface out of the filth and flame</l>
-            	<l n="14" rendition="#ti-2">Barks for his advent in the clefts of hell.<ptr type="note" target="#note_de1074"/></l>                    
+            	<l n="14" rendition="#ti-2">Barks for his advent in the clefts of hell.<note resp="#acs" rendition="#center" xml:id="note_de1074"><bibl><author>Dante</author>, <title rendition="#dq">Inferno,</title> xix. 53.</bibl>
+        	</note></l>                    
             </lg>
-        	<note resp="#acs" rendition="#center" xml:id="note_de1074"><ref rendition="#super">1</ref> <bibl><author>Dante</author>, <title rendition="#dq">Inferno,</title> xix. 53.</bibl>
-        	</note>
-        </body>
+        	        </body>
     </text>
         	<text type="poem" xml:id="acs0000001-02-i050" n="V. The Burden of Austria">
         		<index indexName="nav" corresp="acs0000001-02-i050-md.xml"/>
@@ -658,10 +642,9 @@ For example:
                 <l n="12" rendition="#ti-1">Have thy sons too and daughters learnt indeed</l>
                 <l n="13" rendition="#ti-1">What thing it is to weep, what thing to bleed?
                </l>
-                <l n="14">Is it not thou that now art but a name?<ptr type="note" target="#note_de2989"/></l>
+                <l n="14">Is it not thou that now art but a name?<note resp="#acs" rendition="#center" xml:id="note_de2989"><quote>A geographical expression.</quote>—Metternich of Italy.
+                    </note></l>
             </lg>
-                    <note resp="#acs" rendition="#center" xml:id="note_de2989"><ref rendition="#super">1</ref> <quote>A geographical expression.</quote>—Metternich of Italy.
-                    </note>
         </body>
     </text>
         	<text type="poem" xml:id="acs0000001-02-i051" n="VI. Locusta">
@@ -1102,7 +1085,7 @@ For example:
         	<pb n="314" facs="acs0000001-02-329"/>
             <head rendition="#center">XVI</head>
             <head rendition="#center #uc">The Descent into Hell</head>
-            <note resp="#acs" rendition="#i #center"><date when="1873-01-09">January 9th, <hi rendition="#n">1873</hi></date></note>
+            <note resp="#acs" rendition="#i #rester-en-place #center"><date when="1873-01-09">January 9th, <hi rendition="#n">1873</hi></date></note>
             <lg>
                 <head rendition="#center">I</head>
                 <l n="1"><hi rendition="#sc">O night</hi> and death, to whom we grudged him then,</l>
@@ -1165,17 +1148,5 @@ For example:
     </text>
         </group>
     
-      <back>
-         <!--DEBUG: no existing back matter-->
-         <div n="[notes]">
-            <!--DEBUG: No notes-->
-         </div>
-         <div xml:id="commentary">
-            <head>Commentary</head>
-            <div xml:id="notes">
-               <note rendition="#suppress" corresp="acs0000001-02.xml#acs0000001-02-i045.def123" resp="#jawalsh" type="annotation" xml:id="acs0000001-02-i045-a1">Literally <q>the terrible</q>; a Latin name for the Furies</note>
-            </div>
-         </div>
-      </back>
    </text>
 </TEI>

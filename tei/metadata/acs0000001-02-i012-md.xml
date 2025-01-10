@@ -216,7 +216,7 @@
 							                 <biblScope unit="page"> 88-92 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sbsteneb00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>Tenebrae</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

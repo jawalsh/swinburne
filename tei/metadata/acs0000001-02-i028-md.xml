@@ -209,7 +209,7 @@
 							                 <biblScope unit="page"> 187- </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sbssongs00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>The Song of the Standard</title>
                      <author>
 							                 <persName ref="#acs"> Swinburne, Algernon Charles </persName>

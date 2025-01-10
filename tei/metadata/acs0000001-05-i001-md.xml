@@ -209,7 +209,7 @@
                         <biblScope unit="page"> 3-39 </biblScope>
                      </imprint>
                      <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sislndor00</idno><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
+                  </monogr><note type="textclass" corresp="#readingtext"/><relatedItem><biblStruct><analytic>
                      <title>Song for the Centenary of Walter Savage Landor</title>
                      <author>
                         <persName ref="#acs"> Swinburne, Algernon Charles </persName>
