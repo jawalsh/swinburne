@@ -30,7 +30,7 @@
                     <p> Copyright © 1997-2012 John A. Walsh. </p>
                     <p>
                         <ref type="license" target="http://creativecommons.org/licenses/by/3.0/"
-                                ><figure rend="border-width:0;margin:0;padding:0;">
+                                ><figure>
                                 <figDesc>Creative Commons License</figDesc>
                                 <graphic url="http://i.creativecommons.org/l/by/3.0/80x15.png"/>
                             </figure></ref>
@@ -180,7 +180,7 @@
                             Rondeau. Consists of nine lines with the same number of syllables. Has
                             the rhyme scheme: A B A B ; B A B ; A B A B. The last lines of the first
                             and third stanzas are the refrain, which is the same as the beginning of
-                            the poem's first line.</gloss>
+                            the poem&#x2019;s first line.</gloss>
                     </category>
                     <category xml:id="celts"/>
                     <category xml:id="teutons"/>
@@ -345,7 +345,7 @@
     </teiHeader>
     <standOff>
         <entry xml:id="miltonsland">
-            <form><orth>“Milton's land”</orth></form>
+            <form><orth>“Milton&#x2019;s land”</orth></form>
             <def>England.</def>
         </entry>
         <entry xml:id="tortive">
@@ -467,7 +467,7 @@
 
     <text xml:id="acs0000508-01-content">
         <pb n="1" rendition="#suppress" facs="dummy"/>
-        <body xml:id="home_content" rend="margin-left:0;margin-right:0;">
+        <body xml:id="home_content">
             <div xml:id="overview">
                 <index indexName="nav"/>
                 <head>Overview</head>
@@ -475,7 +475,7 @@
                 <p><title>The Algernon Charles Swinburne Project</title> edits and publishes high-quality texts of
                     the wide range of literary and critical works by Victorian poet, critic, and
                     novelist Algernon Charles Swinburne, an important and influential Victorian
-                    cultural figure. These texts constitute the <title>Project</title>'s textual and
+                    cultural figure. These texts constitute the <title>Project</title>&#x2019;s textual and
                     documentary core, around which is built a supporting scholarly apparatus,
                     including an <ref target="document:acs0000503-01">introduction to Swinburne’s
                         life and works</ref>, a <ref target="document:acs0000500-01">chronology</ref>, and growing body of annotations and
@@ -489,14 +489,14 @@
                 <p>
                     <cit rendition="#blockquote">
                         <quote>
-                            <p rend="margin-bottom:0;">NINES (<hi rendition="#b">N</hi>etworked <hi
+                            <p>NINES (<hi rendition="#b">N</hi>etworked <hi
                                     rendition="#b">I</hi>nfrastructure of <hi rendition="#b"
                                 >N</hi>ineteenth-Century <hi rendition="#b">E</hi>lectronic <hi
                                     rendition="#b">S</hi>cholarship) is a scholarly organization
                                 devoted to forging links between the material archive of the
                                 nineteenth century and the digital research environment of the
                                 twenty-first. Our activities are driven by three primary goals:
-                                    <list rend="margin-bottom:0;">
+                                    <list>
                                     <item>to serve as a <ref
                                         target="https://web.archive.org/web/20220203042349/https://nines.org/about/scholarship/peer-review/"
                                             >peer-reviewing body</ref> for digital work in the long
@@ -508,7 +508,7 @@
                                 </list>
                             </p>
                         </quote>
-                        <bibl rend="margin-left:20em;">(<title level="a"><ref
+                        <bibl>(<title level="a"><ref
                                     target="https://web.archive.org/web/20220203042349/https://nines.org/about/what-is-nines/">What is
                                     NINES?</ref></title>)</bibl>
                     </cit>
@@ -526,7 +526,7 @@
                                     target="https://web.archive.org/web/20220125205914/https://nines.org/about/scholarship/editorial-boards/"
                                     >respected scholars</ref> in the field of nineteenth-century
                                 studies, British and American.</p>
-                            <p rend="margin-bottom:0;">NINES provides peer-review of digital
+                            <p>NINES provides peer-review of digital
                                 resources and archives created by scholars in nineteenth-century
                                 studies. Our <ref
                                     target="https://web.archive.org/web/20220125205914/https://nines.org/about/scholarship/editorial-boards/"
@@ -534,7 +534,7 @@
                                 intellectual content and the technical structure of each project
                                 submitted for inclusion in NINES.</p>
                         </quote>
-                        <bibl rend="margin-left:20em;">(<title level="a"><ref
+                        <bibl>(<title level="a"><ref
                                     target="https://web.archive.org/web/20220125205914/https://nines.org/about/scholarship/peer-review/"
                                     >Peer Review</ref></title>)</bibl>
                     </cit>
@@ -551,7 +551,7 @@
                     Information Science, Adjunct Associate Professor of English and Director of the <ref target="https://www.hathitrust.org/htrc">HathiTrust Research Center</ref> and Associate Professor of <ref target="http://ils.indiana.edu/">Information and Library Science</ref> in the <ref target="http://sice.indiana.edu/">Luddy School of Informatics, Computing, and Engineering</ref> at Indiana University. His research applies computational methods to the study of literary and historical documents. Walsh is an editor of digital scholarly editions, including: the <ref target="http://petrarchive.org/">Petrarchive</ref>, the <ref target="http://swinburneproject.org/">Algernon Charles Swinburne Project</ref>, and the <ref target="http://chymistry.org/">Chymistry of Isaac Newton</ref>. He developed <ref target="http://cbml.org/">Comic Book Markup Language</ref> (CBML) for scholarly encoding of comics and graphic novels, and <ref target="http://teiboilerplate.org/">TEI Boilerplate</ref>, for publishing documents encoded according to the Text Encoding Initiative (TEI) <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">Guidelines for Electronic Text Encoding and Interchange</ref>. He is the founding Technical Editor and a current General Editor of <ref target="http://digitalhumanities.org/dhq">Digital Humanities Quarterly</ref>, an open-access online journal published by the <ref target="http://adho.org/">Alliance of Digital Humanities Organizations</ref>. Walsh’s research interests include: computational literary studies; textual studies and bibliography; text technologies; book history; 19th-century British literature, poetry and poetics; and comic books.</p>
                 <p>Over the years, many graduate students and assistants have contributed to the
                     project, assisting with encoding, proof-reading, documentation, and other tasks:
-                        <list rend="margin-top:1em;">
+                        <list>
                         <item>Audre Azuolas</item>
                         <item>Jason Evans Groth</item>
                         <item>Ryan Lee</item>
@@ -563,8 +563,7 @@
                         <item>Alice Wei</item>
                     </list></p>
                 <p>A number of individuals from the Indiana University Libraries have
-                    contributed their advice and expertise to early versions of the project, including: <list
-                        rend="margin-top:1em;">
+                    contributed their advice and expertise to early versions of the project, including: <list>
                         <item>Michelle Dalmau</item>
                         <item>Kara Pulliam</item>
                         <item>Will Cowan</item>
@@ -598,9 +597,9 @@
                     volumes, but their edition is considered unreliable, <cit>
                         <quote>misleading in arrangement and omissions and … often corrupt</quote>
                         <bibl>(<ref target="#hyder1970">Hyder</ref> xi)</bibl>
-                    </cit>. Wise's <title>Bibliography</title>, published separately and as volume
+                    </cit>. Wise&#x2019;s <title>Bibliography</title>, published separately and as volume
                     twenty of the “Bonchurch Edition,” is an important and useful source of
-                    information on Swinburne's published works, though marred by the inclusion of
+                    information on Swinburne&#x2019;s published works, though marred by the inclusion of
                     spurious pamphlets forged by Wise himself. In the absence of subsequent
                     authoritative editions, one turns to documents that Swinburne himself saw
                     through the press. </p>
@@ -608,7 +607,7 @@
                 <div xml:id="note_on_the_text_poems">
                     <index indexName="nav"/>
                     <head>Published Poems</head>
-                    <p> The text of Swinburne's published poems are based on the six-volume
+                    <p> The text of Swinburne&#x2019;s published poems are based on the six-volume
                             <title>Poems of Algernon Charles Swinburne</title> (London: Chatto &amp;
                         Windus, 1904), which gathers all the individual collections of poetry from
                             <title>Poems and Ballads, First Series</title> (1866) through <title>A
@@ -638,13 +637,13 @@
                 </div>
                 <div xml:id="note_on_the_text_lcc">
                     <index indexName="nav"/>
-                    <head><title>Love's Cross-Currents</title></head>
-                    <p>Swinburne's single published novel, <title>Love's Cross Currents</title>, was
-                        originally serialized as <title>A Year's Letters</title>, under the
+                    <head><title>Love&#x2019;s Cross-Currents</title></head>
+                    <p>Swinburne&#x2019;s single published novel, <title>Love&#x2019;s Cross Currents</title>, was
+                        originally serialized as <title>A Year&#x2019;s Letters</title>, under the
                         pseudonym <soCalled>Mrs. Horace Manners</soCalled>, in <title>The
                             Tatler</title> from August 25th to December 29th, 1877. The text here is
-                        based on the 1905 edition, which appeared as <title>Love's Cross-Currents: A
-                            Year's Letters</title>, under Swinburne's name, published by Chatto
+                        based on the 1905 edition, which appeared as <title>Love&#x2019;s Cross-Currents: A
+                            Year&#x2019;s Letters</title>, under Swinburne&#x2019;s name, published by Chatto
                         &amp; Windus.</p>
                 </div>
             </div>
@@ -664,7 +663,7 @@
                             existing standard for encoded texts, the Standard Generalized Markup
                             Language, or SGML, which was adopted as a standard by the International
                             Standards Organization in 1986. SGML itself was built upon a prior
-                            technology, IBM's Generalized Markup Language (GML), developed in the
+                            technology, IBM&#x2019;s Generalized Markup Language (GML), developed in the
                             1960s by Charles Goldfarb, Edward Mosher, and Raymond Lorie. </p>
                         <p>XML is a syntax for encoded texts. The syntax supports an unlimited
                             number of targeted XML schemas or vocabularies. The XML vocabulary used
@@ -706,7 +705,7 @@
                             of a particular document, project, collection, or analytical
                             approach.</p>
                         <p><title>The Swinburne Project</title> uses the following TEI modules:
-                                <list rend="margin-top:1em;">
+                                <list>
                                 <item>tei</item>
                                 <item>core (Elements common to all TEI documents)</item>
                                 <item>header (The TEI Header)</item>
@@ -732,7 +731,7 @@
                         <head>Glossary</head>
                         <p>Vocabulary that is likely to be unfamiliar to modern readers has been
                             glossed in a separate Swinburne Glossary TEI/XML document that uses the
-                            TEI's dictionaries module. Glossary entries are linked from the primary
+                            TEI#x2019;s dictionaries module. Glossary entries are linked from the primary
                             source texts and appear as pop-up notes in the HTML versions of the
                             texts. The presence of a glossary note is indicated by a degree symbol
                             (°).</p>
@@ -751,9 +750,9 @@
                             follows: <cit rendition="#blockquote">
                                 <quote>
                                     <p>A topic is a resource that acts as a proxy from some subject;
-                                        it is the topic map system's representation of that
+                                        it is the topic map system#x2019;s representation of that
                                         subject.…</p>
-                                    <p rend="margin-bottom:0;">A subject is anything that can be
+                                    <p>A subject is anything that can be
                                         spoken about or conceived of by a human being. In the most
                                         generic sense, a subject is anything whatsoever, regardless
                                         of whether it exists or has any other specific
@@ -762,13 +761,13 @@
                                         anything about which the author of a topic map chooses to
                                         discourse.</p>
                                 </quote>
-                                <bibl rend="display:block; margin-top:0;text-indent:8em;">—<ptr
+                                <bibl>—<ptr
                                         target="http://www.topicmaps.org/xtm/"/></bibl>
                             </cit>
                         </p>
                         <p>Topic Maps are used in <title>The Swinburne Project</title> to capture
                             information about people, places, institutions, events, and works that
-                            are referenced in Swinburne's own writings. Topic Map entries are linked
+                            are referenced in Swinburne&#x2019;s own writings. Topic Map entries are linked
                             from the primary source texts and appear as pop-up notes in the HTML
                             versions of the texts. The presence of a topical note is indicated by a
                             degree symbol (°).</p>
@@ -781,12 +780,12 @@
                         </figure>
                     </div>
                 </div>
-                <div xml:id="xslt" rend="margin-top:3em;">
+                <div xml:id="xslt">
                     <index indexName="nav"/>
                     <head>eXtensible Stylesheet Language Transformations (XSLT)</head>
                     <p>XSLT is an XML-based language for transforming XML. XSLT is utilized
                         throughout <title>The Swinburne Project</title> to perform the following
-                        transformations: <list rend="margin-top:1em;">
+                        transformations: <list>
                             <item>TEI/XML files representing physical volumes are decomposed and
                                 combined with metadata to create XML files representing individual
                                 works (e.g., poems or essays) within those physical volumes.</item>
@@ -800,7 +799,7 @@
                                 files for indexing by <ref target="http://www.nines.org/"
                                     >NINES</ref>, a federated, peer-reviewed collection of digital
                                 scholarship on the Nineteenth Century.</item>
-                        </list></p>
+	</list></p>
                     <p>The <ref target="/swinburne/resources/tei2html.zip">TEI-to-HTML
                             stylesheets</ref> are available for <ref
                             target="/swinburne/downloads.jsp">download</ref>.</p>
@@ -825,7 +824,7 @@
                     discussed above, which were written specifically for <title>The Swinburne
                         Project</title>. <title>The Swinburne Project</title> has also incorporated
                         <ref target="http://metsnavigator.svn.sourceforge.net/viewvc/metsnavigator/"
-                        >METS Navigator</ref>, from Indiana University's <ref
+                        >METS Navigator</ref>, from Indiana University&#x2019;s <ref
                         target="http://www.dlib.indiana.edu/">Digital Library Program</ref>, for
                     navigating both the encoded texts and the facsimile page images. </p>
                 <p> Sencha <ref target="http://www.sencha.com/products/extjs3/">Ext JS</ref> and
@@ -853,38 +852,19 @@
                     <p>The digital documents (XML, HTML, CSS, code, etc.) are under SVN version
                         control on DLP and SLIS servers.</p>
                     <p>These documents and image files (primarily facsimile page images) are
-                        securely stored in Indiana University's <ref
+                        securely stored in Indiana University&#x2019;s <ref
                             target="https://pti.iu.edu/storage/sda">Scholarly Data Archive</ref>, a
                         hierarchical storage management system with mirrored systems in Bloomington
                         and Indianapolis.</p>
                 </div>
 
             </div>
-            <div xml:id="sandlot">
-                <index indexName="nav"/>
-                <head><ref target="/swinburne/study.jsp">Tools &amp; Tactics</ref></head>
-                <p>
-                    <ref target="/swinburne/study.jsp">Tools &amp; Tactics</ref> is a collection of
-                    digital research—visualizations, image and text analysis tools, and creative
-                    works—from <title>The Swinburne Project</title>. These research projects engage
-                    with and are informed by the edited and encoded text corpus of the
-                        <title>Swinburne Project</title>. </p>
-                <figure rendition="#center">
-                    <head>Collage of items from <ref target="/swinburne/study.jsp">Tools &amp;
-                            Tactics</ref>.</head>
-
-                    <graphic url="image:sandlot.png"/>
-                    <figDesc>Collage of items from Tools &amp; Tactics</figDesc>
-                </figure>
-
-            </div>
-            <div xml:id="dedication" rend="text-align:center;">
+            <div xml:id="dedication" rendition="#center">
                 <index indexName="nav"/>
                 <head>Dedication</head>
-                <p rend="font-style:italic;text-align:center;">For my beautiful Michelle,<lb/> and
+                <p>For my beautiful Michelle,<lb/> and
                     our little ones—<lb/> Patrick, Olivia, Mia,<lb/> and baby Jude.</p>
-                <cit rendition="#block"
-                    rend="font-style:italic;margin-left:auto;margin-right:auto;text-align:left;width:14em;font-size:85%;font-family:'helvetica neue';">
+                <cit rendition="#block">
                     <quote>
                         <lg>
                             <l>
