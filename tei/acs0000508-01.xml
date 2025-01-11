@@ -577,23 +577,19 @@
                     </list>
                 </p>
             </div>
-<!-- paused -->
             <div xml:id="note_on_the_texts">
                 <index indexName="nav"/>
                 <head>A Note on the Texts</head>
                 <p> The core of <title>The Swinburne Project</title> consists of digital
-                    representations of Swinburne's works. Around this core are assembled multiple
+                    representations of Swinburne&#x2019;s works. Around this core are assembled multiple
                     paratextual layers that explore various documentary and literary dimensions of
-                    the texts. The digital representations of Swinburne's works have been prepared
+                    the texts. The digital representations of Swinburne&#x2019;s works have been prepared
                     according to the <ref target="http://www.tei-c.org/">Text Encoding
                         Initiative</ref> (<ref target="http://www.tei-c.org/">TEI</ref>) <ref
                         target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index-toc.html"
                             ><title>Guidelines for Electronic Text Encoding and
                         Interchange</title></ref>. </p>
-                <p> While we attempt a diplomatic faithfulness to the source texts, we are conscious
-                    that we are necessarily creating new texts with an ever-growing amount of
-                    scholarly commentary, annotation, intervention, and additional paratextual
-                    layers. </p>
+<!-- paused -->
                 <p>There is no reliable scholarly edition of Swinburne complete works or complete
                     poems. The present edition of <title>The Swinburne Project</title> aims to fill
                     that void. Edmund Gosse and the bibliographer and forger Thomas J. Wise edited
