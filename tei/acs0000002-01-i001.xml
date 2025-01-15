@@ -1285,7 +1285,7 @@ For example:
 <l>More honey-pure, more worthy love’s own praise,</l>
 <l>Than that sweet-souled endurance which makes clean</l>
 <l>The iron hands of anger. A man being smitten</l>
-<l>That washes his abuséd cheek with blood</l>
+<l>That washes his abusèd cheek with blood</l>
 <l>Purges it nothing, gets no good at all,</l>
 <l>But is twice punished, and his insult wears</l>
 <l>A double colour; for where but one red was</l>
@@ -2138,7 +2138,7 @@ For example:
                   <speaker rendition="#uc #center">Catherine</speaker>
                   <space dim="vertical" unit="lines" quantity="1"/>
 <l part="F" rendition="#ti-10">I thank you, sir.</l>
-  <l><rs type="person">Lord marshal</rs>, you shall pray the <persName>Guise</persName>for us.</l>
+  <l><rs type="person">Lord marshal</rs>, you shall pray the <persName>Guise</persName> for us.</l>
 </sp>
                 <space dim="vertical" unit="lines" quantity="2"/>       
 
