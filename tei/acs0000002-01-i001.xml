@@ -5618,7 +5618,7 @@ For example:
                   
                   <speaker rendition="#uc #center">Denise</speaker>
                   <space dim="vertical" unit="lines" quantity="1"/>
-<l>Ay, like a damnéd peace-maker, a truce</l>
+<l>Ay, like a damnèd peace-maker, a truce</l>
 <l>More sharp than is the naked side of war.</l>
 </sp>
                 
@@ -5808,7 +5808,7 @@ For example:
 <l>That is more bitter than all waste of men,</l>
 <l>And yet God makes the honey of his law</l>
 <l>Out of its sharp and fire-mouthed bitterness,</l>
-<l>Why may not I take this? yea, why not I?</l>
+<l>Why may not I take this? Yea, why not I?</l>
 </sp>
                 
                 <space dim="vertical" unit="lines" quantity="2"/>
@@ -11932,7 +11932,7 @@ For example:
                 <space dim="vertical" unit="lines" quantity="1"/>              
 
   <sp who="#Guise">
-    <speaker rendition="#uc #center">Guise</speaker><stage type="delivery" rendition="#i">(within)</stage>
+    <speaker rendition="#uc #center">Guise <note type="stage" subtype="delivery" rendition="#i">(within)</note></speaker>
     <space dim="vertical" unit="lines" quantity="1"/>
 
 <l part="F" rendition="#ti-8">Nay, but get you first in;</l> 
@@ -11952,7 +11952,7 @@ For example:
                 <space dim="vertical" unit="lines" quantity="2"/>
 
                 <sp who="#Guise">
-                  <speaker rendition="#uc #center">Guise</speaker><stage type="delivery" rendition="#i">(within)</stage>
+                  <speaker rendition="#uc #center">Guise <note type="stage" subtype="delivery" rendition="#i">(within)</note></speaker>
                   <space dim="vertical" unit="lines" quantity="1"/>
 
 <l part="I">This way, men, this!</l>
