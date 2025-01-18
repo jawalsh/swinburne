@@ -220,7 +220,8 @@ h2.tei-head,
 h3.tei-head,
 h4.tei-head,
 h5.tei-head,
-h6.tei-head {
+h6.tei-head, 
+.type-uncollected-letter h1.tei-head.project-doc, {
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
