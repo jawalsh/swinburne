@@ -402,7 +402,7 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
   </xsl:template>
   <!-- identify project-docs that get regular headings -->
   <xsl:template mode="replace-class" match="h1[contains-token(@class, 'tei-head')]|h2[contains-token(@class, 'tei-head')]|h3[contains-token(@class, 'tei-head')]|h4[contains-token(@class, 'tei-head')]|h5[contains-token(@class, 'tei-head')]|h6[contains-token(@class, 'tei-head')]">
-    <xsl:if test="/html/@xml:id = 'acs0000503-01' or /html/@xml:id = 'acs0000508-01' or /html/@xml:id = 'acs0000504-01' or /html/@xml:id = 'acs0000500-01'">
+	  <xsl:if test="/html/@xml:id = 'acs0000503-01' or /html/@xml:id = 'acs0000508-01' or /html/@xml:id = 'acs0000504-01' or /html/@xml:id = 'acs0000500-01'or /html/@xml:id = 'acs0000505-01'">
       <xsl:attribute name="class">
         <xsl:value-of select="concat(@class, ' project-doc')"/>
       </xsl:attribute>
