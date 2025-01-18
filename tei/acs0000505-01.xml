@@ -595,7 +595,7 @@
                         <item>
                             <p>An added letter:</p>
                             
-                            <floatingText xml:id="l321b">
+                            <floatingText type="uncollected-letter" xml:id="l321b">
                                 <index indexName="nav"/>
                                 <body>
                                     <head>321B.<hi rendition="#sc">To: John Thomson</hi>
@@ -695,7 +695,7 @@
                             be</hi> to you. For </item>
                         <item>Letter 422A. p. 233. In the second line of para 1, lend <hi rendition="#u">seems more likely to be</hi> send</item>
                         <item>An added letter:
-                            <floatingText xml:id="l450a">
+                            <floatingText type="uncollected-letter" xml:id="l450a">
                                 <index indexName="nav"/>
                                 <body>
                                     <head>450A. <hi rendition="#sc">To: Ford Madox Brown</hi></head>
@@ -738,7 +738,7 @@
                       <item>
                         <p>An added letter:</p>
                         
-                        <floatingText xml:id="l490a">
+                        <floatingText type="uncollected-letter" xml:id="l490a">
                           <index indexName="nav"/>
                           <body>
                             <head>490A. <hi rendition="#sc">To: John Thomson</hi><!-- <ref xml:id="ref_01" target="#note_01" rendition="#super">1</ref> --></head>
@@ -790,7 +790,7 @@
                       <item>Letter 524B. p. 319. Twice in the middle of the page, Checque <hi rendition="#u">should be</hi> Cheque</item>
                         <item>An added letter:
                             
-                            <floatingText xml:id="l535a">
+                            <floatingText type="uncollected-letter" xml:id="l535a">
                                 <index indexName="nav"/>
                                 <body>
                                     <head>535A. <hi rendition="#sc">To: Ford Madox Brown</hi></head>
@@ -840,7 +840,7 @@
                             <!-- fix formatting of letter -->
                             <p>An added letter: </p>
                             
-                            <floatingText xml:id="l563a">
+                            <floatingText type="uncollected-letter" xml:id="l563a">
                                 <index indexName="nav"/>
                                 <body>
                                 <head>563A. <hi rendition="#sc">To: A. C. Swinburne,
@@ -922,7 +922,7 @@
                       <item>
                         <p>An added letter:</p>
                         
-                        <floatingText xml:id="l890b">
+                        <floatingText type="uncollected-letter" xml:id="l890b">
                           <index indexName="nav"/>
                           <body>
                             <head>890B. <hi rendition="#sc">To: Eugène Joël</hi><ref xml:id="ref_81" target="#note_81" rendition="#super">1</ref>
@@ -956,7 +956,7 @@
                         </floatingText>
                       </item>
                         <item>An added letter:
-                        <floatingText xml:id="l897a">
+                        <floatingText type="uncollected-letter" xml:id="l897a">
                             <index indexName="nav"/>
                             <body>
                                 <head>897A. <hi rendition="#sc">To: William Michael Rossetti</hi></head>
@@ -994,7 +994,7 @@
                                 be</hi> [’]</item>
                         <item>An added letter:
                             
-                            <floatingText xml:id="l980b">
+                            <floatingText type="uncollected-letter" xml:id="l980b">
                                 <index indexName="nav"/>
                                 <body>
                                 <head>980B. <hi rendition="#sc">To: A Book
@@ -1068,7 +1068,7 @@
                                 said in CBEL3, “evidence is wanting.” </p>
                         </item>
                         <item>An added letter:
-                            <floatingText xml:id="l1123a">
+                            <floatingText type="uncollected-letter" xml:id="l1123a">
                                 <index indexName="nav"/>
                                 <body>
                                     <head><hi rendition="#sc">1123A. To: Rev. Canon Frederick Langbridge</hi><ref xml:id="ref_31" rendition="#super" target="#note_031">1</ref></head>
@@ -1093,7 +1093,7 @@
                                             </note></div></body></floatingText>
                         </item>
                         <item>An added letter:
-                            <floatingText xml:id="l1124c">
+                            <floatingText type="uncollected-letter" xml:id="l1124c">
                                 <index indexName="nav"/>
                                 <body>
                                     <head>1124C. <hi rendition="#sc">To: Oswald John Simon</hi><ref target="#note_28" xml:id="ref_30" rendition="#super">1</ref></head>
@@ -1126,7 +1126,7 @@
                         </item>
                         <item>An added letter:
                            
-                            <floatingText xml:id="l1155a">
+                            <floatingText type="uncollected-letter" xml:id="l1155a">
                                 <index indexName="nav"/>
                                 <body>
                                     <head>1155A. <hi rendition="#sc">To: ?</hi></head>
@@ -1154,7 +1154,7 @@
                             Henderson, <title>JEGP</title>, 75 (July 1976), 456-8.</item>
                       <item>An added letter:
                         
-                        <floatingText xml:id="l1197a">
+                        <floatingText type="uncollected-letter" xml:id="l1197a">
                           <index indexName="nav"/>
                           <body>
                             <head>1197A. <hi rendition="#sc">To: T. Hall Caine</hi></head>
@@ -1205,7 +1205,7 @@
                             <item>
                               <p>An added letter:</p>
                               
-                              <floatingText xml:id="l1301b">
+                              <floatingText type="uncollected-letter" xml:id="l1301b">
                                 <index indexName="nav"/>
                                 <body>
                                   <head>1301B. <hi rendition="#sc">To: Lord Houghton</hi>
@@ -1238,7 +1238,7 @@
                               </floatingText>
                             </item>
                         <item>An added letter:
-                            <floatingText xml:id="l1322c">
+                            <floatingText type="uncollected-letter" xml:id="l1322c">
                                 <index indexName="nav"/>
                                 <body>
                                 <head>1322C.5. <hi rendition="#sc">To A. C. Swinburne,
@@ -1320,7 +1320,7 @@
                         <item>Letter 1540B. p. 12. In note 1, Trafalger <hi rendition="#u">should
                                 be</hi> Trafalgar</item>
                         <item>An added letter:
-                            <floatingText xml:id="l1543a.5">
+                            <floatingText type="uncollected-letter" xml:id="l1543a.5">
                                 <index indexName="nav"/>
                                 <body>
                                     <head>1543A.5. <hi rendition="#sc">To: Marion Harry Spielmann,<ref xml:id="ref_11" rendition="#super" target="#note_11">1</ref> from Walter Theodore Watts-Dunton</hi></head>
@@ -1370,7 +1370,7 @@
                         <item>Letter 1556C. p. 23. The manuscript of this letter is now in the collection of Terry L. Meyers.</item>
                         <item>An added letter:
                             
-                            <floatingText xml:id="l1563a">
+                            <floatingText type="uncollected-letter" xml:id="l1563a">
                                 <index indexName="nav"/>
                                 <body>
                                     <head>1563A. <hi rendition="#sc">To: Edwin Arnold</hi><ref target="#note_fe29" rendition="#super">1</ref></head>
@@ -1402,7 +1402,7 @@
                             </floatingText>
                         </item>
                         <item>An added letter:
-                            <floatingText xml:id="l1566a">
+                            <floatingText type="uncollected-letter" xml:id="l1566a">
                                 <index indexName="nav"/>
                                 <body>
                                     <head>1566A. <hi rendition="#sc">To: Francis Warre Cornish</hi><ref target="#note_fe21" rendition="#super">1</ref></head>
@@ -1463,7 +1463,7 @@
                         be</hi> of lords</item>
                         <item>Letter 1654A. p. 79.  In note 1, the inscribed book was not <title>AOP</title> but <title>SPP</title>(1884); on the half-title Swinburne wrote, <q>Mary A. B. Gordon from her affectionate nephew AC Swinburne Nov. 8th 1894.</q>  A photograph of the inscription appears in <title>Miscellany 2006: Catalogue No. 123</title> (2006), issued by Ian Hodgkins &amp; Co. Ltd., item 79.</item>
                         <item>An added letter: 
-                            <floatingText xml:id="l1694b">
+                            <floatingText type="uncollected-letter" xml:id="l1694b">
                                 <index indexName="nav"/>
                                 <body>
                                     <head>1694B. <hi rendition="#sc">To: Walter Theodore Watts-Dunton</hi></head>
@@ -1500,7 +1500,7 @@
                             University], 74:3, 279-92.</item>
                         <item>An added letter:
                             
-                            <floatingText xml:id="l1734bis">
+                            <floatingText type="uncollected-letter" xml:id="l1734bis">
                                 <index indexName="nav"/>
                                 <body>
                                     <head>1734 <hi rendition="#sc">bis. To: Richard Dacre Archer-Hind </hi><ref target="#note_fe22" rendition="#super">1</ref></head>
@@ -1534,7 +1534,7 @@
                         </item>
                         <item>An added letter:
                             
-                            <floatingText xml:id="l1735bis">
+                            <floatingText type="uncollected-letter" xml:id="l1735bis">
                                 <index indexName="nav"/>
                                 <body>
                                     <head>1735 <hi rendition="#sc">bis. To: Richard Dacre Archer-Hind </hi><ref target="#note_fe23" rendition="#super">1</ref></head>
@@ -1567,7 +1567,7 @@
                             </floatingText>
                         </item>
                         <item>An added letter: 
-                            <floatingText xml:id="l1738a">
+                            <floatingText type="uncollected-letter" xml:id="l1738a">
                                 <index indexName="nav"/>
                                 <body>
                                     <head>1738A. <hi rendition="#sc">To: ?</hi></head>
@@ -1594,7 +1594,7 @@
                         </item>
                       <item>
                         <p>An added letter:</p>
-                        <floatingText xml:id="l1713b">
+                        <floatingText type="uncollected-letter" xml:id="l1713b">
                           <index indexName="nav"/>
                           <body>
                             <head>1739B. <hi rendition="#sc">To: William Clark Russell</hi><ref xml:id="ref_71" target="#note_71" rendition="#super">1</ref>
@@ -1716,7 +1716,7 @@
                         be</hi> honour</item>
                         <item>An added letter: 
                             
-                            <floatingText xml:id="l1863d">
+                            <floatingText type="uncollected-letter" xml:id="l1863d">
                                 <index indexName="nav"/>
                                 <body>
                                     <head>1863D. <hi rendition="#sc">To: Lucy Margaret Lamont</hi><ref xml:id="ref_26" target="#note_26" rendition="#super">1</ref></head>
@@ -1757,7 +1757,7 @@
                             <p>To Peattie’s account of Swinburne’s funeral and to Rooksby’s photograph of the service (see below) and account by Helen Rossetti (Rooksby, <title>A. C. Swinburne</title>, pp. 284-286) might be added a series of photographs<!--<ref xml:id="ref_28" target="#note_28" rendition="#super">1</ref>--> published by contemporary periodicals as well as further information I've compiled. See my article <ref target="http://www.purl.org/swinburnearchive/xml/acs0000504-01/"><title level="a">Some Notes Relating to Swinburne's Funeral.</title></ref></p></item>
                                
                         <item>An added letter: 
-                            <floatingText xml:id="l1899">
+                            <floatingText type="uncollected-letter" xml:id="l1899">
                                 <index indexName="nav"/>
                                 <body>
                                     <head>1899.<hi rendition="#sc">To: ?</hi></head>

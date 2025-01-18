@@ -248,6 +248,14 @@ h2.tei-head.project-doc + h2.tei-head.project-doc, h1.tei-head.project-doc + h1.
 // Import Bootstrap's SCSS
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+
+.type-uncollected-letter {
+  border: 2px solid $bg-dark-secondary;
+  padding: 2rem;
+  background-color: #ffffff;
+  margin: 1rem 2rem 2rem 2rem;
+}
+
 /* pageFind stuff: start */
 #search {
   background-color: $body-bg;
