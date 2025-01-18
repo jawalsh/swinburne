@@ -309,11 +309,7 @@
 			<catDesc>First publication</catDesc>
 		</category>
 	</taxonomy>
-</classDecl></encodingDesc><profileDesc>
-         <textClass>
-            <catRef target="#collex_genre_poetry"/><catRef xml:id="parent_vol" target="#fix"/>
-         </textClass>
-      </profileDesc>
+</classDecl></encodingDesc>
       <encodingDesc>
 					<xi:include href="includes/listPrefixDef.xml"/>
             <xi:include href="includes/tagsDecl.xml"/>
