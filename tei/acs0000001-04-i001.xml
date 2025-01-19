@@ -185,8 +185,13 @@
                   <gloss/>
                </category>
             </taxonomy>
-         </classDecl>
-      </encodingDesc>
+	    </classDecl>
+      </encodingDesc>	    <profileDesc>
+	      <textClass>
+                <catRef xml:id="parent_vol" target="#acs0000001-04-i001"/>
+              </textClass>
+            </profileDesc>
+
       <encodingDesc><xi:include href="includes/listPrefixDef.xml"/>
          
 <classDecl xml:id="collex_genres">
@@ -458,7 +463,7 @@
 				</docTitle>
 			</titlePage>
 			<pb n="[154]" facs="acs0000001-04-165"/>
-			<div xml:id="df2219" n="Dedication" type="dedication">
+			<div xml:id="balen_dedication" n="Dedication" type="dedication">
 				<index indexName="nav"/>
 				<pb n="[155]" facs="acs0000001-04-166"/>
 				<lg rhyme="AAAABCCCB" met="˘´˘´˘´˘´">
@@ -479,7 +484,7 @@
 			<pb n="[156]" facs="acs0000001-04-167"/>
 		</front>
 		<body>
-			<div xml:id="fa7234" n="I">
+			<div xml:id="balen_i" n="I">
 				<index indexName="nav"/>
 				<pb n="[157]" facs="acs0000001-04-168"/>
 				<head rendition="#center">I</head>
@@ -645,7 +650,7 @@
 					<l n="117" rendition="#ti-2">The bonds that bowed his head.</l>
 				</lg>
 			</div>
-			<div xml:id="fa8976" n="II">
+			<div xml:id="balen_ii" n="II">
 				<index indexName="nav"/>
 				<pb n="161" facs="acs0000001-04-172"/>
 				<head rendition="#center">II</head>
@@ -905,7 +910,7 @@
 					<l n="198" rendition="#ti-2">He turned him thence away.</l>
 				</lg>
 			</div>
-			<div xml:id="f76ff2" n="III">
+			<div xml:id="balen_iii" n="III">
 				<index indexName="nav"/>
 				<pb n="168" facs="acs0000001-04-179"/>
 				<head rendition="#center">III</head>
@@ -1158,7 +1163,7 @@
 					<l n="189" rendition="#ti-2">Ere noon fulfil his morn.”</l>
 				</lg>
 			</div>
-			<div xml:id="f37865" n="IV">
+			<div xml:id="balen_iv" n="IV">
 				<index indexName="nav"/>
 				<pb n="175" facs="acs0000001-04-186"/>
 				<head rendition="#center">IV</head>
@@ -1440,7 +1445,7 @@
 					<l n="216" rendition="#ti-2">And build therein their tomb.</l>
 				</lg>
 			</div>
-			<div xml:id="f63456" n="V">
+			<div xml:id="balen_v" n="V">
 				<index indexName="nav"/>
 				<pb n="183" facs="acs0000001-04-194"/>
 				<head rendition="#center">V</head>
@@ -1976,7 +1981,7 @@
 					<l n="396" rendition="#ti-2">With sense of death in birth.</l>
 				</lg>
 			</div>
-			<div xml:id="ff8865" n="VI">
+			<div xml:id="balen_vi" n="VI">
 				<index indexName="nav"/>
 				<pb n="196" facs="acs0000001-04-207"/>
 				<head rendition="#center">VI</head>
@@ -2704,7 +2709,7 @@
 					<l n="558" rendition="#ti-2">Slain, or should surely slay.</l>
 				</lg>
 			</div>
-			<div xml:id="df7861" n="VII">
+			<div xml:id="balen_vii" n="VII">
 				<index indexName="nav"/>
 				<pb n="214" facs="acs0000001-04-225"/>
 				<head rendition="#center">VII</head>
