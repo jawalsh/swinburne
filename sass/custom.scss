@@ -166,7 +166,11 @@ content:'(';
 }
 
 .rendition-blockquote {
-opacity: 0.65;
+color: #624004;
+}
+
+.rendition-blockquote .tei-note {
+color: $body-color;
 }
 
 .rendition-parens-after::after {
