@@ -21,6 +21,14 @@ beautiful.&#x201D; </p>
               <p class="pb-0 mb-0 fs-80"> &#x2014;John Ruskin, from a letter to Swinburne, commenting on the poet&#x2019;s <cite>Poems and Ballads</cite>. </p>
             </div>
           </div>
+          <noscript>
+            <div class="my-4 w-50 mx-auto text-center alert alert-warning" role="alert">
+              <h2 class="h5">JavaScript Required</h2>
+              <p>
+                        This site requires JavaScript to function properly. Please enable JavaScript in your
+					     browser settings.</p>
+            </div>
+          </noscript>
           <div id="search"/>
         </div>
       </div>
