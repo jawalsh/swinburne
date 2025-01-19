@@ -12,6 +12,7 @@
   <xsl:variable name="contents-json-xml" select="fn:json-to-xml(fn:unparsed-text('../data/contents.json'))"/>
   <xsl:variable name="volume" select="$contents-json-xml//fn:map[@key = 'volume' and fn:string[@key = 'id'] = $volume-id]"/>
   <xsl:variable name="volume-title" select="$volume/fn:string[@key='title']"/>
+  <xsl:variable name="search-page" select="/html/head/meta[@name = 'search']/@content"/>
   <xsl:mode on-no-match="shallow-copy"/>
   <!-- insert link to global CSS, any global <meta> elements belong here too -->
   <xsl:template match="head">
@@ -125,11 +126,13 @@
     </ul>
   </xsl:template>
   <xsl:template match="fn:string" mode="main-menu">
+	  <xsl:if test="not($search-page = 'true' and @key = 'Search 🔎')">
     <li class="nav-item">
       <a class="nav-link" href="{concat('/',$context,.)}">
         <xsl:value-of select="@key"/>
       </a>
     </li>
+    </xsl:if>
   </xsl:template>
   <xsl:template match="fn:map[ancestor::fn:map]/fn:string" mode="main-menu">
     <a class="dropdown-item">

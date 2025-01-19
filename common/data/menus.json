@@ -1,10 +1,11 @@
 {
-	"Home":"/",
+	"Home":"/index.html",
 	"Contents":"/contents.html",
 	"Miscellanies":{
 		"Project Information":"/acs0000508-01.html",
 		"An Introduction to Algernon Charles Swinburne":"/acs0000503-01.html",
 		"A Swinburne Chronology: 1837-1909":"/acs0000500-01.html",
 		"The Personal library and presumed reading of Algernon Charles Swinburne":"https://github.com/jawalsh/swinburne-library"
-	}
+	},
+	"Search 🔎":"/index.html"
 }

@@ -3,6 +3,7 @@
   <head>
     <title>Home</title>
     <link href="pagefind/pagefind-ui.css" rel="stylesheet"/>
+    <meta name="search" content="true"/>
   </head>
   <body class="d-flex flex-column h-100">
     <main role="main" class="flex-shrink-0">
