@@ -2939,7 +2939,57 @@
     "volume": {
       "title": "The Tale of Balen",
       "date": "1896",
-      "id": "acs0000001-04-i001"
+      "id": "acs0000001-04-i001",
+      "contents": [
+        {
+          "item": {
+            "title": "Dedication",
+            "id": "balen_dedication"
+          }
+        },
+        {
+          "item": {
+            "title": "I",
+            "id": "balen_i"
+          }
+        },
+        {
+          "item": {
+            "title": "II",
+            "id": "balen_ii"
+          }
+        },
+        {
+          "item": {
+            "title": "III",
+            "id": "balen_iii"
+          }
+        },
+	{
+          "item": {
+            "title": "IV",
+            "id": "balen_iv"
+          }
+        },
+	{
+          "item": {
+            "title": "V",
+            "id": "balen_v"
+          }
+        },
+	{
+          "item": {
+            "title": "VI",
+            "id": "balen_vi"
+          }
+        },
+	{
+          "item": {
+            "title": "VII",
+            "id": "balen_vii"
+          }
+        }
+	]
     }
   },
   {
