@@ -281,9 +281,9 @@
       </classDecl>
             <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
         </encodingDesc>
-        <profileDesc>
+<profileDesc>
             <textClass>
-                <catRef target="#collex_genre_reference_works"/><catRef xml:id="parent_vol" target="#fix"/>
+                <catRef target="#collex_genre_reference_works"/>
             </textClass>
         </profileDesc>
         <revisionDesc status="published">        <change when="2025-01-05" who="#jawalsh">Proofed</change>         
