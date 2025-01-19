@@ -269,17 +269,17 @@ h2.tei-head.project-doc + h2.tei-head.project-doc, h1.tei-head.project-doc + h1.
 }
 
 .pagefind-ui__drawer {
-  background-color: $body-bg-secondary;
+  background-color: #fefefe;
   @extend .px-2;
 }
 
 .pagefind-ui__filter-panel {
   @include media-breakpoint-up(lg) {
-    border-right: 1px solid $bg-dark-tertiary;
+    border-right: 1px solid #eeeeee;
     padding-right: 1rem;
   }
   @include media-breakpoint-down(md) {
-    border-bottom: 1px solid $bg-dark-tertiary;
+    border-bottom: none;
     padding-bottom: 1rem;
   }
 }
