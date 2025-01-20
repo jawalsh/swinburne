@@ -160,13 +160,14 @@
     </li>
   </xsl:template>
   <xsl:template name="footer">
-    <footer data-pagefind-ignore="all" class="footer mt-auto py-3 bg-dark text-light text-sansserif fs-70">
+    <footer data-pagefind-ignore="all" class="footer mt-auto py-1 bg-dark text-light text-sansserif fs-70">
       <div class="container-fluid ml-0">
 				Last Updated: 
             <xsl:value-of select="format-date(current-date(), '[D] [MNn] [Y]')"/>
 <br/>
 				
-Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  by <a class="text-light" href="mailto:jawalsh@indiana.edu">John A. Walsh</a>
+Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  by <a class="text-light" href="mailto:jawalsh@indiana.edu">John A. Walsh</a><br/>
+Code repository: <a href="https://github.com/jawalsh/swinburne-static">https://github.com/jawalsh/swinburne-static</a>
 			</div>
     </footer>
   </xsl:template>
@@ -405,7 +406,7 @@ Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/
   </xsl:template>
   <!-- identify project-docs that get regular headings -->
   <xsl:template mode="replace-class" match="h1[contains-token(@class, 'tei-head')]|h2[contains-token(@class, 'tei-head')]|h3[contains-token(@class, 'tei-head')]|h4[contains-token(@class, 'tei-head')]|h5[contains-token(@class, 'tei-head')]|h6[contains-token(@class, 'tei-head')]">
-	  <xsl:if test="/html/@xml:id = 'acs0000503-01' or /html/@xml:id = 'acs0000508-01' or /html/@xml:id = 'acs0000504-01' or /html/@xml:id = 'acs0000500-01'or /html/@xml:id = 'acs0000505-01'">
+	  <xsl:if test="/html/@xml:id = 'acs0000503-01' or /html/@xml:id = 'acs0000508-01' or /html/@xml:id = 'acs0000504-01' or /html/@xml:id = 'acs0000500-01'or /html/@xml:id = 'acs0000505-01' or /html/@xml:id = 'acs0000507-01' or contains-token[@class, 'rendition-styled']">
       <xsl:attribute name="class">
         <xsl:value-of select="concat(@class, ' project-doc')"/>
       </xsl:attribute>
