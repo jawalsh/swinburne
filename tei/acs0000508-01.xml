@@ -726,6 +726,7 @@
                             the resulting Relax NG schema are available for <ref
                                 target="/swinburne/downloads.jsp">download</ref>.</p>
                     </div>
+                    <!--
                     <div xml:id="glossary">
                         <index indexName="nav"/>
                         <head>Glossary</head>
@@ -741,123 +742,13 @@
                             <figDesc>Example of glossary entry in browser interface.</figDesc>
                         </figure>
                     </div>
-                    <div xml:id="topic_map">
-                        <index indexName="nav"/>
-                        <head>Topic Maps</head>
-                        <p>Topic Maps are another encoding standard, with an XML syntax, for
-                            encoding information about topics. The XML Topic Map (XTM) 1.0
-                            specification defines topics, and the related concept of subjects, as
-                            follows: <cit rendition="#blockquote">
-                                <quote>
-                                    <p>A topic is a resource that acts as a proxy from some subject;
-                                        it is the topic map system#x2019;s representation of that
-                                        subject.…</p>
-                                    <p>A subject is anything that can be
-                                        spoken about or conceived of by a human being. In the most
-                                        generic sense, a subject is anything whatsoever, regardless
-                                        of whether it exists or has any other specific
-                                        characteristics, about which anything whatsoever may be
-                                        asserted by any means whatsoever. In particular, it is
-                                        anything about which the author of a topic map chooses to
-                                        discourse.</p>
-                                </quote>
-                                <bibl>—<ptr
-                                        target="http://www.topicmaps.org/xtm/"/></bibl>
-                            </cit>
-                        </p>
-                        <p>Topic Maps are used in <title>The Swinburne Project</title> to capture
-                            information about people, places, institutions, events, and works that
-                            are referenced in Swinburne&#x2019;s own writings. Topic Map entries are linked
-                            from the primary source texts and appear as pop-up notes in the HTML
-                            versions of the texts. The presence of a topical note is indicated by a
-                            degree symbol (°).</p>
-                        <figure rendition="#center">
-                            <head>Topic Map entry pop-up note. Information in this example note
-                                includes birth and death dates, a short description, and a link to
-                                Wikipedia article.</head>
-                            <graphic url="image:swinburne_xtm.png"/>
-                            <figDesc>Example of topic map entry in browser interface.</figDesc>
-                        </figure>
-                    </div>
-                </div>
-                <div xml:id="xslt">
-                    <index indexName="nav"/>
-                    <head>eXtensible Stylesheet Language Transformations (XSLT)</head>
-                    <p>XSLT is an XML-based language for transforming XML. XSLT is utilized
-                        throughout <title>The Swinburne Project</title> to perform the following
-                        transformations: <list>
-                            <item>TEI/XML files representing physical volumes are decomposed and
-                                combined with metadata to create XML files representing individual
-                                works (e.g., poems or essays) within those physical volumes.</item>
-                            <item>TEI/XML files are transformed into METS (Metadata Encoding and
-                                Transmission Standard) files that support the page-turning and
-                                table-of-contents navigation features.</item>
-                            <item>TEI/XML files are transformed into HTML for display in web
-                                browsers. The TEI-to-HTML transformation also integrates information
-                                from the external glossary and topic map files.</item>
-                            <item>TEI/XML files are transformed into RDF metadata and plain text
-                                files for indexing by <ref target="http://www.nines.org/"
-                                    >NINES</ref>, a federated, peer-reviewed collection of digital
-                                scholarship on the Nineteenth Century.</item>
-	</list></p>
-                    <p>The <ref target="/swinburne/resources/tei2html.zip">TEI-to-HTML
-                            stylesheets</ref> are available for <ref
-                            target="/swinburne/downloads.jsp">download</ref>.</p>
+                    -->
                 </div>
             </div>
             <div xml:id="webapp">
                 <index indexName="nav"/>
                 <head>Web Application</head>
-                <p><title>The Swinburne Project</title> web application is built upon the <ref
-                        target="http://xtf.cdlib.org/">eXtensible Text Framework</ref> (<ref
-                        target="http://xtf.cdlib.org/">XTF</ref>) from the California Digital
-                    Library. XTF is “a powerful open source platform for providing access to digital
-                    content” (<ref target="http://xtf.cdlib.org/">http://xtf.cdlib.org/</ref>). XTF
-                    is a Java web application and utilizes popular open source technologies such as
-                    the <ref target="http://lucene.apache.org/">Lucene</ref> search engine library
-                    and the <ref target="http://saxon.sourceforge.net/">Saxon</ref> XSLT and XQuery
-                    processor. </p>
-                <p><title>The Swinburne Project</title> deploys a heavily customized version of XTF.
-                    Many of the default XSLT stylesheets have been replaced with custom stylesheets.
-                    In particular, the TEI to HTML conversion is handled by the <ref
-                        target="/swinburne/resources/tei2html.zip">tei2html</ref> XSLT stylesheets
-                    discussed above, which were written specifically for <title>The Swinburne
-                        Project</title>. <title>The Swinburne Project</title> has also incorporated
-                        <ref target="http://metsnavigator.svn.sourceforge.net/viewvc/metsnavigator/"
-                        >METS Navigator</ref>, from Indiana University&#x2019;s <ref
-                        target="http://www.dlib.indiana.edu/">Digital Library Program</ref>, for
-                    navigating both the encoded texts and the facsimile page images. </p>
-                <p> Sencha <ref target="http://www.sencha.com/products/extjs3/">Ext JS</ref> and
-                    Dyn-Web <ref target="http://www.dyn-web.com/code/tooltips/">Tooltip</ref>
-                    JavaScript libraries are used. </p>
-            </div>
-            <div xml:id="browsers">
-                <index indexName="nav"/>
-                <head>Supported Browsers</head>
-                <p><title>The Swinburne Project</title> uses current Web standards and technologies
-                    and requires a recent browser. Internet Explorer 8 or later, and recent versions
-                    of Safari, Firefox, and Chrome are all supported.</p>
-            </div>
-            <div xml:id="infrastructure">
-                <index indexName="nav"/>
-                <head>Infrastructure</head>
-                <p><title>The Swinburne Project</title> is hosted on Unix and Linux servers
-                    maintained and supported by the IU <ref target="http://www.dlib.indiana.edu"
-                        >Digital Library Program</ref> (DLP) and the <ref
-                        target="http://www.slis.indiana.edu/">School of Library and Information
-                        Science</ref> (SLIS). </p>
-                <div xml:id="backups">
-                    <index indexName="nav"/>
-                    <head>Backups</head>
-                    <p>The digital documents (XML, HTML, CSS, code, etc.) are under SVN version
-                        control on DLP and SLIS servers.</p>
-                    <p>These documents and image files (primarily facsimile page images) are
-                        securely stored in Indiana University&#x2019;s <ref
-                            target="https://pti.iu.edu/storage/sda">Scholarly Data Archive</ref>, a
-                        hierarchical storage management system with mirrored systems in Bloomington
-                        and Indianapolis.</p>
-                </div>
-
+               
             </div>
             <div xml:id="dedication" rendition="#center">
                 <index indexName="nav"/>
