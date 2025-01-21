@@ -18,10 +18,10 @@
                 </respStmt>
             </titleStmt>
             <publicationStmt>
-                <publisher>Digital Culture Lab, <ref target="http://ils.indiana.edu/">Department of
+                <publisher>Digital Culture Lab, <ref target="https://ils.indiana.edu/">Department of
                         Information and Library Science</ref>, <ref
-                        target="http://luddy.indiana.edu/">Luddy School of Informatics, Computing,
-                        and Engineering</ref>, <ref target="http://www.indiana.edu/">Indiana
+                        target="https://luddy.indiana.edu/">Luddy School of Informatics, Computing,
+                        and Engineering</ref>, <ref target="https://www.indiana.edu/">Indiana
                         University</ref>
                 </publisher>
                 <pubPlace>Bloomington, IN</pubPlace>
@@ -71,11 +71,11 @@
 
                         <editor><persName ref="#jawalsh">John A. Walsh</persName></editor>
                         <imprint>
-                            <publisher>Digital Culture Lab, <ref target="http://ils.indiana.edu/"
+                            <publisher>Digital Culture Lab, <ref target="https://ils.indiana.edu/"
                                     >Department of Information and Library Science</ref>, <ref
-                                    target="http://luddy.indiana.edu/">Luddy School of Informatics,
+                                    target="https://luddy.indiana.edu/">Luddy School of Informatics,
                                     Computing, and Engineering</ref>, <ref
-                                    target="http://www.indiana.edu/">Indiana University</ref>
+                                    target="https://www.indiana.edu/">Indiana University</ref>
                             </publisher>
                             <pubPlace>Bloomington, IN</pubPlace>
                             <date xml:id="sort_date" when="2012"/>
@@ -472,10 +472,10 @@
                 <index indexName="nav"/>
                 <head>Overview</head>
 
-                <p><title>The Algernon Charles Swinburne Project</title> edits and publishes high-quality texts of
+                <p><title rendition="#i">The Algernon Charles Swinburne Project</title> edits and publishes high-quality texts of
                     the wide range of literary and critical works by Victorian poet, critic, and
                     novelist Algernon Charles Swinburne, an important and influential Victorian
-                    cultural figure. These texts constitute the <title>Project</title>&#x2019;s textual and
+                    cultural figure. These texts constitute the <title rendition="#i">Project</title>&#x2019;s textual and
                     documentary core, around which is built a supporting scholarly apparatus,
                     including an <ref target="document:acs0000503-01">introduction to Swinburne’s
                         life and works</ref>, a <ref target="document:acs0000500-01">chronology</ref>, and growing body of annotations and
@@ -484,7 +484,7 @@
             <div xml:id="peer_review">
                 <index indexName="nav"/>
                 <head>Peer Review</head>
-                <p><title>The Swinburne Project</title> was peer reviewed in 2012 by NINES. The
+                <p><title rendition="#i">The Swinburne Project</title> was peer reviewed in 2012 by NINES. The
                     NINES Web site describes the goals of the organization:</p>
                 <p>
                     <cit rendition="#blockquote">
@@ -546,9 +546,9 @@
             <div xml:id="people">
                 <index indexName="nav"/>
                 <head>People</head>
-                <p><ref target="http://www.slis.indiana.edu/faculty/jawalsh">John A. Walsh</ref>,
+                <p><ref target="https://johnwalsh.name">John A. Walsh</ref>,
                     Editor and Project Director, is Associate Professor of Library and
-                    Information Science, Adjunct Associate Professor of English and Director of the <ref target="https://www.hathitrust.org/htrc">HathiTrust Research Center</ref> and Associate Professor of <ref target="http://ils.indiana.edu/">Information and Library Science</ref> in the <ref target="http://sice.indiana.edu/">Luddy School of Informatics, Computing, and Engineering</ref> at Indiana University. His research applies computational methods to the study of literary and historical documents. Walsh is an editor of digital scholarly editions, including: the <ref target="http://petrarchive.org/">Petrarchive</ref>, the <ref target="http://swinburneproject.org/">Algernon Charles Swinburne Project</ref>, and the <ref target="http://chymistry.org/">Chymistry of Isaac Newton</ref>. He developed <ref target="http://cbml.org/">Comic Book Markup Language</ref> (CBML) for scholarly encoding of comics and graphic novels, and <ref target="http://teiboilerplate.org/">TEI Boilerplate</ref>, for publishing documents encoded according to the Text Encoding Initiative (TEI) <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">Guidelines for Electronic Text Encoding and Interchange</ref>. He is the founding Technical Editor and a current General Editor of <ref target="http://digitalhumanities.org/dhq">Digital Humanities Quarterly</ref>, an open-access online journal published by the <ref target="http://adho.org/">Alliance of Digital Humanities Organizations</ref>. Walsh’s research interests include: computational literary studies; textual studies and bibliography; text technologies; book history; 19th-century British literature, poetry and poetics; and comic books.</p>
+                    Information Science, Adjunct Associate Professor of English and Director of the <ref target="https://www.hathitrust.org/htrc">HathiTrust Research Center</ref> and Associate Professor of <ref target="https://ils.indiana.edu/">Information and Library Science</ref> in the <ref target="https://luddy.indiana.edu/">Luddy School of Informatics, Computing, and Engineering</ref> at Indiana University. His research applies computational methods to the study of literary and historical documents. Walsh is an editor of digital scholarly editions, including: the <ref target="https://petrarchive.org/">Petrarchive</ref>, the <ref target="https://swinburneproject.org/">Algernon Charles Swinburne Project</ref>, and the <ref target="https://chymistry.org/">Chymistry of Isaac Newton</ref>. He developed <ref target="https://cbml.org/">Comic Book Markup Language</ref> (CBML) for scholarly encoding of comics and graphic novels, and <ref target="https://teiboilerplate.org/">TEI Boilerplate</ref>, for publishing documents encoded according to the Text Encoding Initiative (TEI) <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">Guidelines for Electronic Text Encoding and Interchange</ref>. He is the founding Technical Editor and a current General Editor of <ref target="https://digitalhumanities.org/dhq">Digital Humanities Quarterly</ref>, an open-access online journal published by the <ref target="https://adho.org/">Alliance of Digital Humanities Organizations</ref>. Walsh’s research interests include: computational literary studies; textual studies and bibliography; text technologies; book history; 19th-century British literature, poetry and poetics; and comic books.</p>
                 <p>Over the years, many graduate students and assistants have contributed to the
                     project, assisting with encoding, proof-reading, documentation, and other tasks:
                         <list>
@@ -579,25 +579,25 @@
             <div xml:id="note_on_the_texts">
                 <index indexName="nav"/>
                 <head>A Note on the Texts</head>
-                <p> The core of <title>The Swinburne Project</title> consists of digital
+                <p> The core of <title rendition="#i">The Swinburne Project</title> consists of digital
                     representations of Swinburne&#x2019;s works. Around this core are assembled multiple
                     paratextual layers that explore various documentary and literary dimensions of
                     the texts. The digital representations of Swinburne&#x2019;s works have been prepared
-                    according to the <ref target="http://www.tei-c.org/">Text Encoding
-                        Initiative</ref> (<ref target="http://www.tei-c.org/">TEI</ref>) <ref
-                        target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index-toc.html"
-                            ><title>Guidelines for Electronic Text Encoding and
+                    according to the <ref target="https://www.tei-c.org/">Text Encoding
+                        Initiative</ref> (<ref target="https://www.tei-c.org/">TEI</ref>) <ref
+                        target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index-toc.html"
+                            ><title rendition="#i">Guidelines for Electronic Text Encoding and
                         Interchange</title></ref>. </p>
 <!-- paused -->
                 <p>There is no reliable scholarly edition of Swinburne complete works or complete
-                    poems. The present edition of <title>The Swinburne Project</title> aims to fill
+                    poems. The present edition of <title rendition="#i">The Swinburne Project</title> aims to fill
                     that void. Edmund Gosse and the bibliographer and forger Thomas J. Wise edited
-                    the <soCalled>Bonchurch Edition</soCalled> of <title>The Complete Works of
+                    the <soCalled>Bonchurch Edition</soCalled> of <title rendition="#i">The Complete Works of
                         Algernon Charles Swinburne</title> (London: Heinemann, 1924-27) in twenty
                     volumes, but their edition is considered unreliable, <cit>
-                        <quote>misleading in arrangement and omissions and … often corrupt</quote>
-                        <bibl>(<ref target="#hyder1970">Hyder</ref> xi)</bibl>
-                    </cit>. Wise&#x2019;s <title>Bibliography</title>, published separately and as volume
+                        <quote type="block" rendition="#blockquote">misleading in arrangement and omissions and … often corrupt</quote>
+                        <bibl>(<ref target="#hyder1970">Hyder</ref> xi).</bibl>
+                    </cit> Wise&#x2019;s <title rendition="#i">Bibliography</title>, published separately and as volume
                     twenty of the “Bonchurch Edition,” is an important and useful source of
                     information on Swinburne&#x2019;s published works, though marred by the inclusion of
                     spurious pamphlets forged by Wise himself. In the absence of subsequent
@@ -608,19 +608,19 @@
                     <index indexName="nav"/>
                     <head>Published Poems</head>
                     <p> The text of Swinburne&#x2019;s published poems are based on the six-volume
-                            <title>Poems of Algernon Charles Swinburne</title> (London: Chatto &amp;
+                            <title rendition="#i">Poems of Algernon Charles Swinburne</title> (London: Chatto &amp;
                         Windus, 1904), which gathers all the individual collections of poetry from
-                            <title>Poems and Ballads, First Series</title> (1866) through <title>A
-                            Channel Passage and Other Poems</title> (1904). Also included in the
-                        six-volume <title>Poems</title> are the lyrical dramas <title>Atalanta in
-                            Calydon</title> (1865) and <title>Erechtheus</title> (1876) and the long
-                        Arthurian narratives <title>Tristram of Lyonesse</title> (1882) and
-                            <title>The Tale of Balen</title> (1896).</p>
+			    <title rendition="#i"><ref target="collection:pb1">Poems and Ballads, First Series</ref></title> (1866) through <title rendition="#i"><ref target="collection:cpop">A
+			    Channel Passage and Other Poems</ref></title> (1904). Also included in the
+			    six-volume <title rendition="#i">Poems</title> are the lyrical dramas <title rendition="#i"><ref target="collection:acs0000001-04-i002">Atalanta in
+			    Calydon</ref></title> (1865) and <title rendition="#i"><ref target="collection:acs0000001-04-i003">Erechtheus</ref></title> (1876) and the long
+			    Arthurian narratives <title rendition="#i"><ref target="collection:tol">Tristram of Lyonesse</ref></title> (1882) and
+			    <title rendition="#i"><ref target="collection:acs0000001-04-i001">The Tale of Balen</ref></title> (1896).</p>
                     <p>Swinburne himself saw this collected edition through the press. The 1904
-                            <title>Poems</title> is a reliable text and is the standard text that
+                            <title rendition="#i">Poems</title> is a reliable text and is the standard text that
                         has typically been cited in Swinburne scholarship (although we hope that
-                        future scholarship will cite texts from <title>The Swinburne
-                        Project</title>). <title>The Swinburne Project</title> edition corrects
+                        future scholarship will cite texts from <title rendition="#i">The Swinburne
+                        Project</title>). <title rendition="#i">The Swinburne Project</title> edition corrects
                         errors in the source texts as they are identified. These errors and
                         corrections are recorded in the TEI/XML encoding. For instance, the 1904
                         text of <title level="a"><ref target="document:acs0000001-01-i003">A Ballad
@@ -637,12 +637,12 @@
                 </div>
                 <div xml:id="note_on_the_text_lcc">
                     <index indexName="nav"/>
-                    <head><title>Love&#x2019;s Cross-Currents</title></head>
-                    <p>Swinburne&#x2019;s single published novel, <title>Love&#x2019;s Cross Currents</title>, was
-                        originally serialized as <title>A Year&#x2019;s Letters</title>, under the
-                        pseudonym <soCalled>Mrs. Horace Manners</soCalled>, in <title>The
+                    <head><title rendition="#i">Love&#x2019;s Cross-Currents</title></head>
+		    <p>Swinburne&#x2019;s single published novel, <title rendition="#i"><ref target="collection:acs0000005-01">Love&#x2019;s Cross Currents</ref></title>, was
+                        originally serialized as <title rendition="#i">A Year&#x2019;s Letters</title>, under the
+                        pseudonym <soCalled>Mrs. Horace Manners</soCalled>, in <title rendition="#i">The
                             Tatler</title> from August 25th to December 29th, 1877. The text here is
-                        based on the 1905 edition, which appeared as <title>Love&#x2019;s Cross-Currents: A
+                        based on the 1905 edition, which appeared as <title rendition="#i">Love&#x2019;s Cross-Currents: A
                             Year&#x2019;s Letters</title>, under Swinburne&#x2019;s name, published by Chatto
                         &amp; Windus.</p>
                 </div>
@@ -657,7 +657,7 @@
                         <index indexName="nav"/>
                         <head>TEI/XML</head>
                         <p>The technological, methodological, and performative foundation of the
-                                <title>The Swinburne Project</title> is the encoded text. The
+                                <title rendition="#i">The Swinburne Project</title> is the encoded text. The
                             standard technology for authoring encoded texts is the eXtensible Markup
                             Language, or XML, which was introduced in 1998. XML is built upon an
                             existing standard for encoded texts, the Standard Generalized Markup
@@ -667,44 +667,44 @@
                             1960s by Charles Goldfarb, Edward Mosher, and Raymond Lorie. </p>
                         <p>XML is a syntax for encoded texts. The syntax supports an unlimited
                             number of targeted XML schemas or vocabularies. The XML vocabulary used
-                            by <title>The Swinburne Project</title> is the <title><ref
-                                    target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/"
+                            by <title rendition="#i">The Swinburne Project</title> is the <title rendition="#i"><ref
+                                    target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/"
                                     >Text Encoding Initiative P5: Guidelines for Electronic Text
-                                    Encoding and Interchange</ref></title>. The <title>TEI
+                                    Encoding and Interchange</ref></title>. The <title rendition="#i">TEI
                                 Guidelines</title> are a mature conceptual model for digital
                             representation of a vast array of documents: inscriptions and papyri;
                             illuminated manuscripts; authorial holograph manuscripts;
                             correspondence; printed books of prose, verse, and drama; critical
-                            editions; born-digital documents; and more. The <title>TEI
+                            editions; born-digital documents; and more. The <title rendition="#i">TEI
                                 Guidelines</title>: <cit rendition="#blockquote">
                                 <quote>make recommendations about suitable ways of representing
                                     those features of textual resources which need to be identified
                                     explicitly in order to facilitate processing by computer
                                     programs. In particular, they specify a set of markers (or tags)
-                                    which may be inserted in the electronic representation of the
+                                    ich may be inserted in the electronic representation of the
                                     text, in order to mark the text structure and other features of
                                     interest.</quote>
                             </cit>
                         </p>
                         <!-- <ptr type="biblref" target="#tei2010"></ptr>-->
-                        <p> The <title>TEI Guidelines</title> are widely used in the digital
+                        <p> The <title rendition="#i">TEI Guidelines</title> are widely used in the digital
                             humanities and academic library communities and are maintained by the
-                                <ref target="http://www.tei-c.org/">TEI Consortium</ref>, an
+                                <ref target="https://www.tei-c.org/">TEI Consortium</ref>, an
                             international body whose membership includes universities; libraries and
                             other cultural heritage institutions; scholarly projects; and individual
-                            scholars, librarians, and technologists. The <title>TEI
+                            scholars, librarians, and technologists. The <title rendition="#i">TEI
                                 Guidelines</title> are implemented as a set of modules, including
                             modules for general categories of documents, such as prose, drama,
-                            verse, and dictionaries. The <title>Guidelines</title> also provide
+                            verse, and dictionaries. The <title rendition="#i">Guidelines</title> also provide
                             additional modules that address more specific textual features and
                             metadata requirements, such as names and dates, manuscript description,
                             linking, textual criticism, and so on. And in the most recent version,
-                            the <title>Guidelines</title> provide special XML elements and
+                            the <title rendition="#i">Guidelines</title> provide special XML elements and
                             attributes for linking transcriptions to facsimile page images. From
                             these many available modules, one selects a subset that meets the needs
                             of a particular document, project, collection, or analytical
                             approach.</p>
-                        <p><title>The Swinburne Project</title> uses the following TEI modules:
+                        <p><title rendition="#i">The Swinburne Project</title> uses the following TEI modules:
                                 <list>
                                 <item>tei</item>
                                 <item>core (Elements common to all TEI documents)</item>
@@ -792,7 +792,7 @@
                 <head rendition="#styled #center">Works Cited</head>
                 <listBibl>
                     <bibl xml:id="hyder1970">Hyder, Clyde K. <title level="a">Preface.</title>
-                        <title>Algernon Swinburne: The Critical Heritage</title>. Ed. Clyde K.
+                        <title rendition="#i">Algernon Swinburne: The Critical Heritage</title>. Ed. Clyde K.
                         Hyder. London: Routledge, 1970.</bibl>
                 </listBibl>
             </div>
