@@ -594,7 +594,7 @@
                                 <index indexName="nav"/>
                                 <body>
                                     <head>321B.<hi rendition="#sc">To: John Thomson</hi>
-                                        (?)<note xml:id="note_01" rendition="#block  #small">
+                                        (?)<note xml:id="note_01">
                                             I believe Swinburne sent
                                             this note or fragment of a letter (a quarter sheet
                                             of paper torn from a larger sheet) from Holmwood to
@@ -608,9 +608,26 @@
                                     <div type="letter">
                                         <opener><dateline rendition="#right">[<date when="1869-11">November
                                                 1869?</date>]</dateline></opener>
-                                        <p> The Argosy – Vol. 6<ref xml:id="ref_02" rendition="#super" target="#note_02">2</ref> – was
+                                        <p> The Argosy – Vol. 6<note xml:id="note_02">
+                                            
+                                            <date type="range" from="1868-06" to="1868-12">June-December 1868</date>.
+                                        </note> – was
                                             not received on Wednesday. The parcel directed to Lady
-                                            J. Swinburne contained ‘Violet Douglas’<ref rendition="#super" xml:id="ref_03" target="#note_03">3</ref> &amp; ‘The Malay Archipelago’<ref rendition="#super" xml:id="ref_04" target="#note_04">4</ref> Vol. 1<hi rendition="#super #u">st</hi>.
+                                            J. Swinburne contained ‘Violet Douglas’<note xml:id="note_03">
+                                                
+                                                <bibl><author>Emma Marshall</author>, <title>Violet
+                                                    Douglas, or the Problems of Life</title>
+                                                    (<pubPlace>London</pubPlace>: <date when="1868">1868</date>)</bibl>.
+                                            </note> &amp; ‘The Malay Archipelago’<note xml:id="note_04">
+                                                
+                                                <bibl><author>Alfred Russel Wallace</author>,
+                                                    <title>The Malay Archipelago: The Land of the
+                                                        Ourang-utan and The Bird of Paradise: A Narrative
+                                                        of Travel with Studies of Man and Nature</title>,
+                                                    <extent>2 vols</extent>.
+                                                    (<pubPlace>London</pubPlace>:
+                                                    <publisher>Macmillan</publisher>, <date when="1869">1869</date>)</bibl>.
+                                            </note> Vol. 1<hi rendition="#super #u">st</hi>.
                                             Nothing else was sent but the comic papers, Fraser,
                                             &amp; Templebar.</p>
                                         <p rendition="#ti-10">[a flourish]</p>
@@ -618,26 +635,9 @@
                                     <div type="notes">
                                         <milestone unit="section" rendition="#hr-50"/>
                                         
-                                        <note xml:id="note_02" rendition="#block #small">
-                                            <ref rendition="#super" target="#ref_02">2</ref>
-                                                <date type="range" from="1868-06" to="1868-12">June-December 1868</date>.
-                                        </note>
-                                        <note xml:id="note_03" rendition="#block #small">
-                                            <ref rendition="#super" target="#ref_03">3</ref>
-                                                <bibl><author>Emma Marshall</author>, <title>Violet
-                                                  Douglas, or the Problems of Life</title>
-                                                  (<pubPlace>London</pubPlace>: <date when="1868">1868</date>)</bibl>.
-                                        </note>
-                                        <note xml:id="note_04" rendition="#block #small">
-                                            <ref rendition="#super" target="#ref_04">4</ref>
-                                                <bibl><author>Alfred Russel Wallace</author>,
-                                                  <title>The Malay Archipelago: The Land of the
-                                                  Ourang-utan and The Bird of Paradise: A Narrative
-                                                  of Travel with Studies of Man and Nature</title>,
-                                                  <extent>2 vols</extent>.
-                                                  (<pubPlace>London</pubPlace>:
-                                                  <publisher>Macmillan</publisher>, <date when="1869">1869</date>)</bibl>.
-                                        </note>
+                                        
+                                        
+                                        
                                     </div>
                                 </body>
                             </floatingText>
