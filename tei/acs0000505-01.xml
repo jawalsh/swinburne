@@ -410,8 +410,8 @@
     <text xml:id="acs0000505-01-content" type="correspondence">
         <body>
             <pb n="1" rendition="#suppress" facs="dummy"/>
-            <!--<head rendition="#styled">Supplementary Material to the <title>Uncollected Letters of Algernon Charles
-                    Swinburne</title>, 3 vols. (London: Pickering and Chatto, 2005). </head>-->
+            <head rendition="#styled">Supplementary Material to the <title rendition="#1">Uncollected Letters of Algernon Charles
+                    Swinburne</title>, 3 vols. (London: Pickering and Chatto, 2005). </head>
             <div xml:id="intro">
                 <index indexName="nav"/>
                 <head rendition="#styled">Introduction</head>
@@ -594,7 +594,15 @@
                                 <index indexName="nav"/>
                                 <body>
                                     <head>321B.<hi rendition="#sc">To: John Thomson</hi>
-                                        (?)<ref xml:id="ref_01" target="#note_01" rendition="#super">1</ref>
+                                        (?)<note xml:id="note_01" rendition="#block  #small">
+                                            I believe Swinburne sent
+                                            this note or fragment of a letter (a quarter sheet
+                                            of paper torn from a larger sheet) from Holmwood to
+                                            John Thomson. It is pasted, Jerome McGann tells me,
+                                            to a piece of stiff paper tipped into a book; on the
+                                            verso can be discerned a long word not, seemingly,
+                                            in Swinburne’s distinctive hand.
+                                        </note>
                                     </head>
                                     <head><hi rendition="#sc">Text: MS., Jerome McGann</hi>.</head>
                                     <div type="letter">
@@ -609,15 +617,7 @@
                                     </div>
                                     <div type="notes">
                                         <milestone unit="section" rendition="#hr-50"/>
-                                        <note xml:id="note_01" rendition="#block  #small">
-                                            <ref rendition="#super" target="#ref_01">1</ref> I believe Swinburne sent
-                                                this note or fragment of a letter (a quarter sheet
-                                                of paper torn from a larger sheet) from Holmwood to
-                                                John Thomson. It is pasted, Jerome McGann tells me,
-                                                to a piece of stiff paper tipped into a book; on the
-                                                verso can be discerned a long word not, seemingly,
-                                                in Swinburne’s distinctive hand.
-                                        </note>
+                                        
                                         <note xml:id="note_02" rendition="#block #small">
                                             <ref rendition="#super" target="#ref_02">2</ref>
                                                 <date type="range" from="1868-06" to="1868-12">June-December 1868</date>.
