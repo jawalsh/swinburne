@@ -562,7 +562,16 @@ Code repository: <a href="https://github.com/jawalsh/swinburne-static">https://g
                 <xsl:otherwise>
 			  Note
 	                 					
-		 	 <xsl:if test="not(contains(@class, 'resp-acs'))">(editor)</xsl:if>
+			<xsl:if test="not(contains(@class, 'resp-acs'))">
+				<xsl:choose>
+					<xsl:when test="contains(@class, 'resp-meyers')">
+						<xsl:text>(Terry L. Meyers)</xsl:text>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:text>(editor)</xsl:text>
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:if>
 		 </xsl:otherwise>
               </xsl:choose>
             </h1>
