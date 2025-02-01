@@ -694,7 +694,7 @@
                                 <index indexName="nav"/>
                                 <body>
                                     <head>450A. <hi rendition="#sc">To: Ford Madox Brown</hi></head>
-                            <head><hi rendition="#sc">Text: MS., South African National Gallery</hi>.<ref target="#note_12" xml:id="ref_12" rendition="#super">1</ref></head>
+                                    <head><hi rendition="#sc">Text: MS., South African National Gallery</hi>.<note resp="#meyers" xml:id="note_12"> I am grateful to Jerome McGann for sending me copies of the three Swinburne letters he found at the South African National Gallery and to Marilyn Martin at the Gallery for permission to publish them.</note></head>
                                     <div>
                                         <opener>
                                             <dateline rendition="#center">
@@ -706,10 +706,10 @@
                                             <salute>My dear Brown</salute>
                                         </opener>
                                         <p rendition="#indent">
-                                        As it is first of all &amp; most of all to your kindness &amp; friendship that I owe the good fortune which has come to me I cannot but write at once to tell &amp; thank you.  Mr. Watts writes me word<ref rendition="#super" xml:id="ref_13" target="#note_13">2</ref> that Chapman &amp; Hall offer &lt;mo [?]&gt; on most liberal terms to buy out Hotten, &amp; having invested in my works to issue them in a cheap edition, such as theirs of Carlyle, which it will match.   This Chapman expects to sell ‘by thousands’ &amp; (says Watts) ‘will pay me for most liberally.’  It is the very thing &amp; the very firm [?] I would have chosen.
+                                            As it is first of all &amp; most of all to your kindness &amp; friendship that I owe the good fortune which has come to me I cannot but write at once to tell &amp; thank you.  Mr. Watts writes me word <note resp="#meyers" xml:id="note_13"> Watts-Dunton’s letter is no. 447C, in <title>Uncollected Letters</title>.</note> that Chapman &amp; Hall offer &lt;mo [?]&gt; on most liberal terms to buy out Hotten, &amp; having invested in my works to issue them in a cheap edition, such as theirs of Carlyle, which it will match.   This Chapman expects to sell ‘by thousands’ &amp; (says Watts) ‘will pay me for most liberally.’  It is the very thing &amp; the very firm [?] I would have chosen.
                                         </p>
                                         <p rendition="#indent">
-                                            Even you never did a kinder thing for any of your friends than when you brought me acquainted with Watts.  I wish I had any means of shewing my gratitude.  Had it been Jowett instead of Dean Stanley<ref rendition="#super" target="#note_14" xml:id="ref_14">3</ref> whom Cambridge had complimented by a nomination as ‘select preacher’ (but they won’t do that in a hurry, J being in all Christian eyes the real ‘heresiarch’ &amp; son of perdition,<ref rendition="#super" target="#note_15" xml:id="ref_15">4</ref> by the side of whose black infidelity the ‘rationalism’ of Stanley is white, or at least ma[u]ve[?]-colour) I might have a friend at court there which <choice><abbr>w<hi rendition="#super">d</hi></abbr><expan>would</expan></choice> perhaps be of some service.   As it is, I can only send my sincerest hopes that your election<ref target="#note_16" rendition="#super" xml:id="ref_16">5</ref> may prosper in that quarter--&amp; remain in haste,</p>
+                                            Even you never did a kinder thing for any of your friends than when you brought me acquainted with Watts.  I wish I had any means of shewing my gratitude.  Had it been Jowett instead of Dean Stanley<note resp="#meyers" xml:id="note_14"> Arthur Penrhyn Stanley (1815-1881), installed in 1864 as Dean of Westminster Abbey, was at this time one of the select preachers at Cambridge and was to preach there in January and February 1873 (<title>The Times</title>, 10 December 1872, p. 8b).  But Swinburne seems to be alluding as well to a controversy about Stanley’s nomination to be a select preacher at Oxford, which occasioned some opposition by members of Convocation.  See the exchange of letters in <title>The Times</title> (7 December 1872, p.  10c), where Stanley is accused of being a patron to a Unitarian teacher and to an infidel as well as being “the avowed champion of a negative and cloudy Christianity which is really preparing the way for the rejection of all revealed truth.”</note> whom Cambridge had complimented by a nomination as ‘select preacher’ (but they won’t do that in a hurry, J being in all Christian eyes the real ‘heresiarch’ &amp; son of perdition,<note resp="#meyers" xml:id="note_15"> John 17:12; 2 Thessalonians 2:3.</note> by the side of whose black infidelity the ‘rationalism’ of Stanley is white, or at least ma[u]ve[?]-colour) I might have a friend at court there which <choice><abbr>w<hi rendition="#super">d</hi></abbr><expan>would</expan></choice> perhaps be of some service.   As it is, I can only send my sincerest hopes that your election<note resp="#meyers" xml:id="note_16"> Brown had “applied for the Slade professorship at Cambridge, claiming that a practicing artist, rather than a connoisseur, should hold this post” (<title>ODNB</title>).</note> may prosper in that quarter--&amp; remain in haste,</p>
                                         <closer>
                                             <salute rendition="#ti-15">Ever yours most sincerely</salute>
                                             <signed rendition="#ti-17 #i">AC Swinburne</signed>
@@ -717,15 +717,7 @@
                                         <postscript>
                                             <p rendition="#indent">And what a day of judgment &amp; ‘the great jubilation’ it will be for British Virtue when I shall stalk triumphant over the land in a cheap edition sowing broadcast the seeds of immorality, atheism, &amp; &lt;illeg.&gt; revolution!</p></postscript>
                                     </div>
-                                    <div type="notes">
-                                        <milestone unit="section" rendition="#hr-50"/>
-                                        <note resp="#meyers" xml:id="note_12"><ref target="#ref12" rendition="#super">1</ref> I am grateful to Jerome McGann for sending me copies of the three Swinburne letters he found at the South African National Gallery and to Marilyn Martin at the Gallery for permission to publish them.</note>
-                                        <note resp="#meyers" xml:id="note_13"><ref target="#ref13" rendition="#super">2</ref> Watts-Dunton’s letter is no. 447C, in <title>Uncollected Letters</title>.</note>
-                                        <note resp="#meyers" xml:id="note_14"><ref target="#ref14" rendition="#super">3</ref> Arthur Penrhyn Stanley (1815-1881), installed in 1864 as Dean of Westminster Abbey, was at this time one of the select preachers at Cambridge and was to preach there in January and February 1873 (<title>The Times</title>, 10 December 1872, p. 8b).  But Swinburne seems to be alluding as well to a controversy about Stanley’s nomination to be a select preacher at Oxford, which occasioned some opposition by members of Convocation.  See the exchange of letters in <title>The Times</title> (7 December 1872, p.  10c), where Stanley is accused of being a patron to a Unitarian teacher and to an infidel as well as being “the avowed champion of a negative and cloudy Christianity which is really preparing the way for the rejection of all revealed truth.”</note>
-                                        <note resp="#meyers" xml:id="note_15"><ref target="#ref_15" rendition="#super">4</ref> John 17:12; 2 Thessalonians 2:3.</note>
-                                        <note resp="#meyers" xml:id="note_16"><ref target="#ref_16" rendition="#super">5</ref> Brown had “applied for the Slade professorship at Cambridge, claiming that a practicing artist, rather than a connoisseur, should hold this post” (<title>ODNB</title>).</note>
-                                            
-                                    </div>
+                                 
                                 </body>
                             </floatingText>
                         </item>
@@ -742,14 +734,28 @@
                               <opener>
                                 <dateline rendition="#right">
                                   <placeName rendition="#block">Holmwood</placeName>
-                                  <date rendition="#block" when="1873-11-25">Nov. 25th [1873]<ref xml:id="ref_61" target="#note_61" rendition="#super">1</ref></date>
+                                    <date rendition="#block" when="1873-11-25">Nov. 25th [1873]<note resp="#meyers" xml:id="note_61">
+                                        <p> The year is a guess, based on Catling’s nearby account, apparently around Christmas 1873, of John Thomson’s dropping by Catling’s office one noon in search of a drink (he settled on champagne, disappointed that no whisky was available).  Catling notes of this letter that Thomson “had undertaken to make inquiry for me as to Victor Hugo’s comparison of Shakspere to the sea, and had added a little criticism on his own account, which brought forth Swinburne’s defence” (p. 122).</p>
+                                        <p>Catling includes in his memoir an account of a luncheon at The Pines in July 1899.  He and W. E. Church arrived at 1:30 p.m., as directed.  The goal of the negotiations with Watts-Dunton was to obtain a poem for publication in the paper Catling edited, <title>Lloyd’s Weekly News</title>: “any idea of asking the poet to write was out of the question; some compositions, however, were admitted to exist in manuscript, and it was thought that Mr. Swinburne might be induced to revise one for publication in the way desired.”  Swinburne is described as returning from his “usual morning walk”:<cit rendition="#blockquote">
+                                            <quote>Suddenly the outer door opened and the poet came bounding into the hall, with a noisy bustle which seemed to be understood as an indication that he was ready for lunch.  In a very few minutes the meal was on the table, and after a cordial greeting the party of four sat down.  Mr. Swinburne’s bearing was marked by a simplicity which rightly belongs to a man in his own home.  If conversation languished to some extent it was by reason of the afflicting deafness under which the poet laboured.  Having finished his bottle of beer, he turned from the table to some new books which had come in that day.  A marvelous change came over him; all seriousness instantly disappeared.  One volume, which had been eagerly expected, contained references to the poet’s schooldays.  As he raised his head and pointed these out to Mr. Watts-Dunton, the flashing eyes and exalted expression made him appear as one transformed.</quote>
+                                            <bibl>(pp, 276-277)</bibl>
+                                        </cit>
+                                            Catlling notes that “the poem never came to hand.”</p>  
+                                        <p>As to what book led to Swinburne’s transformation, I am not sure since the ones published in 1899 seem not to mention Swinburne directly.  My guess, though, is Albert Lubbock, <title>Memories of Eton and Etonians</title> (London: John Murray), which was reviewed in the <title>Athenaeum</title> in the issue of June 24, 1899 (p. 775) and which features an illustration (between pp. 170 and 171), from <title>Vanity Fair</title>, of Swinburne’s tutor, the Rev. James L. Joynes, with a birch and the flogging block.</p>
+                                        <p>I am indebted to Clive Simmonds, Cambridge University Library, for bringing this letter and letters 809B and 1739B, below, to my attention, and for his work towards the annotations.</p>
+                                        <!-- note body -->
+                                    </note></date>
                                 </dateline>
                                 <salute>Dear John,</salute>
                               </opener>
                               <!-- body -->
                               <list type="ordered">
-                                <item>The similitude of Shakespeare to the sea forms the overture of Victor Hugo’s book—“William Shakespeare”—pp 15, 16 (ed.1864).<ref xml:id="ref_62" target="#note_62" rendition="#super">2</ref></item> 
-                                <item>The license of using a singular verb &lt;illeg.&gt; after two substantives (as in the verses you quote) has always been admitted, I think, in modern English verse. Of course it is a license to say ‘the flower-dust &amp; the flower-smell clings’<ref xml:id="ref_63" target="#note_63" rendition="#super">3</ref> but even if unpardonable the offender will find himself chastised in good company.</item>
+                                  <item>The similitude of Shakespeare to the sea forms the overture of Victor Hugo’s book—“William Shakespeare”—pp 15, 16 (ed.1864).<note resp="#meyers" xml:id="note_62">
+                                      Paris: Librairie Internationale, 1864.
+                                  </note></item> 
+                                  <item>The license of using a singular verb &lt;illeg.&gt; after two substantives (as in the verses you quote) has always been admitted, I think, in modern English verse. Of course it is a license to say ‘the flower-dust &amp; the flower-smell clings’<note resp="#meyers" xml:id="note_63">
+                                      “The End of A Month,” <title>Dark Blue</title>, April 1871, p. 220, illustrated by Simeon Solomon, re-titled as “At a Month’s End” and collected in <title>PBII</title> (1878), where the line reads, “The flower-dust with the flower smell clings,” perhaps a result of Thomson’s query.
+                                </note> but even if unpardonable the offender will find himself chastised in good company.</item>
                               </list>
                               
                               <closer>
@@ -758,27 +764,7 @@
                                 <signed rendition="#ti-14">A C Swinburne</signed>
                               </closer>
                             </div>
-                            <div type="notes">
-                              <milestone unit="section" rendition="#hr-50"/>
-                              <note resp="#meyers" xml:id="note_61" rendition="#block  #small">
-                                <p><ref rendition="#super" target="#ref_61">1</ref> The year is a guess, based on Catling’s nearby account, apparently around Christmas 1873, of John Thomson’s dropping by Catling’s office one noon in search of a drink (he settled on champagne, disappointed that no whisky was available).  Catling notes of this letter that Thomson “had undertaken to make inquiry for me as to Victor Hugo’s comparison of Shakspere to the sea, and had added a little criticism on his own account, which brought forth Swinburne’s defence” (p. 122).</p>
-                                <p>Catling includes in his memoir an account of a luncheon at The Pines in July 1899.  He and W. E. Church arrived at 1:30 p.m., as directed.  The goal of the negotiations with Watts-Dunton was to obtain a poem for publication in the paper Catling edited, <title>Lloyd’s Weekly News</title>: “any idea of asking the poet to write was out of the question; some compositions, however, were admitted to exist in manuscript, and it was thought that Mr. Swinburne might be induced to revise one for publication in the way desired.”  Swinburne is described as returning from his “usual morning walk”:<cit rendition="#blockquote">
-                                  <quote>Suddenly the outer door opened and the poet came bounding into the hall, with a noisy bustle which seemed to be understood as an indication that he was ready for lunch.  In a very few minutes the meal was on the table, and after a cordial greeting the party of four sat down.  Mr. Swinburne’s bearing was marked by a simplicity which rightly belongs to a man in his own home.  If conversation languished to some extent it was by reason of the afflicting deafness under which the poet laboured.  Having finished his bottle of beer, he turned from the table to some new books which had come in that day.  A marvelous change came over him; all seriousness instantly disappeared.  One volume, which had been eagerly expected, contained references to the poet’s schooldays.  As he raised his head and pointed these out to Mr. Watts-Dunton, the flashing eyes and exalted expression made him appear as one transformed.</quote>
-                                  <bibl>(pp, 276-277)</bibl>
-                                </cit>
-                                  Catlling notes that “the poem never came to hand.”</p>  
-                                <p>As to what book led to Swinburne’s transformation, I am not sure since the ones published in 1899 seem not to mention Swinburne directly.  My guess, though, is Albert Lubbock, <title>Memories of Eton and Etonians</title> (London: John Murray), which was reviewed in the <title>Athenaeum</title> in the issue of June 24, 1899 (p. 775) and which features an illustration (between pp. 170 and 171), from <title>Vanity Fair</title>, of Swinburne’s tutor, the Rev. James L. Joynes, with a birch and the flogging block.</p>
-                                <p>I am indebted to Clive Simmonds, Cambridge University Library, for bringing this letter and letters 809B and 1739B, below, to my attention, and for his work towards the annotations.</p>
-                                <!-- note body -->
-                              </note>
-                              <note resp="#meyers" xml:id="note_62" rendition="#block  #small">
-                                <ref rendition="#super" target="#ref_62">2</ref>Paris: Librairie Internationale, 1864.
-                              </note>
-                              <note resp="#meyers" xml:id="note_63" rendition="#block  #small">
-                                <ref rendition="#super" target="#ref_63">3</ref>“The End of A Month,” <title>Dark Blue</title>, April 1871, p. 220, illustrated by Simeon Solomon, re-titled as “At a Month’s End” and collected in <title>PBII</title> (1878), where the line reads, “The flower-dust with the flower smell clings,” perhaps a result of Thomson’s query. 
-                                
-                              </note>
-                            </div>
+                         
                           </body>
                         </floatingText>
                       </item>
@@ -801,25 +787,17 @@
                                             </dateline>
                                             <salute>My dear Brown</salute>
                                         </opener>
-                                        <p rendition="#indent">	I was very sorry to leave London without seeing you again if only to make my apologies, &amp; express my regret for having been unable to attend either of your evenings, not being well enough at the time to go out to parties.  I am very glad to hear that Hueffer’s projected book<ref xml:id="ref_17" rendition="#super" target="#note_17">1</ref> is to appear under Chatto’s auspices, &amp; should be more so if I <choice><abbr>c<hi rendition="#super #u">d</hi></abbr><expan>could</expan></choice> flatter myself with the hope that I might have been of any service in the matter.</p>
-                                        <p rendition="#indent">	With regard to the adaptation of Bothwell to the stage, I had an interview by appointment with Watts the day before I left town, when I told him that he was fully authorized to make any arrangements with Mr. Oxenford<ref xml:id="ref_18" rendition="#super" target="#note_18">2</ref> in my name that he might think best.  If on this understanding you, he, &amp; Mr. O. can come to any conclusion, tant mieux.  I don’t see, &lt;that&gt; having so thoroughly reliable a delegate, that my presence <choice><abbr>w<hi rendition="#super">d</hi></abbr><expan>would</expan></choice> further or that my absence need impede a satisfactory settlement.  I shall be here (Diabolo volente) for the next two months or so.  It <choice><abbr>w<hi rendition="#super">d</hi></abbr><expan>would</expan></choice> give me great pleasure to see myself on the boards &amp; Mrs. Bell<ref xml:id="ref_19" rendition="#super" target="#note_19">3</ref> as my Queen; the only stipulation I told Watts I <choice><abbr>sh<hi rendition="#super #u">d</hi></abbr><expan>should</expan></choice> make as to the adaptation (in which he fully concurred) was that nothing <choice><abbr>sh<hi rendition="#super #u">d</hi></abbr><expan>should</expan></choice> be interpolated or retouched by any hand but mine; the adapter being of course free to use at his own fullest discretion the powers of excision &amp; selection.  The practical part of the business, as to division of profits &amp;c, I leave of course in Watt’s hands with the fullest confidence.<ref xml:id="ref_20" rendition="#super" target="#note_20">4</ref></p>
+                                        <p rendition="#indent">	I was very sorry to leave London without seeing you again if only to make my apologies, &amp; express my regret for having been unable to attend either of your evenings, not being well enough at the time to go out to parties.  I am very glad to hear that Hueffer’s projected book<note resp="#meyers" xml:id="note_17"> Possibly <title>Richard Wagner and the Music of the Future</title> (London: Chapman and Hall, 1874), by Francis Hueffer (1845-1889), the music critic and, from 1872, the son-in-law of Brown.</note>
+                                             is to appear under Chatto’s auspices, &amp; should be more so if I <choice><abbr>c<hi rendition="#super #u">d</hi></abbr><expan>could</expan></choice> flatter myself with the hope that I might have been of any service in the matter.</p>
+                                        <p rendition="#indent">	With regard to the adaptation of Bothwell to the stage, I had an interview by appointment with Watts the day before I left town, when I told him that he was fully authorized to make any arrangements with Mr. Oxenford<note resp="#meyers" xml:id="note_18"> John Oxenford (1812-1877), playwright and translator.</note> in my name that he might think best.  If on this understanding you, he, &amp; Mr. O. can come to any conclusion, tant mieux.  I don’t see, &lt;that&gt; having so thoroughly reliable a delegate, that my presence <choice><abbr>w<hi rendition="#super">d</hi></abbr><expan>would</expan></choice> further or that my absence need impede a satisfactory settlement.  I shall be here (Diabolo volente) for the next two months or so.  It <choice><abbr>w<hi rendition="#super">d</hi></abbr><expan>would</expan></choice> give me great pleasure to see myself on the boards &amp; Mrs. Bell<note resp="#meyers" xml:id="note_19">Unidentified beyond being “the aspirant Mary Stuart” (<title>Letters</title>, II, 313).</note> as my Queen; the only stipulation I told Watts I <choice><abbr>sh<hi rendition="#super #u">d</hi></abbr><expan>should</expan></choice> make as to the adaptation (in which he fully concurred) was that nothing <choice><abbr>sh<hi rendition="#super #u">d</hi></abbr><expan>should</expan></choice> be interpolated or retouched by any hand but mine; the adapter being of course free to use at his own fullest discretion the powers of excision &amp; selection.  The practical part of the business, as to division of profits &amp;c, I leave of course in Watt’s hands with the fullest confidence.<note resp="#meyers" xml:id="note_20"> This entire sentence is interlined after “selection.”</note></p>
                                         <p rendition="#indent">I have just read Quatrevingt Treize—it is simply a divine work, &amp; your remarks on it exactly expressed my own present feelings.  V. H. has written me a quite overwhelming note of thanks &amp; praise for the dedicatory sonnet of Bothwell.</p>
-                                        <p rendition="#indent">When you see Forbes Robertson<ref xml:id="ref_21" rendition="#super" target="#note_21">5</ref> please tell him I only received this morning his note of the 6th inviting me to meet you at his house, which had I been in town I should have been delighted to do.</p>
+                                        <p rendition="#indent">When you see Forbes Robertson<note resp="#meyers" xml:id="note_21"> Johnston Forbes-Robertson (1853-1937).  Having studied at the Royal Academy (and sat to Rossetti and Brown), Forbes-Robertson had just started his illustrious acting career, his first part being, in March, in <title>Mary Stuart</title>, by W. G. Willis (<title>ODNB</title>).  In his<title> A Player Under Three Reigns</title> (1925; rpt. New York: Benjamin Blom, 1971), Forbes-Robertson describes Swinburne’s appearance and “youthful enthusiasm,” his delight at a kitten with “‘the grace of a thousand virgins,’” his being “very excited on one glass of claret,” his soothing a child, and his readings, especially one of <title>Atalanta in Calydon</title> “in a sort of chant” just before it was published (pp. 43-45).</note> please tell him I only received this morning his note of the 6th inviting me to meet you at his house, which had I been in town I should have been delighted to do.</p>
                                         <closer>
                                             <salute rendition="#ti-15">Ever yours</salute>
                                             <signed rendition="#ti-17 #i">AC Swinburne</signed>
                                         </closer>
                                     </div>
-                                    <div type="notes">
-                                        <milestone unit="section" rendition="#hr-50"/>
-                                        <note resp="#meyers" xml:id="note_17"><ref target="#ref_17" rendition="#super">1</ref> Possibly <title>Richard Wagner and the Music of the Future</title> (London: Chapman and Hall, 1874), by Francis Hueffer (1845-1889), the music critic and, from 1872, the son-in-law of Brown.</note>
-                                        <note resp="#meyers" xml:id="note_18"><ref target="#ref_18" rendition="#super">2</ref> John Oxenford (1812-1877), playwright and translator.</note>
-                                        <note resp="#meyers" xml:id="note_19"><ref target="#ref_19" rendition="#super">3</ref>Unidentified beyond being “the aspirant Mary Stuart” (<title>Letters</title>, II, 313).</note>
-                                        <note resp="#meyers" xml:id="note_20"><ref target="#ref_20" rendition="#super">4</ref> This entire sentence is interlined after “selection.”</note>
-                                        <note resp="#meyers" xml:id="note_21"><ref target="#ref_21" rendition="#super">5</ref> Johnston Forbes-Robertson (1853-1937).  Having studied at the Royal Academy (and sat to Rossetti and Brown), Forbes-Robertson had just started his illustrious acting career, his first part being, in March, in <title>Mary Stuart</title>, by W. G. Willis (<title>ODNB</title>).  In his<title> A Player Under Three Reigns</title> (1925; rpt. New York: Benjamin Blom, 1971), Forbes-Robertson describes Swinburne’s appearance and “youthful enthusiasm,” his delight at a kitten with “‘the grace of a thousand virgins,’” his being “very excited on one glass of claret,” his soothing a child, and his readings, especially one of <title>Atalanta in Calydon</title> “in a sort of chant” just before it was published (pp. 43-45).</note>
-                                        
-                                    </div>
-
+                                   
                                 </body>
                             </floatingText>
                         </item>
@@ -860,7 +838,11 @@
                                             <salute>My dear M<hi rendition="#super">r</hi>
                                             Swinburne</salute>
                                         </opener><p rendition="#indent"> I find on again looking at your charming tribute to my
-                                            dear husband that it ought to be dated the 4<hi rendition="#super">th</hi> instead of the 5<hi rendition="#super">th</hi>. <ref rendition="#super" xml:id="ref_06" target="#note_06">2</ref>
+                                            dear husband that it ought to be dated the 4<hi rendition="#super">th</hi> instead of the 5<hi rendition="#super">th</hi>.<note resp="#meyers" xml:id="note_06">
+                                                <p> Swinburne marked the death on 4 October of
+                                                    Procter with “In Memory of Barry Cornwall” (see,
+                                                    above, Letter 562A, note).</p>
+                                            </note>
                                         </p><p rendition="#indent"> I cannot tell you what a pleasure your good company was
                                             to me, how you lifted me out of all that has been
                                             pressed upon me for the last fortnight—</p> 
@@ -874,11 +856,7 @@
                                             <signed rendition="#i">
                                                 <name>Anne B. Procter</name>
                                             </signed>
-                                        </closer></div><div type="notes"><milestone unit="section" rendition="#hr-50"/><note resp="#meyers" xml:id="note_06">
-                                            <p><ref rendition="#super" target="#ref_06">2</ref> Swinburne marked the death on 4 October of
-                                                Procter with “In Memory of Barry Cornwall” (see,
-                                                above, Letter 562A, note).</p>
-                                        </note></div></body></floatingText>
+                                        </closer></div><div type="notes"><milestone unit="section" rendition="#hr-50"/></div></body></floatingText>
                         </item>
                         <item>Letter 598A. p. 9. To note 1 might be added: <p>
                             To Swinburne’s attendance in the Reading Room of the British Museum, two further witnesses might be adduced, both in his later years.   Laurence Binyon (1869-1943) recalled seeing Swinburne at work:<cit rendition="#blockquote"><quote>
@@ -920,7 +898,15 @@
                         <floatingText type="uncollected-letter" xml:id="l890b">
                           <index indexName="nav"/>
                           <body>
-                            <head>890B. <hi rendition="#sc">To: Eugène Joël</hi><ref xml:id="ref_81" target="#note_81" rendition="#super">1</ref>
+                              <head>890B. <hi rendition="#sc">To: Eugène Joël</hi><note resp="#meyers" xml:id="note_81">
+                                  <p>Sometime Master of Modern Languages, Clifton College, and editor of various textbooks; later Professor of French at Mason Science College, Birmingham.</p>
+                                  <p>The editor of the <title>Leicester Chronicle and the Leicestershire Mercury</title> introduces Swinburne’s letter with this comment:  
+                                      <cit rendition="#blockquote"><quote>The French poem on the anniversary of the 2nd December [the coup d’état of Napoleon III in 1851], written by our townsman, M. Eugene Joel, and published in our issue of the 1st inst. [p. 2] was, as our readers will remember dedicated to the eminent poet, Mr. Algernon C.  Swinburne. [“Original French Poems. IV. L’Anniversaire.  2 Décembre, 1851.  A L’Illustre Algernon Swinburne”].  That gentleman has written to M. Joel, thanking him for his ‘fine and vigorous verses’ and expressing sympathy with the sentiments of the poem.  We have been favoured with a perusal of the letter, of which the following is a copy.</quote>
+                                      </cit>
+                                  </p>
+                                  
+                                  <!-- note body -->
+                              </note>
                               <!-- <ref xml:id="ref_01" target="#note_01" rendition="#super">1</ref>-->
                             </head>
                             <head><hi rendition="#sc">Text: Printed in <title>The Leicester Chronicle and the Leicestershire Mercury</title>, <date when="1877-12-15">December 15, 1877</date>, p. 12.</hi></head>
@@ -935,18 +921,7 @@
                                 <dateline xml:lang="fr"><date when="1877-12-09">9 Décembre, 1877.</date></dateline>
                               </closer>
                             </div>
-                            <div type="notes">
-                              <milestone unit="section" rendition="#hr-50"/>
-                              <note resp="#meyers" xml:id="note_81" rendition="#block  #small">
-                                <p><ref rendition="#super" target="#ref_81">1</ref>Sometime Master of Modern Languages, Clifton College, and editor of various textbooks; later Professor of French at Mason Science College, Birmingham.</p>
-                                <p>The editor of the <title>Leicester Chronicle and the Leicestershire Mercury</title> introduces Swinburne’s letter with this comment:  
-                                  <cit rendition="#blockquote"><quote>The French poem on the anniversary of the 2nd December [the coup d’état of Napoleon III in 1851], written by our townsman, M. Eugene Joel, and published in our issue of the 1st inst. [p. 2] was, as our readers will remember dedicated to the eminent poet, Mr. Algernon C.  Swinburne. [“Original French Poems. IV. L’Anniversaire.  2 Décembre, 1851.  A L’Illustre Algernon Swinburne”].  That gentleman has written to M. Joel, thanking him for his ‘fine and vigorous verses’ and expressing sympathy with the sentiments of the poem.  We have been favoured with a perusal of the letter, of which the following is a copy.</quote>
-                                  </cit>
-                                </p>
-                                
-                                <!-- note body -->
-                              </note>
-                            </div>
+                          
                           </body>
                         </floatingText>
                       </item>
@@ -968,18 +943,12 @@
                                         </dateline>
                                         <salute>Dear Rossetti</salute>
                                     </opener>
-                                    <p rendition="#indent">I trouble you with one line to beg one word <add place="above">⁁by return of post</add> in answer to the question whether in your ed<hi rendition="#super #u">n</hi> of Shelley<ref target="#note_22" xml:id="ref_22" rendition="#super">1</ref> you had or had not a note on the ‘Numidian seps’ (Prom. Unbound, Act III, Sc.1) giving a reference to the passage in Lucan alluded to.   There is no such note in Forman’s ed<hi rendition="#super #u">n</hi>;<ref rendition="#super" target="#note_23" xml:id="ref_23">2</ref> &amp; believing (what I now feel less sure of) that there was none in yours, my copy of which is at Holmwood, I have written to the Athenaeum announcing as my own the discovery of this rather eccentric &amp; &lt;illeg.&gt; <add place="above">⁁incongruous</add> reference on the part of the Almighty tyrant.  Let me know at once <add place="above">⁁if</add> I have wronged you, that my note may be withdrawn in time before next week.<ref rendition="#super" target="#note_24" xml:id="ref_24">3</ref></p>
+                                    <p rendition="#indent">I trouble you with one line to beg one word <add place="above">⁁by return of post</add> in answer to the question whether in your ed<hi rendition="#super #u">n</hi> of Shelley<note resp="#meyers" xml:id="note_22"><title>The Complete Poetical Works of Percy Bysshe Shelley</title>, 3 vols. (London: E. Moxon, 1878).</note>you had or had not a note on the ‘Numidian seps’ (Prom. Unbound, Act III, Sc.1) giving a reference to the passage in Lucan alluded to.   There is no such note in Forman’s ed<hi rendition="#super #u">n</hi>;<note resp="#meyers" xml:id="note_23"><title>The Poetical Works of Percy Bysshe Shelley</title>, ed. Harry Buxton Forman, 4 vols. (London: Reeves &amp; Turner, 1876, 1877).</note> &amp; believing (what I now feel less sure of) that there was none in yours, my copy of which is at Holmwood, I have written to the Athenaeum announcing as my own the discovery of this rather eccentric &amp; &lt;illeg.&gt; <add place="above">⁁incongruous</add> reference on the part of the Almighty tyrant.  Let me know at once <add place="above">⁁if</add> I have wronged you, that my note may be withdrawn in time before next week.<note resp="#meyers" xml:id="note_24"> Swinburne’s note appeared in the issue of 9 February 1878 (Letters, IV, 42-43).</note></p>
                                     <closer>
                                         <salute rendition="#ti-15">Ever yours</salute>
                                         <signed rendition="#ti-17 #i">AC Swinburne</signed>
                                     </closer>
-                                </div>
-                                <div type="notes">
-                                    <milestone unit="section" rendition="#hr-50"/>
-                                    <note resp="#meyers" xml:id="note_22"><ref target="#ref_22" rendition="#super">1</ref><title>The Complete Poetical Works of Percy Bysshe Shelley</title>, 3 vols. (London: E. Moxon, 1878).</note>
-                                    <note resp="#meyers" xml:id="note_23"><ref target="#ref_23" rendition="#super">2</ref><title>The Poetical Works of Percy Bysshe Shelley</title>, ed. Harry Buxton Forman, 4 vols. (London: Reeves &amp; Turner, 1876, 1877).</note>
-                                    <note resp="#meyers" xml:id="note_24"><ref target="#ref_24" rendition="#super">3</ref> Swinburne’s note appeared in the issue of 9 February 1878 (Letters, IV, 42-43).</note>
-                                </div>
+                                </div> 
                             </body>
                         </floatingText>
                         </item>
@@ -1003,20 +972,20 @@
                                             <salute>Sir</salute>
                                         </opener><p rendition="#indent"> I shall be obliged if you can send me the copy of
                                             Marvell’s Works marked in the accompanying leaf from
-                                            your catalogue.<ref rendition="#super" xml:id="ref_07" target="#note_07">1</ref></p><closer>
-                                            <salute rendition="#ti-9">I am, etc.</salute>
-                                            <signed rendition="#ti-10">A. C. Swinburne</signed>
-                                            </closer></div><div type="notes"><milestone unit="section" rendition="#hr-50"/><note resp="#meyers" xml:id="note_07">
-                                                <ref rendition="#super" target="#ref_07">1</ref> Without the leaf, identifying which
+                                            your catalogue.<note resp="#meyers" xml:id="note_07">
+                                                Without the leaf, identifying which
                                                 edition of Andrew Marvell’s works was on offer is
                                                 impossible. It seems likely to have been an earlier
                                                 edition than the one in Swinburne’s library at his
                                                 death, <title>Complete Works in Verse and
-                                                Prose</title>, ed. A. B. Grosart (printed for
+                                                    Prose</title>, ed. A. B. Grosart (printed for
                                                 private circulation: 1872-1875) (lot 493 in <title>A
-                                                  Catalogue of the Library of Algernon Charles
-                                                  Swinburne</title>).
-                                        </note></div></body></floatingText>
+                                                    Catalogue of the Library of Algernon Charles
+                                                    Swinburne</title>).
+                                            </note></p><closer>
+                                            <salute rendition="#ti-9">I am, etc.</salute>
+                                            <signed rendition="#ti-10">A. C. Swinburne</signed>
+                                            </closer></div></body></floatingText>
                         </item>
                         <item>Letter 1001B. p. 206. In line 4, <hi rendition="#i">favourite</hi>
                             <hi rendition="#u">should be</hi>
@@ -1066,32 +1035,34 @@
                             <floatingText type="uncollected-letter" xml:id="l1123a">
                                 <index indexName="nav"/>
                                 <body>
-                                    <head><hi rendition="#sc">1123A. To: Rev. Canon Frederick Langbridge</hi><ref xml:id="ref_31" rendition="#super" target="#note_031">1</ref></head>
+                                    <head><hi rendition="#sc">1123A. To: Rev. Canon Frederick Langbridge</hi><note resp="#meyers" xml:id="note_31">
+                                        See <title>Uncollected Letters</title>, II, 316n.  The envelope is addressed in Swinburne’s hand “The Rev. F. Langbridge / Wellesley Lodge / Limerick”; the postmarks are Putney, January 12, 1882 and Limerick January 13, 1882. 
+                                    </note></head>
                                     <head>
                                         <hi rendition="#sc">Text: MS., Terry L. Meyers.</hi>
                                     </head><div><opener>
                                         
                                         <salute>Dear Sir</salute>
                                     </opener>
-                                        <p rendition="#indent">Thanks for the gift of your volume.<ref xml:id="ref_32" rendition="#super" target="#note_032">2</ref> I have taken measures to get your letter to Mr Morris duly forwarded to his present direction.</p>
-                                        <p rendition="#indent">I should not wish any one of my ‘Christmas Antipones’<ref xml:id="ref_33" rendition="#super" target="#note_033">3</ref> to appear separately from the others; &amp; &lt;as&gt; [?] I presume you would hardly wish to reprint the three as they stand.</p>
+                                        <p rendition="#indent">Thanks for the gift of your volume.<note resp="#meyers" xml:id="note_32">
+                                            Unidentified.</note> I have taken measures to get your letter to Mr Morris duly forwarded to his present direction.</p>
+                                        <p rendition="#indent">I should not wish any one of my ‘Christmas Antipones’<note resp="#meyers" xml:id="note_33">
+                                           From <title>Songs before Sunrise</title> (1871).
+                                        </note>to appear separately from the others; &amp; &lt;as&gt; [?] I presume you would hardly wish to reprint the three as they stand.</p>
                                         <closer>
                                             <salute rendition="#ti-18">Yours very truly</salute>
                                             <signed rendition="#ti-21">AC Swinburne</signed>
                                             
-                                        </closer></div><div type="notes"><milestone unit="section" rendition="#hr-50"/><note resp="#meyers" xml:id="note_31">
-                                            <ref rendition="#super" target="#ref_31">1</ref>See <title>Uncollected Letters</title>, II, 316n.  The envelope is addressed in Swinburne’s hand “The Rev. F. Langbridge / Wellesley Lodge / Limerick”; the postmarks are Putney, January 12, 1882 and Limerick January 13, 1882. 
-                                        </note><note resp="#meyers" xml:id="note_32">
-                                            <ref rendition="#super" target="#ref_32">2</ref> Unidentified.</note>
-                                            <note resp="#meyers" xml:id="note_33">
-                                                <ref rendition="#super" target="#ref_33">3</ref> From <title>Songs before Sunrise</title> (1871).
-                                            </note></div></body></floatingText>
+                                        </closer></div></body></floatingText>
                         </item>
                         <item>An added letter:
                             <floatingText type="uncollected-letter" xml:id="l1124c">
                                 <index indexName="nav"/>
                                 <body>
-                                    <head>1124C. <hi rendition="#sc">To: Oswald John Simon</hi><ref target="#note_28" xml:id="ref_30" rendition="#super">1</ref></head>
+                                    <head>1124C. <hi rendition="#sc">To: Oswald John Simon</hi><note resp="#meyers" xml:id="note_28">
+                                        <milestone unit="section"/><p>Yates identifies the recipient of this letter as Oswald John Simon (1855-1932), author, community worker, and founder of the Maccabaeans. Simon, who had studied at Balliol, perhaps wrote Swinburne at the instigation of his father, Sir John Simon (1818-1897, on whom see the <title>ODNB</title>). Yates suggests Swinburne is replying to an appeal to sign one of several addresses protesting the treatment of Jews in Russia, most likely an Oxford occasion. Serjeant Simon’s involvement is recounted in the <title>Jewish Encyclopedia</title> (see <ref target="http://www.jewishencyclopedia.com/">www.jewishencyclopedia.com</ref>): “When the knowledge reached England of the persecution of the Jews in Russia in 1881 and 1882 Simon conceived and carried into effect the idea of securing a protest from the entire English people. Within three weeks he had so aroused the feelings of the public men to whom he had personally submitted the issues, that a requisition, signed by the highest representatives in England, was presented to the lord mayor; and a meeting was convened on Feb. 1, 1882.”</p>
+                                        <p>Swinburne’s <ref target="document:acs0000001-05-i084">“On the Russian Persecution of the Jews”</ref> (collected in <title>TLOP</title> [1882]) had just appeared in <title>The Daily Telegraph</title>, 25 January 1882.</p>
+                                    </note></head>
                                     <head><hi rendition="#sc">Text: George A. Yates, “The Centenary of Swinburne.  An Oxford Letter.  Persecution of Jews in Russia,” <title>The Times</title>, 10 April 1937, p. 15f.</hi></head>
                                     <div>
                                         <opener>
@@ -1108,13 +1079,6 @@
                                             <salute rendition="#ti-17">Yours very truly,</salute>
                                             <signed rendition="#ti-19">A. C. Swinburne</signed>
                                         </closer>
-                                    </div>
-                                    <div type="notes">
-                                        <note resp="#meyers" xml:id="note_28">
-                                            <milestone unit="section" rendition="#hr-50"/><p><ref target="#ref_30" rendition="#super">1</ref>Yates identifies the recipient of this letter as Oswald John Simon (1855-1932), author, community worker, and founder of the Maccabaeans. Simon, who had studied at Balliol, perhaps wrote Swinburne at the instigation of his father, Sir John Simon (1818-1897, on whom see the <title>ODNB</title>). Yates suggests Swinburne is replying to an appeal to sign one of several addresses protesting the treatment of Jews in Russia, most likely an Oxford occasion. Serjeant Simon’s involvement is recounted in the <title>Jewish Encyclopedia</title> (see <ref target="http://www.jewishencyclopedia.com/">www.jewishencyclopedia.com</ref>): “When the knowledge reached England of the persecution of the Jews in Russia in 1881 and 1882 Simon conceived and carried into effect the idea of securing a protest from the entire English people. Within three weeks he had so aroused the feelings of the public men to whom he had personally submitted the issues, that a requisition, signed by the highest representatives in England, was presented to the lord mayor; and a meeting was convened on Feb. 1, 1882.”</p>
-                                            <p>Swinburne’s <ref target="document:acs0000001-05-i084">“On the Russian Persecution of the Jews”</ref> (collected in <title>TLOP</title> [1882]) had just appeared in <title>The Daily Telegraph</title>, 25 January 1882.</p>
-                                        </note>
-                                        
                                     </div>
                                 </body>
                             </floatingText>
@@ -1154,28 +1118,22 @@
                           <body>
                             <head>1197A. <hi rendition="#sc">To: T. Hall Caine</hi></head>
                             <head><hi rendition="#sc">Text: T. Hall Caine, <title>Cobwebs of Criticism: A Review of the First Reviewers of the ‘Lake,’ ‘Satanic,’ and ‘Cockney’ Schools</title> (London: Elliot Stock, 1883), pp. 136n-137n.
-                            </hi>.<ref xml:id="ref_51" rendition="#super" target="#note_51">1</ref></head>
+                            </hi>.<note resp="#meyers" xml:id="note_51">
+                                <p>Caine introduces this excerpt as from “an eminent poet” who objected to Caine’s “so-called impeachment” of Leigh Hunt in <title>Recollections of Dante Gabriel Rossetti</title> (London: Eliot Stock, 1882).  Caine there expressed his disdain for Hunt’s having “attempted no defence of Keats when the bread was being taken out his mouth” by hostile reviewers (p. 177).</p>
+                                <p>That the poet being quoted is Swinburne I deduce from Swinburne’s sustained admiration of Hunt and from two marginalia in a copy of <title>Cobwebs of Criticism</title> I have acquired for my collection.  That copy has a bookplate, “From the Library of Walter Theodore Watts-Dunton,” and is inscribed in pencil on the inside front cover, “MS notes by Swinburne.”</p>  <p>I believe that the marginalia and under-linings are indeed by Swinburne and in this particular instance point to his being the author of the letter Caine quotes.  I incorporate in the text above two corrections that, I think, could have been made only by the person who actually wrote the letter.  One correction shifts a comma from after “in 1820” to before it, and the other changes “thankless son” to “thankless man.”  In the rest of the note, where Caine defends his view, Swinburne has put in the right margin marks akin to ticks to the last four of Caine’s points.</p> 
+                                <p>To Swinburne’s expressions of admiration for Hunt might be added a comment he made <foreign xml:lang="it" rendition="#i">vivâ voce</foreign> to Harry Buxton Forman and recorded in a note to stanza 35 of “Adonais” where Forman recounts his survey as to who Shelley had in mind among the mourners as the “gentlest among the wise”: said Swinburne, “there is not the slightest doubt it was Leigh Hunt” (see <title>The Works of Percy Bysshe Shelley in Verse and Prose</title>, 8 vols. [London: Reeves and Turner, 1880], III, 22n).</p>
+                            </note></head>
                             <div>
                               <opener>
                                 <dateline rendition="#right">
-                                  <date when="1882-11" rendition="#sc">[November 1882?]<ref xml:id="ref_52" rendition="#super" target="#note_52">2</ref></date>
+                                    <date when="1882-11" rendition="#sc">[November 1882?]<note resp="#meyers" xml:id="note_52">
+                                        I assign the date from Swinburne’s reading John Addington Symonds’ review of <title>Recollections</title>, in <title>The Academy</title>, October 28, 1882, while in Bradford-on-Avon (<title>Letters</title>, IV, 310, 311) and then presumably reading the book itself upon his return to The Pines.
+                                    </note></date>
                                 </dateline>
                               </opener>
-                              <p>The cruel injustice you have—of course unwittingly—done to the memory of Leigh Hunt is no matter of opinion; it is one of fact and evidence. So far from attempting no defence of Keats, in 1820 he published, on the appearance of the “Lamia and other Poems” in that year, perhaps the most cordial, generous and enthusiastic tribute of affectionate and ardent praise that had ever been offered by a poet to a poet, in the shape of a review almost overflowing the limits of the magazine in which it appeared (the <title>Indicator</title><ref xml:id="ref_53" rendition="#super" target="#note_53">3</ref>). A more “loud and earnest defence of Keats”<ref xml:id="ref_54" rendition="#super" target="#note_54">4</ref> could not be imagined or desired. And if Keats ever forgot this, or ever expressed doubts of Hunt's loyal and devoted regard, it simply shows that Keats was himself a disloyal and thankless man of genius, as utterly unworthy as he was utterly incapable of grateful, and unselfish, and manly friendship.</p>
-                              
-                            </div>
-                            <div type="notes"><milestone unit="section" rendition="#hr-50"/><note resp="#meyers" xml:id="note_51">
-                              <p><ref rendition="#super" target="#ref_51">1</ref>Caine introduces this excerpt as from “an eminent poet” who objected to Caine’s “so-called impeachment” of Leigh Hunt in <title>Recollections of Dante Gabriel Rossetti</title> (London: Eliot Stock, 1882).  Caine there expressed his disdain for Hunt’s having “attempted no defence of Keats when the bread was being taken out his mouth” by hostile reviewers (p. 177).</p>
-             <p>That the poet being quoted is Swinburne I deduce from Swinburne’s sustained admiration of Hunt and from two marginalia in a copy of <title>Cobwebs of Criticism</title> I have acquired for my collection.  That copy has a bookplate, “From the Library of Walter Theodore Watts-Dunton,” and is inscribed in pencil on the inside front cover, “MS notes by Swinburne.”</p>  <p>I believe that the marginalia and under-linings are indeed by Swinburne and in this particular instance point to his being the author of the letter Caine quotes.  I incorporate in the text above two corrections that, I think, could have been made only by the person who actually wrote the letter.  One correction shifts a comma from after “in 1820” to before it, and the other changes “thankless son” to “thankless man.”  In the rest of the note, where Caine defends his view, Swinburne has put in the right margin marks akin to ticks to the last four of Caine’s points.</p> 
-                                <p>To Swinburne’s expressions of admiration for Hunt might be added a comment he made <foreign xml:lang="it" rendition="#i">vivâ voce</foreign> to Harry Buxton Forman and recorded in a note to stanza 35 of “Adonais” where Forman recounts his survey as to who Shelley had in mind among the mourners as the “gentlest among the wise”: said Swinburne, “there is not the slightest doubt it was Leigh Hunt” (see <title>The Works of Percy Bysshe Shelley in Verse and Prose</title>, 8 vols. [London: Reeves and Turner, 1880], III, 22n).</p>
-                            </note>
-                              <note resp="#meyers" xml:id="note_52">
-                               <ref rendition="#super" target="#ref_52">2</ref>I assign the date from Swinburne’s reading John Addington Symonds’ review of <title>Recollections</title>, in <title>The Academy</title>, October 28, 1882, while in Bradford-on-Avon (<title>Letters</title>, IV, 310, 311) and then presumably reading the book itself upon his return to The Pines.
-                              </note>
-                              <note resp="#meyers" xml:id="note_53">
-                                <ref rendition="#super" target="#ref_53">3</ref>Nos. 43, 44 (August 2, 9, 1820), pp. [337]-344, [345]-352.</note>
-                              <note resp="#meyers" xml:id="note_54">
-                                <ref rendition="#super" target="#ref_54">4</ref>Swinburne quotes the phrase by Dante Gabriel Rossetti from a letter Caine quotes in <title>Recollections</title>, p. 179.</note>
+                                <p>The cruel injustice you have—of course unwittingly—done to the memory of Leigh Hunt is no matter of opinion; it is one of fact and evidence. So far from attempting no defence of Keats, in 1820 he published, on the appearance of the “Lamia and other Poems” in that year, perhaps the most cordial, generous and enthusiastic tribute of affectionate and ardent praise that had ever been offered by a poet to a poet, in the shape of a review almost overflowing the limits of the magazine in which it appeared (the <title>Indicator</title> <note resp="#meyers" xml:id="note_53">
+                                    Nos. 43, 44 (August 2, 9, 1820), pp. [337]-344, [345]-352.</note>). A more “loud and earnest defence of Keats”<note resp="#meyers" xml:id="note_54">
+                                       Swinburne quotes the phrase by Dante Gabriel Rossetti from a letter Caine quotes in <title>Recollections</title>, p. 179.</note> could not be imagined or desired. And if Keats ever forgot this, or ever expressed doubts of Hunt's loyal and devoted regard, it simply shows that Keats was himself a disloyal and thankless man of genius, as utterly unworthy as he was utterly incapable of grateful, and unselfish, and manly friendship.</p>
                             </div>
                           </body>
                         </floatingText>
@@ -1211,7 +1169,12 @@
                                     <opener>
                                       <dateline><placeName rendition="#center #center-block">The Pines.<lb/>
                                         Putney Hill,<lb/>
-                                        S.W.</placeName><date rendition="#right" when="1884-11-14">[November 14, 1884]<ref xml:id="ref_91" target="#note_91" rendition="#super">1</ref></date></dateline>
+                                          S.W.</placeName><date rendition="#right" when="1884-11-14">[November 14, 1884] <note resp="#meyers" xml:id="note_91">
+                                              <p>
+                                                  Swinburne notes that “just after” November 12, 1884, he had received “a pathetically pressing invitation to luncheon” with Houghton (<title>Letters</title>, V, 89).  Houghton had broken his collarbone—he fell out of bed when he dreamed Gladstone was pursuing him in a hansom cab.  In London, “closely confined to the house by the doctor’s orders, his old spirit reasserted itself, and he received with delight the friends who came to see him” (T. Wemyss Reid, <title>The Life, Letters, and Friendships of Richard Monckton Milnes, First Lord Houghton</title>, 2 vols. [London: Cassell &amp; Co., 1890], II, 430).</p>  
+                                              <p>I am grateful to Polly Beauwin at Maggs Brothers for allowing me to print this letter from a facsimile in their “Occasional List.”  When I bought the letter for my collection, it was mailed, but never arrived.</p>
+                                              <p>Someone has penciled on the letter “22 Feb. 1878,” a date presumably taken from the postmark on an accompanying envelope in the lot, bordered in black, according to the Maggs description, and surely addressed to Lord Houghton.   But that date for this letter is impossible as The Pines stationery makes clear—the envelope must have contained Swinburne’s letter to Lord Houghton, February 22 [1878] (<title>Letters</title>, IV, 45-46).</p><!-- note body -->
+                                          </note></date></dateline>
                                       <salute>Dear Lord Houghton</salute>
                                     </opener>
                                     <p>Very sorry to hear of your accident.  Watts &amp; I will come to luncheon on Sunday with pleasure.  He wrote yesterday to accept the invitation for Saturday, as we both thought that was the day named in your note.</p>
@@ -1219,15 +1182,6 @@
                                       <salute rendition="#ti-10">Ever yours truly,</salute>
                                       <signed rendition="#ti-12">AC Swinburne</signed>
                                     </closer>
-                                  </div>
-                                  <div type="notes">
-                                    <milestone unit="section" rendition="#hr-50"/>
-                                    <note resp="#meyers" xml:id="note_91" rendition="#block  #small">
-                                      <p><ref rendition="#super" target="#ref_91">1</ref>
-                                        Swinburne notes that “just after” November 12, 1884, he had received “a pathetically pressing invitation to luncheon” with Houghton (<title>Letters</title>, V, 89).  Houghton had broken his collarbone—he fell out of bed when he dreamed Gladstone was pursuing him in a hansom cab.  In London, “closely confined to the house by the doctor’s orders, his old spirit reasserted itself, and he received with delight the friends who came to see him” (T. Wemyss Reid, <title>The Life, Letters, and Friendships of Richard Monckton Milnes, First Lord Houghton</title>, 2 vols. [London: Cassell &amp; Co., 1890], II, 430).</p>  
-                                      <p>I am grateful to Polly Beauwin at Maggs Brothers for allowing me to print this letter from a facsimile in their “Occasional List.”  When I bought the letter for my collection, it was mailed, but never arrived.</p>
-                                      <p>Someone has penciled on the letter “22 Feb. 1878,” a date presumably taken from the postmark on an accompanying envelope in the lot, bordered in black, according to the Maggs description, and surely addressed to Lord Houghton.   But that date for this letter is impossible as The Pines stationery makes clear—the envelope must have contained Swinburne’s letter to Lord Houghton, February 22 [1878] (<title>Letters</title>, IV, 45-46).</p><!-- note body -->
-                                    </note>
                                   </div>
                                 </body>
                               </floatingText>
@@ -1237,7 +1191,10 @@
                                 <index indexName="nav"/>
                                 <body>
                                 <head>1322C.5. <hi rendition="#sc">To A. C. Swinburne,
-                                    from Mary Louisa Molesworth</hi><ref xml:id="ref_08" rendition="#super" target="#note_08">1</ref></head>
+                                    from Mary Louisa Molesworth</hi><note resp="#meyers" xml:id="note_08">
+                                        (1839-1921), the novelist and writer
+                                        of children’s books.
+                                    </note></head>
                                 <head>
                                     <hi rendition="#sc">Text: MS., The Harry Ransom Humanities Research
                                         Center, The University of Texas at Austin; printed in Terry L.
@@ -1251,13 +1208,29 @@
                                             </dateline>
                                             <salute>My dear M<hi rendition="#super">r</hi>.
                                             Swinburne</salute>
-                                        </opener><p rendition="#indent">I <hi rendition="#i">was</hi> in time for Miss Ogle<ref rendition="#super" target="#note_09" xml:id="ref_09">2</ref>—so <hi rendition="#i">my</hi> stupid mistake (not
+                                </opener><p rendition="#indent">I <hi rendition="#i">was</hi> in time for Miss Ogle<note resp="#meyers" xml:id="note_09">
+                                    Anne Charlotte Ogle (1832-1918), a
+                                    family friend from Northumberland and the writer (as
+                                    Ashford Owen) of a novel, <title>The Story of
+                                        Catherine</title> (London: Macmillan and
+                                    Company, 1885), on which, as this letter suggests,
+                                    Swinburne collaborated. The plot incorporates in
+                                    recognizable ways elements of Swinburne’s grand
+                                    passions, including his relationship with Adah
+                                    Isaacs Menken. Full details in the <title>Victorian
+                                        Poetry</title> article where the letter first
+                                    appeared.
+                                </note>—so <hi rendition="#i">my</hi> stupid mistake (not
                                             Yours) did no harm—Rather good! For I found Miss Ogle
                                             so “<hi rendition="#i">very, <hi rendition="#u">very</hi>, <hi rendition="#uu">very</hi></hi> anxious,” to see you,
                                             (she told me how to write the very’s) that <hi rendition="#i">she</hi> is staying a day later in town <hi rendition="#i">on purpose</hi>— Will you therefore come
                                             to luncheon on Tuesday—26<hi rendition="#super">th</hi>.—at
                                             1.30? This is the day I have arranged with Miss Ogle—
-                                            Please let me have one word by return to say you <hi rendition="#i">will</hi> come—<ref rendition="#super" xml:id="ref_10" target="#note_10">3</ref> You
+                                            Please let me have one word by return to say you <hi rendition="#i">will</hi> come—<note resp="#meyers" xml:id="note_10">
+                                                Swinburne tried, but was, in the end,
+                                                unable to attend the luncheon
+                                                (<title>Letters</title>, V, 111-112).
+                                            </note>You
                                             don’t know how glad I shall be to have been the means of
                                             procuring an hour or two’s talk together for you
                                             &amp; your old friend—so you <hi rendition="#i">will</hi>
@@ -1268,26 +1241,7 @@
                                             <signed rendition="#ti-10">Louisa Molesworth</signed>
                                             <seg> &amp; “Mark”—the villain I think is
                                             one—</seg>
-                                            </closer></div><div type="notes"><milestone unit="section" rendition="#hr-50"/><note resp="#meyers" xml:id="note_08">
-                                                <ref rendition="#super" target="#ref_08">1</ref> (1839-1921), the novelist and writer
-                                                of children’s books.
-                                            </note><note resp="#meyers" xml:id="note_09">
-                                                <ref rendition="#super" target="#ref_09">2</ref> Anne Charlotte Ogle (1832-1918), a
-                                                family friend from Northumberland and the writer (as
-                                                Ashford Owen) of a novel, <title>The Story of
-                                                  Catherine</title> (London: Macmillan and
-                                                Company, 1885), on which, as this letter suggests,
-                                                Swinburne collaborated. The plot incorporates in
-                                                recognizable ways elements of Swinburne’s grand
-                                                passions, including his relationship with Adah
-                                                Isaacs Menken. Full details in the <title>Victorian
-                                                  Poetry</title> article where the letter first
-                                                appeared.
-                                            </note><note resp="#meyers" xml:id="note_10">
-                                                <ref rendition="#super" target="#ref_10">3</ref> Swinburne tried, but was, in the end,
-                                                unable to attend the luncheon
-                                                (<title>Letters</title>, V, 111-112).
-                                        </note></div></body></floatingText>
+                                            </closer></div></body></floatingText>
                         </item>
                         <item>Letter 1407B. p. 423. In line 9, difficulty were about <hi rendition="#u">should be</hi> difficulty were absent</item>
                         <item>Letter 1407D. p. 424. In the date, [1887] <hi rendition="#u">should
@@ -1318,7 +1272,16 @@
                             <floatingText type="uncollected-letter" xml:id="l1543a.5">
                                 <index indexName="nav"/>
                                 <body>
-                                    <head>1543A.5. <hi rendition="#sc">To: Marion Harry Spielmann,<ref xml:id="ref_11" rendition="#super" target="#note_11">1</ref> from Walter Theodore Watts-Dunton</hi></head>
+                                    <head>1543A.5. <hi rendition="#sc">To: Marion Harry Spielmann,<note resp="#meyers" xml:id="note_11">
+                                        Marion Harry Spielmann (1858-1948), critic, connoisseur, and
+                                        editor of <title>The Magazine of Art</title>. No
+                                        article by Watts-Dunton in <title>The Magazine of
+                                            Art</title> is listed in Tom J. Truss, jr.,
+                                        “Theodore Watts-Dunton: A Primary Bibliography,”
+                                        <title>Bulletin of Bibliography</title>,
+                                        23:5(May-August 1961), 114-117. This letter confirms
+                                        the year of letter 1543C to be 1890.
+                                    </note> from Walter Theodore Watts-Dunton</hi></head>
                                 <head rendition="#sc">Text: MS., Terry L. Meyers.</head><div type="letter"><opener>
                                             <address rendition="#center"><addrLine>Northcourt,</addrLine><addrLine>Newport,</addrLine><addrLine>Isle of Wight.</addrLine></address>
                                             <dateline rendition="#right">
@@ -1335,16 +1298,7 @@
                                             <signed rendition="#ti-10">Theodore Watts</signed>
                                             <seg type="postscript" rendition="#block">P. S. Swinburne
                                                 sends you kind remembrances</seg>
-                                            </closer></div><div type="notes"><milestone unit="section" rendition="#hr-50"/><note resp="#meyers" xml:id="note_11">
-                                            <ref rendition="#super" target="#ref_11">1</ref>Marion Harry Spielmann (1858-1948), critic, connoisseur, and
-                                                editor of <title>The Magazine of Art</title>. No
-                                                article by Watts-Dunton in <title>The Magazine of
-                                                  Art</title> is listed in Tom J. Truss, jr.,
-                                                “Theodore Watts-Dunton: A Primary Bibliography,”
-                                                  <title>Bulletin of Bibliography</title>,
-                                                23:5(May-August 1961), 114-117. This letter confirms
-                                                the year of letter 1543C to be 1890.
-                                        </note></div></body></floatingText>
+                                            </closer></div></body></floatingText>
                         </item>
                         <item>Letter 1543C. p. 13. To note 2 should be added:
                                 <p>The
@@ -1469,7 +1423,8 @@
                                             <dateline rendition="#right"><date when="1896-08-07">August 7, '96</date></dateline>
                                             <salute>My Dear Walter,</salute>
                                         </opener>
-                                        <p rendition="#indent">I have read your note, &amp; the letter<ref xml:id="ref_25" rendition="#super" target="#note_25">1</ref> which I return herewith, to my mother.  She will not hear of her name being published, whether in the title or sub-title (I mean in a note to the text) of the poem, but does not so positively object to a note explaining that the verses were written for the birthday of the author’s mother.  I must say I should have thought that the very densest of human skulls could not have misconstrued the opening words—‘Fourscore years &amp; seven’—or failed to connect them with the closing phrase—‘She who here first drew the breath of life she gave me.’</p>
+                                        <p rendition="#indent">I have read your note, &amp; the letter<note resp="#meyers" xml:id="note_25">For the note, see <title>Uncollected Letters</title>, III, 108, where the letter is identified as being from James Knowles, editor of <title>The Nineteenth Century</title>, where Swinburne’s “The High Oaks, Barking Hall, July 19th, 1896” was to appear in September.
+                                        </note> which I return herewith, to my mother.  She will not hear of her name being published, whether in the title or sub-title (I mean in a note to the text) of the poem, but does not so positively object to a note explaining that the verses were written for the birthday of the author’s mother.  I must say I should have thought that the very densest of human skulls could not have misconstrued the opening words—‘Fourscore years &amp; seven’—or failed to connect them with the closing phrase—‘She who here first drew the breath of life she gave me.’</p>
                                         <closer>
                                             <salute rendition="#ti-15">Ever affly yours,</salute>
                                             <signed rendition="#ti-15">A. C. Swinburne</signed>
@@ -1477,8 +1432,7 @@
                                     </div>
                                     <div type="notes">
                                         <milestone unit="section" rendition="#hr-50"/>
-                                        <note resp="#meyers" xml:id="note_25"><ref target="#ref_25" rendition="#super">1</ref>For the note, see <title>Uncollected Letters</title>, III, 108, where the letter is identified as being from James Knowles, editor of <title>The Nineteenth Century</title>, where Swinburne’s “The High Oaks, Barking Hall, July 19th, 1896” was to appear in September.
-                                        </note>
+                                       
                                     </div>
                                 </body>
                             </floatingText>
