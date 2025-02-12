@@ -219,6 +219,11 @@ div:not(.tei-note) > .first-tei-p {
   text-indent: 0 !important;
 }
 
+.place-above {
+  vertical-align: super;
+  font-size: 85%;
+}
+
 h1.tei-head,
 h2.tei-head,
 h3.tei-head,
