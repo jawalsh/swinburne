@@ -1,0 +1,1 @@
+[The Algernon Charles Swinburne Project](https://swinburne.luddy.indiana.edu) by [John A. Walsh](https://johnwalsh.name) is licensed under [CC BY 4.0![](https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1)![](https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1)](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
