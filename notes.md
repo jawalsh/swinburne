@@ -1,1 +1,1 @@
-`data` folder contains files as processed by Conal's data import workflow.
+`data` folder contains files as processed by Conal's data import workflow. 
