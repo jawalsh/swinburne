@@ -49,7 +49,19 @@
         <!-- menus read from menus.json -->
         <nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-dark">
           <div class="container-fluid">
-		  <a class="navbar-brand" href="{concat('/',$context,'/')}">ACS</a>
+		  <a class="navbar-brand">
+			<xsl:attribute name="href">
+				<xsl:choose>
+					<xsl:when test="$context != '/'">
+						<xsl:value-of select="concat('/',$context,'/')"/>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:value-of select="'/'"/>
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:attribute>
+				<xsl:text>ACS</xsl:text>
+		  </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"/>
             </button>
@@ -128,7 +140,17 @@
   <xsl:template match="fn:string" mode="main-menu">
 	  <xsl:if test="not($search-page = 'true' and @key = 'Search 🔎')">
     <li class="nav-item">
-      <a class="nav-link" href="{concat('/',$context,.)}">
+      <a class="nav-link">
+	      <xsl:attribute name="href">
+		      <xsl:choose>
+			      <xsl:when test="$context != '/'">
+				      <xsl:value-of select="concat('/',$context,.)"/>
+			      </xsl:when>
+			      <xsl:otherwise>
+				      <xsl:value-of select="."/>
+			      </xsl:otherwise>
+		      </xsl:choose>
+	      </xsl:attribute>
         <xsl:value-of select="@key"/>
       </a>
     </li>
@@ -142,7 +164,15 @@
             <xsl:value-of select="."/>
           </xsl:when>
           <xsl:otherwise>
-            <xsl:value-of select="concat('/',$context,.)"/>
+		      <xsl:choose>
+			      <xsl:when test="$context != '/'">
+				      <xsl:value-of select="concat('/',$context,.)"/>
+			      </xsl:when>
+			      <xsl:otherwise>
+				      <xsl:value-of select="."/>
+			      </xsl:otherwise>
+		      </xsl:choose>
+
           </xsl:otherwise>
         </xsl:choose>
       </xsl:attribute>
@@ -162,19 +192,12 @@
   <xsl:template name="footer">
     <footer data-pagefind-ignore="all" class="footer mt-auto py-1 bg-dark text-light text-sansserif fs-70">
       <div class="container-fluid ml-0">
-      <div class="row">
-      <div class="col">
 				Last Updated: 
             <xsl:value-of select="format-date(current-date(), '[D] [MNn] [Y]')"/>
 <br/>
 				
 Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  by <a class="text-light" href="mailto:jawalsh@indiana.edu">John A. Walsh</a><br/>
-Code repository: <a href="https://github.com/jawalsh/swinburne-static">https://github.com/jawalsh/swinburne-static</a></div>
-<div class="col">
-View project on GitHub<br/>
-<a href="https://github.com/jawalsh/swinburne">jawalsh/swinburne</a>
-</div>
-</div>
+Code repository: <a href="https://github.com/jawalsh/swinburne">jawalsh/swinburne</a>
 			</div>
     </footer>
   </xsl:template>
