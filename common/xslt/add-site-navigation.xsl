@@ -162,12 +162,19 @@
   <xsl:template name="footer">
     <footer data-pagefind-ignore="all" class="footer mt-auto py-1 bg-dark text-light text-sansserif fs-70">
       <div class="container-fluid ml-0">
+      <div class="row">
+      <div class="col">
 				Last Updated: 
             <xsl:value-of select="format-date(current-date(), '[D] [MNn] [Y]')"/>
 <br/>
 				
 Copyright &#xA9; 1997-<xsl:value-of select="format-date(current-date(), '[Y]')"/>  by <a class="text-light" href="mailto:jawalsh@indiana.edu">John A. Walsh</a><br/>
-Code repository: <a href="https://github.com/jawalsh/swinburne-static">https://github.com/jawalsh/swinburne-static</a>
+Code repository: <a href="https://github.com/jawalsh/swinburne-static">https://github.com/jawalsh/swinburne-static</a></div>
+<div class="col">
+View project on GitHub<br/>
+<a href="https://github.com/jawalsh/swinburne">jawalsh/swinburne</a>
+</div>
+</div>
 			</div>
     </footer>
   </xsl:template>
