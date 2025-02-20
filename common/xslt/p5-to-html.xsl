@@ -8,13 +8,13 @@
   <!--<xsl:import href="render-metadata.xsl"/>-->
   <xsl:import href="config.xsl"/>
   <xsl:param name="google-api-key"/>
-  <xsl:param name="server" select="'biblicon.org'"/>
+  <xsl:param name="server"/>
   <xsl:param name="context"/>
   <xsl:variable name="base-text" select="//biblStruct[@xml:id = concat(/TEI/@xml:id, '-bibl')]"/>
   <xsl:param name="site-dir">
     <xsl:choose>
       <xsl:when test="$context = ''">
-        <xsl:value-of select="'acs'"/>
+        <xsl:value-of select="''"/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="$context"/>
