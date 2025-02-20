@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "sass --style=compressed sass/custom.scss css/custom.min.css",
+    "watch-css": "sass --style=compressed --watch sass/custom.scss css/custom.min.css"
   },
   "repository": {
     "type": "git",
@@ -22,9 +23,5 @@
   },
   "devDependencies": {
     "sass": "^1.81.0"
-  },
-  "scripts": {
-  "build-css": "sass --style=compressed sass/custom.scss css/custom.min.css",
-  "watch-css": "sass --style=compressed --watch sass/custom.scss css/custom.min.css"
   }
 }
