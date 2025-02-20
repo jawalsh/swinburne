@@ -206,11 +206,26 @@
 
   <xsl:template name="generateURL">
     <xsl:param name="docID"/>
+    <xsl:choose>
+	    <xsl:when test="$site-dir = ''">
+    <xsl:value-of select="concat('https://',$server,'/',$docID,'.html')"/>
+	    </xsl:when>
+	    <xsl:otherwise>
     <xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$docID,'.html')"/>
+    </xsl:otherwise>
+    </xsl:choose>
+
   </xsl:template>
   <xsl:template name="generateInternalURL">
     <xsl:param name="docID"/>
     <xsl:param name="ref"/>
+    <xsl:choose>
+	    <xsl:when test="$site-dir = ''">
+    <xsl:value-of select="concat('https://',$server,'/',$docID,'.html#',$ref)"/>
+	    </xsl:when>
+	    <xsl:otherwise>
     <xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$docID,'.html#',$ref)"/>
+    </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 </xsl:stylesheet>
