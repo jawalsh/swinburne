@@ -8,6 +8,6 @@
 	<!-- embed the page in global navigation -->
 	<xsl:param name="current-uri"/>
         <xsl:param name="google-api-key"/>
-        <xsl:param name="server" select="'biblicon.org'"/>
-        <xsl:param name="site-dir" select="'acs'"/>
+        <xsl:param name="server" select="'swinburne.luddy.indiana.edu'"/>
+        <xsl:param name="site-dir" select="''"/>
 </xsl:stylesheet>
