@@ -415,6 +415,30 @@
             <div xml:id="intro">
                 <index indexName="nav"/>
                 <head rendition="#styled">Introduction</head>
+		<p>
+			At this site I correct a number of errors in <ref target="http://www.pickeringchatto.com/major_works/the_uncollected_letters_of_algernon_charles_swinburne">my edition</ref> and especially take the opportunity to add new material, including a number of letters from and to Swinburne. I am grateful to Catherine Trippett of Random House UK for permission to post here Swinburne letters still under copyright. 
+		</p>
+		<p>
+Added too is an article, illustrated with photographs, about Swinburne’s funeral and the controversy associated with it. 
+		</p>
+		<p>
+			Especially helpful is an index to <ref type="simple" target="#indexappendixb">Appendix B</ref> (in vol. III, pp. 323-368). That appendix contains new material pertaining to 291 of Swinburne's letters published by Cecil Lang, <title rendition="#i">The Swinburne Letters</title>, 6 vols. (New Haven: Yale University Press, 1959-1962): corrections, locations of holographs, identifications, datings, and the like. The index will make those more easily accessible. 
+		</p>
+		<p>
+I am grateful to John Walsh, editor of The Swinburne Project, for making these corrections and additions possible. And I would be pleased to receive queries or further errata, which I will add here from time to time. 
+		</p>
+		<p>
+				One further note:  all the material in my edition and here which is cited as being in my possession is now at the Special Collections Research Center, Swem Library, William and Mary.  It should be cited now as being in the <ref target="https://scrcguides.libraries.wm.edu/repositories/2/resources/8568">Sheila and Terry Meyers Collection of Swinburneiana</ref>.
+			</p>
+			<signed>
+				<ref target="mailto:tlmeye@wm.edu">Terry L. Meyers</ref>, Chancellor Professor of English, Emeritus<lb/>
+The College of William and Mary, in Virginia
+			</signed>
+
+
+
+
+		<!--
               <p>At this site I correct a number of errors in <ref target="https://www.routledge.com/products/9781851967742">my edition</ref> and especially take the opportunity to add new material, including a number of letters from and to Swinburne.  I am grateful to Catherine Trippett of Random House UK for permission to post here Swinburne letters still under copyright.  New too is an article, illustrated with photographs, about Swinburne’s funeral and the controversy associated with it. </p>
                 <p>Especially helpful is an <ref type="simple" target="#indexappendixb">index to
                         Appendix B</ref> (in vol. III, pp. 323-368). That appendix contains new
@@ -429,6 +453,8 @@
                 <signed>
                     <ref target="mailto:tlmeye@wm.edu">Terry L. Meyers</ref>, Chancellor Professor of English
                     <lb/> The College of William and Mary in Virginia </signed>
+		-->
+
             </div>
             <div>
                 <figure rendition="#center" rend="min-height:603px;">
