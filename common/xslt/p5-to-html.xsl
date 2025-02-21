@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:chymistry="tag:conaltuohy.com,2018:chymistry"
   xmlns:swinburne="tag:biblicon.org,2024:swinburne" xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/1999/xhtml" version="3.0"
   xpath-default-namespace="http://www.tei-c.org/ns/1.0">
@@ -510,7 +509,14 @@
   </xsl:template>
   <xsl:template match="figure/head">
     <xsl:element name="figcaption">
-      <xsl:apply-templates mode="create-attributes" select="."/>
+    <xsl:apply-templates mode="create-attributes" select="."/>
+    <xsl:if test="$numberFigures = true()">
+      <span class="figlabel">
+        <xsl:value-of select="'Figure '"/>
+        <xsl:number level="any" count="figure[head]"/>
+        <xsl:text>. </xsl:text>
+      </span>
+    </xsl:if>
       <xsl:apply-templates mode="create-content" select="."/>
     </xsl:element>
   </xsl:template>
