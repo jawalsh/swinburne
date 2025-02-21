@@ -28,7 +28,7 @@
       <!-- js -->
       <!-- link to customized bootstrap css -->
       <link rel="stylesheet" href="css/custom.min.css"/>
-      <script defer="defer" src="https://umami.biblicon.org/script.js" data-website-id="a43c1768-6a95-4dd4-8f44-832a473a6945"/>
+      <script defer="defer" src="https://umami.biblicon.org/script.js" data-website-id="801a7611-8422-4de4-a569-d83a90cd0ced"></script>
     </xsl:copy>
   </xsl:template>
   <!-- add a global suffix to every page title -->
