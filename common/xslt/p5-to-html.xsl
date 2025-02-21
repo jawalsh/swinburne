@@ -7,8 +7,7 @@
   <!-- transform a TEI document into an HTML page-->
   <!--<xsl:import href="render-metadata.xsl"/>-->
   <xsl:import href="config.xsl"/>
-  <xsl:param name="google-api-key"/>
-  <xsl:param name="server"/>
+  
   <xsl:param name="context"/>
   <xsl:variable name="base-text" select="//biblStruct[@xml:id = concat(/TEI/@xml:id, '-bibl')]"/>
   <xsl:param name="site-dir">
@@ -200,7 +199,14 @@
     select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/note[@type = 'introduction']"/>
   <xsl:template match="teiHeader">
     <xsl:param name="html-link">
-      <xsl:value-of select="concat('https://', $server, '/', $site-dir, '/', $doc-id, '.html')"/>
+	<xsl:choose>
+		<xsl:when test="$site-dir = '/'">
+		      <xsl:value-of select="concat('https://',$server,'/',$doc-id,'.html')"/>
+	      </xsl:when>
+	      <xsl:otherwise>
+		      <xsl:value-of select="concat('https://', $server, '/', $site-dir, '/', $doc-id, '.html')"/>
+	      </xsl:otherwise>
+      </xsl:choose>
     </xsl:param>
     <div id="doc-meta">
       <div class="tei-teiHeader">
@@ -242,7 +248,7 @@
               <xsl:value-of select="format-dateTime($now, '[MNn] [D], [Y]', 'en', (), ())"/>
               <xsl:text> from: </xsl:text>
               <a href="{$html-link}">
-                <xsl:value-of select="$html-link"/>
+		      <xsl:value-of select="$html-link"/>
               </a>
             </div>
           </div>
@@ -708,12 +714,13 @@
   <xsl:template match="figure[@type = 'map']">
     <xsl:param name="latitude" select="substring-before(normalize-space(.//geo), ' ')"/>
     <xsl:param name="longitude" select="substring-after(normalize-space(.//geo), ' ')"/>
-    <!--<xsl:param name="google-api-key" select="'AIzaSyC3B5gD68KIlH_n1WboUaDh3qW05TpEoFw'"/>-->
+
     <div style="margin-left:auto;margin-right:auto;width:430px;margin-top:1em;">
       <iframe sandbox="allow-scripts allow-same-origin allow-popups" style="border:1px solid black;"
         width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-        src="https://www.google.com/maps/embed/v1/view?key={$google-api-key}&amp;center={$latitude},{$longitude}&amp;zoom=18&amp;maptype=satellite"
+      src="https://www.google.com/maps/embed/v1/view?key={$google-api-key}&amp;center={$latitude},{$longitude}&amp;zoom=18&amp;maptype=satellite"
       />
+      <xsl:apply-templates select="head"/>
     </div>
   </xsl:template>
   <!-- Template to match <head> elements -->
