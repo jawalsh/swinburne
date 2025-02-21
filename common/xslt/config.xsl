@@ -7,7 +7,7 @@
 	 expand-text="true">
 	<!-- embed the page in global navigation -->
 	<xsl:param name="current-uri"/>
-        <xsl:param name="google-api-key"/>
+        <xsl:param name="google-api-key" select="'AIzaSyBgfj-W6-mYky-0UnIHhhE1yfRt7P85o5I'"/>
         <xsl:param name="server" select="'swinburne.luddy.indiana.edu'"/>
         <xsl:param name="site-dir" select="''"/>
 </xsl:stylesheet>
