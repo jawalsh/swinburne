@@ -59,12 +59,13 @@ figure img {
   max-width: 90% !important;
 }
 
-figure {
+figure, div.map {
   @extend .text-center;
 }
 
-figCaption {
+figcaption {
   @extend .figure-caption;
+  text-indent:0;
 }
 
 /* #doc-meta-nav styles: start */
@@ -367,4 +368,12 @@ font-size: 80%;
 
 footer.footer , footer.footer * {
   color: rgba(255, 255, 255, 0.55) !important;
+}
+
+iframe#funeral-map {
+  min-height: 24em;
+  width:100%;
+  margin:0 auto 0 auto;
+  display:block;
+  text-indent: unset !important;
 }

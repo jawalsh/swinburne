@@ -715,9 +715,9 @@
     <xsl:param name="latitude" select="substring-before(normalize-space(.//geo), ' ')"/>
     <xsl:param name="longitude" select="substring-after(normalize-space(.//geo), ' ')"/>
 
-    <div style="margin-left:auto;margin-right:auto;width:430px;margin-top:1em;">
-      <iframe sandbox="allow-scripts allow-same-origin allow-popups" style="border:1px solid black;"
-        width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+    <div class="map">
+      <iframe id="funeral-map" sandbox="allow-scripts allow-same-origin allow-popups" style="border:1px solid black;"
+        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
       src="https://www.google.com/maps/embed/v1/view?key={$google-api-key}&amp;center={$latitude},{$longitude}&amp;zoom=18&amp;maptype=satellite"
       />
       <xsl:apply-templates select="head"/>
