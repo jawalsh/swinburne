@@ -1340,7 +1340,7 @@
                </person>
                <person xml:id="meyers" ana="#person">
                   <persName>Meyers, Terry L.</persName>
-                  <persName ana=" #display">Terry L. Meyers</persName>
+                  <persName ana="#display">Terry L. Meyers</persName>
                </person>
                <person xml:id="milton" ana="#person">
                   <persName>Milton, John</persName>
@@ -1986,7 +1986,7 @@
                </person>
                <person xml:id="jawalsh" ana="#person">
                   <persName>Walsh, John A.</persName>
-                  <persName ana=" #display">John A. Walsh</persName>
+                  <persName ana="#display">John A. Walsh</persName>
                </person>
                <person xml:id="watts" ana="#person">
                   <persName>Watts-Dunton, Theodore</persName>
