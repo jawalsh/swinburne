@@ -410,7 +410,7 @@
     <text xml:id="acs0000505-01-content" type="correspondence">
         <body>
             <pb n="1" rendition="#suppress" facs="dummy"/>
-            <head rendition="#styled">Supplementary Material to the <title rendition="#1">Uncollected Letters of Algernon Charles
+            <head rendition="#styled">Supplementary Material to the <title rendition="#i">Uncollected Letters of Algernon Charles
                     Swinburne</title>, 3 vols. (London: Pickering and Chatto, 2005). </head>
             <div xml:id="intro">
                 <index indexName="nav"/>
@@ -560,7 +560,7 @@ The College of William and Mary, in Virginia
                             Hallam</item>
                         <item>Letter 35A. p. 15. In note 4, <title rendition="#i">Crew</title>
                             <hi rendition="#u">should be</hi>
-                            <title rendition="#i">Crewe</title><lb/> Add a note: See also my <bibl><title level="a">Swinburne’s <title>Will Drew and Phil Crewe &amp; Frank Fane</title>: A Swinburne Enigma,</title> <title rendition="#i">The Book Collector,</title> <biblScope unit="volume">56</biblScope>:<biblScope unit="issue">1<date>(Spring 2007)</date></biblScope>, <biblScope unit="page">31-34</biblScope>.</bibl></item>
+                            <title rendition="#i">Crewe</title><lb/> Add a note: See also my <bibl><title level="a">Swinburne’s <title rendition="#i">Will Drew and Phil Crewe &amp; Frank Fane</title>: A Swinburne Enigma,</title> <title rendition="#i">The Book Collector,</title> <biblScope unit="volume">56</biblScope>:<biblScope unit="issue">1<date>(Spring 2007)</date></biblScope>, <biblScope unit="page">31-34</biblScope>.</bibl></item>
                       <item>
                         Letter 70A  p. 30.  To note 1 should be added: 
                         <p>For more on Mary Gordon, her life and her work, see Jeremy Mitchell and Janet Powney, "A Forgotten Voice: Moral Guidance in the Novels of Mary Gordon (Mrs. Disney Leith), with a Bibliography," <title rendition="#i">The Victorian</title> [Online], 2.1 (2014): <ptr target="http://journals.sfu.ca/vict/index.php/vict/article/view/82"/>.</p>
@@ -613,8 +613,7 @@ The College of William and Mary, in Virginia
                         
                         <item>Letter 319A. p. 169. In ll. 19-20, “apocryphal” should not be
                             superscript</item>
-                        <item>
-                            <p>An added letter:</p>
+                        <item>An added letter:
                             
                             <floatingText type="uncollected-letter" xml:id="l321b">
                                 <index indexName="nav"/>
@@ -739,8 +738,7 @@ The College of William and Mary, in Virginia
                             </floatingText>
                         </item>
                         
-                      <item>
-                        <p>An added letter:</p>
+                      <item>An added letter:
                         
                         <floatingText type="uncollected-letter" xml:id="l490a">
                           <index indexName="nav"/>
@@ -808,7 +806,7 @@ The College of William and Mary, in Virginia
                                              is to appear under Chatto’s auspices, &amp; should be more so if I <choice><abbr>c<hi rendition="#super #u">d</hi></abbr><expan>could</expan></choice> flatter myself with the hope that I might have been of any service in the matter.</p>
                                         <p rendition="#indent">	With regard to the adaptation of Bothwell to the stage, I had an interview by appointment with Watts the day before I left town, when I told him that he was fully authorized to make any arrangements with Mr. Oxenford<note resp="#meyers" xml:id="note_18"> John Oxenford (1812-1877), playwright and translator.</note> in my name that he might think best.  If on this understanding you, he, &amp; Mr. O. can come to any conclusion, tant mieux.  I don’t see, &lt;that&gt; having so thoroughly reliable a delegate, that my presence <choice><abbr>w<hi rendition="#super">d</hi></abbr><expan>would</expan></choice> further or that my absence need impede a satisfactory settlement.  I shall be here (Diabolo volente) for the next two months or so.  It <choice><abbr>w<hi rendition="#super">d</hi></abbr><expan>would</expan></choice> give me great pleasure to see myself on the boards &amp; Mrs. Bell<note resp="#meyers" xml:id="note_19">Unidentified beyond being “the aspirant Mary Stuart” (<title rendition="#i">Letters</title>, II, 313).</note> as my Queen; the only stipulation I told Watts I <choice><abbr>sh<hi rendition="#super #u">d</hi></abbr><expan>should</expan></choice> make as to the adaptation (in which he fully concurred) was that nothing <choice><abbr>sh<hi rendition="#super #u">d</hi></abbr><expan>should</expan></choice> be interpolated or retouched by any hand but mine; the adapter being of course free to use at his own fullest discretion the powers of excision &amp; selection.  The practical part of the business, as to division of profits &amp;c, I leave of course in Watt’s hands with the fullest confidence.<note resp="#meyers" xml:id="note_20"> This entire sentence is interlined after “selection.”</note></p>
                                         <p rendition="#indent">I have just read Quatrevingt Treize—it is simply a divine work, &amp; your remarks on it exactly expressed my own present feelings.  V. H. has written me a quite overwhelming note of thanks &amp; praise for the dedicatory sonnet of Bothwell.</p>
-                                        <p rendition="#indent">When you see Forbes Robertson <note resp="#meyers" xml:id="note_21"> Johnston Forbes-Robertson (1853-1937).  Having studied at the Royal Academy (and sat to Rossetti and Brown), Forbes-Robertson had just started his illustrious acting career, his first part being, in March, in <title rendition="#i">Mary Stuart</title>, by W. G. Willis (<title>ODNB</title>).  In his<title rendition="#i"> A Player Under Three Reigns</title> (1925; rpt. New York: Benjamin Blom, 1971), Forbes-Robertson describes Swinburne’s appearance and “youthful enthusiasm,” his delight at a kitten with “‘the grace of a thousand virgins,’” his being “very excited on one glass of claret,” his soothing a child, and his readings, especially one of <title rendition="#i">Atalanta in Calydon</title> “in a sort of chant” just before it was published (pp. 43-45).</note> please tell him I only received this morning his note of the 6th inviting me to meet you at his house, which had I been in town I should have been delighted to do.</p>
+                                        <p rendition="#indent">When you see Forbes Robertson <note resp="#meyers" xml:id="note_21"> Johnston Forbes-Robertson (1853-1937).  Having studied at the Royal Academy (and sat to Rossetti and Brown), Forbes-Robertson had just started his illustrious acting career, his first part being, in March, in <title rendition="#i">Mary Stuart</title>, by W. G. Willis (<title rendition="#i">ODNB</title>).  In his<title rendition="#i"> A Player Under Three Reigns</title> (1925; rpt. New York: Benjamin Blom, 1971), Forbes-Robertson describes Swinburne’s appearance and “youthful enthusiasm,” his delight at a kitten with “‘the grace of a thousand virgins,’” his being “very excited on one glass of claret,” his soothing a child, and his readings, especially one of <title rendition="#i">Atalanta in Calydon</title> “in a sort of chant” just before it was published (pp. 43-45).</note> please tell him I only received this morning his note of the 6th inviting me to meet you at his house, which had I been in town I should have been delighted to do.</p>
                                         <closer>
                                             <salute rendition="#ti-15">Ever yours</salute>
                                             <signed rendition="#ti-17 #i">AC Swinburne</signed>
@@ -826,9 +824,8 @@ The College of William and Mary, in Virginia
                     <index indexName="nav"/>
                     <head rendition="#center #styled">Vol. II.—The More Important</head>
                     <list type="bullet">
-                        <item>
-                            <!-- fix formatting of letter -->
-                            <p>An added letter: </p>
+                        <item> <!-- fix formatting of letter -->
+                            An added letter:
                             
                             <floatingText type="uncollected-letter" xml:id="l563a">
                                 <index indexName="nav"/>
@@ -909,8 +906,7 @@ The College of William and Mary, in Virginia
                         <item>Letter 830C. p. 112. In line 13, <hi rendition="#i">metaphyical</hi>
                             <hi rendition="#u">should be</hi>
                             <hi rendition="#i">metaphysical</hi></item>
-                      <item>
-                        <p>An added letter:</p>
+                      <item>An added letter:
                         
                         <floatingText type="uncollected-letter" xml:id="l890b">
                           <index indexName="nav"/>
@@ -1172,8 +1168,7 @@ The College of William and Mary, in Virginia
                                 Athenaeum</title>, 30 October 1880, collected in <title rendition="#i">Studies in
                                 Song</title> (1880).</item>
                       
-                            <item>
-                              <p>An added letter:</p>
+                            <item>An added letter:
                               
                               <floatingText type="uncollected-letter" xml:id="l1301b">
                                 <index indexName="nav"/>
@@ -1402,7 +1397,7 @@ The College of William and Mary, in Virginia
                         <item>Letter 1599A.  p. 39. To the mention in note 1 of Swinburne’s likely being offered the Laureateship after the death of Tennyson should be added this further story, by “E. B. I-M,” who in the <title rendition="#i">Daily Telegraph</title> (12 April 12 1909, p. 10c) recalled being a passenger on the same voyage as William Morris to and from Norway in July and August 1896:
                             <quote rendition="#blockquote #nq">
                             I was a fellow-traveler with William Morris on his last sea voyage, taken in the unhappily fruitless search for health in 1896.  In the course of one of many delightful talks I had with him, he told me that Swinburne had been ‘sounded’ as to the acceptance of the Poet Laureateship, vacant by the death of Tennyson, and that Swinburne, though highly appreciating the implied honour, had declined because it was not consonant with ‘the fitness of things’ that the writer of regicide sonnets should be the official poet of a Court.   Morris added that after Swinburne’s refusal he himself was also ‘sounded,’ and that he too felt bound to decline, because, as he said, ‘people choose to regard me, and to call me, a Socialist.’</quote>
-                            Jeremy Mitchell tells me that  “E.B.I-M” must surely have been Ernest Bruce Iwan-Muller (1853-1910), a journalist whose appointments included Editor <title rendition="#i">Manchester Courier</title> (1884-93), Assistant Editor <title>Pall Mall Gazette</title> (1893-96), and leader writer <title>Daily Telegraph</title> (1896-1910).     
+                            Jeremy Mitchell tells me that  “E.B.I-M” must surely have been Ernest Bruce Iwan-Muller (1853-1910), a journalist whose appointments included Editor <title rendition="#i">Manchester Courier</title> (1884-93), Assistant Editor <title rendition="#i">Pall Mall Gazette</title> (1893-96), and leader writer <title rendition="#i">Daily Telegraph</title> (1896-1910).     
                         </item>
                             
                         <item>Letter 1606B. p. 42. Dead Dr. Hake <hi rendition="#u">should be</hi>
@@ -1411,10 +1406,10 @@ The College of William and Mary, in Virginia
                                 be</hi> honour</item>
                         <item>
                           Letter 1613A.  p. 45. I overlooked Cecil Lang’s use of this number; my letter 1613A should be numbered 1613C.
-                          <p>To Lang’s note to his letter 1613A, on the publication of “Music: An Ode,” might be added that the poem also appeared in <title>The Times</title>, December 23, 1892, p. 6d.</p>
+                          <p>To Lang’s note to his letter 1613A, on the publication of “Music: An Ode,” might be added that the poem also appeared in <title rendition="#i">The Times</title>, December 23, 1892, p. 6d.</p>
                           
                         </item>
-                      <item>Letter 1619A.  p. 47. Jeremy Mitchell suggests that the chaffing letters exchanged by Swinburne and Mary Gordon Leith as if between schoolboys may have originated many years before, and cites a comment by Leith in <title>The Boyhood of Algernon Charles Swinburne</title>  (p. 21): “I think it was the following autumn [i.e., in 1864] which he [Swinburne] spent in Cornwall. My parents and I were in Scotland and I received constant letters from him. Among a great deal that is comic and clever, but only intelligible to one who understands our jokes and ‘characters’ under which we delighted to write, are some charming and graphic descriptions.”
+                      <item>Letter 1619A.  p. 47. Jeremy Mitchell suggests that the chaffing letters exchanged by Swinburne and Mary Gordon Leith as if between schoolboys may have originated many years before, and cites a comment by Leith in <title rendition="#i">The Boyhood of Algernon Charles Swinburne</title>  (p. 21): “I think it was the following autumn [i.e., in 1864] which he [Swinburne] spent in Cornwall. My parents and I were in Scotland and I received constant letters from him. Among a great deal that is comic and clever, but only intelligible to one who understands our jokes and ‘characters’ under which we delighted to write, are some charming and graphic descriptions.”
                         
                       </item>
                         <item>Letter 1619C. p. 51. In note 1, <hi rendition="#i">Flight</hi>
@@ -1422,7 +1417,7 @@ The College of William and Mary, in Virginia
                             <hi rendition="#i">Fight</hi></item>
                         <item>Letter 1649B. p. 73. In note 3, of lord <hi rendition="#u">should
                         be</hi> of lords</item>
-                        <item>Letter 1654A. p. 79.  In note 1, the inscribed book was not <title>AOP</title> but <title>SPP</title>(1884); on the half-title Swinburne wrote, <q>Mary A. B. Gordon from her affectionate nephew AC Swinburne Nov. 8th 1894.</q>  A photograph of the inscription appears in <title>Miscellany 2006: Catalogue No. 123</title> (2006), issued by Ian Hodgkins &amp; Co. Ltd., item 79.</item>
+                        <item>Letter 1654A. p. 79.  In note 1, the inscribed book was not <title rendition="#i">AOP</title> but <title rendition="#i">SPP</title>(1884); on the half-title Swinburne wrote, <q>Mary A. B. Gordon from her affectionate nephew AC Swinburne Nov. 8th 1894.</q>  A photograph of the inscription appears in <title rendition="#i">Miscellany 2006: Catalogue No. 123</title> (2006), issued by Ian Hodgkins &amp; Co. Ltd., item 79.</item>
                         <item>An added letter: 
                             <floatingText type="uncollected-letter" xml:id="l1694b">
                                 <index indexName="nav"/>
@@ -1435,7 +1430,7 @@ The College of William and Mary, in Virginia
                                             <dateline rendition="#right"><date when="1896-08-07">August 7, '96</date></dateline>
                                             <salute>My Dear Walter,</salute>
                                         </opener>
-                                        <p rendition="#indent">I have read your note, &amp; the letter <note resp="#meyers" xml:id="note_25">For the note, see <title>Uncollected Letters</title>, III, 108, where the letter is identified as being from James Knowles, editor of <title>The Nineteenth Century</title>, where Swinburne’s “The High Oaks, Barking Hall, July 19th, 1896” was to appear in September.
+                                        <p rendition="#indent">I have read your note, &amp; the letter <note resp="#meyers" xml:id="note_25">For the note, see <title rendition="#i">Uncollected Letters</title>, III, 108, where the letter is identified as being from James Knowles, editor of <title rendition="#i">The Nineteenth Century</title>, where Swinburne’s “The High Oaks, Barking Hall, July 19th, 1896” was to appear in September.
                                         </note> which I return herewith, to my mother.  She will not hear of her name being published, whether in the title or sub-title (I mean in a note to the text) of the poem, but does not so positively object to a note explaining that the verses were written for the birthday of the author’s mother.  I must say I should have thought that the very densest of human skulls could not have misconstrued the opening words—‘Fourscore years &amp; seven’—or failed to connect them with the closing phrase—‘She who here first drew the breath of life she gave me.’</p>
                                         <closer>
                                             <salute rendition="#ti-15">Ever affly yours,</salute>
@@ -1450,20 +1445,20 @@ The College of William and Mary, in Virginia
                         </item> 
                         <item>Letter 1695A. p. 109. In l. 3, adapted <hi rendition="#u">should
                         be</hi> adopted</item>
-                        <item>Letter 1713A. pp. 115-116. To note 1 might be added this: Cockerell later recalled a visit to The Pines at about this time during which he urged Swinburne to send to the museum at San Gimignano his “poem on San Gimignano” (the context [see <title>The Times</title>, 8 August 1938, p. 13g] alludes to an account of a visit Swinburne in 1903 [See <title>Uncollected Letters</title>, 1773C, on which, see below], but does not identify the poem with certainty; I suspect it may be “Relics” [<title>PB<hi rendition="#n">II</hi></title> (1878)]):  “He readily consented and I sent his transcript, with his accompanying letter, to the museum.  They were duly acknowledged, and I learnt from a subsequent visitor that both documents were placed on exhibition” (“Swinburne and San Gimignano,” <title>The Times</title>, 17 August 1938, p. 11f).
+                        <item>Letter 1713A. pp. 115-116. To note 1 might be added this: Cockerell later recalled a visit to The Pines at about this time during which he urged Swinburne to send to the museum at San Gimignano his “poem on San Gimignano” (the context [see <title rendition="#i">The Times</title>, 8 August 1938, p. 13g] alludes to an account of a visit Swinburne in 1903 [See <title rendition="#i">Uncollected Letters</title>, 1773C, on which, see below], but does not identify the poem with certainty; I suspect it may be “Relics” [<title rendition="#i">PB<hi rendition="#n">II</hi></title> (1878)]):  “He readily consented and I sent his transcript, with his accompanying letter, to the museum.  They were duly acknowledged, and I learnt from a subsequent visitor that both documents were placed on exhibition” (“Swinburne and San Gimignano,” <title rendition="#i">The Times</title>, 17 August 1938, p. 11f).
                             
                             
                         </item>
                         <item>Letter 1717A. p. 116. This letter has been printed in José María
                             Martínez Domingo, “Una Carta Inédita de Rubén Darío a Algernon Charles
-                            Swinburne.” <title>Bulletin of Hispanic Studies</title> [Glasgow
+                            Swinburne.” <title rendition="#i">Bulletin of Hispanic Studies</title> [Glasgow
                             University], 74:3, 279-92.</item>
                         <item>An added letter:
                             
                             <floatingText type="uncollected-letter" xml:id="l1734bis">
                                 <index indexName="nav"/>
                                 <body>
-                                    <head>1734 <hi rendition="#sc">bis. To: Richard Dacre Archer-Hind </hi> <note resp="#meyers" xml:id="note_fe22"> See <title>Uncollected Letters</title>, III, 133 and note for the full context of this letter and the added letter below,  1735 bis.
+                                    <head>1734 <hi rendition="#sc">bis. To: Richard Dacre Archer-Hind </hi> <note resp="#meyers" xml:id="note_fe22"> See <title rendition="#i">Uncollected Letters</title>, III, 133 and note for the full context of this letter and the added letter below,  1735 bis.
                                     </note> </head>
                                     <head><hi rendition="#sc">Text: MS., Terry L. Meyers.</hi>.</head>
                                     <div>
@@ -1492,7 +1487,7 @@ The College of William and Mary, in Virginia
                             <floatingText type="uncollected-letter" xml:id="l1735bis">
                                 <index indexName="nav"/>
                                 <body>
-                                    <head>1735 <hi rendition="#sc">bis. To: Richard Dacre Archer-Hind </hi> <note resp="#meyers" xml:id="note_fe23">See <title>Uncollected Letters</title>, III, 133 and note for the full context of this letter and the added letter above, 1734 bis.
+                                    <head>1735 <hi rendition="#sc">bis. To: Richard Dacre Archer-Hind </hi> <note resp="#meyers" xml:id="note_fe23">See <title rendition="#i">Uncollected Letters</title>, III, 133 and note for the full context of this letter and the added letter above, 1734 bis.
                                     </note> </head>
                                     <head><hi rendition="#sc">Text: MS., Terry L. Meyers.</hi>.</head>
                                     <div>
@@ -1505,7 +1500,7 @@ The College of William and Mary, in Virginia
                                             <dateline rend="margin-top:1em;margin-left:20em;"><date when="1898-09-11">Sept. 11. 98</date></dateline>
                                             <salute>Dear Sir</salute>
                                         </opener>
-                                        <p rendition="#indent">I am heartily ashamed to be so late in thanking you for your great kindness in sending me a transcript of the exquisitely  beautiful version you have done me the honour &lt;of&gt; to make of my ‘Garden of Proserpine’.  I waited to do so till I had made a thorough study of it: &amp; between the oppressive &amp; enervating heat of these last weeks<note resp="#meyers" xml:id="note_fe24"> See “The Hot Weather,” <title>The Times</title>, 9 September 1898, p. 10b-c.  Temperatures had been above 90 F.</note> (more trying to me than any other sort of weather) &amp; a number of other calls on my time &amp; energies, it is, I am shocked to find, just over a month since I ought to have acknowledged the kindness shown me &amp; the honour done me.  Your Greek seems to me quite as musical—whatever you say to the contrary—as my English <add place="above">⁁can possibly be considered</add>: &amp; the wonderful &amp; subtle felicity of rendering repeatedly struck me with astonishment as well as delight.  I wish I were scholar enough to make my praise &amp; admiration on that score worth having: but I am not, I hope, quite incapable of appreciation as well as &lt;of&gt; gratitude.
+                                        <p rendition="#indent">I am heartily ashamed to be so late in thanking you for your great kindness in sending me a transcript of the exquisitely  beautiful version you have done me the honour &lt;of&gt; to make of my ‘Garden of Proserpine’.  I waited to do so till I had made a thorough study of it: &amp; between the oppressive &amp; enervating heat of these last weeks<note resp="#meyers" xml:id="note_fe24"> See “The Hot Weather,” <title rendition="#i">The Times</title>, 9 September 1898, p. 10b-c.  Temperatures had been above 90 F.</note> (more trying to me than any other sort of weather) &amp; a number of other calls on my time &amp; energies, it is, I am shocked to find, just over a month since I ought to have acknowledged the kindness shown me &amp; the honour done me.  Your Greek seems to me quite as musical—whatever you say to the contrary—as my English <add place="above">⁁can possibly be considered</add>: &amp; the wonderful &amp; subtle felicity of rendering repeatedly struck me with astonishment as well as delight.  I wish I were scholar enough to make my praise &amp; admiration on that score worth having: but I am not, I hope, quite incapable of appreciation as well as &lt;of&gt; gratitude.
                                         </p>
                                         <closer>
                                             <salute rend="margin-left:12em;">Yours very truly</salute>
@@ -1541,30 +1536,29 @@ The College of William and Mary, in Virginia
                                 </body>
                             </floatingText>
                         </item>
-                      <item>
-                        <p>An added letter:</p>
+                      <item>An added letter:
                         <floatingText type="uncollected-letter" xml:id="l1713b">
                           <index indexName="nav"/>
                           <body>
                               <head>1739B. <hi rendition="#sc">To: William Clark Russell</hi> <note resp="#meyers" xml:id="note_71">
-                                  <p>(1844-1911), author of nautical novels and columnist for <title>The Daily Telegraph</title> where he pushed for better conditions for merchant seamen.</p>
-                                  <p>A note by Cecil Lang to Swinburne’s letter of February 7, 1899 (<title>Letters</title>, VI, 135) and the letters immediately following suggest the broad context of this letter in the midst of a controversy generated by a letter in the <title>Morning Post</title>, December 12, 1898, from William Clark Russell about “various evils in the merchant navy.”</p>  
+                                  <p>(1844-1911), author of nautical novels and columnist for <title rendition="#i">The Daily Telegraph</title> where he pushed for better conditions for merchant seamen.</p>
+                                  <p>A note by Cecil Lang to Swinburne’s letter of February 7, 1899 (<title rendition="#i">Letters</title>, VI, 135) and the letters immediately following suggest the broad context of this letter in the midst of a controversy generated by a letter in the <title rendition="#i">Morning Post</title>, December 12, 1898, from William Clark Russell about “various evils in the merchant navy.”</p>  
                                   <p>Swinburne’s letter is printed with an accompanying letter from Russell, January 19, 1899: “I am in receipt of the enclosed letter from that master-spirit of this age and poet of all time—Algernon Charles Swinburne.  His reference to myself embarrasses me in my desire to make his noble voice heard, but I feel it is due to the cause of Mercantile Jack that our well-beloved poet’s message should be delivered.”</p>
-                                  <p>In an obituary for Russell likely picked up from a periodical in England, Swinburne is quoted as saying that Russell “is the greatest master of the sea, living or dead, and his name is a household word wherever the English language is spoken and the splendid qualities of the British sailor known and understood.” “Master of the Sea. Death of Mr. Clark Russell,” <title>Timaru Herald</title> (New Zealand), December 27, 1911, p. 5.</p>
+                                  <p>In an obituary for Russell likely picked up from a periodical in England, Swinburne is quoted as saying that Russell “is the greatest master of the sea, living or dead, and his name is a household word wherever the English language is spoken and the splendid qualities of the British sailor known and understood.” “Master of the Sea. Death of Mr. Clark Russell,” <title rendition="#i">Timaru Herald</title> (New Zealand), December 27, 1911, p. 5.</p>
                                   
                                   <!-- note body -->
                               </note> 
                               <!-- <ref xml:id="ref_01" target="#note_01" rendition="#super">1</ref>-->
                             </head>
                             <head><hi rendition="#sc">Text:
-                              Printed in <title>The Morning Post</title>, January 20, 1899,  p. 7.</hi></head>
+                              Printed in <title rendition="#i">The Morning Post</title>, January 20, 1899,  p. 7.</hi></head>
                             <div type="letter">
                               <opener>
                                 <dateline rendition="#right">
                                   <placeName>The Pines, Putney-hill, S.W.</placeName> <date when="1899-01-17">Jan. 17. [1899]</date></dateline>
                               </opener>
                                 <p>Dear Sir, — Your name is more than sufficient introduction to any Englishman and lover of the sea. I among many thousands such, have to thank you for hours of delight. I can only at present assure you of my cordial sympathy with your noble and patriotic enterprise on behalf of Mercantile Jack. <note resp="#meyers" xml:id="note_72">
-                                    The generic term for a merchant sailor (see Dickens’ “Poor Mercantile Jack” in <title>The Uncommerical Traveller</title>).
+                                    The generic term for a merchant sailor (see Dickens’ “Poor Mercantile Jack” in <title rendition="#i">The Uncommerical Traveller</title>).
                                 </note> The son of a sailor who served under Collingwood need add no further assurance of his sincerity. —</p>  
                               <closer>
                                 <salute>Yours very gratefully,</salute>
@@ -1581,15 +1575,15 @@ The College of William and Mary, in Virginia
                         be</hi> A.C.</item>
                         <item>Letter 1773C. pp. 198-200. 
                             <p>
-                            My guess in note 9 as to the author of this account of a visit with Swinburne was wrong.  “M.B.” is Mario Borsa (1870-1951), Italian critic and journalist, who was living in London at the time (see <title>Letters</title>, VI, 166).  Borsa visited The Pines 20 March 1903, not 1902, as he misremembered; given this corrected date, 1773C should be located later in the volume. </p>
+                            My guess in note 9 as to the author of this account of a visit with Swinburne was wrong.  “M.B.” is Mario Borsa (1870-1951), Italian critic and journalist, who was living in London at the time (see <title rendition="#i">Letters</title>, VI, 166).  Borsa visited The Pines 20 March 1903, not 1902, as he misremembered; given this corrected date, 1773C should be located later in the volume. </p>
                             <p>
-                            Borsa’s account in 1773C is a redacted version of one he printed in <title>The English Stage of Today</title>, trans. Selwyn Brinton (London: John Lane, 1908).  Some of the material elided may have an interest, as, for example, his descriptions of:
+                            Borsa’s account in 1773C is a redacted version of one he printed in <title rendition="#i">The English Stage of Today</title>, trans. Selwyn Brinton (London: John Lane, 1908).  Some of the material elided may have an interest, as, for example, his descriptions of:
                                 <list rend="list-style-type: lower-alpha; margin-left: 4em; margin-top: 1em; margin-bottom: 1em;">
                                 <item>
                             Swinburne’s study: “His study looks out upon a garden, embellished by a statuette from the hand of Dante Gabriel Rossetti.  The walls of the drawing-room, study, and dining-room are covered with memorials of the glorious pre-Raphaelite Brotherhood — pictures, portraits, designs, and sketches, by Burne-Jones, Rossetti, Morris, and Madox Brown.  In his study there are also reproductions of some of Turner's Italian landscapes” (p. 203).
                                 </item>
                                 <item>
-                            Swinburne himself: “While he was again expressing to me his satisfaction at the remarks of the Minister Galimberti [see <title>Letters</title>, VI, 166 and Leith, pp. 97-98], and the pleasure he had experienced at finding himself still remembered in Italy, I contemplated him. Swinburne — whose lineaments are reproduced to perfection in the celebrated portrait by Watts — is short, slender, and fragile in appearance, with narrow, sloping shoulders. His physical frame is a <foreign xml:lang="fr" rendition="#i">quantité negligéable</foreign>; the man's entire personality is concentrated in his head. A fine forehead, both wide and lofty, on either side of which falls a tuft of wavy, whitish hair tinged with red, an aquiline nose, a prominent chin beneath a sunken mouth, a scanty beard, white at the roots and reddish at the tip, and two large glowing, shining blue eyes — eyes full of youthful vitality.  And he was even then sixty-three years of age!  Who would have guessed it!  Certainly no one from those eyes, any more than from his copious flow of living, palpitating speech” (pp. 203-204).
+                            Swinburne himself: “While he was again expressing to me his satisfaction at the remarks of the Minister Galimberti [see <title rendition="#i">Letters</title>, VI, 166 and Leith, pp. 97-98], and the pleasure he had experienced at finding himself still remembered in Italy, I contemplated him. Swinburne — whose lineaments are reproduced to perfection in the celebrated portrait by Watts — is short, slender, and fragile in appearance, with narrow, sloping shoulders. His physical frame is a <foreign xml:lang="fr" rendition="#i">quantité negligéable</foreign>; the man's entire personality is concentrated in his head. A fine forehead, both wide and lofty, on either side of which falls a tuft of wavy, whitish hair tinged with red, an aquiline nose, a prominent chin beneath a sunken mouth, a scanty beard, white at the roots and reddish at the tip, and two large glowing, shining blue eyes — eyes full of youthful vitality.  And he was even then sixty-three years of age!  Who would have guessed it!  Certainly no one from those eyes, any more than from his copious flow of living, palpitating speech” (pp. 203-204).
                                 </item>
                                 <item>
                             Swinburne on listening to Mazzini: “‘I shall never forget the hours I passed with him. On these occasions I rarely spoke; I listened reverently to him. After having known Mazzini, I began to understand Christ and His Gospel’” (p. 204).
@@ -1604,7 +1598,7 @@ The College of William and Mary, in Virginia
                                 <item>
                             Landor:  “‘Look here !’ (He fetched a volume of Landor's works, and showed me the portrait on the first page). ‘Well?’ ‘A typical John Bull!’ was my remark. ‘Quite true! But I wish,’ added Swinburne, ‘that John Bull, like Landor, were a champion of every truly noble cause !’” (p. 206).</item>
                                 <item>
-                            the books Swinburne displayed: “With the admiration of all true pre-Raphaelites for ‘craftsmanship,’ he drew my attention to the elegance, solidity, and good taste of the bindings. He showed me a Boccaccio, two fine editions of the <title>Negromante</title> and the <title>Suppositi</title> of Ariosto, and a Bembo picked up for a few pence at Bristol” (p. 207); and, a bit further on, “‘Oh, do you know that book of Giambattista della Porta on the ‘Physiognomy of Man?’  (And taking it up he began to turn over its pages, showing me the illustrations.) ‘As you know, Della Porta claimed to have established, from certain physiological affinities, corresponding moral affinities between man and the lower animals.  Rossetti believed in it. I think that is so funny!  Look at this portrait of Pico della Mirandola.  What an extraordinary expression!  And the face of Cæsar Borgia here — the face of a born leader of men.’   At this point Mr. Watts-Dunton interrupted him with a smile to tell me that Swinburne was writing a tragedy on the subject of Cæsar Borgia” (pp. 207-208).</item>
+                            the books Swinburne displayed: “With the admiration of all true pre-Raphaelites for ‘craftsmanship,’ he drew my attention to the elegance, solidity, and good taste of the bindings. He showed me a Boccaccio, two fine editions of the <title rendition="#i">Negromante</title> and the <title rendition="#i">Suppositi</title> of Ariosto, and a Bembo picked up for a few pence at Bristol” (p. 207); and, a bit further on, “‘Oh, do you know that book of Giambattista della Porta on the ‘Physiognomy of Man?’  (And taking it up he began to turn over its pages, showing me the illustrations.) ‘As you know, Della Porta claimed to have established, from certain physiological affinities, corresponding moral affinities between man and the lower animals.  Rossetti believed in it. I think that is so funny!  Look at this portrait of Pico della Mirandola.  What an extraordinary expression!  And the face of Cæsar Borgia here — the face of a born leader of men.’   At this point Mr. Watts-Dunton interrupted him with a smile to tell me that Swinburne was writing a tragedy on the subject of Cæsar Borgia” (pp. 207-208).</item>
                                 <item>
                             Swinburne’s work on Cæsar Borgia: “He continued to talk to me while searching for the manuscript, and I gathered from his remarks that Swinburne had devoted much detailed historical research to this subject” (p. 208).</item>
                                 <item>
@@ -1631,25 +1625,25 @@ The College of William and Mary, in Virginia
                               <p rendition="#indent">That he has no private income, and that his only temporary means of support is a legacy of £200 left to him by the late of Theodore Watts Dunton.
                               </p>
                             </quote>
-                            <bibl>(Hake, Thomas St Edmund. Thomas St Edmund Hake. 1845-1917. n.d. MS Archives of the Royal Literary Fund: Archives of the Royal Literary Fund 3019. World Microfilms. <title>Nineteenth Century Collections Online</title>. Web. 6 Feb. 2014. Document URL  <ptr target="http://tinyurl.galegroup.com/tinyurl/CwuC5"/>)</bibl>
+                            <bibl>(Hake, Thomas St Edmund. Thomas St Edmund Hake. 1845-1917. n.d. MS Archives of the Royal Literary Fund: Archives of the Royal Literary Fund 3019. World Microfilms. <title rendition="#i">Nineteenth Century Collections Online</title>. Web. 6 Feb. 2014. Document URL  <ptr target="http://tinyurl.galegroup.com/tinyurl/CwuC5"/>)</bibl>
                           </cit>
                           </p>
                           <p>And both of these glimpses might be supplemented by the account by Arthur Christopher Benson of his visit to The Pines, April 4, 1903 (p. 64): <ptr target="https://openlibrary.org/books/OL7238900M/Diary"/>.</p>
-                          <p>Hake (with Arthur Compton-Rickett) did contribute to hagiographic accounts of those living at The Pines in <title>The Letters of Algernon Charles Swinburne, with Some Personal Recollections</title> (London: John Murray, 1918) and <title>The Life and Letters of Theodore Watts-Dunton</title>, 2 vols. (London: T. C. and E. C. Jack, 1916).</p>
+                          <p>Hake (with Arthur Compton-Rickett) did contribute to hagiographic accounts of those living at The Pines in <title rendition="#i">The Letters of Algernon Charles Swinburne, with Some Personal Recollections</title> (London: John Murray, 1918) and <title rendition="#i">The Life and Letters of Theodore Watts-Dunton</title>, 2 vols. (London: T. C. and E. C. Jack, 1916).</p>
                           
                         </item>
-                      <item>Letter 1773E. p. 203. To the note on “First Fault for the Hundredth Time” should be added:  In “He’s Catching it! Isn’t it Nuts: Algernon Charles Swinburne’s Eton Swishing Play” (<title>TLS</title>, January 10, 2014, pp. 14-15), Peter Leggatt dates “First Fault for the Hundredth Time” to Swinburne’s days at Eton; that dating is the premise for an elaborate analysis of the work (see <ptr target="http://www.the-tls.co.uk/tls/public/article1360287.ece"/>).  
-                        <p>But even without seeing the handwriting, I am confident “First Fault” is one of Swinburne’s later fantasies about schoolboy flagellation.  Its premise, a punishment for whispering in church, may have come to Swinburne as he wrote, January 14 [1879], his response to a poem by Mary Gordon Leith, “The Whistle in Church” (see <title>Uncollected Letters</title>, II, 162).  He mentions “First Fault” in a letter of June 7, 1906 in a way that suggests the work is one that she had possessed (see <title>Uncollected Letters</title>, II, 275).</p>
+                      <item>Letter 1773E. p. 203. To the note on “First Fault for the Hundredth Time” should be added:  In “He’s Catching it! Isn’t it Nuts: Algernon Charles Swinburne’s Eton Swishing Play” (<title rendition="#i">TLS</title>, January 10, 2014, pp. 14-15), Peter Leggatt dates “First Fault for the Hundredth Time” to Swinburne’s days at Eton; that dating is the premise for an elaborate analysis of the work (see <ptr target="http://www.the-tls.co.uk/tls/public/article1360287.ece"/>).  
+                        <p>But even without seeing the handwriting, I am confident “First Fault” is one of Swinburne’s later fantasies about schoolboy flagellation.  Its premise, a punishment for whispering in church, may have come to Swinburne as he wrote, January 14 [1879], his response to a poem by Mary Gordon Leith, “The Whistle in Church” (see <title rendition="#i">Uncollected Letters</title>, II, 162).  He mentions “First Fault” in a letter of June 7, 1906 in a way that suggests the work is one that she had possessed (see <title rendition="#i">Uncollected Letters</title>, II, 275).</p>
                         
                       </item>
-                        <item>Letter 1774D. p. 211. To note 1, mentioning a June 1906 production of <title>Atalanta in Calydon</title>, might be added a review in <title>The Times</title>, “Performance of Mr. Swinburne’s ‘Atalanta in Calydon,’” 8 June 1906, p. 7f.  The review suggests some timidity in the redaction, avoiding the word “God,” for example, perhaps because the several performances mentioned at the Crystal Palace were “in aid of the Church of England Society for Waifs and Strays.”   One of the Society’s orphanages, for girls, was located in Wimbledon, not far from Putney.  A subsequent performance at the Scala Theatre was to benefit “the Bedford College for Women site and building scheme.”
+                        <item>Letter 1774D. p. 211. To note 1, mentioning a June 1906 production of <title rendition="#i">Atalanta in Calydon</title>, might be added a review in <title rendition="#i">The Times</title>, “Performance of Mr. Swinburne’s ‘Atalanta in Calydon,’” 8 June 1906, p. 7f.  The review suggests some timidity in the redaction, avoiding the word “God,” for example, perhaps because the several performances mentioned at the Crystal Palace were “in aid of the Church of England Society for Waifs and Strays.”   One of the Society’s orphanages, for girls, was located in Wimbledon, not far from Putney.  A subsequent performance at the Scala Theatre was to benefit “the Bedford College for Women site and building scheme.”
                         </item>
-                        <item>Letter 1774H. p. 217. This letter was drafted for the signers by Arthur Symons, according to Karl Beckson and John M. Munro, who include it in their edition of <title>Arthur Symons: Selected Letters</title> (Iowa City: University of Iowa Press, 1989), p. 166.</item>
+                        <item>Letter 1774H. p. 217. This letter was drafted for the signers by Arthur Symons, according to Karl Beckson and John M. Munro, who include it in their edition of <title rendition="#i">Arthur Symons: Selected Letters</title> (Iowa City: University of Iowa Press, 1989), p. 166.</item>
                         <item>Letter 1807F. p. 246. In line 21, ‘Ginerva’ <hi rendition="#u">should
                                 be</hi> ‘Ginevra’</item>
                         <item>Letter 1819A. p. 263. To note 1 should be added:
                             <p>A
-                            largely unconvincing account of life at The Pines (<title>The Sunday
+                            largely unconvincing account of life at The Pines (<title rendition="#i">The Sunday
                                 Times</title>, April 11, 1909; p. 7f) claims that the marriage of
                             Watts-Dunton “made no difference to the domestic companionship of the
                             two men” and that “it was her [Clara Watts-Dunton’s] habit to visit The
@@ -1663,10 +1657,10 @@ The College of William and Mary, in Virginia
                             <floatingText type="uncollected-letter" xml:id="l1863d">
                                 <index indexName="nav"/>
                                 <body>
-                                    <head>1863D. <hi rendition="#sc">To: Lucy Margaret Lamont</hi> <note resp="#meyers" xml:id="note_26"><p>The widow of the artist T. R. Lamont.  In a letter of 28 March 1909 (now in the Brotherton Collection, Leeds University and quoted with permission), Mrs. Lamont asked to print in an anthology “The Pilgrims” and “Man’s Soul”  (from <title>Songs before Sunrise</title>, the latter being stanzas 15-18 of “The Prelude”) and the chorus “We have seen thee, O Love” (from <title>Atalanta in Calydon</title>).  The poems duly appeared in <title>A Coronal</title> (London: Martin Secker, 1911).  In her letter, Mrs. Lamont asked, “If you should graciously allow me to include these it will be necessary also to gain the sanction of your publishers, will it not?” and commented, “My name may bring a remembrance to you from long years ago, for my husband, T. R. Lamont, used to tell me of knowing you in the sixties.”</p>
-                                        <p>Thomas Reynolds Lamont (1826-1899) is a shadow in E. R. and J. Pennell, <title>The Life of James McNeil Whistler</title> (Philadelphia: J. B. Lippincott, 1908), where he is met by Whistler in Paris at Charles Gabriel Gleyre's studio and where he simply strolls and jokes with Whistler.  He is still wispy in Stanley Weintraub's <title>Whistler: A Biography</title> (New York: Weybright and Talley, 1974), but he takes on more flesh in Leonée Ormond's <title>George Du Maurier</title> ([Pittsburg: University of Pittsburg Press, 1969).  And of course he lives, more or less forever, as "the Laird" in Du Maurier's <title>Trilby</title>.</p>
+                                    <head>1863D. <hi rendition="#sc">To: Lucy Margaret Lamont</hi> <note resp="#meyers" xml:id="note_26"><p>The widow of the artist T. R. Lamont.  In a letter of 28 March 1909 (now in the Brotherton Collection, Leeds University and quoted with permission), Mrs. Lamont asked to print in an anthology “The Pilgrims” and “Man’s Soul”  (from <title rendition="#i">Songs before Sunrise</title>, the latter being stanzas 15-18 of “The Prelude”) and the chorus “We have seen thee, O Love” (from <title rendition="#i">Atalanta in Calydon</title>).  The poems duly appeared in <title rendition="#i">A Coronal</title> (London: Martin Secker, 1911).  In her letter, Mrs. Lamont asked, “If you should graciously allow me to include these it will be necessary also to gain the sanction of your publishers, will it not?” and commented, “My name may bring a remembrance to you from long years ago, for my husband, T. R. Lamont, used to tell me of knowing you in the sixties.”</p>
+                                        <p>Thomas Reynolds Lamont (1826-1899) is a shadow in E. R. and J. Pennell, <title rendition="#i">The Life of James McNeil Whistler</title> (Philadelphia: J. B. Lippincott, 1908), where he is met by Whistler in Paris at Charles Gabriel Gleyre's studio and where he simply strolls and jokes with Whistler.  He is still wispy in Stanley Weintraub's <title rendition="#i">Whistler: A Biography</title> (New York: Weybright and Talley, 1974), but he takes on more flesh in Leonée Ormond's <title rendition="#i">George Du Maurier</title> ([Pittsburg: University of Pittsburg Press, 1969).  And of course he lives, more or less forever, as "the Laird" in Du Maurier's <title rendition="#i">Trilby</title>.</p>
                                     </note> </head>
-                                    <head><hi rendition="#sc">Text: MS., <note resp="#meyers" xml:id="note_27">The letter, one of the last two Swinburne is known to have written, is tipped into a first edition of <title>Atalanta in Calydon</title> (1865) inscribed by Swinburne (but not signed): “To Mary E. Ranken / July 9 1865.”  I do not know who Mary Ranken is; the only Ranken I can find even on the far periphery of Swinburne’s circle is R. B. Ranken, at Balliol in 1859 as a Snell Exhibitioner.
+                                    <head><hi rendition="#sc">Text: MS., <note resp="#meyers" xml:id="note_27">The letter, one of the last two Swinburne is known to have written, is tipped into a first edition of <title rendition="#i">Atalanta in Calydon</title> (1865) inscribed by Swinburne (but not signed): “To Mary E. Ranken / July 9 1865.”  I do not know who Mary Ranken is; the only Ranken I can find even on the far periphery of Swinburne’s circle is R. B. Ranken, at Balliol in 1859 as a Snell Exhibitioner.
                                     </note> Terry L. Meyers</hi>.</head>
                                     <div>
                                         <opener>
@@ -1689,18 +1683,18 @@ The College of William and Mary, in Virginia
                                 </body>
                             </floatingText>
                         </item>
-                        <item>Letter 1861B. p. 299. To this letter might be added a footnote, an unrelated account via Watts-Dunton of Christmas 1908 at The Pines—Swinburne’s reading Dickens, his never having been in better health, and his habitual walk of “two or three hours daily, and there is hardly a child he meets on his way that he does not stop to give pence to and talk to.”   Swinburne comments, according to Watts-Dunton, on the efforts by suffragettes in the preceding weeks to draw attention to their cause (e.g., their intrusion into the House of Commons and interruption of David Lloyd George at the Albert Hall): “‘they have recently shown that they are quite unfitted for the exercise of the vote.  Theoretically women should be entitled to vote.   We all are children of the same mother, Nature, and should be treated equally, but in practice I am afraid that the thing is wholly impossible’” (“Swinburne’s Christmas,” <title>The New York Times</title>, 27 December 1908, p. 2c).
+                        <item>Letter 1861B. p. 299. To this letter might be added a footnote, an unrelated account via Watts-Dunton of Christmas 1908 at The Pines—Swinburne’s reading Dickens, his never having been in better health, and his habitual walk of “two or three hours daily, and there is hardly a child he meets on his way that he does not stop to give pence to and talk to.”   Swinburne comments, according to Watts-Dunton, on the efforts by suffragettes in the preceding weeks to draw attention to their cause (e.g., their intrusion into the House of Commons and interruption of David Lloyd George at the Albert Hall): “‘they have recently shown that they are quite unfitted for the exercise of the vote.  Theoretically women should be entitled to vote.   We all are children of the same mother, Nature, and should be treated equally, but in practice I am afraid that the thing is wholly impossible’” (“Swinburne’s Christmas,” <title rendition="#i">The New York Times</title>, 27 December 1908, p. 2c).
                         </item> 
                         <item xml:id="letter1863g">Letter 1863G.  pp. 305-306.  A note to the lines by William Michael Rossetti should be added:
-                            <p>Part of this passage appears in Roger W. Peattie, “Swinburne’s Funeral,” <title>Notes and Queries</title>, 21 (December 1974), 467.  Peattie identifies the document as a letter from Rossetti to William Holman Hunt.</p>
-                            <p>To Peattie’s account of Swinburne’s funeral and to Rooksby’s photograph of the service (see below) and account by Helen Rossetti (Rooksby, <title>A. C. Swinburne</title>, pp. 284-286) might be added a series of photographs<!--<ref xml:id="ref_28" target="#note_28" rendition="#super">1</ref>--> published by contemporary periodicals as well as further information I've compiled. See my article <ref target="document:acs0000504-01"><title level="a">Some Notes Relating to Swinburne's Funeral.</title></ref></p></item>
+                            <p>Part of this passage appears in Roger W. Peattie, “Swinburne’s Funeral,” <title rendition="#i">Notes and Queries</title>, 21 (December 1974), 467.  Peattie identifies the document as a letter from Rossetti to William Holman Hunt.</p>
+                            <p>To Peattie’s account of Swinburne’s funeral and to Rooksby’s photograph of the service (see below) and account by Helen Rossetti (Rooksby, <title rendition="#i">A. C. Swinburne</title>, pp. 284-286) might be added a series of photographs<!--<ref xml:id="ref_28" target="#note_28" rendition="#super">1</ref>--> published by contemporary periodicals as well as further information I've compiled. See my article <ref target="document:acs0000504-01"><title level="a">Some Notes Relating to Swinburne's Funeral.</title></ref></p></item>
                                
                         <item>An added letter: 
                             <floatingText type="uncollected-letter" xml:id="l1899">
                                 <index indexName="nav"/>
                                 <body>
                                     <head>1899.<hi rendition="#sc">To: ?</hi></head>
-                                    <head><hi rendition="#sc">Text: <title>The Daily Telegraph</title>, 12 April 1909</hi>, p. 10c.</head>
+                                    <head><hi rendition="#sc">Text: <title rendition="#i">The Daily Telegraph</title>, 12 April 1909</hi>, p. 10c.</head>
                                     <div>
                                         <p rendition="#indent">I am not a professional or official poet, and could not undertake to write any verse—patriotic or other—to order. <note resp="#meyers" xml:id="note_29">The letter, which I cannot date, is introduced with the comment that it was “written in reply to a request that he [Swinburne] would write a poem on certain subjects.”</note> </p>
                                         <closer>
@@ -1722,13 +1716,13 @@ The College of William and Mary, in Virginia
                             Tyrwhitt</item>
                         <item>Letter 1752. p. 366. A note should be added: The letter is reproduced
                             in facsimile in John S. Mayfield, “Swinburne and the Agnostic,”
-                                <title>Swinburneiana : A Gallimaufry of Bits and Pieces about
+                                <title rendition="#i">Swinburneiana : A Gallimaufry of Bits and Pieces about
                                 Algernon Charles Swinburne</title> (Gaithersburg MD: The Waring
                             Press, 1974), p. 19. Mayfield’s note elaborates on the recipient and on
                             an earlier printing of the letter (p. 179).</item>
                         <item>In Appendix B, in addition, I should have called attention to Anna
-                            Unsworth’s comment on Letter 1857 in <title>Letters</title> (28
-                            September 1908): “Swinburne on Mrs Gaskell.” <title>Notes and
+                            Unsworth’s comment on Letter 1857 in <title rendition="#i">Letters</title> (28
+                            September 1908): “Swinburne on Mrs Gaskell.” <title rendition="#i">Notes and
                                 Queries</title>, 38 (236):3(September 1991), 323-24.</item>
                     </list>
                 </div>
@@ -1743,11 +1737,11 @@ The College of William and Mary, in Virginia
 			<div type="index">
 				<div xml:id="a">
 					<list rendition="#noBullets" type="bullet">
-						<item rendition="#hang"><title>Academy</title>. 350, 362, 365</item>
+						<item rendition="#hang"><title rendition="#i">Academy</title>. 350, 362, 365</item>
 						<item rendition="#hang">Angus, W. C. 352</item>
 						<item rendition="#hang">Arnold, E. 359</item>
 						<item rendition="#hang">Arnold, M. 331, 332, 350, 353, 354</item>
-						<item rendition="#hang"><title>Athenaeum</title>. 347</item>
+						<item rendition="#hang"><title rendition="#i">Athenaeum</title>. 347</item>
 					</list>
 				</div>
 				<div xml:id="B">
@@ -1795,7 +1789,7 @@ The College of William and Mary, in Virginia
 				</div>
 				<div xml:id="d">
 					<list rendition=" #noBullets" type="bullet">
-						<item rendition="#hang"><title>Daily Graphic</title>. 361</item>
+						<item rendition="#hang"><title rendition="#i">Daily Graphic</title>. 361</item>
 						<item rendition="#hang">Dante. 332</item>
 						<item rendition="#hang">Davidson, J. 348</item>
 						<item rendition="#hang">Davidson, J. M. 357</item>
@@ -1808,8 +1802,8 @@ The College of William and Mary, in Virginia
 				</div>
 				<div xml:id="e">
 					<list rendition="#noBullets" type="bullet">
-						<item rendition="#hang"><title>Echo de Paris</title>. 365</item>
-						<item rendition="#hang"><title>Examiner</title>. 341</item>
+						<item rendition="#hang"><title rendition="#i">Echo de Paris</title>. 365</item>
+						<item rendition="#hang"><title rendition="#i">Examiner</title>. 341</item>
 					</list>
 				</div>
 				<div xml:id="f">
@@ -1837,7 +1831,7 @@ The College of William and Mary, in Virginia
 						<item rendition="#hang">Hatch, E. 323</item>
 						<item rendition="#hang">Haweis, H. R. 335</item>
 						<item rendition="#hang">Hayne, P. H. 346, 347, 348</item>
-						<item rendition="#hang"><title>Hedda Gabbler</title>. 363</item>
+						<item rendition="#hang"><title rendition="#i">Hedda Gabbler</title>. 363</item>
 						<item rendition="#hang">Herkless, M. K. 366</item>
 						<item rendition="#hang">Horne, R. H. 353</item>
 						<item rendition="#hang">Hotten, J. C. 328, 332, 340</item>
@@ -1858,7 +1852,7 @@ The College of William and Mary, in Virginia
 						<item rendition="#hang">Jackson, W. 365</item>
 						<item rendition="#hang">Jameson, F. 326</item>
 						<item rendition="#hang">Jourde, F. 349</item>
-						<item rendition="#hang"><title>Journal des Débats</title>. 365</item>
+						<item rendition="#hang"><title rendition="#i">Journal des Débats</title>. 365</item>
 						<item rendition="#hang">Joyce, T. H. 361</item>
 					</list>
 				</div>
@@ -1904,7 +1898,7 @@ The College of William and Mary, in Virginia
 				</div>
 				<div xml:id="pp">
 					<list rendition=" #noBullets" type="bullet">
-						<item rendition="#hang"><title>Pall Mall Gazette</title>. 368</item>
+						<item rendition="#hang"><title rendition="#i">Pall Mall Gazette</title>. 368</item>
 						<item rendition="#hang">Parnell, C. S. 360</item>
 						<item rendition="#hang">Parsons, J. R. 326</item>
 						<item rendition="#hang">Payne, J. B. 343</item>
@@ -1913,7 +1907,7 @@ The College of William and Mary, in Virginia
 						<item rendition="#hang">Poel, W. 362</item>
 						<item rendition="#hang">Powell, G. 330, 332, 339</item>
 						<item rendition="#hang">Proctor, Mrs. 332</item>
-						<item rendition="#hang"><title>Punch</title>. 358</item>
+						<item rendition="#hang"><title rendition="#i">Punch</title>. 358</item>
 					</list>
 				</div>
 				<div xml:id="r">
@@ -1934,7 +1928,7 @@ The College of William and Mary, in Virginia
 				<div xml:id="s">
 					<list rendition="#noBullets" type="bullet">
 						<item rendition="#hang">Saffi, A. 336</item>
-						<item rendition="#hang"><title>St. James's Gazette</title>. 359, 360</item>
+						<item rendition="#hang"><title rendition="#i">St. James's Gazette</title>. 359, 360</item>
 						<item rendition="#hang">St. John Tyrwhitt, R. 333</item>
 						<item rendition="#hang">Salaman, C. K. 368</item>
 						<item rendition="#hang">Scott, W. B. 325, 352, 362</item>
@@ -1944,7 +1938,7 @@ The College of William and Mary, in Virginia
 						<item rendition="#hang">Shields, F. J. 356</item>
 						<item rendition="#hang">Shorter, C. K. 363, 366</item>
 						<item rendition="#hang">Solomon, S. 333, 334, 338</item>
-						<item rendition="#hang"><title>Spectator</title>. 341, 350, 356</item>
+						<item rendition="#hang"><title rendition="#i">Spectator</title>. 341, 350, 356</item>
 						<item rendition="#hang">Stedman, E. C. 341, 343, 355</item>
 						<item rendition="#hang">Stephen, K. 365</item>
 						<item rendition="#hang">Stoddard, R. H. 329, 337</item>
@@ -1955,15 +1949,15 @@ The College of William and Mary, in Virginia
 								<item rendition="#hang"><hi rendition="#u">Sexuality</hi>. 325, 326, 337</item>
 								<item rendition="#hang"><hi rendition=" #u">Works</hi>. <list rendition="#noBullets" type="bullet">
 										<item rendition="#hang"><title level="a">Age and Song: To Barry Cornwall,</title> 333</item>
-										<item rendition="#hang"><title>Bothwell</title>, 342</item>
-										<item rendition="#hang"><title>Chastelard</title>, 325</item>
+										<item rendition="#hang"><title rendition="#i">Bothwell</title>, 342</item>
+										<item rendition="#hang"><title rendition="#i">Chastelard</title>, 325</item>
 										<item rendition="#hang">fragments related to a family joke, 319-320</item>
 										<item rendition="#hang"><title level="a">Laugh and Lie Down,</title> 346</item>
 										<item rendition="#hang"><title level="a">Memorial Verses on the Death of William Bell Scott,</title>
 											362</item>
 										<item rendition="#hang"><title level="a">Temple of Janus,</title> 323</item>
 										<item rendition="#hang"><title level="a">Unhappy Revenge,</title> 346</item>
-										<item rendition="#hang"><title>A Year's Letters</title> (<title>Love's Cross
+										<item rendition="#hang"><title rendition="#i">A Year's Letters</title> (<title rendition="#i">Love's Cross
 												Currents</title>), 337</item>
 									</list></item>
 							</list></item>
@@ -1978,7 +1972,7 @@ The College of William and Mary, in Virginia
 						<item rendition="#hang">Tennyson, Lady. 362</item>
 						<item rendition="#hang">Thomas, F. D. 357</item>
 						<item rendition="#hang">Thomson, J. 333</item>
-						<item rendition="#hang"><title>Times</title>. 365</item>
+						<item rendition="#hang"><title rendition="#i">Times</title>. 365</item>
 						<item rendition="#hang">Trevelyan, Lady. 325, 326</item>
 						<item rendition="#hang">Tytler, S. 351</item>
 					</list>
@@ -2013,14 +2007,14 @@ The College of William and Mary, in Virginia
                     <list type="bullet">
                         <item>Letter 197. p. 330. Gentlemen’s <hi rendition="#u">should be</hi>
                             Gentleman’s</item>
-                        <item>Letter 310A. p. 333. <title>The English Vice</title>
-                            <hi rendition="#u">should be</hi> expanded to <title>The English
+                        <item>Letter 310A. p. 333. <title rendition="#i">The English Vice</title>
+                            <hi rendition="#u">should be</hi> expanded to <title rendition="#i">The English
                                 Vice</title> (London: Duckworth, 1978).</item>
                         <item>Letter 475. p. 340. J. C. <hi rendition="#u">should be</hi> John
                             Camden</item>
-                        <item>Letter 1140. p. 354. <title>TOL</title>
+                        <item>Letter 1140. p. 354. <title rendition="#i">TOL</title>
                             <hi rendition="#u">should be</hi>
-                            <title>TOLOP</title></item>
+                            <title rendition="#i">TOLOP</title></item>
                         <item>
                             <!-- jawalsh: removed extra period -->Letter 1605. p. 362. william <hi rendition="#u">should be</hi> William</item>
                         <item>Letter 1767. p. 366. her <hi rendition="#u">should be</hi> for
@@ -2028,14 +2022,14 @@ The College of William and Mary, in Virginia
                         <item>
                             <p>The following entries should be added:</p>
                             <list type="bullet">
-                              <item>20. To Lady Jane Henrietta Swinburne [February 22] 1860 (<title>Letters</title>, I, 30)<lb/>
+                              <item>20. To Lady Jane Henrietta Swinburne [February 22] 1860 (<title rendition="#i">Letters</title>, I, 30)<lb/>
                                 In 2008 Bonhams sold five letters from Sir John Franklin to Captain Swinburne, Swinburne’s father and, at the time, 1832, Franklin’s second in command.  The description of the lot (#156, Auction 16202; June 24, 2008; <ptr target="https://www.bonhams.com/auctions/16202/lot/156/"/>) notes that Captain Swinburne’s connection to Sir John Franklin might have had a bearing on Swinburne’s composition in 1860 of “The Death of Sir John Franklin“; it also suggests that Swinburne’s nickname, Hadji, might have reflected his father’s bemused recollection of his and Franklin’s negotiations with Hadji Pietro, the head of an irregular army seeking to be cut in on duties on currants as the newly independent Greece sought them as well. Both suggestions seem plausible.
                               </item>
-                              <item>492. To Theodore Watts December 1, 1873	(<title>Letters</title>, II, 260)
+                              <item>492. To Theodore Watts December 1, 1873	(<title rendition="#i">Letters</title>, II, 260)
                                 <p>
                                 Francis J. Sypher has elaborated Cecil Lang’s note regarding a lost article on Swinburne by the American journalist Olive Harper (Helen Burrell D’Apery [1843-1915]) in 1873.</p>
                                 <p>
-                                Sypher very kindly sent me a copy of his privately printed <title>Swinburne &amp; Olive Harper: The American ‘Interview’ from 1873</title> (New York: 2012) where he explores the circumstances surrounding Harper’s account of meeting Swinburne as published in a number of newspapers in America and even in Australia.  Sypher’s booklet reprints the version that he tracked down in the <title>Cincinnati Commercial</title> (July 21, 1873, p. 2), “London Literary Nobs.”   Although Sypher explores the several reasons to question whether the encounter occurred, he and I both tend to believe it did.  As Sypher says, “it is not impossible that [Harper] could have met” Swinburne between the middle of May and June 5, 1873:
+                                Sypher very kindly sent me a copy of his privately printed <title rendition="#i">Swinburne &amp; Olive Harper: The American ‘Interview’ from 1873</title> (New York: 2012) where he explores the circumstances surrounding Harper’s account of meeting Swinburne as published in a number of newspapers in America and even in Australia.  Sypher’s booklet reprints the version that he tracked down in the <title rendition="#i">Cincinnati Commercial</title> (July 21, 1873, p. 2), “London Literary Nobs.”   Although Sypher explores the several reasons to question whether the encounter occurred, he and I both tend to believe it did.  As Sypher says, “it is not impossible that [Harper] could have met” Swinburne between the middle of May and June 5, 1873:
                                   <cit rendition="#blockquote">
                                 <quote>
                                   <p>
@@ -2048,29 +2042,29 @@ The College of William and Mary, in Virginia
                                 </cit>
                                 </p>
                               </item>
-                                <item>1313. To Andrew Chatto February 15, 1885 (<title>Letters</title>, V, 99)<lb/>
-                                    The copy of <title>Passages in the Early Military Life of General George T. Napier</title>, ed. W. C. E. Napier (London: John Murray, 1884), which Swinburne requested of Andrew Chatto was for a birthday gift for Bertie Mason, whose eleventh birthday was February 4, 1885. The volume is now in my collection and is inscribed “Herbert Walter Mason / from his affectionate friend / Algernon Charles Swinburne / February, 1885.”</item>
-                                <item>1418.  To the Editor of <title>The Times</title> May 3 [1887] (<title>Letters</title>, V, 188-190)<lb/>
-                                    This letter was reprinted in <title>The Birmingham Daily Post</title>, 7 May 1887.</item>
+                                <item>1313. To Andrew Chatto February 15, 1885 (<title rendition="#i">Letters</title>, V, 99)<lb/>
+                                    The copy of <title rendition="#i">Passages in the Early Military Life of General George T. Napier</title>, ed. W. C. E. Napier (London: John Murray, 1884), which Swinburne requested of Andrew Chatto was for a birthday gift for Bertie Mason, whose eleventh birthday was February 4, 1885. The volume is now in my collection and is inscribed “Herbert Walter Mason / from his affectionate friend / Algernon Charles Swinburne / February, 1885.”</item>
+                                <item>1418.  To the Editor of <title rendition="#i">The Times</title> May 3 [1887] (<title rendition="#i">Letters</title>, V, 188-190)<lb/>
+                                    This letter was reprinted in <title rendition="#i">The Birmingham Daily Post</title>, 7 May 1887.</item>
                                 
                                 <item>1646. To Edmund Gosse June 29 [1894]
-                                    (<title>Letters</title>, VI, 69)
+                                    (<title rendition="#i">Letters</title>, VI, 69)
                                     <lb/>This letter had been printed in part in
-                                    <title>The New York Times</title>, 17 July 1894, p. 5.
+                                    <title rendition="#i">The New York Times</title>, 17 July 1894, p. 5.
                                 </item>
-                                <item>1784.  To Mario Borsa   March 18, 1902 [<hi rendition="#i">sic</hi> for 1903] (<title>Letters</title>, VI, 166)<lb/>
-                                    Most of this letter was printed in Borsa’s <title>The English Stage of Today</title>, trans. Selwyn Brinton (London: John Lane, 1908), p. 202. 
+                                <item>1784.  To Mario Borsa   March 18, 1902 [<hi rendition="#i">sic</hi> for 1903] (<title rendition="#i">Letters</title>, VI, 166)<lb/>
+                                    Most of this letter was printed in Borsa’s <title rendition="#i">The English Stage of Today</title>, trans. Selwyn Brinton (London: John Lane, 1908), p. 202. 
                                 </item>
                             </list>
                         </item>
                         <!-- Delete at the request of Terry Meyers: -->
                         <!--
                         <item>1870. To the clerical comments about Swinburne
-                                at his death (<title>Letters</title>, VI, 229-231) should be added a
+                                at his death (<title rendition="#i">Letters</title>, VI, 229-231) should be added a
                                 note:
                                 <p> The controversy over an Anglican burial for Swinburne and the
                                     denunciation of him by the Vice-Dean of Canterbury Cathedral for
-                                    the pollution he brought to English poetry (<title>Letters</title>, VI, 231)
+                                    the pollution he brought to English poetry (<title rendition="#i">Letters</title>, VI, 231)
                                     was echoed in 1924, when Thomas Hardy mocked the Dean of
                                     Westminster Abbey for refusing to allow a plaque to Byron in
                                     Poets’ Corner. In “A Refusal,” Hardy has the Dean comment that
@@ -2087,7 +2081,7 @@ The College of William and Mary, in Virginia
                     <list type="bullet">
                         <item>To the “Short Titles of Works Cited” (pp. xi-xiii) <hi rendition="#u">should be</hi> added:<lb/>
                             <bibl>
-                                <author>Helen Rossetti Angeli</author>, <title>Pre-Raphaelite
+                                <author>Helen Rossetti Angeli</author>, <title rendition="#i">Pre-Raphaelite
                                     Twilight: The Story of Charles Augustus Howell</title> (St.
                                 Clair Shores, MI: Scholarly Press, 1971) <hi rendition="#b">Pre-Raphaelite Twilight</hi>
                             </bibl>
@@ -2096,7 +2090,7 @@ The College of William and Mary, in Virginia
                             <hi rendition="#b">Rooksby</hi>
                         </item>
                         <item>P. xv, note 2. The title of the anthology edited by Jerome McGann and
-                            Charles L. Sligh is <title>Algernon Charles Swinburne: Major Poems and
+                            Charles L. Sligh is <title rendition="#i">Algernon Charles Swinburne: Major Poems and
                                 Selected Prose</title>. </item>
                         <item>p. xv. In l. 3, wife Edith <hi rendition="#u">should be</hi> wife,
                             Edith,</item>
@@ -2114,7 +2108,7 @@ The College of William and Mary, in Virginia
                         <item>Letter 186C. p. 98. In note 2, delete Algernon Charles
                             Swinburne</item>
                         <item>Letter 221A. p. 110. In note 2, delete (Algernon Charles Swinburne,
-                                <title>Bothwell: A Tragedy</title> (London: Chatto and Windus,
+                                <title rendition="#i">Bothwell: A Tragedy</title> (London: Chatto and Windus,
                             1874))</item>
                         <item>Letter 244A. p. 117. The figures should be aligned more
                             squarely</item>
@@ -2141,7 +2135,7 @@ The College of William and Mary, in Virginia
                             <!-- jawalsh: changed 2/3's to two-thirds --> Letter 453A. p. 262.
                             There’s a mistaken blank at the end of a line about two thirds of the
                             way down the page</item>
-                        <item>Letter 455A p. 267. In note 14, delete <title>The Letters of John
+                        <item>Letter 455A p. 267. In note 14, delete <title rendition="#i">The Letters of John
                                 Addington Symonds</title>
                         </item>
                     </list>
@@ -2150,27 +2144,27 @@ The College of William and Mary, in Virginia
                     <index indexName="nav"/>
                     <head rendition="#center #styled">Vol. II.—The Less Important</head>
                     <list type="bullet">
-                        <item>Letter 627A. p. 21. In note 7, <title>Essays and Studies</title>
+                        <item>Letter 627A. p. 21. In note 7, <title rendition="#i">Essays and Studies</title>
                             <hi rendition="#u">should be</hi>
-                            <title>ES</title> (1875)</item>
+                            <title rendition="#i">ES</title> (1875)</item>
                         <item>Letter 642B. p. 20. Note 1 should be deleted as redundant</item>
-                        <item>Letter 668A. p. 39. In note 2, delete <title>Swinburne: Portrait of a
+                        <item>Letter 668A. p. 39. In note 2, delete <title rendition="#i">Swinburne: Portrait of a
                                 Poet</title>
                         </item>
                         <item>Letter 687A. p. 53. The letter from Swinburne that Powell mentions is
                             untraced.</item>
                         <item>Letter 728. p. 73. In note 5, delete the extraneous ()’s</item>
                         <item>Letter 741A. p. 77. In note 5, expand “Hake and Compton-Rickett” to
-                            Thomas Hake and Arthur Compton Rickett, ed., <title>The Letters of
+                            Thomas Hake and Arthur Compton Rickett, ed., <title rendition="#i">The Letters of
                                 Algernon Charles Swinburne with Some Personal Recollections</title>
                             (London: John Murray, 1918).</item>
-                        <item>Letter 760A p. 88. In note 2, <title>Essays and Studies</title>
+                        <item>Letter 760A p. 88. In note 2, <title rendition="#i">Essays and Studies</title>
                             <hi rendition="#u">should be</hi>
-                            <title>ES</title> (1875)</item>
+                            <title rendition="#i">ES</title> (1875)</item>
                         <item>Letter 836A. p. 117. Mourning Stationery <hi rendition="#u">should
                                 be</hi> mourning stationery</item>
                         <item>Letter 847A. p. 123. In note 1, expand “Gooch and Thatcher” to Bryan
-                            N. S. Gooch and David S. Thatcher, <title>Musical Settings of Late
+                            N. S. Gooch and David S. Thatcher, <title rendition="#i">Musical Settings of Late
                                 Victorian and Modern British Literature: A Catalogue</title> (New
                             York: Garland Pub., 1976).</item>
                         <item>Letter 848A p. 124. In note 3, Maccoll <hi rendition="#u">should
@@ -2178,8 +2172,8 @@ The College of William and Mary, in Virginia
                         <!--    <item>Letter 874A p. 132. In note 3, 1877 <hi rendition="#u">should be</hi> 1877,</item> -->
                         <item>Letter 874A. p. 132. In note 3, 8 August, 1877 <hi rendition="#u">should be</hi> 8 August 1877, </item>
                         <item>Letter 880B. p. 134. In the head note, delete Mrs.</item>
-                        <item>Letter 889A. p. 140. In note 1, expand “<title>Monckton
-                                Milnes</title>” to <title>Monckton Milnes: The Flight of
+                        <item>Letter 889A. p. 140. In note 1, expand “<title rendition="#i">Monckton
+                                Milnes</title>” to <title rendition="#i">Monckton Milnes: The Flight of
                                 Youth</title> (London: Constable, 1949)</item>
                         <item>Letter 913A. p. 149. In the head note, Swinburne <hi rendition="#u">should be</hi> , Swinburne</item>
                         <item>Letter 944A. p. 168. In note 1, ‘ <hi rendition="#u">should be</hi>
@@ -2204,23 +2198,23 @@ The College of William and Mary, in Virginia
                             <hi rendition="#i">return</hi>.</item>
                         <item>Letter 1110C. p. 276. In the text note, Fran-klin <hi rendition="#u">should be</hi> Frank-lin</item>
                         <item>Letter 1205A. p. 321. In the text note, University <hi rendition="#u">should be</hi> University.</item>
-                        <item>Letter 1273A. p. 363. Expand “<title>Life and Letters of Theodore
+                        <item>Letter 1273A. p. 363. Expand “<title rendition="#i">Life and Letters of Theodore
                                 Watts-Dunton</title>” to Thomas Hake and Arthur Compton-Rickett,
-                                <title>Life and Letters of Theodore Watts-Dunton</title>, 2 vols.
+                                <title rendition="#i">Life and Letters of Theodore Watts-Dunton</title>, 2 vols.
                             (London: T. C. &amp; E. C. Jack, 1916).</item>
                         <item>Letter 1273A. p. 364. In note 1, the title should be expanded to
-                                    <bibl><title>Life and Letters of Benjamin Jowett</title>, eds.
+                                    <bibl><title rendition="#i">Life and Letters of Benjamin Jowett</title>, eds.
                                     <editor role="editor">Evelyn Abbott</editor> and <editor role="editor">Lewis Campbell</editor>, <extent>2 vols</extent>.
                                     (<pubPlace>London</pubPlace>: <publisher>J. Murray</publisher>,
                                     <date>1897</date>).</bibl></item>
                         <item>Letter 1295A. p. 372. In the head note, the <hi rendition="#u">should
                                 be</hi> The</item>
                         <item>Letter 1312A. p. 375. In note 2, delete John Y.</item>
-                        <item>Letter 1322B. p. 380. In note 1, enclose the citation to <title>The
+                        <item>Letter 1322B. p. 380. In note 1, enclose the citation to <title rendition="#i">The
                                 Times</title> in ()’s</item>
-                        <item>Letter 1322C. p. 382. In note 3, <title>CRC</title>
+                        <item>Letter 1322C. p. 382. In note 3, <title rendition="#i">CRC</title>
                             <hi rendition="#u">should be</hi>
-                            <title>CR </title>
+                            <title rendition="#i">CR </title>
                         </item>
                         <item>Letter 1393B p. 417. In note 2, p. 6 as <hi rendition="#u">should
                                 be</hi> p. 6, as</item>
@@ -2267,8 +2261,8 @@ The College of William and Mary, in Virginia
                         <item>Letter 1774E. p. 213. Delete note 1 as redundant</item>
                         <item>Letter 1774H. p. 217. The heading is in the wrong font and should be
                             italicized and centered</item>
-                        <item>Letter 1779D. p. 223. In note 5, <title>Autobiogaphical Notes</title>
-                            should be expanded to William Bell Scott, <title>Autobiographical Notes
+                        <item>Letter 1779D. p. 223. In note 5, <title rendition="#i">Autobiogaphical Notes</title>
+                            should be expanded to William Bell Scott, <title rendition="#i">Autobiographical Notes
                                 of the Life of William Bell Scott</title>, ed. William Minto, 2
                             vols. (London: Osgood, McIlvaine 1892)</item>
                         <item>Letter 1807A. p. 241. In the head note, Swinburne <hi rendition="#u">should be</hi> Swinburne,</item>
@@ -2276,8 +2270,8 @@ The College of William and Mary, in Virginia
                                 be</hi> 257, A</item>
                         <item>Letter 1826A p. 268. In the text note, the <hi rendition="#u">should
                                 be</hi> The</item>
-                        <item>Letter 1826C. p. 271. In note 2, <title>PB</title> I <hi rendition="#u">should be</hi>
-                            <title>PB</title>(1866)</item>
+                        <item>Letter 1826C. p. 271. In note 2, <title rendition="#i">PB</title> I <hi rendition="#u">should be</hi>
+                            <title rendition="#i">PB</title>(1866)</item>
                         <item>Letter 1827E. p. 276. In the head note, delete , from
                             Swinburne</item>
                         <item>Letter 476B. p. 282. In the penultimate line, publicat <hi rendition="#super">n</hi>
@@ -2313,10 +2307,10 @@ The College of William and Mary, in Virginia
                         Letters 1034A, 1052D, 1203D, 1216A, 1245B, 1497A</item>
                     <item>In a number of letters, “The Pines,” <hi rendition="#u">should be</hi> better centered: see
                         Letters 1259A, 1260B, 1332A, 1407D</item>
-                    <item>In several notes, <title>Selection</title> or
-                        <title>Selections</title> should be <title>A Selection</title>; see Letters 103A,
+                    <item>In several notes, <title rendition="#i">Selection</title> or
+                        <title rendition="#i">Selections</title> should be <title rendition="#i">A Selection</title>; see Letters 103A,
                         430B</item>
-                    <item>In several notes, <title>Catalogue</title> should be <title>A
+                    <item>In several notes, <title rendition="#i">Catalogue</title> should be <title rendition="#i">A
                     Catalogue</title>; see Letters 978F, 1685C, 1612B</item>
                     </list>
                 </div>
