@@ -3,7 +3,7 @@
     <fileDesc>
       <titleStmt>
         <title>Algernon Charles Swinburne: An Enumerative Bibliography, 1980-2010</title>
-        <author ref="#williams" xml:id="kawilliams">Kelsey Williams</author>
+	<author><persName ref="#williams" xml:id="kawilliams">Kelsey Williams<persName></author>
         <editor role="editor">
           <persName ref="#jawalsh">John A. Walsh</persName>
         </editor>
@@ -36,7 +36,7 @@
 				
         <biblStruct>
           <analytic>
-            <author><persName>Kelsey Williams</persName></author>
+            <author><persName ref="#williams">Kelsey Williams</persName></author>
             <title>Algernon Charles Swinburne: An Enumerative Bibliography, 1980-2010</title>
           </analytic>
           <monogr>
