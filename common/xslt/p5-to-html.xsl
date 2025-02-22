@@ -236,8 +236,8 @@
                 <xsl:call-template name="lookup-persName-by-id">
                   <xsl:with-param name="ref" select="@ref"/>
                 </xsl:call-template>
-                <xsl:value-of select="'. '"/>
               </xsl:for-each>
+	      <xsl:value-of select="'. '"/>
               <xsl:value-of select="concat(normalize-space(fileDesc/titleStmt/title), '. ')"/>
               <cite>The Algernon Charles Swinburne Project</cite>
               <!-- editor -->
@@ -757,7 +757,7 @@
     <!-- Remove the leading '#' from the target value -->
     <xsl:variable name="id" select="substring-after($ref, '#')"/>
     <!-- Use XPath to retrieve the element with the matching xml:id -->
-    <xsl:value-of select="//person[@xml:id = $id]/persName"/>
+    <xsl:value-of select="//person[@xml:id = $id]/persName[1]"/>
   </xsl:template>
   <xsl:template name="searchMeta">
     <!-- 
