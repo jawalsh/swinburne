@@ -1585,14 +1585,16 @@ The College of William and Mary, in Virginia
                                             <ab>[Mourning stationery]</ab>
                                         </div>
                                         <div>
-                                        <opener>
-                                            
-                                            
+                                            <!--
+                                        <p>
                                             I don’t know about the shades of black paper you say you ‘ought not to use.’  The whole custom of mourning in black paper or clothes seems to me absurd &amp; vulgar &amp; ostentatious.<note resp ="#meyers" xml:id="note_1475c_01">The PS is cross-written atop the first page.</note> 
-                                            
+                                        </p>
+    
                                             The Pines<dateline> Aug. 14. 99</dateline>
+                                            -->
+                                            <opener>
                                             <salute>My dearest Ally,</salute>
-                                        </opener>
+                                            </opener>
                                             <p>I am indeed thrilled by your Pickwickian address.<note resp ="#meyers"  xml:id="note_1475c_02">Alice Swinburne’s letter is untraced.  </note>   I am sure you &amp; Abba have taken every precaution against such mistakes of rooms as made Mr. P’s visit so memorable.<note resp="#meyers"  xml:id="note_1475c_03"><title rendition="#i">Pickwick Papers,</title> Chapter 22.</note>   I am glad you are out of town, anyhow, tho’ flies would make me cut my throat.  The one thing that has tempered this exceptionally infernal summer to me has been their unusual absence at this time of year.  It has been awful—for me—&amp; is still, in the afternoon, usually.</p>
                                         <p>I am very sorry to hear of a man of ninety—a friend of yours—having an accident.  It must be very upsetting for his grandson’s festivities on coming of age—not that I at that age should have enjoyed the ceremony, if I know or remember myself.</p>
                                             <p>If you want a real old inn you should go to Newhaven &amp; see the rooms in which Louis Phillippe &amp; family slept the night after they fled from the Tuileries.<note resp="#meyers"  xml:id="note_1475c_04">At the Bridge Hotel, High Street, dating from the 1620’s; Louis Philippe (1773-1850), the last king of France, and his family stayed there one night, March 1848, after fleeing the revolution in Paris.</note>    Rather a change, &amp; rather small &amp; fusty, but lovely in shape &amp; furniture.</p>
@@ -1602,8 +1604,8 @@ The College of William and Mary, in Virginia
                                         
                                         <closer>
                                             <salute>Best love to you both &amp; kindest rems from ‘the others.’</salute><lb></lb>
-                                            <salute>Ever your mt aff brother</salute>
-                                            <signed>AC Swinburne</signed>
+                                            <salute rend="margin-left:14rem;">Ever your mt aff brother</salute>
+                                            <signed rend="margin-left:16rem;">AC Swinburne</signed>
                                         </closer>
                                     </div>
                                     </div>
