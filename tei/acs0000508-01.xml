@@ -594,9 +594,7 @@
                     that void. Edmund Gosse and the bibliographer and forger Thomas J. Wise edited
                     the <soCalled>Bonchurch Edition</soCalled> of <title rendition="#i">The Complete Works of
                         Algernon Charles Swinburne</title> (London: Heinemann, 1924-27) in twenty
-                    volumes, but their edition is considered unreliable, <cit>
-                        <quote type="block" rendition="#blockquote">misleading in arrangement and omissions and … often corrupt</quote>
-                        <bibl>(<ref target="#hyder1970">Hyder</ref> xi).</bibl>
+				volumes, but their edition is considered unreliable, <cit><quote>&#x201C;misleading in arrangement and omissions and … often corrupt&#x201D;</quote> <bibl>(<ref target="#hyder1970">Hyder</ref> xi).</bibl>
                     </cit> Wise&#x2019;s <title rendition="#i">Bibliography</title>, published separately and as volume
                     twenty of the “Bonchurch Edition,” is an important and useful source of
                     information on Swinburne&#x2019;s published works, though marred by the inclusion of
@@ -626,13 +624,16 @@
                         text of <title level="a"><ref target="document:acs0000001-01-i003">A Ballad
                                 of Death</ref></title> reads <q>Her curled air had the wave of
                             sea-water</q> for <q>Her curled hair had the wave of sea-water.</q> See
-                        the encoding that records this error and the supplied correction: <egXML
-                            xmlns="http://www.tei-c.org/ns/Examples">
-                            <l n="36"> Her curled <choice>
-                                    <sic>air</sic>
-                                    <corr>hair</corr>
-                                </choice> had the wave of sea-water </l>
-                        </egXML>
+				    the encoding that records this error and the supplied correction: 
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<l n="36"> Her curled 
+  <choice>
+    <sic>air</sic>
+    <corr>hair</corr>
+  </choice> 
+  had the wave of sea-water 
+</l>
+</egXML>
                     </p>
                 </div>
                 <div xml:id="note_on_the_text_lcc">
