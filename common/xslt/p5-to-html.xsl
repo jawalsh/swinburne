@@ -1,8 +1,17 @@
 <?xml version="1.0"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:swinburne="tag:biblicon.org,2024:swinburne" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/1999/xhtml" version="3.0" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
+<xsl:stylesheet 
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:swinburne="tag:biblicon.org,2024:swinburne"
+  xmlns:tei="http://www.tei-c.org/ns/1.0"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+  xmlns:eg="http://www.tei-c.org/ns/Examples"
+  xmlns="http://www.w3.org/1999/xhtml" 
+  version="3.0" 
+  xpath-default-namespace="http://www.tei-c.org/ns/1.0">
   <!-- transform a TEI document into an HTML page-->
   <!--<xsl:import href="render-metadata.xsl"/>-->
   <xsl:import href="config.xsl"/>
+  <xsl:import href="xml-to-string.xsl"/>
   <xsl:param name="context"/>
   <xsl:variable name="base-text" select="//biblStruct[@xml:id = concat(/TEI/@xml:id, '-bibl')]"/>
   <xsl:param name="site-dir">
@@ -24,6 +33,9 @@
   <xsl:variable name="title" select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/title"/>
   <!-- get the IIIF manifest -->
   <xsl:variable name="embedded-manifest-uri" select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno[@type = 'iiif-manifest']"/>
+  <xsl:template match="/" priority="1">
+	  <xsl:apply-templates/>
+  </xsl:template>
   <xsl:template match="/tei:TEI">
     <html class="tei">
       <xsl:attribute name="xml:id">
@@ -305,7 +317,7 @@
   <!-- TEI "phrase-level", model.global.edit, "gLike", and "lLike" elements are mapped to html:span -->
   <!-- Also tei:label since it is only used in the chymistry corpus with phrase content -->
   <!-- Also tei:q, tei:quote -->
-  <xsl:template priority="-0.1" match="respStmt | bibl | author | fw | binaryObject | formula | graphic | media | code | distinct | emph | extent | foreign | gloss | ident | mentioned | soCalled | term | title | hi | caesura | rhyme | address | affiliation | email | date | time | depth | dim | geo | height | measure | measureGrp | num | unit | width | name | orgName | persName | geogFeat | offset | addName | forename | genName | nameLink | roleName | surname | bloc | country | district | geogName | placeName | region | settlement | climate | location | population | state | terrain | trait | idno | lang | objectName | rs | abbr | am | choice | ex | expan | subst | add | corr | damage | del | handShift | mod | orig | redo | reg | restore | retrace | secl | sic | supplied | surplus | unclear | undo | catchwords | dimensions | heraldry | locus | locusGrp | material | objectType | origDate | origPlace | secFol | signatures | stamp | watermark | att | gi | tag | val | ptr | ref | oRef | pRef | c | cl | m | pc | phr | s | seg | w | specDesc | specList | addSpan | app | damageSpan | delSpan | gap | space | witDetail | g | l | label | q | quote | biblScope | publisher | pubPlace | street">
+  <xsl:template priority="-0.1" match="cit | respStmt | bibl | author | fw | binaryObject | formula | graphic | media | code | distinct | emph | extent | foreign | gloss | ident | mentioned | soCalled | term | title | hi | caesura | rhyme | address | affiliation | email | date | time | depth | dim | geo | height | measure | measureGrp | num | unit | width | name | orgName | persName | geogFeat | offset | addName | forename | genName | nameLink | roleName | surname | bloc | country | district | geogName | placeName | region | settlement | climate | location | population | state | terrain | trait | idno | lang | objectName | rs | abbr | am | choice | ex | expan | subst | add | corr | damage | del | handShift | mod | orig | redo | reg | restore | retrace | secl | sic | supplied | surplus | unclear | undo | catchwords | dimensions | heraldry | locus | locusGrp | material | objectType | origDate | origPlace | secFol | signatures | stamp | watermark | att | gi | tag | val | ptr | ref | oRef | pRef | c | cl | m | pc | phr | s | seg | w | specDesc | specList | addSpan | app | damageSpan | delSpan | gap | space | witDetail | g | l | label | q | quote | biblScope | publisher | pubPlace | street">
     <xsl:element name="span">
       <xsl:apply-templates mode="create-attributes" select="."/>
       <xsl:apply-templates mode="create-content" select="."/>
@@ -732,4 +744,17 @@
       </xsl:attribute>
     </meta>
   </xsl:template>
+  <xsl:template match="eg:egXML">
+        <div>
+	<pre>
+        <code class="language-xml">
+            <xsl:call-template name="xml-to-string" exclude-result-prefixes="eg">
+                <xsl:with-param name="node-set">
+            <xsl:copy-of select="node()|@*"/>
+                </xsl:with-param>
+            </xsl:call-template>
+        </code>
+        </pre>
+        </div>
+    </xsl:template>
 </xsl:stylesheet>
