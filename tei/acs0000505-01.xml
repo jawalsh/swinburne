@@ -1258,6 +1258,44 @@ The College of William and Mary, in Virginia
                         <item>Letter 1407B. p. 423. In line 9, difficulty were about <hi rendition="#u">should be</hi> difficulty were absent</item>
                         <item>Letter 1407D. p. 424. In the date, [1887] <hi rendition="#u">should
                                 be</hi> [1887?] </item>
+                        <item>An added letter:
+                            <floatingText type="uncollected-letter" xml:id="l1421A">
+                                <body>
+                                    <head>1421A. <hi rendition="#sc">To: Edward Swinburne</hi>
+                                    </head>
+                                    <head rendition="#sc">Text: MS., The Sheila and Terry Meyers Collection of Swinburneiana, the College
+                                        of William and Mary</head>
+                                    <div type="letter">
+                                        <opener>The Pines <dateline>May. 16th 1887</dateline>
+                                            <salute>My dear Edward</salute>
+                                        </opener>
+                                        <p> I return the papers <note resp ="#meyers" xml:id="note_1412a_01">Unidentified,apparently legal or
+                                            financial papers of some sort.</note> at once with my signature duly
+                                            appended. I am very much obliged to you, both for explaining the matter to me
+                                            sufficiently &amp; for not explaining it too much at the risk of addling my
+                                            head with details.I always feel conscious of an incipient softening of the
+                                            brain when anybody attempts to make me follow a calculation of any kind. Bertie
+                                            rather self-complacently asked me the other day what I thought of
+                                            rule-of-three. I could only intimate that I thought it a very nice game for
+                                            boys who were strong enough to play at it—with or without wickets. <note resp ="#meyers" xml:id="note_1412a_02">See the old poem; one Victorian variation was “Multiplication
+                                                is my vexation, / Division is twice as bad, / The Rule of Three puzzles me,
+                                                /And Practice makes me mad” (qtd. in Sir John Bowring, The Decimal System in
+                                                Numbers, Coins, and Accounts, [London: Nathaniel Cooke, 1854], p.
+                                                36)</note>
+                                            
+                                        </p>
+                                        <p>Will you tell Ally I meant to have answered her letter yesterday &amp; hope to
+                                            do so today or tomorrow? </p>
+                                        <closer>
+                                            <salute>With best love to all</salute>
+                                            <salute> Ever your affectionate brother </salute>
+                                            <signed> AC Swinburne </signed>
+                                        </closer>
+                                    </div>
+                                </body>
+                                
+                            </floatingText>
+                        </item>
                         <item>Letter 1461A. p. 441. In line 1, “Mackail” deserves a note: J. W.
                             Mackail (1859-1945), classicist and editor, the biographer of William
                             Morris.</item>
