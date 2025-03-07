@@ -24,6 +24,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
       <meta name="description" content="The Algernon Charles Swinburne Project: A Scholarly Edition"/>
       <meta name="author" content="John A. Walsh"/>
+      <!-- highlightjs -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css"/>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
       <xsl:call-template name="pagefind-meta"/>
       <!-- js -->
       <!-- link to customized bootstrap css -->
@@ -109,6 +112,7 @@
       <!-- link to local bootstrap js -->
       <script type="module" src="js/pageFindHighlight.js"/>
       <script src="js/bootstrap.bundle.min.js"/>
+      <script src="js/highlightAll.js"/>
     </xsl:copy>
   </xsl:template>
   <xsl:template name="sub-menu">
