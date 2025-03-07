@@ -1266,7 +1266,8 @@ The College of William and Mary, in Virginia
                                     <head rendition="#sc">Text: MS., The Sheila and Terry Meyers Collection of Swinburneiana, the College
                                         of William and Mary</head>
                                     <div type="letter">
-                                        <opener>The Pines <dateline>May. 16th 1887</dateline>
+					    <opener><placeName rend="margin-left:20em;">The Pines,</placeName> 
+						    <dateline rend="margin-left:20em;">May 16. 87</dateline>
                                             <salute>My dear Edward</salute>
                                         </opener>
                                         <p> I return the papers <note resp ="#meyers" xml:id="note_1412a_01">Unidentified,apparently legal or
@@ -1279,17 +1280,17 @@ The College of William and Mary, in Virginia
                                             rule-of-three. I could only intimate that I thought it a very nice game for
                                             boys who were strong enough to play at it—with or without wickets. <note resp ="#meyers" xml:id="note_1412a_02">See the old poem; one Victorian variation was “Multiplication
                                                 is my vexation, / Division is twice as bad, / The Rule of Three puzzles me,
-                                                /And Practice makes me mad” (qtd. in Sir John Bowring, The Decimal System in
-                                                Numbers, Coins, and Accounts, [London: Nathaniel Cooke, 1854], p.
+					    /And Practice makes me mad” (qtd. in Sir John Bowring, <title rendition="#i">The Decimal System in
+					    Numbers, Coins, and Accounts</title>, [London: Nathaniel Cooke, 1854], p.
                                                 36)</note>
                                             
                                         </p>
                                         <p>Will you tell Ally I meant to have answered her letter yesterday &amp; hope to
-                                            do so today or tomorrow? </p>
+						do so today or tomorrow? </p>                                            
+					<p>With best love to all</p>
                                         <closer>
-                                            <salute>With best love to all</salute>
-                                            <salute> Ever your affectionate brother </salute>
-                                            <signed> AC Swinburne </signed>
+                                            <salute rend="margin-left:16em;">Ever your affectionate brother </salute>
+                                            <signed rend="margin-left:18em;">AC Swinburne </signed>
                                         </closer>
                                     </div>
                                 </body>
