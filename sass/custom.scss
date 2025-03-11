@@ -217,7 +217,7 @@ div.tei-castItem + div.tei-castGroup {
 }
 
 div:not(.tei-note) > .first-tei-p {
-  text-indent: 0 !important;
+  text-indent: 0; 
 }
 
 .place-above {
