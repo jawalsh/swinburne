@@ -1181,15 +1181,14 @@ The College of William and Mary, in Virginia
                                     <opener>
                                       <dateline><placeName rendition="#center #center-block">The Pines.<lb/>
                                         Putney Hill,<lb/>
-                                          S.W.</placeName><date rendition="#right" when="1884-11-14">[November 14, 1884] <note resp="#meyers" xml:id="note_91">
-                                              <p>
-                                                  Swinburne notes that “just after” November 12, 1884, he had received “a pathetically pressing invitation to luncheon” with Houghton (<title rendition="#i">Letters</title>, V, 89).  Houghton had broken his collarbone—he fell out of bed when he dreamed Gladstone was pursuing him in a hansom cab.  In London, “closely confined to the house by the doctor’s orders, his old spirit reasserted itself, and he received with delight the friends who came to see him” (T. Wemyss Reid, <title rendition="#i">The Life, Letters, and Friendships of Richard Monckton Milnes, First Lord Houghton</title>, 2 vols. [London: Cassell &amp; Co., 1890], II, 430).</p>  
+                                          S.W.</placeName><date rendition="#right" when="1884-11-14">[November 14, 1884] <note resp="#meyers" xml:id="note_91" rendition="#left">
+                                              <p>Swinburne notes that “just after” November 12, 1884, he had received “a pathetically pressing invitation to luncheon” with Houghton (<title rendition="#i">Letters</title>, V, 89).  Houghton had broken his collarbone—he fell out of bed when he dreamed Gladstone was pursuing him in a hansom cab.  In London, “closely confined to the house by the doctor’s orders, his old spirit reasserted itself, and he received with delight the friends who came to see him” (T. Wemyss Reid, <title rendition="#i">The Life, Letters, and Friendships of Richard Monckton Milnes, First Lord Houghton</title>, 2 vols. [London: Cassell &amp; Co., 1890], II, 430).</p>  
                                               <p>I am grateful to Polly Beauwin at Maggs Brothers for allowing me to print this letter from a facsimile in their “Occasional List.”  When I bought the letter for my collection, it was mailed, but never arrived.</p>
                                               <p>Someone has penciled on the letter “22 Feb. 1878,” a date presumably taken from the postmark on an accompanying envelope in the lot, bordered in black, according to the Maggs description, and surely addressed to Lord Houghton.   But that date for this letter is impossible as The Pines stationery makes clear—the envelope must have contained Swinburne’s letter to Lord Houghton, February 22 [1878] (<title rendition="#i">Letters</title>, IV, 45-46).</p><!-- note body -->
                                           </note> </date></dateline>
                                       <salute>Dear Lord Houghton</salute>
                                     </opener>
-                                    <p>Very sorry to hear of your accident.  Watts &amp; I will come to luncheon on Sunday with pleasure.  He wrote yesterday to accept the invitation for Saturday, as we both thought that was the day named in your note.</p>
+				    <p rendition="#indent">Very sorry to hear of your accident.  Watts &amp; I will come to luncheon on Sunday with pleasure.  He wrote yesterday to accept the invitation for Saturday, as we both thought that was the day named in your note.</p>
                                     <closer>
                                       <salute rendition="#ti-10">Ever yours truly,</salute>
                                       <signed rendition="#ti-12">AC Swinburne</signed>
