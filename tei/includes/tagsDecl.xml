@@ -64,7 +64,8 @@
     <rendition n="uppercase" xml:id="uc" scheme="css">text-transform: uppercase;</rendition>
     <!-- text-align -->
     <rendition n="align center" xml:id="center" scheme="css">display:block; text-align: center;</rendition>
-    <rendition n="align right" xml:id="right" scheme="css">text-align: right;</rendition>
+    <rendition n="align right" xml:id="right" scheme="css">display:block; text-align: right;</rendition>
+    <rendition n="align left" xml:id="left" scheme="css">display:block; text-align:left;</rendition>
     
     
     <!-- block alignment: centers a block of text, but doesn't affect the 
@@ -147,7 +148,7 @@
     <rendition n="justify" xml:id="justify" scheme="css">text-align: justify;</rendition>
     
     
-    <rendition n="indent" xml:id="indent" scheme="css">text-indent:2rem;</rendition>
+    <rendition n="indent" xml:id="indent" scheme="css">text-indent:2rem !important;</rendition>
     
     <rendition n="single quotes" xml:id="sq" scheme="css">
         span.sq:before {
