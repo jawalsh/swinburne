@@ -81,7 +81,7 @@
             <xsl:variable name="css-properties" select="normalize-space(.)"/>
             <!-- Process @xml:id -->
             <xsl:if test="$id">
-              <xsl:text>.rendition-</xsl:text>
+	       <xsl:text>&#x000a;.rendition-</xsl:text>
               <xsl:value-of select="$id"/>
               <xsl:text> {</xsl:text>
               <xsl:call-template name="process-css-properties">
