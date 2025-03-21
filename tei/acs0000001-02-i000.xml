@@ -469,7 +469,7 @@ For example:
             
 				<index corresp="acs0000001-02-i000-md.xml" indexName="text"/>
 				<pb n="[v]" facs="acs0000001-02-010"/>
-			<head rendition="#center #uc">Dedication<lb/> <hi rendition="#block">to</hi><lb/> <persName ref="#mazzini" corresp="#unfamiliar" rendition="#block">Joseph Mazzini</persName></head>
+			<head rendition="#center #uc">Dedication<lb/> to<lb/> <persName ref="#mazzini" corresp="#unfamiliar" rendition="#block">Joseph Mazzini</persName></head>
 			<lg>
 				<l n="1">
 					<hi rendition="#sc"> Take</hi>, since you bade it should bear,</l>
