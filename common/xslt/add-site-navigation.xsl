@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns="http://www.w3.org/1999/xhtml" xmlns:map="http://www.w3.org/2005/xpath-functions/map" version="3.0" xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="fn map" expand-text="true">
+<xsl:stylesheet xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns="http://www.w3.org/1999/xhtml" xmlns:map="http://www.w3.org/2005/xpath-functions/map" version="3.0" xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="fn map" expand-text="true">
   <xsl:output cdata-section-elements="script" indent="yes"/>
   <xsl:import href="config.xsl"/>
   <!-- embed the page in global navigation -->
@@ -13,6 +13,9 @@
   <xsl:variable name="volume" select="$contents-json-xml//fn:map[@key = 'volume' and fn:string[@key = 'id'] = $volume-id]"/>
   <xsl:variable name="volume-title" select="$volume/fn:string[@key='title']"/>
   <xsl:variable name="search-page" select="/html/head/meta[@name = 'search']/@content"/>
+  <xsl:variable name="authorities">
+    <xsl:copy-of select="document('../../tei/includes/authority.xml')"/>
+  </xsl:variable>
   <xsl:mode on-no-match="shallow-copy"/>
   <!-- insert link to global CSS, any global <meta> elements belong here too -->
   <xsl:template match="head">
@@ -26,12 +29,12 @@
       <meta name="author" content="John A. Walsh"/>
       <!-- highlightjs -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css"/>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"/>
       <xsl:call-template name="pagefind-meta"/>
       <!-- js -->
       <!-- link to customized bootstrap css -->
       <link rel="stylesheet" href="css/custom.min.css"/>
-      <script defer="defer" src="https://umami.biblicon.org/script.js" data-website-id="801a7611-8422-4de4-a569-d83a90cd0ced"></script>
+      <script defer="defer" src="https://umami.biblicon.org/script.js" data-website-id="801a7611-8422-4de4-a569-d83a90cd0ced"/>
     </xsl:copy>
   </xsl:template>
   <!-- add a global suffix to every page title -->
@@ -52,19 +55,19 @@
         <!-- menus read from menus.json -->
         <nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-dark">
           <div class="container-fluid">
-		  <a class="navbar-brand">
-			<xsl:attribute name="href">
-				<xsl:choose>
-					<xsl:when test="$context != '/'">
-						<xsl:value-of select="concat('/',$context,'/')"/>
-					</xsl:when>
-					<xsl:otherwise>
-						<xsl:value-of select="'/'"/>
-					</xsl:otherwise>
-				</xsl:choose>
-			</xsl:attribute>
-				<xsl:text>ACS</xsl:text>
-		  </a>
+            <a class="navbar-brand">
+              <xsl:attribute name="href">
+                <xsl:choose>
+                  <xsl:when test="$context != '/'">
+                    <xsl:value-of select="concat('/',$context,'/')"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="'/'"/>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </xsl:attribute>
+              <xsl:text>ACS</xsl:text>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"/>
             </button>
@@ -142,22 +145,22 @@
     </ul>
   </xsl:template>
   <xsl:template match="fn:string" mode="main-menu">
-	  <xsl:if test="not($search-page = 'true' and @key = 'Search 🔎')">
-    <li class="nav-item">
-      <a class="nav-link">
-	      <xsl:attribute name="href">
-		      <xsl:choose>
-			      <xsl:when test="$context != '/'">
-				      <xsl:value-of select="concat('/',$context,.)"/>
-			      </xsl:when>
-			      <xsl:otherwise>
-				      <xsl:value-of select="."/>
-			      </xsl:otherwise>
-		      </xsl:choose>
-	      </xsl:attribute>
-        <xsl:value-of select="@key"/>
-      </a>
-    </li>
+    <xsl:if test="not($search-page = 'true' and @key = 'Search &#x1F50E;')">
+      <li class="nav-item">
+        <a class="nav-link">
+          <xsl:attribute name="href">
+            <xsl:choose>
+              <xsl:when test="$context != '/'">
+                <xsl:value-of select="concat('/',$context,.)"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="."/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:attribute>
+          <xsl:value-of select="@key"/>
+        </a>
+      </li>
     </xsl:if>
   </xsl:template>
   <xsl:template match="fn:map[ancestor::fn:map]/fn:string" mode="main-menu">
@@ -168,15 +171,14 @@
             <xsl:value-of select="."/>
           </xsl:when>
           <xsl:otherwise>
-		      <xsl:choose>
-			      <xsl:when test="$context != '/'">
-				      <xsl:value-of select="concat('/',$context,.)"/>
-			      </xsl:when>
-			      <xsl:otherwise>
-				      <xsl:value-of select="."/>
-			      </xsl:otherwise>
-		      </xsl:choose>
-
+            <xsl:choose>
+              <xsl:when test="$context != '/'">
+                <xsl:value-of select="concat('/',$context,.)"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="."/>
+              </xsl:otherwise>
+            </xsl:choose>
           </xsl:otherwise>
         </xsl:choose>
       </xsl:attribute>
@@ -440,7 +442,7 @@ Code repository: <a href="https://github.com/jawalsh/swinburne">jawalsh/swinburn
   </xsl:template>
   <!-- identify project-docs that get regular headings -->
   <xsl:template mode="replace-class" match="h1[contains-token(@class, 'tei-head')]|h2[contains-token(@class, 'tei-head')]|h3[contains-token(@class, 'tei-head')]|h4[contains-token(@class, 'tei-head')]|h5[contains-token(@class, 'tei-head')]|h6[contains-token(@class, 'tei-head')]">
-	  <xsl:if test="/html/@xml:id = 'acs0000503-01' or /html/@xml:id = 'acs0000508-01' or /html/@xml:id = 'acs0000504-01' or /html/@xml:id = 'acs0000500-01'or /html/@xml:id = 'acs0000505-01' or /html/@xml:id = 'acs0000507-01' or contains-token[@class, 'rendition-styled']">
+    <xsl:if test="/html/@xml:id = 'acs0000503-01' or /html/@xml:id = 'acs0000508-01' or /html/@xml:id = 'acs0000504-01' or /html/@xml:id = 'acs0000500-01'or /html/@xml:id = 'acs0000505-01' or /html/@xml:id = 'acs0000507-01' or contains-token[@class, 'rendition-styled']">
       <xsl:attribute name="class">
         <xsl:value-of select="concat(@class, ' project-doc')"/>
       </xsl:attribute>
@@ -577,7 +579,7 @@ Code repository: <a href="https://github.com/jawalsh/swinburne">jawalsh/swinburn
     <!-- generate button  -->
     <xsl:choose>
       <xsl:when test="contains-token(@class, 'type-chronoLetter')">
-	      &#x1f4c4; <button type="button" class="btn btn-link" style="font-size: inherit;" data-bs-toggle="modal" data-bs-target="{concat('#m-',@id)}">A Letter</button><br/>
+	      &#x1F4C4; <button type="button" class="btn btn-link" style="font-size: inherit;" data-bs-toggle="modal" data-bs-target="{concat('#m-',@id)}">A Letter</button><br/>
       </xsl:when>
       <xsl:otherwise>
         <button type="button" class="btn btn-outline-primary p-1" style="font-size: .7rem; vertical-align: super;" data-bs-toggle="modal" data-bs-target="{concat('#m-',@id)}">&#x2020;</button>
@@ -596,16 +598,7 @@ Code repository: <a href="https://github.com/jawalsh/swinburne">jawalsh/swinburn
                 <xsl:otherwise>
 			  Note
 	                 					
-			<xsl:if test="not(contains(@class, 'resp-acs'))">
-				<xsl:choose>
-					<xsl:when test="contains(@class, 'resp-meyers')">
-						<xsl:text>(Terry L. Meyers)</xsl:text>
-					</xsl:when>
-					<xsl:otherwise>
-						<xsl:text>(editor)</xsl:text>
-					</xsl:otherwise>
-				</xsl:choose>
-			</xsl:if>
+			<xsl:if test="not(contains(@class, 'resp-acs'))"><xsl:choose><xsl:when test="contains(@class, 'resp-meyers')"><xsl:text>(Terry L. Meyers)</xsl:text></xsl:when><xsl:otherwise><xsl:text>(editor)</xsl:text></xsl:otherwise></xsl:choose></xsl:if>
 		 </xsl:otherwise>
               </xsl:choose>
             </h1>
@@ -623,6 +616,57 @@ Code repository: <a href="https://github.com/jawalsh/swinburne">jawalsh/swinburn
         </div>
       </div>
     </div>
+  </xsl:template>
+  <!-- persName glosses -->
+  <xsl:template match="span[contains-token(@class, 'tei-persName') and contains-token(@class, 'corresp-unfamiliar')]">
+    <xsl:param name="refID" select="substring-after(head((tokenize(@class)[starts-with(., 'ref-')])), 'ref-')"/>
+    <xsl:param name="tmpID" select="generate-id(.)"/>
+    <xsl:param name="person" select="$authorities//tei:person[@xml:id = $refID]"/>
+    <xsl:copy>
+      <xsl:copy-of select="@*"/>
+      <xsl:apply-templates/>
+      <!-- generate button  -->
+      <xsl:value-of select="'&#xA0;'"/>
+      <button type="button" class="btn btn-outline-primary p-1" style="font-size: .7rem; vertical-align: super;" data-bs-toggle="modal" data-bs-target="{concat('#m-',$tmpID)}">&#x2020;</button>
+      <!-- generate modal -->
+      <div class="modal fade" id="{concat('m-',$tmpID)}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5">
+                <xsl:value-of select="$person/tei:persName[1]"/>
+                <xsl:value-of select="concat('&#xA0;(',$person/tei:birth/tei:date/@when,'-',$person/tei:death/tei:date/@when,')')"/>
+              </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"/>
+            </div>
+            <div class="modal-body">
+              <xsl:apply-templates select="$person/tei:note[@ana = '#description']"/>
+              <xsl:if test="$person/tei:bibl/tei:ptr">
+                <div>
+                  <div style="font-weight:bold;">Resources</div>
+                  <xsl:apply-templates select="$person/tei:bibl/tei:ptr"/>
+                </div>
+              </xsl:if>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </xsl:copy>
+  </xsl:template>
+  <xsl:template match="tei:note[@ana = '#description']/tei:p">
+    <p>
+      <xsl:apply-templates/>
+    </p>
+  </xsl:template>
+  <xsl:template match="tei:bibl/tei:ptr">
+    <p>
+      <a href="{@target}">
+        <xsl:value-of select="@target"/>
+      </a>
+    </p>
   </xsl:template>
   <!-- pagefind -->
   <xsl:template match="script[@id='loadSearch']">
