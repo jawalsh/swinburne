@@ -190,12 +190,14 @@ content:'’';
   @extend .mb-4;
 }
 
-/** turn of text-indent for notes inside lines */
+/** turn off text-indent for notes inside lines */
 .tei-l .modal,
 .tei-head .modal,
 .tei-speaker .modal {
   text-indent: 0;
   text-align: left;
+  text-transform: none;
+
 }
 
 html {
