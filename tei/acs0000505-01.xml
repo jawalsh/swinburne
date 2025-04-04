@@ -1296,6 +1296,44 @@ The College of William and Mary, in Virginia
                                 
                             </floatingText>
                         </item>
+                        <item>
+                            <p>An added letter:</p>
+                            
+                            <floatingText type="uncollected-letter" xml:id="l431A">
+                                <body>
+                                    <head>1431A. <hi rendition="#sc">TO: FRANK HARRIS<note resp="#meyers" xml:id="note_1431A_02">Lang includes most of this letter (Letters, V, 196); I include it here to add several details.   Harris is confirmed (and the letter dated) by Swinburne’s letter to Watts, July 21, 1887 (<title rendition="#i">Letters</title>, V, 199) which encloses this letter to be sent on; the mention there of Swinburne’s views comporting to Watts’ refers presumably to Watts’ own recommendations to Harris: <title rendition="#i">The Iliad, Othello, Mort d’Arthure, Hamlet,</title> and <title rendition="#i">Tristram Shandy</title>      (<title rendition="#i">The Fortnightly Review,</title> September 1, 1887, p. 453).  This letter is mentioned in “The Fortnightly Review under Harris, 1886-1894” (online: <ptr target="http://fortnightlyreview.co.uk/history_courtney-harris/"/>).
+                                        I am grateful to Frank Sharp for bringing this and letters 1636A and 1636B and 1691A, below, to my attention.
+                                    </note></hi></head>
+                                    <head>Text: “Fine Passages in Verse and Prose; Selected by Living Men of Letters.  I.,” <title rendition="#i">The Fortnightly Review</title>, August 1, 1887, p. 316.
+                                    </head>
+                                    <div type="letter">
+                                        <opener>
+                                            <dateline><date when="1887-07-21">[July 21, 1887]</date></dateline>
+                                        </opener>
+                                        <p>I had naturally and inevitably to resign all thought of choosing any one or two or three passages
+                                            <note resp="#meyers" xml:id="note_1431A_01">Swinburne is replying to a request sent in the first instance to “English men and women who love letters” 
+                                                to identify “’the one passage in all poetry which seems the finest, and also the one passage in prose which appears of its kind best,’” a request 
+                                                modified to “only such passages as had lodged themselves in the memory and had afforded the most continual delight (p. 297).  Replies from many
+                                                eminent Victorians are included in the multipart series.</note> from either Shakespeare or the Bible, and took it for granted that everybody
+                                            would understand why.  There are too many passages equally and diversely great and unsurpassable.  Nor do I mean that there are not other
+                                            passages in AEschylus or in Dante which may be set beside or above the two I have chosen — but simply that there are none in which I happen
+                                            to take more pleasure.
+                                        </p>
+                                        <p>I know no translation of AEschylus or Dante which may not be described as ‘unspeakable’ for inadequacy — 
+                                            and certainly I should never dream of attempting a new version.</p>
+                                        <p>AEschylus, Agamemnon, vv. 1035 — 1177, from <foreign xml:lang="gr">“εἴσω κομίζου καὶ σύ· Κασσάνδραν λέγω,”
+                                        </foreign> to <foreign xml:lang="gr">“τέρμα δ’ἀμηχανῶ.”</foreign></p>
+                                        <p>Dante, Inferno, xxvi., 25 — 142, from<foreign xml:lang="it"> “Quante il villan, ch’al poggio si riposa,”
+                                        </foreign> to<foreign xml:lang="it"> "Infin che’l mar fu sopra noi richiuso.”</foreign></p>
+                                        <closer>
+                                            <salute></salute><lb></lb>
+                                            <salute></salute>
+                                            <signed></signed>
+                                        </closer>
+                                    </div>
+                                </body>
+                            </floatingText>
+                        </item>
                         <item>Letter 1461A. p. 441. In line 1, “Mackail” deserves a note: J. W.
                             Mackail (1859-1945), classicist and editor, the biographer of William
                             Morris.</item>
