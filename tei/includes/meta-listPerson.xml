@@ -1148,8 +1148,7 @@
                      <date when="1864"/>
                   </death>
                   <note ana="#description">
-                     <p> English Romantic poet. Author of <title>Gebir</title>.
-                        Republican. </p>
+                     <p> English Romantic poet. Author of <title>Gebir</title>, English Romantic poet and prose “<ref target="https://en.wikipedia.org/wiki/Imaginary_Conversations">imaginary conversations</ref>.” Republican.</p>
                   </note>
                   <bibl>
                      <ptr target="http://en.wikipedia.org/wiki/Walter_Savage_Landor"/>
@@ -1326,6 +1325,7 @@
                      <ptr target="http://en.wikipedia.org/wiki/Mazzini"/>
                   </bibl>
                </person>
+               
                <person xml:id="meleager" ana="#person">
                   <persName>Meleager</persName>
                   <note ana="#description">
