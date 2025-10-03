@@ -33,7 +33,7 @@
       <xsl:call-template name="pagefind-meta"/>
       <!-- js -->
       <!-- link to customized bootstrap css -->
-      <link rel="stylesheet" href="css/custom.min.css"/>
+      <link rel="stylesheet" href="{concat('css/custom.min.css?v=',current-dateTime())}"/>
       <script defer="defer" src="https://umami.biblicon.org/script.js" data-website-id="801a7611-8422-4de4-a569-d83a90cd0ced"/>
     </xsl:copy>
   </xsl:template>
