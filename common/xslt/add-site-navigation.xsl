@@ -618,7 +618,16 @@ Code repository: <a href="https://github.com/jawalsh/swinburne">jawalsh/swinburn
     </div>
   </xsl:template>
   <!-- persName glosses -->
-  <xsl:template match="span[contains-token(@class, 'tei-persName') and contains-token(@class, 'corresp-unfamiliar')]">
+  <!--
+	  <xsl:template match="span[contains-token(@class, 'tei-persName') and contains-token(@class, 'corresp-unfamiliar')]">
+  -->
+<xsl:template match="
+  span[
+	contains-token(@class, 'tei-persName')
+	and contains-token(@class, 'corresp-unfamiliar')
+	and (some $t in tokenize(@class) satisfies starts-with($t, 'ref-'))
+  ]
+">
     <xsl:param name="refID" select="substring-after(head((tokenize(@class)[starts-with(., 'ref-')])), 'ref-')"/>
     <xsl:param name="tmpID" select="generate-id(.)"/>
     <xsl:param name="person" select="$authorities//tei:person[@xml:id = $refID]"/>
@@ -658,6 +667,7 @@ Code repository: <a href="https://github.com/jawalsh/swinburne">jawalsh/swinburn
       </div>
     </xsl:copy>
   </xsl:template>
+
   <xsl:template match="tei:note[@ana = '#description']/tei:p">
     <p>
       <xsl:apply-templates/>
