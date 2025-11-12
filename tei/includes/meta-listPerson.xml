@@ -375,22 +375,7 @@
                                 <publisher>Macmillan</publisher>, <date when="1879">1879</date>)</bibl>. </p>
                   </note>
                </person>
-               <person xml:id="browning_e" ana="#person">
-                  <persName>Browning, Elizabeth Barrett</persName>
-                  <birth>
-                     <date when="1806"/>
-                  </birth>
-                  <death>
-                     <date when="1861"/>
-                  </death>
-                  <note ana="#description">
-                     <p> English poet. Author of <title>Sonnets from the
-                            Portuguese</title> and <title>Aurora Leigh</title>. </p>
-                  </note>
-                  <bibl>
-                     <ptr target="http://en.wikipedia.org/wiki/Robert_Browning"/>
-                  </bibl>
-               </person>
+              
                <person xml:id="browning_r" ana="#person">
                   <persName>Browning, Robert</persName>
                   <birth>
@@ -2021,9 +2006,6 @@
                      <ptr target="http://en.wikipedia.org/wiki/John_Webster"/>
                   </bibl>
                </person>
-               <person xml:id="wellington" ana="#person">
-                  <persName>Wellington, Arthur Wellesley, Duke of</persName>
-               </person>
                <person xml:id="wharton" ana="#person">
                   <persName>Wharton, Henry Thornton</persName>
                   <birth>
@@ -2681,5 +2663,1392 @@
                <person xml:id="yvain" corresp="#yvain" ana="#arthurianFigure">
                   <persName>Yvain</persName>
                   <ptr target="https://pantheon.org/articles/y/yvain.html" ana="occurrenceTypes.xtm#article"/>
+               </person>
+   <!--begin Abby's additions to listPerson-->
+               <person xml:id="balzac" ana="#person">
+                  <persName>de Balzac, Honoré</persName>
+                  <birth>
+                     <date when="1799"/>
+                  </birth>
+                  <death>
+                     <date when="1850"/>
+                  </death>
+                  <note ana="#description">
+                     <p> French novelist and playwright. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Honor%C3%A9_de_Balzac"/>
+                  </bibl>
+                </person>
+                <person xml:id="thackeray" ana="#person">
+                  <persName>Thackeray, William Makepeace</persName>
+                  <birth>
+                     <date when="1811"/>
+                  </birth>
+                  <death>
+                     <date when="1863"/>
+                  </death>
+                  <note ana="#description">
+                     <p> English novelist. Author of <title>Vanity Fair</title> and <title>The Luck of Barry Lyndon</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/William_Makepeace_Thackeray"/>
+                  </bibl>
+               </person>
+               <person xml:id="bacon" ana="#person">
+                  <persName>Bacon, Francis</persName>
+                  <birth>
+                     <date when="1561"/>
+                  </birth>
+                  <death>
+                     <date when="1626"/>
+                  </death>
+                  <note ana="#description">
+                     <p> English philosopher and statesman; served as Attorney General and Lord Chancellor of England. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Francis_Bacon"/>
+                  </bibl>
+               </person>
+               <person xml:id="newton" ana="#person">
+                  <persName>Newton, Sir Isaac</persName>
+                  <birth>
+                     <date when="1643"/>
+                  </birth>
+                  <death>
+                     <date when="1727"/>
+                  </death>
+                  <note ana="#description">
+                     <p> English polymath best known for his discoveries concerning the laws of gravity. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Isaac_Newton"/>
+                  </bibl>
+               </person>
+               <person xml:id="reade" ana="#person">
+                  <persName>Reade, Charles</persName>
+                  <birth>
+                     <date when="1814"/>
+                  </birth>
+                  <death>
+                     <date when="1884"/>
+                  </death>
+                  <note ana="#description">
+                     <p> British novelist and dramatist, best known for his novel <title>The Cloister and the Hearth</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Charles_Reade"/>
+                  </bibl>
+               </person>
+               <person xml:id="josiane" ana="#person">
+                  <persName>Duchess Josiana</persName>
+                  <note ana="#description">
+                     <p> A character in <title>L'Homme Qui Rit</title>, a Duchess in the English royal court who attempts to seduce Gwynplaine. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Man_Who_Laughs"/>
+                  </bibl>
+               </person>
+               <person xml:id="barkilphedro" ana="#person">
+                  <persName>Barkilphedro</persName>
+                  <note ana="#description">
+                     <p> A character in <title>L'Homme Qui Rit</title>, a royal court agent who conspires against Duchess Josiana and orchestrates much of Gwynplaine's misfortune. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Man_Who_Laughs"/>
+                  </bibl>
+               </person>
+               <person xml:id="titian" ana="#person">
+                  <persName>Vecellio, Tiziano, or Titian</persName>
+                  <birth>
+                     <date notBefore="1498" notAfter="1490">c. 1488-1490</date>
+                  </birth>
+                  <death>
+                     <date when="1576"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A renowned Italian Renaissance painter. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Titian"/>
+                  </bibl>
+               </person>
+               <person xml:id="merteuil" ana="#person">
+                  <persName>Marquise Isabelle de Merteuil</persName>
+                  <note ana="#description">
+                     <p> A character in <persName>Pierre Choderlos de Laclos</persName>'s novel <title>Les Liaisons dangereuses</title>. She and her former lover, the <persName>Vicomte Sébastien de Valmont</persName>, conspire first against other members of the French nobility, then against each other. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Les_Liaisons_dangereuses"/>
+                  </bibl>
+               </person>
+               <person xml:id="diana" ana="#person">
+                  <persName>Diana</persName>
+                  <note ana="#description">
+                     <p> The Roman parallel to Artemis, the Greek goddess of child birth, virginity, and the hunt. Correspondingly to Artemis, she was thought to be the twin sister to Apollo and the daughter of Jupiter and Latona. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Diana_(mythology)"/>
+                  </bibl>
+               </person>
+               <person xml:id="baudelaire" ana="#person">
+                  <persName>Baudelaire, Charles Pierre</persName>
+                  <birth>
+                     <date when="1821"/>
+                  </birth>
+                  <death>
+                     <date when="1867"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French poet and essayist most famous for his book of lyric poetry, <ref target="https://en.wikipedia.org/wiki/Les_Fleurs_du_mal"><title>Les Fleurs du mal</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Charles_Baudelaire"/>
+                  </bibl>
+               </person>
+               <person xml:id="virgilia" ana="#person">
+                  <persName>Virgilia</persName>
+                  <note ana="#description">
+                     <p> In Shakespeare's play <ref target="https://en.wikipedia.org/wiki/Coriolanus"><title>Coriolanus</title></ref>, she is the wife of the titular character. She pleads with her husband to make peace with Rome. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Virgilia"/>
+                  </bibl>
+               </person>
+               <person xml:id="imogen" ana="#person">
+                  <persName>Imogen, or Innogen</persName>
+                  <note ana="#description">
+                     <p> The princess of Britain and faithful wife of <persName>Posthumus</persName> in Shakespeare's <ref target="https://en.wikipedia.org/wiki/Cymbeline"><title>Cymbeline</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Imogen_(Cymbeline)"/>
+                  </bibl>
+               </person>
+               <person xml:id="lear" ana="#person">
+                  <persName>King Lear</persName>
+                  <note ana="#description">
+                     <p> The titular character of <persName>Shakespeare</persName>'s <title>King Lear</title>, his plan to divide the kingdom of Britain amongst his three daughters ends in disaster, and he is famously driven to madness. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/King_Lear"/>
+                  </bibl>
+               </person>
+               <person xml:id="ugolino" ana="#person">
+                  <persName>Ugolino della Gherardesca, Count of Donoratico</persName>
+                  <birth>
+                     <date cert="unknown" when="1214">c. 1214</date>
+                  </birth>
+                  <death>
+                     <date when="1289"/>
+                  </death>
+                  <note>
+                     <p> A traitorous Italian nobleman made famous by his depiction in <persName>Dante</persName>'s <title>Inferno</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Ugolino_della_Gherardesca"/>
+                  </bibl>
+               </person>
+               <person xml:id="dea" ana="#person">
+                  <persName>Dea</persName>
+                  <note ana="#description">
+                     <p> A character in <persName>Victor Hugo</persName>'s <title>L'Homme Qui Rit</title>, she grows up with Gwynplaine after he rescues her as an infant and ultimately falls in love with him before dying tragically. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Man_Who_Laughs"/>
+                  </bibl>
+               </person>
+               <person xml:id="esmeralda" ana="#person">
+                  <persName>Esmeralda</persName>
+                  <note ana="#description">
+                     <p> A Romani street dancer in <persName>Victor Hugo</persName>'s <title>Notre-Dame de Paris</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame"/>
+                  </bibl>
+               </person>
+               <person xml:id="fletcher" ana="#person">
+                  <persName>Fletcher, John</persName>
+                  <birth>
+                     <date when="1579-12"/>
+                  </birth>
+                  <death>
+                     <date when="1625-08"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English playwright whose fame was said to rival <persName>Shakespeare</persName>'s. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/John_Fletcher_(playwright)"/>
+                  </bibl>
+               </person>
+               <person xml:id="cowley" ana="#person">
+                  <persName>Cowley, Abraham</persName>
+                  <birth>
+                     <date when="1618"/>
+                  </birth>
+                  <death>
+                     <date when="1667-07-28"/>
+                  </death>
+                  <note ana="#description">
+                     <p> One of the leading English poets of the 17th century. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Abraham_Cowley"/>
+                  </bibl>
+               </person>
+               <person xml:id="richelieu" ana="#person">
+                  <persName>Armand Jean du Plessis, 1st Duke of Richelieu, commonly known as Cardinal Richelieu</persName>
+                  <birth>
+                     <date when="1585-09-09"/>
+                  </birth>
+                  <death>
+                     <date when="1642-12-04"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French Catholic statesman who wielded considerable power during the reign of <persName>King Louis XIII</persName>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Cardinal_Richelieu#Rise_to_power"/>
+                  </bibl>
+               </person>
+               <person xml:id="moliere" ana="#person">
+                  <persName>Poquelin, Jean-Baptiste, known by his stage name Molière</persName>
+                  <birth>
+                     <date when="1622-01-15"/>
+                  </birth>
+                  <death>
+                     <date when="1673-02-17"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French playwright, actor, and poet. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Moli%C3%A8re"/>
+                  </bibl>
+               </person>
+               <person xml:id="ezekiel" ana="#person">
+                  <persName>Ezekiel</persName>
+                  <note ana="#description">
+                     <p> One of the prophets in the Hebrew Bible. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Ezekiel"/>
+                  </bibl>
+               </person>
+               <person xml:id="garibaldi" ana="#person">
+                  <persName>Garibaldi, Giuseppe</persName>
+                  <birth>
+                     <date when="1807-07-04"/>
+                  </birth>
+                  <death>
+                     <date when="1882-06-02"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian general who was instrumental in the creation of the Kingdom of Italy. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Giuseppe_Garibaldi"/>
+                  </bibl>
+               </person>
+               <person xml:id="barabbas" ana="#person">
+                  <persName>Barabbas</persName>
+                  <note ana="#description">
+                     <p> A Jewish prisoner. When given the choice between crucifying Jesus of Nazareth or Barabbas, the crowd of onlookers chose to crucify Jesus and release Barabbas. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Barabbas"/>
+                  </bibl>
+               </person>
+               <person xml:id="juvenal" ana="#person">
+                  <persName>Decimus Junius Juvenalis, or Juvenal</persName>
+                  <birth>
+                     <date cert="unknown" when="-0055">c. 55 BC</date>
+                  </birth>
+                  <death>
+                     <date when="0128"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A Roman poet and author of the <ref target="https://en.wikipedia.org/wiki/Satires_(Juvenal)"><title>Satires</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Juvenal"/>
+                  </bibl>
+               </person>
+               <person xml:id="lucretius" ana="#person">
+                  <persName>Titus Lucretius Carus, or Lucretius</persName>
+                  <birth>
+                     <date cert="unknown" when="-0099">c. 99 BC</date>
+                  </birth>
+                  <death>
+                     <date when="-0055-10-15"/>
+                  </death>
+                  <note><p> A Roman poet and author of <ref target="https://en.wikipedia.org/wiki/De_rerum_natura"><title>De rerum natura</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Lucretius"/>
+                  </bibl>
+               </person>
+               <person xml:id="mamillius" ana="#person">
+                  <persName>Mamillius</persName>
+                  <note ana="#description">
+                     <p> In Shakespeare's <title>The Winter's Tale</title>, the young prince of Sicily who dies tragically of a wasting disease. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Winter%27s_Tale"/>
+                  </bibl>
+               </person>
+               <person xml:id="euripides" ana="#person">
+                  <persName>Euripides</persName>
+                  <birth>
+                     <date cert="unknown" when="-0480">c. 480 BC</date>
+                  </birth>
+                  <death>
+                     <date cert="unknown" when="-0406">c. 406 BC</date>
+                  </death>
+                  <note ana="#description">
+                     <p> A classical Greek tragedian. Notable works include <ref target="https://en.wikipedia.org/wiki/Medea_(play)"><title>Medea</title></ref> and <ref target="https://en.wikipedia.org/wiki/The_Trojan_Women"><title>The Trojan Women</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Euripides"/>
+                  </bibl>
+               </person>
+               <person xml:id="iphigenia" ana="#person">
+                  <persName>Iphigenia</persName>
+                  <note>
+                     <p> The daughter of Agamemnon, King of Mycenae, in Greek mythology. When Artemis prevents Agamemnon from coming to aid his allies in the Trojan War, he offers up Iphigenia as a human sacrifice. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Iphigenia"/>
+                  </bibl>
+               </person>
+               <person xml:id="clytemnestra" ana="#person">
+                  <persName>Clytemnestra</persName>
+                  <note>
+                     <p> In Aeschylus's <title>Oresteia</title>, the Queen of Mycenae who murders her husband, Agamemnon, and is in turn murdered by her son, Orestes. She is Iphigenia's mother. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Clytemnestra"/>
+                  </bibl>
+               </person>
+               <person xml:id="bayard" ana="#person">
+                  <persName>Terrail, Pierre, seigneur de Bayard</persName>
+                  <birth>
+                     <date cert="unknown" when="1476">c. 1476</date>
+                  </birth>
+                  <death>
+                     <date when="1524-04-30"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French knight and military leader, known as <foreign xml:lang="fr">le chevalier sans peur et sans reproche</foreign>, or the knight without fear and beyond reproach. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Pierre_Terrail,_seigneur_de_Bayard"/>
+                  </bibl>
+               </person>
+               <person xml:id="danton" ana="#person">
+                  <persName>Danton, Georges</persName>
+                  <birth>
+                     <date when="1759-10-26"/>
+                  </birth>
+                  <death>
+                     <date when="1794-04-05"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A politician and orator who initally played a major role in the French Revolution but spoke out against the Reign of Terror and was ultimately executed under charges of being a royalist. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Georges_Danton"/>
+                  </bibl>
+               </person>
+               <person xml:id="algernon_sidney" ana="#person">
+                  <persName>Sidney, Algernon</persName>
+                  <birth>
+                     <date when="1623-01-15"/>
+                  </birth>
+                  <death>
+                     <date when="1683-12-07"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English politician and republican whose revolutionary work <ref target="https://en.wikipedia.org/wiki/Discourses_Concerning_Government"><title>Discourses Concerning Government</title></ref> led to his being executed for treason and subsequently considered a hero and martyr. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Algernon_Sidney"/>
+                  </bibl>
+               </person>
+               <person xml:id="nelson" ana="#person">
+                  <persName>Nelson, Horatio, 1st Viscount Nelson, 1st Duke of Bronte</persName>
+                  <birth>
+                     <date when="1758-09-29"/>
+                  </birth>
+                  <death>
+                     <date when="1805-10-21"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A highly renowned British naval commander who won decisive battles in the French Revolutionary and Napoleonic Wars. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Horatio_Nelson,_1st_Viscount_Nelson"/>
+                  </bibl>
+               </person>
+               <person xml:id="thiers" ana="#person">
+                  <persName>Thiers, Marie Joseph Louis Adolphe</persName>
+                  <birth>
+                     <date when="1797-04-15"/>
+                  </birth>
+                  <death>
+                     <date when="1877-09-03"/>
+                  </death>
+                  <note ana="#description">
+                     <p> Served as President of France from <date when="1871">1871</date>-<date when="1873">1873</date>. Ordered the suppression of the <ref target="https://en.wikipedia.org/wiki/Paris_Commune">Paris Commune</ref> in <date when="1871">1871</date>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Adolphe_Thiers"/>
+                  </bibl>
+               </person>
+               <person xml:id="galliffet" ana="#person">
+                  <persName>Gaston Alexandre Auguste, Marquis de Galliffet, Prince de Martigues</persName>
+                  <birth>
+                     <date when="1830-01-23"/>
+                  </birth>
+                  <death>
+                     <date when="1909-07-08"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French general who participated in the suppression of the <ref target="https://en.wikipedia.org/wiki/Paris_Commune">Paris Commune</ref> in <date when="1871">1871</date>, for which he was heavily criticized. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Gaston,_Marquis_de_Galliffet"/>
+                  </bibl>
+               </person>
+               <person xml:id="beelzebub" ana="#person">
+                  <persName>Beelzebub</persName>
+                  <note ana="#description">
+                     <p> In Christian theology, another name for Satan, or the devil. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Beelzebub"/>
+                  </bibl>
+               </person>
+               <person xml:id="veuillot" ana="#person">
+                  <persName>Veuillot, Louis</persName>
+                  <birth>
+                     <date when="1813-10-11"/>
+                  </birth>
+                  <death>
+                     <date when="1883-03-07"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French journalist and author who wrote extensively in support of ultramontism, a philosophy emphasizing papal supremacy in the Catholic Church. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Louis_Veuillot"/>
+                  </bibl>
+               </person>
+               <person xml:id="torquemada" ana="#person">
+                  <persName>Tomás de Torquemada</persName>
+                  <birth>
+                     <date when="1420-10-14"/>
+                  </birth>
+                  <death>
+                     <date when="1498-09-16"/>
+                  </death>
+                  <note ana="#description">
+                     <p> The first Grand Inquisitor of the Spanish Inquisition. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Tom%C3%A1s_de_Torquemada"/>
+                  </bibl>
+               </person>
+               <person xml:id="memnon" ana="#person">
+                  <persName>Memnon</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, the son of Eos and Tithonus. An Ethiopian king who defended Troy and was killed by Achilles in the Trojan War. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Memnon"/>
+                  </bibl>
+               </person>
+               <person xml:id="goethe" ana="#person">
+                  <persName>Goethe, Johann Wolfgang von</persName>
+                  <birth>
+                     <date when="1749-08-28"/>
+                  </birth>
+                  <death>
+                     <date when="1832-03-22"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A German polymath and writer. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe#cite_note-3"/>
+                  </bibl>
+               </person>
+               <person xml:id="korner" ana="#person">
+                  <persName>Körner, Theodor</persName>
+                  <birth>
+                     <date when="1791-09-23"/>
+                  </birth>
+                  <death>
+                     <date when="1813-08-26"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A German poet and soldier known chiefly for his patriotic works. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Theodor_K%C3%B6rner_(author)"/>
+                  </bibl>
+               </person>
+               <person xml:id="tyrtaeus" ana="#person">
+                  <persName>Tyrtaeus</persName>
+                  <note ana="#description">
+                     <p> A Greek poet whose works were used to inspire Spartan patriotism. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Tyrtaeus"/>
+                  </bibl>
+               </person>
+               <person xml:id="bavius" ana="#person">
+                  <persName>Bavius</persName>
+                  <note ana="#description">
+                     <p> A Roman poet remembered for his bad verse. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Bavius"/>
+                  </bibl>
+               </person>   
+               <person xml:id="settle" ana="#person">
+                  <persName>Settle, Elkanah</persName>
+                  <birth>
+                     <date when="1648-02-01"/>
+                  </birth>
+                  <death>
+                     <date when="1724-02-12"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English poet and playwright who made a profit by presenting recycled verse in ostentatious bindings (now known as Settle bindings) to wealthy literary patrons. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Elkanah_Settle"/>
+                  </bibl>
+               </person>
+               <person xml:id="vacquerie" ana="#person">
+                  <persName>Vacquerie, Auguste</persName>
+                  <birth>
+                     <date when="1819-11-19"/>
+                  </birth>
+                  <death>
+                     <date when="1895-02-19"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French poet and writer and an admirer of Victor Hugo. One of the founders of the <title>Rappel</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Auguste_Vacquerie"/>
+                  </bibl>
+               </person>
+               <person xml:id="achilles" ana="#description">
+                  <persName>Achilles, or Achilleus</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, a great warrior and the principal character in the <ref target="https://en.wikipedia.org/wiki/Iliad"><title>Iliad</title></ref>. Fought alongside the Achaeans in the siege of Troy. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Achilles"/>
+                  </bibl>
+               </person>
+               <person xml:id="ulysses" ana="#person">
+                  <persName>Odysseus, Latinized as Ulysses</persName>
+                  <note ana="#description">
+                     <p> The main character of Homer's <ref target="https://en.wikipedia.org/wiki/Odyssey"><title>Odyssey</title></ref>, described as a man of twists and turns, who must use his wits to brave various trials on his way home from the Trojan War. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Odysseus"/>
+                  </bibl>
+               </person>
+               <!-- the Duke of Wellington had an entry already in listPerson, as follows: 
+                  <person xml:id="wellington" ana="#person">
+                     <persName>Wellington, Arthur Wellesley, Duke of</persName>
+                  </person>
+                I moved it up here and added a little more information. I hope that's alright.-->
+               <person xml:id="wellington" ana="#person">
+                  <persName>Wellington, Arthur Wellesley, Duke of</persName>
+                  <birth>
+                     <date when="1769-05-01"/>
+                  </birth>
+                  <death>
+                     <date when="1852-09-14"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A British military hero and politician who played a decisive role in the Napoleonic Wars and served twice as the Prime Minister of the United Kingdom. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Arthur_Wellesley,_1st_Duke_of_Wellington"/>
+                  </bibl>
+               </person>
+               <person xml:id="talleyrand" ana="#person">
+                  <persName>Charles Maurice de Talleyrand-Périgord</persName>
+                  <birth>
+                     <date when="1754-02-02"/>
+                  </birth>
+                  <death>
+                     <date when="1838-05-17"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French clergyman and diplomat. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Charles_Maurice_de_Talleyrand-P%C3%A9rigord"/>
+                  </bibl>
+               </person>
+               <person xml:id="trimalchio" ana="#person">
+                  <persName>Trimalchio</persName>
+                  <note ana="#description">
+                     <p> In Petronius's <ref target="https://en.wikipedia.org/wiki/Satyricon"><title>Satyricon</title></ref>, a nouveau-riche former slave. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Trimalchio"/>
+                  </bibl>
+               </person>
+               <person xml:id="aeneas" ana="#person">
+                  <persName>Aeneas</persName>
+                  <note ana="#description">
+                     <p> In Greco-Roman mythology, a Trojan hero and the ancestor of the Romans. The titular character of Virgil's <ref target="https://en.wikipedia.org/wiki/Aeneid"><title>Aeneid</title></ref>, which tells the story of Rome's founding myth. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Aeneas"/>
+                  </bibl>
+               </person>
+               <person xml:id="argonaut" ana="#person">
+                  <persName>Argonaut</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, the Argonauts were a band of heroes who accompanied <persName>Jason</persName> on his quest to find the Golden Fleece. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Argonauts"/>
+                  </bibl>
+               </person>
+               <person xml:id="iago" ana="#person">
+                  <persName>Iago</persName>
+                  <note ana="#description">
+                     <p> The antagonist in Shakespeare's <ref target="https://en.wikipedia.org/wiki/Othello"><title>Othello</title></ref>, considered one of Shakespeare's most sinister villains. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Iago"/>
+                  </bibl>
+               </person>   
+               <person xml:id="desdemona" ana="#person">
+                  <persName>Desdemona</persName>
+                  <note ana="#description">
+                     <p> Othello's faithful wife in Shakespeare's eponymous play. Iago conspires to turn Othello against her. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Desdemona"/>
+                  </bibl>
+               </person>
+               <person xml:id="iachimo" ana="#person">
+                  <persName>Iachimo</persName>
+                  <note ana="#description">
+                     <p> A character in Shakespeare's <title>Cymbeline</title>. He attempts to seduce Imogen and turn her husband, Posthumus, against her. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Cymbeline"/>
+                  </bibl>
+               </person>
+               <person xml:id="cordelia" ana="#person">
+                  <persName>Cordelia</persName>
+                  <note ana="#description">
+                     <p> A character in Shakespeare's <title>King Lear</title>. The youngest daughter of the titular character, she resists her father's offer of a third of his kingdom in exchange for an obsequious declaration of her love for him. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Cordelia_(King_Lear)"/>
+                  </bibl>
+               </person>
+               <person xml:id="goneril" ana="#person">
+                  <persName>Goneril</persName>
+                  <note ana="#description">
+                     <p> In Shakespeare's <title>King Lear</title>, Cordelia's power-hungry sister.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Goneril"/>
+                  </bibl>
+               </person>
+               <person xml:id="arthur_i" ana="#person">
+                  <persName>Arthur I, 4th Earl of Richmond and Duke of Brittany </persName>
+                  <birth>
+                     <date when="1187-03-29"/>
+                  </birth>
+                  <death>
+                     <date when="1203"/>
+                  </death>
+                  <note ana="#description">
+                     <p> The grandson of King Henry II of England and Eleanor of Aquitaine. At the center of a succession crisis depicted in Shakespeare's historical play, <ref target="https://en.wikipedia.org/wiki/King_John_(play)"><title>King John</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Arthur_I,_Duke_of_Brittany"/>
+                  </bibl>
+               </person>
+               <person xml:id="king_john" ana="#person">
+                  <persName>John, King of England</persName>
+                  <birth>
+                     <date when="1166-12-24"/>
+                  </birth>
+                  <death>
+                     <date when="1216-10-19"/>
+                  </death>
+                  <note ana="#description">
+                     <p> King of England from <date when="1199">1199</date> until his death. Generally believed to have killed his nephew, Arthur I, Duke of Brittany, in order to maintain a clear line of succession to the throne. The titular character of Shakespeare's <ref target="https://en.wikipedia.org/wiki/King_John_(play)"><title>King John</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/John,_King_of_England"/>
+                  </bibl>
+               </person>
+               <person xml:id="mark_antony" ana="#person">
+                  <persName>Marcus Antonius, or Mark Antony</persName>
+                  <birth>
+                     <date when="-0083-01-14"/>
+                  </birth>
+                  <death>
+                     <date when="-0030-08-01"/>
+                  </death>
+                  <note ana="#description">
+                     <p> One of Julius Caesar's generals. In Shakespeare's <ref target="https://en.wikipedia.org/wiki/Julius_Caesar_(play)"><title>Julius Caesar</title></ref>, he delivers the famous speech beginning, <quote>Friends, Romans, countrymen, lend me your ears</quote>, that turns the people against Caesar's assassins. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Mark_Antony"/>
+                  </bibl>
+               </person>
+               <person xml:id="volumnia" ana="#person">
+                  <persName>Volumnia</persName>
+                  <note ana="#description">
+                     <p> In Shakespeare's <ref target="https://en.wikipedia.org/wiki/Coriolanus"><title>Coriolanus</title></ref>, the mother of the titular character who convinces him not to besiege Rome. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Volumnia"/>
+                  </bibl>
+               </person>
+               <person xml:id="michelangelo" ana="#person">
+                  <persName>Michelangelo di Lodovico Buonarroti Simoni, known as Michelangelo</persName>
+                  <birth>
+                     <date when="1475-03-06"/>
+                  </birth>
+                  <death>
+                     <date when="1564-02-18"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian sculptor and architect and one of the central artistic figures of the Renaissance. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Michelangelo"/>
+                  </bibl>
+               </person> 
+               <person xml:id="handel" ana="#person">
+                  <persName>Handel, George Frideric</persName>
+                  <birth>
+                     <date when="1685-02-23"/>
+                  </birth>
+                  <death>
+                     <date when="1759-04-14"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A German-British Baroque composer. Best-known works include <title>Water Music</title> and his oratorio <title>Messiah</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/George_Frideric_Handel"/>
+                  </bibl>
+               </person>
+               <person xml:id="merimee" ana="#person">
+                  <persName>Mérimée, Prosper</persName>
+                  <birth>
+                     <date when="1803-09-28"/>
+                  </birth>
+                  <death>
+                     <date when="1870-09-23"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French Romantic writer, archaeologist, and historian. Author of the novella <ref target="https://en.wikipedia.org/wiki/Carmen_(novella)"><title>Carmen</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Prosper_M%C3%A9rim%C3%A9e"/>
+                  </bibl>
+               </person>
+               <person xml:id="orcagna" ana="#person">
+                  <persName>Andrea di Cione di Arcangelo, better known as Orcagna</persName>
+                  <birth>
+                     <date cert="unknown" when="1308">c. 1308</date>
+                  </birth>
+                  <death>
+                     <date when="1368-08-25"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian sculptor, painter, and architect. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Orcagna"/>
+                  </bibl>
+               </person>
+               <person xml:id="musset" ana="#person">
+                  <persName>de Musset, Alfred</persName>
+                  <birth>
+                     <date when="1810-12-11"/>
+                  </birth>
+                  <death>
+                     <date when="1857-05-02"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French novelist, poet, and dramatist. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Alfred_de_Musset"/>
+                  </bibl>
+               </person>
+               <person xml:id="zeuxis" ana="#person">
+                  <persName>Zeuxis</persName>
+                  <birth>
+                     <date cert="unknown" when="-0464">c. 464 BC</date>
+                  </birth>
+                  <death>
+                     <date>Unknown</date>
+                  </death>
+                  <note ana="#description">
+                     <p> A Greek artist, none of whose works survive. Legend has it he died of laughter. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Zeuxis_(painter)"/>
+                  </bibl>
+               </person>
+               <person xml:id="leonardo" ana="#person">
+                  <persName>Da Vinci, Leonardo</persName>
+                  <birth>
+                     <date when="1452-04-15"/>
+                  </birth>
+                  <death>
+                     <date when="1519-05-02"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian Renaissance polymath and artist. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Leonardo_da_Vinci"/>
+                  </bibl>
+               </person>
+               <person xml:id="giorgione" ana="#person">
+                  <persName>Giorgio Barbarelli da Castelfranco, known as Giorgione</persName>
+                  <birth>
+                     <date notBefore="1470" notAfter="1479">1470s</date>
+                  </birth>
+                  <death>
+                     <date when="1510-09-17"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian painter of the High Renaissance whose works and identity are somewhat of a mystery. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Giorgione"/>
+                  </bibl>
+               </person>
+               <person xml:id="carpaccio" ana="#person">
+                  <persName>Carpaccio, Vittore</persName>
+                  <birth>
+                     <date notBefore="1460" notAfter="1465">c. 1460-1465</date>
+                  </birth>
+                  <death>
+                     <date cert="unknown" when="1525">c. 1525</date>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian painter who studied under Gentile Bellini. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Vittore_Carpaccio"/>
+                  </bibl>
+               </person>
+               <person xml:id="villon" ana="#person">
+                  <persName>Villon, François</persName>
+                  <birth>
+                     <date cert="unknown" when="1431">c. 1431</date>
+                  </birth>
+                  <death>
+                     <date notBefore="1463">after 1463</date>
+                  </death>
+                  <note ana="#description">
+                     <p> A French poet of the Late Middle Ages with a rather colorful criminal record. Author of <ref target="https://en.wikipedia.org/wiki/Le_Testament"><title>Le Testament</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Villon"/>
+                  </bibl>
+               </person>
+               <person xml:id="bull_god" ana="#person">
+                  <persName>Lamassu</persName>
+                  <note ana="#description">
+                     <p> An Assyrian deity, depicted in a pair of statues that flanked the throne room of Ashurnasirpal II, thought to serve as protectors. Acquired by the British Museum in <date when="1851">1851</date>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://www.britishmuseum.org/collection/object/W_1851-0902-509?selectedImageId=1613284097"/>
+                     <ptr target="https://en.wikipedia.org/wiki/Lamassu"/>
+                  </bibl>
+               </person>
+   <!-- I moved Elizabeth Browning here because I altered the hyperlink for her entry-->
+               <person xml:id="browning_e" ana="#person">
+                  <persName>Browning, Elizabeth Barrett</persName>
+                  <birth>
+                     <date when="1806"/>
+                  </birth>
+                  <death>
+                     <date when="1861"/>
+                  </death>
+                  <note ana="#description">
+                     <p> English poet. Author of <title>Sonnets from the
+                     Portuguese</title> and <title>Aurora Leigh</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Elizabeth_Barrett_Browning"/>
+                  </bibl>
+               </person>
+               <person xml:id="newman" ana="#person">
+                  <persName>Newman, John Henry</persName>
+                  <birth>
+                     <date when="1801-02-21"/>
+                  </birth>
+                  <death>
+                     <date when="1890-08-11"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English theologian, originally an Anglican priest before becoming a Catholic cardinal. Canonized in <date when="2019">2019</date> by Pope Francis. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/John_Henry_Newman"/>
+                  </bibl>
+               </person>
+               <person xml:id="tintoretto" ana="#person">
+                  <persName>Robusti, Jacopo, known as Tintoretto</persName>
+                  <birth>
+                     <date notBefore="1518-09-15" notAfter="1518-10-15">late September or early October 1518</date>
+                  </birth>
+                  <death>
+                     <date when="1594-05-31"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian Renaissance painter of the Venetian School. Nicknamed <foreign xml:lang="it">il Furioso</foreign> for the speed and boldness with which he painted. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Tintoretto"/>
+                  </bibl>
+               </person>
+               <person xml:id="veronese" ana="#person">
+                  <persName>Caliari, Paolo, known as Paolo Veronese</persName>
+                  <birth>
+                     <date when="1528"/>
+                  </birth>
+                  <death>
+                     <date when="1588-04-19"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian Renaissance painter of the Venetian school. Best known for his large-scale paintings of elaborate narrative cycles. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Paolo_Veronese"/>
+                  </bibl>
+               </person>
+               <person xml:id="meredith" ana="#person">
+                  <persName>Meredith, George</persName>
+                  <birth>
+                     <date when="1828-02-12"/>
+                  </birth>
+                  <death>
+                     <date when="1909-05-18"/>
+                  </death>
+                  <note ana="#description">
+                     <p> English Victorian poet and novelist. Author of <ref target="https://en.wikipedia.org/wiki/The_Egoist_(novel)"><title>The Egoist</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/George_Meredith"/>
+                  </bibl>
+               </person>
+               <person xml:id="hilary" ana="#person">
+                  <persName>Hilary of Poitiers</persName>
+                  <birth>
+                     <date cert="unknown" when="-0310">c. 310</date>
+                  </birth>
+                  <death>
+                     <date cert="unknown" when="-0367">c. 367</date>
+                  </death>
+                  <note ana="#description">
+                     <p> A saint in the Catholic tradition. Sometimes called the <q>Hammer of the Arians</q> for his dedication to opposing Arianism in the West. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Hilary_of_Poitiers"/>
+                  </bibl>
+               </person>
+               <person xml:id="pandora" ana="#person">
+                  <persName>Pandora</persName>
+                  <note ana="#description">
+                     <p>In Greek mythology, a human woman who opened a jar in which were contained all of humanity's evils. Rossetti produced a painting and multiple drawings of his muse, Jane Morris, styled as Pandora. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Pandora"/>
+                     <ptr target="https://leicestergalleries.com/browse-artwork-detail/MTY5OTg="/>
+                     <ptr target="https://harvardartmuseums.org/collections/object/298142"/>
+                  </bibl>
+               </person>
+               <person xml:id="cassandra" ana="#person">
+                  <persName>Cassandra</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, a prophetess of Apollo whose curse was that her prophecies, though true, would never be believed. Rossetti made a <ref target="https://www.britishmuseum.org/collection/object/P_1910-1210-4">drawing</ref> of Cassandra in <date when="1861">1861</date>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Cassandra"/>
+                  </bibl>
+               </person>
+               <person xml:id="ophelia" ana="#person">
+                  <persName>Ophelia</persName>
+                  <note ana="#description">
+                     <p> In Shakespeare's <ref target="https://en.wikipedia.org/wiki/Hamlet"><title>Hamlet</title></ref>, she is driven to madness as a result of Hamlet's actions, ultimately drowning. Rossetti featured her in an <ref target="https://artuk.org/discover/artworks/the-first-madness-of-ophelia-244041">oil painting</ref> and multiple <ref target="https://commons.wikimedia.org/wiki/File:Dante_Gabriel_Rossetti_-_Ophelia.jpg">drawings</ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Ophelia"/>
+                  </bibl>
+               </person>
+               <person xml:id="gerard_de_nerval" ana="#person">
+                  <persName>de Nerval, Gérard, pen name of Gérard Labrunie</persName>
+                  <birth>
+                     <date when="1808-05-22"/>
+                  </birth>
+                  <death>
+                     <date when="1855-01-26"/>
+                  </death>
+                  <note ana="#description">
+                     <p> French romantic writer. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/G%C3%A9rard_de_Nerval"/>
+                  </bibl>
+               </person>
+               <person xml:id="francesca" ana="#person">
+                  <persName>da Rimini, Francesca</persName>
+                  <birth>
+                     <date>Unknown</date>
+                  </birth>
+                  <death>
+                     <date notBefore="1283" notAfter="1286">between 1283 and 1286</date>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian noblewoman who had an affair with her husband's brother. Famously depicted alongside her lover, Paolo Malatesta, in the circle of hell reserved for the lustful in Dante Alighieri's <ref target="https://en.wikipedia.org/wiki/Inferno_(Dante)"><title>Inferno</title></ref>. Rossetti made a <ref target="https://en.wikipedia.org/wiki/Paolo_and_Francesca_da_Rimini">watercolor</ref> inspired by that scene. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Francesca_da_Rimini"/>
+                  </bibl>
+               </person>
+               <person xml:id="roderigo" ana="#person">
+                  <persName>Roderigo</persName>
+                  <note ana="#description">
+                     <p> In Shakespeare's <ref target="https://en.wikipedia.org/wiki/Othello"><title>Othello</title></ref>, a wealthy Venetian. Iago uses Roderigo's love for Othello's wife, Desdemona, to manipulate him. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Roderigo"/>
+                  </bibl>
+               </person>
+               <person xml:id="lilith" ana="#person">
+                  <persName>Lilith</persName>
+                  <note ana="#description">
+                     <p> In some variants of Jewish mythology, a female demonic figure held to be the first wife of Adam. The subject of an <ref target="https://www.metmuseum.org/art/collection/search/337500">oil painting</ref> by Dante Gabriel Rossetti. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Lilith"/>
+                  </bibl>
+               </person>
+               <person xml:id="venus_verticordia" ana="#person">
+                  <persName>Venus Verticordia ("Changer of Hearts")</persName>
+                  <note ana="#description">
+                     <p> The aspect of Venus thought to turn women to sexual virtue. The subject of an <ref target="https://en.wikipedia.org/wiki/Venus_Verticordia_(Rossetti)">oil painting</ref> by Dante Gabriel Rossetti. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Venus_Verticordia"/>
+                  </bibl>
+               </person>
+               <person xml:id="horace" ana="#person">
+                  <persName>Quintus Horatius Flaccus, or Horace</persName>
+                  <birth>
+                     <date when="-0065-12-08"/>
+                  </birth>
+                  <death>
+                     <date when="-0008-11-27"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A leading Roman poet during the reign of Augustus. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Horace"/>
+                  </bibl>
+               </person>
+               <person xml:id="claudian" ana="#person">
+                  <persName>Claudius Claudianus, or Claudian</persName>
+                  <birth>
+                     <date cert="unknown" when="-0370">c. 370 B.C.</date>
+                  </birth>
+                  <death>
+                     <date cert="unknown" when="0404">c. 404 A.D.</date>
+                  </death>
+                  <note ana="#description">
+                     <p> A Latin poet associated with the court of Honorius. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Claudian"/>
+                  </bibl>
+               </person>
+               <person xml:id="raphael" ana="#person">
+                  <persName>da Urbino, Raffaello Sanzio, or Raphael</persName>
+                  <birth>
+                     <date notBefore="1483-03-28" notAfter="1483-04-06"/>
+                  </birth>
+                  <death>
+                     <date when="1520-04-06"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian painter and architect of the High Renaissance. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Raphael"/>
+                  </bibl>
+               </person>
+               <person xml:id="samuel_johnson" ana="#person">
+                  <persName>Johnson, Samuel</persName>
+                  <birth>
+                     <date when="1709-09-18"/>
+                  </birth>
+                  <death>
+                     <date when="1784-12-13"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A prominent English writer. Author of <ref target="https://en.wikipedia.org/wiki/A_Dictionary_of_the_English_Language"><title>A Dictionary of the English Language</title></ref> and <ref target="https://en.wikipedia.org/wiki/Lives_of_the_Most_Eminent_English_Poets"><title>Lives of the Most Eminent English Poets</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Samuel_Johnson"/>
+                  </bibl>
+               </person>
+               <person xml:id="waller" ana="#person">
+                  <persName>Waller, Edmund</persName>
+                  <birth>
+                     <date when="1606-03-03"/>
+                  </birth>
+                  <death>
+                     <date when="1687-10-21"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English poet and politician. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Edmund_Waller"/>
+                  </bibl>
+               </person>
+               <person xml:id="beatrice_cenci" ana="#person">
+                  <persName>Cenci, Beatrice</persName>
+                  <birth>
+                     <date when="1577-02-06"/>
+                  </birth>
+                  <death>
+                     <date when="1599-09-11"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian noblewoman whose father abused and raped her. She and other family members conspired to kill him and were subsequently arrested and beheaded for murder despite public protests. Percy Bysshe Shelley wrote a play, <ref target="https://en.wikipedia.org/wiki/The_Cenci"><title>The Cenci</title></ref>, about these events. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Beatrice_Cenci"/>
+                  </bibl>
+               </person>
+               <person xml:id="fantine" ana="#person">
+                  <persName>Fantine</persName>
+                  <note ana="#description">
+                     <p> A character in Victor Hugo's <ref target="https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables"><title>Les Misérables</title></ref>. Forced into prostitution to provide for her daughter, Cosette, as a single mother, her character symbolizes loss of innocence and self-sacrifice. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Fantine"/>
+                  </bibl>
+               </person>
+               <person xml:id="gastibelza" ana="#person">
+                  <persName>Gastibelza</persName>
+                  <note ana="#description">
+                     <p> An unrequited lover in Victor Hugo's poem of the same name. </p>
+                  </note>
+               </person>
+               <person xml:id="benozzo" ana="#person">
+                  <persName>di Lese, Benozzo, or Benozzo Gozzoli</persName>
+                  <birth>
+                     <date cert="unknown" when="1421">c. 1421</date>
+                  </birth>
+                  <death>
+                     <date when="1497-10-04"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian Renaissance painter from Florence. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Benozzo_Gozzoli"/>
+                  </bibl>
+               </person>
+               <person xml:id="botticelli" ana="#person">
+                  <persName>Alessandro di Mariano di Vanni Filipepi, better known as Sandro Botticelli, or Botticelli</persName>
+                  <birth>
+                     <date when="1445" cert="unknown">c. 1445</date>
+                  </birth>
+                  <death>
+                     <date when="1510-05-17"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian painter of the Early Renaissance. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Sandro_Botticelli"/>
+                  </bibl>
+               </person>
+               <person xml:id="filippo_lippi" ana="#person">
+                  <persName>Lippi, Filippo, or Lippo Lippi</persName>
+                  <birth>
+                     <date when="1406" cert="unknown">c. 1406</date>
+                  </birth>
+                  <death>
+                     <date when="1469-10-08"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian Renaissance painter among whose pupils were Sandro Botticelli, Francesco Pesellino, and Lippi's son, Filippino Lippi. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Filippo_Lippi"/>
+                  </bibl>
+               </person>
+               <person xml:id="filippino_lippi" ana="#person">
+                  <persName>Lippi, Filippino</persName>
+                  <birth>
+                     <date when="1457" cert="unknown">c. 1457</date>
+                  </birth>
+                  <death>
+                     <date when="1504-04-18"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian Renaissance painter. Son of Fillipo Lippi. Assisted his father and, later, Sandro Botticelli. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Filippino_Lippi"/>
+                  </bibl>
+               </person>
+               <person xml:id="oceanides" ana="#person">
+                  <persName>Oceanids, or Oceanides</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, three thousand nymphs who were daughters of the Titans Oceanus and Tethys. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Oceanids"/>
+                  </bibl>
+               </person>
+               <person xml:id="circe" ana="#person">
+                  <persName>Circe</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, Circe was an enchantress who lived on the island of Aeaea, perhaps best known for turning Odysseus's crew into pigs in Homer's <ref target="https://en.wikipedia.org/wiki/Odyssey"><title>Odyssey</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Circe"/>
+                  </bibl>
+               </person>
+               <person xml:id="medea" ana="#person">
+                  <persName>Medea</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, a sorceress who aids Jason in his quest for the Golden Fleece. Some variations on the story include their subsequent marriage, Jason's taking another wife, and Medea's killing their children and the new bride out of revenge. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Medea"/>
+                  </bibl>
+               </person>
+               <person xml:id="hylas" ana="#person">
+                  <persName>Hylas</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, Hercules's young servant who is abducted by naiads, a type of water nymph. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Hylas"/>
+                  </bibl>
+               </person>
+               <person xml:id="pelias" ana="#person">
+                  <persName>Pelias</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, the king of Iolcus who sends Jason on the quest for the Golden Fleece. Medea, in a bid to obtain the throne for Jason, tricks Pelias's daughters into killing him. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Pelias"/>
+                  </bibl>
+               </person>
+               <person xml:id="empedocles" ana="#person">
+                  <persName>Empedocles</persName>
+                  <birth>
+                     <date when="-0494" cert="unknown">c. 494 B.C.</date>
+                  </birth>
+                  <death>
+                     <date when="-0434" cert="unknown">c. 434 B.C.</date>
+                  </death>
+                  <note ana="#description">
+                     <p> A pre-Socratic Greek philosopher. Legends surrounding his death vary but tend to involve his jumping into Mount Etna, a volcano in Sicily. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Empedocles"/>
+                  </bibl>
+               </person>
+               <person xml:id="callicles" ana="#person">
+                  <persName>Callicles</persName>
+                  <birth>
+                     <date when="-0484" cert="unknown">c. 484 B.C.</date>
+                  </birth>
+                  <death>
+                     <date notBefore="-0450" notAfter="-0400">late 5th century B.C.</date>
+                  </death>
+                  <note ana="#description">
+                     <p> In Plato's <ref target="https://en.wikipedia.org/wiki/Gorgias_(dialogue)"><title>Gorgias</title></ref>, a philosopher who presents counter-arguments to Plato's ideas. It is unclear whether he was a real contemporary of Plato or merely a character created by Plato. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Callicles"/>
+                  </bibl>
+               </person>
+               <person xml:id="sohrab" ana="#person">
+                  <persName>Sohrāb or Suhrāb</persName>
+                  <note ana="#description">
+                     <p> A warrior in Ferdowsi's <ref target="https://en.wikipedia.org/wiki/Shahnameh"><title>Shahnameh</title></ref>, he is slain by his father Rostam who does not recognize him until he has been fatally wounded. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Sohrab"/>
+                  </bibl>
+               </person>
+               <person xml:id="rostam" ana="#person">
+                  <persName>Rostam or Rustam</persName>
+                  <note ana="#description">
+                     <p> A great hero in Persian mythology. Depicted in Ferdowsi's <ref target="https://en.wikipedia.org/wiki/Shahnameh"><title>Shahnameh</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Rostam"/>
+                  </bibl>
+               </person>
+               <person xml:id="matthew_arnold" ana="#person">
+                  <persName>Arnold, Matthew</persName>
+                  <birth>
+                     <date when="1822-12-24"/>
+                  </birth>
+                  <death>
+                     <date when="1888-04-15"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English poet and inspector of schools. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Matthew_Arnold"/>
+                  </bibl>
+               </person>
+               <person xml:id="renan" ana="#person">
+                  <persName>Renan, Joseph Ernest</persName>
+                  <birth>
+                     <date when="1823-02-27"/>
+                  </birth>
+                  <death>
+                     <date when="1892-10-02"/>
+                  </death>
+                  <note ana="#description">
+                     <p>A French scholar whose areas of interest included Semitic and biblical history. Also noteworthy and controversial for his racist and white supremacist views.  </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Ernest_Renan"/>
+                  </bibl>
                </person>
             </listPerson>
