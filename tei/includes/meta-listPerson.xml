@@ -4045,10 +4045,11 @@
                      <date when="1892-10-02"/>
                   </death>
                   <note ana="#description">
-                     <p>A French scholar whose areas of interest included Semitic and biblical history. Also noteworthy and controversial for his racist and white supremacist views.  </p>
+                     <p> A French scholar whose areas of interest included Semitic languages and biblical history. Author of the <title>Life of Jesus</title>. Also noteworthy and controversial for his racist and white supremacist views. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Ernest_Renan"/>
                   </bibl>
                </person>
+   <!-- conclude Abby's additions to listPerson-->
             </listPerson>
