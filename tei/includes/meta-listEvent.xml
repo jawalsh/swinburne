@@ -100,4 +100,33 @@
                      <ptr target="http://en.wikipedia.org/wiki/Anthesteria"/>
                   </bibl>
                </event>
+               <!--begin Abby's additions to meta-listEvent-->
+               <event ana="#event" from="1870-09-01" to="1870-09-02">
+                  <label>Sedan, Battle of</label>
+                  <note ana="#description">
+                     <p> A decisive battle in the Franco-Prussian War that resulted in the capture of Napoleon and over a hundred thousand French troops by the Prussian armies.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Battle_of_Sedan"/>
+                  </bibl>
+               </event>
+               <event ana="#event">
+                  <label>Panathenaea</label>
+                  <note ana="#description">
+                     <p> An ancient Greek festival held annually in Athens in honor of the goddess Athena. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Panathenaea"/>
+                  </bibl>
+               </event>
+               <event ana="#event" notBefore="1700" notAfter="1750">
+                  <label>Augustan Age</label>
+                  <note ana="#description">
+                     <p> A literary period during the reigns of Queen Anne, King George I, and King George II in the first half of the 18th century marked by emulation of the classical Roman poets and an explosion of satire. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Augustan_literature"/>
+                  </bibl>
+               </event>   
+   <!--conclude Abby's additions to meta-listEvent-->
             </listEvent>
