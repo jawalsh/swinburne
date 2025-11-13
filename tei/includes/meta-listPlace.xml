@@ -391,27 +391,6 @@
                      <ptr target="http://en.wikipedia.org/wiki/Guernsey"/>
                   </bibl>
                </place>
-               <place xml:id="troy" ana="#place">
-                  <placeName>Troy</placeName>
-                  <placeName ana=" #alternate">Hisarlik</placeName>
-                  <note ana="#description">
-                     <p> A legendary city located in present day northwest Turkey. In
-                        Homer's <title>Iliad</title> it was the center of the Trojan
-                        War. </p>
-                  </note>
-                  <bibl>
-                     <ptr target="http://en.wikipedia.org/wiki/Guernsey"/>
-                  </bibl>
-               </place>
-               <place xml:id="mentana" ana="#place">
-                  <placeName>Mentana</placeName>
-                  <note ana="#description">
-                     <p> A comune in the province of Rome in Italy. </p>
-                  </note>
-                  <bibl>
-                     <ptr target="http://en.wikipedia.org/wiki/Mentana"/>
-                  </bibl>
-               </place>
                <place xml:id="gr" ana="#place">
                   <placeName>Greece</placeName>
                   <note ana="#description">
@@ -1012,4 +991,152 @@
                   <placeName>Camelot</placeName>
                   <ptr target="https://pantheon.org/articles/c/camelot.html" ana="occurrenceTypes.xtm#article"/>
                </place>
+   <!-- begin Abby's additions to listPlace-->
+               <place xml:id="vianden" ana="#place">
+                  <placeName>Vianden</placeName>
+                  <note ana="#description">
+                     <p> A town in Luxembourg.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Vianden"/>
+                  </bibl>
+               </place>
+               <place xml:id="ionia" ana="#region">
+                  <region>Ionia</region>
+                  <note ana="#description">
+                     <p> An ancient region on the western coast of Anatolia. Home to the twelve cities that formed the Ionian League.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Ionia"/>
+                  </bibl>
+               </place>
+               <place xml:id="jerusalem" ana="#place">
+                  <placeName>Jerusalem</placeName>
+                  <note ana="#description">
+                     <p> The capital of ancient Israel. A holy city in the Jewish, Christian, and Muslim traditions.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Jerusalem"/>
+                  </bibl>
+               </place>
+               <place xml:id="london" ana="#place">
+                  <placeName>London</placeName>
+                  <note ana="#description">
+                     <p> The capital of England.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/London"/>
+                  </bibl>
+               </place>
+               <place xml:id="new_york" ana="#place">
+                  <placeName>New York</placeName>
+                  <note ana="#description">
+                     <p> One of the oldest and most populous cities in the United States. Historically, the primary entry point for immigration to America.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/New_York_City"/>
+                  </bibl>
+               </place>
+               <place xml:id="paris" ana="#place">
+                  <placeName>Paris</placeName>
+                  <note ana="#description">
+                     <p> The capital of France.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Paris"/>
+                  </bibl>
+               </place>
+               <place xml:id="troy" ana="#place">
+                  <placeName>Troy</placeName>
+                  <placeName ana=" #alternate">Hisarlik</placeName>
+                  <note ana="#description">
+                     <p> A legendary city located in present day northwest Turkey. In Homer's <title>Iliad</title> it was the center of the Trojan War. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Troy"/>
+                  </bibl>
+               </place>
+               <place xml:id="mentana" ana="#place">
+                  <placeName>Mentana</placeName>
+                  <note ana="#description">
+                     <p> A comune in the province of Rome in Italy. In <date when="1867">1867</date>, the site of the Battle of Mentana in which Italian troops, trying to capture Rome, were defeated by troops from the French Papal States.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Mentana"/>
+                  </bibl>
+               </place>
+               <place xml:id="haymarket" ana="#place">
+                  <placeName>Haymarket</placeName>
+                  <note ana="#description">
+                     <p> A street in London that was historically a center for prostitution. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Haymarket,_London"/>
+                  </bibl>
+               </place>   
+               <place xml:id="sparta" ana="#place">
+                  <placeName>Sparta</placeName>
+                  <note ana="#description">
+                     <p> One of the ancient Greek city-states, known for its military power. Helen, whose removal to Troy sparks the chief conflict of Homer's <title>Iliad</title>, was originally a queen of Sparta. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Sparta"/>
+                  </bibl>
+               </place>
+               <place xml:id="garden_hesperides" ana="#geog">
+                  <geogName>Garden of the Hesperides</geogName>
+                  <note ana="#description">
+                     <p>In Greek mythology, an orchard belonging to Hera in which grow golden apples, tended by the Hesperides, the nymphs of the evening, and guarded by the dragon Ladon.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Hesperides#The_Garden_of_the_Hesperides"/>
+                  </bibl>
+               </place>
+               <place xml:id="corinth" ana="#place">
+                  <placeName>Corinth</placeName>
+                  <note ana="#description">
+                     <p> An ancient Greek city-state in which Jason and Medea settled after Pelias's murder. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Ancient_Corinth"/>
+                  </bibl>
+               </place>
+               <place xml:id="etna" ana="#geog">
+                  <geogName>Mount Etna</geogName>
+                  <note ana="#description">
+                     <p> An active volcano in Sicily, Italy. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Mount_Etna"/>
+                  </bibl>
+               </place>
+               <place xml:id="amu_darya" ana="#geog">
+                  <geogName>Amu Darya</geogName>
+                  <geogName ana=" #alternate">Oxus</geogName>
+                  <note ana="#description">
+                     <p> A river in Central Asia that historically served as the boundary between Greater Iran and Turan. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Amu_Darya"/>
+                  </bibl>
+               </place>
+               <place xml:id="judea" ana="#region">
+                  <region>Judea</region>
+                  <note ana="#description">
+                     <p> In Jesus's time, a Roman province consisting of the southern part of the Levant, including the region of Benjamin and the Negev. Sometimes used to refer to the Levant as a whole. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Judea#Biblical_Era"/>
+                  </bibl>
+               </place>
+               <place xml:id="tyre" ana="#place">
+                  <placeName>Tyre</placeName>
+                  <note ana="#description">
+                     <p> A coastal city in Lebanon. Historically an important Phoenician harbor. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Tyre,_Lebanon#"/>
+                  </bibl>
+               </place>
+   <!-- end Abby's additions to listPlace-->
             </listPlace>
