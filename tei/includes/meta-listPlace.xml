@@ -1083,15 +1083,6 @@
                      <ptr target="https://en.wikipedia.org/wiki/Sparta"/>
                   </bibl>
                </place>
-               <place xml:id="garden_hesperides" ana="#geog">
-                  <geogName>Garden of the Hesperides</geogName>
-                  <note ana="#description">
-                     <p>In Greek mythology, an orchard belonging to Hera in which grow golden apples, tended by the Hesperides, the nymphs of the evening, and guarded by the dragon Ladon.</p>
-                  </note>
-                  <bibl>
-                     <ptr target="https://en.wikipedia.org/wiki/Hesperides#The_Garden_of_the_Hesperides"/>
-                  </bibl>
-               </place>
                <place xml:id="corinth" ana="#place">
                   <placeName>Corinth</placeName>
                   <note ana="#description">
