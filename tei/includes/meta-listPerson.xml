@@ -2742,6 +2742,7 @@
                </person>
                <person xml:id="josiane" ana="#person">
                   <persName>Duchess Josiana</persName>
+                  <persName ana="#alternate">Josiane</persName>
                   <note ana="#description">
                      <p> A character in <title>L'Homme Qui Rit</title>, a Duchess in the English royal court who attempts to seduce Gwynplaine. </p>
                   </note>
@@ -2759,7 +2760,8 @@
                   </bibl>
                </person>
                <person xml:id="titian" ana="#person">
-                  <persName>Vecellio, Tiziano, or Titian</persName>
+                  <persName>Vecellio, Tiziano</persName>
+                  <persName ana="#alternate">Titian</persName>
                   <birth>
                      <date notBefore="1498" notAfter="1490">c. 1488-1490</date>
                   </birth>
@@ -2816,7 +2818,8 @@
                   </bibl>
                </person>
                <person xml:id="imogen" ana="#person">
-                  <persName>Imogen, or Innogen</persName>
+                  <persName>Imogen</persName>
+                  <persName ana="#alternate">Innogen</persName>
                   <note ana="#description">
                      <p> The princess of Britain and faithful wife of <persName>Posthumus</persName> in Shakespeare's <ref target="https://en.wikipedia.org/wiki/Cymbeline"><title>Cymbeline</title></ref>. </p>
                   </note>
@@ -2897,7 +2900,8 @@
                   </bibl>
                </person>
                <person xml:id="richelieu" ana="#person">
-                  <persName>Armand Jean du Plessis, 1st Duke of Richelieu, commonly known as Cardinal Richelieu</persName>
+                  <persName>Armand Jean du Plessis, 1st Duke of Richelieu</persName>
+                  <persName ana="#alternate">Cardinal Richelieu</persName>
                   <birth>
                      <date when="1585-09-09"/>
                   </birth>
@@ -2912,7 +2916,8 @@
                   </bibl>
                </person>
                <person xml:id="moliere" ana="#person">
-                  <persName>Poquelin, Jean-Baptiste, known by his stage name Molière</persName>
+                  <persName>Poquelin, Jean-Baptiste</persName>
+                  <persName ana="#alternate">Molière</persName>
                   <birth>
                      <date when="1622-01-15"/>
                   </birth>
@@ -2960,7 +2965,8 @@
                   </bibl>
                </person>
                <person xml:id="juvenal" ana="#person">
-                  <persName>Decimus Junius Juvenalis, or Juvenal</persName>
+                  <persName>Decimus Junius Juvenalis</persName>
+                  <persName ana="#alternate">Juvenal</persName>
                   <birth>
                      <date cert="unknown" when="-0055">c. 55 BC</date>
                   </birth>
@@ -2975,7 +2981,8 @@
                   </bibl>
                </person>
                <person xml:id="lucretius" ana="#person">
-                  <persName>Titus Lucretius Carus, or Lucretius</persName>
+                  <persName>Titus Lucretius Carus</persName>
+                  <persName ana="#alternate">Lucretius</persName>
                   <birth>
                      <date cert="unknown" when="-0099">c. 99 BC</date>
                   </birth>
@@ -3247,7 +3254,8 @@
                   </bibl>
                </person>
                <person xml:id="achilles" ana="#description">
-                  <persName>Achilles, or Achilleus</persName>
+                  <persName>Achilles</persName>
+                  <persName ana="#alternate">Achilleus</persName>
                   <note ana="#description">
                      <p> In Greek mythology, a great warrior and the principal character in the <ref target="https://en.wikipedia.org/wiki/Iliad"><title>Iliad</title></ref>. Fought alongside the Achaeans in the siege of Troy. </p>
                   </note>
@@ -3256,7 +3264,8 @@
                   </bibl>
                </person>
                <person xml:id="ulysses" ana="#person">
-                  <persName>Odysseus, Latinized as Ulysses</persName>
+                  <persName>Odysseus</persName>
+                  <persName ana="#alternate">Ulysses</persName>
                   <note ana="#description">
                      <p> The main character of Homer's <ref target="https://en.wikipedia.org/wiki/Odyssey"><title>Odyssey</title></ref>, described as a man of twists and turns, who must use his wits to brave various trials on his way home from the Trojan War. </p>
                   </note>
@@ -3264,11 +3273,6 @@
                      <ptr target="https://en.wikipedia.org/wiki/Odysseus"/>
                   </bibl>
                </person>
-               <!-- the Duke of Wellington had an entry already in listPerson, as follows: 
-                  <person xml:id="wellington" ana="#person">
-                     <persName>Wellington, Arthur Wellesley, Duke of</persName>
-                  </person>
-                I moved it up here and added a little more information. I hope that's alright.-->
                <person xml:id="wellington" ana="#person">
                   <persName>Wellington, Arthur Wellesley, Duke of</persName>
                   <birth>
@@ -3402,7 +3406,8 @@
                   </bibl>
                </person>
                <person xml:id="mark_antony" ana="#person">
-                  <persName>Marcus Antonius, or Mark Antony</persName>
+                  <persName>Marcus Antonius</persName>
+                  <persName ana="#alternate">Mark Antony</persName>
                   <birth>
                      <date when="-0083-01-14"/>
                   </birth>
@@ -3426,7 +3431,8 @@
                   </bibl>
                </person>
                <person xml:id="michelangelo" ana="#person">
-                  <persName>Michelangelo di Lodovico Buonarroti Simoni, known as Michelangelo</persName>
+                  <persName>Michelangelo di Lodovico Buonarroti Simoni</persName>
+                  <persName ana="#alternate">Michelangelo</persName>
                   <birth>
                      <date when="1475-03-06"/>
                   </birth>
@@ -3471,7 +3477,8 @@
                   </bibl>
                </person>
                <person xml:id="orcagna" ana="#person">
-                  <persName>Andrea di Cione di Arcangelo, better known as Orcagna</persName>
+                  <persName>Andrea di Cione di Arcangelo</persName>
+                  <persName ana="#alternate">Orcagna</persName>
                   <birth>
                      <date cert="unknown" when="1308">c. 1308</date>
                   </birth>
@@ -3531,7 +3538,8 @@
                   </bibl>
                </person>
                <person xml:id="giorgione" ana="#person">
-                  <persName>Giorgio Barbarelli da Castelfranco, known as Giorgione</persName>
+                  <persName>Giorgio Barbarelli da Castelfranco</persName>
+                  <persName ana="#alternate">Giorgione</persName>
                   <birth>
                      <date notBefore="1470" notAfter="1479">1470s</date>
                   </birth>
@@ -3575,7 +3583,7 @@
                      <ptr target="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Villon"/>
                   </bibl>
                </person>
-               <person xml:id="bull_god" ana="#person">
+               <person xml:id="lamassu" ana="#person">
                   <persName>Lamassu</persName>
                   <note ana="#description">
                      <p> An Assyrian deity, depicted in a pair of statues that flanked the throne room of Ashurnasirpal II, thought to serve as protectors. Acquired by the British Museum in <date when="1851">1851</date>. </p>
@@ -3611,14 +3619,15 @@
                      <date when="1890-08-11"/>
                   </death>
                   <note ana="#description">
-                     <p> An English theologian, originally an Anglican priest before becoming a Catholic cardinal. Canonized in <date when="2019">2019</date> by Pope Francis. </p>
+                     <p> An English theologian, originally an Anglican priest who became a Catholic cardinal. Canonized in <date when="2019">2019</date> by Pope Francis. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/John_Henry_Newman"/>
                   </bibl>
                </person>
                <person xml:id="tintoretto" ana="#person">
-                  <persName>Robusti, Jacopo, known as Tintoretto</persName>
+                  <persName>Robusti, Jacopo</persName>
+                  <persName ana="#alternate">Tintoretto</persName>
                   <birth>
                      <date notBefore="1518-09-15" notAfter="1518-10-15">late September or early October 1518</date>
                   </birth>
@@ -3633,7 +3642,8 @@
                   </bibl>
                </person>
                <person xml:id="veronese" ana="#person">
-                  <persName>Caliari, Paolo, known as Paolo Veronese</persName>
+                  <persName>Caliari, Paolo</persName>
+                  <persName ana="#alternate">Paolo Veronese</persName>
                   <birth>
                      <date when="1528"/>
                   </birth>
@@ -3707,7 +3717,8 @@
                   </bibl>
                </person>
                <person xml:id="gerard_de_nerval" ana="#person">
-                  <persName>de Nerval, Gérard, pen name of Gérard Labrunie</persName>
+                  <persName>Labrunie, Gerard</persName>
+                  <persName ana="#alternate">de Nerval, Gérard</persName>
                   <birth>
                      <date when="1808-05-22"/>
                   </birth>
@@ -3764,7 +3775,8 @@
                   </bibl>
                </person>
                <person xml:id="horace" ana="#person">
-                  <persName>Quintus Horatius Flaccus, or Horace</persName>
+                  <persName>Quintus Horatius Flaccus</persName>
+                  <persName ana="#alternate">Horace</persName>
                   <birth>
                      <date when="-0065-12-08"/>
                   </birth>
@@ -3779,7 +3791,8 @@
                   </bibl>
                </person>
                <person xml:id="claudian" ana="#person">
-                  <persName>Claudius Claudianus, or Claudian</persName>
+                  <persName>Claudius Claudianus</persName>
+                  <persName ana="#alternate">Claudian</persName>
                   <birth>
                      <date cert="unknown" when="-0370">c. 370 B.C.</date>
                   </birth>
@@ -3794,7 +3807,8 @@
                   </bibl>
                </person>
                <person xml:id="raphael" ana="#person">
-                  <persName>da Urbino, Raffaello Sanzio, or Raphael</persName>
+                  <persName>da Urbino, Raffaello Sanzio</persName>
+                  <persName ana="#alternate">Raphael</persName>
                   <birth>
                      <date notBefore="1483-03-28" notAfter="1483-04-06"/>
                   </birth>
@@ -3869,7 +3883,8 @@
                   </note>
                </person>
                <person xml:id="benozzo" ana="#person">
-                  <persName>di Lese, Benozzo, or Benozzo Gozzoli</persName>
+                  <persName>di Lese, Benozzo</persName>
+                  <persName ana="#alternate">Benozzo Gozzoli</persName>
                   <birth>
                      <date cert="unknown" when="1421">c. 1421</date>
                   </birth>
@@ -3884,7 +3899,8 @@
                   </bibl>
                </person>
                <person xml:id="botticelli" ana="#person">
-                  <persName>Alessandro di Mariano di Vanni Filipepi, better known as Sandro Botticelli, or Botticelli</persName>
+                  <persName>di Mariano di Vanni Filipepi, Alessandro</persName>
+                  <persName ana="#alternate">Sandro Botticelli</persName>
                   <birth>
                      <date when="1445" cert="unknown">c. 1445</date>
                   </birth>
@@ -3899,7 +3915,8 @@
                   </bibl>
                </person>
                <person xml:id="filippo_lippi" ana="#person">
-                  <persName>Lippi, Filippo, or Lippo Lippi</persName>
+                  <persName>Lippi, Filippo</persName>
+                  <persName ana="#alternate">Lippo Lippi</persName>
                   <birth>
                      <date when="1406" cert="unknown">c. 1406</date>
                   </birth>
@@ -3929,7 +3946,8 @@
                   </bibl>
                </person>
                <person xml:id="oceanides" ana="#person">
-                  <persName>Oceanids, or Oceanides</persName>
+                  <persName>Oceanids</persName>
+                  <persName ana="#alternate">Oceanides</persName>
                   <note ana="#description">
                      <p> In Greek mythology, three thousand nymphs who were daughters of the Titans Oceanus and Tethys. </p>
                   </note>
@@ -4004,7 +4022,8 @@
                   </bibl>
                </person>
                <person xml:id="sohrab" ana="#person">
-                  <persName>Sohrāb or Suhrāb</persName>
+                  <persName>Sohrāb</persName>
+                  <persName ana="#alternate">Suhrāb</persName>
                   <note ana="#description">
                      <p> A warrior in Ferdowsi's <ref target="https://en.wikipedia.org/wiki/Shahnameh"><title>Shahnameh</title></ref>, he is slain by his father Rostam who does not recognize him until he has been fatally wounded. </p>
                   </note>
@@ -4013,7 +4032,8 @@
                   </bibl>
                </person>
                <person xml:id="rostam" ana="#person">
-                  <persName>Rostam or Rustam</persName>
+                  <persName>Rostam</persName>
+                  <persName ana="#alternate">Rustam</persName>
                   <note ana="#description">
                      <p> A great hero in Persian mythology. Depicted in Ferdowsi's <ref target="https://en.wikipedia.org/wiki/Shahnameh"><title>Shahnameh</title></ref>. </p>
                   </note>
