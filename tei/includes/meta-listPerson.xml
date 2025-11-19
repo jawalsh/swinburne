@@ -4071,5 +4071,117 @@
                      <ptr target="https://en.wikipedia.org/wiki/Ernest_Renan"/>
                   </bibl>
                </person>
+               <person xml:id="colenso" ana="#person">
+                  <persName>Colenso, John William</persName>
+                  <birth>
+                     <date when="1814-01-24"/>
+                  </birth>
+                  <death>
+                     <date when="1883-06-20"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A British theologian and mathematician, scholar of the Zulu language, and the first Bishop of Natal. Controversial due to his views on biblical fallibility and soteriology. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/John_Colenso"/>
+                  </bibl>
+               </person>
+               <person xml:id="moloch" ana="#person">
+                  <persName>Moloch</persName>
+                  <persName ana="#alternate">Molech</persName>
+                  <persName ana="#alternate">Molek</persName>
+                  <note ana="#description">
+                     <p> In the Hebrew Bible, traditionally understood to be a Canaanite god associated with the practice of child sacrifice. Scholars have debated whether "Moloch" refers to a deity, or to the practice of sacrifice itself. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Moloch"/>
+                  </bibl>
+               </person>
+               <person xml:id="brahma" ana="#person">
+                  <persName>Brahma</persName>
+                  <note ana="#description">
+                     <p> The Hindu god of creation. With Vishnu and Shiva, part of the Trimurti, the divine trinity. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Brahma"/>
+                  </bibl>
+               </person>
+               <person xml:id="omar" ana="#person">
+                  <persName>Khayyam, Omar</persName>
+                  <persName ana="#alternate">Ghiyāth al-Dīn Abū al-Fath ʿUmar ibn Ibrāhīm Nīshābūrī</persName>
+                  <birth>
+                     <date when="1048-05-18"/>
+                  </birth>
+                  <death>
+                     <date when="1131-12-04"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A Persian poet and polymath. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Omar_Khayyam"/>
+                  </bibl>
+               </person>
+               <person xml:id="job" ana="#person">
+                  <persName>Job</persName>
+                  <note ana="#description">
+                     <p> In the Hebrew Bible, a righteous man who, tested by a "satan," or adversary, suffers terrible misfortune but maintains his innocence before God. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Job_(biblical_figure)"/>
+                  </bibl>
+               </person>
+               <person xml:id="marsyas" ana="#person">
+                  <persName>Marsyas</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, a satyr and musician known primarily for his hubris. He is killed after challenging Apollo to, and subsequently losing, a music contest. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Marsyas"/>
+                  </bibl>
+               </person>
+               <person xml:id="chiron" ana="#person">
+                  <persName>Chiron</persName>
+                  <persName ana="#alternate">Cheiron</persName>
+                  <persName ana="#alternate">Kheiron</persName>
+                  <note ana="#description">
+                     <p> The wisest of the centaurs in Greek mythology. He was raised by Apollo and Artemis, trained the hero Achilles, and was known for his skill in the healing arts. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Chiron"/>
+                  </bibl>
+               </person>
+               <person xml:id="typhon" ana="#person">
+                  <persName>Typhon</persName>
+                  <persName ana="#alternate">Typhos</persName>
+                  <persName ana="#alternate">Typhoeus</persName>
+                  <persName ana="#alternate">Typhaon</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, a serpentine giant who was the son of Gaia and Cronus and, along with his mate, Echidna, the father of many monsters. He attempted to overthrow Zeus, but Zeus defeated him and trapped him beneath Mount Etna. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Typhon"/>
+                  </bibl>
+               </person>
+               <person xml:id="pan" ana="#person">
+                  <persName>Pan</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, the god of the wild, shepherds and flocks, and rustic music. Legend has it that he was the origin of the pan flute. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Pan_(god)"/>
+                  </bibl>
+               </person>
+               <person xml:id="maenads" ana="#person">
+                  <persName>Maenads</persName>
+                  <persName ana="#alternate">Bacchae</persName>
+                  <persName ana="#alternate">Bassarids</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, female members of Dionysus's revenue who were depicted as frenzied or <q>mad women</q>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Maenad"/>
+                  </bibl>
+               </person>
    <!-- conclude Abby's additions to listPerson-->
             </listPerson>
