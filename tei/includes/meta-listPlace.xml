@@ -19,8 +19,8 @@
                      <ptr target="http://en.wikipedia.org/wiki/Calabria"/>
                   </bibl>
                </place>
-               <place xml:id="phyrgia" ana="#place">
-                  <placeName>Phyrgia</placeName>
+               <place xml:id="phrygia" ana="#place">
+                  <placeName>Phrygia</placeName>
                   <note ana="#description">
                      <p> A kingdom in the west central portion of Anatolia, in what is now
                         modern-day Turkey. </p>
@@ -149,15 +149,6 @@
                   </note>
                   <bibl>
                      <ptr target="http://en.wikipedia.org/wiki/Cayenne"/>
-                  </bibl>
-               </place>
-               <place xml:id="phrygia" corresp="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002613" ana="#place">
-                  <placeName>Phrygia</placeName>
-                  <note ana="#description">
-                     <p> Ancient country in W central Asia Minor, now central Turkey. </p>
-                  </note>
-                  <bibl>
-                     <ptr target="http://en.wikipedia.org/wiki/Phrygia"/>
                   </bibl>
                </place>
                <place xml:id="aetolia" corresp="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002678" ana="#place">
@@ -1127,6 +1118,42 @@
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Tyre,_Lebanon#"/>
+                  </bibl>
+               </place>
+               <place xml:id="nile" ana="geog">
+                  <geogName>Nile</geogName>
+                  <note ana="#description">
+                     <p> A major river in Africa, the annual flooding of which was historically a vital source of water for Egypt. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Nile"/>
+                  </bibl>
+               </place>
+               <place xml:id="illyria" ana="#region">
+                  <region>Illyria</region>
+                  <note ana="#description">
+                     <p> In classical and late antiquity, the western part of the Balkan Peninsula. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Illyria"/>
+                  </bibl>
+               </place>
+               <place xml:id="mount_parnassus" ana="#geog">
+                  <geogName>Mount Parnassus</geogName>
+                  <note ana="#description">
+                     <p> A mountain range in Central Greece. In Greek mythology, it was sacred to both Dionysus and Apollo, and it was the home of the Muses. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Mount_Parnassus"/>
+                  </bibl>
+               </place>
+               <place xml:id="olympus" ana="#geog">
+                  <geogName>Mount Olympus</geogName>
+                  <note ana="#description">
+                     <p> A massif in northeastern Greece near the Aegean Sea. Said to be the home of the gods in Greek mythology. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Mount_Olympus"/>
                   </bibl>
                </place>
    <!-- end Abby's additions to listPlace-->
