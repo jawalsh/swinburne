@@ -1156,5 +1156,82 @@
                      <ptr target="https://en.wikipedia.org/wiki/Mount_Olympus"/>
                   </bibl>
                </place>
+               <place xml:id="colonus" ana="#place">
+                  <placeName>Colonus</placeName>
+                  <placeName ana="#alternate">Kolonos</placeName>
+                  <note ana="#description">
+                     <p> A deme of Aegeis, a phyle of Attica in ancient Greece. It was the home of Sophocles, the burial place of Oedipus, and sacred to Poseidon. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Colonus_(Attica)"/>
+                  </bibl>
+               </place>
+               <place xml:id="acre" ana="#place">
+                  <placeName>Acre</placeName>
+                  <placeName ana="#alternate">Akko</placeName>
+                  <placeName ana="#alternate">Akka</placeName>
+                  <note ana="#description">
+                     <p> A port city in northern Israel that has been continuously inhabited since the Middle Bronze Age. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Acre,_Israel"/>
+                  </bibl>
+               </place>
+               <place xml:id="philistia" ana="#place">
+                  <placeName>Philistia</placeName>
+                  <note ana="#description">
+                     <p> The region in the southwest Levant that was inhabited by the Philistines, consisting primarily of the five cities of Gath, Ekron, Gaza, Ashdod, and Ashkelon, known collectively as the Philistine pentapolis. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Philistia"/>
+                  </bibl>
+               </place>
+               <place xml:id="gaza" ana="#place">
+                  <placeName>Gaza</placeName>
+                  <note ana="#description">
+                     <p> Historically, one of the five major Philistine cities. The place of Samson's imprisonment and death. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/History_of_Gaza"/>
+                  </bibl>
+               </place>
+               <place xml:id="rydal" ana="#place">
+                  <placeName>Rydal</placeName>
+                  <note ana="#description">
+                     <p> A village in Cumbria, England. Home to William Wordsworth and visited frequently by Matthew Arnold, who was friends with Wordsworth and whose father had a summer home there. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Rydal,_Cumbria"/>
+                  </bibl>
+               </place>
+               <place xml:id="rugby" ana="#place">
+                  <placeName>Rugby</placeName>
+                  <note ana="#description">
+                     <p> A town in eastern Warwickshire, England, and home to the Rugby School, one of the oldest independent schools in Britain. Matthew Arnold's father, Thomas Arnold, was one of the school's most famous headmasters, and Matthew Arnold himself both attended and briefly taught at the school. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Rugby,_Warwickshire"/>
+                  </bibl>
+               </place>
+               <place xml:id="ashkelon" ana="#description">
+                  <placeName>Ashkelon</placeName>
+                  <placeName ana="#alternate">Ascalon</placeName>
+                  <note ana="#description"> 
+                     <p> A coastal city that was part of the Philistine pentapolis. </p> 
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Ascalon"/>
+                  </bibl>
+               </place>
+               <place xml:id="gath" ana="#place">
+                  <placeName>Gath</placeName>
+                  <placeName ana="#alternate">Gat</placeName>
+                  <note ana="#description">
+                     <p> One of the five cities of the Philistine pentapolis and home to the giant Goliath. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Gath_(city)"/>
+                  </bibl>
+               </place>
    <!-- end Abby's additions to listPlace-->
             </listPlace>
