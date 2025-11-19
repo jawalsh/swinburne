@@ -4183,5 +4183,77 @@
                      <ptr target="https://en.wikipedia.org/wiki/Maenad"/>
                   </bibl>
                </person>
+               <person xml:id="pausanias" ana="#person">
+                  <persName>Pausanias</persName>
+                  <birth>
+                     <date when="0110" cert="unknown">c. 110</date>
+                  </birth>
+                  <death>
+                     <date when="0180" cert="unknown">c. 180</date>
+                  </death>
+                  <note ana="#descrtiption">
+                     <p> A Greek traveler and geographer who sought to memorialize in writing "all things Greek" in his <ref target="https://en.wikipedia.org/wiki/Description_of_Greece"><title>Description of Greece</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Pausanias_(geographer)"/>
+                  </bibl>
+               </person>
+               <person xml:id="samson" ana="#person">
+                  <persName>Samson</persName>
+                  <note ana="#description">
+                     <p> One of the judges, or leaders, of Israel in the Hebrew Bible whose Nazirite vows granted him superhuman strength to fight against the Philistines. The subject of John Milton's dramatic poem <ref target="https://en.wikipedia.org/wiki/Samson_Agonistes"><title>Samson Agonistes</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Samson"/>
+                  </bibl>
+               </person>
+               <person xml:id="david" ana="#person">
+                  <persName>David</persName>
+                  <note ana="#description">
+                     <p> In the Hebrew Bible, a king of ancient Israel who is described as being a man after God's own heart. Originally a shepherd, he defeated the Philistine giant Goliath using a sling. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/David"/>
+                  </bibl>
+               </person>
+               <person xml:id="goliath" ana="#person">
+                  <persName>Goliath</persName>
+                  <note ana="#description">
+                     <p> In the Hebrew Bible, a Philistine of immense stature who challenged the Israelites to produce a champion who could defeat him in single combat. He was defeated by David, a shepherd, using only a sling. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Goliath"/>
+                  </bibl>
+               </person>
+               <person xml:id="jesse" ana="#person">
+                  <persName>Jesse</persName>
+                  <persName ana="#alternate">Yishai</persName>
+                  <note ana="#description">
+                     <p> The father of King David in the Hebrew Bible. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Jesse_(biblical_figure)"/>
+                  </bibl>
+               </person>
+               <person xml:id="jephthah" ana="#person">
+                  <persName>Jephthah</persName>
+                  <note ana="#description">
+                     <p> One of the judges, or leaders, of Israel in the Hebrew Bible. He led Israel to victory against the Ammonites. Perhaps best known for making a rash vow that resulted in his sacrificing his own daughter upon returning from battle. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Jephthah"/>
+                  </bibl>
+               </person>
+               <person xml:id="gamaliel" ana="#person">
+                  <persName>Gamaliel</persName>
+                  <persName ana="#alternate">Gamliel</persName>
+                  <persName ana="#alternate">Rabban Gamaliel I</persName>
+                  <note ana="#description">
+                     <p> A renowned teacher, religious and legal authority, and member of the Sanhedrin, a Jewish legislative and judicial assembly in the first century AD. He taught Paul the Apostle. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Gamaliel"/>
+                  </bibl>
+               </person>
    <!-- conclude Abby's additions to listPerson-->
             </listPerson>
