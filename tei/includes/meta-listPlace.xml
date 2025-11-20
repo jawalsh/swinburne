@@ -1233,5 +1233,34 @@
                      <ptr target="https://en.wikipedia.org/wiki/Gath_(city)"/>
                   </bibl>
                </place>
+               <place xml:id="sicily" ana="#place">
+                  <placeName>Sicily</placeName>
+                  <note ana="#description">
+                     <p> An island in the Mediterranean Sea south of the Italian Peninsula. One of the regions of Italy. Home to Mount Etna. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Sicily"/>
+                  </bibl>
+               </place>
+               <place xml:id="enna" ana="#place">
+                  <placeName>Enna</placeName>
+                  <placeName ana="#alternate">Castrogiovanni</placeName>
+                  <note ana="#description">
+                     <p> A city and province in central Sicily. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Enna"/>
+                  </bibl>
+               </place>
+               <place xml:id="cumnor" ana="#place">
+                  <placeName>Cumnor</placeName>
+                  <note ana="#description">
+                     <p> A village in Oxfordshire, England. The setting of two of Matthew Arnold's poems. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Cumnor"/>
+                     <ptr target="https://victorianweb.org/authors/arnold/sullivan2.html"/>
+                  </bibl>
+               </place>
    <!-- end Abby's additions to listPlace-->
             </listPlace>
