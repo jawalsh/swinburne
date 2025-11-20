@@ -4255,5 +4255,82 @@
                      <ptr target="https://en.wikipedia.org/wiki/Gamaliel"/>
                   </bibl>
                </person>
+               <person xml:id="david_gray" ana="#person">
+                  <persName>Gray, David</persName>
+                  <birth>
+                     <date when="1838-01-29"/>
+                  </birth>
+                  <death>
+                     <date when="1861-12-03"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A Scottish poet. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/David_Gray_(poet)"/>
+                  </bibl>
+               </person>
+               <person xml:id="petrarch" ana="#person">
+                  <persName>Petrarch, Francis</persName>
+                  <persName ana="#alternate">Petrarca, Francesco</persName>
+                  <persName ana="#alternate">di Petracco, Francesco</persName>
+                  <birth>
+                     <date when="1304-07-20"/>
+                  </birth>
+                  <death>
+                     <date when="1374-07-19"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A poet and scholar whose rediscovery of Cicero's letters is credited with starting the Italian Renaissance and founding Renaissance humanism. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Petrarch"/>
+                  </bibl>
+               </person>
+               <person xml:id="laura" ana="#person">
+                  <persName>Laura</persName>
+                  <death>
+                     <date when="1348"/>
+                  </death>
+                  <note ana="#description">
+                     <p> The subject of Petrarch's unrequited love and many of his sonnets. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Petrarch"/>
+                  </bibl>
+               </person>
+               <person xml:id="merope" ana="#person">
+                  <persName>Merope</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, a Queen of Messenia and the wife of Cresphontes. Her husband and two elder children were murdered, and she was forced to marry the murderer; however, she was able to save her youngest son, who conspired with her to take revenge several years later. The subject of Euripides's lost tragedy, <title>Cresphontes</title>, which inspired Matthew Arnold's <date when="1858">1858</date> work <title>Merope</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Merope_(Messenia)"/>
+                  </bibl>
+               </person>
+               <person xml:id="polyphontes" ana="#person">
+                  <persName>Polyphontes</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, he murdered Cresphontes, King of Messenia, and his two eldest children and then married Cresphontes's widow, Merope. Merope and her youngest son, Aepytus, later took revenge on him. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Merope_(Messenia)"/>
+                  </bibl>
+               </person>
+               <person xml:id="joseph_joubert" ana="#person">
+                  <persName>Joubert, Joseph</persName>
+                  <birth>
+                     <date when="1754-05-06"/>
+                  </birth>
+                  <death>
+                     <date when="1824-05-04"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French moralist and essayist best known for his posthumously published <title>Pensées</title>. Addressed in a section of Matthew Arnold's <title>Essays in Criticism</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Joseph_Joubert"/>
+                  </bibl>
+               </person>
    <!-- conclude Abby's additions to listPerson-->
             </listPerson>
