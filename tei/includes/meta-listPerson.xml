@@ -4332,5 +4332,173 @@
                      <ptr target="https://en.wikipedia.org/wiki/Joseph_Joubert"/>
                   </bibl>
                </person>
+               <person xml:id="deianira" ana="#person">
+                  <persName>Deianira</persName>
+                  <persName ana="#alternate">Deianeira</persName>
+                  <persName ana="#alternate">Dejanira</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, the wife of Hercules. She is tricked into soaking his tunic in poison, resulting in his death, after which she takes her own life. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Deianira"/>
+                  </bibl>
+               </person>
+               <person xml:id="arcas" ana="#person">
+                  <persName>Arcas</persName>
+                  <note ana="#description">
+                     <p> The son of Zeus and Callisto in Greek mythology. He was a famous hunter and king of Arcadia. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Arcas"/>
+                  </bibl>
+               </person>
+               <person xml:id="callisto" ana="#person">
+                  <persName>Callisto</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, a follower of Artemis who was impregnated by Zeus and bore a son, Arcas. Hera, furious, turned her into a bear. Zeus set her in the sky as the constellation Ursa Major to prevent her from being killed by her unwitting son. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Callisto_(mythology)"/>
+                  </bibl>
+               </person>
+               <person xml:id="hawtrey" ana="#person">
+                  <persName>Hawtrey, Edward Craven</persName>
+                  <birth>
+                     <date when="1789-05-07"/>
+                  </birth>
+                  <death>
+                     <date when="1862-01-27"/>
+                  </death>
+                  <note ana="#description">
+                     <p> The headmaster and later provost of Eton College. He had a reputation for his facility with language and as a writer of English hexameters. Matthew Arnold referred to his translation of a passage from the <title>Iliad</title> as <quote>the most successful attempt hitherto made at rendering Homer into English.</quote> </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Edward_Craven_Hawtrey"/>
+                  </bibl>
+               </person>
+               <person xml:id="clough" ana="#person">
+                  <persName>Clough, Arthur Hugh</persName>
+                  <birth>
+                     <date when="1819-01-01"/>
+                  </birth>
+                  <death>
+                     <date when="1861-11-13"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English poet and the subject of Matthew Arnold's elegy <title>Thyrsis</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Arthur_Hugh_Clough"/>
+                  </bibl>
+               </person>
+               <person xml:id="kingsley" ana="#person">
+                  <persName>Kingsley, Charles</persName>
+                  <birth>
+                     <date when="1819-06-12"/>
+                  </birth>
+                  <death>
+                     <date when="1875-01-23"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English professor, social reformer, historian, novelist, poet, and priest of the Church of England. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Charles_Kingsley"/>
+                  </bibl>
+               </person>
+               <person xml:id="janus" ana="#person">
+                  <persName>Janus</persName>
+                  <note ana="#description">
+                     <p> In Roman mythology, the god of beginnings, endings, transitions, doorways, and duality. Typically depicted with a double-sided head. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Janus"/>
+                  </bibl>
+               </person>
+               <person xml:id="dagon" ana="#person">
+                  <persName>Dagon</persName>
+                  <persName ana="#alternate">Dagan</persName>
+                  <note ana="#description">
+                     <p> A god worshipped in ancient Syria and, in the Hebrew Bible, by the Philistines. According to the Hebrew Bible, when the Philistines captured the Ark of the Covenant and brought it to the house of Dagon in Ashdod, the statue of Dagon fell on its face repeatedly before the ark. Samson's final act in the book of <title>Judges</title> is to destroy the temple of Dagon in Gaza. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Dagon"/>
+                  </bibl>
+               </person>
+               <person xml:id="charles_orleans" ana="#person">
+                  <persName>Charles of Orléans</persName>
+                  <birth>
+                     <date when="1394-11-24"/>
+                  </birth>
+                  <death>
+                     <date when="1465-01-05"/>
+                  </death>
+                  <note ana="#description">
+                     <p> The Duke of Orléans and a prolific medieval poet in both French and English. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Charles,_Duke_of_Orl%C3%A9ans"/>
+                  </bibl>
+               </person>
+               <person xml:id="gautier" ana="#person">
+                  <persName>Gautier, Theophile</persName>
+                  <birth>
+                     <date when="1811-08-30"/>
+                  </birth>
+                  <death>
+                     <date when="1872-10-23"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French poet, dramatist, novelist, journalist, and critic. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Th%C3%A9ophile_Gautier"/>
+                  </bibl>
+               </person>
+               <person xml:id="maurice_de_guerin" ana="#person">
+                  <persName>de Guérin, Georges-Maurice</persName>
+                  <birth>
+                     <date when="1810-08-04"/>
+                  </birth>
+                  <death>
+                     <date when="1839-07-19"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French poet remarkable for his intense passion for nature. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Maurice_de_Gu%C3%A9rin"/>
+                  </bibl>
+               </person>
+               <person xml:id="racine" ana="#person">
+                  <persName>Racine, Jean-Baptiste</persName>
+                  <birth>
+                     <date when="1639-12-22"/>
+                  </birth>
+                  <death>
+                     <date when="1699-04-21"/>
+                  </death>
+                  <note ana="#description">
+                     <p> Alongside Molière and Corneille, one of the three great playwrights of 17th-century France. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Jean_Racine"/>
+                  </bibl>
+               </person>
+               <person xml:id="alexander_pope" ana="#person">
+                  <persName>Pope, Alexander</persName>
+                  <birth>
+                     <date when="1688-05-21"/>
+                  </birth>
+                  <death>
+                     <date when="1744-05-30"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English Enlightenment poet, translator, and satirist. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Alexander_Pope"/>
+                  </bibl>
+               </person>
    <!-- conclude Abby's additions to listPerson-->
             </listPerson>
