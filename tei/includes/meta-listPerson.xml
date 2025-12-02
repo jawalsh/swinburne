@@ -4500,5 +4500,124 @@
                      <ptr target="https://en.wikipedia.org/wiki/Alexander_Pope"/>
                   </bibl>
                </person>
+               <person xml:id="boileau" ana="#person">
+                  <persName>Boileau-Despréaux, Nicolas</persName>
+                  <birth>
+                     <date when="1636-11-01"/>
+                  </birth>
+                  <death>
+                     <date when="1711-03-13"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French poet and critic. Friend of Molière and Jean Racine. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Nicolas_Boileau-Despr%C3%A9aux"/>
+                  </bibl>
+               </person>
+               <person xml:id="sainte_beuve" ana="#person">
+                  <persName>Sainte-Beuve, Charles Augustin</persName>
+                  <birth>
+                     <date when="1804-12-23"/>
+                  </birth>
+                  <death>
+                     <date when="1869-10-13"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French literary critic. He had connections to Victor Hugo's literary circle but was estranged after having an affair with Hugo's wife. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Charles_Augustin_Sainte-Beuve"/>
+                  </bibl>
+               </person>
+               <person xml:id="lamennais" ana="#person">
+                  <persName>de La Mennais, Félicité Robert</persName>
+                  <persName ana="#alternate">Lamennais</persName>
+                  <birth>
+                     <date when="1782-06-19"/>
+                  </birth>
+                  <death>
+                     <date when="1854-02-27"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French Catholic priest, philosopher, and political theorist who championed the separation of church and state. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/F%C3%A9licit%C3%A9_de_La_Mennais"/>
+                  </bibl>
+               </person>
+               <person xml:id="semele" ana="#person">
+                  <persName>Semele</persName>
+                  <persName ana="#alternate">Thyone</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, the mother of Dionysus by Zeus. Hera tricks her into asking Zeus to show her his full glory; as a mortal, she cannot withstand the sight and is incinerated. Zeus saves her fetal son, Dionysus, by sewing him into his own thigh. Dionysus later rescues Semele from Hades, and she becomes a goddess on Mount Olympus. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Semele"/>
+                  </bibl>
+               </person>
+               <person xml:id="cowper" ana="#person">
+                  <persName>Cowper, William</persName>
+                  <birth>
+                     <date when="1731-11-26"/>
+                  </birth>
+                  <death>
+                     <date when="1800-04-25"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English poet and hymnwriter who was one of the forerunners of Romantic poetry. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/William_Cowper"/>
+                  </bibl>
+               </person>
+               <person xml:id="eugenie_de_guerin" ana="#person">
+                  <persName>de Guérin, Eugénie</persName>
+                  <birth>
+                     <date when="1805-01-29"/>
+                  </birth>
+                  <death>
+                     <date when="1848-05-31"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French writer. Sister of Maurice de Guérin. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Eug%C3%A9nie_de_Gu%C3%A9rin"/>
+                  </bibl>
+               </person>
+               <person xml:id="teresa_of_avila" ana="#person">
+                  <persName>Teresa Sánchez de Cepeda Dávila y Ahumada</persName>
+                  <persName ana="#alternate">Teresa of Ávila</persName>
+                  <persName ana="#alternate">Saint Teresa of Jesus</persName>
+                  <birth>
+                     <date when="1515-03-28"/>
+                  </birth>
+                  <death>
+                     <date notBefore="1582-10-04" notAfter="1582-10-15">At some hour of the night between 4 October and 15 October 1582, the night of the transition in Spain from the Julian to the Gregorian calendar.</date>
+                  </death>
+                  <note ana="#description">
+                     <p> A prominent Spanish mystic and nun whose desire for religious reform led her to establish the Order of Discalced Carmelites. Author of <ref target="https://en.wikipedia.org/wiki/The_Interior_Castle"><title>The Interior Castle</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Teresa_of_%C3%81vila#"/>
+                  </bibl>
+               </person>
+               <person xml:id="catherine_of_siena" ana="#person">
+                  <persName>Caterina di Jacopo di Benincasa</persName>
+                  <persName ana="alternate">Catherine of Siena</persName>
+                  <birth>
+                     <date when="1347-03-25"/>
+                  </birth>
+                  <death>
+                     <date when="1380-04-29"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian mystic and laywoman who tended to the sick in Siena, wrote extensively about theology, and had considerable influence with the papacy. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Catherine_of_Siena#"/>
+                  </bibl>
+               </person>
    <!-- conclude Abby's additions to listPerson-->
             </listPerson>
