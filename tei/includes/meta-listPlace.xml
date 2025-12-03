@@ -1262,5 +1262,23 @@
                      <ptr target="https://victorianweb.org/authors/arnold/sullivan2.html"/>
                   </bibl>
                </place>
+            <place xml:id="exeter_hall" ana="#place">
+               <placeName>Exeter Hall</placeName>
+               <note ana="#description">
+                  <p> A meeting venue in London frequented by various religious and philanthropic groups, most notably the London Anti-Slavery Society. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Exeter_Hall"/>
+               </bibl>
+            </place>
+            <place xml:id="languedoc" ana="#place">
+               <placeName>Languedoc</placeName>
+               <note ana="#description">
+                  <p> A historical region in modern-day southern France. <date from="1209" to="1229">From 1209 to 1229</date>, Pope Innocent III and the French Crown undertook to eliminate Cathars in the region, in what is known as the Albigensian Crusade. Following the crusade, Languedoc became a part of the Kingdom of France. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Languedoc"/>
+               </bibl>
+            </place>
    <!-- end Abby's additions to listPlace-->
             </listPlace>
