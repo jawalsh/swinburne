@@ -1274,11 +1274,37 @@
             <place xml:id="languedoc" ana="#place">
                <placeName>Languedoc</placeName>
                <note ana="#description">
-                  <p> A historical region in modern-day southern France. <date from="1209" to="1229">From 1209 to 1229</date>, Pope Innocent III and the French Crown undertook to eliminate Cathars in the region, in what is known as the Albigensian Crusade. Following the crusade, Languedoc became a part of the Kingdom of France. </p>
+                  <p> A historical region in modern-day southern France. <date from="1209" to="1229">From 1209 to 1229</date>, Pope Innocent III and the French Crown undertook to eliminate Catharism in the region on the grounds of heresy. This event is known as the Albigensian Crusade. Following the crusade, Languedoc became a part of the Kingdom of France. </p>
                </note>
                <bibl>
                   <ptr target="https://en.wikipedia.org/wiki/Languedoc"/>
                </bibl>
+            </place>
+            <place xml:id="margate" ana="#place">
+               <placeName>Margate</placeName>
+               <note ana="#description">
+                  <p> A seaside town on the north coast of Kent, England, that was a popular holiday destination in the 18th century. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Margate#"/>
+               </bibl>
+            </place>
+            <place xml:id="sorek" ana="#geog">
+               <geogName>Nahal Sorek</geogName>
+               <geogName ana="#alternate">Nahal Soreq</geogName>
+               <geogName ana="#alternate">Sorek Valley</geogName>
+               <note ana="#description">
+                  <p> A river valley in the Judean Shephelah. Contested by the Israelites and the Philistines, as it connected the Philistine coastal plain in the west to the Judean hill country in the east. Delilah was from the Sorek Valley. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Nahal_Sorek"/>
+               </bibl>
+            </place>
+            <place xml:id="asgard" ana="#place">
+               <placeName>Asgard</placeName>
+               <note ana="#description">
+                  <p> The home of the gods in Norse mythology. </p>
+               </note>
             </place>
    <!-- end Abby's additions to listPlace-->
             </listPlace>
