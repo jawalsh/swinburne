@@ -4619,5 +4619,101 @@
                      <ptr target="https://en.wikipedia.org/wiki/Catherine_of_Siena#"/>
                   </bibl>
                </person>
+               <person xml:id="vittoria_colonna" ana="#person">
+                  <persName>Colonna, Vittoria</persName>
+                  <birth>
+                     <date when="1492-04"/>
+                  </birth>
+                  <death>
+                     <date when="1547-02-25"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian noblewoman and poet. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Vittoria_Colonna"/>
+                  </bibl>
+               </person>
+               <person xml:id="delilah" ana="#person">
+                  <persName>Delilah</persName>
+                  <note ana="#description">
+                     <p> In the Hebrew Bible, Samson falls in love with Delilah. Bribed by the lords of the Philistines, she convinces Samson to reveal the secret of his strength, namely, his uncut hair. She cuts his hair while he sleeps and turns him over to the Philistines. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Delilah"/>
+                  </bibl>
+               </person>
+               <person xml:id="buloz" ana="#person">
+                  <persName>Buloz, François</persName>
+                  <birth>
+                     <date when="1803-09-20"/>
+                  </birth>
+                  <death>
+                     <date when="1877-01-12"/>
+                  </death>
+                  <note ana="#description">
+                     <p> The editor of the <ref target="https://en.wikipedia.org/wiki/Revue_des_deux_Mondes"><title>Revue des deux Mondes</title></ref> <date from="1831" to="1877">from 1831 to 1877</date>. Brought in works from such renowned French authors as Victor Hugo, Alexandre Dumas, and Honoré de Balzac. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Buloz"/>
+                  </bibl>
+               </person>
+               <person xml:id="planche" ana="#person">
+                  <persName>Plance, Jean Baptiste Gustave</persName>
+                  <birth>
+                     <date when="1808-02-16"/>
+                  </birth>
+                  <death>
+                     <date when="1857-09-18"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French art and literary critic who contributed to the <ref target="https://en.wikipedia.org/wiki/Revue_des_deux_Mondes"><title>Revue des deux Mondes</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Jean_Baptiste_Gustave_Planche"/>
+                  </bibl>
+               </person>
+               <person xml:id="pontmartin" ana="#person">
+                  <persName>Armand Augustin Joseph Marie Ferrard, Comte de Pontmartin</persName>
+                  <persName ana="#alternate">Armand de Pontmartin</persName>
+                  <birth>
+                     <date when="1811-07-16"/>
+                  </birth>
+                  <death>
+                     <date when="1890-03-29"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French journalist, critic, and man of letters. Best known for his satirical novel, <ref target="https://www.gutenberg.org/ebooks/43294"><title>Les Jeudis de Madame Charbonneau</title></ref>, in which he humorously depicts his contemporaries. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Armand_de_Pontmartin"/>
+                  </bibl>
+               </person>
+               <person xml:id="louis_etienne" ana="#person">
+                  <persName>Étienne, Louis</persName>
+                  <birth>
+                     <date when="1813"/>
+                  </birth>
+                  <death>
+                     <date when="1875"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French literary critic who contributed several pieces to the <ref target="https://en.wikipedia.org/wiki/Revue_des_deux_Mondes"><title>Revue des deux Mondes</title></ref>. In <ref target="https://fr.wikisource.org/wiki/Le_Paganisme_po%C3%A9tique_en_Angleterre_%E2%80%94_John_Keats_et_Algernon_Charles_Swinburne"><title>Le Paganisme poétique en Angleterre: John Keats et Algernon Charles Swinburne</title></ref>, he compares Keats and Swinburne and criticizes both of them. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://fr.wikisource.org/wiki/Auteur:Louis_%C3%89tienne"/>
+                  </bibl>
+               </person>
+               <person xml:id="baldr" ana="#person">
+                  <persName>Baldr</persName>
+                  <persName ana="#alternate">Balder</persName>
+                  <persName ana="#alternate">Baldur</persName>
+                  <note ana="#description">
+                     <p> A god of Germanic and Norse mythology. When Baldr prophetically dreamt of his own death, his mother made every object on the earth promise not to harm him. The mistletoe alone did not make this promise, and Loki used a spear or arrow made of mistletoe to kill him.  </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Baldr#"/>
+                  </bibl>
+               </person>
    <!-- conclude Abby's additions to listPerson-->
             </listPerson>
