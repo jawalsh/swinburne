@@ -1133,7 +1133,7 @@
                      <date when="1864"/>
                   </death>
                   <note ana="#description">
-                     <p> English Romantic poet. Author of <title>Gebir</title>  and prose “<ref target="https://en.wikipedia.org/wiki/Imaginary_Conversations">imaginary conversations</ref>.” Republican.</p>
+                     <p> English Romantic poet. Author of <title>Gebir</title> and prose “<ref target="https://en.wikipedia.org/wiki/Imaginary_Conversations">imaginary conversations</ref>.” Republican.</p>
                   </note>
                   <bibl>
                      <ptr target="http://en.wikipedia.org/wiki/Walter_Savage_Landor"/>
@@ -4713,6 +4713,80 @@
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Baldr#"/>
+                  </bibl>
+               </person>
+               <person xml:id="richard_garnett" ana="#person">
+                  <persName>Garnett, Richard</persName>
+                  <birth>
+                     <date when="1835-02-27"/>
+                  </birth>
+                  <death>
+                     <date when="1906-04-13"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A librarian who worked for the British Museum. Edited multiple volumes of Shelley's works, including <ref target="https://archive.org/details/relicsofshelley00shel/mode/2up"><title>Relics of Shelley</title></ref> and <ref target="https://archive.org/details/selectlettersofp00shelrich/mode/2up"><title>Select Letters of Percey Bysshe Shelley</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Richard_Garnett_(writer)"/>
+                  </bibl>
+               </person>
+               <person xml:id="palgrave" ana="#person">
+                  <persName>Palgrave, Francis Turner</persName>
+                  <birth>
+                     <date when="1824-09-28"/>
+                  </birth>
+                  <death>
+                     <date when="1897-10-24"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A British critic, anthologist, and poet. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Francis_Turner_Palgrave"/>
+                  </bibl>
+               </person>
+               <person xml:id="rossetti_w_m" ana="#person">
+                  <persName>Rossetti, William Michael</persName>
+                  <birth>
+                     <date when="1829-09-25"/>
+                  </birth>
+                  <death>
+                     <date when="1919-02-05"/>
+                  </death>
+                  <note ana="#description">
+                     <p> English writer and critic and one of the founders of the Pre-Raphaelite Brotherhood. Brother of Dante Gabriel Rossetti and Christina Georgina Rossetti. He published a revised edition of Shelley's poems, which included a memoir of Shelley. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/William_Michael_Rossetti"/>
+                     <ptr target="https://archive.org/details/completepoetical01sheluoft/mode/2up"/>
+                  </bibl>
+               </person>
+               <person xml:id="admetus" ana="#person">
+                  <persName>Admetus</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, a king of Pherae in Thessaly. When Apollo was sentenced to be a mortal for a year, he served as one of Admetus's herdsman, and he favored Admetus throughout the rest of his life, helping him to win the hand of Alcestis and to escape death. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Admetus_of_Pherae"/>
+                  </bibl>
+               </person>
+               <person xml:id="kali">
+                  <persName>Kali</persName>
+                  <persName ana="#alternate">Kalika</persName>
+                  <note ana="#description">
+                     <p> A Hindu goddess worshipped as the Divine Mother and primarily associated with time, death, and destruction. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Kali"/>
+                  </bibl>
+               </person>
+               <person xml:id="prometheus">
+                  <persName>Prometheus</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, one of the titans. He stole fire from the Olympians and gave it to humanity. In some stories, he is also credited with shaping humanity from clay. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Prometheus"/>
                   </bibl>
                </person>
    <!-- conclude Abby's additions to listPerson-->
