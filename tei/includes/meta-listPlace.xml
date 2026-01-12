@@ -1306,5 +1306,41 @@
                   <p> The home of the gods in Norse mythology. </p>
                </note>
             </place>
+            <place xml:id="naples" ana="#place">
+               <placeName>Naples</placeName>
+               <note ana="#description">
+                  <p> An Italian city situated on the Gulf of Naples. Prior to the Italian unification, it served as the capital of the Kingdom of Naples. Historically significant for developments in art and music. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Naples#"/>
+               </bibl>
+            </place>
+            <place xml:id="vesuvius">
+               <geogName>Mount Vesuvius</geogName>
+               <note ana="#description">
+                  <p> A volcano located on the Gulf of Naples in Italy, famous for its eruption in <date when="0079">79 A.D.</date> that destroyed the cities of Pompeii, Herculaneum, Oplontis, and Stabiae. Associated with Jupiter and Hercules in Roman mythology. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Mount_Vesuvius"/>
+               </bibl>
+            </place>
+            <place xml:id="stromboli">
+               <geogName>Stromboli</geogName>
+               <note ana="#description">
+                  <p> One of the seven volcanic Aeolian Islands off the north coast of Sicily. In Greek mythology, the home of Aeolus. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Stromboli"/>
+               </bibl>
+            </place>
+            <place xml:id="bethlehem">
+               <placeName>Bethlehem</placeName>
+               <note ana="#description"> 
+                  <p> The birthplace of King David in the Hebrew Bible, and of Jesus of Nazareth in the New Testament. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Bethlehem"/>
+               </bibl>
+            </place>
    <!-- end Abby's additions to listPlace-->
             </listPlace>
