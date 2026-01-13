@@ -4789,5 +4789,98 @@
                      <ptr target="https://en.wikipedia.org/wiki/Prometheus"/>
                   </bibl>
                </person>
+               <person xml:id="keate_john">
+                  <persName>Keate, John</persName>
+                  <birth>
+                     <date when="1773-03-30"/>
+                  </birth>
+                  <death>
+                     <date when="1852-03-05"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A Head Master of Eton College whose strict disciplinary measures included large-scale floggings of the students. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/John_Keate"/>
+                  </bibl>
+               </person>
+               <person xml:id="pecksniff">
+                  <persName>Pecksniff, Seth</persName>
+                  <note ana="#description">
+                     <p> A character in Charles Dickens's <title>Martin Chuzzlewit</title>, he is a greedy and hypocritical architect who passes off his students' designs as his own. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Martin_Chuzzlewit"/>
+                  </bibl>
+               </person>
+               <person xml:id="laon">
+                  <persName>Laon</persName>
+                  <note ana="#description">
+                     <p> Alongside Cythna, a revolutionary martyr and hero of Percy Bysshe Shelley's poem, <title>The Revolt of Islam</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Revolt_of_Islam"/>
+                  </bibl>
+               </person>
+               <person xml:id="cythna">
+                  <persName>Cythna</persName>
+                  <note ana="#description">
+                     <p> Alongside Laon, a revolutionary martyr and heroine of Percy Bysshe Shelley's poem, <title>The Revolt of Islam</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Revolt_of_Islam"/>
+                  </bibl>
+               </person>
+               <person xml:id="gisborne_maria">
+                  <persName>Gisborne, Maria</persName>
+                  <persName ana="#alternate">James, Maria</persName>
+                  <persName ana="#alternate">Reveley, Maria</persName>
+                  <birth>
+                     <date when="1770"/>
+                  </birth>
+                  <death>
+                     <date when="1836"/>
+                  </death>
+                  <note ana="#description">
+                     <p> Friend and correspondent of Percey Bysshe Shelley, Mary Shelley, and William Godwin. See Percy Bysshe Shelley's poem, <title>Letter to Maria Gisborne</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Maria_Gisborne"/>
+                  </bibl>
+               </person>
+               <person xml:id="pedro_calderon">
+                  <persName>Calderón de la Barca, Pedro</persName>
+                  <persName ana="#alternate">Calderón de la Barca y Barreda González de Henao Ruiz de Blasco y Riaño, Pedro</persName>
+                  <birth>
+                     <date when="1600-01-17"/>
+                  </birth>
+                  <death>
+                     <date when="1681-05-25"/>
+                  </death>
+                  <note ana="#description">
+                     <p> Spanish dramatist, poet, and writer. Author of <title>Los Cabellos de Absalón</title>, a tragedy based on the biblical story of Absalom, Tamar, and Amnon. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Pedro_Calder%C3%B3n_de_la_Barca"/>
+                  </bibl>
+               </person>
+               <person xml:id="amnon">
+                  <persName>Amnon</persName>
+                  <note ana="#description">
+                     <p> In the Hebrew Bible, the son of King David. He tricks and rapes his sister, Tamar, and is killed by their brother, Absalom, in act of revenge. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Amnon"/>
+                  </bibl>
+               </person>
+               <person xml:id="tamar">
+                  <persName>Tamar</persName>
+                  <note ana="#description">
+                     <p> In the Hebrew Bible, the daughter of King David. She is raped by her brother Amnon and flees to the care of her brother Absalom. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Tamar_(daughter_of_David)"/>
+                  </bibl>
+               </person>
    <!-- conclude Abby's additions to listPerson-->
             </listPerson>
