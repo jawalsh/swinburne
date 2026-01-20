@@ -1039,7 +1039,8 @@
                </place>
                <place xml:id="troy" ana="#place">
                   <placeName>Troy</placeName>
-                  <placeName ana=" #alternate">Hisarlik</placeName>
+                  <placeName ana="#alternate">Hisarlik</placeName>
+                  <placeName ana="#alternate">Ilion</placeName>
                   <note ana="#description">
                      <p> A legendary city located in present day northwest Turkey. In Homer's <title>Iliad</title> it was the center of the Trojan War. </p>
                   </note>
@@ -1340,6 +1341,25 @@
                </note>
                <bibl>
                   <ptr target="https://en.wikipedia.org/wiki/Bethlehem"/>
+               </bibl>
+            </place>
+            <place xml:id="livorno">
+               <placeName>Livorno</placeName>
+               <note ana="#description">
+                  <p> A port city on the western coast of the Tuscany region of Italy. Shelley composed part of <title>The Cenci</title> near Livorno, and he himself printed an edition of the work, consisting of 250 copies, in Livorno. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Livorno"/>
+                  <ptr target="https://en.wikipedia.org/wiki/The_Cenci"/>
+               </bibl>
+            </place>
+            <place xml:id="nysa">
+               <placeName>Nysa</placeName>
+               <note ana="#description">
+                  <p> In Greek mythology, the place where Dionysus was raised from infancy by the rain nymphs, the Hyades. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Nysa_(mythology)"/>
                </bibl>
             </place>
    <!-- end Abby's additions to listPlace-->
