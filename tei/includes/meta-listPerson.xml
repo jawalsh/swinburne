@@ -1483,10 +1483,10 @@
                <person xml:id="pelagius" ana="#person">
                   <persName>Pelagius</persName>
                   <birth>
-                     <date when="0354" cert="unknown">ca. 354</date>
+                     <date when="0354" cert="unknown">c. 354</date>
                   </birth>
                   <death>
-                     <date notBefore="0420" notAfter="0440" cert="unknown">ca.
+                     <date notBefore="0420" notAfter="0440" cert="unknown">c.
                             420/440</date>
                   </death>
                   <note ana="#description">
@@ -2074,15 +2074,6 @@
                   <bibl>
                      <ptr target="http://en.wikipedia.org/wiki/William_Wordsworth"/>
                   </bibl>
-               </person>
-               <person xml:id="maenad" ana="#person">
-                  <persName>maenad</persName>
-                  <note ana="#description">
-                     <p> In ancient Greece, a female follower of Bacchus, traditionally
-                        associated with divine possession and frenzied rites. These were typically
-                        upper-class women, who, every other winter, go up into the Greek mountains
-                        to perform a ritual urged by Dionysus. </p>
-                  </note>
                </person>
                <person xml:id="angelica" corresp="arthurian.xtm#angelica" ana="#arthurianFigure">
                   <persName>Angelica</persName>
@@ -4177,7 +4168,10 @@
                   <persName ana="#alternate">Bacchae</persName>
                   <persName ana="#alternate">Bassarids</persName>
                   <note ana="#description">
-                     <p> In Greek mythology, female members of Dionysus's revenue who were depicted as frenzied or <q>mad women</q>. </p>
+                     <p> In Greek mythology, female members of Dionysus's revenue who were traditionally
+                        associated with divine possession and frenzied rites. These were typically
+                        upper-class women, who, every other winter, go up into the Greek mountains
+                        to perform a ritual urged by Dionysus</p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Maenad"/>
@@ -4880,6 +4874,193 @@
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Tamar_(daughter_of_David)"/>
+                  </bibl>
+               </person>
+               <person xml:id="john_ford">
+                  <persName>Ford, John</persName>
+                  <birth>
+                     <date when="1586"/>
+                  </birth>
+                  <death>
+                     <date when="1639" cert="unknown">c. 1639</date>
+                  </death>
+                  <note ana="#description">
+                     <p> An English playwright and poet of the Jacobean and Caroline eras. Best known as the author of <ref target="https://en.wikipedia.org/wiki/%27Tis_Pity_She%27s_a_Whore"><title>'Tis Pity She's a Whore</title></ref>, a tragedy centered around an incestuous relationship. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/John_Ford_(dramatist)"/>
+                  </bibl>
+               </person>
+               <person xml:id="virgil">
+                  <persName>Virgil</persName>
+                  <persName ana="#alternate">Vergil</persName>
+                  <persName ana="#alternate">Publius Vergilius Maro</persName>
+                  <birth>
+                     <date when="-0070-10-15"/>
+                  </birth>
+                  <death>
+                     <date when="-0019-09-19"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A Roman poet of the Augustan era. Best known for the <title>Eclogues</title>, the <title>Georgics</title>, and the <title>Aeneid</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://enj.wikipedia.org/wiki/Virgil"/>
+                  </bibl>
+               </person>
+               <person xml:id="jupiter">
+                  <persName>Jupiter</persName>
+                  <persName ana="#alternate">Jove</persName>
+                  <note ana="#description">
+                     <p> The Roman king of the gods. Lord of the sky and thunder. Counterpart to the Greek god Zeus. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Jupiter_(god)"/>
+                  </bibl>
+               </person>
+               <person xml:id="marzio">
+                  <persName>Marzio</persName>
+                  <note ana="#description">
+                     <p> In Shelley's <title>The Cenci</title>, he is one of Count Francesco Cenci's servants and a conspirator in his murder. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Cenci"/>
+                  </bibl>
+               </person>
+               <person xml:id="mercury">
+                  <persName>Mercury</persName>
+                  <note ana="#description">
+                     <p> In Roman mythology, the god of boundaries, commerce, communication, eloquence, financial gain, languages, luck, thieves, travelers, trickery, and guiding souls to the underworld. Counterpart to the Greek god Hermes. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Mercury_(mythology)"/>
+                  </bibl>
+               </person>
+               <person xml:id="dindorf_k">
+                  <persName>Dindorf, Karl Wilhelm</persName>
+                  <birth>
+                     <date when="1802-01-02"/>
+                  </birth>
+                  <death>
+                     <date when="1883-08-01"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A German classical scholar. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Karl_Wilhelm_Dindorf"/>
+                  </bibl>
+               </person>
+               <person xml:id="paley_f">
+                  <persName>Paley, Frederick Apthorp</persName>
+                  <birth>
+                     <date when="1815-01-14"/>
+                  </birth>
+                  <death>
+                     <date when="1888-12-08"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English classical scholar. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Frederick_Apthorp_Paley"/>
+                  </bibl>
+               </person>
+               <person xml:id="polyphemus">
+                  <persName>Polyphemus</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, a cyclops and the son of Poseidon. First appears in the <title>Odyssey</title>, in which he traps and is subsequently blinded and tricked by Odysseus and his men. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Polyphemus"/>
+                  </bibl>
+               </person>
+               <person xml:id="silenus">
+                  <persName>Silenus</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, a follower of Dionysus. Leader of the satyrs in Euripides's <ref target="https://en.wikipedia.org/wiki/Cyclops_(play)"><title>Cyclops</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Silenus"/>
+                  </bibl>
+               </person>
+               <person xml:id="rabelais">
+                  <persName>Rabelais, François</persName>
+                  <birth>
+                     <date notBefore="1483" notAfter="1494"/>
+                  </birth>
+                  <death>
+                     <date when="1553"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French Renaissance humanist and Greek scholar. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Rabelais"/>
+                  </bibl>
+               </person>
+               <person xml:id="falstaff">
+                  <persName>Sir John Falstaff</persName>
+                  <note ana="#description">
+                     <p> A comic, buffoonish character in Shakespeare's plays. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/John_Falstaff"/>
+                  </bibl>
+               </person>
+               <person xml:id="helen_of_troy">
+                  <persName>Helen of Troy</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, said to be the most beautiful woman in the world. The Trojan war was instigated when she either left or was taken from her first husband, King Menelaus of Sparta, and married Paris of Troy. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Helen_of_Troy"/>
+                  </bibl>
+               </person>
+               <person xml:id="priam">
+                  <persName>Priam</persName>
+                  <note ana="#description">
+                     <p> The king of Troy during the Trojan War. Father of Cassandra, Hector, and Paris. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Priam"/>
+                  </bibl>
+               </person>
+               <person xml:id="caliban">
+                  <persName>Caliban</persName>
+                  <note ana="#description">
+                     <p> A half-human, half-monster, comic character in Shakespeare's <ref target="https://en.wikipedia.org/wiki/The_Tempest"><title>The Tempest</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Caliban"/>
+                  </bibl>
+               </person>
+               <person xml:id="stephano">
+                  <persName>Stephano</persName>
+                  <note ana="#description">
+                     <p> In Shakespeare's <ref target="https://en.wikipedia.org/wiki/The_Tempest"><title>The Tempest</title></ref>, a butler who plots against Prospero. Caliban believes him to be a god. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Stephano_(The_Tempest)"/>
+                  </bibl>
+               </person>
+               <person xml:id="ganymede">
+                  <persName>Ganymede</persName>
+                  <persName ana="#alternate">Ganymedes</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, a Trojan hero abducted by the gods to serve as cup-bearer to Zeus. Some versions of the story suggest that Zeus was in love with him. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Ganymede_(mythology)"/>
+                  </bibl>
+               </person>
+               <person xml:id="trinculo">
+                  <persName>Trinculo</persName>
+                  <note ana="#description">
+                     <p> The king's jester in Shakespeare's <title>The Tempest</title>. In cahoots with Stephano and Caliban to overthrow Prospero. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Tempest"/>
                   </bibl>
                </person>
    <!-- conclude Abby's additions to listPerson-->
