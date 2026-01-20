@@ -130,5 +130,25 @@
                      <ptr target="https://en.wikipedia.org/wiki/Nazirite"/>
                   </bibl>
                </org>
+               <org xml:id="nereids">
+                  <orgName>Nereids</orgName>
+                  <orgName ana="#alternate">Nereides</orgName>
+                  <note ana="#description">
+                     <p> In Greek mythology, sea nymphs and daughters of Nereus. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Nereids"/>
+                  </bibl>
+               </org>
+               <org xml:id="furies">
+                  <orgName>The Furies</orgName>
+                  <orgName ana="#alternate">Dirae</orgName>
+                  <note ana="#description">
+                     <p> Roman goddesses of revenge. Counterparts to the Greek Erinyes, or Eumenides. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Erinyes"/>
+                  </bibl>
+               </org>
    <!-- conclude Abby's additions to meta-listOrg.xml-->
             </listOrg>
