@@ -5063,5 +5063,30 @@
                      <ptr target="https://en.wikipedia.org/wiki/The_Tempest"/>
                   </bibl>
                </person>
+               <person xml:id="uzzah">
+                  <persName>Uzzah</persName>
+                  <persName ana="#alternate">Uzza</persName>
+                  <note ana="#description">
+                     <p> In the Hebrew Bible, Uzzah is struck down by God after touching the Ark of the Covenant. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Uzzah"/>
+                  </bibl>
+               </person>
+               <person xml:id="southey">
+                  <persName>Southey, Robert</persName>
+                  <birth>
+                     <date when="1774-08-12"/>
+                  </birth>
+                  <death>
+                     <date when="1843-03-21"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English romantic poet. British poet laureate from 1813 until his death. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Robert_Southey"/>
+                  </bibl>
+               </person>
    <!-- conclude Abby's additions to listPerson-->
             </listPerson>
