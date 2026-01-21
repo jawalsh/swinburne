@@ -1362,5 +1362,15 @@
                   <ptr target="https://en.wikipedia.org/wiki/Nysa_(mythology)"/>
                </bibl>
             </place>
+            <place xml:id="westphalia">
+               <placeName>Westphalia</placeName>
+               <placeName ana="#alternate">Westfalen</placeName>
+               <note ana="#description">
+                  <p> A region of northwest Germany, historically a province of Prussia. Notably, the Thirty Years' War ended in <date when="1648">1648</date> when peace treaties were signed in two Westphalian cities, referred to as the Peace of Westphalia. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Westphalia#"/>
+               </bibl>
+            </place>
    <!-- end Abby's additions to listPlace-->
             </listPlace>
