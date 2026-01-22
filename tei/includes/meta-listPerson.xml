@@ -4293,7 +4293,7 @@
                      <ptr target="https://en.wikipedia.org/wiki/Petrarch"/>
                   </bibl>
                </person>
-               <person xml:id="merope" ana="#person">
+               <person xml:id="merope_queen" ana="#person">
                   <persName>Merope</persName>
                   <note ana="#description">
                      <p> In Greek mythology, a Queen of Messenia and the wife of Cresphontes. Her husband and two elder children were murdered, and she was forced to marry the murderer; however, she was able to save her youngest son, who conspired with her to take revenge several years later. The subject of Euripides's lost tragedy, <title>Cresphontes</title>, which inspired Matthew Arnold's <date when="1858">1858</date> work <title>Merope</title>. </p>
@@ -4748,7 +4748,7 @@
                      <date when="1919-02-05"/>
                   </death>
                   <note ana="#description">
-                     <p> English writer and critic and one of the founders of the Pre-Raphaelite Brotherhood. Brother of Dante Gabriel Rossetti and Christina Georgina Rossetti. He published a revised edition of Shelley's poems, which included a memoir of Shelley. </p>
+                     <p> English writer and literary critic and one of the founders of the Pre-Raphaelite Brotherhood. Brother of Dante Gabriel Rossetti and Christina Georgina Rossetti. He published a revised edition of Shelley's poems, which included a memoir of Shelley. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/William_Michael_Rossetti"/>
