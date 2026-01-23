@@ -1372,5 +1372,14 @@
                   <ptr target="https://en.wikipedia.org/wiki/Westphalia#"/>
                </bibl>
             </place>
+            <place xml:id="pisa">
+               <placeName>Pisa</placeName>
+               <note ana="#description">
+                  <p> A city in Tuscany, Italy. Percy Bysshe Shelley invited John Keats to visit him in Pisa not too long before Keats's death. Keats was unable to come. Shelley printed his <title>Adonais</title>, an elegy to Keats, in Pisa. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://www.gutenberg.org/files/10119/10119-h/10119-h.htm#composition"/>
+               </bibl>
+            </place>
    <!-- end Abby's additions to listPlace-->
             </listPlace>
