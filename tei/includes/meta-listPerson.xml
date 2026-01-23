@@ -4709,7 +4709,7 @@
                      <ptr target="https://en.wikipedia.org/wiki/Baldr#"/>
                   </bibl>
                </person>
-               <person xml:id="richard_garnett" ana="#person">
+               <person xml:id="garnett_richard" ana="#person">
                   <persName>Garnett, Richard</persName>
                   <birth>
                      <date when="1835-02-27"/>
