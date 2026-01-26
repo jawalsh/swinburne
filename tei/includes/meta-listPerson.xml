@@ -4842,7 +4842,7 @@
                      <ptr target="https://en.wikipedia.org/wiki/Maria_Gisborne"/>
                   </bibl>
                </person>
-               <person xml:id="pedro_calderon">
+               <person xml:id="calderon_pedro">
                   <persName>Calderón de la Barca, Pedro</persName>
                   <persName ana="#alternate">Calderón de la Barca y Barreda González de Henao Ruiz de Blasco y Riaño, Pedro</persName>
                   <birth>
@@ -4876,7 +4876,7 @@
                      <ptr target="https://en.wikipedia.org/wiki/Tamar_(daughter_of_David)"/>
                   </bibl>
                </person>
-               <person xml:id="john_ford">
+               <person xml:id="ford_john">
                   <persName>Ford, John</persName>
                   <birth>
                      <date when="1586"/>
@@ -4969,7 +4969,7 @@
                <person xml:id="polyphemus">
                   <persName>Polyphemus</persName>
                   <note ana="#description">
-                     <p> In Greek mythology, a cyclops and the son of Poseidon. First appears in the <title>Odyssey</title>, in which he traps and is subsequently blinded and tricked by Odysseus and his men. </p>
+                     <p> In Greek mythology, a cyclops and the son of <persName>Poseidon</persName>. First appears in the <title>Odyssey</title>, in which he traps and is subsequently blinded and tricked by <persName>Odysseus</persName> and his men. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Polyphemus"/>
@@ -4978,7 +4978,7 @@
                <person xml:id="silenus">
                   <persName>Silenus</persName>
                   <note ana="#description">
-                     <p> In Greek mythology, a follower of Dionysus. Leader of the satyrs in Euripides's <ref target="https://en.wikipedia.org/wiki/Cyclops_(play)"><title>Cyclops</title></ref>. </p>
+                     <p> In Greek mythology, a follower of <persName>Dionysus</persName>. Leader of the satyrs in <persName>Euripides</persName>'s <ref target="https://en.wikipedia.org/wiki/Cyclops_(play)"><title>Cyclops</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Silenus"/>
@@ -5002,7 +5002,7 @@
                <person xml:id="falstaff">
                   <persName>Sir John Falstaff</persName>
                   <note ana="#description">
-                     <p> A comic, buffoonish character in Shakespeare's plays. </p>
+                     <p> A comic, buffoonish character in <persName>Shakespeare</persName>'s plays. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/John_Falstaff"/>
@@ -5011,7 +5011,7 @@
                <person xml:id="helen_of_troy">
                   <persName>Helen of Troy</persName>
                   <note ana="#description">
-                     <p> In Greek mythology, said to be the most beautiful woman in the world. The Trojan war was instigated when she either left or was taken from her first husband, King Menelaus of Sparta, and married Paris of Troy. </p>
+                     <p> In Greek mythology, said to be the most beautiful woman in the world. The Trojan war was instigated when she either left or was taken from her first husband, King <persName>Menelaus</persName> of Sparta, and married <persName>Paris</persName> of Troy. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Helen_of_Troy"/>
@@ -5020,7 +5020,7 @@
                <person xml:id="priam">
                   <persName>Priam</persName>
                   <note ana="#description">
-                     <p> The king of Troy during the Trojan War. Father of Cassandra, Hector, and Paris. </p>
+                     <p> The king of Troy during the Trojan War. Father of <persName>Cassandra</persName>, <persName>Hector</persName>, and <persName>Paris</persName>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Priam"/>
@@ -5029,7 +5029,7 @@
                <person xml:id="caliban">
                   <persName>Caliban</persName>
                   <note ana="#description">
-                     <p> A half-human, half-monster, comic character in Shakespeare's <ref target="https://en.wikipedia.org/wiki/The_Tempest"><title>The Tempest</title></ref>. </p>
+                     <p> A half-human, half-monster, comic character in <persName>Shakespeare</persName>'s <ref target="https://en.wikipedia.org/wiki/The_Tempest"><title>The Tempest</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Caliban"/>
@@ -5038,7 +5038,7 @@
                <person xml:id="stephano">
                   <persName>Stephano</persName>
                   <note ana="#description">
-                     <p> In Shakespeare's <ref target="https://en.wikipedia.org/wiki/The_Tempest"><title>The Tempest</title></ref>, a butler who plots against Prospero. Caliban believes him to be a god. </p>
+                     <p> In <persName>Shakespeare</persName>'s <ref target="https://en.wikipedia.org/wiki/The_Tempest"><title>The Tempest</title></ref>, a butler who plots against <persName>Prospero</persName>. <persName>Caliban</persName> believes him to be a god. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Stephano_(The_Tempest)"/>
@@ -5048,7 +5048,7 @@
                   <persName>Ganymede</persName>
                   <persName ana="#alternate">Ganymedes</persName>
                   <note ana="#description">
-                     <p> In Greek mythology, a Trojan hero abducted by the gods to serve as cup-bearer to Zeus. Some versions of the story suggest that Zeus was in love with him. </p>
+                     <p> In Greek mythology, a Trojan hero abducted by the gods to serve as cup-bearer to <persName>Zeus</persName>. Some versions of the story suggest that <persName>Zeus</persName> was in love with him. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Ganymede_(mythology)"/>
@@ -5057,7 +5057,7 @@
                <person xml:id="trinculo">
                   <persName>Trinculo</persName>
                   <note ana="#description">
-                     <p> The king's jester in Shakespeare's <title>The Tempest</title>. In cahoots with Stephano and Caliban to overthrow Prospero. </p>
+                     <p> The king's jester in <persName>Shakespeare</persName>'s <title>The Tempest</title>. In cahoots with <persName>Stephano</persName> and <persName>Caliban</persName> to overthrow <persName>Prospero</persName>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/The_Tempest"/>
@@ -5086,6 +5086,109 @@
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Robert_Southey"/>
+                  </bibl>
+               </person>
+               <person xml:id="hogg_t_j">
+                  <persName>Hogg, Thomas Jefferson</persName>
+                  <birth>
+                     <date when="1792-05-24"/>
+                  </birth>
+                  <death>
+                     <date when="1862-08-27"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A British barrister and writer who was friends with <persName>Percy Bysshe Shelley</persName>. Wrote <ref target="https://en.wikipedia.org/wiki/The_Life_of_Percy_Bysshe_Shelley"><title>The Life of Percy Bysshe Shelley</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Thomas_Jefferson_Hogg"/>
+                  </bibl>
+               </person>
+               <person xml:id="cyclops">
+                  <persName>Cyclops</persName>
+                  <persName ana="#alternate">Cyclopes</persName>
+                  <note ana="#description">
+                     <p> In Greek and Roman mythology, giant, one-eyed creatures. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Cyclopes"/>
+                  </bibl>
+               </person>
+               <person xml:id="proudhon">
+                  <persName>Proudhon, Pierre-Joseph</persName>
+                  <birth>
+                     <date when="1809-01-15"/>
+                  </birth>
+                  <death>
+                     <date when="1865-01-19"/>
+                  </death>
+                  <note ana="#description">
+                     <p> French anarchist, socialist, philosopher, and economist. Considered by many to be the "father of anarchism." </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Pierre-Joseph_Proudhon"/>
+                  </bibl>
+               </person>
+               <person xml:id="carlyle">
+                  <persName>Carlyle, Thomas</persName>
+                  <birth>
+                     <date when="1795-12-04"/>
+                  </birth>
+                  <death>
+                     <date when="1881-02-05"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A prominent Scottish Victorian essayist, historian, and philosopher. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Thomas_Carlyle#"/>
+                  </bibl>
+               </person>
+               <person xml:id="bayne">
+                  <persName>Bayne, Peter</persName>
+                  <birth>
+                     <date when="1830"/>
+                  </birth>
+                  <death>
+                     <date when="1896"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A Scottish writer, theology student, and literary critic. Used the pseudonym Ellis Brandt. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Peter_Bayne"/>
+                  </bibl>
+               </person>
+               <person xml:id="sheridan">
+                  <persName>Sheridan, Richard Brinsley</persName>
+                  <birth>
+                     <date when="1751-10-30"/>
+                  </birth>
+                  <death>
+                     <date when="1816-07-07"/>
+                  </death>
+                  <note ana="#description">
+                     <p> Anglo-Irish playwright, writer, Whig politician, and, from <date from="1806" to="1807">1806 to 1807</date>, Treasurer of the Navy. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Richard_Brinsley_Sheridan"/>
+                  </bibl>
+               </person>
+               <person xml:id="candour">
+                  <persName>Mrs. Candour</persName>
+                  <note ana="#description">
+                     <p> A character in <persName>Richard Brinsley Sheridan</persName>'s play, <title>The School for Scandal</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_School_for_Scandal"/>
+                  </bibl>
+               </person>
+               <person xml:id="tartuffe">
+                  <persName>Tartuffe</persName>
+                  <note ana="#description">
+                     <p> The titular character of <persName>Molière</persName>'s classic comedy, Tartuffe uses fraudulent religious devotion to manipulate <persName>Orgon</persName>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Tartuffe"/>
                   </bibl>
                </person>
    <!-- conclude Abby's additions to listPerson-->
