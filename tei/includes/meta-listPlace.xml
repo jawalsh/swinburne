@@ -1381,5 +1381,11 @@
                   <ptr target="https://www.gutenberg.org/files/10119/10119-h/10119-h.htm#composition"/>
                </bibl>
             </place>
+            <place xml:id="euganean_hills">
+               <placeName>Euganean Hills</placeName>
+               <note ana="#description">
+                  <p> A group of hills of volcanic origin south of <placeName>Padua</placeName>. </p>
+               </note>
+            </place>
    <!-- end Abby's additions to listPlace-->
             </listPlace>
