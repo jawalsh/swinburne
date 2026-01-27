@@ -3843,7 +3843,7 @@
                      <ptr target="https://en.wikipedia.org/wiki/Edmund_Waller"/>
                   </bibl>
                </person>
-               <person xml:id="beatrice_cenci" ana="#person">
+               <person xml:id="cenci_beatrice" ana="#person">
                   <persName>Cenci, Beatrice</persName>
                   <birth>
                      <date when="1577-02-06"/>
@@ -5140,7 +5140,7 @@
                      <p> A prominent Scottish Victorian essayist, historian, and philosopher. </p>
                   </note>
                   <bibl>
-                     <ptr target="https://en.wikipedia.org/wiki/Thomas_Carlyle#"/>
+                     <ptr target="https://en.wikipedia.org/wiki/Thomas_Carlyle"/>
                   </bibl>
                </person>
                <person xml:id="bayne">
@@ -5189,6 +5189,188 @@
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Tartuffe"/>
+                  </bibl>
+               </person>
+               <person xml:id="farquhar">
+                  <persName>Farquhar, George</persName>
+                  <birth>
+                     <date when="1677"/>
+                  </birth>
+                  <death>
+                     <date when="1707-04-29"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Irish dramatist best known for his comedies.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/George_Farquhar"/>
+                  </bibl>
+               </person>
+               <person xml:id="franceschini_guido">
+                  <persName>Count Guido Franceschini</persName>
+                  <note ana="#description">
+                     <p> The subject of a murder trial in Rome in <date when="1698">1698</date>. Found guilty of the murders of his wife, whom he suspected to be adulterous, and her parents. The story of the trial is related in <persName>Robert Browning</persName>'s <title>The Ring and the Book</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Ring_and_the_Book"/>
+                  </bibl>
+               </person>
+               <person xml:id="cenci_fernando">
+                  <persName>Count Fernando Cenci</persName>
+                  <note ana="#description">
+                     <p> A brutal and sadistic Italian nobleman whose abuse of his family, including the rape of his own daughter, leads them to plot his murder. The subject of <persName>Percy Bysse Shelley</persName>'s <title>The Cenci</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Cenci"/>
+                  </bibl>
+               </person>
+               <person xml:id="lescaut_manon">
+                  <persName>Lescaut, Manon</persName>
+                  <note ana="#description">
+                     <p> In <persName>Antoine François Prévost</persName>'s <title>The Story of the Chevalier des Grieux and Manon Lescaut</title>, <persName>Manon Lescaut</persName> is a common woman whose relationship with a nobleman leads them both to moral decline. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Manon_Lescaut"/>
+                  </bibl>
+               </person>
+               <person xml:id="bovary_emma">
+                  <persName>Bovary, Emma</persName>
+                  <note ana="#description">
+                     <p> In <persName>Gustave Flaubert</persName>'s novel <title>Madame Bovary: Moeurs de province</title>, <persName>Emma Bovary</persName>, tired with her provincial life as the wife of a doctor, engages in excessive spending and affairs.  </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Madame_Bovary"/>
+                  </bibl>
+               </person>
+               <person xml:id="flaubert">
+                  <persName>Flaubert, Gustave</persName>
+                  <birth>
+                     <date when="1821-12-12"/>
+                  </birth>
+                  <death>
+                     <date when="1880-05-08"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French novelist who specialized in literary realism. Author of <ref target="https://en.wikipedia.org/wiki/Madame_Bovary"><title>Madame Bovary</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Gustave_Flaubert"/>
+                  </bibl>
+               </person>
+               <person xml:id="orsino">
+                  <persName>Orsino</persName>
+                  <note ana="#description">
+                     <p> In <persName>Percy Bysshe Shelley</persName>'s <title>The Cenci</title>, <persName>Orsino</persName> is a disingenous prelate who is in love with <persName>Beatrice</persName> and helps plan <persName>Count Cenci</persName>'s murder. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Cenci"/>
+                  </bibl>
+               </person>
+               <person xml:id="steevens_george">
+                  <persName>Steevens, George</persName>
+                  <birth>
+                     <date when="1736-05-10"/>
+                  </birth>
+                  <death>
+                     <date when="1800-01-22"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English writer and Shakespearean scholar. His work as an editor of Shakespeare was in many ways well-regarded, but he also occasionally made changes to the text with the sole purpose of demonstrating his superiority, as an editor, to his contemporary, <persName>Edmond Malone</persName>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/George_Steevens"/>
+                  </bibl>
+               </person>
+               <person xml:id="gamp">
+                  <persName>Gamp, Sarah</persName>
+                  <persName ana="#alternate">Gamp, Sairey</persName>
+                  <note ana="#description">
+                     <p> In <persName>Charles Dickens</persName>'s <title>Martin Chuzzlewit</title>, Mrs. Gamp is an incompetent and continually intoxicated nurse. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Sarah_Gamp"/>
+                  </bibl>
+               </person>
+               <person xml:id="rosalind">
+                  <persName>Rosalind</persName>
+                  <note ana="#description">
+                     <p> In <persName>Percy Bysshe Shelley</persName>'s <title>Rosalind and Helen</title>, <persName>Rosalind</persName> loses her bridegroom at the altar upon the discovery that he is her half-brother, and she is forced to marry a man whom she does not love and who separates her from her children. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Rosalind_and_Helen"/>
+                  </bibl>
+               </person>
+               <person xml:id="helen_1">
+                  <persName>Helen</persName>
+                  <note ana="#description">
+                     <p> In <persName>Percy Bysshe Shelley</persName>'s <title>Rosalind and Helen</title>, <persName>Helen</persName> rejects the traditional idea of marriage and enters into a relationship with <persName>Lionel</persName>, an upper-class man with revolutionary ideas. After his imprisonment and death, she is left alone with a son. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Rosalind_and_Helen"/>
+                  </bibl>
+               </person>
+               <person xml:id="lionel">
+                  <persName>Lionel</persName>
+                  <note ana="#description">
+                     <p> In <persName>Percy Bysshe Shelley</persName>'s <title>Rosalind and Helen</title>, Lionel is Helen's lover whose radical, outspoken ideas about society result in his exile, imprisonment, and death. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Rosalind_and_Helen"/>
+                  </bibl>
+               </person>
+               <person xml:id="simonides">
+                  <persName>Simonides of Ceos</persName>
+                  <birth>
+                     <date when="-0556" cert="unknown">c. 556 B.C.</date>
+                  </birth>
+                  <death>
+                     <date when="-0468" cert="unknown">c. 468 B.C.</date>
+                  </death>
+                  <note ana="#description">
+                     <p> A Greek lyric poet. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Simonides_of_Ceos"/>
+                  </bibl>
+               </person>
+               <person xml:id="viviani">
+                  <persName>Viviani, Teresa</persName>
+                  <persName ana="#alternate">Emilia</persName>
+                  <note ana="#description">
+                     <p> The daughter of the Governor of Pisa and a friend of <persName>Percy Bysshe Shelley</persName>. They corresponded passionately prior to her marriage. She was the inspiration for, and is addressed in the title page of, <persName>Shelley</persName>'s <title>Epipsychidion</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Percy_Bysshe_Shelley"/>
+                  </bibl>
+               </person>
+               <person xml:id="persius">
+                  <persName>Aulus Persius Flaccus</persName>
+                  <birth>
+                     <date when="0034-12-04"/>
+                  </birth>
+                  <death>
+                     <date when="0062-11-24"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A Roman poet and satirist. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Persius"/>
+                  </bibl>
+               </person>
+               <person xml:id="blind_mathilde">
+                  <persName>Blind, Mathilde</persName>
+                  <birth>
+                     <date when="1841-03-21"/>
+                  </birth>
+                  <death>
+                     <date when="1896-11-26"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A German-born English poet, writer, and critic. Her review essay on <persName>William Michael Rossetti</persName>'s <title>The Poetical Works of Percy Bysshe Shelley</title> earned her praise from <persName>Algernon Charles Swinburne</persName>, as well as entry into a formerly all-male group of "Shelleyites" that included <persName>Swinburne</persName>, <persName>Rossetti</persName>, and <persName>Richard Garnett</persName>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Mathilde_Blind"/>
                   </bibl>
                </person>
    <!-- conclude Abby's additions to listPerson-->
