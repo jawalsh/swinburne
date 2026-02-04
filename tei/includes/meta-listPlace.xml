@@ -1387,5 +1387,24 @@
                   <p> A group of hills of volcanic origin south of <placeName>Padua</placeName>. </p>
                </note>
             </place>
+            <place xml:id="grub_street">
+               <placeName>Grub Street</placeName>
+               <note ana="#description">
+                  <p> A street in London whose name, in the <date notBefore="1700" notAfter="1799">18th century</date>, came to refer to mediocre writers, literary hacks, and their works. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://www.britannica.com/topic/Grub-Street"/>
+               </bibl>
+            </place>
+   <place xml:id="kithaironas">
+      <geogName>Mount Kithairónas</geogName>
+      <geogName ana="#alternate">Mount Cithaeron</geogName>
+      <note ana="#description">
+         <p> A mountain range in central Greece considered sacred to <persName>Dionysus</persName> and from which he carried out his rites. </p>
+      </note>
+      <bibl>
+         <ptr target="https://en.wikipedia.org/wiki/Cithaeron"/>
+      </bibl>
+   </place>
    <!-- end Abby's additions to listPlace-->
             </listPlace>
