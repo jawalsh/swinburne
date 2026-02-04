@@ -3,7 +3,7 @@
                   <persName> Antigone </persName>
                   <note ana="#description">
                      <p> Daughter of King Oedipus of Thebes and his mother, Jocasta. In
-                        Sophocles's <title>Antigone</title>, she fights for a proper
+                        Sophocles's <title level="m">Antigone</title>, she fights for a proper
                         burial for her brother, Polyneices, who was thought to be a traitor to
                         Thebes. </p>
                   </note>
@@ -20,7 +20,7 @@
                      <date when="1586">1586</date>
                   </birth>
                   <note ana="#description">
-                     <p> English Elizabethan poet and soldier. Wrote <title>Astrophel and
+                     <p> English Elizabethan poet and soldier. Wrote <title level="m">Astrophel and
                             Stella</title>. </p>
                   </note>
                   <bibl>
@@ -127,7 +127,7 @@
                   <persName>Andrevuola</persName>
                   <note ana="#description">
                      <p> Character appearing in the sixth tale of the forth day in Boccaccio's
-                            <title>Decameron</title>. She is forced to proclaim her
+                            <title level="m">Decameron</title>. She is forced to proclaim her
                         innocence after her lover, Gabriotto, dies when she recounts to him a recent
                         dream. </p>
                   </note>
@@ -139,7 +139,7 @@
                   <persName>Antoine Gaget</persName>
                   <note ana="#description">
                      <p> Fictional author of the fictional epigraph to Swinburne's
-                            <title>Laus Veneris</title>. </p>
+                            <title level="a">Laus Veneris</title>. </p>
                   </note>
                </person>
                <person xml:id="aphrodite" ana="#person">
@@ -165,7 +165,7 @@
                   <persName>Arcite</persName>
                   <note ana="#description">
                      <p> A character in Shakespeare's and John Fletcher's play,
-                            <title>The Two Noble Kinsmen</title>. He battles with Palamon to
+                            <title level="m">The Two Noble Kinsmen</title>. He battles with Palamon to
                         win the hand of Emilia. Though victorious, he dies when thrown from his
                         horse after the battle and Theseus allows Palamon to marry Emilia. </p>
                   </note>
@@ -290,9 +290,9 @@
                   <note ana="#description">
                      <p> Balin and his brother Balan are two tragic Arthurian figures, brothers
                         who despite their nobility end up killing one another. Their story is
-                        recounted in Malory's <title>Morte d'Arthur</title>, Tennyson's
-                            <title>Idylls of the King</title>, and Swinburne's
-                            <title>The Tale of Balen</title>. </p>
+                        recounted in Malory's <title level="m">Morte d'Arthur</title>, Tennyson's
+                            <title level="m">Idylls of the King</title>, and Swinburne's
+                            <title level="m">The Tale of Balen</title>. </p>
                   </note>
                   <persName>Balen</persName>
                   <ptr target="document:toltrist00#persName_202"/>
@@ -353,7 +353,7 @@
                      <date when="1375"/>
                   </death>
                   <note ana="#description">
-                     <p>Italian author, wrote the <title>Decameron</title>. Friend and
+                     <p>Italian author, wrote the <title level="m">Decameron</title>. Friend and
                         correspondent of Petrarch.</p>
                   </note>
                   <bibl>
@@ -370,7 +370,7 @@
                   </death>
                   <note ana="#description">
                      <p> English writer. Author of <bibl>
-                           <title>A Year in a Lancashire
+                           <title level="m">A Year in a Lancashire
                                 Garden</title> (<pubPlace>London</pubPlace>:
                                 <publisher>Macmillan</publisher>, <date when="1879">1879</date>)</bibl>. </p>
                   </note>
@@ -560,7 +560,7 @@
                      <date when="1400">1400</date>
                   </death>
                   <note ana="#description">
-                     <p> English poet, writer, and statesman. Wrote the <title>The Canterbury
+                     <p> English poet, writer, and statesman. Wrote the <title level="m">The Canterbury
                             Tales</title>. </p>
                   </note>
                   <bibl>
@@ -594,7 +594,7 @@
                   </death>
                   <note ana="#description">
                      <p> English poet and critic. One of the founders of Romanticism. Cowrote
-                            <title>Lyrical Ballads</title>. </p>
+                            <title level="m">Lyrical Ballads</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="http://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge"/>
@@ -717,7 +717,7 @@
                      <date when="1321">1321</date>
                   </death>
                   <note ana="#description">
-                     <p> Florentine poet during the Middle Ages. Wrote the <title>Divine
+                     <p> Florentine poet during the Middle Ages. Wrote the <title level="m">Divine
                             Comedy</title>. </p>
                   </note>
                   <bibl>
@@ -777,7 +777,7 @@
                   </death>
                   <note ana="#description">
                      <p> Illustrator. His work appeared frequently in
-                            <title>Punch</title> magazine. </p>
+                            <title level="j">Punch</title> magazine. </p>
                   </note>
                </person>
                <person xml:id="edoni" ana="#person">
@@ -951,7 +951,7 @@
                   </death>
                   <note ana="#description">
                      <p> Greek epic poet. Attributed having written the
-                            <title>Iliad</title> and the <title>Odyssey</title>.
+                            <title level="m">Iliad</title> and the <title level="m">Odyssey</title>.
                     </p>
                   </note>
                   <bibl>
@@ -968,7 +968,7 @@
                   </death>
                   <note ana="#description">
                      <p>
-                        French writer, novelist, playwright, and poet who was idolized by Swinburne. Wrote <title>The Hunchback of Notre Dame</title>.
+                        French writer, novelist, playwright, and poet who was idolized by Swinburne. Wrote <title level="m">The Hunchback of Notre Dame</title>.
                     </p>
                   </note>
                   <bibl>
@@ -1105,7 +1105,7 @@
                <person xml:id="la_pia" ana="#person">
                   <persName>La Pia</persName>
                   <note ana="#description">
-                     <p> A character in Dante Aligheri's <title>Purgatory</title>,
+                     <p> A character in Dante Aligheri's <title level="m">Purgatory</title>,
                         thought to be based upon Pia Tolomei, who was killed in <date when="1295">1295</date> on the orders of her husband. </p>
                   </note>
                </person>
@@ -1133,7 +1133,7 @@
                      <date when="1864"/>
                   </death>
                   <note ana="#description">
-                     <p> English Romantic poet. Author of <title>Gebir</title> and prose “<ref target="https://en.wikipedia.org/wiki/Imaginary_Conversations">imaginary conversations</ref>.” Republican.</p>
+                     <p> English Romantic poet. Author of <title level="m">Gebir</title> and prose <ref target="https://en.wikipedia.org/wiki/Imaginary_Conversations"><title level="m">Imaginary Conversations</title></ref>. Republican.</p>
                   </note>
                   <bibl>
                      <ptr target="http://en.wikipedia.org/wiki/Walter_Savage_Landor"/>
@@ -1157,7 +1157,7 @@
                   </death>
                   <note ana="#description">
                      <p>
-                        French editor and publisher, known as a publisher of many of the Paranssian poets in his three-volume collection <title>Le Parnasse contemporain</title> (1866, 1871, 1876). Edited <title>Le Tombeau de Théophile Guatier</title> (1871), in which Swinburne's work appears.
+                        French editor and publisher, known as a publisher of many of the Parnassian poets in his three-volume collection <title level="s">Le Parnasse contemporain</title> (1866, 1871, 1876). Edited <title level="m">Le Tombeau de Théophile Guatier</title> (1871), in which Swinburne's work appears.
                     </p>
                   </note>
                   <bibl>
@@ -1230,7 +1230,7 @@
                   </death>
                   <note ana="#description">
                      <p> English Elizabethan playwright and contemporary of William Shakespeare.
-                        His <title>Tamburlaine</title> was one of the first English plays in
+                        His <title level="m">Tamburlaine</title> was one of the first English plays in
                         free verse, the form later made famous by Shakespeare. </p>
                   </note>
                   <bibl>
@@ -1336,8 +1336,8 @@
                      <date when="1674"/>
                   </death>
                   <note ana="#description">
-                     <p> Seventeenth-century English poet. Author of <title>Paradise
-                            Lost</title> and <title>Samson Agonistes</title>. Republican
+                     <p> Seventeenth-century English poet. Author of <title level="m">Paradise
+                            Lost</title> and <title level="m">Samson Agonistes</title>. Republican
                         and official in Cromwell's Commonwealth. </p>
                   </note>
                   <bibl>
@@ -1583,7 +1583,7 @@
                   <note ana="#description">
                      <p> Welsh squire and poet. Swinburne's roundels <title level="a">A Dead
                             Friend</title>, <title level="a">Past Days</title>, and
-                            <title>Autumn and Winter</title>, memorialize Powell without
+                            <title level="a">Autumn and Winter</title>, memorialize Powell without
                         naming him explicitly. </p>
                   </note>
                </person>
@@ -1653,9 +1653,9 @@
                   </death>
                   <note ana="#description">
                      <p> Victorian English writer, artist, art critic and theorist, and social
-                        commentator. Famous works include <title>Modern Painters,</title>
-                        <title>The Stones of Venice,</title>, and his autobiography
-                            <title>Praeterita</title>. Ruskin was a passionate supporter of
+                        commentator. Famous works include <title level="m">Modern Painters,</title>
+                        <title level="m">The Stones of Venice,</title>, and his autobiography
+                            <title level="m">Praeterita</title>. Ruskin was a passionate supporter of
                         J.M.W. Turner, a champion of the Pre-Raphaelites, and a friend of Swinburne.
                     </p>
                   </note>
@@ -1732,7 +1732,7 @@
                   </death>
                   <note ana="#description">
                      <p> English Elizabethan playwright and poet, idolized by Swinburne and other
-                        Victorians. He wrote <title>Hamlet</title>. </p>
+                        Victorians. He wrote <title level="m">Hamlet</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="http://en.wikipedia.org/wiki/William_Shakespeare"/>
@@ -1747,7 +1747,7 @@
                      <date when="1832"/>
                   </death>
                   <note ana="#description">
-                     <p> English Romantic poet. Author of <title>Prometheus
+                     <p> English Romantic poet. Author of <title level="m">Prometheus
                             Unbound</title>. Republican. </p>
                   </note>
                   <bibl>
@@ -1796,7 +1796,7 @@
                      <date when="-0406">406 BC</date>
                   </death>
                   <note ana="#description">
-                     <p> Athenian tragic playwright. Wrote <title>Oedipus Rex</title>.
+                     <p> Athenian tragic playwright. Wrote <title level="m">Oedipus Rex</title>.
                     </p>
                   </note>
                   <bibl>
@@ -1858,7 +1858,7 @@
                   </death>
                   <note ana="#description">
                      <p> English poet, who later became poet laureate of England. Wrote
-                            <title>In Memoriam A.H.H.</title>. </p>
+                            <title level="m">In Memoriam A.H.H.</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="http://en.wikipedia.org/wiki/Alfred_Tennyson,_1st_Baron_Tennyson"/>
@@ -1966,7 +1966,7 @@
                   </death>
                   <note ana="#description">
                      <p> French philosopher and writer. Major figure of the Enlightenment. Author
-                        of <title>Candide</title>. </p>
+                        of <title level="m">Candide</title>. </p>
                   </note>
                </person>
                <person xml:id="jawalsh" ana="#person">
@@ -2000,7 +2000,7 @@
                   </death>
                   <note ana="#description">
                      <p> English Jacobean playwright and late contemporary of William
-                        Shakespeare. He wrote <title>The Duchess of Malfi</title>. </p>
+                        Shakespeare. He wrote <title level="m">The Duchess of Malfi</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="http://en.wikipedia.org/wiki/John_Webster"/>
@@ -2015,7 +2015,7 @@
                      <date when="1895">1895</date>
                   </death>
                   <note ana="#description">
-                     <p> English writer best known for his nonfiction work, <title>Sappho:
+                     <p> English writer best known for his nonfiction work, <title level="m">Sappho:
                             memoir, text, selected renderings, and a literal
                         translation</title>. </p>
                   </note>
@@ -2030,10 +2030,10 @@
                   </death>
                   <note ana="#description">
                      <p>American-born, English painter. Influenced by the Pre-Raphaelites.
-                        Painted <title>Whistler's Mother</title>. </p>
+                        Painted <title level="m">Whistler's Mother</title>. </p>
                   </note>
                   <bibl>
-                     <ptr target="http://en.wikipedia.org/wiki/Victor_Hugo"/>
+                     <ptr target="https://en.wikipedia.org/wiki/James_McNeill_Whistler"/>
                   </bibl>
                </person>
                <person xml:id="whitman" ana="#person">
@@ -2067,7 +2067,7 @@
                      <date when="1850">1850</date>
                   </death>
                   <note ana="#description">
-                     <p> English poet and Republican. Co-wrote <title>Lyrical
+                     <p> English poet and Republican. Co-wrote <title level="m">Lyrical
                             Ballads</title>. One of the founders of the Romantic movement.
                     </p>
                   </note>
@@ -2680,7 +2680,7 @@
                      <date when="1863"/>
                   </death>
                   <note ana="#description">
-                     <p> English novelist. Author of <title>Vanity Fair</title> and <title>The Luck of Barry Lyndon</title>. </p>
+                     <p> English novelist. Author of <title level="m">Vanity Fair</title> and <title level="m">The Luck of Barry Lyndon</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/William_Makepeace_Thackeray"/>
@@ -2725,7 +2725,7 @@
                      <date when="1884"/>
                   </death>
                   <note ana="#description">
-                     <p> British novelist and dramatist, best known for his novel <title>The Cloister and the Hearth</title>. </p>
+                     <p> British novelist and dramatist, best known for his novel <title level="m">The Cloister and the Hearth</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Charles_Reade"/>
@@ -2735,7 +2735,7 @@
                   <persName>Duchess Josiana</persName>
                   <persName ana="#alternate">Josiane</persName>
                   <note ana="#description">
-                     <p> A character in <title>L'Homme Qui Rit</title>, a Duchess in the English royal court who attempts to seduce Gwynplaine. </p>
+                     <p> A character in <title level="m">L'Homme Qui Rit</title>, a Duchess in the English royal court who attempts to seduce Gwynplaine. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/The_Man_Who_Laughs"/>
@@ -2744,7 +2744,7 @@
                <person xml:id="barkilphedro" ana="#person">
                   <persName>Barkilphedro</persName>
                   <note ana="#description">
-                     <p> A character in <title>L'Homme Qui Rit</title>, a royal court agent who conspires against Duchess Josiana and orchestrates much of Gwynplaine's misfortune. </p>
+                     <p> A character in <title level="m">L'Homme Qui Rit</title>, a royal court agent who conspires against Duchess Josiana and orchestrates much of Gwynplaine's misfortune. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/The_Man_Who_Laughs"/>
@@ -2769,7 +2769,7 @@
                <person xml:id="merteuil" ana="#person">
                   <persName>Marquise Isabelle de Merteuil</persName>
                   <note ana="#description">
-                     <p> A character in <persName>Pierre Choderlos de Laclos</persName>'s novel <title>Les Liaisons dangereuses</title>. She and her former lover, the <persName>Vicomte Sébastien de Valmont</persName>, conspire first against other members of the French nobility, then against each other. </p>
+                     <p> A character in <persName>Pierre Choderlos de Laclos</persName>'s novel <title level="m">Les Liaisons dangereuses</title>. She and her former lover, the <persName>Vicomte Sébastien de Valmont</persName>, conspire first against other members of the French nobility, then against each other. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Les_Liaisons_dangereuses"/>
@@ -2793,7 +2793,7 @@
                      <date when="1867"/>
                   </death>
                   <note ana="#description">
-                     <p> A French poet and essayist most famous for his book of lyric poetry, <ref target="https://en.wikipedia.org/wiki/Les_Fleurs_du_mal"><title>Les Fleurs du mal</title></ref>. </p>
+                     <p> A French poet and essayist most famous for his book of lyric poetry, <ref target="https://en.wikipedia.org/wiki/Les_Fleurs_du_mal"><title level="m">Les Fleurs du mal</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Charles_Baudelaire"/>
@@ -2802,7 +2802,7 @@
                <person xml:id="virgilia" ana="#person">
                   <persName>Virgilia</persName>
                   <note ana="#description">
-                     <p> In Shakespeare's play <ref target="https://en.wikipedia.org/wiki/Coriolanus"><title>Coriolanus</title></ref>, she is the wife of the titular character. She pleads with her husband to make peace with Rome. </p>
+                     <p> In Shakespeare's play <ref target="https://en.wikipedia.org/wiki/Coriolanus"><title level="m">Coriolanus</title></ref>, she is the wife of the titular character. She pleads with her husband to make peace with Rome. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Virgilia"/>
@@ -2812,7 +2812,7 @@
                   <persName>Imogen</persName>
                   <persName ana="#alternate">Innogen</persName>
                   <note ana="#description">
-                     <p> The princess of Britain and faithful wife of <persName>Posthumus</persName> in Shakespeare's <ref target="https://en.wikipedia.org/wiki/Cymbeline"><title>Cymbeline</title></ref>. </p>
+                     <p> The princess of Britain and faithful wife of <persName>Posthumus</persName> in Shakespeare's <ref target="https://en.wikipedia.org/wiki/Cymbeline"><title level="m">Cymbeline</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Imogen_(Cymbeline)"/>
@@ -2821,7 +2821,7 @@
                <person xml:id="lear" ana="#person">
                   <persName>King Lear</persName>
                   <note ana="#description">
-                     <p> The titular character of <persName>Shakespeare</persName>'s <title>King Lear</title>, his plan to divide the kingdom of Britain amongst his three daughters ends in disaster, and he is famously driven to madness. </p>
+                     <p> The titular character of <persName>Shakespeare</persName>'s <title level="m">King Lear</title>, his plan to divide the kingdom of Britain amongst his three daughters ends in disaster, and he is famously driven to madness. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/King_Lear"/>
@@ -2836,7 +2836,7 @@
                      <date when="1289"/>
                   </death>
                   <note>
-                     <p> A traitorous Italian nobleman made famous by his depiction in <persName>Dante</persName>'s <title>Inferno</title>. </p>
+                     <p> A traitorous Italian nobleman made famous by his depiction in <persName>Dante</persName>'s <title level="m">Inferno</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Ugolino_della_Gherardesca"/>
@@ -2845,7 +2845,7 @@
                <person xml:id="dea" ana="#person">
                   <persName>Dea</persName>
                   <note ana="#description">
-                     <p> A character in <persName>Victor Hugo</persName>'s <title>L'Homme Qui Rit</title>, she grows up with Gwynplaine after he rescues her as an infant and ultimately falls in love with him before dying tragically. </p>
+                     <p> A character in <persName>Victor Hugo</persName>'s <title level="m">L'Homme Qui Rit</title>, she grows up with Gwynplaine after he rescues her as an infant and ultimately falls in love with him before dying tragically. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/The_Man_Who_Laughs"/>
@@ -2854,7 +2854,7 @@
                <person xml:id="esmeralda" ana="#person">
                   <persName>Esmeralda</persName>
                   <note ana="#description">
-                     <p> A Romani street dancer in <persName>Victor Hugo</persName>'s <title>Notre-Dame de Paris</title>. </p>
+                     <p> A Romani street dancer in <persName>Victor Hugo</persName>'s <title level="m">Notre-Dame de Paris</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame"/>
@@ -2965,7 +2965,7 @@
                      <date when="0128"/>
                   </death>
                   <note ana="#description">
-                     <p> A Roman poet and author of the <ref target="https://en.wikipedia.org/wiki/Satires_(Juvenal)"><title>Satires</title></ref>. </p>
+                     <p> A Roman poet and author of the <ref target="https://en.wikipedia.org/wiki/Satires_(Juvenal)"><title level="m">Satires</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Juvenal"/>
@@ -2980,7 +2980,7 @@
                   <death>
                      <date when="-0055-10-15"/>
                   </death>
-                  <note><p> A Roman poet and author of <ref target="https://en.wikipedia.org/wiki/De_rerum_natura"><title>De rerum natura</title></ref>. </p>
+                  <note><p> A Roman poet and author of <ref target="https://en.wikipedia.org/wiki/De_rerum_natura"><title level="m">De rerum natura</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Lucretius"/>
@@ -2989,7 +2989,7 @@
                <person xml:id="mamillius" ana="#person">
                   <persName>Mamillius</persName>
                   <note ana="#description">
-                     <p> In Shakespeare's <title>The Winter's Tale</title>, the young prince of Sicily who dies tragically of a wasting disease. </p>
+                     <p> In Shakespeare's <title level="m">The Winter's Tale</title>, the young prince of Sicily who dies tragically of a wasting disease. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/The_Winter%27s_Tale"/>
@@ -3004,7 +3004,7 @@
                      <date cert="unknown" when="-0406">c. 406 BC</date>
                   </death>
                   <note ana="#description">
-                     <p> A classical Greek tragedian. Notable works include <ref target="https://en.wikipedia.org/wiki/Medea_(play)"><title>Medea</title></ref> and <ref target="https://en.wikipedia.org/wiki/The_Trojan_Women"><title>The Trojan Women</title></ref>. </p>
+                     <p> A classical Greek tragedian. Notable works include <ref target="https://en.wikipedia.org/wiki/Medea_(play)"><title level="m">Medea</title></ref> and <ref target="https://en.wikipedia.org/wiki/The_Trojan_Women"><title level="m">The Trojan Women</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Euripides"/>
@@ -3022,7 +3022,7 @@
                <person xml:id="clytemnestra" ana="#person">
                   <persName>Clytemnestra</persName>
                   <note>
-                     <p> In Aeschylus's <title>Oresteia</title>, the Queen of Mycenae who murders her husband, Agamemnon, and is in turn murdered by her son, Orestes. She is Iphigenia's mother. </p>
+                     <p> In Aeschylus's <title level="m">Oresteia</title>, the Queen of Mycenae who murders her husband, Agamemnon, and is in turn murdered by her son, Orestes. She is Iphigenia's mother. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Clytemnestra"/>
@@ -3058,7 +3058,7 @@
                      <ptr target="https://en.wikipedia.org/wiki/Georges_Danton"/>
                   </bibl>
                </person>
-               <person xml:id="algernon_sidney" ana="#person">
+               <person xml:id="sidney_algernon" ana="#person">
                   <persName>Sidney, Algernon</persName>
                   <birth>
                      <date when="1623-01-15"/>
@@ -3067,7 +3067,7 @@
                      <date when="1683-12-07"/>
                   </death>
                   <note ana="#description">
-                     <p> An English politician and republican whose revolutionary work <ref target="https://en.wikipedia.org/wiki/Discourses_Concerning_Government"><title>Discourses Concerning Government</title></ref> led to his being executed for treason and subsequently considered a hero and martyr. </p>
+                     <p> An English politician and republican whose revolutionary work <ref target="https://en.wikipedia.org/wiki/Discourses_Concerning_Government"><title level="m">Discourses Concerning Government</title></ref> led to his being executed for treason and subsequently considered a hero and martyr. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Algernon_Sidney"/>
@@ -3238,7 +3238,7 @@
                      <date when="1895-02-19"/>
                   </death>
                   <note ana="#description">
-                     <p> A French poet and writer and an admirer of Victor Hugo. One of the founders of the <title>Rappel</title>. </p>
+                     <p> A French poet and writer and an admirer of Victor Hugo. One of the founders of <title level="j">Le Rappel</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Auguste_Vacquerie"/>
@@ -3248,7 +3248,7 @@
                   <persName>Achilles</persName>
                   <persName ana="#alternate">Achilleus</persName>
                   <note ana="#description">
-                     <p> In Greek mythology, a great warrior and the principal character in the <ref target="https://en.wikipedia.org/wiki/Iliad"><title>Iliad</title></ref>. Fought alongside the Achaeans in the siege of Troy. </p>
+                     <p> In Greek mythology, a great warrior and the principal character in the <ref target="https://en.wikipedia.org/wiki/Iliad"><title level="m">Iliad</title></ref>. Fought alongside the Achaeans in the siege of Troy. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Achilles"/>
@@ -3258,7 +3258,7 @@
                   <persName>Odysseus</persName>
                   <persName ana="#alternate">Ulysses</persName>
                   <note ana="#description">
-                     <p> The main character of Homer's <ref target="https://en.wikipedia.org/wiki/Odyssey"><title>Odyssey</title></ref>, described as a man of twists and turns, who must use his wits to brave various trials on his way home from the Trojan War. </p>
+                     <p> The main character of Homer's <ref target="https://en.wikipedia.org/wiki/Odyssey"><title level="m">Odyssey</title></ref>, described as a man of twists and turns, who must use his wits to brave various trials on his way home from the Trojan War. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Odysseus"/>
@@ -3297,7 +3297,7 @@
                <person xml:id="trimalchio" ana="#person">
                   <persName>Trimalchio</persName>
                   <note ana="#description">
-                     <p> In Petronius's <ref target="https://en.wikipedia.org/wiki/Satyricon"><title>Satyricon</title></ref>, a nouveau-riche former slave. </p>
+                     <p> In Petronius's <ref target="https://en.wikipedia.org/wiki/Satyricon"><title level="m">Satyricon</title></ref>, a <foreign xml:lang="fr">nouveau-riche</foreign> former slave. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Trimalchio"/>
@@ -3306,7 +3306,7 @@
                <person xml:id="aeneas" ana="#person">
                   <persName>Aeneas</persName>
                   <note ana="#description">
-                     <p> In Greco-Roman mythology, a Trojan hero and the ancestor of the Romans. The titular character of Virgil's <ref target="https://en.wikipedia.org/wiki/Aeneid"><title>Aeneid</title></ref>, which tells the story of Rome's founding myth. </p>
+                     <p> In Greco-Roman mythology, a Trojan hero and the ancestor of the Romans. The titular character of Virgil's <ref target="https://en.wikipedia.org/wiki/Aeneid"><title level="m">Aeneid</title></ref>, which tells the story of Rome's founding myth. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Aeneas"/>
@@ -3324,7 +3324,7 @@
                <person xml:id="iago" ana="#person">
                   <persName>Iago</persName>
                   <note ana="#description">
-                     <p> The antagonist in Shakespeare's <ref target="https://en.wikipedia.org/wiki/Othello"><title>Othello</title></ref>, considered one of Shakespeare's most sinister villains. </p>
+                     <p> The antagonist in Shakespeare's <ref target="https://en.wikipedia.org/wiki/Othello"><title level="m">Othello</title></ref>, considered one of Shakespeare's most sinister villains. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Iago"/>
@@ -3342,7 +3342,7 @@
                <person xml:id="iachimo" ana="#person">
                   <persName>Iachimo</persName>
                   <note ana="#description">
-                     <p> A character in Shakespeare's <title>Cymbeline</title>. He attempts to seduce Imogen and turn her husband, Posthumus, against her. </p>
+                     <p> A character in Shakespeare's <title level="m">Cymbeline</title>. He attempts to seduce Imogen and turn her husband, Posthumus, against her. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Cymbeline"/>
@@ -3351,7 +3351,7 @@
                <person xml:id="cordelia" ana="#person">
                   <persName>Cordelia</persName>
                   <note ana="#description">
-                     <p> A character in Shakespeare's <title>King Lear</title>. The youngest daughter of the titular character, she resists her father's offer of a third of his kingdom in exchange for an obsequious declaration of her love for him. </p>
+                     <p> A character in Shakespeare's <title level="m">King Lear</title>. The youngest daughter of the titular character, she resists her father's offer of a third of his kingdom in exchange for an obsequious declaration of her love for him. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Cordelia_(King_Lear)"/>
@@ -3360,7 +3360,7 @@
                <person xml:id="goneril" ana="#person">
                   <persName>Goneril</persName>
                   <note ana="#description">
-                     <p> In Shakespeare's <title>King Lear</title>, Cordelia's power-hungry sister.</p>
+                     <p> In Shakespeare's <title level="m">King Lear</title>, Cordelia's power-hungry sister.</p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Goneril"/>
@@ -3375,7 +3375,7 @@
                      <date when="1203"/>
                   </death>
                   <note ana="#description">
-                     <p> The grandson of King Henry II of England and Eleanor of Aquitaine. At the center of a succession crisis depicted in Shakespeare's historical play, <ref target="https://en.wikipedia.org/wiki/King_John_(play)"><title>King John</title></ref>. </p>
+                     <p> The grandson of King Henry II of England and Eleanor of Aquitaine. At the center of a succession crisis depicted in Shakespeare's historical play, <ref target="https://en.wikipedia.org/wiki/King_John_(play)"><title level="m">King John</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Arthur_I,_Duke_of_Brittany"/>
@@ -3390,7 +3390,7 @@
                      <date when="1216-10-19"/>
                   </death>
                   <note ana="#description">
-                     <p> King of England from <date when="1199">1199</date> until his death. Generally believed to have killed his nephew, Arthur I, Duke of Brittany, in order to maintain a clear line of succession to the throne. The titular character of Shakespeare's <ref target="https://en.wikipedia.org/wiki/King_John_(play)"><title>King John</title></ref>. </p>
+                     <p> King of England from <date when="1199">1199</date> until his death. Generally believed to have killed his nephew, Arthur I, Duke of Brittany, in order to maintain a clear line of succession to the throne. The titular character of Shakespeare's <ref target="https://en.wikipedia.org/wiki/King_John_(play)"><title level="m">King John</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/John,_King_of_England"/>
@@ -3406,7 +3406,7 @@
                      <date when="-0030-08-01"/>
                   </death>
                   <note ana="#description">
-                     <p> One of Julius Caesar's generals. In Shakespeare's <ref target="https://en.wikipedia.org/wiki/Julius_Caesar_(play)"><title>Julius Caesar</title></ref>, he delivers the famous speech beginning, <quote>Friends, Romans, countrymen, lend me your ears</quote>, that turns the people against Caesar's assassins. </p>
+                     <p> One of Julius Caesar's generals. In Shakespeare's <ref target="https://en.wikipedia.org/wiki/Julius_Caesar_(play)"><title level="m">Julius Caesar</title></ref>, he delivers the famous speech beginning, <quote>Friends, Romans, countrymen, lend me your ears</quote>, that turns the people against Caesar's assassins. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Mark_Antony"/>
@@ -3415,7 +3415,7 @@
                <person xml:id="volumnia" ana="#person">
                   <persName>Volumnia</persName>
                   <note ana="#description">
-                     <p> In Shakespeare's <ref target="https://en.wikipedia.org/wiki/Coriolanus"><title>Coriolanus</title></ref>, the mother of the titular character who convinces him not to besiege Rome. </p>
+                     <p> In Shakespeare's <ref target="https://en.wikipedia.org/wiki/Coriolanus"><title level="m">Coriolanus</title></ref>, the mother of the titular character who convinces him not to besiege Rome. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Volumnia"/>
@@ -3446,7 +3446,7 @@
                      <date when="1759-04-14"/>
                   </death>
                   <note ana="#description">
-                     <p> A German-British Baroque composer. Best-known works include <title>Water Music</title> and his oratorio <title>Messiah</title>. </p>
+                     <p> A German-British Baroque composer. Best-known works include <title>Water Music</title> and his oratorio <title level="m">Messiah</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/George_Frideric_Handel"/>
@@ -3461,7 +3461,7 @@
                      <date when="1870-09-23"/>
                   </death>
                   <note ana="#description">
-                     <p> A French Romantic writer, archaeologist, and historian. Author of the novella <ref target="https://en.wikipedia.org/wiki/Carmen_(novella)"><title>Carmen</title></ref>. </p>
+                     <p> A French Romantic writer, archaeologist, and historian. Author of the novella <ref target="https://en.wikipedia.org/wiki/Carmen_(novella)"><title level="m">Carmen</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Prosper_M%C3%A9rim%C3%A9e"/>
@@ -3568,7 +3568,7 @@
                      <date notBefore="1463">after 1463</date>
                   </death>
                   <note ana="#description">
-                     <p> A French poet of the Late Middle Ages with a rather colorful criminal record. Author of <ref target="https://en.wikipedia.org/wiki/Le_Testament"><title>Le Testament</title></ref>. </p>
+                     <p> A French poet of the Late Middle Ages with a rather colorful criminal record. Author of <ref target="https://en.wikipedia.org/wiki/Le_Testament"><title level="m">Le Testament</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Villon"/>
@@ -3584,7 +3584,6 @@
                      <ptr target="https://en.wikipedia.org/wiki/Lamassu"/>
                   </bibl>
                </person>
-   <!-- I moved Elizabeth Browning here because I altered the hyperlink for her entry-->
                <person xml:id="browning_e" ana="#person">
                   <persName>Browning, Elizabeth Barrett</persName>
                   <birth>
@@ -3594,8 +3593,8 @@
                      <date when="1861"/>
                   </death>
                   <note ana="#description">
-                     <p> English poet. Author of <title>Sonnets from the
-                     Portuguese</title> and <title>Aurora Leigh</title>. </p>
+                     <p> English poet. Author of <title level="m">Sonnets from the
+                     Portuguese</title> and <title level="m">Aurora Leigh</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Elizabeth_Barrett_Browning"/>
@@ -3657,7 +3656,7 @@
                      <date when="1909-05-18"/>
                   </death>
                   <note ana="#description">
-                     <p> English Victorian poet and novelist. Author of <ref target="https://en.wikipedia.org/wiki/The_Egoist_(novel)"><title>The Egoist</title></ref>. </p>
+                     <p> English Victorian poet and novelist. Author of <ref target="https://en.wikipedia.org/wiki/The_Egoist_(novel)"><title level="m">The Egoist</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/George_Meredith"/>
@@ -3701,7 +3700,7 @@
                <person xml:id="ophelia" ana="#person">
                   <persName>Ophelia</persName>
                   <note ana="#description">
-                     <p> In Shakespeare's <ref target="https://en.wikipedia.org/wiki/Hamlet"><title>Hamlet</title></ref>, she is driven to madness as a result of Hamlet's actions, ultimately drowning. Rossetti featured her in an <ref target="https://artuk.org/discover/artworks/the-first-madness-of-ophelia-244041">oil painting</ref> and multiple <ref target="https://commons.wikimedia.org/wiki/File:Dante_Gabriel_Rossetti_-_Ophelia.jpg">drawings</ref>. </p>
+                     <p> In Shakespeare's <ref target="https://en.wikipedia.org/wiki/Hamlet"><title level="m">Hamlet</title></ref>, she is driven to madness as a result of Hamlet's actions, ultimately drowning. Rossetti featured her in an <ref target="https://artuk.org/discover/artworks/the-first-madness-of-ophelia-244041">oil painting</ref> and multiple <ref target="https://commons.wikimedia.org/wiki/File:Dante_Gabriel_Rossetti_-_Ophelia.jpg">drawings</ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Ophelia"/>
@@ -3732,7 +3731,7 @@
                      <date notBefore="1283" notAfter="1286">between 1283 and 1286</date>
                   </death>
                   <note ana="#description">
-                     <p> An Italian noblewoman who had an affair with her husband's brother. Famously depicted alongside her lover, Paolo Malatesta, in the circle of hell reserved for the lustful in Dante Alighieri's <ref target="https://en.wikipedia.org/wiki/Inferno_(Dante)"><title>Inferno</title></ref>. Rossetti made a <ref target="https://en.wikipedia.org/wiki/Paolo_and_Francesca_da_Rimini">watercolor</ref> inspired by that scene. </p>
+                     <p> An Italian noblewoman who had an affair with her husband's brother. Famously depicted alongside her lover, Paolo Malatesta, in the circle of hell reserved for the lustful in Dante Alighieri's <ref target="https://en.wikipedia.org/wiki/Inferno_(Dante)"><title level="m">Inferno</title></ref>. Rossetti made a <ref target="https://en.wikipedia.org/wiki/Paolo_and_Francesca_da_Rimini">watercolor</ref> inspired by that scene. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Francesca_da_Rimini"/>
@@ -3741,7 +3740,7 @@
                <person xml:id="roderigo" ana="#person">
                   <persName>Roderigo</persName>
                   <note ana="#description">
-                     <p> In Shakespeare's <ref target="https://en.wikipedia.org/wiki/Othello"><title>Othello</title></ref>, a wealthy Venetian. Iago uses Roderigo's love for Othello's wife, Desdemona, to manipulate him. </p>
+                     <p> In Shakespeare's <ref target="https://en.wikipedia.org/wiki/Othello"><title level="m">Othello</title></ref>, a wealthy Venetian. Iago uses Roderigo's love for Othello's wife, Desdemona, to manipulate him. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Roderigo"/>
@@ -3822,7 +3821,7 @@
                      <date when="1784-12-13"/>
                   </death>
                   <note ana="#description">
-                     <p> A prominent English writer. Author of <ref target="https://en.wikipedia.org/wiki/A_Dictionary_of_the_English_Language"><title>A Dictionary of the English Language</title></ref> and <ref target="https://en.wikipedia.org/wiki/Lives_of_the_Most_Eminent_English_Poets"><title>Lives of the Most Eminent English Poets</title></ref>. </p>
+                     <p> A prominent English writer. Author of <ref target="https://en.wikipedia.org/wiki/A_Dictionary_of_the_English_Language"><title level="m">A Dictionary of the English Language</title></ref> and <ref target="https://en.wikipedia.org/wiki/Lives_of_the_Most_Eminent_English_Poets"><title level="m">Lives of the Most Eminent English Poets</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Samuel_Johnson"/>
@@ -3852,7 +3851,7 @@
                      <date when="1599-09-11"/>
                   </death>
                   <note ana="#description">
-                     <p> An Italian noblewoman whose father abused and raped her. She and other family members conspired to kill him and were subsequently arrested and beheaded for murder despite public protests. Percy Bysshe Shelley wrote a play, <ref target="https://en.wikipedia.org/wiki/The_Cenci"><title>The Cenci</title></ref>, about these events. </p>
+                     <p> An Italian noblewoman whose father abused and raped her. She and other family members conspired to kill him and were subsequently arrested and beheaded for murder despite public protests. Percy Bysshe Shelley wrote a play, <ref target="https://en.wikipedia.org/wiki/The_Cenci"><title level="m">The Cenci</title></ref>, about these events. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Beatrice_Cenci"/>
@@ -3861,7 +3860,7 @@
                <person xml:id="fantine" ana="#person">
                   <persName>Fantine</persName>
                   <note ana="#description">
-                     <p> A character in Victor Hugo's <ref target="https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables"><title>Les Misérables</title></ref>. Forced into prostitution to provide for her daughter, Cosette, as a single mother, her character symbolizes loss of innocence and self-sacrifice. </p>
+                     <p> A character in Victor Hugo's <ref target="https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables"><title level="m">Les Misérables</title></ref>. Forced into prostitution to provide for her daughter, Cosette, as a single mother, her character symbolizes loss of innocence and self-sacrifice. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Fantine"/>
@@ -3949,7 +3948,7 @@
                <person xml:id="circe" ana="#person">
                   <persName>Circe</persName>
                   <note ana="#description">
-                     <p> In Greek mythology, Circe was an enchantress who lived on the island of Aeaea, perhaps best known for turning Odysseus's crew into pigs in Homer's <ref target="https://en.wikipedia.org/wiki/Odyssey"><title>Odyssey</title></ref>. </p>
+                     <p> In Greek mythology, Circe was an enchantress who lived on the island of Aeaea, perhaps best known for turning Odysseus's crew into pigs in Homer's <ref target="https://en.wikipedia.org/wiki/Odyssey"><title level="m">Odyssey</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Circe"/>
@@ -4006,7 +4005,7 @@
                      <date notBefore="-0450" notAfter="-0400">late 5th century B.C.</date>
                   </death>
                   <note ana="#description">
-                     <p> In Plato's <ref target="https://en.wikipedia.org/wiki/Gorgias_(dialogue)"><title>Gorgias</title></ref>, a philosopher who presents counter-arguments to Plato's ideas. It is unclear whether he was a real contemporary of Plato or merely a character created by Plato. </p>
+                     <p> In Plato's <ref target="https://en.wikipedia.org/wiki/Gorgias_(dialogue)"><title level="m">Gorgias</title></ref>, a philosopher who presents counter-arguments to Plato's ideas. It is unclear whether he was a real contemporary of Plato or merely a character created by Plato. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Callicles"/>
@@ -4016,7 +4015,7 @@
                   <persName>Sohrāb</persName>
                   <persName ana="#alternate">Suhrāb</persName>
                   <note ana="#description">
-                     <p> A warrior in Ferdowsi's <ref target="https://en.wikipedia.org/wiki/Shahnameh"><title>Shahnameh</title></ref>, he is slain by his father Rostam who does not recognize him until he has been fatally wounded. </p>
+                     <p> A warrior in Ferdowsi's <ref target="https://en.wikipedia.org/wiki/Shahnameh"><title level="m">Shahnameh</title></ref>, he is slain by his father Rostam who does not recognize him until he has been fatally wounded. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Sohrab"/>
@@ -4026,7 +4025,7 @@
                   <persName>Rostam</persName>
                   <persName ana="#alternate">Rustam</persName>
                   <note ana="#description">
-                     <p> A great hero in Persian mythology. Depicted in Ferdowsi's <ref target="https://en.wikipedia.org/wiki/Shahnameh"><title>Shahnameh</title></ref>. </p>
+                     <p> A great hero in Persian mythology. Depicted in Ferdowsi's <ref target="https://en.wikipedia.org/wiki/Shahnameh"><title level="m">Shahnameh</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Rostam"/>
@@ -4056,7 +4055,7 @@
                      <date when="1892-10-02"/>
                   </death>
                   <note ana="#description">
-                     <p> A French scholar whose areas of interest included Semitic languages and biblical history. Author of the <title>Life of Jesus</title>. Also noteworthy and controversial for his racist and white supremacist views. </p>
+                     <p> A French scholar whose areas of interest included Semitic languages and biblical history. Author of the <title level="m">Life of Jesus</title>. Also noteworthy and controversial for his racist and white supremacist views. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Ernest_Renan"/>
@@ -4186,7 +4185,7 @@
                      <date when="0180" cert="unknown">c. 180</date>
                   </death>
                   <note ana="#descrtiption">
-                     <p> A Greek traveler and geographer who sought to memorialize in writing "all things Greek" in his <ref target="https://en.wikipedia.org/wiki/Description_of_Greece"><title>Description of Greece</title></ref>. </p>
+                     <p> A Greek traveler and geographer who sought to memorialize in writing "all things Greek" in his <ref target="https://en.wikipedia.org/wiki/Description_of_Greece"><title level="m">Description of Greece</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Pausanias_(geographer)"/>
@@ -4195,7 +4194,7 @@
                <person xml:id="samson" ana="#person">
                   <persName>Samson</persName>
                   <note ana="#description">
-                     <p> One of the judges, or leaders, of Israel in the Hebrew Bible whose Nazirite vows granted him superhuman strength to fight against the Philistines. The subject of John Milton's dramatic poem <ref target="https://en.wikipedia.org/wiki/Samson_Agonistes"><title>Samson Agonistes</title></ref>. </p>
+                     <p> One of the judges, or leaders, of Israel in the Hebrew Bible whose Nazirite vows granted him superhuman strength to fight against the Philistines. The subject of John Milton's dramatic poem <ref target="https://en.wikipedia.org/wiki/Samson_Agonistes"><title level="m">Samson Agonistes</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Samson"/>
@@ -4296,7 +4295,7 @@
                <person xml:id="merope_queen" ana="#person">
                   <persName>Merope</persName>
                   <note ana="#description">
-                     <p> In Greek mythology, a Queen of Messenia and the wife of Cresphontes. Her husband and two elder children were murdered, and she was forced to marry the murderer; however, she was able to save her youngest son, who conspired with her to take revenge several years later. The subject of Euripides's lost tragedy, <title>Cresphontes</title>, which inspired Matthew Arnold's <date when="1858">1858</date> work <title>Merope</title>. </p>
+                     <p> In Greek mythology, a Queen of Messenia and the wife of Cresphontes. Her husband and two elder children were murdered, and she was forced to marry the murderer; however, she was able to save her youngest son, who conspired with her to take revenge several years later. The subject of Euripides's lost tragedy, <title level="m">Cresphontes</title>, which inspired Matthew Arnold's <date when="1858">1858</date> work <title level="m">Merope</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Merope_(Messenia)"/>
@@ -4320,7 +4319,7 @@
                      <date when="1824-05-04"/>
                   </death>
                   <note ana="#description">
-                     <p> A French moralist and essayist best known for his posthumously published <title>Pensées</title>. Addressed in a section of Matthew Arnold's <title>Essays in Criticism</title>. </p>
+                     <p> A French moralist and essayist best known for his posthumously published <title level="m">Pensées</title>. Addressed in a section of Matthew Arnold's <title level="m">Essays in Criticism</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Joseph_Joubert"/>
@@ -4364,7 +4363,7 @@
                      <date when="1862-01-27"/>
                   </death>
                   <note ana="#description">
-                     <p> The headmaster and later provost of Eton College. He had a reputation for his facility with language and as a writer of English hexameters. Matthew Arnold referred to his translation of a passage from the <title>Iliad</title> as <quote>the most successful attempt hitherto made at rendering Homer into English.</quote> </p>
+                     <p> The headmaster and later provost of Eton College. He had a reputation for his facility with language and as a writer of English hexameters. Matthew Arnold referred to his translation of a passage from the <title level="m">Iliad</title> as <quote>the most successful attempt hitherto made at rendering Homer into English.</quote> </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Edward_Craven_Hawtrey"/>
@@ -4379,7 +4378,7 @@
                      <date when="1861-11-13"/>
                   </death>
                   <note ana="#description">
-                     <p> An English poet and the subject of Matthew Arnold's elegy <title>Thyrsis</title>. </p>
+                     <p> An English poet and the subject of Matthew Arnold's elegy <title level="a">Thyrsis</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Arthur_Hugh_Clough"/>
@@ -4413,7 +4412,7 @@
                   <persName>Dagon</persName>
                   <persName ana="#alternate">Dagan</persName>
                   <note ana="#description">
-                     <p> A god worshipped in ancient Syria and, in the Hebrew Bible, by the Philistines. According to the Hebrew Bible, when the Philistines captured the Ark of the Covenant and brought it to the house of Dagon in Ashdod, the statue of Dagon fell on its face repeatedly before the ark. Samson's final act in the book of <title>Judges</title> is to destroy the temple of Dagon in Gaza. </p>
+                     <p> A god worshipped in ancient Syria and, in the Hebrew Bible, by the Philistines. According to the Hebrew Bible, when the Philistines captured the Ark of the Covenant and brought it to the house of Dagon in Ashdod, the statue of Dagon fell on its face repeatedly before the ark. Samson's final act in the book of <title level="m">Judges</title> is to destroy the temple of Dagon in Gaza. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Dagon"/>
@@ -4591,7 +4590,7 @@
                      <date notBefore="1582-10-04" notAfter="1582-10-15">At some hour of the night between 4 October and 15 October 1582, the night of the transition in Spain from the Julian to the Gregorian calendar.</date>
                   </death>
                   <note ana="#description">
-                     <p> A prominent Spanish mystic and nun whose desire for religious reform led her to establish the Order of Discalced Carmelites. Author of <ref target="https://en.wikipedia.org/wiki/The_Interior_Castle"><title>The Interior Castle</title></ref>. </p>
+                     <p> A prominent Spanish mystic and nun whose desire for religious reform led her to establish the Order of Discalced Carmelites. Author of <ref target="https://en.wikipedia.org/wiki/The_Interior_Castle"><title level="m">The Interior Castle</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Teresa_of_%C3%81vila#"/>
@@ -4646,7 +4645,7 @@
                      <date when="1877-01-12"/>
                   </death>
                   <note ana="#description">
-                     <p> The editor of the <ref target="https://en.wikipedia.org/wiki/Revue_des_deux_Mondes"><title>Revue des deux Mondes</title></ref> <date from="1831" to="1877">from 1831 to 1877</date>. Brought in works from such renowned French authors as Victor Hugo, Alexandre Dumas, and Honoré de Balzac. </p>
+                     <p> The editor of the <ref target="https://en.wikipedia.org/wiki/Revue_des_deux_Mondes"><title level="j">Revue des deux Mondes</title></ref> <date from="1831" to="1877">from 1831 to 1877</date>. Brought in works from such renowned French authors as Victor Hugo, Alexandre Dumas, and Honoré de Balzac. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Buloz"/>
@@ -4661,7 +4660,7 @@
                      <date when="1857-09-18"/>
                   </death>
                   <note ana="#description">
-                     <p> A French art and literary critic who contributed to the <ref target="https://en.wikipedia.org/wiki/Revue_des_deux_Mondes"><title>Revue des deux Mondes</title></ref>. </p>
+                     <p> A French art and literary critic who contributed to the <ref target="https://en.wikipedia.org/wiki/Revue_des_deux_Mondes"><title level="j">Revue des deux Mondes</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Jean_Baptiste_Gustave_Planche"/>
@@ -4677,7 +4676,7 @@
                      <date when="1890-03-29"/>
                   </death>
                   <note ana="#description">
-                     <p> A French journalist, critic, and man of letters. Best known for his satirical novel, <ref target="https://www.gutenberg.org/ebooks/43294"><title>Les Jeudis de Madame Charbonneau</title></ref>, in which he humorously depicts his contemporaries. </p>
+                     <p> A French journalist, critic, and man of letters. Best known for his satirical novel, <ref target="https://www.gutenberg.org/ebooks/43294"><title level="m">Les Jeudis de Madame Charbonneau</title></ref>, in which he humorously depicts his contemporaries. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Armand_de_Pontmartin"/>
@@ -4692,7 +4691,7 @@
                      <date when="1875"/>
                   </death>
                   <note ana="#description">
-                     <p> A French literary critic who contributed several pieces to the <ref target="https://en.wikipedia.org/wiki/Revue_des_deux_Mondes"><title>Revue des deux Mondes</title></ref>. In <ref target="https://fr.wikisource.org/wiki/Le_Paganisme_po%C3%A9tique_en_Angleterre_%E2%80%94_John_Keats_et_Algernon_Charles_Swinburne"><title>Le Paganisme poétique en Angleterre: John Keats et Algernon Charles Swinburne</title></ref>, he compares Keats and Swinburne and criticizes both of them. </p>
+                     <p> A French literary critic who contributed several pieces to the <ref target="https://en.wikipedia.org/wiki/Revue_des_deux_Mondes"><title level="j">Revue des deux Mondes</title></ref>. In <ref target="https://fr.wikisource.org/wiki/Le_Paganisme_po%C3%A9tique_en_Angleterre_%E2%80%94_John_Keats_et_Algernon_Charles_Swinburne"><title level="a">Le Paganisme poétique en Angleterre: John Keats et Algernon Charles Swinburne</title></ref>, he compares Keats and Swinburne and criticizes both of them. </p>
                   </note>
                   <bibl>
                      <ptr target="https://fr.wikisource.org/wiki/Auteur:Louis_%C3%89tienne"/>
@@ -4718,7 +4717,7 @@
                      <date when="1906-04-13"/>
                   </death>
                   <note ana="#description">
-                     <p> A librarian who worked for the British Museum. Edited multiple volumes of Shelley's works, including <ref target="https://archive.org/details/relicsofshelley00shel/mode/2up"><title>Relics of Shelley</title></ref> and <ref target="https://archive.org/details/selectlettersofp00shelrich/mode/2up"><title>Select Letters of Percey Bysshe Shelley</title></ref>. </p>
+                     <p> A librarian who worked for the British Museum. Edited multiple volumes of Shelley's works, including <ref target="https://archive.org/details/relicsofshelley00shel/mode/2up"><title level="m">Relics of Shelley</title></ref> and <ref target="https://archive.org/details/selectlettersofp00shelrich/mode/2up"><title level="m">Select Letters of Percey Bysshe Shelley</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Richard_Garnett_(writer)"/>
@@ -4801,7 +4800,7 @@
                <person xml:id="pecksniff">
                   <persName>Pecksniff, Seth</persName>
                   <note ana="#description">
-                     <p> A character in Charles Dickens's <title>Martin Chuzzlewit</title>, he is a greedy and hypocritical architect who passes off his students' designs as his own. </p>
+                     <p> A character in Charles Dickens's <title level="m">Martin Chuzzlewit</title>, he is a greedy and hypocritical architect who passes off his students' designs as his own. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Martin_Chuzzlewit"/>
@@ -4810,7 +4809,7 @@
                <person xml:id="laon">
                   <persName>Laon</persName>
                   <note ana="#description">
-                     <p> Alongside Cythna, a revolutionary martyr and hero of Percy Bysshe Shelley's poem, <title>The Revolt of Islam</title>. </p>
+                     <p> Alongside Cythna, a revolutionary martyr and hero of Percy Bysshe Shelley's poem, <title level="m">The Revolt of Islam</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/The_Revolt_of_Islam"/>
@@ -4819,7 +4818,7 @@
                <person xml:id="cythna">
                   <persName>Cythna</persName>
                   <note ana="#description">
-                     <p> Alongside Laon, a revolutionary martyr and heroine of Percy Bysshe Shelley's poem, <title>The Revolt of Islam</title>. </p>
+                     <p> Alongside Laon, a revolutionary martyr and heroine of Percy Bysshe Shelley's poem, <title level="m">The Revolt of Islam</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/The_Revolt_of_Islam"/>
@@ -4836,7 +4835,7 @@
                      <date when="1836"/>
                   </death>
                   <note ana="#description">
-                     <p> Friend and correspondent of Percey Bysshe Shelley, Mary Shelley, and William Godwin. See Percy Bysshe Shelley's poem, <title>Letter to Maria Gisborne</title>. </p>
+                     <p> Friend and correspondent of Percey Bysshe Shelley, Mary Shelley, and William Godwin. See Percy Bysshe Shelley's poem, <title level="a">Letter to Maria Gisborne</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Maria_Gisborne"/>
@@ -4852,7 +4851,7 @@
                      <date when="1681-05-25"/>
                   </death>
                   <note ana="#description">
-                     <p> Spanish dramatist, poet, and writer. Author of <title>Los Cabellos de Absalón</title>, a tragedy based on the biblical story of Absalom, Tamar, and Amnon. </p>
+                     <p> Spanish dramatist, poet, and writer. Author of <title level="m">Los Cabellos de Absalón</title>, a tragedy based on the biblical story of Absalom, Tamar, and Amnon. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Pedro_Calder%C3%B3n_de_la_Barca"/>
@@ -4885,7 +4884,7 @@
                      <date when="1639" cert="unknown">c. 1639</date>
                   </death>
                   <note ana="#description">
-                     <p> An English playwright and poet of the Jacobean and Caroline eras. Best known as the author of <ref target="https://en.wikipedia.org/wiki/%27Tis_Pity_She%27s_a_Whore"><title>'Tis Pity She's a Whore</title></ref>, a tragedy centered around an incestuous relationship. </p>
+                     <p> An English playwright and poet of the Jacobean and Caroline eras. Best known as the author of <ref target="https://en.wikipedia.org/wiki/%27Tis_Pity_She%27s_a_Whore"><title level="m">'Tis Pity She's a Whore</title></ref>, a tragedy centered around an incestuous relationship. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/John_Ford_(dramatist)"/>
@@ -4902,7 +4901,7 @@
                      <date when="-0019-09-19"/>
                   </death>
                   <note ana="#description">
-                     <p> A Roman poet of the Augustan era. Best known for the <title>Eclogues</title>, the <title>Georgics</title>, and the <title>Aeneid</title>. </p>
+                     <p> A Roman poet of the Augustan era. Best known for the <title level="m">Eclogues</title>, the <title level="m">Georgics</title>, and the <title level="m">Aeneid</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://enj.wikipedia.org/wiki/Virgil"/>
@@ -4921,7 +4920,7 @@
                <person xml:id="marzio">
                   <persName>Marzio</persName>
                   <note ana="#description">
-                     <p> In Shelley's <title>The Cenci</title>, he is one of Count Francesco Cenci's servants and a conspirator in his murder. </p>
+                     <p> In Shelley's <title level="m">The Cenci</title>, he is one of Count Francesco Cenci's servants and a conspirator in his murder. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/The_Cenci"/>
@@ -4969,7 +4968,7 @@
                <person xml:id="polyphemus">
                   <persName>Polyphemus</persName>
                   <note ana="#description">
-                     <p> In Greek mythology, a cyclops and the son of <persName>Poseidon</persName>. First appears in the <title>Odyssey</title>, in which he traps and is subsequently blinded and tricked by <persName>Odysseus</persName> and his men. </p>
+                     <p> In Greek mythology, a cyclops and the son of <persName>Poseidon</persName>. First appears in the <title level="m">Odyssey</title>, in which he traps and is subsequently blinded and tricked by <persName>Odysseus</persName> and his men. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Polyphemus"/>
@@ -4978,7 +4977,7 @@
                <person xml:id="silenus">
                   <persName>Silenus</persName>
                   <note ana="#description">
-                     <p> In Greek mythology, a follower of <persName>Dionysus</persName>. Leader of the satyrs in <persName>Euripides</persName>'s <ref target="https://en.wikipedia.org/wiki/Cyclops_(play)"><title>Cyclops</title></ref>. </p>
+                     <p> In Greek mythology, a follower of <persName>Dionysus</persName>. Leader of the satyrs in <persName>Euripides</persName>'s <ref target="https://en.wikipedia.org/wiki/Cyclops_(play)"><title level="m">Cyclops</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Silenus"/>
@@ -5029,7 +5028,7 @@
                <person xml:id="caliban">
                   <persName>Caliban</persName>
                   <note ana="#description">
-                     <p> A half-human, half-monster, comic character in <persName>Shakespeare</persName>'s <ref target="https://en.wikipedia.org/wiki/The_Tempest"><title>The Tempest</title></ref>. </p>
+                     <p> A half-human, half-monster, comic character in <persName>Shakespeare</persName>'s <ref target="https://en.wikipedia.org/wiki/The_Tempest"><title level="m">The Tempest</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Caliban"/>
@@ -5038,7 +5037,7 @@
                <person xml:id="stephano">
                   <persName>Stephano</persName>
                   <note ana="#description">
-                     <p> In <persName>Shakespeare</persName>'s <ref target="https://en.wikipedia.org/wiki/The_Tempest"><title>The Tempest</title></ref>, a butler who plots against <persName>Prospero</persName>. <persName>Caliban</persName> believes him to be a god. </p>
+                     <p> In <persName>Shakespeare</persName>'s <ref target="https://en.wikipedia.org/wiki/The_Tempest"><title level="m">The Tempest</title></ref>, a butler who plots against <persName>Prospero</persName>. <persName>Caliban</persName> believes him to be a god. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Stephano_(The_Tempest)"/>
@@ -5057,7 +5056,7 @@
                <person xml:id="trinculo">
                   <persName>Trinculo</persName>
                   <note ana="#description">
-                     <p> The king's jester in <persName>Shakespeare</persName>'s <title>The Tempest</title>. In cahoots with <persName>Stephano</persName> and <persName>Caliban</persName> to overthrow <persName>Prospero</persName>. </p>
+                     <p> The king's jester in <persName>Shakespeare</persName>'s <title level="m">The Tempest</title>. In cahoots with <persName>Stephano</persName> and <persName>Caliban</persName> to overthrow <persName>Prospero</persName>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/The_Tempest"/>
@@ -5097,7 +5096,7 @@
                      <date when="1862-08-27"/>
                   </death>
                   <note ana="#description">
-                     <p> A British barrister and writer who was friends with <persName>Percy Bysshe Shelley</persName>. Wrote <ref target="https://en.wikipedia.org/wiki/The_Life_of_Percy_Bysshe_Shelley"><title>The Life of Percy Bysshe Shelley</title></ref>. </p>
+                     <p> A British barrister and writer who was friends with <persName>Percy Bysshe Shelley</persName>. Wrote <ref target="https://en.wikipedia.org/wiki/The_Life_of_Percy_Bysshe_Shelley"><title level="m">The Life of Percy Bysshe Shelley</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Thomas_Jefferson_Hogg"/>
@@ -5176,7 +5175,7 @@
                <person xml:id="candour">
                   <persName>Mrs. Candour</persName>
                   <note ana="#description">
-                     <p> A character in <persName>Richard Brinsley Sheridan</persName>'s play, <title>The School for Scandal</title>. </p>
+                     <p> A character in <persName>Richard Brinsley Sheridan</persName>'s play, <title level="m">The School for Scandal</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/The_School_for_Scandal"/>
@@ -5209,7 +5208,7 @@
                <person xml:id="franceschini_guido">
                   <persName>Count Guido Franceschini</persName>
                   <note ana="#description">
-                     <p> The subject of a murder trial in Rome in <date when="1698">1698</date>. Found guilty of the murders of his wife, whom he suspected to be adulterous, and her parents. The story of the trial is related in <persName>Robert Browning</persName>'s <title>The Ring and the Book</title>. </p>
+                     <p> The subject of a murder trial in Rome in <date when="1698">1698</date>. Found guilty of the murders of his wife, whom he suspected to be adulterous, and her parents. The story of the trial is related in <persName>Robert Browning</persName>'s <title level="m">The Ring and the Book</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/The_Ring_and_the_Book"/>
@@ -5218,7 +5217,7 @@
                <person xml:id="cenci_fernando">
                   <persName>Count Fernando Cenci</persName>
                   <note ana="#description">
-                     <p> A brutal and sadistic Italian nobleman whose abuse of his family, including the rape of his own daughter, leads them to plot his murder. The subject of <persName>Percy Bysse Shelley</persName>'s <title>The Cenci</title>. </p>
+                     <p> A brutal and sadistic Italian nobleman whose abuse of his family, including the rape of his own daughter, led them to plot his murder. The subject of <persName>Percy Bysse Shelley</persName>'s <title level="m">The Cenci</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/The_Cenci"/>
@@ -5227,7 +5226,7 @@
                <person xml:id="lescaut_manon">
                   <persName>Lescaut, Manon</persName>
                   <note ana="#description">
-                     <p> In <persName>Antoine François Prévost</persName>'s <title>The Story of the Chevalier des Grieux and Manon Lescaut</title>, <persName>Manon Lescaut</persName> is a common woman whose relationship with a nobleman leads them both to moral decline. </p>
+                     <p> In <persName>Antoine François Prévost</persName>'s <title level="m">The Story of the Chevalier des Grieux and Manon Lescaut</title>, <persName>Manon Lescaut</persName> is a common woman whose relationship with a nobleman leads them both to moral decline. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Manon_Lescaut"/>
@@ -5236,7 +5235,7 @@
                <person xml:id="bovary_emma">
                   <persName>Bovary, Emma</persName>
                   <note ana="#description">
-                     <p> In <persName>Gustave Flaubert</persName>'s novel <title>Madame Bovary: Moeurs de province</title>, <persName>Emma Bovary</persName>, tired with her provincial life as the wife of a doctor, engages in excessive spending and affairs.  </p>
+                     <p> In <persName>Gustave Flaubert</persName>'s novel <title level="m">Madame Bovary: Moeurs de province</title>, <persName>Emma Bovary</persName>, tired with her provincial life as the wife of a doctor, engages in excessive spending and affairs.  </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Madame_Bovary"/>
@@ -5251,7 +5250,7 @@
                      <date when="1880-05-08"/>
                   </death>
                   <note ana="#description">
-                     <p> A French novelist who specialized in literary realism. Author of <ref target="https://en.wikipedia.org/wiki/Madame_Bovary"><title>Madame Bovary</title></ref>. </p>
+                     <p> A French novelist who specialized in literary realism. Author of <ref target="https://en.wikipedia.org/wiki/Madame_Bovary"><title level="m">Madame Bovary</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Gustave_Flaubert"/>
@@ -5260,7 +5259,7 @@
                <person xml:id="orsino">
                   <persName>Orsino</persName>
                   <note ana="#description">
-                     <p> In <persName>Percy Bysshe Shelley</persName>'s <title>The Cenci</title>, <persName>Orsino</persName> is a disingenous prelate who is in love with <persName>Beatrice</persName> and helps plan <persName>Count Cenci</persName>'s murder. </p>
+                     <p> In <persName>Percy Bysshe Shelley</persName>'s <title level="m">The Cenci</title>, <persName>Orsino</persName> is a disingenous prelate who is in love with <persName>Beatrice</persName> and helps plan <persName>Count Cenci</persName>'s murder. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/The_Cenci"/>
@@ -5275,7 +5274,7 @@
                      <date when="1800-01-22"/>
                   </death>
                   <note ana="#description">
-                     <p> An English writer and Shakespearean scholar. His work as an editor of Shakespeare was in many ways well-regarded, but he also occasionally made changes to the text with the sole purpose of demonstrating his superiority, as an editor, to his contemporary, <persName>Edmond Malone</persName>. </p>
+                     <p> An English writer and Shakespearean scholar. His work as an editor of <persName>Shakespeare</persName> was in many ways well-regarded, but he also occasionally made changes to the text with the sole purpose of demonstrating his superiority, as an editor, to his contemporary, <persName>Edmond Malone</persName>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/George_Steevens"/>
@@ -5285,7 +5284,7 @@
                   <persName>Gamp, Sarah</persName>
                   <persName ana="#alternate">Gamp, Sairey</persName>
                   <note ana="#description">
-                     <p> In <persName>Charles Dickens</persName>'s <title>Martin Chuzzlewit</title>, Mrs. Gamp is an incompetent and continually intoxicated nurse. </p>
+                     <p> In <persName>Charles Dickens</persName>'s <ref target="https://en.wikipedia.org/wiki/Martin_Chuzzlewit"><title level="m">Martin Chuzzlewit</title></ref>, <persName>Mrs. Gamp</persName> is an incompetent and continually intoxicated nurse. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Sarah_Gamp"/>
@@ -5294,7 +5293,7 @@
                <person xml:id="rosalind">
                   <persName>Rosalind</persName>
                   <note ana="#description">
-                     <p> In <persName>Percy Bysshe Shelley</persName>'s <title>Rosalind and Helen</title>, <persName>Rosalind</persName> loses her bridegroom at the altar upon the discovery that he is her half-brother, and she is forced to marry a man whom she does not love and who separates her from her children. </p>
+                     <p> In <persName>Percy Bysshe Shelley</persName>'s <title level="a">Rosalind and Helen</title>, <persName>Rosalind</persName> loses her bridegroom at the altar upon the discovery that he is her half-brother, and she is forced to marry a man whom she does not love and who separates her from her children. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Rosalind_and_Helen"/>
@@ -5303,7 +5302,7 @@
                <person xml:id="helen_1">
                   <persName>Helen</persName>
                   <note ana="#description">
-                     <p> In <persName>Percy Bysshe Shelley</persName>'s <title>Rosalind and Helen</title>, <persName>Helen</persName> rejects the traditional idea of marriage and enters into a relationship with <persName>Lionel</persName>, an upper-class man with revolutionary ideas. After his imprisonment and death, she is left alone with a son. </p>
+                     <p> In <persName>Percy Bysshe Shelley</persName>'s <title level="a">Rosalind and Helen</title>, <persName>Helen</persName> rejects the traditional idea of marriage and enters into a relationship with <persName>Lionel</persName>, an upper-class man with revolutionary ideas. After his imprisonment and death, she is left alone with a son. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Rosalind_and_Helen"/>
@@ -5312,7 +5311,7 @@
                <person xml:id="lionel">
                   <persName>Lionel</persName>
                   <note ana="#description">
-                     <p> In <persName>Percy Bysshe Shelley</persName>'s <title>Rosalind and Helen</title>, Lionel is Helen's lover whose radical, outspoken ideas about society result in his exile, imprisonment, and death. </p>
+                     <p> In <persName>Percy Bysshe Shelley</persName>'s <title level="a">Rosalind and Helen</title>, Lionel is Helen's lover whose radical, outspoken ideas about society result in his exile, imprisonment, and death. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Rosalind_and_Helen"/>
@@ -5333,11 +5332,11 @@
                      <ptr target="https://en.wikipedia.org/wiki/Simonides_of_Ceos"/>
                   </bibl>
                </person>
-               <person xml:id="viviani">
+               <person xml:id="viviani_t">
                   <persName>Viviani, Teresa</persName>
                   <persName ana="#alternate">Emilia</persName>
                   <note ana="#description">
-                     <p> The daughter of the Governor of Pisa and a friend of <persName>Percy Bysshe Shelley</persName>. They corresponded passionately prior to her marriage. She was the inspiration for, and is addressed in the title page of, <persName>Shelley</persName>'s <title>Epipsychidion</title>. </p>
+                     <p> The daughter of the Governor of Pisa and a friend of <persName>Percy Bysshe Shelley</persName>. They corresponded extensively prior to her marriage. She was the inspiration for, and is addressed in the title page of, <persName>Shelley</persName>'s <title level="m">Epipsychidion</title>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Percy_Bysshe_Shelley"/>
@@ -5367,10 +5366,50 @@
                      <date when="1896-11-26"/>
                   </death>
                   <note ana="#description">
-                     <p> A German-born English poet, writer, and critic. Her review essay on <persName>William Michael Rossetti</persName>'s <title>The Poetical Works of Percy Bysshe Shelley</title> earned her praise from <persName>Algernon Charles Swinburne</persName>, as well as entry into a formerly all-male group of "Shelleyites" that included <persName>Swinburne</persName>, <persName>Rossetti</persName>, and <persName>Richard Garnett</persName>. </p>
+                     <p> A German-born English poet, writer, and critic. Her review essay on <persName>William Michael Rossetti</persName>'s <title level="m">The Poetical Works of Percy Bysshe Shelley</title> earned her praise from <persName>Algernon Charles Swinburne</persName>, as well as entry into a formerly all-male group of "Shelleyites" that included <persName>Swinburne</persName>, <persName>Rossetti</persName>, and <persName>Richard Garnett</persName>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Mathilde_Blind"/>
+                  </bibl>
+               </person>
+               <person xml:id="swift_jonathan">
+                  <persName>Swift, Jonathan</persName>
+                  <birth>
+                     <date when="1667-11-30"/>
+                  </birth>
+                  <death>
+                     <date when="1745-10-19"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Anglo-Irish writer, satirist, and Anglican cleric. Thought to be the greatest satirist of the Georgian era. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Jonathan_Swift"/>
+                  </bibl>
+               </person>
+               <person xml:id="de_quincey">
+                  <persName>De Quincey, Thomas</persName>
+                  <persName ana="#alternate">Thomas Penson De Quincey</persName>
+                  <birth>
+                     <date when="1785-08-15"/>
+                  </birth>
+                  <death>
+                     <date when="1859-12-08"/>
+                  </death>
+                  <note ana="#description">
+                     <p> English writer, essayist, and literary critic. Author of <ref target="https://en.wikipedia.org/wiki/Confessions_of_an_English_Opium-Eater"><title level="m">Confessions of an English Opium-Eater</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Thomas_De_Quincey"/>
+                  </bibl>
+               </person>
+               <person xml:id="gwynplaine">
+                  <persName>Gwynplaine</persName>
+                  <note ana="#description">
+                     <p> The tragic hero of <persName>Victor Hugo</persName>'s <title level="m">L'Homme qui rit</title>. His face is disfigured into a permanent grin. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Man_Who_Laughs"/>
                   </bibl>
                </person>
    <!-- conclude Abby's additions to listPerson-->
