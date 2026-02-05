@@ -1,6 +1,6 @@
 <listEvent xmlns="http://www.tei-c.org/ns/1.0">
                <event ana="#event" when="1588-08-08">
-                  <label>Spanish Armada, Defeat of</label>
+                  <eventName>Spanish Armada, Defeat of</eventName>
                   <note ana="#description">
                      <p> A battle between the Spanish and English naval armies near Gravelines,
                         France in the English Channel. Though the Spanish fleet only lost 4 of its
@@ -12,7 +12,7 @@
                   </bibl>
                </event>
                <event ana="#event" when="1870">
-                  <label>First Vatican Council, 1869-70</label>
+                  <eventName>First Vatican Council, 1869-70</eventName>
                   <note ana="#description">
                      <p> The Vatican council of <date when="1870">1870</date>, at which
                         the dotrine of Papal infallibility was established. </p>
@@ -22,21 +22,21 @@
                   </bibl>
                </event>
                <event ana="#event" when="1867-11-03">
-                  <label>Mentana, Battle of</label>
+                  <eventName>Mentana, Battle of</eventName>
                   <note ana="#description">
                      <p> French and Papal armies numbering 9000 defeat Garibaldi's forces
                         numbering 4000. </p>
                   </note>
                </event>
                <event ana="#event">
-                  <label>Insurrection in Candia</label>
+                  <eventName>Insurrection in Candia</eventName>
                   <note ana="description">
                      <p> The largest of series of Cretan Christian uprisings against the Ottoman
                         Empire that last from <date>1866-1869</date>. </p>
                   </note>
                </event>
                <event ana="#event" when="1862-08-29">
-                  <label>Battle of Aspromonte</label>
+                  <eventName>Battle of Aspromonte</eventName>
                   <note ana="#description">
                      <p> A encounter that occured on <date when="1862-08-29">August 29,
                             1862</date> in southern Italy between the Italian government and the
@@ -48,7 +48,7 @@
                   </bibl>
                </event>
                <event ana="#event">
-                  <label>English Civil War</label>
+                  <eventName>English Civil War</eventName>
                   <note ana="#description">
                      <p> A series of battles between Parliamentarians and Royalists. The civil
                         war resulted in the execution of King Charles I and the establishment of the
@@ -59,7 +59,7 @@
                   </bibl>
                </event>
                <event ana="#event">
-                  <label>Battle of Trebbia</label>
+                  <eventName>Battle of Trebbia</eventName>
                   <note ana="#description">
                      <p> A battle fought by the Trebbia river in northern Italy between the
                         French and the Austrians and Russians. Both sides lost 6,000 soldiers, but
@@ -70,7 +70,7 @@
                   </bibl>
                </event>
                <event ana="#event" when="1567-06-15">
-                  <label>Carberry Hill, Battle of</label>
+                  <eventName>Carberry Hill, Battle of</eventName>
                   <note ana="#description">
                      <p> Supporters of Mary, Queen of Scotland and her new husband, James
                         Hepburn, Earl of Bothwell, uprise against Queen Elizabeth I a few miles east
@@ -79,7 +79,7 @@
                   </note>
                </event>
                <event ana="#event">
-                  <label>St. Bartholomew's Day Massacre</label>
+                  <eventName>St. Bartholomew's Day Massacre</eventName>
                   <note ana="#description">
                      <p> A wave of targeted assassinations and subsequent Roman Catholic mob
                         violence against the Huguenots. The events began on the <date when="1572-08-23">23 August 1572</date>, the eve of St.
@@ -91,8 +91,8 @@
                      <ptr target="http://en.wikipedia.org/wiki/St._Bartholomew%27s_Day_massacre"/>
                   </bibl>
                </event>
-               <event ana="#event">
-                  <label>Anthesteria</label>
+   <event xml:id="ev_anthesteria" ana="#event">
+                  <eventName>Anthesteria</eventName>
                   <note ana="#description">
                      <p> One of four Athenian festivals honoring Dionysus. </p>
                   </note>
@@ -102,7 +102,7 @@
                </event>
                <!--begin Abby's additions to meta-listEvent-->
                <event ana="#event" from="1870-09-01" to="1870-09-02">
-                  <label>Sedan, Battle of</label>
+                  <eventName>Sedan, Battle of</eventName>
                   <note ana="#description">
                      <p> A decisive battle in the Franco-Prussian War that resulted in the capture of Napoleon and over a hundred thousand French troops by the Prussian armies.</p>
                   </note>
@@ -111,7 +111,7 @@
                   </bibl>
                </event>
                <event ana="#event">
-                  <label>Panathenaea</label>
+                  <eventName>Panathenaea</eventName>
                   <note ana="#description">
                      <p> An ancient Greek festival held annually in Athens in honor of the goddess Athena. </p>
                   </note>
@@ -120,7 +120,7 @@
                   </bibl>
                </event>
                <event ana="#event" notBefore="1700" notAfter="1750">
-                  <label>Augustan Age</label>
+                  <eventName>Augustan Age</eventName>
                   <note ana="#description">
                      <p> A literary period during the reigns of Queen Anne, King George I, and King George II in the first half of the 18th century marked by emulation of the classical Roman poets and an explosion of satire. </p>
                   </note>
