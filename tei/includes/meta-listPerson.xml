@@ -294,7 +294,6 @@
                             <title level="m">Idylls of the King</title>, and Swinburne's
                             <title level="m">The Tale of Balen</title>. </p>
                   </note>
-                  <persName>Balen</persName>
                   <ptr target="document:toltrist00#persName_202"/>
                </person>
                <person xml:id="barbes" ana="#person">
@@ -374,8 +373,7 @@
                                 Garden</title> (<pubPlace>London</pubPlace>:
                                 <publisher>Macmillan</publisher>, <date when="1879">1879</date>)</bibl>. </p>
                   </note>
-               </person>
-              
+               </person>              
                <person xml:id="browning_r" ana="#person">
                   <persName>Browning, Robert</persName>
                   <birth>
@@ -3312,15 +3310,6 @@
                      <ptr target="https://en.wikipedia.org/wiki/Aeneas"/>
                   </bibl>
                </person>
-               <person xml:id="argonaut" ana="#person">
-                  <persName>Argonaut</persName>
-                  <note ana="#description">
-                     <p> In Greek mythology, the Argonauts were a band of heroes who accompanied <persName>Jason</persName> on his quest to find the Golden Fleece. </p>
-                  </note>
-                  <bibl>
-                     <ptr target="https://en.wikipedia.org/wiki/Argonauts"/>
-                  </bibl>
-               </person>
                <person xml:id="iago" ana="#person">
                   <persName>Iago</persName>
                   <note ana="#description">
@@ -3935,16 +3924,6 @@
                      <ptr target="https://en.wikipedia.org/wiki/Filippino_Lippi"/>
                   </bibl>
                </person>
-               <person xml:id="oceanides" ana="#person">
-                  <persName>Oceanids</persName>
-                  <persName ana="#alternate">Oceanides</persName>
-                  <note ana="#description">
-                     <p> In Greek mythology, three thousand nymphs who were daughters of the Titans Oceanus and Tethys. </p>
-                  </note>
-                  <bibl>
-                     <ptr target="https://en.wikipedia.org/wiki/Oceanids"/>
-                  </bibl>
-               </person>
                <person xml:id="circe" ana="#person">
                   <persName>Circe</persName>
                   <note ana="#description">
@@ -4160,20 +4139,6 @@
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Pan_(god)"/>
-                  </bibl>
-               </person>
-               <person xml:id="maenads" ana="#person">
-                  <persName>Maenads</persName>
-                  <persName ana="#alternate">Bacchae</persName>
-                  <persName ana="#alternate">Bassarids</persName>
-                  <note ana="#description">
-                     <p> In Greek mythology, female members of Dionysus's revenue who were traditionally
-                        associated with divine possession and frenzied rites. These were typically
-                        upper-class women, who, every other winter, go up into the Greek mountains
-                        to perform a ritual urged by Dionysus</p>
-                  </note>
-                  <bibl>
-                     <ptr target="https://en.wikipedia.org/wiki/Maenad"/>
                   </bibl>
                </person>
                <person xml:id="pausanias" ana="#person">
@@ -5100,16 +5065,6 @@
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Thomas_Jefferson_Hogg"/>
-                  </bibl>
-               </person>
-               <person xml:id="cyclops">
-                  <persName>Cyclops</persName>
-                  <persName ana="#alternate">Cyclopes</persName>
-                  <note ana="#description">
-                     <p> In Greek and Roman mythology, giant, one-eyed creatures. </p>
-                  </note>
-                  <bibl>
-                     <ptr target="https://en.wikipedia.org/wiki/Cyclopes"/>
                   </bibl>
                </person>
                <person xml:id="proudhon">
