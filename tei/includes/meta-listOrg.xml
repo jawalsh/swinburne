@@ -150,5 +150,75 @@
                      <ptr target="https://en.wikipedia.org/wiki/Erinyes"/>
                   </bibl>
                </org>
+   <!-- moved from listPerson 2/6/26, need to check references in both Victor Hugo essays and in Shelley to update to orgName-->
+               <org xml:id="edoni">
+                  <orgName>Edoni</orgName>
+                  <orgName ana=" #alternate">Edonians</orgName>
+                  <note ana="#description">
+                     <p> A Thracian tribe living about Mount Pangaeüs. Known in myth for the persection of Bacchus and his followers by the Edonian King Lycurgus. </p>
+                  </note>
+               </org>
+               <org xml:id="graces">
+                  <orgName>Graces</orgName>
+                  <note ana="#description">
+                     <p> Goddesses of beauty and charm and attendants of Aphrodite. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://www.pantheon.org/articles/g/graces.html"/>
+                  </bibl>
+               </org>
+               <org xml:id="pleiads">
+                  <orgName>Pleiads</orgName>
+                  <note ana="#description">
+                     <p> The seven daughters of the Titan, Atlas, who accompanied Artemis. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Pleiades_(Greek_mythology)"/>
+                  </bibl>
+               <org/>
+               <org xml:id="argonaut">
+                  <orgName>Argonaut</orgName>
+                  <note ana="#description">
+                     <p> In Greek mythology, the Argonauts were a band of heroes who accompanied <persName>Jason</persName> on his quest to find the Golden Fleece. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Argonauts"/>
+                  </bibl>
+               </org>
+               <org xml:id="oceanides">
+                  <orgName>Oceanids</orgName>
+                  <orgName ana="#alternate">Oceanides</orgName>
+                  <note ana="#description">
+                     <p> In Greek mythology, three thousand nymphs who were daughters of the Titans Oceanus and Tethys. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Oceanids"/>
+                  </bibl>
+               </org>
+                  <org xml:id="maenads">
+                  <orgName>Maenads</orgName>
+                  <orgName ana="#alternate">Bacchae</orgName>
+                  <orgName ana="#alternate">Bassarids</orgName>
+                  <note ana="#description">
+                     <p> In Greek mythology, female members of Dionysus's revenue who were traditionally
+                        associated with divine possession and frenzied rites. These were typically
+                        upper-class women, who, every other winter, go up into the Greek mountains
+                        to perform a ritual urged by Dionysus</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Maenad"/>
+                  </bibl>
+               </org>
+               <org xml:id="cyclops">
+                  <orgName>Cyclops</orgName>
+                  <orgName ana="#alternate">Cyclopes</orgName>
+                  <note ana="#description">
+                     <p> In Greek and Roman mythology, giant, one-eyed creatures. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Cyclopes"/>
+                  </bibl>
+               </org>
+   <!-- conclude entries moved from listPerson 2/6/26-->
    <!-- conclude Abby's additions to meta-listOrg.xml-->
             </listOrg>
