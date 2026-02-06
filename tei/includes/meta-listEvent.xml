@@ -1,5 +1,5 @@
 <listEvent xmlns="http://www.tei-c.org/ns/1.0">
-               <event ana="#event" when="1588-08-08">
+               <event xml:id="evt_spanish_armada" ana="#event" when="1588-08-08">
                   <eventName>Spanish Armada, Defeat of</eventName>
                   <note ana="#description">
                      <p> A battle between the Spanish and English naval armies near Gravelines,
@@ -11,7 +11,7 @@
                      <ptr target="http://en.wikipedia.org/wiki/Spanish_Armada"/>
                   </bibl>
                </event>
-               <event ana="#event" when="1870">
+               <event xml:id="evt_vatican_1" ana="#event" when="1870">
                   <eventName>First Vatican Council, 1869-70</eventName>
                   <note ana="#description">
                      <p> The Vatican council of <date when="1870">1870</date>, at which
@@ -21,21 +21,21 @@
                      <ptr target="http://en.wikipedia.org/wiki/First_Vatican_Council"/>
                   </bibl>
                </event>
-               <event ana="#event" when="1867-11-03">
+               <event xml:id="evt_mentana_battle_of" ana="#event" when="1867-11-03">
                   <eventName>Mentana, Battle of</eventName>
                   <note ana="#description">
                      <p> French and Papal armies numbering 9000 defeat Garibaldi's forces
                         numbering 4000. </p>
                   </note>
                </event>
-               <event ana="#event">
+               <event xml:id="evt_candia_insurrection" ana="#event">
                   <eventName>Insurrection in Candia</eventName>
                   <note ana="description">
                      <p> The largest of series of Cretan Christian uprisings against the Ottoman
                         Empire that last from <date>1866-1869</date>. </p>
                   </note>
                </event>
-               <event ana="#event" when="1862-08-29">
+               <event xml:id="evt_aspromonte_battle_of" ana="#event" when="1862-08-29">
                   <eventName>Battle of Aspromonte</eventName>
                   <note ana="#description">
                      <p> A encounter that occured on <date when="1862-08-29">August 29,
@@ -47,7 +47,7 @@
                      <ptr target="http://en.wikipedia.org/wiki/Battle_of_Aspromonte"/>
                   </bibl>
                </event>
-               <event ana="#event">
+               <event xml:id="evt_english_civil_war" ana="#event">
                   <eventName>English Civil War</eventName>
                   <note ana="#description">
                      <p> A series of battles between Parliamentarians and Royalists. The civil
@@ -58,7 +58,7 @@
                      <ptr target="http://en.wikipedia.org/wiki/English_Civil_War"/>
                   </bibl>
                </event>
-               <event ana="#event">
+               <event xml:id="evt_trebbia_battle_of" ana="#event">
                   <eventName>Battle of Trebbia</eventName>
                   <note ana="#description">
                      <p> A battle fought by the Trebbia river in northern Italy between the
@@ -69,7 +69,7 @@
                      <ptr target="http://en.wikipedia.org/wiki/Battle_of_the_Trebia"/>
                   </bibl>
                </event>
-               <event ana="#event" when="1567-06-15">
+               <event xml:id="evt_carberry_hill_battle_of" ana="#event" when="1567-06-15">
                   <eventName>Carberry Hill, Battle of</eventName>
                   <note ana="#description">
                      <p> Supporters of Mary, Queen of Scotland and her new husband, James
@@ -78,7 +78,7 @@
                         and later executed. </p>
                   </note>
                </event>
-               <event ana="#event">
+               <event xml:id="evt_st_bartholomew_massacre" ana="#event">
                   <eventName>St. Bartholomew's Day Massacre</eventName>
                   <note ana="#description">
                      <p> A wave of targeted assassinations and subsequent Roman Catholic mob
@@ -91,7 +91,7 @@
                      <ptr target="http://en.wikipedia.org/wiki/St._Bartholomew%27s_Day_massacre"/>
                   </bibl>
                </event>
-   <event xml:id="ev_anthesteria" ana="#event">
+               <event xml:id="evt_anthesteria" ana="#event">
                   <eventName>Anthesteria</eventName>
                   <note ana="#description">
                      <p> One of four Athenian festivals honoring Dionysus. </p>
@@ -101,7 +101,7 @@
                   </bibl>
                </event>
                <!--begin Abby's additions to meta-listEvent-->
-               <event ana="#event" from="1870-09-01" to="1870-09-02">
+               <event xml:id="evt_sedan_battle_of" ana="#event" from="1870-09-01" to="1870-09-02">
                   <eventName>Sedan, Battle of</eventName>
                   <note ana="#description">
                      <p> A decisive battle in the Franco-Prussian War that resulted in the capture of Napoleon and over a hundred thousand French troops by the Prussian armies.</p>
@@ -110,7 +110,7 @@
                      <ptr target="https://en.wikipedia.org/wiki/Battle_of_Sedan"/>
                   </bibl>
                </event>
-               <event ana="#event">
+               <event xml:id="evt_panathenaea" ana="#event">
                   <eventName>Panathenaea</eventName>
                   <note ana="#description">
                      <p> An ancient Greek festival held annually in Athens in honor of the goddess Athena. </p>
@@ -119,7 +119,7 @@
                      <ptr target="https://en.wikipedia.org/wiki/Panathenaea"/>
                   </bibl>
                </event>
-               <event ana="#event" notBefore="1700" notAfter="1750">
+               <event xml:id="evt_augustan_age" ana="#event" notBefore="1700" notAfter="1750">
                   <eventName>Augustan Age</eventName>
                   <note ana="#description">
                      <p> A literary period during the reigns of Queen Anne, King George I, and King George II in the first half of the 18th century marked by emulation of the classical Roman poets and an explosion of satire. </p>
