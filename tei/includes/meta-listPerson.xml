@@ -778,15 +778,6 @@
                             <title level="j">Punch</title> magazine. </p>
                   </note>
                </person>
-               <person xml:id="edoni" ana="#person">
-                  <persName>Edoni</persName>
-                  <persName ana=" #alternate">Edonians</persName>
-                  <note ana="#description">
-                     <p> A Thracian tribe living about Mount Pangaeüs. Known in myth for the
-                        persection of Bacchus and his followers by the Edonian King Lycurgus.
-                    </p>
-                  </note>
-               </person>
                <person xml:id="epictetus" ana="#person">
                   <persName>Epictetus</persName>
                   <birth>
@@ -820,15 +811,6 @@
                </person>
                <person xml:id="God" ana="#person">
                   <persName>God</persName>
-               </person>
-               <person xml:id="graces" ana="#person">
-                  <persName>Graces</persName>
-                  <note ana="#description">
-                     <p> Goddesses of beauty and charm and attendants of Aphrodite. </p>
-                  </note>
-                  <bibl>
-                     <ptr target="http://www.pantheon.org/articles/g/graces.html"/>
-                  </bibl>
                </person>
                <person xml:id="pope_gregory_xi" ana="#person">
                   <persName>Gregory XI, Pope</persName>
@@ -1551,16 +1533,6 @@
                   </note>
                   <bibl>
                      <ptr target="http://en.wikipedia.org/wiki/Pittheus"/>
-                  </bibl>
-               </person>
-               <person xml:id="pleiads" ana="#person">
-                  <persName>Pleiads</persName>
-                  <note ana="#description">
-                     <p> The seven daughters of the Titan, Atlas, who accompanied Artemis.
-                    </p>
-                  </note>
-                  <bibl>
-                     <ptr target="http://en.wikipedia.org/wiki/Pleiades_(Greek_mythology)"/>
                   </bibl>
                </person>
                <person xml:id="portia" ana="#person">
