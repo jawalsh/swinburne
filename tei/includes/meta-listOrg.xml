@@ -175,7 +175,7 @@
                   <bibl>
                      <ptr target="http://en.wikipedia.org/wiki/Pleiades_(Greek_mythology)"/>
                   </bibl>
-               <org/>
+               </org>
                <org xml:id="argonaut">
                   <orgName>Argonaut</orgName>
                   <note ana="#description">
@@ -195,7 +195,7 @@
                      <ptr target="https://en.wikipedia.org/wiki/Oceanids"/>
                   </bibl>
                </org>
-                  <org xml:id="maenads">
+               <org xml:id="maenads">
                   <orgName>Maenads</orgName>
                   <orgName ana="#alternate">Bacchae</orgName>
                   <orgName ana="#alternate">Bassarids</orgName>
@@ -221,4 +221,4 @@
                </org>
    <!-- conclude entries moved from listPerson 2/6/26-->
    <!-- conclude Abby's additions to meta-listOrg.xml-->
-            </listOrg>
+            </listOrg>       
