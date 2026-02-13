@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<project xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:if="ant:if" xmlns:unless="ant:unless" name="swinburne-static" default="previewArticle">
+<project xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:if="ant:if" xmlns:unless="ant:unless" name="swinburne-static" default="generateSite">
   <description>
     Apache Ant buildfile for The Algernon Charles Swiburne Project.
   </description>
@@ -20,6 +20,9 @@
   <property name="toDir.static" value="${toDir.base}${file.separator}${context}"/>
   <property name="toDir.tmpHTML" value="${toDir.base}${file.separator}tmpHTML"/>
   <property name="toDir.tmpTEI" value="${toDir.base}${file.separator}tmpTEI"/>
+  <!-- after toDir.tmpTEI / authority.expanded.name are defined -->
+  <property name="authority.expanded.name" value="authority.expanded.xml"/>
+  <property name="authority.expanded.file" location="${toDir.tmpTEI}/${authority.expanded.name}"/>
   <!-- Check for the XML Resolver Java class, as it is a dependency for using the 
     Saxon HE processor. From the Saxon documentation on XSLT with Ant:
       "In particular, the classpath attribute of the xslt task element has been 
@@ -138,18 +141,28 @@ is loaded when Ant starts up. Please run Ant again like this:
     <echo message="TEI to HTML transformation completed. Output in ${toDir.tmpHTML}"/>
   </target>
   <target name="processXIncludes">
-    <!-- Step 1: Create output directory for files with expanded XIncludes -->
     <echo message="Processing XIncludes."/>
     <mkdir dir="${toDir.tmpTEI}"/>
-    <!-- Step 2: Process files using xmllint with a compatible shell -->
-    <exec executable="bash">
+    
+    <!-- Expand XIncludes for article TEI -->
+    <exec executable="bash" failonerror="true">
       <arg value="-c"/>
       <arg value="for file in tei/acs*.xml; do xmllint --xinclude --noent --dropdtd $file -o ${toDir.tmpTEI}/$(basename $file); done"/>
     </exec>
-    <!-- Step 3: Log completion -->
-    <echo message="XInclude processing completed for files in ${dir.data}"/>
+    
+    <!-- Expand XIncludes for authority (single file; no loop) -->
+    <exec executable="bash" failonerror="true">
+      <arg value="-c"/>
+      <arg value="xmllint --xinclude --noent --dropdtd tei/includes/authority.xml -o ${toDir.tmpTEI}/authority.expanded.xml"/>
+    </exec>
+    
+    <available file="${toDir.tmpTEI}/authority.expanded.xml" property="authority.expanded.exists"/>
+    <fail unless="authority.expanded.exists"
+      message="Missing expanded authority file: ${toDir.tmpTEI}/authority.expanded.xml"/>
+    
+    <echo message="XInclude processing completed for files in ${toDir.tmpTEI}"/>
   </target>
-  <target name="addNavigation">
+  <target name="addNavigation" depends="processXIncludes">
     <xslt destdir="${toDir.static}" basedir="${toDir.tmpHTML}" includes="*.html" style="common${file.separator}xslt${file.separator}add-site-navigation.xsl" classpath="${processor.location}">
       <!-- To prevent Ant/Saxon from hitting the W3C servers too hard with requests 
         for the XHTML DTD, we use a catalog entry to map the ID to the local copy of 
@@ -160,6 +173,7 @@ is loaded when Ant starts up. Please run Ant again like this:
       <factory name="${processor.name}"/>
       <param name="assets-path" expression="..${file.separator}"/>
       <param name="context" expression="${context}"/>
+      <param name="authority.uri" expression="file:${authority.expanded.file}"/>
     </xslt>
   </target>
   <!-- Generate a static version of the Swinburne Project website. -->

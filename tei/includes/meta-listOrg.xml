@@ -37,4 +37,188 @@
                      <ptr target="http://en.wikipedia.org/wiki/Uffizi"/>
                   </bibl>
                </org>
-            </listOrg>
+   <!-- begin Abby's additions to meta-listOrg.xml-->
+               <org xml:id="mohocks">
+                  <orgName>Mohocks</orgName>
+                  <note ana="#description">
+                     <p>An alleged group of violent criminals in early 18th-century London.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Mohocks"/>
+                  </bibl>
+               </org>
+               <org xml:id="eleusinian">
+                  <orgName>The Eleusinian Mysteries</orgName>
+                  <note ana="#description">
+                     <p>A religious festival practiced every year by the cult of Demeter and Persephone based in Eleusis.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Eleusinian_Mysteries"/>
+                  </bibl>
+               </org>
+               <org xml:id="feuillantines">
+                  <orgName>Feuillantines</orgName>
+                  <note ana="#description">
+                     <p>Female members of the Congregation of the Feuillants, a Catholic group that emerged from the Cistercians in the 1570s and established itself as an independent order based upon austere ascetic reforms.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Congregation_of_the_Feuillants"/>
+                  </bibl>
+               </org>
+               <org xml:id="cissian">
+                  <orgName>Cissian</orgName>
+                  <note ana="#description">
+                     <p> Inhabitants of Cissia, a district of Persia to which the inhabitants of Eretria were forcibly relocated following a siege by Darius the Great. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Cissia_(area)"/>
+                  </bibl>
+               </org>               
+               <org xml:id="venetians">
+                  <orgName>Venetians</orgName>
+                  <note ana="#description">
+                     <p> The Venetian school produced some of the most prominent Italian Renaissance painters, beginning with Giovanni and Gentile Bellini and including Giorgione, Titian, Tintoretto, and Veronese. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Venetian_painting"/>
+                  </bibl>
+               </org>
+               <org xml:id="eton" ana="#institution">
+                  <orgName>Eton College</orgName>
+                  <note ana="#description">
+                     <p> A boarding school for boys in England, founded in <date when="1440">1440</date> by Henry VI. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Eton_College"/>
+                  </bibl>
+               </org>
+               <org xml:id="dorians">
+                  <orgName>Dorians</orgName>
+                  <note ana="#description">
+                     <p> One of the four major ancient Greek ethnic groups. Major Dorian centers included Sparta and Corinth. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Dorians"/>
+                  </bibl>
+               </org>
+               <org xml:id="grande_chartreuse">
+                  <orgName>Grande Chartreuse</orgName>
+                  <note ana="#descripton">
+                     <p> The head monastery of the Carthusian religious order, located in the Chartreuse Mountains north of Grenoble, France. Visited by Matthew Arnold <date when="1850" cert="unknown">ca. 1850</date>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Grande_Chartreuse"/>
+                  </bibl>
+               </org>
+               <org xml:id="clapham_sect">
+                  <orgName>The Clapham Sect</orgName>
+                  <orgName ana="#alternate">The Clapham Saints</orgName>
+                  <note ana="#description">
+                     <p> A movement of social reformers in the Church of England from <date notBefore="1780" notAfter="1849">the 1780s to the 1840s</date> who championed abolition. Associated with Holy Trinity Clapham. Wiliam Wilberforce was a member. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Clapham_Sect"/>
+                  </bibl>
+               </org>
+               <org xml:id="nazarites">
+                  <orgName>Nazarites</orgName>
+                  <orgName ana="#alternate">Nazirites</orgName>
+                  <note ana="#description">
+                     <p> In the Hebrew Bible, Israelites who took a special vow to become separate before God. Samson was a Nazarite. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Nazirite"/>
+                  </bibl>
+               </org>
+               <org xml:id="nereids">
+                  <orgName>Nereids</orgName>
+                  <orgName ana="#alternate">Nereides</orgName>
+                  <note ana="#description">
+                     <p> In Greek mythology, sea nymphs and daughters of Nereus. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Nereids"/>
+                  </bibl>
+               </org>
+               <org xml:id="furies">
+                  <orgName>The Furies</orgName>
+                  <orgName ana="#alternate">Dirae</orgName>
+                  <note ana="#description">
+                     <p> Roman goddesses of revenge. Counterparts to the Greek Erinyes, or Eumenides. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Erinyes"/>
+                  </bibl>
+               </org>
+   <!-- moved from listPerson 2/6/26, need to check references in both Victor Hugo essays and in Shelley to update to orgName-->
+               <org xml:id="edoni">
+                  <orgName>Edoni</orgName>
+                  <orgName ana=" #alternate">Edonians</orgName>
+                  <note ana="#description">
+                     <p> A Thracian tribe living about Mount Pangaeüs. Known in myth for the persection of Bacchus and his followers by the Edonian King Lycurgus. </p>
+                  </note>
+               </org>
+               <org xml:id="graces">
+                  <orgName>Graces</orgName>
+                  <note ana="#description">
+                     <p> Goddesses of beauty and charm and attendants of Aphrodite. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://www.pantheon.org/articles/g/graces.html"/>
+                  </bibl>
+               </org>
+               <org xml:id="pleiads">
+                  <orgName>Pleiads</orgName>
+                  <note ana="#description">
+                     <p> The seven daughters of the Titan, Atlas, who accompanied Artemis. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Pleiades_(Greek_mythology)"/>
+                  </bibl>
+               </org>
+               <org xml:id="argonaut">
+                  <orgName>Argonaut</orgName>
+                  <note ana="#description">
+                     <p> In Greek mythology, the Argonauts were a band of heroes who accompanied <persName>Jason</persName> on his quest to find the Golden Fleece. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Argonauts"/>
+                  </bibl>
+               </org>
+               <org xml:id="oceanides">
+                  <orgName>Oceanids</orgName>
+                  <orgName ana="#alternate">Oceanides</orgName>
+                  <note ana="#description">
+                     <p> In Greek mythology, three thousand nymphs who were daughters of the Titans Oceanus and Tethys. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Oceanids"/>
+                  </bibl>
+               </org>
+               <org xml:id="maenads">
+                  <orgName>Maenads</orgName>
+                  <orgName ana="#alternate">Bacchae</orgName>
+                  <orgName ana="#alternate">Bassarids</orgName>
+                  <note ana="#description">
+                     <p> In Greek mythology, female members of Dionysus's revenue who were traditionally
+                        associated with divine possession and frenzied rites. These were typically
+                        upper-class women, who, every other winter, go up into the Greek mountains
+                        to perform a ritual urged by Dionysus</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Maenad"/>
+                  </bibl>
+               </org>
+               <org xml:id="cyclops">
+                  <orgName>Cyclops</orgName>
+                  <orgName ana="#alternate">Cyclopes</orgName>
+                  <note ana="#description">
+                     <p> In Greek and Roman mythology, giant, one-eyed creatures. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Cyclopes"/>
+                  </bibl>
+               </org>
+   <!-- conclude entries moved from listPerson 2/6/26-->
+   <!-- conclude Abby's additions to meta-listOrg.xml-->
+            </listOrg>       

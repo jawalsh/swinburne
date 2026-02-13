@@ -1,6 +1,6 @@
 <listEvent xmlns="http://www.tei-c.org/ns/1.0">
-               <event ana="#event" when="1588-08-08">
-                  <label>Spanish Armada, Defeat of</label>
+               <event xml:id="evt_spanish_armada" ana="#event" when="1588-08-08">
+                  <eventName>Spanish Armada, Defeat of</eventName>
                   <note ana="#description">
                      <p> A battle between the Spanish and English naval armies near Gravelines,
                         France in the English Channel. Though the Spanish fleet only lost 4 of its
@@ -11,8 +11,8 @@
                      <ptr target="http://en.wikipedia.org/wiki/Spanish_Armada"/>
                   </bibl>
                </event>
-               <event ana="#event" when="1870">
-                  <label>First Vatican Council, 1869-70</label>
+               <event xml:id="evt_vatican_1" ana="#event" when="1870">
+                  <eventName>First Vatican Council, 1869-70</eventName>
                   <note ana="#description">
                      <p> The Vatican council of <date when="1870">1870</date>, at which
                         the dotrine of Papal infallibility was established. </p>
@@ -21,22 +21,22 @@
                      <ptr target="http://en.wikipedia.org/wiki/First_Vatican_Council"/>
                   </bibl>
                </event>
-               <event ana="#event" when="1867-11-03">
-                  <label>Mentana, Battle of</label>
+               <event xml:id="evt_mentana_battle_of" ana="#event" when="1867-11-03">
+                  <eventName>Mentana, Battle of</eventName>
                   <note ana="#description">
                      <p> French and Papal armies numbering 9000 defeat Garibaldi's forces
                         numbering 4000. </p>
                   </note>
                </event>
-               <event ana="#event">
-                  <label>Insurrection in Candia</label>
+               <event xml:id="evt_candia_insurrection" ana="#event">
+                  <eventName>Insurrection in Candia</eventName>
                   <note ana="description">
                      <p> The largest of series of Cretan Christian uprisings against the Ottoman
                         Empire that last from <date>1866-1869</date>. </p>
                   </note>
                </event>
-               <event ana="#event" when="1862-08-29">
-                  <label>Battle of Aspromonte</label>
+               <event xml:id="evt_aspromonte_battle_of" ana="#event" when="1862-08-29">
+                  <eventName>Battle of Aspromonte</eventName>
                   <note ana="#description">
                      <p> A encounter that occured on <date when="1862-08-29">August 29,
                             1862</date> in southern Italy between the Italian government and the
@@ -47,8 +47,8 @@
                      <ptr target="http://en.wikipedia.org/wiki/Battle_of_Aspromonte"/>
                   </bibl>
                </event>
-               <event ana="#event">
-                  <label>English Civil War</label>
+               <event xml:id="evt_english_civil_war" ana="#event">
+                  <eventName>English Civil War</eventName>
                   <note ana="#description">
                      <p> A series of battles between Parliamentarians and Royalists. The civil
                         war resulted in the execution of King Charles I and the establishment of the
@@ -58,8 +58,8 @@
                      <ptr target="http://en.wikipedia.org/wiki/English_Civil_War"/>
                   </bibl>
                </event>
-               <event ana="#event">
-                  <label>Battle of Trebbia</label>
+               <event xml:id="evt_trebbia_battle_of" ana="#event">
+                  <eventName>Battle of Trebbia</eventName>
                   <note ana="#description">
                      <p> A battle fought by the Trebbia river in northern Italy between the
                         French and the Austrians and Russians. Both sides lost 6,000 soldiers, but
@@ -69,8 +69,8 @@
                      <ptr target="http://en.wikipedia.org/wiki/Battle_of_the_Trebia"/>
                   </bibl>
                </event>
-               <event ana="#event" when="1567-06-15">
-                  <label>Carberry Hill, Battle of</label>
+               <event xml:id="evt_carberry_hill_battle_of" ana="#event" when="1567-06-15">
+                  <eventName>Carberry Hill, Battle of</eventName>
                   <note ana="#description">
                      <p> Supporters of Mary, Queen of Scotland and her new husband, James
                         Hepburn, Earl of Bothwell, uprise against Queen Elizabeth I a few miles east
@@ -78,8 +78,8 @@
                         and later executed. </p>
                   </note>
                </event>
-               <event ana="#event">
-                  <label>St. Bartholomew's Day Massacre</label>
+               <event xml:id="evt_st_bartholomew_massacre" ana="#event">
+                  <eventName>St. Bartholomew's Day Massacre</eventName>
                   <note ana="#description">
                      <p> A wave of targeted assassinations and subsequent Roman Catholic mob
                         violence against the Huguenots. The events began on the <date when="1572-08-23">23 August 1572</date>, the eve of St.
@@ -91,8 +91,8 @@
                      <ptr target="http://en.wikipedia.org/wiki/St._Bartholomew%27s_Day_massacre"/>
                   </bibl>
                </event>
-               <event ana="#event">
-                  <label>Anthesteria</label>
+               <event xml:id="evt_anthesteria" ana="#event">
+                  <eventName>Anthesteria</eventName>
                   <note ana="#description">
                      <p> One of four Athenian festivals honoring Dionysus. </p>
                   </note>
@@ -100,4 +100,33 @@
                      <ptr target="http://en.wikipedia.org/wiki/Anthesteria"/>
                   </bibl>
                </event>
+               <!--begin Abby's additions to meta-listEvent-->
+               <event xml:id="evt_sedan_battle_of" ana="#event" from="1870-09-01" to="1870-09-02">
+                  <eventName>Sedan, Battle of</eventName>
+                  <note ana="#description">
+                     <p> A decisive battle in the Franco-Prussian War that resulted in the capture of Napoleon and over a hundred thousand French troops by the Prussian armies.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Battle_of_Sedan"/>
+                  </bibl>
+               </event>
+               <event xml:id="evt_panathenaea" ana="#event">
+                  <eventName>Panathenaea</eventName>
+                  <note ana="#description">
+                     <p> An ancient Greek festival held annually in Athens in honor of the goddess Athena. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Panathenaea"/>
+                  </bibl>
+               </event>
+               <event xml:id="evt_augustan_age" ana="#event" notBefore="1700" notAfter="1750">
+                  <eventName>Augustan Age</eventName>
+                  <note ana="#description">
+                     <p> A literary period during the reigns of Queen Anne, King George I, and King George II in the first half of the 18th century marked by emulation of the classical Roman poets and an explosion of satire. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Augustan_literature"/>
+                  </bibl>
+               </event>   
+   <!--conclude Abby's additions to meta-listEvent-->
             </listEvent>

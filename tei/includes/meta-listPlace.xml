@@ -19,8 +19,8 @@
                      <ptr target="http://en.wikipedia.org/wiki/Calabria"/>
                   </bibl>
                </place>
-               <place xml:id="phyrgia" ana="#place">
-                  <placeName>Phyrgia</placeName>
+               <place xml:id="phrygia" ana="#place">
+                  <placeName>Phrygia</placeName>
                   <note ana="#description">
                      <p> A kingdom in the west central portion of Anatolia, in what is now
                         modern-day Turkey. </p>
@@ -149,15 +149,6 @@
                   </note>
                   <bibl>
                      <ptr target="http://en.wikipedia.org/wiki/Cayenne"/>
-                  </bibl>
-               </place>
-               <place xml:id="phrygia" corresp="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002613" ana="#place">
-                  <placeName>Phrygia</placeName>
-                  <note ana="#description">
-                     <p> Ancient country in W central Asia Minor, now central Turkey. </p>
-                  </note>
-                  <bibl>
-                     <ptr target="http://en.wikipedia.org/wiki/Phrygia"/>
                   </bibl>
                </place>
                <place xml:id="aetolia" corresp="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002678" ana="#place">
@@ -389,27 +380,6 @@
                   </note>
                   <bibl>
                      <ptr target="http://en.wikipedia.org/wiki/Guernsey"/>
-                  </bibl>
-               </place>
-               <place xml:id="troy" ana="#place">
-                  <placeName>Troy</placeName>
-                  <placeName ana=" #alternate">Hisarlik</placeName>
-                  <note ana="#description">
-                     <p> A legendary city located in present day northwest Turkey. In
-                        Homer's <title>Iliad</title> it was the center of the Trojan
-                        War. </p>
-                  </note>
-                  <bibl>
-                     <ptr target="http://en.wikipedia.org/wiki/Guernsey"/>
-                  </bibl>
-               </place>
-               <place xml:id="mentana" ana="#place">
-                  <placeName>Mentana</placeName>
-                  <note ana="#description">
-                     <p> A comune in the province of Rome in Italy. </p>
-                  </note>
-                  <bibl>
-                     <ptr target="http://en.wikipedia.org/wiki/Mentana"/>
                   </bibl>
                </place>
                <place xml:id="gr" ana="#place">
@@ -1012,4 +982,429 @@
                   <placeName>Camelot</placeName>
                   <ptr target="https://pantheon.org/articles/c/camelot.html" ana="occurrenceTypes.xtm#article"/>
                </place>
+   <!-- begin Abby's additions to listPlace-->
+               <place xml:id="vianden" ana="#place">
+                  <placeName>Vianden</placeName>
+                  <note ana="#description">
+                     <p> A town in Luxembourg.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Vianden"/>
+                  </bibl>
+               </place>
+               <place xml:id="ionia" ana="#region">
+                  <region>Ionia</region>
+                  <note ana="#description">
+                     <p> An ancient region on the western coast of Anatolia. Home to the twelve cities that formed the Ionian League.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Ionia"/>
+                  </bibl>
+               </place>
+               <place xml:id="jerusalem" ana="#place">
+                  <placeName>Jerusalem</placeName>
+                  <note ana="#description">
+                     <p> The capital of ancient Israel. A holy city in the Jewish, Christian, and Muslim traditions.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Jerusalem"/>
+                  </bibl>
+               </place>
+               <place xml:id="london" ana="#place">
+                  <placeName>London</placeName>
+                  <note ana="#description">
+                     <p> The capital of England.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/London"/>
+                  </bibl>
+               </place>
+               <place xml:id="new_york" ana="#place">
+                  <placeName>New York</placeName>
+                  <note ana="#description">
+                     <p> One of the oldest and most populous cities in the United States. Historically, the primary entry point for immigration to America.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/New_York_City"/>
+                  </bibl>
+               </place>
+               <place xml:id="paris" ana="#place">
+                  <placeName>Paris</placeName>
+                  <note ana="#description">
+                     <p> The capital of France.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Paris"/>
+                  </bibl>
+               </place>
+               <place xml:id="troy" ana="#place">
+                  <placeName>Troy</placeName>
+                  <placeName ana="#alternate">Hisarlik</placeName>
+                  <placeName ana="#alternate">Ilion</placeName>
+                  <note ana="#description">
+                     <p> A legendary city located in present day northwest Turkey. In Homer's <title>Iliad</title> it was the center of the Trojan War. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Troy"/>
+                  </bibl>
+               </place>
+               <place xml:id="mentana" ana="#place">
+                  <placeName>Mentana</placeName>
+                  <note ana="#description">
+                     <p> A comune in the province of Rome in Italy. In <date when="1867">1867</date>, the site of the Battle of Mentana in which Italian troops, trying to capture Rome, were defeated by troops from the French Papal States.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Mentana"/>
+                  </bibl>
+               </place>
+               <place xml:id="haymarket" ana="#place">
+                  <placeName>Haymarket</placeName>
+                  <note ana="#description">
+                     <p> A street in London that was historically a center for prostitution. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Haymarket,_London"/>
+                  </bibl>
+               </place>   
+               <place xml:id="sparta" ana="#place">
+                  <placeName>Sparta</placeName>
+                  <note ana="#description">
+                     <p> One of the ancient Greek city-states, known for its military power. Helen, whose removal to Troy sparks the chief conflict of Homer's <title>Iliad</title>, was originally a queen of Sparta. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Sparta"/>
+                  </bibl>
+               </place>
+               <place xml:id="corinth" ana="#place">
+                  <placeName>Corinth</placeName>
+                  <note ana="#description">
+                     <p> An ancient Greek city-state in which Jason and Medea settled after Pelias's murder. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Ancient_Corinth"/>
+                  </bibl>
+               </place>
+               <place xml:id="etna" ana="#geog">
+                  <geogName>Mount Etna</geogName>
+                  <note ana="#description">
+                     <p> An active volcano in Sicily, Italy. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Mount_Etna"/>
+                  </bibl>
+               </place>
+               <place xml:id="amu_darya" ana="#geog">
+                  <geogName>Amu Darya</geogName>
+                  <geogName ana=" #alternate">Oxus</geogName>
+                  <note ana="#description">
+                     <p> A river in Central Asia that historically served as the boundary between Greater Iran and Turan. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Amu_Darya"/>
+                  </bibl>
+               </place>
+               <place xml:id="judea" ana="#region">
+                  <region>Judea</region>
+                  <note ana="#description">
+                     <p> In Jesus's time, a Roman province consisting of the southern part of the Levant, including the region of Benjamin and the Negev. Sometimes used to refer to the Levant as a whole. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Judea#Biblical_Era"/>
+                  </bibl>
+               </place>
+               <place xml:id="tyre" ana="#place">
+                  <placeName>Tyre</placeName>
+                  <note ana="#description">
+                     <p> A coastal city in Lebanon. Historically an important Phoenician harbor. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Tyre,_Lebanon#"/>
+                  </bibl>
+               </place>
+               <place xml:id="nile" ana="geog">
+                  <geogName>Nile</geogName>
+                  <note ana="#description">
+                     <p> A major river in Africa, the annual flooding of which was historically a vital source of water for Egypt. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Nile"/>
+                  </bibl>
+               </place>
+               <place xml:id="illyria" ana="#region">
+                  <region>Illyria</region>
+                  <note ana="#description">
+                     <p> In classical and late antiquity, the western part of the Balkan Peninsula. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Illyria"/>
+                  </bibl>
+               </place>
+               <place xml:id="mount_parnassus" ana="#geog">
+                  <geogName>Mount Parnassus</geogName>
+                  <note ana="#description">
+                     <p> A mountain range in Central Greece. In Greek mythology, it was sacred to both Dionysus and Apollo, and it was the home of the Muses. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Mount_Parnassus"/>
+                  </bibl>
+               </place>
+               <place xml:id="olympus" ana="#geog">
+                  <geogName>Mount Olympus</geogName>
+                  <note ana="#description">
+                     <p> A massif in northeastern Greece near the Aegean Sea. Said to be the home of the gods in Greek mythology. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Mount_Olympus"/>
+                  </bibl>
+               </place>
+               <place xml:id="colonus" ana="#place">
+                  <placeName>Colonus</placeName>
+                  <placeName ana="#alternate">Kolonos</placeName>
+                  <note ana="#description">
+                     <p> A deme of Aegeis, a phyle of Attica in ancient Greece. It was the home of Sophocles, the burial place of Oedipus, and sacred to Poseidon. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Colonus_(Attica)"/>
+                  </bibl>
+               </place>
+               <place xml:id="acre" ana="#place">
+                  <placeName>Acre</placeName>
+                  <placeName ana="#alternate">Akko</placeName>
+                  <placeName ana="#alternate">Akka</placeName>
+                  <note ana="#description">
+                     <p> A port city in northern Israel that has been continuously inhabited since the Middle Bronze Age. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Acre,_Israel"/>
+                  </bibl>
+               </place>
+               <place xml:id="philistia" ana="#place">
+                  <placeName>Philistia</placeName>
+                  <note ana="#description">
+                     <p> The region in the southwest Levant that was inhabited by the Philistines, consisting primarily of the five cities of Gath, Ekron, Gaza, Ashdod, and Ashkelon, known collectively as the Philistine pentapolis. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Philistia"/>
+                  </bibl>
+               </place>
+               <place xml:id="gaza" ana="#place">
+                  <placeName>Gaza</placeName>
+                  <note ana="#description">
+                     <p> Historically, one of the five major Philistine cities. The place of Samson's imprisonment and death. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/History_of_Gaza"/>
+                  </bibl>
+               </place>
+               <place xml:id="rydal" ana="#place">
+                  <placeName>Rydal</placeName>
+                  <note ana="#description">
+                     <p> A village in Cumbria, England. Home to William Wordsworth and visited frequently by Matthew Arnold, who was friends with Wordsworth and whose father had a summer home there. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Rydal,_Cumbria"/>
+                  </bibl>
+               </place>
+               <place xml:id="rugby" ana="#place">
+                  <placeName>Rugby</placeName>
+                  <note ana="#description">
+                     <p> A town in eastern Warwickshire, England, and home to the Rugby School, one of the oldest independent schools in Britain. Matthew Arnold's father, Thomas Arnold, was one of the school's most famous headmasters, and Matthew Arnold himself both attended and briefly taught at the school. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Rugby,_Warwickshire"/>
+                  </bibl>
+               </place>
+               <place xml:id="ashkelon" ana="#description">
+                  <placeName>Ashkelon</placeName>
+                  <placeName ana="#alternate">Ascalon</placeName>
+                  <note ana="#description"> 
+                     <p> A coastal city that was part of the Philistine pentapolis. </p> 
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Ascalon"/>
+                  </bibl>
+               </place>
+               <place xml:id="gath" ana="#place">
+                  <placeName>Gath</placeName>
+                  <placeName ana="#alternate">Gat</placeName>
+                  <note ana="#description">
+                     <p> One of the five cities of the Philistine pentapolis and home to the giant Goliath. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Gath_(city)"/>
+                  </bibl>
+               </place>
+               <place xml:id="sicily" ana="#place">
+                  <placeName>Sicily</placeName>
+                  <note ana="#description">
+                     <p> An island in the Mediterranean Sea south of the Italian Peninsula. One of the regions of Italy. Home to Mount Etna. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Sicily"/>
+                  </bibl>
+               </place>
+               <place xml:id="enna" ana="#place">
+                  <placeName>Enna</placeName>
+                  <placeName ana="#alternate">Castrogiovanni</placeName>
+                  <note ana="#description">
+                     <p> A city and province in central Sicily. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Enna"/>
+                  </bibl>
+               </place>
+               <place xml:id="cumnor" ana="#place">
+                  <placeName>Cumnor</placeName>
+                  <note ana="#description">
+                     <p> A village in Oxfordshire, England. The setting of two of Matthew Arnold's poems. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Cumnor"/>
+                     <ptr target="https://victorianweb.org/authors/arnold/sullivan2.html"/>
+                  </bibl>
+               </place>
+            <place xml:id="exeter_hall" ana="#place">
+               <placeName>Exeter Hall</placeName>
+               <note ana="#description">
+                  <p> A meeting venue in London frequented by various religious and philanthropic groups, most notably the London Anti-Slavery Society. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Exeter_Hall"/>
+               </bibl>
+            </place>
+            <place xml:id="languedoc" ana="#place">
+               <placeName>Languedoc</placeName>
+               <note ana="#description">
+                  <p> A historical region in modern-day southern France. <date from="1209" to="1229">From 1209 to 1229</date>, Pope Innocent III and the French Crown undertook to eliminate Catharism in the region on the grounds of heresy. This event is known as the Albigensian Crusade. Following the crusade, Languedoc became a part of the Kingdom of France. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Languedoc"/>
+               </bibl>
+            </place>
+            <place xml:id="margate" ana="#place">
+               <placeName>Margate</placeName>
+               <note ana="#description">
+                  <p> A seaside town on the north coast of Kent, England, that was a popular holiday destination in the 18th century. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Margate#"/>
+               </bibl>
+            </place>
+            <place xml:id="sorek" ana="#geog">
+               <geogName>Nahal Sorek</geogName>
+               <geogName ana="#alternate">Nahal Soreq</geogName>
+               <geogName ana="#alternate">Sorek Valley</geogName>
+               <note ana="#description">
+                  <p> A river valley in the Judean Shephelah. Contested by the Israelites and the Philistines, as it connected the Philistine coastal plain in the west to the Judean hill country in the east. Delilah was from the Sorek Valley. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Nahal_Sorek"/>
+               </bibl>
+            </place>
+            <place xml:id="asgard" ana="#place">
+               <placeName>Asgard</placeName>
+               <note ana="#description">
+                  <p> The home of the gods in Norse mythology. </p>
+               </note>
+            </place>
+            <place xml:id="naples" ana="#place">
+               <placeName>Naples</placeName>
+               <note ana="#description">
+                  <p> An Italian city situated on the Gulf of Naples. Prior to the Italian unification, it served as the capital of the Kingdom of Naples. Historically significant for developments in art and music. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Naples#"/>
+               </bibl>
+            </place>
+            <place xml:id="vesuvius">
+               <geogName>Mount Vesuvius</geogName>
+               <note ana="#description">
+                  <p> A volcano located on the Gulf of Naples in Italy, famous for its eruption in <date when="0079">79 A.D.</date> that destroyed the cities of Pompeii, Herculaneum, Oplontis, and Stabiae. Associated with Jupiter and Hercules in Roman mythology. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Mount_Vesuvius"/>
+               </bibl>
+            </place>
+            <place xml:id="stromboli">
+               <geogName>Stromboli</geogName>
+               <note ana="#description">
+                  <p> One of the seven volcanic Aeolian Islands off the north coast of Sicily. In Greek mythology, the home of Aeolus. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Stromboli"/>
+               </bibl>
+            </place>
+            <place xml:id="bethlehem">
+               <placeName>Bethlehem</placeName>
+               <note ana="#description"> 
+                  <p> The birthplace of King David in the Hebrew Bible, and of Jesus of Nazareth in the New Testament. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Bethlehem"/>
+               </bibl>
+            </place>
+            <place xml:id="livorno">
+               <placeName>Livorno</placeName>
+               <note ana="#description">
+                  <p> A port city on the western coast of the Tuscany region of Italy. Shelley composed part of <title>The Cenci</title> near Livorno, and he himself printed an edition of the work, consisting of 250 copies, in Livorno. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Livorno"/>
+                  <ptr target="https://en.wikipedia.org/wiki/The_Cenci"/>
+               </bibl>
+            </place>
+            <place xml:id="nysa">
+               <placeName>Nysa</placeName>
+               <note ana="#description">
+                  <p> In Greek mythology, the place where Dionysus was raised from infancy by the rain nymphs, the Hyades. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Nysa_(mythology)"/>
+               </bibl>
+            </place>
+            <place xml:id="westphalia">
+               <placeName>Westphalia</placeName>
+               <placeName ana="#alternate">Westfalen</placeName>
+               <note ana="#description">
+                  <p> A region of northwest Germany, historically a province of Prussia. Notably, the Thirty Years' War ended in <date when="1648">1648</date> when peace treaties were signed in two Westphalian cities, referred to as the Peace of Westphalia. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Westphalia#"/>
+               </bibl>
+            </place>
+            <place xml:id="pisa">
+               <placeName>Pisa</placeName>
+               <note ana="#description">
+                  <p> A city in Tuscany, Italy. Percy Bysshe Shelley invited John Keats to visit him in Pisa not too long before Keats's death. Keats was unable to come. Shelley printed his <title>Adonais</title>, an elegy to Keats, in Pisa. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://www.gutenberg.org/files/10119/10119-h/10119-h.htm#composition"/>
+               </bibl>
+            </place>
+            <place xml:id="euganean_hills">
+               <placeName>Euganean Hills</placeName>
+               <note ana="#description">
+                  <p> A group of hills of volcanic origin south of <placeName>Padua</placeName>. </p>
+               </note>
+            </place>
+            <place xml:id="grub_street">
+               <placeName>Grub Street</placeName>
+               <note ana="#description">
+                  <p> A street in London whose name, in the <date notBefore="1700" notAfter="1799">18th century</date>, came to refer to mediocre writers, literary hacks, and their works. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://www.britannica.com/topic/Grub-Street"/>
+               </bibl>
+            </place>
+   <place xml:id="kithaironas">
+      <geogName>Mount Kithairónas</geogName>
+      <geogName ana="#alternate">Mount Cithaeron</geogName>
+      <note ana="#description">
+         <p> A mountain range in central Greece considered sacred to <persName>Dionysus</persName> and from which he carried out his rites. </p>
+      </note>
+      <bibl>
+         <ptr target="https://en.wikipedia.org/wiki/Cithaeron"/>
+      </bibl>
+   </place>
+   <!-- end Abby's additions to listPlace-->
             </listPlace>
