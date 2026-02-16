@@ -660,7 +660,7 @@ Code repository: <a href="https://github.com/jawalsh/swinburne">jawalsh/swinburn
               <h1 class="modal-title fs-5">
                 <xsl:value-of select="$person/tei:persName[1]"/>
 		  <xsl:if test="$person/tei:birth">
-                    <xsl:value-of select="concat('&#xA0;(',$person/tei:birth/tei:date/@when,'-',$person/tei:death/tei:date/@when,')')"/>
+                    <xsl:value-of select="concat('&#xA0;(', substring($person/tei:birth/tei:date/@when,1,4),'-', substring($person/tei:death/tei:date/@when,1,4),')')"/>
 	          </xsl:if>
               </h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"/>
