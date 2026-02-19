@@ -176,11 +176,8 @@ is loaded when Ant starts up. Please run Ant again like this:
       <factory name="${processor.name}"/>
       <param name="assets-path" expression="..${file.separator}"/>
       <param name="context" expression="${context}"/>
-<<<<<<< Updated upstream
       <param name="authority.uri" expression="file:${authority.expanded.file}"/>
-=======
       <param name="server" expression="${server}"/>
->>>>>>> Stashed changes
     </xslt>
   </target>
   <!-- Generate a static version of the Swinburne Project website. -->
