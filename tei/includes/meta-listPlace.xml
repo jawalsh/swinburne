@@ -223,7 +223,8 @@
                   </bibl>
                </place>
                <place xml:id="cithaeron" ana="#geog">
-                  <geogName> Cithaeron </geogName>
+                  <geogName>Cithaeron</geogName>
+                  <geogName ana="#alternate">Kithairónas</geogName>
                   <note ana="#description">
                      <p> Mountain range in central Greece, separating Boeotia from Megaris and
                         Attica. These mountains were said to be sacred to Dionysus and were the
@@ -314,7 +315,7 @@
                </place>
                <place xml:id="the_pines" ana="#place">
                   <placeName>The Pines</placeName>
-                  <placeName ana=" #sort">Pines, The</placeName>
+                  <placeName ana="#sort">Pines, The</placeName>
                   <note ana="#description">
                      <p>
                         <soCalled>The Pines,</soCalled> 11 Putney Hill, Putney, a district
@@ -342,7 +343,7 @@
                </place>
                <place xml:id="west_undercliff" ana="#geog">
                   <geogName>West Undercliff</geogName>
-                  <geogName ana=" #alternate">Dorset-East Devon Undercliff</geogName>
+                  <geogName ana="#alternate">Dorset-East Devon Undercliff</geogName>
                   <note ana="#description">
                      <p> Undercliff southwest England that stetches for five miles. </p>
                   </note>
@@ -1396,15 +1397,25 @@
                   <ptr target="https://www.britannica.com/topic/Grub-Street"/>
                </bibl>
             </place>
-   <place xml:id="kithaironas">
-      <geogName>Mount Kithairónas</geogName>
-      <geogName ana="#alternate">Mount Cithaeron</geogName>
-      <note ana="#description">
-         <p> A mountain range in central Greece considered sacred to <persName>Dionysus</persName> and from which he carried out his rites. </p>
-      </note>
-      <bibl>
-         <ptr target="https://en.wikipedia.org/wiki/Cithaeron"/>
-      </bibl>
-   </place>
-   <!-- end Abby's additions to listPlace-->
-            </listPlace>
+            <place xml:id="lochnagar">
+               <geogName>Lochnagar</geogName>
+               <geogName ana="#alternate">Beinn Chìochan</geogName>
+               <note ana="#description">
+                  <p> A mountain in northeast Scotland. Part of the Grampian range. The subject of Lord Byron's <title level="a">Lachin y Gair</title>. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Lochnagar"/>
+               </bibl>
+            </place>
+            <place xml:id="thebaid">
+               <placeName>The Thebaid</placeName>
+               <placeName ana="#alternate">Thebais</placeName>
+               <note ana="#description">
+                  <p> A region in upper Egypt. Its name was derived from the ancient Egyptian capital city of Thebes. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Thebaid"/>
+               </bibl>
+            </place>
+      <!-- end Abby's additions to listPlace-->
+         </listPlace>

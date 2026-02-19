@@ -3773,7 +3773,7 @@
                      <ptr target="https://en.wikipedia.org/wiki/Raphael"/>
                   </bibl>
                </person>
-               <person xml:id="samuel_johnson" ana="#person">
+               <person xml:id="johnson_samuel" ana="#person">
                   <persName>Johnson, Samuel</persName>
                   <birth>
                      <date when="1709-09-18"/>
@@ -5337,6 +5337,94 @@
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/The_Man_Who_Laughs"/>
+                  </bibl>
+               </person>
+               <person xml:id="hunt_leigh">
+                  <persName>Hunt, James Henry Leigh</persName>
+                  <persName ana="#alternate">Leigh Hunt</persName>
+                  <birth>
+                     <date when="1784-10-19"/>
+                  </birth>
+                  <death>
+                     <date when="1859-08-28"/>
+                  </death>
+                  <note ana="#description">
+                     <p> English critic, essayist, and poet. Co-founder of <title level="j">The Examiner</title> and friend of <persName>Percy Bysshe Shelley</persName> and <persName>John Keats</persName>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Leigh_Hunt"/>
+                  </bibl>
+               </person>
+               <person xml:id="behn_aphra">
+                  <persName>Behn, Aphra</persName>
+                  <birth>
+                     <date when="1640-12-14"/>
+                  </birth>
+                  <death>
+                     <date when="1689-04-16"/>
+                  </death>
+                  <note ana="#description">
+                     <p> English playwright, poet, prose writer, and translator. Worked for a time as a spy for Charles II. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Aphra_Behn"/>
+                  </bibl>
+               </person>
+               <person xml:id="guiccioli_teresa">
+                  <persName>Teresa, Contessa Guiccioli</persName>
+                  <birth>
+                     <date when="1800"/>
+                  </birth>
+                  <death>
+                     <date when="1873"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian noblewoman and one of Lord Byron's lovers. Author of <title>Lord Byron's Life in Italy</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Teresa,_Contessa_Guiccioli"/>
+                  </bibl>
+               </person>
+               <person xml:id="spenser_edmund">
+                  <persName>Spenser, Edmund</persName>
+                  <birth>
+                     <date when="1552" cert="unknown">c. 1552</date>
+                  </birth>
+                  <death>
+                     <date when="1599-01-13"/>
+                  </death>
+                  <note ana="#description">
+                     <p> Considered one of the great English poets. Best known for <ref target="https://en.wikipedia.org/wiki/The_Faerie_Queene"><title level="m">The Faerie Queene</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="http://en.wikipedia.org/wiki/Edmund_Spenser"/>
+                  </bibl>
+               </person>
+               <person xml:id="clymene">
+                  <persName>Clymene</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, the mother of <persName>Phaethon</persName> by the sun god. Consensus suggests that the sun god in question is Helios, but some sources cite Apollo. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Clymene_(mother_of_Phaethon)"/>
+                  </bibl>
+               </person>
+               <person xml:id="leucothoe">
+                  <persName>Leucothoe</persName>
+                  <note ana="#description">
+                     <p> A Babylonian princess who was either a lover of the sun god, or a victim of rape. Sources refer alternately to the sun god as <persName>Helios</persName> or <persName>Apollo</persName>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Leucothoe_(daughter_of_Orchamus)"/>
+                  </bibl>
+               </person>
+               <person xml:id="cain">
+                  <persName>Cain</persName>
+                  <note ana="#description">
+                     <p> In the book of Genesis, Cain kills his brother <persName>Abel</persName> out of jealousy, becoming the first murderer. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Cain"/>
                   </bibl>
                </person>
    <!-- conclude Abby's additions to listPerson-->
