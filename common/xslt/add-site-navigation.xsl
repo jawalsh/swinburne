@@ -1,5 +1,15 @@
 <?xml version="1.0"?>
-<xsl:stylesheet xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns="http://www.w3.org/1999/xhtml" xmlns:map="http://www.w3.org/2005/xpath-functions/map" version="3.0" xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="fn map" expand-text="true">
+<xsl:stylesheet 
+  xmlns:tei="http://www.tei-c.org/ns/1.0" 
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+  xmlns:fn="http://www.w3.org/2005/xpath-functions" 
+  xmlns="http://www.w3.org/1999/xhtml" 
+  xmlns:map="http://www.w3.org/2005/xpath-functions/map"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  version="3.0" 
+  xpath-default-namespace="http://www.w3.org/1999/xhtml" 
+  exclude-result-prefixes="fn map tei xs" 
+  expand-text="true">
   <xsl:output cdata-section-elements="script" indent="yes"/>
   <xsl:import href="config.xsl"/>
   <!-- embed the page in global navigation -->
@@ -13,9 +23,14 @@
   <xsl:variable name="volume" select="$contents-json-xml//fn:map[@key = 'volume' and fn:string[@key = 'id'] = $volume-id]"/>
   <xsl:variable name="volume-title" select="$volume/fn:string[@key='title']"/>
   <xsl:variable name="search-page" select="/html/head/meta[@name = 'search']/@content"/>
-  <xsl:variable name="authorities">
-    <xsl:copy-of select="document('../../tei/includes/authority.xml')"/>
-  </xsl:variable>
+  <xsl:param name="authority.uri" as="xs:string" select="''"/>
+  
+  <xsl:variable name="authorities"
+    select="doc(
+    if (matches($authority.uri, '^[a-zA-Z][a-zA-Z0-9+.-]*:'))
+    then $authority.uri
+    else concat('file:', $authority.uri)
+    )"/>
   <xsl:mode on-no-match="shallow-copy"/>
   <!-- insert link to global CSS, any global <meta> elements belong here too -->
   <xsl:template match="head">
@@ -628,9 +643,9 @@ Code repository: <a href="https://github.com/jawalsh/swinburne">jawalsh/swinburn
 	and (some $t in tokenize(@class) satisfies starts-with($t, 'ref-'))
   ]
 ">
-    <xsl:param name="refID" select="substring-after(head((tokenize(@class)[starts-with(., 'ref-')])), 'ref-')"/>
-    <xsl:param name="tmpID" select="generate-id(.)"/>
-    <xsl:param name="person" select="$authorities//tei:person[@xml:id = $refID]"/>
+    <xsl:variable name="refID" select="substring-after(head((tokenize(@class)[starts-with(., 'ref-')])), 'ref-')"/>
+    <xsl:variable name="tmpID" select="generate-id(.)"/>
+    <xsl:variable name="person" select="$authorities//tei:person[@xml:id = $refID]"/>
     <xsl:copy>
       <xsl:copy-of select="@*"/>
       <xsl:apply-templates/>
