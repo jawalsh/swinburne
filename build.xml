@@ -105,6 +105,7 @@ is loaded when Ant starts up. Please run Ant again like this:
       <factory name="${processor.name}">
         <attribute name="http://saxon.sf.net/feature/xinclude-aware" value="on"/>
       </factory>
+      <param name="server" expression="${server}"/>
     </xslt>
   </target>
   <target name="processContents">
@@ -118,6 +119,7 @@ is loaded when Ant starts up. Please run Ant again like this:
       <factory name="${processor.name}">
         <attribute name="http://saxon.sf.net/feature/initialTemplate" value="{http://www.w3.org/1999/XSL/Transform}initial-template"/>
       </factory>
+      <param name="server" expression="${server}"/>
       <!--
       <param name="assets-path" expression="..${file.separator}"/>
       <param name="context" expression="swinburne"/>
@@ -136,6 +138,7 @@ is loaded when Ant starts up. Please run Ant again like this:
       </xmlcatalog>
       <param name="assets-path" expression="..${file.separator}"/>
       <param name="context" expression="${context}"/>
+      <param name="server" expression="${server}"/>
     </xslt>
     <!-- Step 3: Log completion -->
     <echo message="TEI to HTML transformation completed. Output in ${toDir.tmpHTML}"/>
@@ -173,7 +176,11 @@ is loaded when Ant starts up. Please run Ant again like this:
       <factory name="${processor.name}"/>
       <param name="assets-path" expression="..${file.separator}"/>
       <param name="context" expression="${context}"/>
+<<<<<<< Updated upstream
       <param name="authority.uri" expression="file:${authority.expanded.file}"/>
+=======
+      <param name="server" expression="${server}"/>
+>>>>>>> Stashed changes
     </xslt>
   </target>
   <!-- Generate a static version of the Swinburne Project website. -->
@@ -283,6 +290,7 @@ is loaded when Ant starts up. Please run Ant again like this:
       <param name="context" expression="${context}"/>
       <param name="dir-separator" expression="${file.separator}"/>
       <param name="doProofing" expression="true"/>
+      <param name="server" expression="${server}"/>
     </xslt>
     <echo message="Created article preview at ${previewDir}${file.separator}${document.id}.html"/>
   </target>
