@@ -12,6 +12,7 @@
     value in build.xml's "previewArticle" target, and/or add a new value to the 
     repository .gitignore file. -->
   <previewDir>swinburne-static-preview</previewDir>
+  <server>swinburne.luddy.indiana.edu</server>
   
   <!-- The XSLT processor to use. -->
   <processor>
