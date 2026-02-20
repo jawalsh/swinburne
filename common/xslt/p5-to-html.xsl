@@ -48,8 +48,8 @@
         <title>
           <xsl:value-of select="$title"/>
         </title>
-        <link href="/css/tei.css" rel="stylesheet" type="text/css"/>
-        <link href="/css/highlighting.css" rel="stylesheet" type="text/css"/>
+        <link href="{swinburne:site-path('css/tei.css')}" rel="stylesheet" type="text/css"/>
+        <link href="{swinburne:site-path('css/highlighting.css')}" rel="stylesheet" type="text/css"/>
         <!-- no manifest for swinburne -->
         <!--				<link href="{$embedded-manifest-uri}" rel="alternate" type="application/ld+json" title="iiif-manifest"/> -->
         <!-- output the rendition elements as CSS rules -->
@@ -199,14 +199,7 @@
   <xsl:variable name="introduction" select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/note[@type = 'introduction']"/>
   <xsl:template match="teiHeader">
     <xsl:param name="html-link">
-      <xsl:choose>
-        <xsl:when test="$site-dir = '/'">
-          <xsl:value-of select="concat('https://',$server,'/',$doc-id,'.html')"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:value-of select="concat('https://', $server, '/', $site-dir, '/', $doc-id, '.html')"/>
-        </xsl:otherwise>
-      </xsl:choose>
+      <xsl:value-of select="swinburne:absolute-url(concat($doc-id, '.html'))"/>
     </xsl:param>
     <div id="doc-meta">
       <div class="tei-teiHeader">
@@ -535,7 +528,7 @@
     <xsl:attribute name="title">
       <xsl:apply-templates mode="citation-popup" select="serialize($formatted-citation)"/>
     </xsl:attribute>
-    <xsl:attribute name="href" select="concat('/bibliography#', $id)"/>
+    <xsl:attribute name="href" select="concat(swinburne:site-path('bibliography'), '#', $id)"/>
     <xsl:next-match/>
   </xsl:template>
   <!-- bibliographic citation popups -->
@@ -548,7 +541,7 @@
         <xsl:apply-templates mode="citation-popup" select="monogr/imprint"/>
       </p>
       <p>
-        <a href="/bibliography#{@xml:id}">[View Full Citation]</a>
+        <a href="{concat(swinburne:site-path('bibliography'), '#', @xml:id)}">[View Full Citation]</a>
         <xsl:for-each select="monogr/title/@ref">
           <xsl:text> </xsl:text>
           <a href="{.}">[View Full Text]</a>
