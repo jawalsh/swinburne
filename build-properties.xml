@@ -5,14 +5,14 @@
   <toDir>swinburne-static-out</toDir>
   <!-- This directory inside dhq-static will hold the static site's individual files
     (but not the compressed site). -->
-  <context>/</context>
+  <context></context>
   
   <!-- The directory in which HTML articles are saved for previewing. Note that if 
     you change this value, you may also have to change the "assets-path" parameter 
     value in build.xml's "previewArticle" target, and/or add a new value to the 
     repository .gitignore file. -->
   <previewDir>swinburne-static-preview</previewDir>
-  <server>swinburne.luddy.indiana.edu</server>
+  <server></server>
   
   <!-- The XSLT processor to use. -->
   <processor>
