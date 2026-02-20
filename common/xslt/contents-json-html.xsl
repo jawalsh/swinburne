@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
-<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fn="http://www.w3.org/2005/xpath-functions" exclude-result-prefixes="fn" version="3.0">
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:swinburne="tag:biblicon.org,2024:swinburne"
+  xmlns:fn="http://www.w3.org/2005/xpath-functions" exclude-result-prefixes="fn" version="3.0">
   <xsl:import href="config.xsl"/>
   <xsl:output method="xhtml" indent="yes"/>
   <!-- Initial Template -->
@@ -203,29 +206,14 @@
 
   </xsl:template>
 
-
   <xsl:template name="generateURL">
     <xsl:param name="docID"/>
-    <xsl:choose>
-	    <xsl:when test="$site-dir = ''">
-    <xsl:value-of select="concat('https://',$server,'/',$docID,'.html')"/>
-	    </xsl:when>
-	    <xsl:otherwise>
-    <xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$docID,'.html')"/>
-    </xsl:otherwise>
-    </xsl:choose>
-
+    <xsl:value-of select="concat('/', swinburne:site-path(concat($docID, '.html')))"/>
   </xsl:template>
+  
   <xsl:template name="generateInternalURL">
     <xsl:param name="docID"/>
     <xsl:param name="ref"/>
-    <xsl:choose>
-	    <xsl:when test="$site-dir = ''">
-    <xsl:value-of select="concat('https://',$server,'/',$docID,'.html#',$ref)"/>
-	    </xsl:when>
-	    <xsl:otherwise>
-    <xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$docID,'.html#',$ref)"/>
-    </xsl:otherwise>
-    </xsl:choose>
+    <xsl:value-of select="concat('/', swinburne:site-path(concat($docID, '.html')), '#', $ref)"/>
   </xsl:template>
 </xsl:stylesheet>
