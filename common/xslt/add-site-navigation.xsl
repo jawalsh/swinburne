@@ -6,6 +6,7 @@
   xmlns="http://www.w3.org/1999/xhtml" 
   xmlns:map="http://www.w3.org/2005/xpath-functions/map"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:swinburne="tag:biblicon.org,2024:swinburne"
   version="3.0" 
   xpath-default-namespace="http://www.w3.org/1999/xhtml" 
   exclude-result-prefixes="fn map tei xs" 
@@ -31,6 +32,9 @@
     then $authority.uri
     else concat('file:', $authority.uri)
     )"/>
+  
+  <xsl:variable name="ctx" as="xs:string"
+    select="replace(replace(replace(normalize-space($context), '''', ''), '^/+', ''), '/+$', '')"/>
   <xsl:mode on-no-match="shallow-copy"/>
   <!-- insert link to global CSS, any global <meta> elements belong here too -->
   <xsl:template match="head">
@@ -71,16 +75,7 @@
         <nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-dark">
           <div class="container-fluid">
             <a class="navbar-brand">
-              <xsl:attribute name="href">
-                <xsl:choose>
-                  <xsl:when test="$context != '/'">
-                    <xsl:value-of select="concat('/',$context,'/')"/>
-                  </xsl:when>
-                  <xsl:otherwise>
-                    <xsl:value-of select="'/'"/>
-                  </xsl:otherwise>
-                </xsl:choose>
-              </xsl:attribute>
+              <xsl:attribute name="href" select="swinburne:site-path('')"/>
               <xsl:text>ACS</xsl:text>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -163,16 +158,9 @@
     <xsl:if test="not($search-page = 'true' and @key = 'Search &#x1F50E;')">
       <li class="nav-item">
         <a class="nav-link">
-          <xsl:attribute name="href">
-            <xsl:choose>
-              <xsl:when test="$context != '/'">
-                <xsl:value-of select="concat('/',$context,.)"/>
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:value-of select="."/>
-              </xsl:otherwise>
-            </xsl:choose>
-          </xsl:attribute>
+          <xsl:attribute name="href"
+            select="if (starts-with(., 'http')) then .
+            else concat('/', swinburne:site-path(replace(., '^/+', '')))"/>
           <xsl:value-of select="@key"/>
         </a>
       </li>
@@ -180,23 +168,9 @@
   </xsl:template>
   <xsl:template match="fn:map[ancestor::fn:map]/fn:string" mode="main-menu">
     <a class="dropdown-item">
-      <xsl:attribute name="href">
-        <xsl:choose>
-          <xsl:when test="starts-with(.,'http')">
-            <xsl:value-of select="."/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:choose>
-              <xsl:when test="$context != '/'">
-                <xsl:value-of select="concat('/',$context,.)"/>
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:value-of select="."/>
-              </xsl:otherwise>
-            </xsl:choose>
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:attribute>
+      <xsl:attribute name="href"
+        select="if (starts-with(., 'http')) then .
+        else concat('/', swinburne:site-path(replace(., '^/+', '')))"/>
       <xsl:value-of select="@key"/>
     </a>
   </xsl:template>
@@ -582,12 +556,37 @@ Code repository: <a href="https://github.com/jawalsh/swinburne">jawalsh/swinburn
   </xsl:template>
   <xsl:template name="generateURL">
     <xsl:param name="docID"/>
-    <xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$docID,'.html')"/>
+    
+    <xsl:variable name="ctx"
+      select="replace(replace(replace(normalize-space($context), '''', ''), '^/+', ''), '/+$', '')"/>
+    
+    <xsl:variable name="path"
+      select="if ($ctx = '' or $ctx = '/') 
+      then concat($docID, '.html') 
+      else concat($ctx, '/', $docID, '.html')"/>
+    
+    <xsl:value-of
+      select="if (normalize-space($server) = '') 
+      then $path 
+      else concat('https://', $server, '/', $path)"/>
   </xsl:template>
+  
   <xsl:template name="generateInternalURL">
     <xsl:param name="docID"/>
     <xsl:param name="ref"/>
-    <xsl:value-of select="concat('https://',$server,'/',$site-dir,'/',$docID,'.html#',$ref)"/>
+    
+    <xsl:variable name="ctx"
+      select="replace(replace(replace(normalize-space($context), '''', ''), '^/+', ''), '/+$', '')"/>
+    
+    <xsl:variable name="path"
+      select="if ($ctx = '' or $ctx = '/') 
+      then concat($docID, '.html') 
+      else concat($ctx, '/', $docID, '.html')"/>
+    
+    <xsl:value-of
+      select="if (normalize-space($server) = '') 
+      then concat($path, '#', $ref) 
+      else concat('https://', $server, '/', $path, '#', $ref)"/>
   </xsl:template>
   <!-- notes -->
   <xsl:template match="div[contains-token(@class, 'tei-note') and (@id) and not(contains-token(@class,'rendition-rester-en-place'))]">
