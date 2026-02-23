@@ -5427,5 +5427,210 @@
                      <ptr target="https://en.wikipedia.org/wiki/Cain"/>
                   </bibl>
                </person>
+               <person xml:id="satan">
+                  <persName>Satan</persName>
+                  <persName ana="#alternate">Beelzebub</persName>
+                  <persName ana="#alternate">Lucifer</persName>
+                  <note ana="#description">
+                     <p> In the Abrahamic religions, the Devil. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Satan"/>
+                  </bibl>
+               </person>
+               <person xml:id="stendhal">
+                  <persName>Beyle, Marie-Henri</persName>
+                  <persName ana="#alternate">Stendhal</persName>
+                  <birth>
+                     <date when="1783-01-23"/>
+                  </birth>
+                  <death>
+                     <date when="1842-03-23"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French writer notable for his realism and psychological acuity. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Stendhal"/>
+                  </bibl>
+               </person>
+               <person xml:id="bonivard">
+                  <persName>Bonivard, François</persName>
+                  <birth>
+                     <date when="1493"/>
+                  </birth>
+                  <death>
+                     <date when="1570"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A nobleman, ecclesiastic, historian, and patriot of the Republic of Geneva. The subject of Byron's <ref target="https://en.wikisource.org/wiki/Sonnet_on_Chillon"><title level="a">The Sonnet of Chillon</title></ref> and <ref target="https://en.wikipedia.org/wiki/The_Prisoner_of_Chillon"><title level="m">The Prisoner of Chillon</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Bonivard"/>
+                  </bibl>
+               </person>
+               <person xml:id="george_iii">
+                  <persName>George III, King of Great Britain</persName>
+                  <persName ana="#alternate">George William Frederick</persName>
+                  <birth>
+                     <date when="1738-06-04"/>
+                  </birth>
+                  <death>
+                     <date when="1820-01-29"/>
+                  </death>
+                  <note ana="#description">
+                     <p> King of Great Britain and Ireland from <date when="1760-10-25">October 25, 1760</date> until his death in <date when="1820">1820</date>. Byron's satirical poem, <ref target="https://en.wikipedia.org/wiki/The_Vision_of_Judgment"><title level="a">The Vision of Judgement</title></ref>, depicts a dispute in Heaven over the fate of his soul. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/George_III"/>
+                  </bibl>
+               </person>
+               <person xml:id="dryden">
+                  <persName>Dryden, John</persName>
+                  <birth>
+                     <date when="1631-08-19"/>
+                  </birth>
+                  <death>
+                     <date when="1700-05-12"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A prominent poet, literary critic, translator, and playwright of Restoration England. Appointed England's first Poet Laureate in <date when="1668">1668</date>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/John_Dryden"/>
+                  </bibl>
+               </person>
+               <person xml:id="michael_archangel">
+                  <persName>Michael</persName>
+                  <persName>Archangel Michael</persName>
+                  <note ana="#description">
+                     <p> An archangel and warrior of God in the Abrahamic religions. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Michael_(archangel)"/>
+                  </bibl>
+               </person>
+               <person xml:id="caesar_julius">
+                  <persName>Caesar, Julius</persName>
+                  <persName ana="#alternate">Gaius Julius Caesar</persName>
+                  <birth>
+                     <date cert="unknown" notBefore="-0100-07-12" notAfter="-0100-07-13">12 or 13 July 100 B.C.</date>
+                  </birth>
+                  <death>
+                     <date when="-0044-03-15"/>
+                  </death>
+                  <note ana="#description">
+                     <p> General, statesman, and dictator of the Roman Republic. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Julius_Caesar"/>
+                  </bibl>
+               </person>
+               <person xml:id="donna_julia">
+                  <persName>Donna Julia</persName>
+                  <note ana="#description">
+                     <p> The inciting incident of Byron's epic, satirical poem <title level="m">Don Juan</title> is the titular character's affair with the married Donna Julia. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Don_Juan_(poem)"/>
+                  </bibl>
+               </person>
+               <person xml:id="congreve">
+                  <persName>Congreve, William</persName>
+                  <birth>
+                     <date when="1670-01-24"/>
+                  </birth>
+                  <death>
+                     <date when="1729-01-19"/>
+                  </death>
+                  <note ana="#description">
+                     <p> English playwright, satirist, and poet. Best known for his comedies, which were influential to the development of the comedy of manners. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/William_Congreve"/>
+                  </bibl>
+               </person>
+               <person xml:id="adeline">
+                  <persName>Lady Adeline Amundeville</persName>
+                  <note ana="#description">
+                     <p> In Byron's epic, satirical poem <title level="m">Don Juan</title>, Lady Adeline Amundeville and her husband host Don Juan at their estate. Lady Adeline becomes close to Don Juan and attempts to find a romantic match for him; her motives, though, are complicated and perhaps dubious. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Don_Juan_(poem)"/>
+                  </bibl>
+               </person>
+               <person xml:id="laclos">
+                  <persName>Pierre Ambroise François Choderlos de Laclos</persName>
+                  <birth>
+                     <date when="1741-10-18"/>
+                  </birth>
+                  <death>
+                     <date when="1803-09-05"/>
+                  </death>
+                  <note ana="#description">
+                     <p> French novelist, official, and army general best known for his novel <ref target="https://en.wikipedia.org/wiki/Les_Liaisons_dangereuses"><title level="m">Les Liaisons dangereuses</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Pierre_Choderlos_de_Laclos"/>
+                  </bibl>
+               </person>
+               <person xml:id="fielding">
+                  <persName>Fielding, Henry</persName>
+                  <birth>
+                     <date when="1707-04-22"/>
+                  </birth>
+                  <death>
+                     <date when="1754-10-08"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English novelist, playwright, and judge known for his use of humor and satire. Considered one of the founders of the traditional English novel. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Henry_Fielding"/>
+                  </bibl>
+               </person>
+               <person xml:id="don_juan">
+                  <persName>Don Juan</persName>
+                  <note ana="#description">
+                     <p> In Spanish folk legend, a notorious seducer of women. Byron's epic, satirical poem <ref target="https://en.wikipedia.org/wiki/Don_Juan_(poem)"><title level="m">Don Juan</title></ref> instead portrays a Don Juan who is repeatedly seduced by women. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Don_Juan"/>
+                  </bibl>
+               </person>
+               <person xml:id="belial">
+                  <persName>Belial</persName>
+                  <note ana="#description">
+                     <p> In the Hebrew Bible, a term referring to wickedness or worthlessness. Personified variously as a devil or a fallen angel in later texts. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Belial"/>
+                  </bibl>
+               </person>
+               <person xml:id="antaeus">
+                  <persName>Antaeus</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, the son of Poseidon and Gaia whose strength came from contact with the earth. Heracles defeated him by lifting him into the air and crushing him to death. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Antaeus"/>
+                  </bibl>
+               </person>
+               <person xml:id="aldrovandus">
+                  <persName>Aldrovandi, Ulisse</persName>
+                  <persName ana="#alternate">Aldrovandus</persName>
+                  <birth>
+                     <date when="1522-09-11"/>
+                  </birth>
+                  <death>
+                     <date when="1605-05-04"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An early Italian naturalist. Carl Linnaeus and Georges-Louis Leclerc, the Comte de Buffon, referred to him as the father of natural history studies. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Ulisse_Aldrovandi"/>
+                  </bibl>
+               </person>
    <!-- conclude Abby's additions to listPerson-->
             </listPerson>
