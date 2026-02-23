@@ -220,5 +220,14 @@
                   </bibl>
                </org>
    <!-- conclude entries moved from listPerson 2/6/26-->
+               <org xml:id="titans">
+                  <orgName>Titans</orgName>
+                  <note ana="#description">
+                     <p> In Greek mythology, the twelve titans were the offspring of Uranus and Gaia. Led by Cronos, they overthrew Uranus and ruled the cosmos until they were in turn overthrown by Zeus and the Olympians in a ten-year war. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Titans"/>
+                  </bibl>
+               </org>
    <!-- conclude Abby's additions to meta-listOrg.xml-->
             </listOrg>       
