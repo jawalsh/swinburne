@@ -1417,5 +1417,15 @@
                   <ptr target="https://en.wikipedia.org/wiki/Thebaid"/>
                </bibl>
             </place>
+            <place xml:id="missolonghi">
+               <placeName>Mesolongion</placeName>
+               <placeName ana="#alternate">Missolonghi</placeName>
+               <note ana="#description">
+                  <p> A town in western Greece the strategically important location of which made it the target of multiple sieges in the Greek War of Independence. Lord Byron died there of a fever in <date when="1824">1824</date>. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Missolonghi"/>
+               </bibl>
+            </place>
       <!-- end Abby's additions to listPlace-->
          </listPlace>
