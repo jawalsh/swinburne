@@ -229,5 +229,14 @@
                      <ptr target="https://en.wikipedia.org/wiki/Titans"/>
                   </bibl>
                </org>
+               <org xml:id="stuart_dynasty">
+                  <orgName>The House of Stuart</orgName>
+                  <note ana="#description">
+                     <p> The Stuart dynasty was a line of monarchs that ruled over Scotland from <date when="1371">1371</date> and England, Ireland, and Great Britain from <date when="1603">1603</date> until <date when="1714">1714</date>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/House_of_Stuart"/>
+                  </bibl>
+               </org>
    <!-- conclude Abby's additions to meta-listOrg.xml-->
             </listOrg>       
