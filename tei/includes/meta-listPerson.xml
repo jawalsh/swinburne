@@ -51,7 +51,7 @@
                      <date notBefore="-0525" notAfter="-0524">525-524 B.C.</date>
                   </birth>
                   <death>
-                     <date notBefore="-0465" notAfter="-0464">4655-464 B.C.</date>
+                     <date notBefore="-0465" notAfter="-0464">465-464 B.C.</date>
                   </death>
                   <note ana="#description">
                      <p> Athenian Tragic Dramatist. </p>
@@ -1069,8 +1069,11 @@
                      <date when="1821-02-23"/>
                   </death>
                   <note ana="#description">
-                     <p> English poet. </p>
+                     <p> English Romantic poet whose work strongly influenced the Pre-Raphaelite movement. </p>
                   </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/John_Keats"/>
+                  </bibl>
                </person>
                <person xml:id="king_arthur" ana="#person">
                   <persName>King, Arthur</persName>
@@ -1255,7 +1258,7 @@
                      <ptr target="http://en.wikipedia.org/wiki/Virgin_Mary"/>
                   </bibl>
                </person>
-               <person xml:id="stuart" ana="#person">
+               <person xml:id="stuart_mary" ana="#person">
                   <persName>Mary, Queen of Scots</persName>
                   <persName ana=" #alternate">Mary Stuart</persName>
                   <birth>
@@ -3148,7 +3151,7 @@
                      <p> A German polymath and writer. </p>
                   </note>
                   <bibl>
-                     <ptr target="https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe#cite_note-3"/>
+                     <ptr target="https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe"/>
                   </bibl>
                </person>
                <person xml:id="korner" ana="#person">
