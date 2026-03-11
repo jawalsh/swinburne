@@ -457,6 +457,19 @@
                </person>
                <person xml:id="byron" ana="#person">
                   <persName>Byron, George Gordon Byron, Baron</persName>
+                  <persName ana="#alternate">Lord Byron</persName>
+                  <birth>
+                     <date when="1788-01-22"/>
+                  </birth>
+                  <death>
+                     <date when="1824-04-19"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A major British Romantic poet. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Lord_Byron"/>
+                  </bibl>
                </person>
                <person xml:id="cadmus" ana="#person">
                   <persName>Cadmus</persName>
@@ -1233,8 +1246,8 @@
                <person xml:id="st_mary_magdalene" ana="#person">
                   <persName>Mary Magdalene, Saint</persName>
                   <note ana="#description">
-                     <p> One of the inner circle of followers of Jesus. She witnessed the
-                        crucifixtion and was one of the first witnesses of Jesus' resurrection.
+                     <p> One of the inner circle of followers of Jesus. She was present at his
+                        crucifixion and was one of the first witnesses of his resurrection.
                     </p>
                   </note>
                   <bibl>
@@ -3635,7 +3648,7 @@
                      <date cert="unknown" when="-0367">c. 367</date>
                   </death>
                   <note ana="#description">
-                     <p> A saint in the Catholic tradition. Sometimes called the <q>Hammer of the Arians</q> for his dedication to opposing Arianism in the West. </p>
+                     <p> A saint in the Catholic tradition. Sometimes called the <q>Hammer of the Arians</q> for his dedication to opposing Arianism in Western Europe. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Hilary_of_Poitiers"/>
@@ -3644,7 +3657,7 @@
                <person xml:id="pandora" ana="#person">
                   <persName>Pandora</persName>
                   <note ana="#description">
-                     <p>In Greek mythology, a human woman who opened a jar in which were contained all of humanity's evils. Rossetti produced a painting and multiple drawings of his muse, Jane Morris, styled as Pandora. </p>
+                     <p>In Greek mythology, a human woman who opened a jar in which were contained all of humanity's evils. Dante Gabriel Rossetti produced a painting and multiple drawings of his muse, Jane Morris, styled as Pandora. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Pandora"/>
@@ -3655,7 +3668,7 @@
                <person xml:id="cassandra" ana="#person">
                   <persName>Cassandra</persName>
                   <note ana="#description">
-                     <p> In Greek mythology, a prophetess of Apollo whose curse was that her prophecies, though true, would never be believed. Rossetti made a <ref target="https://www.britishmuseum.org/collection/object/P_1910-1210-4">drawing</ref> of Cassandra in <date when="1861">1861</date>. </p>
+                     <p> In Greek mythology, a prophetess of Apollo whose curse was that her prophecies, though true, would never be believed. Dante Gabriel Rossetti made a <ref target="https://www.britishmuseum.org/collection/object/P_1910-1210-4">drawing</ref> of Cassandra in <date when="1861">1861</date>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Cassandra"/>
@@ -3664,7 +3677,7 @@
                <person xml:id="ophelia" ana="#person">
                   <persName>Ophelia</persName>
                   <note ana="#description">
-                     <p> In Shakespeare's <ref target="https://en.wikipedia.org/wiki/Hamlet"><title level="m">Hamlet</title></ref>, she is driven to madness as a result of Hamlet's actions, ultimately drowning. Rossetti featured her in an <ref target="https://artuk.org/discover/artworks/the-first-madness-of-ophelia-244041">oil painting</ref> and multiple <ref target="https://commons.wikimedia.org/wiki/File:Dante_Gabriel_Rossetti_-_Ophelia.jpg">drawings</ref>. </p>
+                     <p> In Shakespeare's <ref target="https://en.wikipedia.org/wiki/Hamlet"><title level="m">Hamlet</title></ref>, she is driven to madness as a result of Hamlet's actions, ultimately drowning. Dante Gabriel Rossetti featured her in an <ref target="https://artuk.org/discover/artworks/the-first-madness-of-ophelia-244041">oil painting</ref> and multiple <ref target="https://commons.wikimedia.org/wiki/File:Dante_Gabriel_Rossetti_-_Ophelia.jpg">drawings</ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Ophelia"/>
@@ -3695,7 +3708,7 @@
                      <date notBefore="1283" notAfter="1286">between 1283 and 1286</date>
                   </death>
                   <note ana="#description">
-                     <p> An Italian noblewoman who had an affair with her husband's brother. Famously depicted alongside her lover, Paolo Malatesta, in the circle of hell reserved for the lustful in Dante Alighieri's <ref target="https://en.wikipedia.org/wiki/Inferno_(Dante)"><title level="m">Inferno</title></ref>. Rossetti made a <ref target="https://en.wikipedia.org/wiki/Paolo_and_Francesca_da_Rimini">watercolor</ref> inspired by that scene. </p>
+                     <p> An Italian noblewoman who had an affair with her husband's brother. Famously depicted alongside her lover, Paolo Malatesta, in the circle of hell reserved for the lustful in Dante Alighieri's <ref target="https://en.wikipedia.org/wiki/Inferno_(Dante)"><title level="m">Inferno</title></ref>. Dante Gabriel Rossetti made a <ref target="https://en.wikipedia.org/wiki/Paolo_and_Francesca_da_Rimini">watercolor</ref> painting inspired by that scene. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Francesca_da_Rimini"/>
