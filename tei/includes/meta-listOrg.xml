@@ -238,5 +238,14 @@
                      <ptr target="https://en.wikipedia.org/wiki/House_of_Stuart"/>
                   </bibl>
                </org>
+               <org xml:id="muses">
+                  <orgName>The Muses</orgName>
+                  <note ana="#description">
+                     <p> In Greek mythology, the goddesses of literature, science, and the arts, whose knowledge was seen to be the source of the ancient Greek literary tradition. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Muses"/>
+                  </bibl>
+               </org>
    <!-- conclude Abby's additions to meta-listOrg.xml-->
             </listOrg>       
