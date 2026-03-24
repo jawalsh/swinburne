@@ -5648,5 +5648,20 @@
                      <ptr target="https://en.wikipedia.org/wiki/Ulisse_Aldrovandi"/>
                   </bibl>
                </person>
+               <person xml:id="trench">
+                  <persName>Trench, Richard Chenevix</persName>
+                  <birth>
+                     <date when="1807-09-09"/>
+                  </birth>
+                  <death>
+                     <date when="1886-03-28"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Anglican archbishop and poet. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Richard_Chenevix_Trench"/>
+                  </bibl>
+               </person>
    <!-- conclude Abby's additions to listPerson-->
             </listPerson>
