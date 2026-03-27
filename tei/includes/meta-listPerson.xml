@@ -3383,7 +3383,7 @@
                      <date when="-0030-08-01"/>
                   </death>
                   <note ana="#description">
-                     <p> One of Julius Caesar's generals. In Shakespeare's <ref target="https://en.wikipedia.org/wiki/Julius_Caesar_(play)"><title level="m">Julius Caesar</title></ref>, he delivers the famous speech beginning, <quote>Friends, Romans, countrymen, lend me your ears</quote>, that turns the people against Caesar's assassins. </p>
+                     <p> One of Julius Caesar's generals. In Shakespeare's <ref target="https://en.wikipedia.org/wiki/Julius_Caesar_(play)"><title level="m">Julius Caesar</title></ref>, he delivers the famous speech beginning, "Friends, Romans, countrymen, lend me your ears," that turns the people against Caesar's assassins. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Mark_Antony"/>
@@ -5661,6 +5661,106 @@
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Richard_Chenevix_Trench"/>
+                  </bibl>
+               </person>
+               <person xml:id="hazlitt">
+                  <persName>Hazlitt, William</persName>
+                  <birth>
+                     <date when="1778-04-10"/>
+                  </birth>
+                  <death>
+                     <date when="1830-09-18"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English essayist and critic. Friends with such literary personages as Samuel Taylor Coleridge, William Wordsworth, and John Keats, among others. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/William_Hazlitt"/>
+                  </bibl>
+               </person>
+               <person xml:id="swedenborg">
+                  <persName>Swedenborg, Emanuel</persName>
+                  <persName ana="#alternate">Swedberg, Emanuel</persName>
+                  <birth>
+                     <date when="1688-01-29"/>
+                  </birth>
+                  <death>
+                     <date when="1772-03-29"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A Swedish polymath best known for his book on the afterlife, <ref target="https://en.wikipedia.org/wiki/Heaven_and_Hell_(Swedenborg_book)"><title level="m">Heaven and Hell</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Emanuel_Swedenborg"/>
+                  </bibl>
+               </person>
+               <person xml:id="alhadra">
+                  <persName>Alhadra</persName>
+                  <note ana="#description">
+                     <p> In Samuel Taylor Coleridge's <title level="m">Osorio</title>, a Moor who desires vengeance for the capture and imprisonment of her husband.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Osorio_(play)"/>
+                  </bibl>
+               </person>
+               <person xml:id="allsop">
+                  <persName>Allsop, Thomas</persName>
+                  <birth>
+                     <date when="1795-04-10"/>
+                  </birth>
+                  <death>
+                     <date when="1880-04-12"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English stockbroker, writer, and radical. A friend of Samuel Taylor Coleridge. Published <title level="m">Letters, Conversations, and Recollections of Samuel Taylor Coleridge</title> in 1836. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Thomas_Allsop"/>
+                  </bibl>
+               </person>
+               <person xml:id="orsini">
+                  <persName>Orsini, Felice</persName>
+                  <birth>
+                     <date when="1819-12-10"/>
+                  </birth>
+                  <death>
+                     <date when="1858-03-13"/>
+                  </death>
+                  <note ana="#description">
+                     <p> Leader of the Carbonari, a secret network of Italian revolutionary societies. Tried and failed to assassinate Napoleon III, the Emperor of France. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Felice_Orsini"/>
+                  </bibl>
+               </person>
+               <person xml:id="coleridge_hartley">
+                  <persName>Coleridge, Hartley</persName>
+                  <birth>
+                     <date when="1796-09-19"/>
+                  </birth>
+                  <death>
+                     <date when="1849-01-06"/>
+                  </death>
+                  <note ana="#description">
+                     <p> English poet, biographer, essayist, and teacher. The eldest son of Samuel Taylor Coleridge. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Hartley_Coleridge"/>
+                  </bibl>
+               </person>
+               <person xml:id="cottle">
+                  <persName>Cottle, Joseph</persName>
+                  <birth>
+                     <date when="1770"/>
+                  </birth>
+                  <death>
+                     <date when="1853"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English publisher and author who published the works of Samuel Taylor Coleridge and Robert Southey. Wrote <title level="m">Early Recollections, chiefly relating to Samuel Taylor Coleridge</title>, which came under heavy criticism. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Joseph_Cottle"/>
                   </bibl>
                </person>
    <!-- conclude Abby's additions to listPerson-->
