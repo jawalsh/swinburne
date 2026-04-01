@@ -5763,5 +5763,105 @@
                      <ptr target="https://en.wikipedia.org/wiki/Joseph_Cottle"/>
                   </bibl>
                </person>
+               <person xml:id="jonson_ben">
+                  <persName>Jonson, Benjamin</persName>
+                  <birth>
+                     <date cert="unknown" when="1572-06-11">c. June 11, 1572</date>
+                  </birth>
+                  <death>
+                     <date when="1637-08-18"/>
+                  </death>
+                  <note ana="#description">
+                     <p> English Renaissance poet and playwright who popularized the comedy of humors. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Ben_Jonson"/>
+                  </bibl>
+               </person>
+               <person xml:id="dekker">
+                  <persName>Dekker, Thomas</persName>
+                  <birth>
+                     <date when="1572" cert="unknown">c. 1572</date>
+                  </birth>
+                  <death>
+                     <date when="1632-08-25"/>
+                  </death>
+                  <note ana="#description">
+                     <p> English Elizabethan dramatist and pamphleteer. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Thomas_Dekker_(writer)"/>
+                  </bibl>
+               </person>
+               <person xml:id="giovanni">
+                  <persName>Giovanni</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">'Tis Pity She's a Whore</title>, he has an incestuous relationship with his sister. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/%27Tis_Pity_She%27s_a_Whore"/>
+                  </bibl>
+               </person>
+               <person xml:id="massinger">
+                  <persName>Massinger, Philip</persName>
+                  <birth>
+                     <date when="1583"/>
+                  </birth>
+                  <death>
+                     <date when="1640-03-17"/>
+                  </death>
+                  <note ana="#description">
+                     <p> English dramatist. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Philip_Massinger"/>
+                  </bibl>
+               </person>
+               <person xml:id="canace">
+                  <persName>Canace</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, she was in an incestuous relationship with her brother Macareus. Made famous by Euripides's tragedy <title level="m">Aeolus</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Canace"/>
+                  </bibl>
+               </person>
+               <person xml:id="myrrha">
+                  <persName>Myrrha</persName>
+                  <persName ana="#alternate">Smyrna</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, the mother of Adonis by her own father. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Myrrha"/>
+                  </bibl>
+               </person>
+               <person xml:id="bosola">
+                  <persName>Daniel de Bosola</persName>
+                  <note ana="#description">
+                     <p> In John Webster's <title level="m">The Duchess of Malfi</title>, he is hired by the Duchess's brothers to spy on her, but he ultimately turns against them. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Duchess_of_Malfi"/>
+                  </bibl>
+               </person>
+               <person xml:id="flamineo">
+                  <persName>Flamineo</persName>
+                  <note ana="#description">
+                     <p> In John Webster's <title level="m">The White Devil</title>, he plots to pair his sister, Vittoria Corombona, with the Duke of Brachiano, despite their both being already married. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_White_Devil"/>
+                  </bibl>
+               </person>
+               <person xml:id="vittoria_corombona">
+                  <persName>Vittoria Corombona</persName>
+                  <note ana="#description">
+                     <p> In John Webster's <title level="m">The White Devil</title>, she elopes with the Duke of Brachiano after the murder of her husband. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_White_Devil"/>
+                  </bibl>
+               </person>
    <!-- conclude Abby's additions to listPerson-->
             </listPerson>
