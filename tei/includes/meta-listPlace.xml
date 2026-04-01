@@ -1427,5 +1427,23 @@
                   <ptr target="https://en.wikipedia.org/wiki/Missolonghi"/>
                </bibl>
             </place>
+            <place xml:id="lac_de_gaube">
+               <geogName>Lac de Gaube</geogName>
+               <note ana="#description">
+                  <p> A lake in the French Pyrenees near the town of Cauterets. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Gaube_Lake"/>
+               </bibl>
+            </place>
+            <place xml:id="cauterets">
+               <placeName>Cauterets</placeName>
+               <note ana="#description">
+                  <p> A town in the Occitanie region in southwestern France. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Cauterets"/>
+               </bibl>
+            </place>
       <!-- end Abby's additions to listPlace-->
          </listPlace>
