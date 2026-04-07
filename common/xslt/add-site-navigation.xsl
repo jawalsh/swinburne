@@ -687,6 +687,19 @@ Code repository: <a href="https://github.com/jawalsh/swinburne">jawalsh/swinburn
       <xsl:apply-templates/>
     </p>
   </xsl:template>
+  <xsl:template match="tei:note[@ana = '#description']//tei:title">
+    <cite><xsl:apply-templates/></cite>
+  </xsl:template>
+  <xsl:template match="tei:note[@ana = '#description']//tei:ref[@target]">
+    <xsl:choose>
+      <xsl:when test="starts-with(@target, 'https://') or starts-with(@target, 'http://')">
+        <a href="{@target}"><xsl:apply-templates/></a>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
   <xsl:template match="tei:bibl/tei:ptr">
     <p>
       <a href="{@target}">
