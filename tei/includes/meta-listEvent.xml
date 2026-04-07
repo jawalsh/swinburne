@@ -30,7 +30,7 @@
                </event>
                <event xml:id="evt_candia_insurrection" ana="#event">
                   <eventName>Insurrection in Candia</eventName>
-                  <note ana="description">
+                  <note ana="#description">
                      <p> The largest of series of Cretan Christian uprisings against the Ottoman
                         Empire that last from <date>1866-1869</date>. </p>
                   </note>

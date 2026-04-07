@@ -79,7 +79,7 @@
                </place>
                <place xml:id="athens" ana="#place">
                   <placeName>Athens</placeName>
-                  <note ana="#place">
+                  <note ana="#description">
                      <p> Captal of Greece. An important cultural center in ancient Greece, home
                         of Plato's Academy, and bithplace of Socrates and Sophocles. </p>
                   </note>
@@ -119,7 +119,7 @@
                <place xml:id="crete" ana="#place">
                   <placeName> Crete </placeName>
                   <placeName ana=" #alternate">Candia</placeName>
-                  <note ana="#place">
+                  <note ana="#description">
                      <p> Largest of the Greek islands. Site of the first European civilization
                         and later part of the Roman, Byzantine, and Ottoman Empire. </p>
                   </note>
@@ -966,9 +966,9 @@
                </place>
                <place xml:id="agned" corresp="#agned" ana="#geographicFeature">
                   <geogName>Agned</geogName>
-                  <note>
-				A mountain, the site of Arthur's eleventh victory over the Saxons. 
-			</note>
+                  <note ana="#description">
+                     <p> A mountain, the site of Arthur's eleventh victory over the Saxons. </p>
+		</note>
                   <ptr target="https://pantheon.org/articles/a/agned.html" ana="occurrenceTypes.xtm#article"/>
                </place>
                <place xml:id="amesbury" corresp="#amesbury" ana="#place">

@@ -2111,9 +2111,9 @@
                </person>
                <person xml:id="aneirin" corresp="#aneirin" ana="people.xtm#poet">
                   <persName>Aneirin</persName>
-                  <note>
-				Early Welsh poet who mentions Arthur in his work. 
-			</note>
+                  <note ana="#description">
+                     <p> Early Welsh poet who mentions Arthur in his work. </p>
+                  </note>
                   <ptr target="https://pantheon.org/articles/a/aneirin.html" ana="occurrenceTypes.xtm#article"/>
                </person>
                <person xml:id="anfortas" corresp="#anfortas" ana="#arthurianFigure">
@@ -2821,7 +2821,7 @@
                   <death>
                      <date when="1289"/>
                   </death>
-                  <note>
+                  <note ana="#description">
                      <p> A traitorous Italian nobleman made famous by his depiction in <persName>Dante</persName>'s <title level="m">Inferno</title>. </p>
                   </note>
                   <bibl>
@@ -2966,7 +2966,7 @@
                   <death>
                      <date when="-0055-10-15"/>
                   </death>
-                  <note><p> A Roman poet and author of <ref target="https://en.wikipedia.org/wiki/De_rerum_natura"><title level="m">De rerum natura</title></ref>. </p>
+                  <note ana="#description"><p> A Roman poet and author of <ref target="https://en.wikipedia.org/wiki/De_rerum_natura"><title level="m">De rerum natura</title></ref>. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Lucretius"/>
@@ -2998,7 +2998,7 @@
                </person>
                <person xml:id="iphigenia" ana="#person">
                   <persName>Iphigenia</persName>
-                  <note>
+                  <note ana="#description">
                      <p> The daughter of Agamemnon, King of Mycenae, in Greek mythology. When Artemis prevents Agamemnon from coming to aid his allies in the Trojan War, he offers up Iphigenia as a human sacrifice. </p>
                   </note>
                   <bibl>
@@ -3007,7 +3007,7 @@
                </person>
                <person xml:id="clytemnestra" ana="#person">
                   <persName>Clytemnestra</persName>
-                  <note>
+                  <note ana="#description">
                      <p> In Aeschylus's <title level="m">Oresteia</title>, the Queen of Mycenae who murders her husband, Agamemnon, and is in turn murdered by her son, Orestes. She is Iphigenia's mother. </p>
                   </note>
                   <bibl>
@@ -4137,7 +4137,7 @@
                   <death>
                      <date when="0180" cert="unknown">c. 180</date>
                   </death>
-                  <note ana="#descrtiption">
+                  <note ana="#description">
                      <p> A Greek traveler and geographer who sought to memorialize in writing "all things Greek" in his <ref target="https://en.wikipedia.org/wiki/Description_of_Greece"><title level="m">Description of Greece</title></ref>. </p>
                   </note>
                   <bibl>
