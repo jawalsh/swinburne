@@ -5796,7 +5796,7 @@
                <person xml:id="giovanni">
                   <persName>Giovanni</persName>
                   <note ana="#description">
-                     <p> In John Ford's <title level="m">'Tis Pity She's a Whore</title>, he has an incestuous relationship with his sister. </p>
+                     <p> In John Ford's <title level="m">'Tis Pity She's a Whore</title>, he has an incestuous relationship with his sister, Annabella. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/%27Tis_Pity_She%27s_a_Whore"/>
@@ -5861,6 +5861,158 @@
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/The_White_Devil"/>
+                  </bibl>
+               </person>
+               <person xml:id="romelio">
+                  <persName>Romelio</persName>
+                  <note ana="#description">
+                     <p> In John Webster's <title level="m">The Devil's Law Case</title>, Romelio is a wealthy and arrogant merchant. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Devil%27s_Law_Case"/>
+                  </bibl>
+               </person>
+               <person xml:id="leonora">
+                  <persName>Leonora</persName>
+                  <note ana="#description">
+                     <p> In John Webster's <title level="m">The Devil's Law Case</title>, she is the mother of Romelio and Jolenta and plots to ruin her son. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Devil%27s_Law_Case"/>
+                  </bibl>
+               </person>
+               <person xml:id="annabella">
+                  <persName>Annabella</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">'Tis Pity She's a Whore</title>, she has an incestuous relationship with her brother, Giovanni. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/%27Tis_Pity_She%27s_a_Whore"/>
+                  </bibl>
+               </person>
+               <person xml:id="soranzo">
+                  <persName>Soranzo</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">'Tis Pity She's a Whore</title>, one of Annabella's suitors. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/%27Tis_Pity_She%27s_a_Whore"/>
+                  </bibl>
+               </person>
+               <person xml:id="taine">
+                  <persName>Taine, Hippolyte</persName>
+                  <birth>
+                     <date when="1828-04-21"/>
+                  </birth>
+                  <death>
+                     <date when="1893-03-05"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French historian, critic, and philosopher associated with literary historicism. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Hippolyte_Taine"/>
+                  </bibl>
+               </person>
+               <person xml:id="calantha">
+                  <persName>Calantha</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">The Broken Heart</title>, she is the daughter of the King of Sparta. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Broken_Heart"/>
+                  </bibl>
+               </person>
+               <person xml:id="penthea">
+                  <persName>Penthea</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">The Broken Heart</title>, she starves herself to death after being forced into a tyrannical marriage by her brother. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Broken_Heart"/>
+                  </bibl>
+               </person>
+               <person xml:id="tourneur">
+                  <persName>Tourneur, Cyril</persName>
+                  <death>
+                     <date when="1626-02-28"/>
+                  </death>
+                  <note ana="#description">
+                     <p> English soldier, diplomat, and dramatist. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Cyril_Tourneur"/>
+                  </bibl>
+               </person>
+               <person xml:id="middleton">
+                  <persName>Middleton, Thomas</persName>
+                  <birth>
+                     <date when="1580-04-18" cert="unknown"/>
+                  </birth>
+                  <death>
+                     <date when="1627-07"/>
+                  </death>
+                  <note ana="#description">
+                     <p> Prolific English playwright and poet of the Jacobean period.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Thomas_Middleton"/>
+                  </bibl>
+               </person>
+               <person xml:id="drayton">
+                  <persName>Drayton, Michael</persName>
+                  <birth>
+                     <date when="1563"/>
+                  </birth>
+                  <death>
+                     <date when="1631-12-23"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English poet whose works included historical poetry and odes in the style of <persName>Horace</persName>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Michael_Drayton"/>
+                  </bibl>
+               </person>
+               <person xml:id="cynthio">
+                  <persName>Giraldi, Giovanni Battista</persName>
+                  <persName ana="#alternate">Cynthio</persName>
+                  <persName ana="#alternate">Cynzio</persName>
+                  <birth>
+                     <date when="1504-11"/>
+                  </birth>
+                  <death>
+                     <date when="1573-12-30"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian novelist and poet. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Giovanni_Battista_Giraldi"/>
+                  </bibl>
+               </person>
+               <person xml:id="bandello">
+                  <persName>Bandello, Matteo</persName>
+                  <birth>
+                     <date when="1480" cert="unknown">c.1480</date>
+                  </birth>
+                  <death>
+                     <date when="1562"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian writer and Dominican friar and bishop best known for his novellas. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Matteo_Bandello"/>
+                  </bibl>
+               </person>
+               <person xml:id="ithocles">
+                  <persName>Ithocles</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">The Broken Heart</title>, a prideful Spartan general whose forcing of his sister into an unwanted marriage with a nobleman leads to his downfall. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Broken_Heart"/>
                   </bibl>
                </person>
    <!-- conclude Abby's additions to listPerson-->
