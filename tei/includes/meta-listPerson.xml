@@ -6015,5 +6015,161 @@
                      <ptr target="https://en.wikipedia.org/wiki/The_Broken_Heart"/>
                   </bibl>
                </person>
+               <person xml:id="orgilus">
+                  <persName>Orgilus</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">The Broken Heart</title>, he plots vengeance against Ithocles for thwarting his intended marriage to Penthea. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Broken_Heart"/>
+                  </bibl>
+               </person>
+               <person xml:id="bassanes">
+                  <persName>Bassanes</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">The Broken Heart</title>, the tyrannical husband of Penthea who keeps her imprisoned. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Broken_Heart"/>
+                  </bibl>
+               </person>
+               <person xml:id="vasques">
+                  <persName>Vasques</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">'Tis Pity She's a Whore</title>, one of Soranzo's servants who conspires against him with Hippolita. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/%27Tis_Pity_She%27s_a_Whore"/>
+                  </bibl>
+               </person>
+               <person xml:id="grimaldi">
+                  <persName>Grimaldi</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">'Tis Pity She's a Whore</title>, one of Annabella's suitors. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/%27Tis_Pity_She%27s_a_Whore"/>
+                  </bibl>
+               </person>
+               <person xml:id="beaumont">
+                  <persName>Beaumont, Francis</persName>
+                  <birth>
+                     <date when="1584"/>
+                  </birth>
+                  <death>
+                     <date when="1616-03-06"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A dramatist of the English Renaissance who collaborated with <persName>John Fletcher</persName>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Francis_Beaumont"/>
+                  </bibl>
+               </person>
+               <person xml:id="marston">
+                  <persName>Marston, John</persName>
+                  <birth>
+                     <date cert="unknown" when="1576-10-06">c.1576</date>
+                  </birth>
+                  <death>
+                     <date when="1634-06-25"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English poet, playwright, and satirist of the Elizabethan and early Jacobean periods. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/John_Marston_(playwright)"/>
+                  </bibl>
+               </person>
+               <person xml:id="fernando">
+                  <persName>Fernando</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">Love's Sacrifice</title>, he develops feelings for a woman married to his friend. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Love%27s_Sacrifice"/>
+                  </bibl>
+               </person>
+               <person xml:id="bianca">
+                  <persName>Bianca</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">Love's Sacrifice</title>, she develops feelings for Fernando, a close friend of her husband. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Love%27s_Sacrifice"/>
+                  </bibl>
+               </person>
+               <person xml:id="gifford">
+                  <persName>Gifford, William</persName>
+                  <birth>
+                     <date when="1756-04"/>
+                  </birth>
+                  <death>
+                     <date when="1826-12-31"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English critic, editor, and poet whose works were often contentious. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/William_Gifford"/>
+                  </bibl>
+               </person>
+               <person xml:id="cloacina">
+                  <persName>Cloacina</persName>
+                  <note ana="#description">
+                     <p> In Roman mythology, the goddess who presided over Rome's main sewer system. Associated with, and sometimes amended as an epithet to, the goddess Venus. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Cloacina"/>
+                  </bibl>
+               </person>
+               <person xml:id="moore_edward">
+                  <persName>Moore, Edward</persName>
+                  <birth>
+                     <date when="1712-03-22"/>
+                  </birth>
+                  <death>
+                     <date when="1757-03-01"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English dramatist and poet. Best known for his tragedy <title level="m">The Gamester</title>. </p>
+                  </note>
+               </person>
+               <person xml:id="cupid">
+                  <persName>Cupid</persName>
+                  <note ana="#description">
+                     <p> In Roman mythology, the god of desire, erotic love, attraction, and affection. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Cupid"/>
+                  </bibl>
+               </person>
+               <person xml:id="belgarde">
+                  <persName>Belgarde</persName>
+                  <note ana="#description">
+                     <p> In Philip Massinger's <title level="m">The Unnatural Combat</title>, Belgarde is a captain who provides comic relief and social commentary. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Unnatural_Combat"/>
+                  </bibl>
+               </person>
+               <person xml:id="justice_greedy">
+                  <persName>Justice Greedy</persName>
+                  <note ana="#description">
+                     <p> In Philip Massinger's <title level="m">A New Way to Pay Old Debts</title>, Greedy is a gluttonous justice of the peace who provides comic relief. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/A_New_Way_to_Pay_Old_Debts"/>
+                  </bibl>
+               </person>
+               <person xml:id="borachia">
+                  <persName>Borachia</persName>
+                  <note ana="#description">
+                     <p> In <title level="m">A Very Woman, or The Prince of Tarent</title>, by John Ford and Philip Massinger, Borachia is the alcoholic wife of a court functionary and a source of comic relief. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/A_Very_Woman"/>
+                  </bibl>
+               </person>
    <!-- conclude Abby's additions to listPerson-->
             </listPerson>
