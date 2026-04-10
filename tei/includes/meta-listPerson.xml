@@ -6165,10 +6165,240 @@
                <person xml:id="borachia">
                   <persName>Borachia</persName>
                   <note ana="#description">
-                     <p> In <title level="m">A Very Woman, or The Prince of Tarent</title>, by John Ford and Philip Massinger, Borachia is the alcoholic wife of a court functionary and a source of comic relief. </p>
+                     <p> In <title level="m">A Very Woman, or The Prince of Tarent</title>, by John Fletcher and Philip Massinger, Borachia is the alcoholic wife of a court functionary and a source of comic relief. </p>
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/A_Very_Woman"/>
+                  </bibl>
+               </person>
+               <person xml:id="macaulay">
+                  <persName>Macaulay, Thomas Babington, 1st Baron Macaulay</persName>
+                  <birth>
+                     <date when="1800-10-25"/>
+                  </birth>
+                  <death>
+                     <date when="1859-12-29"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A British historian, essayist, poet, and Whig politician. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Thomas_Babington_Macaulay"/>
+                  </bibl>
+               </person>
+               <person xml:id="warbeck">
+                  <persName>Warbeck, Perkin</persName>
+                  <birth>
+                     <date when="1474" cert="unknown">c.1474</date>
+                  </birth>
+                  <death>
+                     <date when="1499-11-23"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A pretender to the English throne during the reign of <persName>Henry VII</persName>. The subject of a play by <persName>John Ford</persName>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Perkin_Warbeck"/>
+                  </bibl>
+               </person>
+               <person xml:id="dalyell">
+                  <persName>Lord Dalyell</persName>
+                  <note ana="#description">
+                     <p> One of the Scots in <persName>John Ford</persName>'s play <title level="m">Perkin Warbeck</title>. s</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Perkin_Warbeck_(play)"/>
+                  </bibl>
+               </person>
+               <person xml:id="catherine_gordon">
+                  <persName>Lady Catherine Gordon</persName>
+                  <birth>
+                     <date when="1474" cert="unknown">c.1474</date>
+                  </birth>
+                  <death>
+                     <date when="1537-10"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A Scottish noblewoman and the wife of <persName>Perkin Warbeck</persName>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Elizabeth_of_York"/>
+                  </bibl>
+               </person>
+               <person xml:id="henry_vii">
+                  <persName>Henry VII of England</persName>
+                  <persName ana="#alternate">Henry Tudor</persName>
+                  <birth>
+                     <date when="1457-01-28"/>
+                  </birth>
+                  <death>
+                     <date when="1509-04-21"/>
+                  </death>
+                  <note ana="#description">
+                     <p> The first monarch of the House of Tudor, he claimed the English throne in battle from Richard III and brought an end to the War of the Roses. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Henry_VII_of_England"/>
+                  </bibl>
+               </person>
+               <person xml:id="van_artevelde">
+                  <persName>Van Artevelde, Philip</persName>
+                  <birth>
+                     <date when="1340" cert="unknown">c.1340</date>
+                  </birth>
+                  <death>
+                     <date when="1382-11-27"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A Flemish patriot and one of the leaders of the Revolt of Ghent. Commemorated in a tragic play by <persName>Sir Henry Taylor</persName>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Philip_van_Artevelde"/>
+                  </bibl>
+               </person>
+               <person xml:id="komnenos_isaac_i">
+                  <persName>Isaac I Komnenos</persName>
+                  <persName ana="#alternate">Comnenus</persName>
+                  <birth>
+                     <date when="1007" cert="unknown">c.1007</date>
+                  </birth>
+                  <death>
+                     <date when="1060-06-01"/>
+                  </death>
+                  <note ana="#description">
+                     <p> Byzantine emperor <date from="1057" to="1059">from 1057 to 1059</date>. The first reigning member of the Komnenian Dynasty. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Isaac_I_Komnenos"/>
+                  </bibl>
+               </person>
+               <person xml:id="dunstan">
+                  <persName>Saint Dunstan</persName>
+                  <birth>
+                     <date when="0909" cert="unknown">c.909</date>
+                  </birth>
+                  <death>
+                     <date when="0988-05-19"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English Benedictine monk who was successively the Abbot of Glastonbury Abbey, Bishop of Worcester, Bishop of London, and Archbishop of Canterbury. He advised several English kings as a minister of state. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Dunstan"/>
+                  </bibl>
+               </person>
+               <person xml:id="palador">
+                  <persName>Palador</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">The Lover's Melancholy</title>, Palador is the titular lover whose melancholy arises due to his separation from his beloved, <persName>Eroclea</persName>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Lover%27s_Melancholy"/>
+                  </bibl>
+               </person>
+               <person xml:id="eroclea">
+                  <persName>Eroclea</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">The Lover's Melancholy</title>, she disguises herself as a man, <persName>Parthenophill</persName>, in order to return to the court of her beloved, <persName>Palador</persName>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Lover%27s_Melancholy"/>
+                  </bibl>
+               </person>
+               <person xml:id="meleander">
+                  <persName>Meleander</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">The Lover's Melancholy</title>, he is a nobleman of Cyprus. He sends his daughter, <persName>Eroclea</persName>, away in order to protect her from the advances of the ruler of Cyprus and subsequently falls into depression until her return. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Lover%27s_Melancholy"/>
+                  </bibl>
+               </person>
+               <person xml:id="thamasta">
+                  <persName>Thamasta</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">The Lover's Melancholy</title>, Thamasta is <persName>Palador</persName>'s haughty cousin who falls in love with <persName>Parthenophill</persName> under the mistaken impression that she is a man. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Lover%27s_Melancholy"/>
+                  </bibl>
+               </person>
+               <person xml:id="crashaw">
+                  <persName>Crashaw, Richard</persName>
+                  <birth>
+                     <date when="1613" cert="unknown">c.1613</date>
+                  </birth>
+                  <death>
+                     <date when="1649-08-21"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A 17th-century English metaphysical poet and Anglican cleric who converted to Roman Catholicism. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Richard_Crashaw"/>
+                  </bibl>
+               </person>
+               <person xml:id="flavia">
+                  <persName>Flavia</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">The Fancies Chaste and Noble</title>, she is sold to another man by her first husband but acts honorably towards her new husband. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Fancies_Chaste_and_Noble"/>
+                  </bibl>
+               </person>
+               <person xml:id="castamela">
+                  <persName>Castamela</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">The Fancies Chaste and Noble</title>, she seems to be the target of the attentions of both Octavio and Troylo-Savelli. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Fancies_Chaste_and_Noble"/>
+                  </bibl>
+               </person>
+               <person xml:id="livio">
+                  <persName>Livio</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">The Fancies Chaste and Noble</title>, Livio is Castamela's brother. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Fancies_Chaste_and_Noble"/>
+                  </bibl>
+               </person>
+               <person xml:id="romanello">
+                  <persName>Romanello</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">The Fancies Chaste and Noble</title>, he is Castamela's suitor and Flavia's brother. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Fancies_Chaste_and_Noble"/>
+                  </bibl>
+               </person>
+               <person xml:id="auria">
+                  <persName>Auria</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">The Lady's Trial</title>, Auria is a Genoan aristocrat whose marriage to the lowly-born but virtuous <persName>Spinella</persName> is vindicated by her honorable conduct. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Lady%27s_Trial"/>
+                  </bibl>
+               </person>
+               <person xml:id="adurni">
+                  <persName>Adurni</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">The Lady's Trial</title>, he attempts to seduce <persName>Spinella</persName>, is rebuffed, and repents. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Lady%27s_Trial"/>
+                  </bibl>
+               </person>
+               <person xml:id="hippolita">
+                  <persName>Hippolita</persName>
+                  <note ana="#description">
+                     <p> In John Ford's <title level="m">'Tis Pity She's a Whore</title>, a former lover of <persName>Soranzo</persName> who conspires against him with <persName>Vasques</persName>.</p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/%27Tis_Pity_She%27s_a_Whore"/>
                   </bibl>
                </person>
    <!-- conclude Abby's additions to listPerson-->
