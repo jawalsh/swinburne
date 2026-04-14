@@ -1055,9 +1055,9 @@
                </person>
                <person xml:id="julian" ana="#person">
                   <persName>Julian</persName>
-                  <persName ana=" #alternate">Flavius Claudius Julianus Augustus</persName>
-                  <persName ana=" #alternate">Julian the Apostate</persName>
-                  <persName ana=" #alternate">Julian the Philosopher</persName>
+                  <persName ana="#alternate">Flavius Claudius Julianus Augustus</persName>
+                  <persName ana="#alternate">Julian the Apostate</persName>
+                  <persName ana="#alternate">Julian the Philosopher</persName>
                   <birth>
                      <date notBefore="0331" notAfter="0332">about 331</date>
                   </birth>
@@ -6399,6 +6399,197 @@
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/%27Tis_Pity_She%27s_a_Whore"/>
+                  </bibl>
+               </person>
+               <person xml:id="raybright">
+                  <persName>Raybright</persName>
+                  <note ana="#description">
+                     <p> The protagonist of <title level="m">The Sun's Darling</title>, a masque written by <persName>John Ford</persName> and <persName>Thomas Dekker</persName>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Sun%27s_Darling"/>
+                  </bibl>
+               </person>
+               <person xml:id="sidonia">
+                  <persName>Sidonia von Borcke</persName>
+                  <birth>
+                     <date when="1548"/>
+                  </birth>
+                  <death>
+                     <date when="1620"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A Pomeranian noblewoman who was accused of, tried, and executed for witchcraft. Her death became a legend in literature. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Sidonia_von_Borcke"/>
+                  </bibl>
+               </person>
+               <person xml:id="meinhold">
+                  <persName>Meinhold, Johannes Wilhelm</persName>
+                  <birth>
+                     <date when="1797-02-27"/>
+                  </birth>
+                  <death>
+                     <date when="1851-11-30"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A Pomeranian priest and author. He wrote the Gothic romance novel <title level="m">Sidonia von Bork, die Klosterhexe</title>, which was translated into English as <title level="m">Sidonia the Sorceress</title>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Wilhelm_Meinhold"/>
+                  </bibl>
+               </person>
+               <person xml:id="mother_sawyer">
+                  <persName>Mother Sawyer</persName>
+                  <note ana="#description">
+                     <p> In <title level="m">The Witch of Edmonton</title>, a play by <persName>William Rowley</persName>, <persName>Thomas Dekker</persName>, and <persName>John Ford</persName>, <persName>Mother Sawyer</persName> is an ostracized, elderly woman who makes a deal with the devil to get revenge on her terrible neighbors. Loosely based on the real-life story of <ref target="https://en.wikipedia.org/wiki/Elizabeth_Sawyer"><persName>Elizabeth Sawyer</persName></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Witch_of_Edmonton"/>
+                  </bibl>
+               </person>
+               <person xml:id="frank_thorney">
+                  <persName>Thorney, Frank</persName>
+                  <note ana="#description">
+                     <p> In <title level="m">The Witch of Edmonton</title>, a play by <persName>William Rowley</persName>, <persName>Thomas Dekker</persName>, and <persName>John Ford</persName>, Frank is a farmer's son who is secretly married to Winnifride. His father coerces him into marrying another woman, whom, at the devil's prompting, Frank murders. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Witch_of_Edmonton"/>
+                  </bibl>
+               </person>
+               <person xml:id="winnifride">
+                  <persName>Winnifride</persName>
+                  <note ana="#description">
+                     <p> In <title level="m">The Witch of Edmonton</title>, a play by <persName>William Rowley</persName>, <persName>Thomas Dekker</persName>, and <persName>John Ford</persName>, Winnifride is secretly married to Frank but is pregnant with the child of Sir Arthur Clarington. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Witch_of_Edmonton"/>
+                  </bibl>
+               </person>
+               <person xml:id="susan_carter">
+                  <persName>Carter, Susan</persName>
+                  <note ana="#description">
+                     <p> In <title level="m">The Witch of Edmonton</title>, a play by <persName>William Rowley</persName>, <persName>Thomas Dekker</persName>, and <persName>John Ford</persName>, Susan is Frank's second wife. She follows him when he runs away with his first wife, and he murders her. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/The_Witch_of_Edmonton"/>
+                  </bibl>
+               </person>
+               <person xml:id="raleigh">
+                  <persName>Sir Walter Raleigh</persName>
+                  <birth>
+                     <date when="1553" cert="unknown">c.1553</date>
+                  </birth>
+                  <death>
+                     <date when="1618-10-29"/>
+                  </death>
+                  <note ana="#description">
+                     <p> English statesman, soldier, writer, and explorer who assisted with the colonization of America, the suppression of the rebellion in Ireland, and the defense of England against the Spanish Armada. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Walter_Raleigh"/>
+                  </bibl>
+               </person>
+               <person xml:id="james_vi">
+                  <persName>James VI, King of Scotland</persName>
+                  <persName ana="#alternate">James I, King of England and Ireland</persName>
+                  <birth>
+                     <date when="1566-06-19"/>
+                  </birth>
+                  <death>
+                     <date when="1625-03-27"/>
+                  </death>
+                  <note ana="#description">
+                     <p> Successor to the thrones of Scotland, England, and Ireland, he presided over the Union of the Crowns in <date when="1603">1603</date> and reigned over all three kingdoms until his death in <date when="1625">1625</date>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/James_VI_and_I"/>
+                  </bibl>
+               </person>
+               <person xml:id="chamfort">
+                  <persName>Chamfort, Nicolas</persName>
+                  <persName ana="#alternate">Sébastien-Roch Nicolas</persName>
+                  <birth>
+                     <date when="1741-04-06"/>
+                  </birth>
+                  <death>
+                     <date when="1794-04-13"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A French writer best known for his epigrams and aphorisms. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Nicolas_Chamfort"/>
+                  </bibl>
+               </person>
+               <person xml:id="python">
+                  <persName>Python</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, the serpent who lived at the center of the earth at Delphi. The god <persName>Apollo</persName> slew <persName>Python</persName> in order to establish his own temple at Delphi. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Python_(mythology)"/>
+                  </bibl>
+               </person>
+               <person xml:id="andrugio">
+                  <persName>Andrugio</persName>
+                  <note ana="#description">
+                     <p> In <persName>John Marston</persName>'s <title level="m">Antonio and Mellida</title>, Andrugio is the Duke of Genoa and <persName>Antonio</persName>'s father. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Antonio_and_Mellida"/>
+                  </bibl>
+               </person>
+               <person xml:id="heywood">
+                  <persName>Heywood, Thomas</persName>
+                  <birth>
+                     <date notBefore="1570" notAfter="1575">early 1570s</date>
+                  </birth>
+                  <death>
+                     <date when="1641-08-16"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An English playwright, author, and actor of the late Elizabethan and early Jacobean eras. Best known for the domestic tragedy <ref target="https://en.wikipedia.org/wiki/A_Woman_Killed_with_Kindness"><title level="m">A Woman Killed with Kindness</title></ref>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Thomas_Heywood"/>
+                  </bibl>
+               </person>
+               <person xml:id="gloucester">
+                  <persName>Earl of Gloucester</persName>
+                  <note ana="#description">
+                     <p> In Shakespeare's <title level="m">King Lear</title>, he is loyal to the titular king. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/King_Lear"/>
+                  </bibl>
+               </person>
+               <person xml:id="regan">
+                  <persName>Regan</persName>
+                  <note ana="#description">
+                     <p> In Shakespeare's <title level="m">King Lear</title>, she and her sister, <persName>Goneril</persName>, conspire first against their father, the titular king, and then against each other. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/King_Lear"/>
+                  </bibl>
+               </person>
+               <person xml:id="edmund">
+                  <persName>Edmund</persName>
+                  <note ana="#description">
+                     <p> In Shakespeare's <title level="m">King Lear</title>, Edmund is the illegitimate son of the <persName>Earl of Glocester</persName>. He plots to supplant his legitimate brother, <persName>Edgar</persName>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/King_Lear"/>
+                  </bibl>
+               </person>
+               <person xml:id="dioscuri">
+                  <persName>Castor and Pollux, or, the Dioscuri</persName>
+                  <note ana="#description">
+                     <p> In Greek and Roman mythology, the twin sons of <persName>Leda</persName>. <persName>Castor</persName>'s father was the mortal <persName>Tyndareus</persName>, while <persName>Pollux</persName>'s father was the god <persName>Zeus</persName>. <persName>Pollux</persName> asked <persName>Zeus</persName> if he could share his immortality with his brother so that they could stay together. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Castor_and_Pollux"/>
                   </bibl>
                </person>
    <!-- conclude Abby's additions to listPerson-->
