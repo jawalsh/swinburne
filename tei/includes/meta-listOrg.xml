@@ -247,5 +247,41 @@
                      <ptr target="https://en.wikipedia.org/wiki/Muses"/>
                   </bibl>
                </org>
+               <org xml:id="casa_buonarroti">
+                  <orgName>Casa Buonarroti</orgName>
+                  <note ana="#description">
+                     <p> A museum in <placeName>Florence</placeName> situated on property owned by <persName>Michelangelo</persName> and housing various works of his art, letters, and the family archive. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Casa_Buonarroti"/>
+                  </bibl>
+               </org>
+               <org xml:id="palazzo_corsini">
+                  <orgName>Palazzo Corsini</orgName>
+                  <note ana="#description">
+                     <p> A late baroque palace in Rome built for the Corsini family between <date from="1730">1730</date> and <date to="1740">1740</date>. The first floor of the palace houses the <foreign xml:lang="it">Galleria Nazionale d'Arte Antica di Palazzo Corsini</foreign>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Palazzo_Corsini,_Rome"/>
+                  </bibl>
+               </org>
+               <org xml:id="magi">
+                  <orgName>The Magi</orgName>
+                  <note ana="#description">
+                     <p> In Christian traditions, the Magi are three men from the east who traveled, bearing gifts, to visit Christ after his birth. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Biblical_Magi"/>
+                  </bibl>
+               </org>
+               <org xml:id="pitti">
+                  <orgName>Palazzo Pitti</orgName>
+                  <note ana="#description">
+                     <p> A primarily Renaissance palace in Florence, Italy, that served as a treasure house for centuries and today is the largest museum complex in Florence. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Palazzo_Pitti"/>
+                  </bibl>
+               </org>
    <!-- conclude Abby's additions to meta-listOrg.xml-->
             </listOrg>       
