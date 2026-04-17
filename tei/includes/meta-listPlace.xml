@@ -1445,5 +1445,51 @@
                   <ptr target="https://en.wikipedia.org/wiki/Cauterets"/>
                </bibl>
             </place>
+            <place xml:id="milan">
+               <placeName>Milan</placeName>
+               <note ana="#description">
+                  <p> The regional capital of Lombardy, in northern Italy, and a major Italian center for architecture and art history. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Milan"/>
+               </bibl>
+            </place>
+            <place xml:id="prato">
+               <placeName>Prato</placeName>
+               <note ana="#description">
+                  <p> A city and municipality in Tuscany, Italy, that boasts connections to such Renaissance artists as <persName>Donatello</persName>, <persName>Fra Filippo Lippi</persName>, and <persName>Botticelli</persName>. Home to the Dominican monastery of Santa Margherita, where <persName>Lucrezia Buti</persName> and <persName>Fra Filippo Lippi</persName> met. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Prato"/>
+               </bibl>
+            </place>
+            <place xml:id="santa_maria_novella">
+               <placeName>Santa Maria Novella</placeName>
+               <note ana="#description">
+                  <p> A Dominican church in Florence, Italy, considered to be the most important Romano-Gothic church in Tuscany. Most notably, it houses <persName>Giotto</persName>'s <ref target="https://en.wikipedia.org/wiki/Giotto%27s_Crucifix_at_Santa_Maria_Novella"><title>Crucifix</title></ref> and <persName>Masaccio</persName>'s <ref target="https://en.wikipedia.org/wiki/Holy_Trinity_(Masaccio)"><title>Holy Trinity</title></ref>. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Santa_Maria_Novella"/>
+               </bibl>
+            </place>
+            <place xml:id="brancacci_chapel">
+               <placeName>Brancacci Chapel</placeName>
+               <note ana="#description">
+                  <p> Part of the Church of Santa Maria del Carmine in Florence, the Brancacci Chapel contains frescoes by <persName>Masolino da Panicale</persName> and <persName>Masaccio</persName>, some of which were later finished by <persName>Filippino Lippi</persName>. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Brancacci_Chapel"/>
+               </bibl>
+            </place>
+            <place xml:id="troas">
+               <placeName>Troas</placeName>
+               <placeName ana="#alternate">The Troad</placeName>
+               <note ana="#description">
+                  <p> A historical region in northwest Anatolia in which the ancient city of <placeName>Troy</placeName> was located. </p>
+               </note>
+               <bibl>
+                  <ptr target="https://en.wikipedia.org/wiki/Troad"/>
+               </bibl>
+            </place>
       <!-- end Abby's additions to listPlace-->
          </listPlace>
