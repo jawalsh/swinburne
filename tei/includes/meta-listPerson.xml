@@ -1446,7 +1446,7 @@
                <person xml:id="pallas" ana="#person">
                   <persName>Pallas</persName>
                   <note ana="#description">
-                     <p> He tried to usurp the Athenian crown from Thesues, but was killed in an
+                     <p> He tried to usurp the Athenian crown from Theseus, but was killed in an
                         ambush near Gargettus. </p>
                   </note>
                   <bibl>
@@ -2078,8 +2078,19 @@
                   <ptr target="document:toltrist00#persName_003"/>
                </person>
                <person xml:id="cleopatra" ana="#person">
-                  <persName>Cleopatra</persName>
-                  <ptr target="document:toltrist00#persName_115"/>
+                  <persName>Cleopatra VII Thea Philopater</persName>
+                  <birth>
+                     <date notBefore="-0070" notAfter="-0069">70 or 69 B.C.</date>
+                  </birth>
+                  <death>
+                     <date notBefore="-0030-08-10" notAfter="-0030-08-12">10 or 12 August, 30 B.C.</date>
+                  </death>
+                  <note ana="#description">
+                     <p> Queen of the Ptolemaic Kingdom of Egypt. After her defeat by the Roman emperor Octavian, she reportedly took her own life by allowing a venomous snake to bite her so that Octavian could not parade her in triumph around Rome. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Cleopatra#"/>
+                  </bibl>
                </person>
                <person xml:id="accolon" corresp="#accolon" ana="#arthurianFigure">
                   <persName>Accolon</persName>
@@ -6590,6 +6601,236 @@
                   </note>
                   <bibl>
                      <ptr target="https://en.wikipedia.org/wiki/Castor_and_Pollux"/>
+                  </bibl>
+               </person>
+               <person xml:id="vasari">
+                  <persName>Vasari, Giorgio</persName>
+                  <birth>
+                     <date when="1511-07-30"/>
+                  </birth>
+                  <death>
+                     <date when="1574-06-27"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian Renaissance painter, architect, and art historian. His work <ref target="https://en.wikipedia.org/wiki/Lives_of_the_Most_Excellent_Painters,_Sculptors,_and_Architects"><title level="m">Lives of the Most Excellent Painters, Sculptors, and Architects</title></ref> is foundational for the study of Western art history. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Giorgio_Vasari"/>
+                  </bibl>
+               </person>
+               <person xml:id="del_sarto">
+                  <persName>Del Sarto, Andrea</persName>
+                  <birth>
+                     <date when="1486-07-16"/>
+                  </birth>
+                  <death>
+                     <date when="1530-09-29"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian painter of the High Renaissance from Florence. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Andrea_del_Sarto"/>
+                  </bibl>
+               </person>
+               <person xml:id="athena">
+                  <persName>Pallas Athena</persName>
+                  <note ana="#description">
+                     <p> The Greek goddess of wisdom, warfare, and handicrafts. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Athena"/>
+                  </bibl>
+               </person>
+               <person xml:id="lamia">
+                  <persName>Lamia</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, a child-eating monster that was half-woman, half-serpent. Said to seduce men and then consume them. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Lamia"/>
+                  </bibl>
+               </person>
+               <person xml:id="amestris">
+                  <persName>Amestris</persName>
+                  <death>
+                     <date when="-0424"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Achaemenid queen, the wife of king Xerxes I, with a reputation for cruelty and despotism. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Amestris"/>
+                  </bibl>
+               </person>
+               <person xml:id="ahab">
+                  <persName>Ahab</persName>
+                  <birth>
+                     <date notBefore="-0900" notAfter="-0893" cert="unknown">c.900-893 B.C.</date>
+                  </birth>
+                  <death>
+                     <date when="-0853" cert="unknown">c.853 B.C.</date>
+                  </death>
+                  <note ana="#description">
+                     <p> A king of Israel. Notable in the Hebrew Bible for his wickedness and worship of Baal and Asherah. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Ahab"/>
+                  </bibl>
+               </person>
+               <person xml:id="jezebel">
+                  <persName>Jezebel</persName>
+                  <death>
+                     <date when="-0842" cert="unknown">c.842 B.C.</date>
+                  </death>
+                  <note ana="#description">
+                     <p> The wife of Ahab, king of Israel. Like her husband, she is characterized in the Hebrew Bible by cruelty and worship of Baal and Asherah. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Jezebel"/>
+                  </bibl>
+               </person>
+               <person xml:id="signorelli">
+                  <persName>Signorelli, Luca</persName>
+                  <birth>
+                     <date notBefore="1441" notAfter="1445" cert="unknown">c.1441/1445</date>
+                  </birth>
+                  <death>
+                     <date when="1523-10-16"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian Renaissance painter best known for his frescoes of the <title>Last Judgement</title> in Orvieto Cathedral. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Luca_Signorelli"/>
+                  </bibl>
+               </person>
+               <person xml:id="buti">
+                  <persName>Buti, Lucrezia</persName>
+                  <birth>
+                     <date when="1435"/>
+                  </birth>
+                  <note ana="#description">
+                     <p> An Italian nun and the lover of <persName>Fra Filippo Lippi</persName>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Lucrezia_Buti"/>
+                  </bibl>
+               </person>
+               <person xml:id="fra_angelico">
+                  <persName>Fra Angelico</persName>
+                  <persName ana="#alternate">Fra Giovanni da Fiesole</persName>
+                  <birth>
+                     <date when="1395" cert="unknown">c.1395</date>
+                  </birth>
+                  <death>
+                     <date when="1455-02-18"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian Dominican friar and painter of the early Florentine Renaissance. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Fra_Angelico"/>
+                  </bibl>
+               </person>
+               <person xml:id="madonna">
+                  <persName>The Madonna</persName>
+                  <note ana="#description">
+                     <p> In Christian religious art, Madonna refers to depictions of the Virgin Mary. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Madonna_(art)"/>
+                  </bibl>
+               </person>
+               <person xml:id="st_john">
+                  <persName>St. John the Baptist</persName>
+                  <birth>
+                     <date when="-0006" cert="unknown">c.6 B.C.</date>
+                  </birth>
+                  <death>
+                     <date when="0030" cert="unknown">c.30 A.D.</date>
+                  </death>
+                  <note ana="#description">
+                     <p> In the New Testament, the cousin of Christ who prepared the way for his ministry. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/John_the_Baptist"/>
+                  </bibl>
+               </person>
+               <person xml:id="vespucci_simonetta">
+                  <persName>Vespucci, Simonetta</persName>
+                  <birth>
+                     <date when="1453" cert="unknown">c.1453</date>
+                  </birth>
+                  <death>
+                     <date when="1476-04-26"/>
+                  </death>
+                  <note ana="#description">
+                     <p> An Italian noblewoman considered to be the greatest beauty of her age and thought to have modelled for Botticelli, Piero de Cosimo, and other Florentine painters. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Simonetta_Vespucci"/>
+                  </bibl>
+               </person>
+               <person xml:id="ariadne">
+                  <persName>Ariadne</persName>
+                  <note ana="#description">
+                     <p> In Greek mythology, she was a princess of Crete who helped <persName>Theseus</persName> escape from the Minotaur and later became the wife of <persName>Dionysus</persName>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Ariadne"/>
+                  </bibl>
+               </person>
+               <person xml:id="pandarus">
+                  <persName>Pandarus</persName>
+                  <note ana="#description">
+                     <p> In Homer's <title level="m">Iliad</title>, a skilled archer. Medieval literature portrays him as a go-between for the relationship of Trolius and Cressida.  </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Pandarus"/>
+                  </bibl>
+               </person>
+               <person xml:id="cressida">
+                  <persName>Cressida</persName>
+                  <persName ana="#alternate">Criseyde</persName>
+                  <note ana="#description">
+                     <p> In medieval and Renaissance retellings of the Trojan War, she falls in love with the Trojan <persName>Prince Troilus</persName> but then begins an affair with the Greek warrior <persName>Diomedes</persName>. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Cressida"/>
+                  </bibl>
+               </person>
+               <person xml:id="lycaon">
+                  <persName>Lycaon</persName>
+                  <note ana="#description">
+                     <p>In Greek mythology, a king of Arcadia who killed his son, <persName>Nyctimus</persName>, and served him to <persName>Zeus</persName> as food. <persName>Zeus</persName> resurrected <persName>Nyctimus</persName> and turned <persName>Lycaon</persName> into a wolf in retribution. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Lycaon_(king_of_Arcadia)"/>
+                  </bibl>
+               </person>
+               <person xml:id="chryses">
+                  <persName>Chryses</persName>
+                  <note ana="#description">
+                     <p> In <persName>Homer</persName>'s <title level="m">Iliad</title>, <persName>Apollo</persName> sends a plague upon the Greek armies at <persName>Chryses</persName>'s request in order to force <persName>Agamemnon</persName> to return <persName>Chryses</persName>'s captive daughter to him. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Chryses_(priest_of_Apollo)"/>
+                  </bibl>
+               </person>
+               <person xml:id="augustine">
+                  <persName>Augustine of Hippo</persName>
+                  <birth>
+                     <date when="0354-11-13"/>
+                  </birth>
+                  <death>
+                     <date when="0430-08-28"/>
+                  </death>
+                  <note ana="#description">
+                     <p> A Christian theologian and philosopher from Roman Africa. Considered one of the most important Latin Church Fathers. </p>
+                  </note>
+                  <bibl>
+                     <ptr target="https://en.wikipedia.org/wiki/Augustine_of_Hippo"/>
                   </bibl>
                </person>
    <!-- conclude Abby's additions to listPerson-->
