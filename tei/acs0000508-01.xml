@@ -547,8 +547,7 @@
                 <index indexName="nav"/>
                 <head>People</head>
                 <p><ref target="https://johnwalsh.name">John A. Walsh</ref>,
-                    Editor and Project Director, is Associate Professor of Library and
-                    Information Science, Adjunct Associate Professor of English and Director of the <ref target="https://www.hathitrust.org/htrc">HathiTrust Research Center</ref> and Associate Professor of <ref target="https://ils.indiana.edu/">Information and Library Science</ref> in the <ref target="https://luddy.indiana.edu/">Luddy School of Informatics, Computing, and Engineering</ref> at Indiana University. His research applies computational methods to the study of literary and historical documents. Walsh is an editor of digital scholarly editions, including: the <ref target="https://petrarchive.org/">Petrarchive</ref>, the <ref target="https://swinburneproject.org/">Algernon Charles Swinburne Project</ref>, and the <ref target="https://chymistry.org/">Chymistry of Isaac Newton</ref>. He developed <ref target="https://cbml.org/">Comic Book Markup Language</ref> (CBML) for scholarly encoding of comics and graphic novels, and <ref target="https://teiboilerplate.org/">TEI Boilerplate</ref>, for publishing documents encoded according to the Text Encoding Initiative (TEI) <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">Guidelines for Electronic Text Encoding and Interchange</ref>. He is the founding Technical Editor and a current General Editor of <ref target="https://digitalhumanities.org/dhq">Digital Humanities Quarterly</ref>, an open-access online journal published by the <ref target="https://adho.org/">Alliance of Digital Humanities Organizations</ref>. Walsh’s research interests include: computational literary studies; textual studies and bibliography; text technologies; book history; 19th-century British literature, poetry and poetics; and comic books.</p>
+                    Editor and Project Director, is a professor of <ref target="https://luddy.iu.edu/academics/units/ils/index.html">Information and Library Science</ref> and <ref target="https://luddy.iu.edu/academics/units/data-science.html">Data Science</ref> in the <ref target="https://luddy.indiana.edu/">Luddy School of Informatics, Computing, and Engineering</ref> and an affiliate professor of English at Indiana University. His research applies computational methods to the study of literary and historical documents. Walsh is an editor of digital scholarly editions, including the <ref target="https://petrarchive.org/">Petrarchive</ref>, the <ref target="https://swinburneproject.org/">Algernon Charles Swinburne Project</ref>, and the <ref target="https://chymistry.org/">Chymistry of Isaac Newton</ref>. He developed <ref target="https://cbml.org/">Comic Book Markup Language</ref> (CBML) for scholarly encoding of comics and graphic novels, and <ref target="https://teiboilerplate.org/">TEI Boilerplate</ref>, for publishing documents encoded according to the Text Encoding Initiative (TEI) <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">Guidelines for Electronic Text Encoding and Interchange</ref>. He is the founding Technical Editor and a current General Editor of <ref target="https://digitalhumanities.org/dhq">Digital Humanities Quarterly</ref>, an open-access online journal published by the <ref target="https://adho.org/">Alliance of Digital Humanities Organizations</ref>. Walsh’s research interests include: computational literary studies; textual studies and bibliography; text technologies; book history; 19th-century British literature, poetry and poetics; and comic books.</p>
                 <p>Over the years, many graduate students and assistants have contributed to the
                     project, assisting with encoding, proof-reading, documentation, and other tasks:
                         <list>
@@ -746,11 +745,40 @@
                     -->
                 </div>
             </div>
-            <div xml:id="webapp">
-                <index indexName="nav"/>
-                <head>Web Application</head>
-               
-            </div>
+            <div type="section" xml:id="web-application">
+  <head>Web Application and Technical Infrastructure</head>
+
+  <p>The Swinburne Project is published as a static website generated
+    from its TEI/XML source documents. The publishing system uses
+    <ref target="https://ant.apache.org/">Apache Ant</ref> to automate
+    the build process, including the transformation of TEI documents
+    into HTML using XSLT and the assembly of the files required for
+    the website.</p>
+
+  <p>The web interface uses
+    <ref target="https://getbootstrap.com/">Bootstrap</ref> for
+    responsive layout and presentation. Full-text searching is
+    provided by <ref target="https://pagefind.app/">Pagefind</ref>,
+    which generates a search index for the static site, allowing
+    users to search the collection without requiring a server-side
+    database or search service.</p>
+
+  <p>This architecture maintains a separation between the structured
+    scholarly texts and their web presentation. The TEI/XML documents
+    serve as the primary source data, while the HTML pages and search
+    index are generated as part of the publishing process. The
+    static-site approach also minimizes server-side dependencies
+    and facilitates the long-term maintenance and portability of
+    the edition.</p>
+
+  <p>The project's
+    <ref target="https://github.com/jawalsh/swinburne">GitHub
+    repository</ref> provides public access to the TEI/XML source
+    documents, XSLT stylesheets, build scripts, and other code and
+    resources used to generate the website. Making these materials
+    available supports transparency, reproducibility, and the reuse
+    and adaptation of the project's editorial and technical methods.</p>
+</div>
             <div xml:id="dedication" rendition="#center">
                 <index indexName="nav"/>
                 <head>Dedication</head>
